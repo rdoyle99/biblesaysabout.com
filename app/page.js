@@ -1,14 +1,77 @@
+"use client";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import VerseCard from "../components/VerseCard";
 
 export default function Home() {
-  // Featured verse for the homepage
-  const featuredVerse = {
-    text: "I can do all this through him who gives me strength.",
-    reference: "Philippians 4:13",
-    translation: "NIV",
-    theme: "strength"
-  };
+  const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
+  
+  // Rotating topics with their featured verses
+  const rotatingTopics = [
+    {
+      name: "Love",
+      slug: "love",
+      verse: {
+        text: "And now these three remain: faith, hope and love. But the greatest of these is love.",
+        reference: "1 Corinthians 13:13",
+        translation: "NIV",
+        theme: "love"
+      }
+    },
+    {
+      name: "Strength",
+      slug: "strength", 
+      verse: {
+        text: "I can do all this through him who gives me strength.",
+        reference: "Philippians 4:13",
+        translation: "NIV",
+        theme: "strength"
+      }
+    },
+    {
+      name: "Anxiety",
+      slug: "anxiety",
+      verse: {
+        text: "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.",
+        reference: "Philippians 4:6",
+        translation: "NIV", 
+        theme: "anxiety"
+      }
+    },
+    {
+      name: "Hope",
+      slug: "hope",
+      verse: {
+        text: "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, to give you hope and a future.",
+        reference: "Jeremiah 29:11",
+        translation: "NIV",
+        theme: "hope"
+      }
+    },
+    {
+      name: "Peace",
+      slug: "peace",
+      verse: {
+        text: "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.",
+        reference: "John 14:27",
+        translation: "NIV",
+        theme: "peace"
+      }
+    }
+  ];
+
+  // Rotate topics every 3 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTopicIndex((prevIndex) => 
+        (prevIndex + 1) % rotatingTopics.length
+      );
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const currentTopic = rotatingTopics[currentTopicIndex];
 
   // Popular topics
   const popularTopics = [
@@ -77,7 +140,13 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
-              Bible Says About
+              What Does the Bible Say About{" "}
+              <span 
+                key={currentTopic.name}
+                className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-500 animate-rolodex-bounce"
+              >
+                {currentTopic.name}?
+              </span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed">
               Discover meaningful Bible verses organized by topic. Find strength, hope, love, and guidance through God's Word.
@@ -85,14 +154,19 @@ export default function Home() {
             
             {/* Featured Verse */}
             <div className="max-w-2xl mx-auto mb-12">
-              <VerseCard verse={featuredVerse} showAnimation={true} />
+              <VerseCard 
+                key={`${currentTopic.slug}-${currentTopicIndex}`}
+                verse={currentTopic.verse} 
+                showAnimation={true} 
+              />
             </div>
             
             <Link
-              href="/verses/strength"
-              className="inline-flex items-center px-8 py-4 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors duration-200 font-medium text-lg"
+              href={`/verses/${currentTopic.slug}`}
+              key={`button-${currentTopic.slug}-${currentTopicIndex}`}
+              className="inline-flex items-center px-8 py-4 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors duration-200 font-medium text-lg animate-rolodex-bounce"
             >
-              Explore Bible Verses
+              Explore {currentTopic.name} Verses
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>

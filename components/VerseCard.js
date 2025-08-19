@@ -138,7 +138,7 @@ export default function VerseCard({ verse, showAnimation = true, currentTopic = 
   };
 
   return (
-    <div className={`verse-card group relative overflow-hidden rounded-lg border p-6 ${currentTheme} ${showAnimation ? 'hover:shadow-lg hover:shadow-slate-200/50' : ''} cursor-pointer`}>
+    <div className={`verse-card group relative overflow-hidden rounded-lg border p-6 ${currentTheme} ${showAnimation ? 'hover:shadow-lg hover:shadow-slate-200/50 animate-rolodex-bounce' : ''} cursor-pointer`}>
       {/* Theme-specific animated elements */}
       {showAnimation && getThemeAnimation()}
       

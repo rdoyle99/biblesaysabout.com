@@ -75,3 +75,43 @@ html {
   font-weight: 500;
   opacity: 0.8;
 }
+
+/* Animation for rotating topic text */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Rolodex-style bounce animation */
+@keyframes rolodex-bounce {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) rotateX(-15deg);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateY(-8px) rotateX(5deg);
+  }
+  75% {
+    opacity: 1;
+    transform: translateY(3px) rotateX(-2deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotateX(0deg);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+.animate-rolodex-bounce {
+  animation: rolodex-bounce 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
