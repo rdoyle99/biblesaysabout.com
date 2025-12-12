@@ -1,13 +1,67 @@
+/* Bible Says About - Enhanced Global Styles
+ * Updated: Complete redesign with shadcn/ui integration, advanced animations, and modern design system
+ */
+
 @import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --primary: #6366f1;
-  --primary-hover: #4f46e5;
-  --secondary: #f8fafc;
-  --border: #e2e8f0;
-  --radius: 8px;
+  /* Brand Colors - Warm, spiritual palette */
+  --primary: oklch(0.45 0.15 250);
+  --primary-hover: oklch(0.35 0.18 250);
+  --primary-foreground: oklch(0.98 0 0);
+  
+  /* Accent - Golden/amber for highlights */
+  --accent: oklch(0.75 0.15 75);
+  --accent-foreground: oklch(0.25 0.05 75);
+  
+  /* Semantic colors */
+  --background: oklch(0.99 0.002 90);
+  --foreground: oklch(0.15 0.02 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.15 0.02 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.15 0.02 260);
+  --secondary: oklch(0.96 0.005 260);
+  --secondary-foreground: oklch(0.25 0.02 260);
+  --muted: oklch(0.95 0.005 260);
+  --muted-foreground: oklch(0.5 0.02 260);
+  --destructive: oklch(0.55 0.22 25);
+  --border: oklch(0.9 0.01 260);
+  --input: oklch(0.92 0.01 260);
+  --ring: oklch(0.45 0.15 250);
+  
+  /* Chart colors */
+  --chart-1: oklch(0.65 0.2 250);
+  --chart-2: oklch(0.6 0.12 180);
+  --chart-3: oklch(0.55 0.15 75);
+  --chart-4: oklch(0.7 0.18 330);
+  --chart-5: oklch(0.6 0.15 150);
+  
+  /* Sidebar */
+  --sidebar: oklch(0.98 0.005 260);
+  --sidebar-foreground: oklch(0.15 0.02 260);
+  --sidebar-primary: oklch(0.45 0.15 250);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.95 0.01 260);
+  --sidebar-accent-foreground: oklch(0.25 0.02 260);
+  --sidebar-border: oklch(0.9 0.01 260);
+  --sidebar-ring: oklch(0.45 0.15 250);
+  
+  /* Radius */
+  --radius: 0.75rem;
+  
+  /* Topic colors */
+  --color-strength: oklch(0.55 0.2 250);
+  --color-love: oklch(0.6 0.25 10);
+  --color-peace: oklch(0.55 0.15 160);
+  --color-hope: oklch(0.7 0.18 85);
+  --color-faith: oklch(0.5 0.2 290);
+  --color-anxiety: oklch(0.6 0.12 180);
+  --color-healing: oklch(0.55 0.18 145);
+  --color-forgiveness: oklch(0.55 0.2 340);
 }
 
 @theme inline {
@@ -15,164 +69,406 @@
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
   --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
   --color-border: var(--border);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --radius: var(--radius);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* Keep light mode only for religious content - more traditional */
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
-  font-feature-settings: "rlig" 1, "calt" 1;
-  line-height: 1.6;
-}
-
-/* Professional grid background */
-.bg-grid {
-  background-image: 
-    linear-gradient(to right, #e2e8f0 1px, transparent 1px),
-    linear-gradient(to bottom, #e2e8f0 1px, transparent 1px);
-  background-size: 48px 48px;
-}
-
-.bg-grid-small {
-  background-image: 
-    linear-gradient(to right, #f1f5f9 1px, transparent 1px),
-    linear-gradient(to bottom, #f1f5f9 1px, transparent 1px);
-  background-size: 24px 24px;
-}
-
-/* Verse card animations */
-.verse-card {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.verse-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-}
-
-/* Smooth scrolling for biblical content */
+/* Base styles */
 html {
   scroll-behavior: smooth;
 }
 
-/* Typography enhancements for scripture */
+body {
+  font-family: var(--font-geist-sans), "Segoe UI", system-ui, sans-serif;
+  font-feature-settings: "rlig" 1, "calt" 1;
+  line-height: 1.6;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Grid backgrounds */
+.bg-grid {
+  background-image: 
+    linear-gradient(to right, oklch(0.92 0.01 260 / 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, oklch(0.92 0.01 260 / 0.5) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+.bg-grid-small {
+  background-image: 
+    linear-gradient(to right, oklch(0.94 0.01 260 / 0.4) 1px, transparent 1px),
+    linear-gradient(to bottom, oklch(0.94 0.01 260 / 0.4) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-dots {
+  background-image: radial-gradient(oklch(0.85 0.02 260) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Scripture typography */
 .scripture-text {
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-geist-sans), Georgia, serif;
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.9;
   letter-spacing: 0.01em;
 }
 
+.scripture-text-lg {
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
 .verse-reference {
-  font-family: var(--font-geist-mono);
+  font-family: var(--font-geist-mono), monospace;
   font-size: 0.875rem;
   font-weight: 500;
-  opacity: 0.8;
+  letter-spacing: 0.02em;
 }
 
-/* Animation for rotating topic text */
+/* Keyword highlighting */
+.keyword-highlight {
+  background: linear-gradient(120deg, oklch(0.85 0.15 75 / 0.4) 0%, oklch(0.9 0.1 75 / 0.2) 100%);
+  padding: 0.1em 0.3em;
+  border-radius: 0.25em;
+  font-weight: 500;
+}
+
+/* Verse card base */
+.verse-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, box-shadow;
+}
+
+.verse-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 
+    0 25px 50px -12px oklch(0.3 0.1 260 / 0.15),
+    0 10px 20px -5px oklch(0.3 0.1 260 / 0.1);
+}
+
+/* Animations */
 @keyframes fade-in {
-  0% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-/* Rolodex-style bounce animation */
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in-down {
+  from { opacity: 0; transform: translateY(-24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slide-in-left {
+  from { opacity: 0; transform: translateX(-24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
 @keyframes rolodex-bounce {
-  0% {
-    opacity: 0;
-    transform: translateY(20px) rotateX(-15deg);
-  }
-  50% {
-    opacity: 0.8;
-    transform: translateY(-8px) rotateX(5deg);
-  }
-  75% {
-    opacity: 1;
-    transform: translateY(3px) rotateX(-2deg);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) rotateX(0deg);
-  }
+  0% { opacity: 0; transform: translateY(20px) rotateX(-15deg); }
+  50% { opacity: 0.8; transform: translateY(-8px) rotateX(5deg); }
+  75% { opacity: 1; transform: translateY(3px) rotateX(-2deg); }
+  100% { opacity: 1; transform: translateY(0) rotateX(0deg); }
 }
 
-.animate-fade-in {
-  animation: fade-in 0.8s ease-out forwards;
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
 }
 
-.animate-rolodex-bounce {
-  animation: rolodex-bounce 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 
-/* Animated glowing orbs */
 @keyframes float {
-  0%, 100% {
-    transform: translateY(0) translateX(0);
-  }
-  25% {
-    transform: translateY(-20px) translateX(10px);
-  }
-  50% {
-    transform: translateY(10px) translateX(-10px);
-  }
-  75% {
-    transform: translateY(-10px) translateX(20px);
-  }
+  0%, 100% { transform: translateY(0) translateX(0); }
+  25% { transform: translateY(-15px) translateX(8px); }
+  50% { transform: translateY(8px) translateX(-8px); }
+  75% { transform: translateY(-8px) translateX(15px); }
 }
 
 @keyframes glow {
-  0%, 100% {
-    opacity: 0.3;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.6;
-    transform: scale(1.1);
-  }
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.05); }
 }
 
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes bounce-subtle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes underline-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+/* Animation utilities */
+.animate-fade-in { animation: fade-in 0.6s ease-out forwards; }
+.animate-fade-in-up { animation: fade-in-up 0.7s ease-out forwards; }
+.animate-fade-in-down { animation: fade-in-down 0.7s ease-out forwards; }
+.animate-scale-in { animation: scale-in 0.5s ease-out forwards; }
+.animate-slide-in-left { animation: slide-in-left 0.6s ease-out forwards; }
+.animate-slide-in-right { animation: slide-in-right 0.6s ease-out forwards; }
+.animate-rolodex-bounce { animation: rolodex-bounce 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; }
+.animate-pulse-soft { animation: pulse-soft 2s ease-in-out infinite; }
+.animate-shimmer { 
+  background: linear-gradient(90deg, transparent, oklch(1 0 0 / 0.4), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+.animate-float { animation: float 20s ease-in-out infinite; }
+.animate-glow { animation: glow 4s ease-in-out infinite; }
+.animate-spin-slow { animation: spin-slow 20s linear infinite; }
+.animate-bounce-subtle { animation: bounce-subtle 2s ease-in-out infinite; }
+.animate-gradient { 
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+/* Stagger delays */
+.delay-75 { animation-delay: 75ms; }
+.delay-100 { animation-delay: 100ms; }
+.delay-150 { animation-delay: 150ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-700 { animation-delay: 700ms; }
+.delay-1000 { animation-delay: 1000ms; }
+
+/* Glowing orbs */
 .orb {
   position: absolute;
   border-radius: 50%;
-  filter: blur(40px);
-  animation: float 20s ease-in-out infinite, glow 4s ease-in-out infinite;
+  filter: blur(60px);
+  animation: float 25s ease-in-out infinite, glow 5s ease-in-out infinite;
+  pointer-events: none;
 }
 
 .orb-1 {
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(circle, rgba(99, 102, 241, 0.3) 0%, transparent 70%);
-  top: 10%;
-  left: 10%;
-  animation-delay: 0s;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, oklch(0.6 0.2 250 / 0.2) 0%, transparent 70%);
+  top: 5%;
+  left: 5%;
 }
 
 .orb-2 {
-  width: 250px;
-  height: 250px;
-  background: radial-gradient(circle, rgba(236, 72, 153, 0.3) 0%, transparent 70%);
-  top: 60%;
-  right: 15%;
-  animation-delay: 2s;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, oklch(0.7 0.15 75 / 0.15) 0%, transparent 70%);
+  top: 50%;
+  right: 10%;
+  animation-delay: 3s;
 }
 
 .orb-3 {
-  width: 200px;
-  height: 200px;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.3) 0%, transparent 70%);
-  bottom: 20%;
-  left: 20%;
-  animation-delay: 4s;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, oklch(0.55 0.15 160 / 0.15) 0%, transparent 70%);
+  bottom: 10%;
+  left: 15%;
+  animation-delay: 6s;
+}
+
+/* Interactive elements */
+.interactive-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.interactive-hover:hover {
+  transform: translateY(-2px);
+}
+
+.interactive-hover:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Focus states */
+.focus-ring:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px oklch(0.45 0.15 250 / 0.3);
+}
+
+/* Glassmorphism */
+.glass {
+  background: oklch(1 0 0 / 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid oklch(1 0 0 / 0.2);
+}
+
+.glass-dark {
+  background: oklch(0.2 0.02 260 / 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid oklch(1 0 0 / 0.1);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, oklch(0.45 0.15 250), oklch(0.5 0.2 290));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-warm {
+  background: linear-gradient(135deg, oklch(0.6 0.25 10), oklch(0.7 0.18 45));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-golden {
+  background: linear-gradient(135deg, oklch(0.65 0.15 75), oklch(0.75 0.2 55));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Topic-specific gradients */
+.topic-gradient-strength { background: linear-gradient(135deg, oklch(0.55 0.2 250), oklch(0.45 0.25 270)); }
+.topic-gradient-love { background: linear-gradient(135deg, oklch(0.6 0.25 10), oklch(0.55 0.3 350)); }
+.topic-gradient-peace { background: linear-gradient(135deg, oklch(0.55 0.15 160), oklch(0.5 0.18 145)); }
+.topic-gradient-hope { background: linear-gradient(135deg, oklch(0.7 0.18 85), oklch(0.65 0.2 65)); }
+.topic-gradient-faith { background: linear-gradient(135deg, oklch(0.5 0.2 290), oklch(0.45 0.22 310)); }
+.topic-gradient-anxiety { background: linear-gradient(135deg, oklch(0.6 0.12 180), oklch(0.55 0.15 195)); }
+.topic-gradient-healing { background: linear-gradient(135deg, oklch(0.55 0.18 145), oklch(0.5 0.2 160)); }
+.topic-gradient-forgiveness { background: linear-gradient(135deg, oklch(0.55 0.2 340), oklch(0.5 0.22 320)); }
+
+/* Hover underline effect */
+.hover-underline {
+  position: relative;
+}
+
+.hover-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.hover-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: oklch(0.96 0.005 260);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: oklch(0.8 0.02 260);
+  border-radius: 5px;
+  border: 2px solid oklch(0.96 0.005 260);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(0.7 0.03 260);
+}
+
+/* Selection */
+::selection {
+  background: oklch(0.45 0.15 250 / 0.2);
+  color: oklch(0.2 0.05 260);
+}
+
+/* Base layer */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+  .scripture-text {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
