@@ -3,6 +3,7 @@
  */
 
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -141,6 +142,11 @@ export default function RootLayout({ children }) {
           <Footer />
           <Toaster position="bottom-right" richColors />
         </TooltipProvider>
+        <Script
+          src="https://whyusersleave.com/sdk.js"
+          data-site="a9ad605b-fb38-415b-880d-c0c76522a957"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
