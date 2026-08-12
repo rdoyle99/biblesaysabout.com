@@ -18,13 +18,15 @@ Healthiest site in the portfolio: live, fast, real curated content, excellent SE
 
 ## Phase Plan
 
-### Phase 1 — Topic expansion 42 → 200 (the growth lever)
-- [ ] Build target list of ~160 new "what does the bible say about X" topics from search-demand patterns (debt, tattoos, dreams, divorce, fasting, anger, jealousy, hard work, rest, alcohol, …)
-- [ ] Expand `lib/verses.js` in batches (~20/iteration): REAL verses with correct references only — verify references against the actual bible text; no fabricated quotes, cite translation. Unique intro + unique FAQs per topic
-- [ ] Internal links: related topics per page, category hubs updated; sitemap picks them up automatically
+### Phase 1 — Topic expansion 38 → 200 (the growth lever; real pre-expansion count was 38, not 42)
+- [x] Batch 1 (2026-06-10): +15 topics, 258 verses — ALL fetched from bible-api.com (WEB translation, public domain), zero fabricated text. 53 topics / 1,442 verses now. Agent pattern works; repeat.
+- [x] Batch 2 (2026-08-12): +20 high-volume topics (relationships, grief, death, mothers, children, encouragement, …) via `scripts/expand-topic.mjs` (OpenBible refs → WEB text). ~73 topics / ~1,880 verses. SEO.md + category hubs + answer-first stats on topic pages.
+- [ ] Batch 3-10: ~15-20 topics/week toward 200 (next: demons, idolatry, fear-of-god, hospitality, modesty, persecution, revenge, wealth, widows/orphans, creation, end-times, sleep, waiting, letting-go…)
+- [x] Internal links: related topics per page; category hub routes `/topics/[category]`; sitemap includes hubs
 
-### Phase 2 — Email capture
-- [ ] "Daily verse in your inbox" form (homepage + topic pages) → API route → Supabase (shared `email_subscribers` w/ `source` column) — no vendor account needed
+### Phase 2 — Email capture ✅ 2026-06-10
+- [x] Footer form on every page ("A verse for your week, every week") → `/api/subscribe` → shared `email_subscribers` (source=biblesays); Vercel env set
+- [ ] Weekly send mechanism (needs decision; list is collecting meanwhile)
 - [ ] Optional gated PDF ("50 verses for anxiety") generated from existing data
 
 ### Phase 3 — Monetization (build now, flip on when accounts exist)
@@ -39,4 +41,5 @@ Healthiest site in the portfolio: live, fast, real curated content, excellent SE
 - Amazon Associates account (for affiliate links)
 
 ## Progress Log
+- 2026-08-12: pSEO push. Ahrefs research (KD soft niche; DR7 ranks anxiety #4). SEO.md, expand pipeline, batch 2 (+20 topics), topic page unique stats, category hubs. DR still 0.6 — content surface is the lever.
 - 2026-06-10: Audited, GOAL set.

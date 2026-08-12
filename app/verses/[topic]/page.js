@@ -5,6 +5,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getVersesByTopic, getAllTopics, getTopicMetadata, getRelatedTopics } from "@/lib/verses";
+import { getTopicStats, formatTopicSummary } from "@/lib/topicStats";
 import { 
   generateArticleSchema, 
   generateBreadcrumbSchema, 
@@ -16,7 +17,6 @@ import VerseCard from "@/components/VerseCard";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 
 // Generate static params for all topics
 export async function generateStaticParams() {
@@ -86,7 +86,11 @@ export default async function TopicPage({ params }) {
 
   const topicMeta = getTopicMetadata(topic);
   const relatedTopics = getRelatedTopics(topic, 6);
-  const capitalizedTopic = topic.charAt(0).toUpperCase() + topic.slice(1);
+  const stats = getTopicStats(topicData);
+  const summary = formatTopicSummary(topic, topicData, stats);
+  const displayTopic = topic.replace(/-/g, " ");
+  const capitalizedTopic = displayTopic.charAt(0).toUpperCase() + displayTopic.slice(1);
+  const topVerses = topicData.verses.slice(0, 3);
 
   // Generate structured data
   const breadcrumbSchema = generateBreadcrumbSchema([
@@ -96,7 +100,10 @@ export default async function TopicPage({ params }) {
   ]);
 
   const articleSchema = generateArticleSchema(topicData, topic);
-  const faqSchema = generateFAQSchema(topic, topicData);
+  const faqSchema = generateFAQSchema(topic, {
+    ...topicData,
+    description: summary + " " + (topicData.description || ""),
+  });
   const collectionSchema = generateCollectionSchema(topicData, topic);
 
   const combinedSchema = combineSchemas(
@@ -147,19 +154,32 @@ export default async function TopicPage({ params }) {
                 {topicData.title}
               </h1>
 
-              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-6 leading-relaxed">
+              {/* Answer-first extractable summary */}
+              <p className="text-lg md:text-xl text-foreground/90 max-w-3xl mx-auto mb-4 leading-relaxed font-medium">
+                {summary}
+              </p>
+              <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-6 leading-relaxed">
                 {topicData.description}
               </p>
 
-              {/* Meta info */}
-              <div className="flex flex-wrap items-center justify-center gap-3">
+              {/* First-party stats (unique data per page) */}
+              <div className="flex flex-wrap items-center justify-center gap-3 mb-2">
                 <Badge variant="secondary" className="text-sm">
-                  {topicData.verses.length} verses
+                  {stats.total} verses
+                </Badge>
+                <Badge variant="outline" className="text-sm">
+                  {stats.ot} OT · {stats.nt} NT
+                </Badge>
+                <Badge variant="outline" className="text-sm">
+                  Top book: {stats.topBook}
                 </Badge>
                 <Badge variant="outline" className="text-sm capitalize">
                   {topicMeta.category.replace("-", " ")}
                 </Badge>
               </div>
+              <p className="text-xs text-muted-foreground mt-2">
+                Counts from this page&apos;s curated collection ({stats.uniqueBooks} books of Scripture).
+              </p>
             </div>
           </div>
         </section>
@@ -167,12 +187,15 @@ export default async function TopicPage({ params }) {
         {/* Verses Grid Section */}
         <section className="py-12 md:py-16">
           <div className="max-w-6xl mx-auto px-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
+              {stats.total} Bible Verses About {capitalizedTopic}
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {topicData.verses.map((verse, index) => (
                 <div
                   key={`${verse.reference}-${index}`}
                   className="animate-fade-in-up"
-                  style={{ animationDelay: `${index * 50}ms` }}
+                  style={{ animationDelay: `${Math.min(index, 12) * 40}ms` }}
                 >
                   <VerseCard
                     verse={{ ...verse, theme: topic }}
@@ -227,19 +250,19 @@ export default async function TopicPage({ params }) {
         <section className="py-12 md:py-16">
           <div className="max-w-4xl mx-auto px-4">
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
-              Frequently Asked Questions
+              Frequently Asked Questions About {capitalizedTopic}
             </h2>
 
             <div className="space-y-4">
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg">
-                    What does the Bible say about {topic}?
+                    What does the Bible say about {displayTopic}?
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    {topicData.description}
+                    {summary} {topicData.description}
                   </p>
                 </CardContent>
               </Card>
@@ -247,19 +270,38 @@ export default async function TopicPage({ params }) {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg">
-                    What are the best Bible verses about {topic}?
+                    What are the best Bible verses about {displayTopic}?
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">
-                    Some of the most powerful verses about {topic} include{" "}
-                    {topicData.verses.slice(0, 3).map((v, i) => (
-                      <span key={v.reference}>
-                        {v.reference}
-                        {i < 2 ? ", " : ""}
-                      </span>
+                  <div className="text-muted-foreground space-y-3">
+                    {topVerses.map((v) => (
+                      <p key={v.reference}>
+                        <strong className="text-foreground">{v.reference}</strong>
+                        {" — "}
+                        &ldquo;{v.text}&rdquo;
+                      </p>
                     ))}
-                    . Browse our complete collection of {topicData.verses.length} verses above.
+                    <p>
+                      Full collection: {stats.total} verses on this page
+                      ({stats.otPercent}% Old Testament, {stats.ntPercent}% New Testament).
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">
+                    How many Bible verses talk about {displayTopic}?
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    This page curates {stats.total} verses about {displayTopic} from{" "}
+                    {stats.uniqueBooks} books. {stats.topBook} is the most frequent source
+                    ({stats.topBookCount} verses). Scripture touches the theme in many places;
+                    these are the ones readers look up most often for study and encouragement.
                   </p>
                 </CardContent>
               </Card>
@@ -267,14 +309,14 @@ export default async function TopicPage({ params }) {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg">
-                    How can I memorize Bible verses about {topic}?
+                    How can I memorize Bible verses about {displayTopic}?
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Start by saving your favorite verses using the heart icon on each card. 
-                    Read them daily, and use the share feature to create reminders. 
-                    Focus on one verse at a time and meditate on its meaning in your life.
+                    Start with one short verse from the list above. Save it with the heart icon,
+                    read it aloud once a day for a week, then add a second. Share a verse you
+                    are learning so it sticks.
                   </p>
                 </CardContent>
               </Card>

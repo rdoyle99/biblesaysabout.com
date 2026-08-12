@@ -1,15 +1,12 @@
-/* Sitemap - Dynamic sitemap generation
- * Updated: Enhanced with all topics and proper priorities
- */
+/* Sitemap - Dynamic sitemap generation */
 
-import { getAllTopics } from "@/lib/verses";
+import { getAllTopics, topicCategories } from "@/lib/verses";
 
 export default function sitemap() {
   const baseUrl = "https://biblesaysabout.com";
   const topics = getAllTopics();
   const currentDate = new Date().toISOString();
 
-  // Static pages
   const staticPages = [
     {
       url: baseUrl,
@@ -31,9 +28,27 @@ export default function sitemap() {
     },
   ];
 
-  // Topic pages with varying priorities based on importance
-  const popularTopics = ["strength", "love", "peace", "hope", "faith", "anxiety", "prayer", "healing"];
-  
+  const categoryPages = Object.keys(topicCategories).map((category) => ({
+    url: `${baseUrl}/topics/${category}`,
+    lastModified: currentDate,
+    changeFrequency: "weekly",
+    priority: 0.85,
+  }));
+
+  const popularTopics = [
+    "strength",
+    "love",
+    "peace",
+    "hope",
+    "faith",
+    "anxiety",
+    "prayer",
+    "healing",
+    "relationships",
+    "grief",
+    "friendship",
+  ];
+
   const topicPages = topics.map((topic) => ({
     url: `${baseUrl}/verses/${topic}`,
     lastModified: currentDate,
@@ -41,5 +56,5 @@ export default function sitemap() {
     priority: popularTopics.includes(topic) ? 0.9 : 0.8,
   }));
 
-  return [...staticPages, ...topicPages];
+  return [...staticPages, ...categoryPages, ...topicPages];
 }

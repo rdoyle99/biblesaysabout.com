@@ -5,21 +5,22 @@
 export default function robots() {
   const baseUrl = "https://biblesaysabout.com";
 
+  // Retrieval bots need allow for AI citations; training bots left unrestricted for now
+  const allowAll = {
+    allow: "/",
+    disallow: ["/api/", "/private/"],
+  };
+
   return {
     rules: [
-      {
-        userAgent: "*",
-        allow: "/",
-        disallow: ["/api/", "/private/"],
-      },
-      {
-        userAgent: "Googlebot",
-        allow: "/",
-      },
-      {
-        userAgent: "Bingbot",
-        allow: "/",
-      },
+      { userAgent: "*", ...allowAll },
+      { userAgent: "Googlebot", allow: "/" },
+      { userAgent: "Bingbot", allow: "/" },
+      { userAgent: "OAI-SearchBot", allow: "/" },
+      { userAgent: "ChatGPT-User", allow: "/" },
+      { userAgent: "PerplexityBot", allow: "/" },
+      { userAgent: "ClaudeBot", allow: "/" },
+      { userAgent: "Applebot-Extended", allow: "/" },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,
     host: baseUrl,

@@ -8,12 +8,12 @@ import EmailCapture from "@/components/EmailCapture";
 
 export default function Footer() {
   const popularTopics = [
-    { name: "Strength", slug: "strength" },
     { name: "Love", slug: "love" },
-    { name: "Peace", slug: "peace" },
-    { name: "Hope", slug: "hope" },
-    { name: "Faith", slug: "faith" },
+    { name: "Strength", slug: "strength" },
     { name: "Anxiety", slug: "anxiety" },
+    { name: "Relationships", slug: "relationships" },
+    { name: "Grief", slug: "grief" },
+    { name: "Healing", slug: "healing" },
   ];
 
   const moreTopics = [

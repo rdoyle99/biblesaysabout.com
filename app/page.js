@@ -333,8 +333,17 @@ export default function Home() {
               <TabsContent key={key} value={key} className="mt-0">
                 <Card>
                   <CardHeader>
-                    <CardTitle>{category.name}</CardTitle>
-                    <CardDescription>{category.description}</CardDescription>
+                    <CardTitle>
+                      <Link href={`/topics/${key}`} className="hover:text-primary transition-colors">
+                        {category.name}
+                      </Link>
+                    </CardTitle>
+                    <CardDescription>
+                      {category.description}{" "}
+                      <Link href={`/topics/${key}`} className="underline underline-offset-2 hover:text-foreground">
+                        View hub →
+                      </Link>
+                    </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="flex flex-wrap gap-3">
