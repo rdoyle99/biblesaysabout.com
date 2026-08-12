@@ -1,0 +1,10 @@
+sleep:sleep
+waiting:waiting
+letting_go:letting-go
+creation:creation
+end_times:end-times
+demons:demons
+idolatry:idolatry
+hospitality:hospitality
+modesty:modesty
+persecution:persecution

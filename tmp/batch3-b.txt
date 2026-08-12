@@ -1,0 +1,10 @@
+revenge:revenge
+wealth:wealth
+widows:widows
+orphans:orphans
+generosity:generosity
+obedience:obedience
+worship:worship
+honesty:honesty
+integrity:integrity
+holy_spirit:holy-spirit

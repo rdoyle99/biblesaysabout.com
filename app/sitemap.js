@@ -36,17 +36,21 @@ export default function sitemap() {
   }));
 
   const popularTopics = [
-    "strength",
     "love",
-    "peace",
-    "hope",
+    "strength",
+    "healing",
     "faith",
     "anxiety",
-    "prayer",
-    "healing",
     "relationships",
-    "grief",
     "friendship",
+    "prayer",
+    "grief",
+    "death",
+    "children",
+    "mothers",
+    "encouragement",
+    "peace",
+    "hope",
   ];
 
   const topicPages = topics.map((topic) => ({

@@ -168,3 +168,4 @@ Re-check Google + ChatGPT + Perplexity. Log first citation date in progress log.
 ## Progress log
 
 - 2026-08-12: SEO.md created; Ahrefs seed research; expand-topic pipeline; batch 2 shipped (+20 topics → 73 total / 1,882 verses); category hubs; answer-first stats on topic pages; build green (91 routes).
+- 2026-08-12 (pm): Batch 3 (+20) → **93 topics / 3,004 verses**. Thickened all thin pages (0 under 20 verses). Full retitle to `Bible Verses About X`. Sitemap auto-includes all topics + 6 category hubs.

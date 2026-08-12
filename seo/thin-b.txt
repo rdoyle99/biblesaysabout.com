@@ -1,0 +1,16 @@
+contentment:contentment
+tattoos:tattoos
+dreams:dreams
+divorce:divorce
+fasting:fasting
+jealousy:jealousy
+alcohol:alcohol
+debt:debt
+tithing:tithing
+heaven:heaven
+angels:angels
+pride:pride
+lust:lust
+gossip:gossip
+laziness:laziness
+self_control:self-control

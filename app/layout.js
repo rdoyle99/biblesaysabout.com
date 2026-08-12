@@ -26,7 +26,7 @@ export const metadata = {
     default: "Bible Says About - Discover What Scripture Says",
     template: "%s | Bible Says About"
   },
-  description: "Bible verses by topic. Explore 50+ topics with 1,400+ curated verses on love, strength, anxiety, healing, grief, and more. Full scripture text, free to read and share.",
+  description: "Bible verses by topic. Explore 90+ topics with 3,000+ curated verses on love, strength, anxiety, healing, grief, and more. Full scripture text, free to read and share.",
   keywords: [
     "bible verses",
     "what does the bible say",
@@ -51,7 +51,7 @@ export const metadata = {
   },
   openGraph: {
     title: "Bible Says About - Discover What Scripture Says",
-    description: "Explore 50+ topics with 1,400+ curated Bible verses. Find strength, hope, love, and guidance through God's Word.",
+    description: "Explore 90+ topics with 3,000+ curated Bible verses. Find strength, hope, love, and guidance through God's Word.",
     type: "website",
     siteName: "Bible Says About",
     locale: "en_US",
@@ -68,7 +68,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Bible Says About - Discover What Scripture Says",
-    description: "Explore 50+ topics with 1,400+ curated Bible verses. Find strength, hope, love, and guidance through God's Word.",
+    description: "Explore 90+ topics with 3,000+ curated Bible verses. Find strength, hope, love, and guidance through God's Word.",
     images: ["/og-image.png"],
   },
   robots: {

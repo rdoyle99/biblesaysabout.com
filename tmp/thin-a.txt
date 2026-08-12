@@ -1,0 +1,17 @@
+patience:patience
+prayer:prayer
+anger:anger
+joy:joy
+kindness:kindness
+humility:humility
+salvation:salvation
+grace:grace
+mercy:mercy
+family:family
+friendship:friendship
+suffering:suffering
+thanksgiving:thanksgiving
+courage:courage
+money:money
+work:work
+loneliness:loneliness

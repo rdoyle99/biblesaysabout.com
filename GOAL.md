@@ -21,7 +21,8 @@ Healthiest site in the portfolio: live, fast, real curated content, excellent SE
 ### Phase 1 — Topic expansion 38 → 200 (the growth lever; real pre-expansion count was 38, not 42)
 - [x] Batch 1 (2026-06-10): +15 topics, 258 verses — ALL fetched from bible-api.com (WEB translation, public domain), zero fabricated text. 53 topics / 1,442 verses now. Agent pattern works; repeat.
 - [x] Batch 2 (2026-08-12): +20 high-volume topics (relationships, grief, death, mothers, children, encouragement, …) via `scripts/expand-topic.mjs` (OpenBible refs → WEB text). ~73 topics / ~1,880 verses. SEO.md + category hubs + answer-first stats on topic pages.
-- [ ] Batch 3-10: ~15-20 topics/week toward 200 (next: demons, idolatry, fear-of-god, hospitality, modesty, persecution, revenge, wealth, widows/orphans, creation, end-times, sleep, waiting, letting-go…)
+- [x] Batch 3 (2026-08-12): +20 topics (sleep, waiting, letting-go, creation, end-times, demons, idolatry, hospitality, modesty, persecution, revenge, wealth, widows, orphans, generosity, obedience, worship, honesty, integrity, holy-spirit). Thickened all <20-verse pages to 28–42. Retitled all pages to `Bible Verses About X (N+ Verses)`. **93 topics / ~3,004 verses.**
+- [ ] Batch 4-10: ~15–20 topics/week toward 200 (next: praise, sabbath, miracles, prophecy, fear-of-god, salvation-assurance, meekness, perseverance, unity, stewardship…)
 - [x] Internal links: related topics per page; category hub routes `/topics/[category]`; sitemap includes hubs
 
 ### Phase 2 — Email capture ✅ 2026-06-10
@@ -41,5 +42,6 @@ Healthiest site in the portfolio: live, fast, real curated content, excellent SE
 - Amazon Associates account (for affiliate links)
 
 ## Progress Log
+- 2026-08-12 (pm): Batch 3 + thicken + retitle. 93 topics / 3,004 verses. Zero thin pages. All titles on money pattern. Sitemap ready for GSC submit.
 - 2026-08-12: pSEO push. Ahrefs research (KD soft niche; DR7 ranks anxiety #4). SEO.md, expand pipeline, batch 2 (+20 topics), topic page unique stats, category hubs. DR still 0.6 — content surface is the lever.
 - 2026-06-10: Audited, GOAL set.
