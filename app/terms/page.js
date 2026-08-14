@@ -1,3 +1,7 @@
+export const metadata = {
+  alternates: { canonical: "https://www.biblesaysabout.com/terms" },
+};
+
 export default function TermsOfService() {
   return (
     <main className="min-h-screen bg-white">

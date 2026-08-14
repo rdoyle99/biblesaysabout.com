@@ -38,7 +38,7 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const canonicalUrl = `https://biblesaysabout.com/verses/${topic}`;
+  const canonicalUrl = `https://www.biblesaysabout.com/verses/${topic}`;
   const capitalizedTopic = topic.charAt(0).toUpperCase() + topic.slice(1);
 
   return {
@@ -94,9 +94,9 @@ export default async function TopicPage({ params }) {
 
   // Generate structured data
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://biblesaysabout.com" },
-    { name: "Topics", url: "https://biblesaysabout.com/#topics" },
-    { name: `${capitalizedTopic} Verses`, url: `https://biblesaysabout.com/verses/${topic}` },
+    { name: "Home", url: "https://www.biblesaysabout.com" },
+    { name: "Topics", url: "https://www.biblesaysabout.com/#topics" },
+    { name: `${capitalizedTopic} Verses`, url: `https://www.biblesaysabout.com/verses/${topic}` },
   ]);
 
   const articleSchema = generateArticleSchema(topicData, topic);

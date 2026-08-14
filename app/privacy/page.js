@@ -1,3 +1,7 @@
+export const metadata = {
+  alternates: { canonical: "https://www.biblesaysabout.com/privacy" },
+};
+
 export default function PrivacyPolicy() {
   return (
     <main className="min-h-screen bg-white">

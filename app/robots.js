@@ -3,7 +3,7 @@
  */
 
 export default function robots() {
-  const baseUrl = "https://biblesaysabout.com";
+  const baseUrl = "https://www.biblesaysabout.com";
 
   // Retrieval bots need allow for AI citations; training bots left unrestricted for now
   const allowAll = {

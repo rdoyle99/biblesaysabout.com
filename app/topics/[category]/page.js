@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
   return {
     title: `${info.name} Bible Verses by Topic`,
     description: `${info.description}. Browse Bible verse collections in ${info.name.toLowerCase()}.`,
-    alternates: { canonical: `https://biblesaysabout.com/topics/${category}` },
+    alternates: { canonical: `https://www.biblesaysabout.com/topics/${category}` },
   };
 }
 
@@ -44,8 +44,8 @@ export default async function CategoryPage({ params }) {
 
   const totalVerses = topics.reduce((s, t) => s + t.count, 0);
   const breadcrumb = generateBreadcrumbSchema([
-    { name: "Home", url: "https://biblesaysabout.com" },
-    { name: data.name, url: `https://biblesaysabout.com/topics/${category}` },
+    { name: "Home", url: "https://www.biblesaysabout.com" },
+    { name: data.name, url: `https://www.biblesaysabout.com/topics/${category}` },
   ]);
 
   return (

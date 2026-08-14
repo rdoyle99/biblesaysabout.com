@@ -21,7 +21,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://biblesaysabout.com'),
+  metadataBase: new URL('https://www.biblesaysabout.com'),
+  alternates: {
+    canonical: "https://www.biblesaysabout.com",
+  },
   title: {
     default: "Bible Says About - Discover What Scripture Says",
     template: "%s | Bible Says About"
@@ -55,7 +58,7 @@ export const metadata = {
     type: "website",
     siteName: "Bible Says About",
     locale: "en_US",
-    url: "https://biblesaysabout.com",
+    url: "https://www.biblesaysabout.com",
     images: [
       {
         url: "/og-image.png",
@@ -92,8 +95,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Bible Says About",
-  url: "https://biblesaysabout.com",
-  logo: "https://biblesaysabout.com/logo.png",
+  url: "https://www.biblesaysabout.com",
+  logo: "https://www.biblesaysabout.com/logo.png",
   description: "Discover what the Bible says about any topic with our comprehensive collection of curated Bible verses.",
   sameAs: [],
 };
@@ -103,13 +106,13 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Bible Says About",
-  url: "https://biblesaysabout.com",
+  url: "https://www.biblesaysabout.com",
   description: "Discover what the Bible says about any topic",
   potentialAction: {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: "https://biblesaysabout.com/search?q={search_term_string}",
+      urlTemplate: "https://www.biblesaysabout.com/search?q={search_term_string}",
     },
     "query-input": "required name=search_term_string",
   },

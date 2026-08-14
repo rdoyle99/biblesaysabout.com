@@ -3,7 +3,7 @@
 import { getAllTopics, topicCategories } from "@/lib/verses";
 
 export default function sitemap() {
-  const baseUrl = "https://biblesaysabout.com";
+  const baseUrl = "https://www.biblesaysabout.com";
   const topics = getAllTopics();
   const currentDate = new Date().toISOString();
 
