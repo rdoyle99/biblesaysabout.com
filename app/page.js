@@ -420,6 +420,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Research link */}
+      <section className="py-12 border-t">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-2xl md:text-3xl font-bold mb-3">
+            How Many People Actually Read the Bible?
+          </h2>
+          <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+            9% of Americans read the Bible daily, 77% own one, and the full Bible
+            now exists in 805 languages. See all 65 statistics, each sourced to
+            Pew Research, Barna, Gallup, Lifeway, Wycliffe, or the American Bible
+            Society.
+          </p>
+          <Link
+            href="/bible-statistics"
+            className="inline-flex items-center rounded-full border px-5 py-2.5 text-sm font-medium hover:bg-muted transition-colors"
+          >
+            Bible Reading Statistics 2026
+          </Link>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto px-4 text-center">

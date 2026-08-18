@@ -3,12 +3,13 @@
 **Domain:** https://www.biblesaysabout.com · **DR:** 0.6 (2026-08-12) · **Plan:** Lite Ahrefs  
 **Pattern:** pSEO topic pages = `bible verses about {topic}` + `what does the bible say about {topic}`
 
-## Reality check (2026-08-12)
+## Reality check (2026-08-18)
 
 | Metric | Value |
 |--------|-------|
-| Topics live | 53 → target 200 |
-| Verses | ~1,442 real (NIV/NLT/ESV + WEB public domain) |
+| Topics live | 120 → target 200 |
+| Verses | 3,501 real (NIV/NLT/ESV + WEB public domain) |
+| Linkbait asset | `/bible-statistics` — 65 sourced stats, 10 named research orgs |
 | Organic visitors YTD (Simple Analytics) | ~445 |
 | Money keyword pattern | `bible verses about X` (KD often 0–15) |
 | SERP proof | DR 7 site ranks #4 for "bible verses about anxiety" |
@@ -106,12 +107,25 @@ love 51k · strength 38k · healing 20k · faith 9.3k · anxiety 7k · marriage 
 
 Thin pages (<20 verses): expand before chasing new KD-hard heads.
 
+## Batch 4 shipped (2026-08-18) — 27 topics
+
+betrayal · spiritual-warfare · communion · sin · judging-others · enemies · bitterness · addiction · purpose · church · discipleship · evangelism · holiness · identity-in-christ · mental-health · easter · resurrection · eternal-life · dating · purity · compassion · perseverance · faithfulness · truth · freedom · unity · serving-others
+
+All verses fetched live from bible-api.com (WEB) and diffed against the API before insert — 16-22 verses per topic. bible-api.com starts returning HTTP 429 after a few hundred sequential calls; the fetcher retries 3× with backoff and drops anything it cannot verify, so a topic landing at 16 instead of 22 is expected and safe.
+
+## Linkbait: /bible-statistics
+
+"Bible Reading Statistics 2026" — 65 statistics, each linked to the publishing org (American Bible Society, Barna, Gallup, Lifeway, Pew, United Bible Societies, Wycliffe UK/USA/Global Alliance, YouVersion). Answer-first block, 5 server-rendered CSS bar charts, cite-this-page block, FAQ + Article/FAQPage/Dataset JSON-LD. Data lives in `lib/bibleStats.js`.
+
+**Rule for this page: never add a stat without a fetchable source URL.** No modelled figures, no rounding from memory. Watch the ABS-individual vs Barna-household ownership measures — they are different denominators, do not mix them in one sentence.
+
 ## Architecture
 
 ```
 /                         hub (SSR preferred long-term; currently client)
 /verses/{topic}           pSEO leaf (SSG)
 /topics/{category}        category hub (planned)
+/bible-statistics         linkbait stats reference (SSG)
 /search                   utility
 /sitemap.xml              all topics + hubs
 ```
