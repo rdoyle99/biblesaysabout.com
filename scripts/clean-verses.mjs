@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * Make every verse on the site World English Bible (public domain) text, checked word for word against the full WEB
- * source bible-api.com serves, and drop passages that are whole chapters rather than verses.
+ * source bible-api.com serves, attach the King James Version text of the same reference (for the KJV toggle), and drop
+ * passages that are whole chapters rather than verses.
  *
  *   node scripts/clean-verses.mjs            # dry run: prints what would change
  *   node scripts/clean-verses.mjs --write    # rewrites the versesData block of lib/verses.js + writes a change log
@@ -11,6 +12,7 @@
  *   2. non-WEB text (NIV, NKJV, ESV, NLT, NASB) is replaced by the WEB text of the same reference
  *   3. WEB text that differs from the source is replaced by the source text
  *   4. an entry that overlaps a verse already on the page is dropped
+ *   5. kjv = the KJV text of the same reference (left off when the KJV numbers it differently)
  * Titles and descriptions get the new count; dateModified moves only for topics whose verses changed.
  */
 import fs from "fs";
@@ -27,6 +29,7 @@ const datesPath = path.join(root, "seo", "topic-dates.json");
 
 const { versesData } = await import(versesPath);
 const web = await loadBible("web");
+const kjv = await loadBible("kjv");
 const dates = fs.existsSync(datesPath) ? JSON.parse(fs.readFileSync(datesPath, "utf8")) : {};
 
 const norm = (s) => s.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, " ").trim();
@@ -34,7 +37,7 @@ const displayRef = (r) =>
   `${r.book === "Psalms" ? "Psalm" : r.book} ${r.chapter}:${r.from}${r.to !== r.from ? `-${r.to}` : ""}`;
 
 const log = [];
-const summary = { topics: 0, changedTopics: 0, replaced: 0, corrected: 0, droppedLong: 0, droppedOverlap: 0, droppedMissing: 0 };
+const summary = { kjvMissing: 0, topics: 0, changedTopics: 0, replaced: 0, corrected: 0, droppedLong: 0, droppedOverlap: 0, droppedMissing: 0 };
 const out = {};
 
 for (const [slug, topic] of Object.entries(versesData)) {
@@ -68,7 +71,9 @@ for (const [slug, topic] of Object.entries(versesData)) {
     }
     keys.forEach((k) => covered.add(k));
     const reference = displayRef(r);
-    const entry = { ...v, reference, translation: "WEB", text: src };
+    const kjvText = kjv.get(r) || undefined;
+    const entry = { ...v, reference, translation: "WEB", text: src, kjv: kjvText };
+    if (v.kjv !== kjvText) changed = true;
     if (v.translation !== "WEB") {
       summary.replaced++;
       log.push({ slug, action: "replace", reference, from: v.translation, before: v.text, after: src });
@@ -78,6 +83,7 @@ for (const [slug, topic] of Object.entries(versesData)) {
       log.push({ slug, action: "correct", reference, before: v.text, after: src });
       changed = true;
     }
+    if (!kjvText) summary.kjvMissing++;
     kept.push(entry);
   }
 
@@ -116,6 +122,9 @@ if (write) {
   if (start < 0 || end < 0) throw new Error("versesData markers not found");
   const block = `export const versesData = ${JSON.stringify(out, null, 2)};\n\n`;
   fs.writeFileSync(versesPath, src.slice(0, start) + block + src.slice(end));
-  fs.writeFileSync(path.join(root, "seo", `clean-verses-${TODAY}.json`), JSON.stringify({ summary, log }, null, 1));
-  console.log(`wrote lib/verses.js and seo/clean-verses-${TODAY}.json`);
+  // never overwrite an earlier run's before/after log
+  let logName = `clean-verses-${TODAY}.json`;
+  for (let i = 2; fs.existsSync(path.join(root, "seo", logName)); i++) logName = `clean-verses-${TODAY}-${i}.json`;
+  fs.writeFileSync(path.join(root, "seo", logName), JSON.stringify({ summary, log }, null, 1));
+  console.log(`wrote lib/verses.js and seo/${logName}`);
 }

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { books, otBooks, ntBooks, bible, totals, fmt, readingTime, METHOD, DATA_DATE, SITE } from "@/lib/bibleData";
 import { generateBreadcrumbSchema, generateFAQSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
+import AmazonPicks from "@/components/AmazonPicks";
 import { JsonLd, Breadcrumbs, StatTiles, BarRows, FaqSection, Section, MethodNote } from "@/components/DataBits";
 import ReadingCalculator from "@/components/ReadingCalculator";
 
@@ -158,6 +159,15 @@ export default function ReadingTimePage() {
         </Section>
 
         <FaqSection title="Reading the Bible: common questions" faqs={faqs.slice(1)} />
+
+        <AmazonPicks
+          title="Read it in a year"
+          items={[
+            { label: "One-year Bibles", query: "one year bible", note: "The whole Bible in 365 daily readings" },
+            { label: "Bible reading plan journals", query: "bible reading plan journal", note: "Track each day's reading" },
+            { label: "Audio Bibles", query: "KJV audio bible", note: "Listen on a commute or a walk" },
+          ]}
+        />
 
         <Section muted>
           <p className="mb-4">

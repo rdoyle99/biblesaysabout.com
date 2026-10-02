@@ -25,7 +25,12 @@ export default function VerseCard({
   currentTopic = null,
   featured = false,
 }) {
-  const { text, reference, translation = "WEB", theme = "default" } = verse;
+  const { text: webText, kjv, reference, translation = "WEB", theme = "default" } = verse;
+  // the translation the reader has picked with the KJV toggle (read at click time, never during render)
+  const activeText = () =>
+    kjv && typeof document !== "undefined" && document.documentElement.dataset.translation === "kjv"
+      ? { text: kjv, translation: "KJV" }
+      : { text: webText, translation };
   const [isFavorite, setIsFavorite] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -46,7 +51,7 @@ export default function VerseCard({
       setIsFavorite(false);
       toast.success("Removed from favorites");
     } else {
-      const newFavorites = [...favorites, { text, reference, translation, theme }];
+      const newFavorites = [...favorites, { ...activeText(), reference, theme }];
       localStorage.setItem("favoriteVerses", JSON.stringify(newFavorites));
       setIsFavorite(true);
       setIsAnimating(true);
@@ -56,12 +61,15 @@ export default function VerseCard({
   };
 
   // Share content
-  const shareText = `"${text}" - ${reference} (${translation})`;
+  const shareLine = () => {
+    const a = activeText();
+    return `${/^[“‘"']/.test(a.text) ? a.text : `"${a.text}"`} - ${reference} (${a.translation})`;
+  };
   const shareUrl = typeof window !== "undefined" ? window.location.href : "";
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText(shareText);
+      await navigator.clipboard.writeText(shareLine());
       setCopied(true);
       toast.success("Verse copied to clipboard!");
       setTimeout(() => setCopied(false), 2000);
@@ -71,7 +79,7 @@ export default function VerseCard({
   };
 
   const handleShare = (platform) => {
-    const encodedText = encodeURIComponent(shareText);
+    const encodedText = encodeURIComponent(shareLine());
     const encodedUrl = encodeURIComponent(shareUrl);
 
     const shareUrls = {
@@ -290,28 +298,36 @@ export default function VerseCard({
           </div>
         </div>
 
-        {/* Verse text */}
-        <blockquote
-          className={cn(
-            "scripture-text text-foreground mb-4 leading-relaxed transition-colors duration-300",
-            featured ? "text-xl md:text-2xl" : "text-lg"
-          )}
-          dangerouslySetInnerHTML={{
-            __html: `"${
-              currentTopic ? highlightKeywords(text, currentTopic) : text
-            }"`,
-          }}
-        />
+        {/* Verse text: WEB, plus the KJV for the translation toggle when we have it */}
+        {[
+          { body: webText, label: translation, cls: kjv ? "t-web" : "" },
+          ...(kjv ? [{ body: kjv, label: "KJV", cls: "t-kjv" }] : []),
+        ].map((v) => (
+          <div key={v.label} className={v.cls}>
+            <blockquote
+              className={cn(
+                "scripture-text text-foreground mb-4 leading-relaxed transition-colors duration-300",
+                featured ? "text-xl md:text-2xl" : "text-lg"
+              )}
+              dangerouslySetInnerHTML={{
+                __html: (() => {
+                  const body = currentTopic ? highlightKeywords(v.body, currentTopic) : v.body;
+                  return /^[“‘"']/.test(v.body) ? body : `"${body}"`;
+                })(),
+              }}
+            />
 
-        {/* Reference and translation */}
-        <div className="flex items-center justify-between">
-          <cite className="not-italic flex items-center space-x-2">
-            <span className="font-semibold text-foreground">{reference}</span>
-            <Badge variant="outline" className="text-xs">
-              {translation}
-            </Badge>
-          </cite>
-        </div>
+            {/* Reference and translation */}
+            <div className="flex items-center justify-between">
+              <cite className="not-italic flex items-center space-x-2">
+                <span className="font-semibold text-foreground">{reference}</span>
+                <Badge variant="outline" className="text-xs">
+                  {v.label}
+                </Badge>
+              </cite>
+            </div>
+          </div>
+        ))}
 
         {/* Animated bottom accent bar */}
         {showAnimation && (

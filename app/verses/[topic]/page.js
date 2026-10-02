@@ -15,6 +15,8 @@ import {
 } from "@/lib/schema";
 import { getWordForTopic, fmt, headline } from "@/lib/bibleData";
 import VerseCard from "@/components/VerseCard";
+import TranslationToggle from "@/components/TranslationToggle";
+import AmazonPicks from "@/components/AmazonPicks";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -81,7 +83,7 @@ export default async function TopicPage({ params }) {
   const topicMeta = getTopicMetadata(topic);
   const relatedTopics = getRelatedTopics(topic, 6);
   const stats = getTopicStats(topicData);
-  const summary = formatTopicSummary(topic, topicData, stats);
+  const summary = topicData.summary || formatTopicSummary(topic, topicData, stats);
   const displayTopic = topic.replace(/-/g, " ");
   const capitalizedTopic = displayTopic.charAt(0).toUpperCase() + displayTopic.slice(1);
   const topVerses = topicData.verses.slice(0, 3);
@@ -94,7 +96,7 @@ export default async function TopicPage({ params }) {
   ]);
 
   const wordData = getWordForTopic(topic);
-  const faqs = [
+  const faqs = topicData.faqs || [
     {
       q: `What does the Bible say about ${displayTopic}?`,
       a: `${summary} ${topicData.description}`,
@@ -154,6 +156,29 @@ export default async function TopicPage({ params }) {
               <span className="text-foreground capitalize">{topic}</span>
             </nav>
 
+            {topicData.notice ? (
+              <div role="note" className="mb-8 rounded-xl border-2 border-primary/40 bg-card p-5 md:p-6 text-left">
+                <p className="text-lg font-semibold mb-2">{topicData.notice.title}</p>
+                {topicData.notice.lines.map((line) => (
+                  <p key={line} className="text-base leading-relaxed mb-1">
+                    {line}
+                  </p>
+                ))}
+                <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                  {topicData.notice.links.map((l) => (
+                    <a
+                      key={l.href}
+                      href={l.href}
+                      className="font-medium underline underline-offset-2 py-1"
+                      {...(l.href.startsWith("http") ? { rel: "noopener", target: "_blank" } : {})}
+                    >
+                      {l.label}
+                    </a>
+                  ))}
+                </p>
+              </div>
+            ) : null}
+
             <div className="text-center">
               {/* Topic icon */}
               <div className={`inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br ${topicMeta.color} text-white text-4xl mb-6 shadow-lg`}>
@@ -168,9 +193,11 @@ export default async function TopicPage({ params }) {
               <p className="text-lg md:text-xl text-foreground/90 max-w-3xl mx-auto mb-4 leading-relaxed font-medium">
                 {summary}
               </p>
-              <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-6 leading-relaxed">
-                {topicData.description}
-              </p>
+              {topicData.summary ? null : (
+                <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-6 leading-relaxed">
+                  {topicData.description}
+                </p>
+              )}
 
               {/* First-party stats (unique data per page) */}
               <div className="flex flex-wrap items-center justify-center gap-3 mb-2">
@@ -197,9 +224,10 @@ export default async function TopicPage({ params }) {
         {/* Verses Grid Section */}
         <section className="py-12 md:py-16">
           <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
-              {stats.total} Bible Verses About {capitalizedTopic}
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">
+              {topicData.versesHeading || `${stats.total} Bible Verses About ${capitalizedTopic}`}
             </h2>
+            <TranslationToggle />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {topicData.verses.map((verse, index) => (
                 <div
@@ -216,8 +244,8 @@ export default async function TopicPage({ params }) {
               ))}
             </div>
             <p className="mt-8 text-sm text-muted-foreground text-center">
-              Scripture quotations are from the World English Bible (public domain), checked word for word
-              against the full text. Updated{" "}
+              Scripture quotations are from the World English Bible and the King James Version (both public domain),
+              checked word for word against the full text. Updated{" "}
               {new Date(`${topicData.dateModified}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}.
             </p>
             {wordData ? (
@@ -293,6 +321,17 @@ export default async function TopicPage({ params }) {
             </div>
           </div>
         </section>
+
+        {topicData.sensitive ? null : (
+          <AmazonPicks
+            title={`Go deeper on ${displayTopic}`}
+            items={[
+              { label: `Christian books on ${displayTopic}`, query: `christian books on ${displayTopic}`, note: "Devotionals and studies" },
+              { label: "KJV study Bibles", query: "KJV study Bible", note: "Notes, cross references and maps" },
+              { label: "Bible verse journals", query: "bible verse journal", note: "Write out and keep the verses you are learning" },
+            ]}
+          />
+        )}
 
         {/* CTA Section */}
         <section className="py-12 md:py-16 bg-primary text-primary-foreground">

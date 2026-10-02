@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { books, bible, totals, fmt, METHOD, DATA_DATE, SITE } from "@/lib/bibleData";
 import { generateBreadcrumbSchema, generateFAQSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
+import AmazonPicks from "@/components/AmazonPicks";
 import { JsonLd, Breadcrumbs, StatTiles, BarRows, VerseQuote, Section, MethodNote } from "@/components/DataBits";
 
 const URL = `${SITE}/bible-by-the-numbers`;
@@ -142,6 +143,15 @@ export default function BibleByTheNumbers() {
           <BarRows labelWidth="w-36" rows={longestChapters} />
           <p className="mt-3 text-xs text-muted-foreground">The 10 longest chapters by verse count (KJV).</p>
         </Section>
+
+        <AmazonPicks
+          title="Go deeper"
+          items={[
+            { label: "Bible handbooks", query: "bible handbook", note: "A guide to every book of the Bible" },
+            { label: "Strong's Exhaustive Concordance", query: "Strong's Exhaustive Concordance of the Bible", note: "Every word of the KJV, indexed" },
+            { label: "KJV study Bibles", query: "KJV study Bible", note: "Notes, cross references and maps" },
+          ]}
+        />
 
         <Section muted>
           <MethodNote text={METHOD} date={DATA_DATE} />

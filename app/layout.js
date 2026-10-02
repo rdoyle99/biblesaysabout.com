@@ -84,8 +84,14 @@ const websiteSchema = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <head>
+        {/* apply the reader's saved Bible translation (KJV toggle) before first paint */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{if(localStorage.getItem("translation")==="kjv")document.documentElement.dataset.translation="kjv"}catch(e){}`,
+          }}
+        />
         <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
         <script
           type="application/ld+json"

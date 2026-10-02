@@ -472,3 +472,8 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* KJV toggle (components/TranslationToggle.js): verse cards carry both texts, html[data-translation] picks one */
+.t-kjv { display: none; }
+html[data-translation="kjv"] .t-kjv { display: block; }
+html[data-translation="kjv"] .t-web { display: none; }

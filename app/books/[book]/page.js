@@ -19,6 +19,7 @@ import {
 import { getVersesByTopic } from "@/lib/verses";
 import { generateBreadcrumbSchema, generateFAQSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
 import { JsonLd, Breadcrumbs, StatTiles, BarRows, VerseQuote, FaqSection, Section, MethodNote } from "@/components/DataBits";
+import AmazonPicks from "@/components/AmazonPicks";
 
 const wordRank = rankBy((b) => b.words.kjv);
 const chapterWord = (n) => (n === 1 ? "chapter" : "chapters");
@@ -215,6 +216,15 @@ export default async function BookPage({ params }) {
         ) : null}
 
         <FaqSection title={`${b.name}: common questions`} faqs={faqs} />
+
+        <AmazonPicks
+          title={`Study ${b.name}`}
+          items={[
+            { label: `${b.name} commentaries`, query: `${b.name} bible commentary`, note: "Verse-by-verse explanation" },
+            { label: `${b.name} Bible studies`, query: `${b.name} bible study`, note: "Guides for personal or group study" },
+            { label: "KJV study Bibles", query: "KJV study Bible", note: "Notes, cross references and maps" },
+          ]}
+        />
 
         <Section muted>
           <div className="flex flex-wrap justify-between gap-4 mb-6">

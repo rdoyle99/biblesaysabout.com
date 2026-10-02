@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { books, otBooks, ntBooks, bible, totals, fmt, readingTime, METHOD, DATA_DATE, READING_WPM, SITE } from "@/lib/bibleData";
 import { generateBreadcrumbSchema, generateFAQSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
+import AmazonPicks from "@/components/AmazonPicks";
 import { JsonLd, Breadcrumbs, StatTiles, BarRows, FaqSection, Section, MethodNote } from "@/components/DataBits";
 
 const URL = `${SITE}/books-of-the-bible`;
@@ -168,6 +169,15 @@ export default function BooksOfTheBible() {
         </Section>
 
         <FaqSection title="Questions about the books of the Bible" faqs={faqs.filter((f) => ![ANSWER, longestAnswer, shortestAnswer].includes(f.a))} />
+
+        <AmazonPicks
+          title="Books for studying all 66"
+          items={[
+            { label: "Bible handbooks", query: "bible handbook", note: "A guide to every book of the Bible" },
+            { label: "Bible atlases", query: "bible atlas", note: "Maps for every book" },
+            { label: "KJV study Bibles", query: "KJV study Bible", note: "Notes, cross references and maps" },
+          ]}
+        />
 
         <Section muted>
           <p className="mb-4">

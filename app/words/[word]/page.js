@@ -6,6 +6,7 @@ import { words, getWord, books, fmt, headline, quoted, plural, METHOD, DATA_DATE
 import { getVersesByTopic } from "@/lib/verses";
 import { generateBreadcrumbSchema, generateFAQSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
 import { JsonLd, Breadcrumbs, StatTiles, BarRows, VerseQuote, FaqSection, Section, MethodNote } from "@/components/DataBits";
+import AmazonPicks from "@/components/AmazonPicks";
 
 const bookSlug = Object.fromEntries(books.map((b) => [b.name, b.slug]));
 const times = (n) => `${fmt(n)} time${n === 1 ? "" : "s"}`;
@@ -307,6 +308,15 @@ export default async function WordPage({ params }) {
         ) : null}
 
         <FaqSection title="Common questions" faqs={faqs.slice(1)} />
+
+        <AmazonPicks
+          title="Look up any word yourself"
+          items={[
+            { label: "Strong's Exhaustive Concordance", query: "Strong's Exhaustive Concordance of the Bible", note: "Every word of the KJV, with the Hebrew and Greek behind it" },
+            { label: "Bible dictionaries", query: "bible dictionary", note: "What a word meant to its first readers" },
+            { label: "KJV study Bibles", query: "KJV study Bible", note: "Notes, cross references and maps" },
+          ]}
+        />
 
         <Section muted>
           {topicData ? (
