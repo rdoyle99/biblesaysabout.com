@@ -1,5 +1,8 @@
 export const metadata = {
+  title: "Terms of Service",
+  description: "The terms for using Bible Says About, including how you may use and share the verses and Bible facts on the site.",
   alternates: { canonical: "https://www.biblesaysabout.com/terms" },
+  openGraph: { url: "https://www.biblesaysabout.com/terms", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 export default function TermsOfService() {
@@ -10,7 +13,7 @@ export default function TermsOfService() {
         
         <div className="prose prose-slate max-w-none">
           <p className="text-lg text-slate-600 mb-6">
-            Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            Last updated: August 14, 2026
           </p>
 
           <h2 className="text-2xl font-semibold text-slate-900 mt-8 mb-4">1. Acceptance of Terms</h2>

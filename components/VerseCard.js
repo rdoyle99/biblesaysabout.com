@@ -25,7 +25,7 @@ export default function VerseCard({
   currentTopic = null,
   featured = false,
 }) {
-  const { text, reference, translation = "NIV", theme = "default" } = verse;
+  const { text, reference, translation = "WEB", theme = "default" } = verse;
   const [isFavorite, setIsFavorite] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
   const [copied, setCopied] = useState(false);

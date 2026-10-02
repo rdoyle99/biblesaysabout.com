@@ -1,5 +1,8 @@
 export const metadata = {
+  title: "Privacy Policy",
+  description: "How Bible Says About handles your information: what we collect, how we use it, and the choices you have.",
   alternates: { canonical: "https://www.biblesaysabout.com/privacy" },
+  openGraph: { url: "https://www.biblesaysabout.com/privacy", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 export default function PrivacyPolicy() {
@@ -10,7 +13,7 @@ export default function PrivacyPolicy() {
         
         <div className="prose prose-slate max-w-none">
           <p className="text-lg text-slate-600 mb-6">
-            Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            Last updated: August 14, 2026
           </p>
 
           <h2 className="text-2xl font-semibold text-slate-900 mt-8 mb-4">1. Information We Collect</h2>

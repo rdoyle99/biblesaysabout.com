@@ -32,12 +32,12 @@ export default function EmailCapture({ source = "biblesays" }) {
           A verse for your week, every week
         </h2>
         <p className="text-muted-foreground mb-5">
-          One encouraging passage and our newest topics — free, no spam.
+          One encouraging passage and our newest topics. Free, no spam.
         </p>
         {status === "done" ? (
           <p className="flex items-center justify-center gap-2 font-medium text-green-600">
             <Check className="w-4 h-4" />
-            You&apos;re in — see you this week.
+            You&apos;re in. See you this week.
           </p>
         ) : (
           <form
@@ -58,7 +58,7 @@ export default function EmailCapture({ source = "biblesays" }) {
         )}
         {status === "error" && (
           <p className="mt-2 text-sm text-red-500">
-            Something went wrong — try again.
+            Something went wrong. Please try again.
           </p>
         )}
       </div>

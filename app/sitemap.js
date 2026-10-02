@@ -1,70 +1,55 @@
-/* Sitemap - Dynamic sitemap generation */
+/* Sitemap - lastmod is each page's content date, never the build date */
 
-import { getAllTopics, topicCategories } from "@/lib/verses";
+import { getAllTopics, getVersesByTopic, topicCategories } from "@/lib/verses";
+import { books, words, DATA_DATE } from "@/lib/bibleData";
+import { STATS_UPDATED } from "@/lib/bibleStats";
+
+const baseUrl = "https://www.biblesaysabout.com";
+
+// Pages whose content is not generated from data: the date their copy last changed
+const PAGE_DATES = {
+  privacy: "2026-08-14",
+  terms: "2026-08-14",
+};
 
 export default function sitemap() {
-  const baseUrl = "https://www.biblesaysabout.com";
-  const topics = getAllTopics();
-  const currentDate = new Date().toISOString();
+  const topics = getAllTopics().map((slug) => getVersesByTopic(slug));
+  const newestTopic = topics.map((t) => t.dateModified).sort().at(-1);
 
   const staticPages = [
-    {
-      url: baseUrl,
-      lastModified: currentDate,
-      changeFrequency: "daily",
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/bible-statistics`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/privacy`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/terms`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
+    { url: baseUrl, lastModified: newestTopic, priority: 1.0 },
+    { url: `${baseUrl}/bible-statistics`, lastModified: STATS_UPDATED, priority: 0.9 },
+    { url: `${baseUrl}/books-of-the-bible`, lastModified: DATA_DATE, priority: 0.9 },
+    { url: `${baseUrl}/bible-by-the-numbers`, lastModified: DATA_DATE, priority: 0.9 },
+    { url: `${baseUrl}/how-long-does-it-take-to-read-the-bible`, lastModified: DATA_DATE, priority: 0.9 },
+    { url: `${baseUrl}/words`, lastModified: DATA_DATE, priority: 0.8 },
+    { url: `${baseUrl}/privacy`, lastModified: PAGE_DATES.privacy, priority: 0.3 },
+    { url: `${baseUrl}/terms`, lastModified: PAGE_DATES.terms, priority: 0.3 },
   ];
 
   const categoryPages = Object.keys(topicCategories).map((category) => ({
     url: `${baseUrl}/topics/${category}`,
-    lastModified: currentDate,
-    changeFrequency: "weekly",
+    lastModified: newestTopic,
     priority: 0.85,
   }));
 
-  const popularTopics = [
-    "love",
-    "strength",
-    "healing",
-    "faith",
-    "anxiety",
-    "relationships",
-    "friendship",
-    "prayer",
-    "grief",
-    "death",
-    "children",
-    "mothers",
-    "encouragement",
-    "peace",
-    "hope",
-  ];
-
-  const topicPages = topics.map((topic) => ({
-    url: `${baseUrl}/verses/${topic}`,
-    lastModified: currentDate,
-    changeFrequency: "weekly",
-    priority: popularTopics.includes(topic) ? 0.9 : 0.8,
+  const topicPages = getAllTopics().map((slug, i) => ({
+    url: `${baseUrl}/verses/${slug}`,
+    lastModified: topics[i].dateModified,
+    priority: 0.8,
   }));
 
-  return [...staticPages, ...categoryPages, ...topicPages];
+  const bookPages = books.map((b) => ({
+    url: `${baseUrl}/books/${b.slug}`,
+    lastModified: DATA_DATE,
+    priority: 0.7,
+  }));
+
+  const wordPages = words.map((w) => ({
+    url: `${baseUrl}/words/${w.slug}`,
+    lastModified: DATA_DATE,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...categoryPages, ...topicPages, ...bookPages, ...wordPages];
 }

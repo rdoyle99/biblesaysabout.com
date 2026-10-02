@@ -140,6 +140,38 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link
+                  href="/books-of-the-bible"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Books of the Bible
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/bible-by-the-numbers"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  The Bible by the Numbers
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/words"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Bible Word Counts
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/how-long-does-it-take-to-read-the-bible"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Bible Reading Time Calculator
+                </Link>
+              </li>
+              <li>
                 <a
                   href="mailto:rpdoyle1@gmail.com"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
@@ -155,9 +187,17 @@ export default function Footer() {
 
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-muted-foreground">
-            © {currentYear} Bible Says About. All rights reserved.
-          </p>
+          <div className="text-sm text-muted-foreground space-y-1 max-w-xl">
+            <p>© {currentYear} Bible Says About.</p>
+            <p className="text-xs">
+              Scripture quotations are from the World English Bible and the King James Version, both public
+              domain. Topic verse lists draw on{" "}
+              <a href="https://www.openbible.info/topics/" className="underline underline-offset-2" rel="noopener">
+                OpenBible.info
+              </a>{" "}
+              topical data (CC BY).
+            </p>
+          </div>
           <div className="flex items-center space-x-6 text-sm">
             <Link
               href="/privacy"

@@ -43,3 +43,6 @@ next-env.d.ts
 # agent temp lists
 tmp/
 
+
+# full Bible source texts for build scripts
+/.cache/

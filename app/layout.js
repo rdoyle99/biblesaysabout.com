@@ -9,6 +9,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { getAllTopics, getTotalVerseCount } from "@/lib/verses";
+import { generateOrganizationSchema, ORG_ID, SITE_URL } from "@/lib/schema";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,30 +22,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const topicCount = getAllTopics().length;
+const verseCount = getTotalVerseCount().toLocaleString("en-US");
+
 export const metadata = {
-  metadataBase: new URL('https://www.biblesaysabout.com'),
-  alternates: {
-    canonical: "https://www.biblesaysabout.com",
-  },
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Bible Says About - Discover What Scripture Says",
     template: "%s | Bible Says About"
   },
-  description: "Bible verses by topic. Explore 90+ topics with 3,000+ curated verses on love, strength, anxiety, healing, grief, and more. Full scripture text, free to read and share.",
-  keywords: [
-    "bible verses",
-    "what does the bible say",
-    "scripture",
-    "bible quotes",
-    "christian faith",
-    "bible study",
-    "verses by topic",
-    "bible verses about strength",
-    "bible verses about love",
-    "bible verses about hope",
-    "bible verses about anxiety",
-    "bible verses about peace"
-  ],
+  description: `Bible verses by topic: ${topicCount} topics and ${verseCount} verses on love, strength, anxiety, grief and more, plus Bible facts counted from the full text.`,
   authors: [{ name: "Bible Says About" }],
   creator: "Bible Says About",
   publisher: "Bible Says About",
@@ -53,26 +41,12 @@ export const metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "Bible Says About - Discover What Scripture Says",
-    description: "Explore 90+ topics with 3,000+ curated Bible verses. Find strength, hope, love, and guidance through God's Word.",
     type: "website",
     siteName: "Bible Says About",
     locale: "en_US",
-    url: "https://www.biblesaysabout.com",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Bible Says About - Find Bible Verses by Topic",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bible Says About - Discover What Scripture Says",
-    description: "Explore 90+ topics with 3,000+ curated Bible verses. Find strength, hope, love, and guidance through God's Word.",
-    images: ["/og-image.png"],
   },
   robots: {
     index: true,
@@ -85,29 +59,19 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "your-google-verification-code",
-  },
 };
 
 // JSON-LD structured data for the organization
-const organizationSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Bible Says About",
-  url: "https://www.biblesaysabout.com",
-  logo: "https://www.biblesaysabout.com/logo.png",
-  description: "Discover what the Bible says about any topic with our comprehensive collection of curated Bible verses.",
-  sameAs: [],
-};
+const organizationSchema = generateOrganizationSchema();
 
 // JSON-LD structured data for the website
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Bible Says About",
-  url: "https://www.biblesaysabout.com",
+  url: SITE_URL,
   description: "Discover what the Bible says about any topic",
+  publisher: { "@id": ORG_ID },
   potentialAction: {
     "@type": "SearchAction",
     target: {

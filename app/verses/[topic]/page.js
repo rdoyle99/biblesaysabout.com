@@ -13,6 +13,7 @@ import {
   generateCollectionSchema,
   combineSchemas 
 } from "@/lib/schema";
+import { getWordForTopic, fmt, headline } from "@/lib/bibleData";
 import VerseCard from "@/components/VerseCard";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -51,20 +52,13 @@ export async function generateMetadata({ params }) {
       type: "article",
       url: canonicalUrl,
       siteName: "Bible Says About",
-      images: [
-        {
-          url: `/api/og?topic=${topic}`,
-          width: 1200,
-          height: 630,
-          alt: topicData.title,
-        },
-      ],
+      publishedTime: topicData.datePublished,
+      modifiedTime: topicData.dateModified,
     },
     twitter: {
       card: "summary_large_image",
       title: topicData.title,
       description: topicData.description,
-      images: [`/api/og?topic=${topic}`],
     },
     alternates: {
       canonical: canonicalUrl,
@@ -99,11 +93,27 @@ export default async function TopicPage({ params }) {
     { name: `${capitalizedTopic} Verses`, url: `https://www.biblesaysabout.com/verses/${topic}` },
   ]);
 
+  const wordData = getWordForTopic(topic);
+  const faqs = [
+    {
+      q: `What does the Bible say about ${displayTopic}?`,
+      a: `${summary} ${topicData.description}`,
+    },
+    {
+      q: `What are the best Bible verses about ${displayTopic}?`,
+      a: `${topVerses.map((v) => `${v.reference}: "${v.text}"`).join(" ")} Full collection: ${stats.total} verses on this page (${stats.otPercent}% Old Testament, ${stats.ntPercent}% New Testament).`,
+    },
+    {
+      q: `How many Bible verses talk about ${displayTopic}?`,
+      a: `This page collects ${stats.total} verses about ${displayTopic} from ${stats.uniqueBooks} books. ${stats.topBook} is the most frequent source (${stats.topBookCount} verses). Scripture touches the theme in many places; these are the ones readers look up most often for study and encouragement.`,
+    },
+    {
+      q: `How can I memorize Bible verses about ${displayTopic}?`,
+      a: "Start with one short verse from the list above. Save it with the heart icon, read it aloud once a day for a week, then add a second. Share a verse you are learning so it sticks.",
+    },
+  ];
   const articleSchema = generateArticleSchema(topicData, topic);
-  const faqSchema = generateFAQSchema(topic, {
-    ...topicData,
-    description: summary + " " + (topicData.description || ""),
-  });
+  const faqSchema = generateFAQSchema(faqs);
   const collectionSchema = generateCollectionSchema(topicData, topic);
 
   const combinedSchema = combineSchemas(
@@ -205,6 +215,22 @@ export default async function TopicPage({ params }) {
                 </div>
               ))}
             </div>
+            <p className="mt-8 text-sm text-muted-foreground text-center">
+              Scripture quotations are from the World English Bible (public domain), checked word for word
+              against the full text. Updated{" "}
+              {new Date(`${topicData.dateModified}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}.
+            </p>
+            {wordData ? (
+              <div className="mt-6 rounded-xl border bg-card p-5 text-center">
+                <p className="text-base">
+                  {wordData.kind === "phrase" ? "The phrase" : "The word"} {wordData.word} appears{" "}
+                  {fmt(headline(wordData).n)} times in the {headline(wordData).name}.{" "}
+                  <Link href={`/words/${wordData.slug}`} className="font-medium underline underline-offset-2 hover:text-primary">
+                    See where {wordData.word} appears, book by book
+                  </Link>
+                </p>
+              </div>
+            ) : null}
           </div>
         </section>
 
@@ -254,72 +280,16 @@ export default async function TopicPage({ params }) {
             </h2>
 
             <div className="space-y-4">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">
-                    What does the Bible say about {displayTopic}?
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    {summary} {topicData.description}
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">
-                    What are the best Bible verses about {displayTopic}?
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="text-muted-foreground space-y-3">
-                    {topVerses.map((v) => (
-                      <p key={v.reference}>
-                        <strong className="text-foreground">{v.reference}</strong>
-                        {" — "}
-                        &ldquo;{v.text}&rdquo;
-                      </p>
-                    ))}
-                    <p>
-                      Full collection: {stats.total} verses on this page
-                      ({stats.otPercent}% Old Testament, {stats.ntPercent}% New Testament).
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">
-                    How many Bible verses talk about {displayTopic}?
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    This page curates {stats.total} verses about {displayTopic} from{" "}
-                    {stats.uniqueBooks} books. {stats.topBook} is the most frequent source
-                    ({stats.topBookCount} verses). Scripture touches the theme in many places;
-                    these are the ones readers look up most often for study and encouragement.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-lg">
-                    How can I memorize Bible verses about {displayTopic}?
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Start with one short verse from the list above. Save it with the heart icon,
-                    read it aloud once a day for a week, then add a second. Share a verse you
-                    are learning so it sticks.
-                  </p>
-                </CardContent>
-              </Card>
+              {faqs.map((faq) => (
+                <Card key={faq.q}>
+                  <CardHeader>
+                    <CardTitle className="text-lg">{faq.q}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground">{faq.a}</p>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
         </section>

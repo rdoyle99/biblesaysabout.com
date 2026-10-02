@@ -3,6 +3,14 @@
 **Domain:** https://www.biblesaysabout.com · **DR:** 0.6 (2026-08-12) · **Plan:** Lite Ahrefs  
 **Pattern:** pSEO topic pages = `bible verses about {topic}` + `what does the bible say about {topic}`
 
+## Operator (seo-operator, set up 2026-10-02)
+
+- State: `~/codingprojects/seo-ops/sites/biblesays/` (config, facts.json truth ledger, map.md, moves, runs). Run by hand: `run biblesays`.
+- Day 0 (28 days to 2026-09-29): 7 clicks, 6,024 impressions; 90 days: 11 clicks, 30,734 impressions at average position 67.7. Only /bible-statistics ranks on page 1 (position 8.6).
+- **Strategy change 2026-10-02: Bible by the numbers.** Head-term verse lists sit at positions 50-80 behind DR 75-90 sites. The one page that ranks is a numbers page. New pages are computed from the full KJV and WEB text (`scripts/build-bible-stats.mjs` -> `lib/data/*.json`): /books-of-the-bible, /bible-by-the-numbers, /how-long-does-it-take-to-read-the-bible (calculator), /books/{book} (66), /words/{word} (107). Research (Ahrefs via Apify, 2026-10-02): "how many books are in the bible" 30k KD 1, "how long does it take to read the bible" 4.4k KD 0, "how many verses in the bible" 2.9k KD 0, "how many times is love mentioned in the bible" 800 KD 0, with DR 0-28 sites in the top 10s.
+- **Translation rule:** every quoted verse is World English Bible (public domain), verified word for word by `scripts/clean-verses.mjs`. Until 2026-10-02 the site carried 707 unique NIV verses (the NIV permission cap is 500) and ESV/NKJV/NLT/NASB text typed from memory; all replaced, and 306 duplicate or overlapping cards and 45 whole-chapter dumps removed (3,501 -> 3,150 verses).
+- Entity pilot gate: launch more /words pages only when 70%+ of the 173 pilot pages are indexed (check 2026-10-16).
+
 ## Reality check (2026-08-18)
 
 | Metric | Value |
