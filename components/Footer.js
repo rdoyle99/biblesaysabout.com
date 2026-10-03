@@ -172,6 +172,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link
+                  href="/bible-reading-plan"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Bible Reading Plan Generator
+                </Link>
+              </li>
+              <li>
                 <a
                   href="mailto:rpdoyle1@gmail.com"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"

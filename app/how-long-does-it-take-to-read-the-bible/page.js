@@ -179,6 +179,14 @@ export default function ReadingTimePage() {
             <Link href="/bible-by-the-numbers" className="underline underline-offset-2 hover:text-primary">
               the Bible by the numbers
             </Link>
+            . To turn the time into a schedule, use the{" "}
+            <Link href="/bible-reading-plan" className="underline underline-offset-2 hover:text-primary">
+              Bible reading plan generator
+            </Link>
+            , or start from a plan such as{" "}
+            <Link href="/bible-reading-plan/bible-in-a-year" className="underline underline-offset-2 hover:text-primary">
+              the whole Bible in a year
+            </Link>
             .
           </p>
           <MethodNote text={METHOD} date={DATA_DATE} />

@@ -1,0 +1,125 @@
+{
+ "summary": {
+  "kjvMissing": 0,
+  "topics": 132,
+  "changedTopics": 6,
+  "replaced": 0,
+  "corrected": 0,
+  "droppedLong": 3,
+  "droppedOverlap": 15,
+  "droppedMissing": 0
+ },
+ "log": [
+  {
+   "slug": "anxiety",
+   "action": "drop-overlap",
+   "reference": "Philippians 4:6-7",
+   "translation": "WEB"
+  },
+  {
+   "slug": "anxiety",
+   "action": "drop-overlap",
+   "reference": "Matthew 6:25-34",
+   "translation": "WEB"
+  },
+  {
+   "slug": "anxiety",
+   "action": "drop-overlap",
+   "reference": "1 Peter 5:6-7",
+   "translation": "WEB"
+  },
+  {
+   "slug": "forgiveness",
+   "action": "drop-overlap",
+   "reference": "Matthew 6:14-15",
+   "translation": "WEB"
+  },
+  {
+   "slug": "forgiveness",
+   "action": "drop-overlap",
+   "reference": "Psalm 103:10-14",
+   "translation": "WEB"
+  },
+  {
+   "slug": "forgiveness",
+   "action": "drop-overlap",
+   "reference": "Ephesians 4:31-32",
+   "translation": "WEB"
+  },
+  {
+   "slug": "comfort",
+   "action": "drop-overlap",
+   "reference": "Matthew 11:28-30",
+   "translation": "WEB"
+  },
+  {
+   "slug": "comfort",
+   "action": "drop-long",
+   "reference": "Psalm 91:1-16",
+   "translation": "WEB",
+   "chars": 1444
+  },
+  {
+   "slug": "comfort",
+   "action": "drop-long",
+   "reference": "Matthew 5:1-48",
+   "translation": "WEB",
+   "chars": 5531
+  },
+  {
+   "slug": "comfort",
+   "action": "drop-overlap",
+   "reference": "Psalm 23:1-6",
+   "translation": "WEB"
+  },
+  {
+   "slug": "stress",
+   "action": "drop-overlap",
+   "reference": "Philippians 4:6-7",
+   "translation": "WEB"
+  },
+  {
+   "slug": "stress",
+   "action": "drop-overlap",
+   "reference": "Matthew 6:25-34",
+   "translation": "WEB"
+  },
+  {
+   "slug": "stress",
+   "action": "drop-overlap",
+   "reference": "1 Peter 5:6-7",
+   "translation": "WEB"
+  },
+  {
+   "slug": "sin",
+   "action": "drop-overlap",
+   "reference": "1 John 1:8-10",
+   "translation": "WEB"
+  },
+  {
+   "slug": "sin",
+   "action": "drop-overlap",
+   "reference": "1 Corinthians 6:9-11",
+   "translation": "WEB"
+  },
+  {
+   "slug": "mental-health",
+   "action": "drop-long",
+   "reference": "1 Corinthians 13:1-13",
+   "translation": "WEB",
+   "chars": 1428
+  },
+  {
+   "slug": "mental-health",
+   "action": "drop-overlap",
+   "reference": "Romans 12:1-2",
+   "translation": "WEB"
+  },
+  {
+   "slug": "mental-health",
+   "action": "drop-overlap",
+   "reference": "Psalm 23:1-6",
+   "translation": "WEB"
+  }
+ ]
+}

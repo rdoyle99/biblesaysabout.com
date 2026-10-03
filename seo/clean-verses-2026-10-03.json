@@ -1,0 +1,20 @@
+{
+ "summary": {
+  "kjvMissing": 0,
+  "topics": 132,
+  "changedTopics": 11,
+  "replaced": 0,
+  "corrected": 0,
+  "droppedLong": 0,
+  "droppedOverlap": 1,
+  "droppedMissing": 0
+ },
+ "log": [
+  {
+   "slug": "halloween",
+   "action": "drop-overlap",
+   "reference": "Ephesians 5:11",
+   "translation": "WEB"
+  }
+ ]
+}

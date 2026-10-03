@@ -444,6 +444,12 @@ export default function HomeClient({
             >
               Reading time calculator
             </Link>
+            <Link
+              href="/bible-reading-plan"
+              className="inline-flex items-center rounded-full border px-5 py-2.5 text-sm font-medium hover:bg-muted transition-colors"
+            >
+              Bible reading plans
+            </Link>
           </div>
         </div>
       </section>
