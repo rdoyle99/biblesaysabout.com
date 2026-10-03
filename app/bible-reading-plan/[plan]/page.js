@@ -41,7 +41,7 @@ export async function generateMetadata({ params }) {
   const url = `${SITE}/bible-reading-plan/${slug}`;
   return {
     title: { absolute: title },
-    description: `${c.p.name} in ${c.p.days} days: ${c.plan[0].ref} on day 1 to ${c.plan.at(-1).ref} on day ${c.p.days}. About ${fmt(c.s.avgWords)} words, ${minutesLabel(c.s.avgMinutes)}, a day.`,
+    description: `${c.p.name}, every day listed: ${c.plan[0].ref} on day 1 to ${c.plan.at(-1).ref} on day ${c.p.days}. About ${fmt(c.s.avgWords)} words, ${minutesLabel(c.s.avgMinutes)}, a day.`,
     alternates: { canonical: url },
     openGraph: { title, url, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
   };
