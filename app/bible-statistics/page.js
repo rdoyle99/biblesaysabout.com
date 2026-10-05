@@ -391,6 +391,35 @@ export default function BibleStatisticsPage() {
             </div>
           </div>
         </section>
+
+        <section className="py-10 md:py-12">
+          <div className="max-w-4xl mx-auto px-4">
+            <h2 className="text-xl md:text-2xl font-bold mb-3">More counted from the text of the Bible</h2>
+            <p className="text-muted-foreground mb-5">
+              The survey numbers above come from polls. These come from the full King James Version and World English Bible text, counted by us.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {[
+                ["/books-of-the-bible", "How many books are in the Bible"],
+                ["/bible-by-the-numbers", "The Bible by the numbers"],
+                ["/how-long-does-it-take-to-read-the-bible", "How long it takes to read the Bible"],
+                ["/bible-reading-plan", "Bible reading plans"],
+                ["/words", "How many times is a word in the Bible"],
+                ["/words/church", "How many times is church mentioned"],
+                ["/words/sheep", "Sheep"],
+                ["/words/resurrection", "Resurrection"],
+                ["/words/devil", "Devil"],
+                ["/words/king", "King"],
+                ["/words/easter", "Easter"],
+                ["/words/666", "666"],
+              ].map(([href, label]) => (
+                <Link key={href} href={href} className="rounded-full border bg-card px-4 py-2 text-sm hover:bg-muted transition-colors">
+                  {label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
