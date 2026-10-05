@@ -55,7 +55,7 @@ function answerFor(w) {
   const parts = [];
   if (w.kind === "phrase" && !w.exactHeadline) {
     parts.push(
-      `${label} appears ${times(k.total)} in the King James Version, in ${fmt(k.verses)} verses` +
+      `${label} appears ${times(k.total)} in the King James Version, in ${plural(k.verses, "verse", "verses")}` +
         (kjvForms.length > 1 ? ` (${kjvForms.map(([f, n]) => `${f} ${fmt(n)}`).join(", ")}).` : ".")
     );
     parts.push(
@@ -63,10 +63,10 @@ function answerFor(w) {
         (webForms.length > 1 ? ` (${webForms.map(([f, n]) => `${f} ${fmt(n)}`).join(", ")}).` : ".")
     );
   } else if (k.exact > 0) {
-    parts.push(`${label}${w.kjvLabel ? ` (spelled ${w.kjvLabel} in the KJV)` : ""} appears ${times(k.exact)} in the King James Version, in ${fmt(k.exactVerses)} verses.`);
+    parts.push(`${label}${w.kjvLabel ? ` (spelled ${w.kjvLabel} in the KJV)` : ""} appears ${times(k.exact)} in the King James Version, in ${plural(k.exactVerses, "verse", "verses")}.`);
     if (k.total !== k.exact)
       parts.push(
-        `Counting ${w.kind === "phrase" ? "the related wordings" : "every form"} (${kjvForms.map(([f]) => f).join(", ")}), it appears ${times(k.total)} in ${fmt(k.verses)} verses across ${k.books} of the 66 books.`
+        `Counting ${w.kind === "phrase" ? "the related wordings" : "every form"} (${kjvForms.map(([f]) => f).join(", ")}), it appears ${times(k.total)} in ${plural(k.verses, "verse", "verses")} across ${k.books} of the 66 books.`
       );
     else parts.push(`It is found in ${k.books} of the 66 books.`);
     if (w.kind === "phrase")
@@ -99,8 +99,8 @@ export async function generateMetadata({ params }) {
   const otherN = w.kind === "phrase" ? other.total : other.exact;
   const description =
     w.kind === "phrase"
-      ? `${cap(w.word)} appears ${times(h.n)} in the ${h.name} (${fmt(h.verses)} verses). Every wording counted in the KJV and World English Bible, by book, with first and last mention.`
-      : `${cap(w.word)} appears ${times(h.n)} in the ${h.name} (${fmt(h.verses)} verses) and ${times(otherN)} in the ${h.translation === "KJV" ? "World English Bible" : "KJV"}. Counts by form and book, first and last mention.`;
+      ? `${cap(w.word)} appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}). Every wording counted in the KJV and World English Bible, by book, with first and last mention.`
+      : `${cap(w.word)} appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}) and ${times(otherN)} in the ${h.translation === "KJV" ? "World English Bible" : "KJV"}. Counts by form and book, first and last mention.`;
   return {
     title: { absolute: title },
     description,
@@ -121,6 +121,7 @@ export default async function WordPage({ params }) {
   const main = h.translation === "KJV" ? k : wb;
   const mainName = h.translation === "KJV" ? "King James Version" : "World English Bible";
   const topicData = w.topic ? getVersesByTopic(w.topic) : null;
+  const book = books.find((b) => b.slug === w.slug) || null;
   const topBooks = [...main.byBook].sort((a, b) => b[1] - a[1]);
   const formRows = [...new Set([...w.kjvForms, ...w.webForms])]
     .map((f) => ({ form: (k.byForm[f] ? k.display[f] : wb.display[f]) || f, kjv: k.byForm[f] ?? null, web: wb.byForm[f] ?? null }))
@@ -154,7 +155,7 @@ export default async function WordPage({ params }) {
       { name: "Bible Word Counts", url: `${SITE}/words` },
       { name: cap(w.word), url },
     ]),
-    generateDataArticleSchema({ headline: questionFor(w), description: answer, url, datePublished: DATA_DATE, dateModified: DATA_DATE }),
+    generateDataArticleSchema({ headline: questionFor(w), description: answer, url, datePublished: w.added || DATA_DATE, dateModified: w.added || DATA_DATE }),
     generateFAQSchema(faqs)
   );
 
@@ -172,9 +173,9 @@ export default async function WordPage({ params }) {
             </div>
             <StatTiles
               stats={[
-                { label: `${w.kind === "phrase" ? "Uses" : "Exact word"} (${h.translation})`, value: fmt(h.n), note: `in ${fmt(h.verses)} verses` },
-                { label: "Every form (KJV)", value: fmt(k.total), note: `in ${fmt(k.verses)} verses` },
-                { label: "Every form (WEB)", value: fmt(wb.total), note: `in ${fmt(wb.verses)} verses` },
+                { label: `${w.kind === "phrase" ? "Uses" : "Exact word"} (${h.translation})`, value: fmt(h.n), note: `in ${plural(h.verses, "verse", "verses")}` },
+                { label: "Every form (KJV)", value: fmt(k.total), note: `in ${plural(k.verses, "verse", "verses")}` },
+                { label: "Every form (WEB)", value: fmt(wb.total), note: `in ${plural(wb.verses, "verse", "verses")}` },
                 { label: "Books", value: `${main.books} of 66`, note: `${fmt(main.ot)} OT uses, ${fmt(main.nt)} NT uses` },
               ]}
             />
@@ -319,6 +320,15 @@ export default async function WordPage({ params }) {
         />
 
         <Section muted>
+          {book ? (
+            <p className="mb-4">
+              {w.word} is also the name of a book of the Bible. See its{" "}
+              <Link href={`/books/${book.slug}`} className="font-medium underline underline-offset-2 hover:text-primary">
+                {book.chapters} chapters, {fmt(book.verses.kjv)} verses and reading time
+              </Link>
+              .
+            </p>
+          ) : null}
           {topicData ? (
             <p className="mb-4">
               Read the full collection:{" "}
@@ -344,7 +354,7 @@ export default async function WordPage({ params }) {
             </Link>
             .
           </p>
-          <MethodNote text={METHOD} date={DATA_DATE} />
+          <MethodNote text={METHOD} date={w.added || DATA_DATE} />
         </Section>
       </div>
     </>

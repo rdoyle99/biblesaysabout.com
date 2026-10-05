@@ -156,9 +156,12 @@ const psalmTitleWords = [...kjvXml.matchAll(/<title type="psalm"[^>]*>([\s\S]*?)
   .filter((n) => n > 1) // skip the one-word Hebrew letter headings of Psalm 119
   .reduce((a, b) => a + b, 0);
 
+// the books data is a pure function of the two texts, so its as-of date only moves when the texts or the method do
+const prevBooks = fs.existsSync(path.join(outDir, "bible-books.json")) ? JSON.parse(fs.readFileSync(path.join(outDir, "bible-books.json"), "utf8")) : null;
+const today = new Date().toISOString().slice(0, 10);
 const bible = {
   psalmTitleWords,
-  generated: new Date().toISOString().slice(0, 10),
+  generated: prevBooks ? prevBooks.bible.generated : today,
   readingWpm: READING_WPM,
   sources: {
     kjv: "King James Version (1769), public domain, eng-kjv.osis.xml from github.com/seven1m/open-bibles",
@@ -246,6 +249,9 @@ function countWord(id, entry) {
   };
 }
 
+// a word page keeps the date it first shipped; only new words get today's date (sitemap lastmod follows content)
+const prevWords = fs.existsSync(path.join(outDir, "bible-words.json")) ? JSON.parse(fs.readFileSync(path.join(outDir, "bible-words.json"), "utf8")) : null;
+const addedOn = new Map((prevWords ? prevWords.words : []).map((w) => [w.slug, w.added || prevWords.generated]));
 const words = [];
 for (const entry of WORDS) {
   const k = countWord("kjv", entry);
@@ -271,6 +277,7 @@ for (const entry of WORDS) {
   delete w.hitKeys;
   words.push({
     slug: entry.slug,
+    added: addedOn.get(entry.slug) || today,
     word: entry.word,
     kind: entry.kind || "word",
     exactHeadline: entry.exactHeadline || false,
@@ -291,7 +298,7 @@ for (const entry of WORDS) {
     curatedCount: curatedHits.length,
   });
 }
-fs.writeFileSync(path.join(outDir, "bible-words.json"), JSON.stringify({ generated: bible.generated, words }));
+fs.writeFileSync(path.join(outDir, "bible-words.json"), JSON.stringify({ generated: today, words }));
 
 console.log("KJV", bible.kjv.verses, "verses", bible.kjv.words, "words", bible.kjv.chapters, "chapters", bible.kjv.readingHours, "h");
 console.log("WEB", bible.web.verses, "verses", bible.web.words, "words", bible.web.readingHours, "h; WEB omits", webMissing.length, webMissing.join(", "));

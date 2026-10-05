@@ -1,7 +1,7 @@
 /* Sitemap - lastmod is each page's content date, never the build date */
 
 import { getAllTopics, getVersesByTopic, topicCategories } from "@/lib/verses";
-import { books, words, DATA_DATE } from "@/lib/bibleData";
+import { books, words, DATA_DATE, WORDS_DATE } from "@/lib/bibleData";
 import { STATS_UPDATED } from "@/lib/bibleStats";
 import { PLANS, PLAN_DATE } from "@/lib/readingPlan";
 
@@ -23,7 +23,7 @@ export default function sitemap() {
     { url: `${baseUrl}/books-of-the-bible`, lastModified: DATA_DATE, priority: 0.9 },
     { url: `${baseUrl}/bible-by-the-numbers`, lastModified: DATA_DATE, priority: 0.9 },
     { url: `${baseUrl}/how-long-does-it-take-to-read-the-bible`, lastModified: DATA_DATE, priority: 0.9 },
-    { url: `${baseUrl}/words`, lastModified: DATA_DATE, priority: 0.8 },
+    { url: `${baseUrl}/words`, lastModified: WORDS_DATE, priority: 0.8 },
     { url: `${baseUrl}/bible-reading-plan`, lastModified: PLAN_DATE, priority: 0.9 },
     { url: `${baseUrl}/privacy`, lastModified: PAGE_DATES.privacy, priority: 0.3 },
     { url: `${baseUrl}/terms`, lastModified: PAGE_DATES.terms, priority: 0.3 },
@@ -49,7 +49,7 @@ export default function sitemap() {
 
   const wordPages = words.map((w) => ({
     url: `${baseUrl}/words/${w.slug}`,
-    lastModified: DATA_DATE,
+    lastModified: w.added || DATA_DATE,
     priority: 0.7,
   }));
 

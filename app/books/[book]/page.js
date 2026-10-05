@@ -5,6 +5,7 @@ import Link from "next/link";
 import {
   books,
   getBook,
+  getWord,
   bible,
   fmt,
   readingTime,
@@ -241,6 +242,15 @@ export default async function BookPage({ params }) {
               </Link>
             ) : null}
           </div>
+          {getWord(b.slug) ? (
+            <p className="mb-4">
+              How often is the name mentioned? See{" "}
+              <Link href={`/words/${b.slug}`} className="underline underline-offset-2 hover:text-primary">
+                how many times {b.name} is mentioned in the Bible
+              </Link>
+              , counted in the KJV and the World English Bible.
+            </p>
+          ) : null}
           <p className="mb-4">
             Compare all 66 books on{" "}
             <Link href="/books-of-the-bible" className="underline underline-offset-2 hover:text-primary">

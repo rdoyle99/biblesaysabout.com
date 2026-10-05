@@ -1,12 +1,12 @@
 /* Bible word counts: how many times each word appears in the full KJV and WEB text */
 
 import Link from "next/link";
-import { words, fmt, headline, METHOD, DATA_DATE, SITE, bible } from "@/lib/bibleData";
+import { words, fmt, headline, METHOD, WORDS_DATE, SITE, bible } from "@/lib/bibleData";
 import { generateBreadcrumbSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
 import { JsonLd, Breadcrumbs, BarRows, Section, MethodNote } from "@/components/DataBits";
 
 const URL = `${SITE}/words`;
-const TITLE = "How Many Times Is a Word in the Bible? Counts for 100+ Words";
+const TITLE = `How Many Times Is a Word in the Bible? Counts for ${Math.floor(words.length / 50) * 50}+ Words`;
 const get = (slug) => words.find((w) => w.slug === slug);
 const love = get("love");
 const fearNot = get("fear-not");
@@ -29,7 +29,7 @@ export default function WordsIndex() {
       { name: "Home", url: SITE },
       { name: "Bible Word Counts", url: URL },
     ]),
-    generateDataArticleSchema({ headline: "How many times is a word in the Bible?", description: ANSWER, url: URL, datePublished: DATA_DATE, dateModified: DATA_DATE })
+    generateDataArticleSchema({ headline: "How many times is a word in the Bible?", description: ANSWER, url: URL, datePublished: WORDS_DATE, dateModified: WORDS_DATE })
   );
 
   return (
@@ -105,7 +105,7 @@ export default function WordsIndex() {
             </Link>
             .
           </p>
-          <MethodNote text={METHOD} date={DATA_DATE} />
+          <MethodNote text={METHOD} date={WORDS_DATE} />
         </Section>
       </div>
     </>
