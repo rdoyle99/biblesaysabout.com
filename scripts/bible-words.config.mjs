@@ -271,6 +271,8 @@ const MORE = [
   ph("love-one-another", "love one another", v("love one another"), { exactHeadline: true }),
   ph("fear-of-the-lord", "fear of the LORD", v("fear of the lord"), { exactHeadline: true, web: v("fear of yahweh") }),
   ph("forty-days", "forty days", v("forty days"), { exactHeadline: true }),
+  ph("jesus-christ", "Jesus Christ", v("jesus christ"), { exactHeadline: true }),
+  ph("praise-the-lord", "praise the LORD", v("praise the lord", "praise ye the lord"), { web: v("praise the lord", "praise yah", "praise yahweh"), note: "The King James Version has \"praise ye the LORD\" where the World English Bible has \"praise Yah\" or \"praise Yahweh\"; Hallelujah is the same Hebrew phrase. Both wordings are counted." }),
   ph("666", "666", v("six hundred threescore and six", "six hundred and threescore and six", "six hundred sixty and six"), { web: v("six hundred sixty six"), note: "The KJV writes the number out as six hundred threescore and six (and six hundred sixty and six in Ezra 2:13), and the World English Bible as six hundred sixty-six. Only one of these verses is the number of the beast; the others are weights of gold and a count of people." }),
 ];
 
