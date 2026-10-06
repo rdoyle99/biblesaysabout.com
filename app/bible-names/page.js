@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { getWord, fmt, headline, METHOD, SITE } from "@/lib/bibleData";
-import { allMeanings, NAMES_DATE, NAMES_NOTE, NAMES_SOURCE } from "@/lib/bibleNames";
+import { allMeanings, splitMeaning, NAMES_DATE, NAMES_NOTE, NAMES_SOURCE } from "@/lib/bibleNames";
 import { generateBreadcrumbSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
 import { JsonLd, Breadcrumbs, BarRows, Section, MethodNote } from "@/components/DataBits";
 
@@ -77,7 +77,7 @@ export default function BibleNames() {
                     <td className="p-3">
                       {r.main.meaning}
                       {r.main.via ? <span className="text-muted-foreground"> (same name as {r.main.via})</span> : null}
-                      {r.others.length ? <span className="text-muted-foreground"> (another {r.term}: {r.others.map((o) => o.meaning).join("; ")})</span> : null}
+                      {r.others.length ? <span className="text-muted-foreground"> (another {r.term}: {r.others.map((o) => { const { gloss, who } = splitMeaning(o.meaning); return who ? `${gloss}, ${who}` : gloss; }).join("; ")})</span> : null}
                     </td>
                     <td className="p-3 text-right tabular-nums whitespace-nowrap">
                       {fmt(r.h.n)} <span className="text-xs text-muted-foreground">{r.h.translation}</span>

@@ -42,7 +42,7 @@ for (const w of wordsData.words) {
       const target = H.get(same[1].toLowerCase());
       if (!target) continue;
       entries.push({ meaning: target[0], via: same[1] });
-    } else entries.push({ meaning: d.replace(/^or [A-Za-z]+, /, "") });
+    } else entries.push({ meaning: d.replace(/^(?:or )?[A-Z][a-z]+, /, "") });
   }
   if (entries.length) out[w.slug] = { term: w.word, entries, held: HOLD.has(w.slug) };
 }

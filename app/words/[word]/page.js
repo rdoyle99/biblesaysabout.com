@@ -7,7 +7,7 @@ import { getVersesByTopic } from "@/lib/verses";
 import { generateBreadcrumbSchema, generateFAQSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
 import { JsonLd, Breadcrumbs, StatTiles, BarRows, VerseQuote, FaqSection, Section, MethodNote } from "@/components/DataBits";
 import AmazonPicks from "@/components/AmazonPicks";
-import { getPageMeaning, meaningSentence, NAMES_DATE, NAMES_NOTE, NAMES_SOURCE } from "@/lib/bibleNames";
+import { getPageMeaning, meaningSentence, NAMES_DATE, NAMES_NOTE_SHORT, NAMES_SOURCE } from "@/lib/bibleNames";
 
 const bookSlug = Object.fromEntries(books.map((b) => [b.name, b.slug]));
 const times = (n) => `${fmt(n)} time${n === 1 ? "" : "s"}`;
@@ -99,8 +99,11 @@ export async function generateMetadata({ params }) {
   const other = h.translation === "KJV" ? w.web : w.kjv;
   const otherN = w.kind === "phrase" ? other.total : other.exact;
   const meaning = getPageMeaning(w.slug);
+  const meaningDesc = meaning
+    ? `${cap(w.word)}: "${meaning.main.meaning}" in Hitchcock's 1869 name dictionary. Appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}).`
+    : "";
   const description = meaning
-    ? `${cap(w.word)}: "${meaning.main.meaning}" in Hitchcock's 1869 name dictionary. Appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}). Counts by form and book.`
+    ? meaningDesc.length + 25 <= 160 ? `${meaningDesc} Counts by form and book.` : meaningDesc
     : w.kind === "phrase"
       ? `${cap(w.word)} appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}). Every wording counted in the KJV and World English Bible, by book, with first and last mention.`
       : `${cap(w.word)} appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}) and ${times(otherN)} in the ${h.translation === "KJV" ? "World English Bible" : "KJV"}. Counts by form and book, first and last mention.`;
@@ -233,7 +236,7 @@ export default async function WordPage({ params }) {
         {meaning ? (
           <Section title={`What the name ${w.word} means`} intro={meaningSentence(meaning, w.word)}>
             <p className="text-muted-foreground leading-relaxed">
-              {NAMES_NOTE}
+              {NAMES_NOTE_SHORT}
             </p>
             <p className="mt-3">
               See every name and place with its meaning and count on{" "}
