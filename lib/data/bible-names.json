@@ -1,0 +1,662 @@
+{
+ "generated": "2026-10-06",
+ "source": "Hitchcock's Bible Names Dictionary (1869), public domain",
+ "names": {
+  "jesus": {
+   "term": "Jesus",
+   "entries": [
+    {
+     "meaning": "savior; deliverer"
+    }
+   ],
+   "held": true
+  },
+  "christ": {
+   "term": "Christ",
+   "entries": [
+    {
+     "meaning": "anointed"
+    }
+   ],
+   "held": true
+  },
+  "satan": {
+   "term": "Satan",
+   "entries": [
+    {
+     "meaning": "contrary; adversary; enemy; accuser"
+    }
+   ],
+   "held": true
+  },
+  "israel": {
+   "term": "Israel",
+   "entries": [
+    {
+     "meaning": "who prevails with God"
+    }
+   ],
+   "held": true
+  },
+  "david": {
+   "term": "David",
+   "entries": [
+    {
+     "meaning": "well-beloved, dear"
+    }
+   ],
+   "held": false
+  },
+  "moses": {
+   "term": "Moses",
+   "entries": [
+    {
+     "meaning": "taken out; drawn forth"
+    }
+   ],
+   "held": false
+  },
+  "abraham": {
+   "term": "Abraham",
+   "entries": [
+    {
+     "meaning": "father of a great multitude"
+    }
+   ],
+   "held": false
+  },
+  "mary": {
+   "term": "Mary",
+   "entries": [
+    {
+     "meaning": "rebellion",
+     "via": "Miriam"
+    }
+   ],
+   "held": false
+  },
+  "paul": {
+   "term": "Paul",
+   "entries": [
+    {
+     "meaning": "small; little"
+    }
+   ],
+   "held": false
+  },
+  "peter": {
+   "term": "Peter",
+   "entries": [
+    {
+     "meaning": "a rock or stone"
+    }
+   ],
+   "held": false
+  },
+  "jerusalem": {
+   "term": "Jerusalem",
+   "entries": [
+    {
+     "meaning": "vision of peace"
+    }
+   ],
+   "held": false
+  },
+  "egypt": {
+   "term": "Egypt",
+   "entries": [
+    {
+     "meaning": "that troubles or oppresses; anguish"
+    }
+   ],
+   "held": false
+  },
+  "noah": {
+   "term": "Noah",
+   "entries": [
+    {
+     "meaning": "repose; consolation"
+    },
+    {
+     "meaning": "that quavers or totters (Zelophehad's daughter)"
+    }
+   ],
+   "held": false
+  },
+  "adam": {
+   "term": "Adam",
+   "entries": [
+    {
+     "meaning": "earthy; red"
+    }
+   ],
+   "held": false
+  },
+  "eve": {
+   "term": "Eve",
+   "entries": [
+    {
+     "meaning": "living; enlivening"
+    }
+   ],
+   "held": false
+  },
+  "isaac": {
+   "term": "Isaac",
+   "entries": [
+    {
+     "meaning": "laughter"
+    }
+   ],
+   "held": false
+  },
+  "jacob": {
+   "term": "Jacob",
+   "entries": [
+    {
+     "meaning": "that supplants, undermines; the heel"
+    }
+   ],
+   "held": false
+  },
+  "joseph": {
+   "term": "Joseph",
+   "entries": [
+    {
+     "meaning": "increase; addition"
+    }
+   ],
+   "held": false
+  },
+  "solomon": {
+   "term": "Solomon",
+   "entries": [
+    {
+     "meaning": "peaceable; perfect; one who recompenses"
+    }
+   ],
+   "held": false
+  },
+  "aaron": {
+   "term": "Aaron",
+   "entries": [
+    {
+     "meaning": "a teacher; lofty; mountain of strength"
+    }
+   ],
+   "held": false
+  },
+  "joshua": {
+   "term": "Joshua",
+   "entries": [
+    {
+     "meaning": "a savior; a deliverer"
+    }
+   ],
+   "held": true
+  },
+  "samuel": {
+   "term": "Samuel",
+   "entries": [
+    {
+     "meaning": "heard of God; asked of God"
+    }
+   ],
+   "held": false
+  },
+  "saul": {
+   "term": "Saul",
+   "entries": [
+    {
+     "meaning": "demanded; lent; ditch; death"
+    }
+   ],
+   "held": false
+  },
+  "elijah": {
+   "term": "Elijah",
+   "entries": [
+    {
+     "meaning": "God the Lord, the strong Lord"
+    }
+   ],
+   "held": false
+  },
+  "elisha": {
+   "term": "Elisha",
+   "entries": [
+    {
+     "meaning": "salvation of God"
+    }
+   ],
+   "held": false
+  },
+  "daniel": {
+   "term": "Daniel",
+   "entries": [
+    {
+     "meaning": "judgment of God; God my judge"
+    }
+   ],
+   "held": true
+  },
+  "john": {
+   "term": "John",
+   "entries": [
+    {
+     "meaning": "the grace or mercy of the Lord"
+    }
+   ],
+   "held": true
+  },
+  "james": {
+   "term": "James",
+   "entries": [
+    {
+     "meaning": "that supplants, undermines; the heel",
+     "via": "Jacob"
+    }
+   ],
+   "held": true
+  },
+  "judas": {
+   "term": "Judas",
+   "entries": [
+    {
+     "meaning": "the praise of the Lord; confession",
+     "via": "Judah"
+    }
+   ],
+   "held": false
+  },
+  "martha": {
+   "term": "Martha",
+   "entries": [
+    {
+     "meaning": "who becomes bitter; provoking"
+    }
+   ],
+   "held": false
+  },
+  "lazarus": {
+   "term": "Lazarus",
+   "entries": [
+    {
+     "meaning": "assistance of God"
+    }
+   ],
+   "held": false
+  },
+  "gabriel": {
+   "term": "Gabriel",
+   "entries": [
+    {
+     "meaning": "God is my strength"
+    }
+   ],
+   "held": false
+  },
+  "stephen": {
+   "term": "Stephen",
+   "entries": [
+    {
+     "meaning": "crown; crowned",
+     "via": "Stephanas"
+    }
+   ],
+   "held": false
+  },
+  "thomas": {
+   "term": "Thomas",
+   "entries": [
+    {
+     "meaning": "a twin"
+    }
+   ],
+   "held": false
+  },
+  "barnabas": {
+   "term": "Barnabas",
+   "entries": [
+    {
+     "meaning": "son of the prophet, or of consolation"
+    }
+   ],
+   "held": false
+  },
+  "silas": {
+   "term": "Silas",
+   "entries": [
+    {
+     "meaning": "three, or the third"
+    }
+   ],
+   "held": false
+  },
+  "ruth": {
+   "term": "Ruth",
+   "entries": [
+    {
+     "meaning": "drunk; satisfied"
+    }
+   ],
+   "held": true
+  },
+  "esther": {
+   "term": "Esther",
+   "entries": [
+    {
+     "meaning": "secret; hidden"
+    }
+   ],
+   "held": true
+  },
+  "job": {
+   "term": "Job",
+   "entries": [
+    {
+     "meaning": "he that weeps or cries"
+    }
+   ],
+   "held": true
+  },
+  "sarah": {
+   "term": "Sarah",
+   "entries": [
+    {
+     "meaning": "lady; princess; princess of the multitude"
+    }
+   ],
+   "held": false
+  },
+  "rebekah": {
+   "term": "Rebekah",
+   "entries": [
+    {
+     "meaning": "fat; fattened; a quarrel appeased"
+    }
+   ],
+   "held": false
+  },
+  "rachel": {
+   "term": "Rachel",
+   "entries": [
+    {
+     "meaning": "sheep"
+    }
+   ],
+   "held": false
+  },
+  "leah": {
+   "term": "Leah",
+   "entries": [
+    {
+     "meaning": "weary; tired"
+    }
+   ],
+   "held": false
+  },
+  "samson": {
+   "term": "Samson",
+   "entries": [
+    {
+     "meaning": "his sun; his service; there the second time"
+    }
+   ],
+   "held": false
+  },
+  "goliath": {
+   "term": "Goliath",
+   "entries": [
+    {
+     "meaning": "passage; revolution; heap"
+    }
+   ],
+   "held": false
+  },
+  "gideon": {
+   "term": "Gideon",
+   "entries": [
+    {
+     "meaning": "he that bruises or breaks; a destroyer"
+    }
+   ],
+   "held": false
+  },
+  "jonah": {
+   "term": "Jonah",
+   "entries": [
+    {
+     "meaning": "a dove; he that oppresses; destroyer"
+    }
+   ],
+   "held": true
+  },
+  "isaiah": {
+   "term": "Isaiah",
+   "entries": [
+    {
+     "meaning": "the salvation of the Lord"
+    }
+   ],
+   "held": true
+  },
+  "jeremiah": {
+   "term": "Jeremiah",
+   "entries": [
+    {
+     "meaning": "exaltation of the Lord"
+    }
+   ],
+   "held": true
+  },
+  "nebuchadnezzar": {
+   "term": "Nebuchadnezzar",
+   "entries": [
+    {
+     "meaning": "Nebuchadrezzar, tears and groans of judgment"
+    }
+   ],
+   "held": false
+  },
+  "pharaoh": {
+   "term": "Pharaoh",
+   "entries": [
+    {
+     "meaning": "that disperses; that spoils"
+    }
+   ],
+   "held": false
+  },
+  "herod": {
+   "term": "Herod",
+   "entries": [
+    {
+     "meaning": "son of a hero"
+    }
+   ],
+   "held": false
+  },
+  "pilate": {
+   "term": "Pilate",
+   "entries": [
+    {
+     "meaning": "armed with a dart"
+    }
+   ],
+   "held": false
+  },
+  "cain": {
+   "term": "Cain",
+   "entries": [
+    {
+     "meaning": "possession, or possessed"
+    }
+   ],
+   "held": false
+  },
+  "ishmael": {
+   "term": "Ishmael",
+   "entries": [
+    {
+     "meaning": "God that hears"
+    }
+   ],
+   "held": false
+  },
+  "esau": {
+   "term": "Esau",
+   "entries": [
+    {
+     "meaning": "he that acts or finishes"
+    }
+   ],
+   "held": false
+  },
+  "judah": {
+   "term": "Judah",
+   "entries": [
+    {
+     "meaning": "the praise of the Lord; confession"
+    }
+   ],
+   "held": false
+  },
+  "babylon": {
+   "term": "Babylon",
+   "entries": [
+    {
+     "meaning": "confusion; mixture",
+     "via": "Babel"
+    }
+   ],
+   "held": false
+  },
+  "nazareth": {
+   "term": "Nazareth",
+   "entries": [
+    {
+     "meaning": "separated; crowned; sanctified"
+    }
+   ],
+   "held": false
+  },
+  "galilee": {
+   "term": "Galilee",
+   "entries": [
+    {
+     "meaning": "wheel; revolution"
+    }
+   ],
+   "held": false
+  },
+  "jordan": {
+   "term": "Jordan",
+   "entries": [
+    {
+     "meaning": "the river of judgment"
+    }
+   ],
+   "held": false
+  },
+  "sinai": {
+   "term": "Sinai",
+   "entries": [
+    {
+     "meaning": "a bush; enmity"
+    }
+   ],
+   "held": false
+  },
+  "sodom": {
+   "term": "Sodom",
+   "entries": [
+    {
+     "meaning": "their secret; their cement"
+    }
+   ],
+   "held": false
+  },
+  "gomorrah": {
+   "term": "Gomorrah",
+   "entries": [
+    {
+     "meaning": "rebellious people"
+    }
+   ],
+   "held": false
+  },
+  "eden": {
+   "term": "Eden",
+   "entries": [
+    {
+     "meaning": "pleasure; delight"
+    }
+   ],
+   "held": false
+  },
+  "zion": {
+   "term": "Zion",
+   "entries": [
+    {
+     "meaning": "monument; raised up; sepulcher"
+    }
+   ],
+   "held": false
+  },
+  "canaan": {
+   "term": "Canaan",
+   "entries": [
+    {
+     "meaning": "merchant; trader; or that humbles and subdues"
+    }
+   ],
+   "held": false
+  },
+  "damascus": {
+   "term": "Damascus",
+   "entries": [
+    {
+     "meaning": "a sack full of blood; the similitude of burning"
+    }
+   ],
+   "held": false
+  },
+  "jericho": {
+   "term": "Jericho",
+   "entries": [
+    {
+     "meaning": "his moon; his month; his sweet smell"
+    }
+   ],
+   "held": false
+  },
+  "samaria": {
+   "term": "Samaria",
+   "entries": [
+    {
+     "meaning": "watch-mountain"
+    }
+   ],
+   "held": false
+  },
+  "nineveh": {
+   "term": "Nineveh",
+   "entries": [
+    {
+     "meaning": "handsome; agreeable"
+    }
+   ],
+   "held": false
+  },
+  "jehovah": {
+   "term": "Jehovah",
+   "entries": [
+    {
+     "meaning": "self-subsisting"
+    }
+   ],
+   "held": false
+  }
+ }
+}

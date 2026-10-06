@@ -4,6 +4,7 @@ import { getAllTopics, getVersesByTopic, topicCategories } from "@/lib/verses";
 import { books, words, DATA_DATE, WORDS_DATE } from "@/lib/bibleData";
 import { STATS_UPDATED } from "@/lib/bibleStats";
 import { PLANS, PLAN_DATE } from "@/lib/readingPlan";
+import { getPageMeaning, NAMES_DATE } from "@/lib/bibleNames";
 
 const baseUrl = "https://www.biblesaysabout.com";
 
@@ -24,6 +25,7 @@ export default function sitemap() {
     { url: `${baseUrl}/bible-by-the-numbers`, lastModified: DATA_DATE, priority: 0.9 },
     { url: `${baseUrl}/how-long-does-it-take-to-read-the-bible`, lastModified: DATA_DATE, priority: 0.9 },
     { url: `${baseUrl}/words`, lastModified: WORDS_DATE, priority: 0.8 },
+    { url: `${baseUrl}/bible-names`, lastModified: NAMES_DATE, priority: 0.8 },
     { url: `${baseUrl}/bible-reading-plan`, lastModified: PLAN_DATE, priority: 0.9 },
     { url: `${baseUrl}/privacy`, lastModified: PAGE_DATES.privacy, priority: 0.3 },
     { url: `${baseUrl}/terms`, lastModified: PAGE_DATES.terms, priority: 0.3 },
@@ -49,7 +51,7 @@ export default function sitemap() {
 
   const wordPages = words.map((w) => ({
     url: `${baseUrl}/words/${w.slug}`,
-    lastModified: w.added || DATA_DATE,
+    lastModified: getPageMeaning(w.slug) ? NAMES_DATE : w.added || DATA_DATE,
     priority: 0.7,
   }));
 

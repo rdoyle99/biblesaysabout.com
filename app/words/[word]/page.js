@@ -7,6 +7,7 @@ import { getVersesByTopic } from "@/lib/verses";
 import { generateBreadcrumbSchema, generateFAQSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
 import { JsonLd, Breadcrumbs, StatTiles, BarRows, VerseQuote, FaqSection, Section, MethodNote } from "@/components/DataBits";
 import AmazonPicks from "@/components/AmazonPicks";
+import { getPageMeaning, meaningSentence, NAMES_DATE, NAMES_NOTE, NAMES_SOURCE } from "@/lib/bibleNames";
 
 const bookSlug = Object.fromEntries(books.map((b) => [b.name, b.slug]));
 const times = (n) => `${fmt(n)} time${n === 1 ? "" : "s"}`;
@@ -97,8 +98,10 @@ export async function generateMetadata({ params }) {
   const h = headline(w);
   const other = h.translation === "KJV" ? w.web : w.kjv;
   const otherN = w.kind === "phrase" ? other.total : other.exact;
-  const description =
-    w.kind === "phrase"
+  const meaning = getPageMeaning(w.slug);
+  const description = meaning
+    ? `${cap(w.word)}: "${meaning.main.meaning}" in Hitchcock's 1869 name dictionary. Appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}). Counts by form and book.`
+    : w.kind === "phrase"
       ? `${cap(w.word)} appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}). Every wording counted in the KJV and World English Bible, by book, with first and last mention.`
       : `${cap(w.word)} appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}) and ${times(otherN)} in the ${h.translation === "KJV" ? "World English Bible" : "KJV"}. Counts by form and book, first and last mention.`;
   return {
@@ -131,6 +134,9 @@ export default async function WordPage({ params }) {
   const neighbors = [...related, ...[...words.slice(idx + 1), ...words.slice(0, idx)].filter((x) => !related.includes(x))].slice(0, 8);
   const curated = [...w.curated].sort((a, b) => (b.topics.includes(w.topic) - a.topics.includes(w.topic)) || b.topics.length - a.topics.length);
 
+  const meaning = getPageMeaning(w.slug);
+  const dateModified = meaning ? NAMES_DATE : w.added || DATA_DATE;
+
   const faqs = [
     { q: questionFor(w), a: answer },
     {
@@ -143,6 +149,7 @@ export default async function WordPage({ params }) {
       q: `Where is ${w.word} first mentioned in the Bible?`,
       a: `The first use in the ${mainName} is ${main.first.ref}: ${quoted(main.first.text)} The last is ${main.last.ref}.`,
     });
+  if (meaning) faqs.push({ q: `What does the name ${w.word} mean in the Bible?`, a: meaningSentence(meaning, w.word) });
   if (w.slug === "fear-not")
     faqs.push({
       q: "Does the Bible say fear not 365 times?",
@@ -155,7 +162,7 @@ export default async function WordPage({ params }) {
       { name: "Bible Word Counts", url: `${SITE}/words` },
       { name: cap(w.word), url },
     ]),
-    generateDataArticleSchema({ headline: questionFor(w), description: answer, url, datePublished: w.added || DATA_DATE, dateModified: w.added || DATA_DATE }),
+    generateDataArticleSchema({ headline: questionFor(w), description: answer, url, datePublished: w.added || DATA_DATE, dateModified }),
     generateFAQSchema(faqs)
   );
 
@@ -222,6 +229,22 @@ export default async function WordPage({ params }) {
             </p>
           ) : null}
         </Section>
+
+        {meaning ? (
+          <Section title={`What the name ${w.word} means`} intro={meaningSentence(meaning, w.word)}>
+            <p className="text-muted-foreground leading-relaxed">
+              {NAMES_NOTE}
+            </p>
+            <p className="mt-3">
+              See every name and place with its meaning and count on{" "}
+              <Link href="/bible-names" className="font-medium underline underline-offset-2 hover:text-primary">
+                Bible names and their meanings
+              </Link>
+              .
+            </p>
+            <p className="mt-3 text-xs text-muted-foreground">Source: {NAMES_SOURCE}, checked {NAMES_DATE}.</p>
+          </Section>
+        ) : null}
 
         {topBooks.length ? (
           <Section
@@ -354,7 +377,7 @@ export default async function WordPage({ params }) {
             </Link>
             .
           </p>
-          <MethodNote text={METHOD} date={w.added || DATA_DATE} />
+          <MethodNote text={METHOD} date={dateModified} />
         </Section>
       </div>
     </>

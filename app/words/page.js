@@ -99,7 +99,11 @@ export default function WordsIndex() {
             <Link href="/#all-topics" className="underline underline-offset-2 hover:text-primary">
               Bible verses by topic
             </Link>
-            , or see{" "}
+            , see{" "}
+            <Link href="/bible-names" className="underline underline-offset-2 hover:text-primary">
+              what Bible names mean
+            </Link>
+            , or the{" "}
             <Link href="/bible-by-the-numbers" className="underline underline-offset-2 hover:text-primary">
               the Bible by the numbers
             </Link>
