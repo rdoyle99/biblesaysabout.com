@@ -165,6 +165,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/bible-names"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Bible Names and Meanings
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/how-long-does-it-take-to-read-the-bible"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >
@@ -177,6 +185,14 @@ export default function Footer() {
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >
                   Bible Reading Plan Generator
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  About and Sources
                 </Link>
               </li>
               <li>

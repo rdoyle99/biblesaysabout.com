@@ -32,14 +32,8 @@ export default function HomeClient({
   bibleNumbers,
 }) {
   const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
-  const [mounted, setMounted] = useState(false);
 
   const iconFor = (slug) => topicIcons[slug] || "📖";
-
-  // Hero verse card renders after mount
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   // Rotate topics every 4 seconds
   useEffect(() => {
@@ -95,7 +89,7 @@ export default function HomeClient({
             </p>
 
             {/* Featured verse card */}
-            {featuredVerse && mounted && (
+            {featuredVerse && (
               <div className="max-w-2xl mx-auto mb-8 animate-fade-in-up delay-200">
                 <VerseCard
                   verse={{...featuredVerse, theme: currentTopic.slug}}

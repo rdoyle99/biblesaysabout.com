@@ -10,6 +10,7 @@ const baseUrl = "https://www.biblesaysabout.com";
 
 // Pages whose content is not generated from data: the date their copy last changed
 const PAGE_DATES = {
+  about: "2026-10-07",
   privacy: "2026-08-14",
   terms: "2026-08-14",
 };
@@ -27,6 +28,7 @@ export default function sitemap() {
     { url: `${baseUrl}/words`, lastModified: WORDS_DATE, priority: 0.8 },
     { url: `${baseUrl}/bible-names`, lastModified: NAMES_DATE, priority: 0.8 },
     { url: `${baseUrl}/bible-reading-plan`, lastModified: PLAN_DATE, priority: 0.9 },
+    { url: `${baseUrl}/about`, lastModified: PAGE_DATES.about, priority: 0.5 },
     { url: `${baseUrl}/privacy`, lastModified: PAGE_DATES.privacy, priority: 0.3 },
     { url: `${baseUrl}/terms`, lastModified: PAGE_DATES.terms, priority: 0.3 },
   ];

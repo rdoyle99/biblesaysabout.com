@@ -17,7 +17,7 @@ const rows = allMeanings()
 const sorted = [...rows].sort((a, b) => a.term.localeCompare(b.term));
 const top = [...rows].sort((a, b) => b.h.n - a.h.n).slice(0, 12);
 const TITLE = `Bible Names and Their Meanings: ${rows.length} Names and Places With Counts`;
-const DESCRIPTION = `What ${rows.length} Bible names and places mean (Noah, Jacob, Ruth, Jordan, Eden) from Hitchcock's 1869 dictionary, with how many times each appears in the KJV and World English Bible.`;
+const DESCRIPTION = `What ${rows.length} Bible names and places mean (Noah, Jacob, Ruth, Eden), from Hitchcock's 1869 dictionary, with how many times each appears in the KJV and WEB.`;
 const ANSWER = `${rows.length} of the names and places we count have a meaning in Hitchcock's Bible Names Dictionary (1869). ${top[0].term} is the most used (${fmt(top[0].h.n)} times in the ${top[0].h.name}), and it means "${top[0].main.meaning}". ${top[1].term} comes next (${fmt(top[1].h.n)} times, "${top[1].main.meaning}"). Each name below links to its full count by book.`;
 
 export const metadata = {
