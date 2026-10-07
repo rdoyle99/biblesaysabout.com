@@ -99,7 +99,7 @@ export default function About() {
             <a href="https://github.com/seven1m/open-bibles" rel="noopener" className="underline underline-offset-2 hover:text-primary">
               open-bibles project
             </a>
-            . We do not quote the NIV, ESV, NLT, NKJV or NASB, which are licensed.
+            . We quote no licensed translations.
           </p>
           <p className="leading-relaxed">
             The verse lists on the topic pages pick which verses to show using{" "}
