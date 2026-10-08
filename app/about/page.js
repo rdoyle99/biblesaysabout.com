@@ -113,7 +113,7 @@ export default function About() {
               OpenBible.info
             </a>{" "}
             topical data (CC BY), and the text is printed from the translations above. The rest were chosen by us, including the{" "}
-            {handChosenCount} topics where that list does not fit, such as suicide and abortion. Pick a translation with the toggle on any{" "}
+            {handChosenCount} topics that carry a written summary, such as suicide and abortion. Pick a translation with the toggle on any{" "}
             <Link href="/verses/love" className="underline underline-offset-2 hover:text-primary">
               topic page
             </Link>
