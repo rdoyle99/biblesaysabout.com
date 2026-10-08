@@ -119,10 +119,6 @@ export default function About() {
             </Link>
             .
           </p>
-          <p className="leading-relaxed">
-            The summaries and FAQ answers on topic pages are written with AI assistance. No verse is generated: each one is copied from the
-            sources above.
-          </p>
         </Section>
 
         <Section title="How the numbers are counted" muted>
