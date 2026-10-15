@@ -1,0 +1,254 @@
+word,kind,kjv_total,kjv_verses,kjv_old_testament,kjv_new_testament,kjv_books,web_total,web_verses,web_old_testament,web_new_testament,web_books,kjv_first_ref,kjv_last_ref,kjv_most_in_one_verse_ref,kjv_most_in_one_verse_count,url_path
+love,word,492,415,238,254,54,537,457,260,277,55,Genesis 22:2,Revelation 22:15,Luke 6:32,4,/words/love
+God,name,4716,4063,3335,1381,64,4349,3740,2991,1358,63,Genesis 1:1,Revelation 22:19,Exodus 3:6,5,/words/god
+Jesus,name,984,943,0,984,26,980,938,0,980,26,Matthew 1:1,Revelation 22:21,John 19:38,3,/words/jesus
+Christ,name,573,534,0,573,26,562,525,0,562,26,Matthew 1:1,Revelation 22:21,2 Corinthians 10:7,3,/words/christ
+Lord,name,8007,6778,7273,734,61,8268,6754,7538,730,62,Genesis 2:4,Revelation 22:21,1 Kings 19:11,5,/words/lord
+Holy Spirit,phrase,97,96,3,94,19,96,95,3,93,18,Psalm 51:11,Jude 1:20,Acts 19:2,2,/words/holy-spirit
+faith,word,247,231,2,245,26,249,232,2,247,26,Deuteronomy 32:20,Revelation 14:12,Romans 1:17,3,/words/faith
+hope,word,143,135,76,67,30,156,145,70,86,34,Ruth 1:12,1 John 3:3,Romans 8:24,4,/words/hope
+grace,word,170,159,39,131,36,140,130,10,130,27,Genesis 6:8,Revelation 22:21,Romans 11:6,4,/words/grace
+fear,word,509,489,394,115,55,376,362,281,95,54,Genesis 9:2,Revelation 19:5,1 John 4:18,4,/words/fear
+fear not,phrase,103,101,78,25,31,108,106,83,25,34,Genesis 15:1,Revelation 1:17,Jeremiah 42:11,2,/words/fear-not
+heaven,word,716,670,441,275,53,495,462,272,223,48,Genesis 1:1,Revelation 21:10,Nehemiah 9:6,4,/words/heaven
+hell,word,54,54,31,23,17,89,87,65,24,25,Deuteronomy 32:22,Revelation 20:14,,,/words/hell
+money,word,140,123,117,23,26,140,124,112,28,28,Genesis 17:12,1 Timothy 6:10,2 Kings 12:4,4,/words/money
+prayer,word,133,128,80,53,32,122,117,76,46,30,2 Samuel 7:27,Revelation 8:4,1 Kings 8:28,2,/words/prayer
+peace,word,429,400,318,111,59,412,382,314,98,59,Genesis 15:15,Revelation 6:4,1 Samuel 25:6,3,/words/peace
+joy,word,190,178,126,64,38,195,186,133,62,41,1 Samuel 18:6,Jude 1:24,Isaiah 9:3,3,/words/joy
+Satan,name,56,49,19,37,16,55,48,18,37,15,1 Chronicles 21:1,Revelation 20:7,Job 1:7,2,/words/satan
+devil,word,116,105,4,112,19,35,33,0,35,13,Leviticus 17:7,Revelation 20:10,1 John 3:8,3,/words/devil
+angel,word,297,283,117,180,34,287,274,115,172,33,Genesis 16:7,Revelation 22:16,2 Samuel 24:16,3,/words/angels
+forgiveness,word,120,102,51,69,24,129,111,62,67,27,Genesis 50:17,1 John 2:12,2 Corinthians 2:10,5,/words/forgiveness
+worry,word,0,0,0,0,0,3,3,1,2,3,,,,,/words/worry
+anxious,word,0,0,0,0,0,20,19,3,17,7,,,,,/words/anxiety
+sin,word,771,647,544,227,52,790,662,559,231,52,Genesis 4:7,Revelation 18:5,Leviticus 4:3,5,/words/sin
+Israel,name,2577,2301,2502,75,47,2581,2303,2507,74,47,Genesis 32:28,Revelation 21:12,Numbers 8:19,5,/words/israel
+David,name,1064,895,1005,59,28,1063,894,1004,59,28,Ruth 4:17,Revelation 22:16,1 Samuel 30:21,4,/words/david
+Moses,name,847,783,767,80,31,849,786,769,80,31,Exodus 2:10,Revelation 15:3,Exodus 34:29,3,/words/moses
+Abraham,name,311,277,237,74,27,315,281,240,75,27,Genesis 11:26,1 Peter 3:6,Genesis 16:3,3,/words/abraham
+Mary,name,54,46,0,54,6,53,45,0,53,6,Matthew 1:16,Romans 16:6,Matthew 27:56,2,/words/mary
+Paul,name,162,158,0,162,15,161,157,0,161,15,Acts 13:9,2 Peter 3:15,Acts 15:2,2,/words/paul
+Peter,name,162,156,0,162,8,162,157,0,162,8,Matthew 4:18,2 Peter 1:1,Luke 22:61,2,/words/peter
+seven,word,589,493,488,101,38,592,496,489,103,38,Genesis 2:2,Revelation 21:20,Revelation 1:20,6,/words/seven
+forty,word,161,149,137,24,29,162,150,138,24,29,Genesis 5:13,Revelation 21:17,Genesis 7:4,2,/words/forty
+twelve,word,211,182,135,76,26,211,180,133,78,26,Genesis 5:8,Revelation 22:2,Numbers 7:87,4,/words/twelve
+wine,word,232,213,195,37,44,256,230,210,46,43,Genesis 9:21,Revelation 18:13,Mark 2:22,4,/words/wine
+drunk,word,81,77,62,19,33,76,73,55,21,35,Genesis 9:21,Revelation 18:3,Isaiah 51:17,2,/words/drunkenness
+dragon,word,35,34,22,13,10,14,13,1,13,2,Deuteronomy 32:33,Revelation 20:2,Revelation 12:7,2,/words/dragon
+unicorn,word,9,9,9,0,5,0,0,0,0,0,Numbers 23:22,Isaiah 34:7,,,/words/unicorn
+woman,word,547,509,396,151,48,542,504,393,149,48,Genesis 2:22,Revelation 17:18,Deuteronomy 22:22,3,/words/woman
+wisdom,word,234,222,181,53,28,227,214,174,53,27,Exodus 28:3,Revelation 17:9,1 Kings 4:30,3,/words/wisdom
+trust,word,187,184,152,35,36,134,130,124,10,23,Deuteronomy 32:37,3 John 1:14,2 Kings 18:21,2,/words/trust
+death,word,376,346,237,139,45,400,370,258,142,45,Genesis 21:16,Revelation 21:8,Deuteronomy 17:6,3,/words/death
+water,word,702,628,612,90,49,704,625,611,93,48,Genesis 1:2,Revelation 22:17,Genesis 1:6,3,/words/water
+light,word,282,243,183,99,48,263,229,171,92,44,Genesis 1:3,Revelation 22:5,Isaiah 30:26,4,/words/light
+cross,word,28,28,0,28,10,33,33,4,29,13,Matthew 10:38,Hebrews 12:2,,,/words/cross
+blood,word,447,375,346,101,41,442,369,341,101,41,Genesis 4:10,Revelation 19:13,Ezekiel 35:6,4,/words/blood
+gold,word,483,415,442,41,43,482,416,441,41,43,Genesis 2:11,Revelation 21:21,Exodus 26:29,3,/words/gold
+amen,word,78,72,27,51,31,77,71,28,49,29,Numbers 5:22,Revelation 22:21,Numbers 5:22,2,/words/amen
+hallelujah,phrase,29,28,25,4,4,29,28,25,4,2,Judges 5:2,Revelation 19:6,Psalm 148:1,2,/words/hallelujah
+mercy,word,360,336,290,70,45,218,196,143,75,40,Genesis 19:16,Jude 1:21,James 2:13,3,/words/mercy
+glory,word,522,476,278,244,51,494,449,264,230,51,Genesis 31:1,Revelation 21:26,1 Corinthians 15:41,4,/words/glory
+truth,word,235,222,117,118,46,210,197,100,110,44,Genesis 24:27,3 John 1:12,Proverbs 22:21,2,/words/truth
+righteousness,word,306,289,207,99,40,313,300,218,95,41,Genesis 15:6,Revelation 19:11,Romans 9:30,3,/words/righteousness
+salvation,word,164,158,119,45,32,163,159,117,46,32,Genesis 49:18,Revelation 19:1,Isaiah 12:2,2,/words/salvation
+repent,word,110,103,44,66,28,73,69,17,56,20,Genesis 6:6,Revelation 16:11,1 Samuel 15:29,2,/words/repent
+kingdom of God,phrase,69,68,0,69,10,69,68,0,69,10,Matthew 6:33,2 Thessalonians 1:5,Luke 17:20,2,/words/kingdom-of-god
+kingdom of heaven,phrase,32,31,0,32,1,31,30,0,31,1,Matthew 3:2,Matthew 25:14,Matthew 5:19,2,/words/kingdom-of-heaven
+eternal life,phrase,41,41,1,40,11,45,45,1,44,12,Daniel 12:2,Jude 1:21,,,/words/eternal-life
+Son of Man,phrase,196,192,108,88,14,196,192,109,87,14,Numbers 23:19,Revelation 14:14,Matthew 24:30,2,/words/son-of-man
+rest,word,304,294,258,46,43,326,317,261,65,45,Genesis 2:2,Revelation 20:5,Exodus 23:12,2,/words/rest
+patience,word,49,46,3,46,18,35,32,9,26,22,Psalm 37:7,Revelation 14:12,James 5:7,2,/words/patience
+obey,word,144,139,90,54,39,135,129,84,51,37,Genesis 22:18,1 Peter 4:17,Romans 6:16,3,/words/obey
+worship,word,196,186,118,78,33,183,171,114,69,33,Genesis 22:5,Revelation 22:9,John 4:23,3,/words/worship
+praise,word,311,266,276,35,32,306,263,273,33,33,Genesis 29:35,Revelation 19:5,Psalm 47:6,4,/words/praise
+sabbath,word,171,146,111,60,20,168,144,107,61,21,Exodus 16:23,Colossians 2:16,Nehemiah 13:19,3,/words/sabbath
+tithe,word,40,32,32,8,11,42,32,33,9,10,Genesis 14:20,Hebrews 7:9,Deuteronomy 26:12,3,/words/tithe
+marriage,word,77,62,27,50,22,84,73,39,45,22,Genesis 19:14,Revelation 19:9,Numbers 12:1,2,/words/marriage
+divorce,word,11,11,7,4,7,23,19,9,14,9,Leviticus 21:14,Mark 10:4,,,/words/divorce
+healing,word,137,131,63,74,28,149,143,73,76,29,Genesis 20:17,Revelation 22:2,Isaiah 19:22,2,/words/healing
+strength,word,320,305,295,25,45,272,262,251,21,41,Genesis 4:12,Revelation 17:13,Joshua 14:11,2,/words/strength
+courage,word,26,26,25,1,12,31,31,26,5,14,Numbers 13:20,Acts 28:15,,,/words/courage
+pride,word,97,91,88,9,25,100,94,92,8,25,Leviticus 26:19,1 John 2:16,Isaiah 16:6,3,/words/pride
+humility,word,69,63,55,14,25,97,89,70,27,29,Exodus 10:3,1 Peter 5:6,1 Kings 21:29,2,/words/humility
+sheep,word,187,178,145,42,33,204,183,162,42,32,Genesis 4:2,Revelation 18:13,Exodus 22:1,3,/words/sheep
+lamb,word,188,175,153,35,23,188,175,152,36,23,Genesis 21:28,Revelation 22:3,Exodus 12:3,2,/words/lamb
+thankful,word,135,130,66,69,30,167,160,98,69,29,Leviticus 7:12,Revelation 11:17,Leviticus 7:12,2,/words/thankful
+rejoice,word,285,265,208,77,46,265,242,184,81,43,Exodus 18:9,Revelation 19:7,Nehemiah 12:43,3,/words/rejoice
+blessed,word,516,459,407,109,45,510,455,394,116,45,Genesis 1:22,Revelation 22:14,Genesis 49:25,4,/words/blessed
+Jerusalem,name,811,764,667,144,36,808,762,664,144,36,Joshua 10:1,Revelation 21:10,Joshua 15:63,2,/words/jerusalem
+Egypt,name,611,558,587,24,32,616,560,592,24,32,Genesis 12:10,Revelation 11:8,Isaiah 19:1,4,/words/egypt
+church,word,114,111,0,114,18,0,0,0,0,0,Matthew 16:18,Revelation 22:16,Matthew 18:17,2,/words/church
+fasting,word,36,36,22,14,20,39,39,22,17,19,Judges 20:26,2 Corinthians 11:27,,,/words/fasting
+remember,word,263,257,202,61,51,226,223,178,48,47,Genesis 8:1,Revelation 18:5,Leviticus 26:42,3,/words/remember
+dream,word,121,86,112,9,17,122,86,114,8,16,Genesis 20:3,Jude 1:8,Genesis 37:9,4,/words/dreams
+music,word,20,20,18,2,10,23,22,22,1,12,1 Samuel 18:6,Revelation 18:22,,,/words/music
+dance,word,27,26,22,5,14,29,28,24,5,14,Exodus 15:20,Luke 15:25,Judges 21:21,2,/words/dance
+dog,word,41,40,32,9,19,40,39,31,9,18,Exodus 11:7,Revelation 22:15,1 Kings 21:19,2,/words/dog
+lion,word,150,119,141,9,31,139,117,130,9,31,Genesis 49:9,Revelation 13:2,Nahum 2:11,5,/words/lion
+children,word,2027,1700,1806,221,58,2010,1682,1772,238,59,Genesis 3:16,Revelation 21:12,Joshua 17:2,8,/words/children
+mother,word,328,299,232,96,39,337,307,239,98,40,Genesis 2:24,Revelation 17:5,Luke 12:53,4,/words/mother
+father,word,1675,1471,1247,428,57,1911,1608,1438,473,58,Genesis 2:24,Revelation 14:1,Genesis 27:31,3,/words/father
+friend,word,102,96,67,35,26,115,108,76,39,29,Genesis 26:26,3 John 1:14,2 Samuel 16:17,2,/words/friend
+heart,word,946,871,779,167,56,953,880,781,172,58,Genesis 6:5,Revelation 18:7,Deuteronomy 30:6,3,/words/heart
+holy,word,611,544,430,181,50,674,600,485,189,50,Exodus 3:5,Revelation 22:19,Ezekiel 42:13,4,/words/holy
+kindness,word,84,79,76,8,26,226,221,219,7,33,Genesis 20:13,2 Peter 1:7,Joshua 2:12,2,/words/kindness
+comfort,word,117,105,71,46,27,103,88,68,35,21,Genesis 5:29,2 Thessalonians 2:17,2 Corinthians 1:4,4,/words/comfort
+spirit,word,551,499,258,293,52,645,586,264,381,54,Genesis 1:2,Revelation 22:17,Isaiah 11:2,4,/words/spirit
+covenant,word,295,275,272,23,32,317,295,281,36,37,Genesis 6:18,Hebrews 13:20,Leviticus 26:42,3,/words/covenant
+miracle,word,37,37,5,32,12,11,11,2,9,6,Exodus 7:9,Revelation 19:20,,,/words/miracle
+prophet,word,482,447,321,161,43,480,446,320,160,43,Genesis 20:7,Revelation 22:9,Jeremiah 28:9,3,/words/prophet
+baptism,word,98,74,0,98,11,97,74,0,97,11,Matthew 3:6,1 Peter 3:21,Matthew 20:22,3,/words/baptism
+resurrection,word,41,40,0,41,12,43,41,0,43,12,Matthew 22:23,Revelation 20:6,John 5:29,2,/words/resurrection
+grief,word,119,107,97,22,33,79,72,62,17,24,Genesis 3:16,Revelation 21:4,Genesis 3:16,2,/words/grief
+anger,word,278,268,266,12,44,356,341,333,23,48,Genesis 18:30,Revelation 11:18,Deuteronomy 32:21,2,/words/anger
+sleep,word,144,131,110,34,29,143,131,111,32,29,Genesis 2:21,1 Thessalonians 5:10,Genesis 2:21,2,/words/sleep
+debt,word,18,17,5,13,9,18,17,8,10,12,1 Samuel 22:2,Galatians 5:3,Matthew 6:12,2,/words/debt
+tattoo,word,0,0,0,0,0,1,1,1,0,1,,,,,/words/tattoo
+Noah,name,58,51,50,8,11,58,51,50,8,11,Genesis 5:29,2 Peter 2:5,Genesis 6:9,3,/words/noah
+Adam,name,31,27,22,9,10,21,19,12,9,10,Genesis 2:19,Jude 1:14,Genesis 2:19,2,/words/adam
+Eve,name,4,4,2,2,3,4,4,2,2,3,Genesis 3:20,1 Timothy 2:13,,,/words/eve
+Isaac,name,132,123,112,20,21,132,123,112,20,21,Genesis 17:19,James 2:21,Genesis 24:67,2,/words/isaac
+Jacob,name,377,345,350,27,29,381,347,354,27,29,Genesis 25:26,Hebrews 11:21,Genesis 25:33,2,/words/jacob
+Joseph,name,250,229,215,35,23,249,228,214,35,23,Genesis 30:24,Revelation 7:8,Genesis 37:28,3,/words/joseph
+Solomon,name,304,272,292,12,14,304,272,292,12,14,2 Samuel 5:14,Acts 7:47,1 Kings 1:51,3,/words/solomon
+Aaron,name,350,331,345,5,16,352,333,347,5,16,Exodus 4:14,Hebrews 9:4,Exodus 28:1,3,/words/aaron
+Joshua,name,216,197,216,0,10,221,202,219,2,13,Exodus 17:9,Zechariah 6:11,Deuteronomy 31:14,2,/words/joshua
+Samuel,name,142,121,139,3,7,143,121,140,3,7,1 Samuel 1:20,Hebrews 11:32,1 Samuel 3:10,3,/words/samuel
+Saul,name,420,346,394,26,6,419,345,393,26,5,Genesis 36:37,Acts 26:14,1 Samuel 15:35,3,/words/saul
+Elijah,name,99,93,69,30,11,101,95,71,30,12,1 Kings 17:1,James 5:17,1 Kings 17:23,2,/words/elijah
+Elisha,name,59,53,58,1,3,59,54,58,1,3,1 Kings 19:16,Luke 4:27,2 Kings 2:2,2,/words/elisha
+Daniel,name,83,73,81,2,7,83,73,81,2,7,1 Chronicles 3:1,Mark 13:14,Daniel 5:13,3,/words/daniel
+John,name,133,130,0,133,7,133,130,0,133,7,Matthew 3:1,Revelation 22:8,Mark 2:18,2,/words/john
+James,name,42,38,0,42,8,42,38,0,42,8,Matthew 4:21,Jude 1:1,Acts 1:13,3,/words/james
+Judas,name,33,32,0,33,5,30,29,0,30,5,Matthew 1:2,Acts 15:32,Luke 6:16,2,/words/judas
+Martha,name,13,12,0,13,2,13,12,0,13,2,Luke 10:38,John 12:2,Luke 10:41,2,/words/martha
+Lazarus,name,15,15,0,15,2,15,15,0,15,2,Luke 16:20,John 12:17,,,/words/lazarus
+Gabriel,name,4,4,2,2,2,4,4,2,2,2,Daniel 8:16,Luke 1:26,,,/words/gabriel
+Michael,name,15,15,13,2,7,15,15,13,2,7,Numbers 13:13,Revelation 12:7,,,/words/michael
+Stephen,name,7,7,0,7,1,7,7,0,7,1,Acts 6:5,Acts 22:20,,,/words/stephen
+Timothy,name,24,24,0,24,12,24,24,0,24,12,Acts 16:1,Hebrews 13:23,,,/words/timothy
+Thomas,name,12,12,0,12,5,11,11,0,11,5,Matthew 10:3,Acts 1:13,,,/words/thomas
+Barnabas,name,29,28,0,29,4,29,28,0,29,4,Acts 4:36,Colossians 4:10,Acts 15:2,2,/words/barnabas
+Silas,name,13,13,0,13,1,12,12,0,12,1,Acts 15:22,Acts 18:5,,,/words/silas
+Ruth,name,13,13,12,1,2,13,13,12,1,2,Ruth 1:4,Matthew 1:5,,,/words/ruth
+Esther,name,53,43,53,0,1,52,42,52,0,1,Esther 2:7,Esther 9:32,Esther 5:2,3,/words/esther
+Job,name,60,54,59,1,4,59,53,58,1,3,Genesis 46:13,James 5:11,Job 1:5,3,/words/job
+Sarah,name,59,48,56,3,5,59,48,55,4,5,Genesis 11:29,1 Peter 3:6,Genesis 17:15,3,/words/sarah
+Rebekah,name,31,30,30,1,2,31,30,30,1,2,Genesis 22:23,Romans 9:10,Genesis 24:61,2,/words/rebekah
+Rachel,name,47,44,46,1,4,48,45,47,1,5,Genesis 29:6,Matthew 2:18,Genesis 29:18,2,/words/rachel
+Leah,name,34,32,34,0,2,34,32,34,0,2,Genesis 29:16,Ruth 4:11,Genesis 30:14,2,/words/leah
+Samson,name,39,38,38,1,2,39,38,38,1,2,Judges 13:24,Hebrews 11:32,Judges 16:25,2,/words/samson
+Goliath,name,6,6,6,0,3,6,6,6,0,3,1 Samuel 17:4,1 Chronicles 20:5,,,/words/goliath
+Gideon,name,39,37,39,0,1,40,38,39,1,2,Judges 6:11,Judges 8:35,Judges 6:22,2,/words/gideon
+Jonah,name,31,27,19,12,5,32,28,18,14,5,2 Kings 14:25,John 21:17,Jonah 1:17,2,/words/jonah
+Isaiah,name,53,53,32,21,9,53,53,32,21,9,2 Kings 19:2,Romans 15:12,,,/words/isaiah
+Jeremiah,name,150,136,147,3,8,150,136,147,3,8,2 Kings 23:31,Matthew 27:9,Jeremiah 38:6,3,/words/jeremiah
+Nebuchadnezzar,name,91,88,91,0,9,91,88,91,0,9,2 Kings 24:1,Daniel 5:18,Daniel 2:1,2,/words/nebuchadnezzar
+Pharaoh,name,279,240,274,5,17,280,240,275,5,17,Genesis 12:15,Hebrews 11:24,Genesis 12:15,3,/words/pharaoh
+Herod,name,44,41,0,44,4,44,41,0,44,4,Matthew 2:1,Acts 23:35,Matthew 14:6,2,/words/herod
+Pilate,name,56,54,0,56,6,56,54,0,56,6,Matthew 27:2,1 Timothy 6:13,Matthew 27:58,2,/words/pilate
+Cain,name,22,18,19,3,5,22,17,19,3,4,Genesis 4:1,Jude 1:11,Genesis 4:5,2,/words/cain
+Ishmael,name,48,44,48,0,6,48,44,48,0,6,Genesis 16:11,Jeremiah 41:18,Genesis 25:13,2,/words/ishmael
+Esau,name,100,85,97,3,9,102,87,99,3,9,Genesis 25:25,Hebrews 12:16,Genesis 36:10,3,/words/esau
+Judah,name,826,763,815,11,38,840,774,826,14,39,Genesis 29:35,Revelation 7:5,2 Chronicles 13:15,3,/words/judah
+Babylon,name,294,260,282,12,17,295,260,283,12,17,2 Kings 17:24,Revelation 18:21,2 Kings 24:12,2,/words/babylon
+Bethlehem,name,39,38,31,8,15,49,47,41,8,15,Genesis 35:19,John 7:42,Ruth 1:19,2,/words/bethlehem
+Nazareth,name,29,29,0,29,5,24,24,0,24,5,Matthew 2:23,Acts 26:9,,,/words/nazareth
+Galilee,name,72,71,6,66,10,71,70,6,65,10,Joshua 20:7,Acts 13:31,John 7:52,2,/words/galilee
+Jordan,name,197,179,182,15,21,196,179,181,15,21,Genesis 13:10,John 10:40,Joshua 4:7,3,/words/jordan
+Sinai,name,37,36,35,2,8,39,38,35,4,9,Exodus 16:1,Galatians 4:25,Leviticus 7:38,2,/words/sinai
+Sodom,name,48,47,39,9,14,49,48,39,10,15,Genesis 10:19,Revelation 11:8,Genesis 19:1,2,/words/sodom
+Gomorrah,name,24,24,19,5,11,24,24,19,5,11,Genesis 10:19,Jude 1:7,,,/words/gomorrah
+Eden,name,20,19,20,0,7,20,19,20,0,7,Genesis 2:8,Amos 1:5,Ezekiel 31:18,2,/words/eden
+Zion,name,153,153,153,0,16,161,161,154,7,22,2 Samuel 5:7,Zechariah 9:13,,,/words/zion
+Canaan,name,91,88,90,1,13,91,88,89,2,12,Genesis 9:18,Matthew 15:22,Genesis 12:5,2,/words/canaan
+Damascus,name,61,56,46,15,15,61,56,45,16,15,Genesis 14:15,Galatians 1:17,1 Kings 11:24,2,/words/damascus
+Jericho,name,64,59,57,7,15,63,58,56,7,15,Numbers 22:1,Hebrews 11:30,Joshua 16:1,3,/words/jericho
+Samaria,name,124,115,111,13,15,122,114,111,11,15,1 Kings 13:32,Acts 15:3,1 Kings 16:24,2,/words/samaria
+Nineveh,name,18,17,17,1,7,19,18,17,2,8,Genesis 10:11,Matthew 12:41,Jonah 3:3,2,/words/nineveh
+serpent,word,53,49,38,15,21,43,39,30,13,19,Genesis 3:1,Revelation 20:2,Numbers 21:9,3,/words/serpent
+bread,word,361,330,281,80,38,381,346,295,86,39,Genesis 3:19,2 Thessalonians 3:12,Exodus 29:23,3,/words/bread
+honey,word,65,61,60,5,23,65,61,60,5,23,Genesis 43:11,Revelation 10:10,Psalm 19:10,2,/words/honey
+milk,word,48,48,43,5,18,50,50,45,5,19,Genesis 18:8,1 Peter 2:2,,,/words/milk
+oil,word,202,187,191,11,31,216,200,205,11,35,Genesis 28:18,Revelation 18:13,Leviticus 7:12,3,/words/oil
+salt,word,40,34,30,10,19,46,40,36,10,22,Genesis 14:3,James 3:12,Leviticus 2:13,3,/words/salt
+fire,word,550,507,467,83,47,548,506,468,80,47,Genesis 19:24,Revelation 21:8,Numbers 31:23,3,/words/fire
+sword,word,448,404,411,37,42,449,405,413,36,42,Genesis 3:24,Revelation 19:21,1 Samuel 25:13,3,/words/sword
+king,word,2874,2191,2752,122,46,2878,2195,2759,119,45,Genesis 14:1,Revelation 21:24,Joshua 10:5,6,/words/king
+priest,word,944,833,785,159,35,943,833,781,162,37,Genesis 14:18,Revelation 20:6,Leviticus 14:36,3,/words/priest
+wife,word,540,480,439,101,41,536,475,435,101,41,Genesis 2:24,Revelation 21:9,Genesis 11:29,3,/words/wife
+wicked,word,471,431,438,33,43,452,414,426,26,44,Genesis 6:5,1 John 5:19,Jeremiah 44:9,5,/words/wicked
+mountain,word,314,294,273,41,40,389,357,342,47,43,Genesis 7:20,Revelation 21:10,Joshua 11:21,3,/words/mountain
+tree,word,362,287,301,61,44,348,285,287,61,44,Genesis 1:11,Revelation 22:14,Ezekiel 17:24,9,/words/tree
+vine,word,188,170,155,33,38,197,176,165,32,39,Genesis 9:20,Revelation 14:19,1 Kings 21:6,3,/words/vine
+eagle,word,32,32,28,4,18,28,28,25,3,15,Exodus 19:4,Revelation 12:14,,,/words/eagle
+horse,word,154,144,138,16,30,157,147,140,17,30,Genesis 47:17,Revelation 19:21,Deuteronomy 17:16,2,/words/horse
+camel,word,59,56,55,4,21,58,55,54,4,20,Genesis 12:16,Luke 18:25,Genesis 24:10,2,/words/camel
+fish,word,62,57,35,27,22,65,60,37,28,23,Genesis 1:26,1 Corinthians 15:39,Ezekiel 29:4,2,/words/fish
+wolf,word,13,12,7,6,10,16,15,10,6,10,Genesis 49:27,Acts 20:29,John 10:12,2,/words/wolf
+sparrow,word,6,6,2,4,3,7,7,3,4,4,Psalm 84:3,Luke 12:7,,,/words/sparrow
+goat,word,132,127,126,6,19,157,152,149,8,22,Genesis 15:9,Hebrews 10:4,Genesis 30:35,2,/words/goat
+dove,word,30,30,21,9,12,31,31,22,9,12,Genesis 8:8,John 2:16,,,/words/dove
+locust,word,28,24,24,4,13,36,30,32,4,17,Exodus 10:4,Revelation 9:7,Exodus 10:14,2,/words/locust
+soul,word,537,498,479,58,42,502,469,446,56,42,Genesis 2:7,Revelation 20:4,Ezekiel 18:4,4,/words/soul
+bride,word,14,14,9,5,5,20,20,15,5,6,Isaiah 49:18,Revelation 22:17,,,/words/bride
+widow,word,76,73,49,27,24,78,74,50,28,23,Genesis 38:11,Revelation 18:7,Ezekiel 44:22,2,/words/widow
+poor,word,205,197,170,35,32,174,168,139,35,28,Genesis 41:19,Revelation 13:16,Deuteronomy 15:7,2,/words/poor
+riches,word,98,95,72,26,27,85,83,59,26,26,Genesis 31:16,Revelation 18:17,Proverbs 8:18,2,/words/riches
+sun,word,160,152,130,30,36,157,149,128,29,37,Genesis 15:12,Revelation 22:5,Joshua 10:13,2,/words/sun
+moon,word,62,62,52,10,27,66,65,56,10,29,Genesis 37:9,Revelation 21:23,,,/words/moon
+wilderness,word,304,293,269,35,36,301,287,268,33,35,Genesis 14:6,Revelation 17:3,Exodus 15:22,2,/words/wilderness
+crown,word,81,80,58,23,30,80,77,56,24,29,Genesis 49:26,Revelation 19:12,Song of Solomon 3:11,2,/words/crown
+throne,word,185,165,130,55,28,193,169,130,63,27,Genesis 41:40,Revelation 22:3,Revelation 4:6,3,/words/throne
+altar,word,433,364,409,24,33,440,366,415,25,33,Genesis 8:20,Revelation 16:7,Exodus 29:37,3,/words/altar
+temple,word,213,191,94,119,34,226,206,108,118,34,Judges 4:21,Revelation 21:22,2 Kings 11:11,3,/words/temple
+tabernacle,word,358,327,333,25,32,123,114,109,14,12,Exodus 25:9,Revelation 21:3,Exodus 33:7,3,/words/tabernacle
+ark,word,230,199,224,6,19,197,170,195,2,15,Genesis 6:14,Revelation 11:19,Exodus 40:20,3,/words/ark
+sacrifice,word,332,306,291,41,40,321,292,270,51,41,Genesis 31:54,Revelation 2:20,1 Samuel 16:5,3,/words/sacrifice
+incense,word,129,121,124,5,18,135,129,127,8,21,Exodus 25:6,Revelation 8:4,Exodus 30:7,2,/words/incense
+idol,word,116,105,95,21,22,119,110,97,22,25,Leviticus 19:4,Revelation 9:20,1 Kings 15:13,2,/words/idol
+apostle,word,79,77,0,79,19,81,79,0,81,20,Matthew 10:2,Revelation 21:14,1 Corinthians 15:9,2,/words/apostle
+disciple,word,273,256,1,272,6,278,259,1,277,6,Isaiah 8:16,Acts 21:16,Mark 2:18,3,/words/disciple
+elder,word,199,194,130,69,36,214,208,145,69,36,Genesis 10:21,Revelation 19:4,Genesis 50:7,2,/words/elder
+gospel,word,101,95,0,101,19,0,0,0,0,0,Matthew 4:23,Revelation 14:6,1 Corinthians 9:18,3,/words/gospel
+parable,word,65,63,18,47,11,69,67,20,49,13,Numbers 23:7,John 10:6,Matthew 13:34,2,/words/parable
+demon,word,0,0,0,0,0,79,70,2,77,10,,,,,/words/demon
+judgment,word,421,408,340,81,50,219,212,141,78,47,Genesis 18:19,Revelation 20:4,Exodus 28:30,2,/words/judgment
+wrath,word,198,194,151,47,41,238,230,195,43,40,Genesis 39:19,Revelation 19:15,Job 32:2,2,/words/wrath
+vengeance,word,45,39,38,7,17,49,43,44,5,19,Genesis 4:15,Jude 1:7,Psalm 94:1,2,/words/vengeance
+envy,word,34,33,16,18,18,23,22,14,9,14,Genesis 26:14,James 4:5,Isaiah 11:13,2,/words/envy
+lust,word,54,52,12,42,22,46,44,8,38,19,Exodus 15:9,Revelation 18:14,1 Corinthians 10:6,2,/words/lust
+hate,word,196,183,156,40,34,192,176,153,39,34,Genesis 24:60,Revelation 17:16,Deuteronomy 21:15,3,/words/hate
+compassion,word,43,41,22,21,21,56,53,35,21,25,Exodus 2:6,Jude 1:22,1 Kings 8:50,2,/words/compassion
+goodness,word,51,48,42,9,18,33,30,23,10,15,Exodus 18:9,2 Thessalonians 1:11,Romans 11:22,3,/words/goodness
+faithful,word,101,97,47,54,28,115,112,61,54,32,Numbers 12:7,Revelation 22:6,Matthew 25:21,2,/words/faithful
+righteous,word,238,225,195,43,38,296,278,227,69,44,Genesis 7:1,Revelation 22:11,Matthew 10:41,3,/words/righteous
+sinner,word,69,67,25,44,19,71,69,24,47,20,Genesis 13:13,Jude 1:15,Mark 2:16,2,/words/sinner
+saint,word,101,98,39,62,24,91,90,29,62,20,Deuteronomy 33:2,Revelation 20:9,Daniel 8:13,3,/words/saint
+redemption,word,158,135,138,20,29,158,136,139,19,28,Genesis 48:16,Revelation 14:4,Ruth 4:4,5,/words/redemption
+atonement,word,81,70,80,1,8,92,80,91,1,11,Exodus 29:33,Romans 5:11,Leviticus 16:33,3,/words/atonement
+Gentiles,word,131,123,30,101,27,85,78,3,82,16,Genesis 10:5,Revelation 11:2,Luke 21:24,2,/words/gentiles
+giant,word,21,19,21,0,7,8,8,8,0,3,Genesis 6:4,Job 16:14,Numbers 13:33,2,/words/giants
+Easter,word,1,1,0,1,1,0,0,0,0,0,Acts 12:4,Acts 12:4,,,/words/easter
+Selah,word,75,75,75,0,3,75,75,75,0,3,2 Kings 14:7,Habakkuk 3:13,,,/words/selah
+behold,word,1326,1275,1104,222,52,1342,1280,1124,218,51,Genesis 1:29,Revelation 22:12,Isaiah 29:8,3,/words/behold
+verily,word,140,113,16,124,22,103,100,17,86,23,Genesis 42:21,1 John 2:5,Psalm 58:11,2,/words/verily
+manna,word,19,17,14,5,9,18,16,13,5,9,Exodus 16:15,Revelation 2:17,Exodus 16:35,2,/words/manna
+Passover,word,77,72,49,28,15,78,73,49,29,16,Exodus 12:11,Hebrews 11:28,Numbers 9:14,2,/words/passover
+Jehovah,name,7,7,7,0,5,0,0,0,0,0,Genesis 22:14,Isaiah 26:4,,,/words/jehovah
+Yahweh,name,0,0,0,0,0,6833,5794,6833,0,37,,,,,/words/yahweh
+Leviathan,word,5,4,5,0,3,6,5,6,0,3,Job 41:1,Isaiah 27:1,Isaiah 27:1,2,/words/leviathan
+Antichrist,name,5,4,0,5,2,5,4,0,5,2,1 John 2:18,2 John 1:7,1 John 2:18,2,/words/antichrist
+thus saith the LORD,phrase,415,413,415,0,19,128,128,128,0,4,Exodus 4:22,Malachi 1:4,1 Kings 21:19,2,/words/thus-saith-the-lord
+"verily, verily",phrase,25,25,0,25,1,0,0,0,0,0,John 1:51,John 21:18,,,/words/verily-verily
+born again,phrase,3,3,0,3,2,4,4,0,4,2,John 3:3,1 Peter 1:23,,,/words/born-again
+Son of God,phrase,59,58,6,53,16,42,41,1,41,13,Genesis 6:2,Revelation 2:18,1 John 5:13,2,/words/son-of-god
+Alpha and Omega,phrase,4,4,0,4,1,3,3,0,3,1,Revelation 1:8,Revelation 22:13,,,/words/alpha-and-omega
+love one another,phrase,13,12,0,13,6,13,12,0,13,6,John 13:34,2 John 1:5,John 13:34,2,/words/love-one-another
+fear of the LORD,phrase,30,30,29,1,7,23,23,23,0,4,1 Samuel 11:7,Acts 9:31,,,/words/fear-of-the-lord
+forty days,phrase,22,22,18,4,12,22,22,18,4,12,Genesis 7:4,Acts 1:3,,,/words/forty-days
+Jesus Christ,phrase,196,187,0,196,25,166,160,0,166,25,Matthew 1:1,Revelation 22:21,1 Corinthians 5:4,2,/words/jesus-christ
+praise the LORD,phrase,58,54,57,1,10,59,53,58,1,8,Genesis 29:35,Romans 15:11,Psalm 111:1,2,/words/praise-the-lord
+666,phrase,4,4,3,1,4,4,4,3,1,4,1 Kings 10:14,Revelation 13:18,,,/words/666
