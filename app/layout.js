@@ -116,7 +116,7 @@ export default function RootLayout({ children }) {
           <Toaster position="bottom-right" richColors />
         </TooltipProvider>
         <Script
-          src="https://whyusersleave.com/sdk.js"
+          src="https://ingest.getuserproof.com/sdk.js"
           data-site="a9ad605b-fb38-415b-880d-c0c76522a957"
           strategy="afterInteractive"
         />
