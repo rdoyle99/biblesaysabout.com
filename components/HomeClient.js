@@ -433,6 +433,12 @@ export default function HomeClient({
               How many times is a word in the Bible?
             </Link>
             <Link
+              href="/names-of-god"
+              className="inline-flex items-center rounded-full border px-5 py-2.5 text-sm font-medium hover:bg-muted transition-colors"
+            >
+              Names of God and their meanings
+            </Link>
+            <Link
               href="/how-long-does-it-take-to-read-the-bible"
               className="inline-flex items-center rounded-full border px-5 py-2.5 text-sm font-medium hover:bg-muted transition-colors"
             >

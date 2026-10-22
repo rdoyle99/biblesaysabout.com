@@ -6,6 +6,7 @@ import { STATS_UPDATED } from "@/lib/bibleStats";
 import { PLANS, PLAN_DATE } from "@/lib/readingPlan";
 import { LIST_DATE, RANK_DATE, RANK_SLUGS } from "@/lib/bookLists";
 import { getPageMeaning, NAMES_DATE } from "@/lib/bibleNames";
+import { GOD_NAMES, NAMES_OF_GOD_DATE } from "@/lib/namesOfGod";
 
 const baseUrl = "https://www.biblesaysabout.com";
 
@@ -30,6 +31,7 @@ export default function sitemap() {
     ...RANK_SLUGS.map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: RANK_DATE, priority: 0.8 })),
     { url: `${baseUrl}/words`, lastModified: WORDS_DATE, priority: 0.8 },
     { url: `${baseUrl}/bible-names`, lastModified: NAMES_DATE, priority: 0.8 },
+    { url: `${baseUrl}/names-of-god`, lastModified: NAMES_OF_GOD_DATE, priority: 0.9 },
     { url: `${baseUrl}/bible-reading-plan`, lastModified: PLAN_DATE, priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: PAGE_DATES.about, priority: 0.5 },
     { url: `${baseUrl}/privacy`, lastModified: PAGE_DATES.privacy, priority: 0.3 },
@@ -66,5 +68,11 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...categoryPages, ...topicPages, ...bookPages, ...wordPages, ...planPages];
+  const godNamePages = GOD_NAMES.map((n) => ({
+    url: `${baseUrl}/names-of-god/${n.slug}`,
+    lastModified: NAMES_OF_GOD_DATE,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...categoryPages, ...topicPages, ...bookPages, ...wordPages, ...planPages, ...godNamePages];
 }

@@ -1,0 +1,4870 @@
+{
+ "generated": "2026-10-22",
+ "order": [
+  "elohim",
+  "adonai",
+  "el-shaddai",
+  "jehovah",
+  "yahweh",
+  "jehovah-jireh",
+  "jehovah-rapha",
+  "jehovah-nissi",
+  "jehovah-shalom",
+  "jehovah-tsidkenu",
+  "jehovah-shammah",
+  "jehovah-sabaoth",
+  "el-elyon",
+  "el-roi",
+  "el-olam"
+ ],
+ "names": {
+  "elohim": {
+   "slug": "elohim",
+   "name": "Elohim",
+   "hebrew": "אֱלֹהִים",
+   "translit": "Elohim (ĕlōhîm)",
+   "strongs": [
+    {
+     "n": "H430",
+     "heb": "אֱלֹהִים",
+     "tl": "ʼĕlôhîym",
+     "gloss": "plural of eloah: gods in the ordinary sense; specifically, the supreme God"
+    }
+   ],
+   "literal": "God (a plural form that takes a singular verb when it means the one God)",
+   "short": "God, the general Hebrew word for deity",
+   "kind": "title",
+   "english": "God",
+   "why": "The first name for God in the Bible, and the one in Genesis 1:1. The ending -im is normally a plural, and scholars read it here as a plural of majesty: many in form, one in meaning. The same word is also used in the Hebrew Bible for the gods of other nations.",
+   "use": "English Bibles print Elohim as God, so we can count the English word but not the Hebrew one. The English word God also translates the Greek Theos in the New Testament, which is why the Old Testament and New Testament counts are split below.",
+   "related": [
+    "el-shaddai",
+    "el-elyon",
+    "jehovah",
+    "adonai"
+   ],
+   "topics": [
+    "creation",
+    "worship",
+    "holiness"
+   ],
+   "faq": [
+    [
+     "Is Elohim plural?",
+     "Elohim is plural in form (the -im ending), and Strong's lists it as the plural of eloah. When it names the one God it takes a singular verb, which is why scholars call it a plural of majesty. In Genesis 1:1 the verb \"created\" is singular."
+    ],
+    [
+     "Is Elohim the same as Yahweh?",
+     "No. Elohim is a title meaning God. Yahweh (rendered LORD in the KJV) is the personal name God gives in Exodus 3. The two appear together as \"LORD God\" from Genesis 2:4."
+    ]
+   ],
+   "searches": {
+    "god": {
+     "label": "the word God",
+     "scope": null,
+     "kjv": {
+      "n": 4106,
+      "verses": 3575,
+      "ot": 2739,
+      "nt": 1367,
+      "otVerses": 2383,
+      "ntVerses": 1192,
+      "byBook": [
+       [
+        "Genesis",
+        230
+       ],
+       [
+        "Exodus",
+        118
+       ],
+       [
+        "Leviticus",
+        53
+       ],
+       [
+        "Numbers",
+        38
+       ],
+       [
+        "Deuteronomy",
+        353
+       ],
+       [
+        "Joshua",
+        72
+       ],
+       [
+        "Judges",
+        52
+       ],
+       [
+        "Ruth",
+        3
+       ],
+       [
+        "1 Samuel",
+        95
+       ],
+       [
+        "2 Samuel",
+        62
+       ],
+       [
+        "1 Kings",
+        91
+       ],
+       [
+        "2 Kings",
+        79
+       ],
+       [
+        "1 Chronicles",
+        114
+       ],
+       [
+        "2 Chronicles",
+        186
+       ],
+       [
+        "Ezra",
+        97
+       ],
+       [
+        "Nehemiah",
+        75
+       ],
+       [
+        "Job",
+        117
+       ],
+       [
+        "Psalms",
+        428
+       ],
+       [
+        "Proverbs",
+        8
+       ],
+       [
+        "Ecclesiastes",
+        41
+       ],
+       [
+        "Isaiah",
+        103
+       ],
+       [
+        "Jeremiah",
+        115
+       ],
+       [
+        "Lamentations",
+        1
+       ],
+       [
+        "Ezekiel",
+        40
+       ],
+       [
+        "Daniel",
+        58
+       ],
+       [
+        "Hosea",
+        29
+       ],
+       [
+        "Joel",
+        11
+       ],
+       [
+        "Amos",
+        11
+       ],
+       [
+        "Jonah",
+        15
+       ],
+       [
+        "Micah",
+        11
+       ],
+       [
+        "Nahum",
+        1
+       ],
+       [
+        "Habakkuk",
+        5
+       ],
+       [
+        "Zephaniah",
+        4
+       ],
+       [
+        "Haggai",
+        3
+       ],
+       [
+        "Zechariah",
+        12
+       ],
+       [
+        "Malachi",
+        8
+       ],
+       [
+        "Matthew",
+        57
+       ],
+       [
+        "Mark",
+        52
+       ],
+       [
+        "Luke",
+        126
+       ],
+       [
+        "John",
+        83
+       ],
+       [
+        "Acts",
+        171
+       ],
+       [
+        "Romans",
+        166
+       ],
+       [
+        "1 Corinthians",
+        107
+       ],
+       [
+        "2 Corinthians",
+        74
+       ],
+       [
+        "Galatians",
+        33
+       ],
+       [
+        "Ephesians",
+        33
+       ],
+       [
+        "Philippians",
+        23
+       ],
+       [
+        "Colossians",
+        22
+       ],
+       [
+        "1 Thessalonians",
+        39
+       ],
+       [
+        "2 Thessalonians",
+        19
+       ],
+       [
+        "1 Timothy",
+        22
+       ],
+       [
+        "2 Timothy",
+        15
+       ],
+       [
+        "Titus",
+        13
+       ],
+       [
+        "Philemon",
+        2
+       ],
+       [
+        "Hebrews",
+        72
+       ],
+       [
+        "James",
+        17
+       ],
+       [
+        "1 Peter",
+        40
+       ],
+       [
+        "2 Peter",
+        7
+       ],
+       [
+        "1 John",
+        64
+       ],
+       [
+        "2 John",
+        4
+       ],
+       [
+        "3 John",
+        2
+       ],
+       [
+        "Jude",
+        5
+       ],
+       [
+        "Revelation",
+        99
+       ]
+      ],
+      "refs": [
+       "Genesis 1:1",
+       "Genesis 1:2",
+       "Genesis 1:3",
+       "Genesis 1:4",
+       "Genesis 1:5",
+       "Genesis 1:6",
+       "Genesis 1:7",
+       "Genesis 1:8",
+       "Genesis 1:9",
+       "Genesis 1:10",
+       "Genesis 1:11",
+       "Genesis 1:12",
+       "Genesis 1:14",
+       "Genesis 1:16",
+       "Genesis 1:17",
+       "Genesis 1:18",
+       "Genesis 1:20",
+       "Genesis 1:21",
+       "Genesis 1:22",
+       "Genesis 1:24",
+       "Genesis 1:25",
+       "Genesis 1:26",
+       "Genesis 1:27",
+       "Genesis 1:28",
+       "Genesis 1:29",
+       "Genesis 1:31",
+       "Genesis 2:2",
+       "Genesis 2:3",
+       "Genesis 2:4",
+       "Genesis 2:5",
+       "Genesis 2:7",
+       "Genesis 2:8",
+       "Genesis 2:9",
+       "Genesis 2:15",
+       "Genesis 2:16",
+       "Genesis 2:18",
+       "Genesis 2:19",
+       "Genesis 2:21",
+       "Genesis 2:22",
+       "Genesis 3:1"
+      ],
+      "first": {
+       "ref": "Genesis 1:1",
+       "text": "In the beginning God created the heaven and the earth."
+      },
+      "last": {
+       "ref": "Revelation 22:19",
+       "text": "And if any man shall take away from the words of the book of this prophecy, God shall take away his part out of the book of life, and out of the holy city, and from the things which are written in this book."
+      },
+      "books": 63
+     },
+     "web": {
+      "n": 4037,
+      "verses": 3528,
+      "ot": 2693,
+      "nt": 1344,
+      "otVerses": 2356,
+      "ntVerses": 1172,
+      "byBook": [
+       [
+        "Genesis",
+        229
+       ],
+       [
+        "Exodus",
+        123
+       ],
+       [
+        "Leviticus",
+        52
+       ],
+       [
+        "Numbers",
+        35
+       ],
+       [
+        "Deuteronomy",
+        348
+       ],
+       [
+        "Joshua",
+        69
+       ],
+       [
+        "Judges",
+        47
+       ],
+       [
+        "Ruth",
+        3
+       ],
+       [
+        "1 Samuel",
+        91
+       ],
+       [
+        "2 Samuel",
+        59
+       ],
+       [
+        "1 Kings",
+        86
+       ],
+       [
+        "2 Kings",
+        74
+       ],
+       [
+        "1 Chronicles",
+        114
+       ],
+       [
+        "2 Chronicles",
+        185
+       ],
+       [
+        "Ezra",
+        97
+       ],
+       [
+        "Nehemiah",
+        74
+       ],
+       [
+        "Job",
+        123
+       ],
+       [
+        "Psalms",
+        425
+       ],
+       [
+        "Proverbs",
+        6
+       ],
+       [
+        "Ecclesiastes",
+        41
+       ],
+       [
+        "Isaiah",
+        100
+       ],
+       [
+        "Jeremiah",
+        116
+       ],
+       [
+        "Lamentations",
+        1
+       ],
+       [
+        "Ezekiel",
+        39
+       ],
+       [
+        "Daniel",
+        51
+       ],
+       [
+        "Hosea",
+        26
+       ],
+       [
+        "Joel",
+        11
+       ],
+       [
+        "Amos",
+        12
+       ],
+       [
+        "Jonah",
+        15
+       ],
+       [
+        "Micah",
+        11
+       ],
+       [
+        "Nahum",
+        1
+       ],
+       [
+        "Habakkuk",
+        3
+       ],
+       [
+        "Zephaniah",
+        4
+       ],
+       [
+        "Haggai",
+        3
+       ],
+       [
+        "Zechariah",
+        11
+       ],
+       [
+        "Malachi",
+        8
+       ],
+       [
+        "Matthew",
+        57
+       ],
+       [
+        "Mark",
+        51
+       ],
+       [
+        "Luke",
+        124
+       ],
+       [
+        "John",
+        83
+       ],
+       [
+        "Acts",
+        168
+       ],
+       [
+        "Romans",
+        159
+       ],
+       [
+        "1 Corinthians",
+        106
+       ],
+       [
+        "2 Corinthians",
+        74
+       ],
+       [
+        "Galatians",
+        30
+       ],
+       [
+        "Ephesians",
+        33
+       ],
+       [
+        "Philippians",
+        23
+       ],
+       [
+        "Colossians",
+        22
+       ],
+       [
+        "1 Thessalonians",
+        38
+       ],
+       [
+        "2 Thessalonians",
+        19
+       ],
+       [
+        "1 Timothy",
+        23
+       ],
+       [
+        "2 Timothy",
+        14
+       ],
+       [
+        "Titus",
+        13
+       ],
+       [
+        "Philemon",
+        2
+       ],
+       [
+        "Hebrews",
+        69
+       ],
+       [
+        "James",
+        17
+       ],
+       [
+        "1 Peter",
+        40
+       ],
+       [
+        "2 Peter",
+        7
+       ],
+       [
+        "1 John",
+        64
+       ],
+       [
+        "2 John",
+        2
+       ],
+       [
+        "3 John",
+        3
+       ],
+       [
+        "Jude",
+        5
+       ],
+       [
+        "Revelation",
+        98
+       ]
+      ],
+      "refs": [
+       "Genesis 1:1",
+       "Genesis 1:2",
+       "Genesis 1:3",
+       "Genesis 1:4",
+       "Genesis 1:5",
+       "Genesis 1:6",
+       "Genesis 1:7",
+       "Genesis 1:8",
+       "Genesis 1:9",
+       "Genesis 1:10",
+       "Genesis 1:11",
+       "Genesis 1:12",
+       "Genesis 1:14",
+       "Genesis 1:16",
+       "Genesis 1:17",
+       "Genesis 1:18",
+       "Genesis 1:20",
+       "Genesis 1:21",
+       "Genesis 1:22",
+       "Genesis 1:24",
+       "Genesis 1:25",
+       "Genesis 1:26",
+       "Genesis 1:27",
+       "Genesis 1:28",
+       "Genesis 1:29",
+       "Genesis 1:31",
+       "Genesis 2:2",
+       "Genesis 2:3",
+       "Genesis 2:4",
+       "Genesis 2:5",
+       "Genesis 2:7",
+       "Genesis 2:8",
+       "Genesis 2:9",
+       "Genesis 2:15",
+       "Genesis 2:16",
+       "Genesis 2:18",
+       "Genesis 2:19",
+       "Genesis 2:21",
+       "Genesis 2:22",
+       "Genesis 3:1"
+      ],
+      "first": {
+       "ref": "Genesis 1:1",
+       "text": "In the beginning, God created the heavens and the earth."
+      },
+      "last": {
+       "ref": "Revelation 22:19",
+       "text": "If anyone takes away from the words of the book of this prophecy, may God take away his part from the tree of life, and out of the holy city, which are written in this book."
+      },
+      "books": 63
+     }
+    },
+    "gen1": {
+     "label": "the word God in Genesis 1",
+     "scope": "Genesis 1",
+     "kjv": {
+      "n": 32,
+      "verses": 26,
+      "ot": 32,
+      "nt": 0,
+      "otVerses": 26,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        32
+       ]
+      ],
+      "refs": [
+       "Genesis 1:1",
+       "Genesis 1:2",
+       "Genesis 1:3",
+       "Genesis 1:4",
+       "Genesis 1:5",
+       "Genesis 1:6",
+       "Genesis 1:7",
+       "Genesis 1:8",
+       "Genesis 1:9",
+       "Genesis 1:10",
+       "Genesis 1:11",
+       "Genesis 1:12",
+       "Genesis 1:14",
+       "Genesis 1:16",
+       "Genesis 1:17",
+       "Genesis 1:18",
+       "Genesis 1:20",
+       "Genesis 1:21",
+       "Genesis 1:22",
+       "Genesis 1:24",
+       "Genesis 1:25",
+       "Genesis 1:26",
+       "Genesis 1:27",
+       "Genesis 1:28",
+       "Genesis 1:29",
+       "Genesis 1:31"
+      ],
+      "first": {
+       "ref": "Genesis 1:1",
+       "text": "In the beginning God created the heaven and the earth."
+      },
+      "last": {
+       "ref": "Genesis 1:31",
+       "text": "And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day."
+      },
+      "books": 1
+     },
+     "web": {
+      "n": 32,
+      "verses": 26,
+      "ot": 32,
+      "nt": 0,
+      "otVerses": 26,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        32
+       ]
+      ],
+      "refs": [
+       "Genesis 1:1",
+       "Genesis 1:2",
+       "Genesis 1:3",
+       "Genesis 1:4",
+       "Genesis 1:5",
+       "Genesis 1:6",
+       "Genesis 1:7",
+       "Genesis 1:8",
+       "Genesis 1:9",
+       "Genesis 1:10",
+       "Genesis 1:11",
+       "Genesis 1:12",
+       "Genesis 1:14",
+       "Genesis 1:16",
+       "Genesis 1:17",
+       "Genesis 1:18",
+       "Genesis 1:20",
+       "Genesis 1:21",
+       "Genesis 1:22",
+       "Genesis 1:24",
+       "Genesis 1:25",
+       "Genesis 1:26",
+       "Genesis 1:27",
+       "Genesis 1:28",
+       "Genesis 1:29",
+       "Genesis 1:31"
+      ],
+      "first": {
+       "ref": "Genesis 1:1",
+       "text": "In the beginning, God created the heavens and the earth."
+      },
+      "last": {
+       "ref": "Genesis 1:31",
+       "text": "God saw everything that he had made, and, behold, it was very good. There was evening and there was morning, a sixth day."
+      },
+      "books": 1
+     }
+    }
+   },
+   "first": {
+    "ref": "Genesis 1:1",
+    "tr": "kjv",
+    "kjv": "In the beginning God created the heaven and the earth.",
+    "web": "In the beginning, God created the heavens and the earth."
+   },
+   "verses": [
+    {
+     "ref": "Genesis 1:1",
+     "kjv": "In the beginning God created the heaven and the earth.",
+     "web": "In the beginning, God created the heavens and the earth."
+    },
+    {
+     "ref": "Genesis 1:26",
+     "kjv": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.",
+     "web": "God said, “Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”"
+    }
+   ]
+  },
+  "adonai": {
+   "slug": "adonai",
+   "name": "Adonai",
+   "hebrew": "אֲדֹנָי",
+   "translit": "Adonai (ʼăḏōnāy)",
+   "strongs": [
+    {
+     "n": "H136",
+     "heb": "אֲדֹנָי",
+     "tl": "ʼĂdônây",
+     "gloss": "an emphatic form of adon (master): the Lord, used as a proper name of God only"
+    }
+   ],
+   "literal": "my Lord, my Master",
+   "short": "my Lord, a title of respect and rule",
+   "kind": "title",
+   "english": "Lord",
+   "why": "Adonai is the plural of adon (master) with the ending for \"my\": literally \"my lords\", used of God as a plural of majesty. Jewish readers say Adonai aloud wherever the written text has the name YHWH, so the word became the spoken stand-in for the name.",
+   "use": "English Bibles print Adonai as Lord, in ordinary capitals, and print the name YHWH as LORD in small capitals. The same Lord also translates the Greek Kyrios in the New Testament, so a count of the word Lord cannot isolate Adonai and we leave that count out. The one pattern English text does mark is Adonai followed by YHWH, printed Lord GOD in the KJV and Lord Yahweh in the World English Bible.",
+   "related": [
+    "jehovah",
+    "yahweh",
+    "elohim",
+    "jehovah-sabaoth"
+   ],
+   "topics": [
+    "worship",
+    "obedience",
+    "trust"
+   ],
+   "faq": [
+    [
+     "What does Adonai mean?",
+     "Adonai means \"my Lord\". It comes from adon (master, lord) with the ending for \"my\", and Strong's lists it as the Lord, used as a proper name of God only."
+    ],
+    [
+     "Why does the Bible print Lord GOD?",
+     "Lord GOD marks the Hebrew words Adonai YHWH together. The KJV prints the first in ordinary capitals and the second in capitals so a reader can tell them apart; GOD stands in for the name instead of repeating LORD."
+    ],
+    [
+     "How do you pronounce Adonai?",
+     "Adonai is pronounced ah-doh-NYE, with the stress on the last syllable."
+    ]
+   ],
+   "searches": {
+    "lordgod": {
+     "label": "Lord GOD (Adonai Yahweh)",
+     "scope": null,
+     "kjv": {
+      "n": 300,
+      "verses": 290,
+      "ot": 300,
+      "nt": 0,
+      "otVerses": 290,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        2
+       ],
+       [
+        "Exodus",
+        2
+       ],
+       [
+        "Deuteronomy",
+        2
+       ],
+       [
+        "Joshua",
+        1
+       ],
+       [
+        "Judges",
+        2
+       ],
+       [
+        "2 Samuel",
+        6
+       ],
+       [
+        "1 Kings",
+        2
+       ],
+       [
+        "Psalms",
+        4
+       ],
+       [
+        "Isaiah",
+        24
+       ],
+       [
+        "Jeremiah",
+        14
+       ],
+       [
+        "Ezekiel",
+        217
+       ],
+       [
+        "Amos",
+        21
+       ],
+       [
+        "Obadiah",
+        1
+       ],
+       [
+        "Micah",
+        1
+       ],
+       [
+        "Zephaniah",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 15:2",
+       "Genesis 15:8",
+       "Exodus 23:17",
+       "Exodus 34:23",
+       "Deuteronomy 3:24",
+       "Deuteronomy 9:26",
+       "Joshua 7:7",
+       "Judges 6:22",
+       "Judges 16:28",
+       "2 Samuel 7:18",
+       "2 Samuel 7:19",
+       "2 Samuel 7:20",
+       "2 Samuel 7:28",
+       "2 Samuel 7:29",
+       "1 Kings 2:26",
+       "1 Kings 8:53",
+       "Psalm 69:6",
+       "Psalm 71:5",
+       "Psalm 71:16",
+       "Psalm 73:28",
+       "Isaiah 7:7",
+       "Isaiah 10:23",
+       "Isaiah 10:24",
+       "Isaiah 22:5",
+       "Isaiah 22:12",
+       "Isaiah 22:14",
+       "Isaiah 22:15",
+       "Isaiah 25:8",
+       "Isaiah 28:16",
+       "Isaiah 28:22",
+       "Isaiah 30:15",
+       "Isaiah 40:10",
+       "Isaiah 48:16",
+       "Isaiah 49:22",
+       "Isaiah 50:4",
+       "Isaiah 50:5",
+       "Isaiah 50:7",
+       "Isaiah 50:9",
+       "Isaiah 52:4",
+       "Isaiah 56:8"
+      ],
+      "first": {
+       "ref": "Genesis 15:2",
+       "text": "And Abram said, Lord GOD, what wilt thou give me, seeing I go childless, and the steward of my house is this Eliezer of Damascus?"
+      },
+      "last": {
+       "ref": "Zephaniah 1:7",
+       "text": "Hold thy peace at the presence of the Lord GOD: for the day of the LORD is at hand: for the LORD hath prepared a sacrifice, he hath bid his guests."
+      },
+      "books": 15
+     },
+     "web": {
+      "n": 288,
+      "verses": 279,
+      "ot": 288,
+      "nt": 0,
+      "otVerses": 279,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        2
+       ],
+       [
+        "Exodus",
+        2
+       ],
+       [
+        "Deuteronomy",
+        2
+       ],
+       [
+        "Joshua",
+        1
+       ],
+       [
+        "Judges",
+        2
+       ],
+       [
+        "2 Samuel",
+        6
+       ],
+       [
+        "1 Kings",
+        2
+       ],
+       [
+        "Psalms",
+        4
+       ],
+       [
+        "Isaiah",
+        18
+       ],
+       [
+        "Jeremiah",
+        8
+       ],
+       [
+        "Ezekiel",
+        217
+       ],
+       [
+        "Amos",
+        20
+       ],
+       [
+        "Obadiah",
+        1
+       ],
+       [
+        "Micah",
+        1
+       ],
+       [
+        "Zephaniah",
+        1
+       ],
+       [
+        "Zechariah",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 15:2",
+       "Genesis 15:8",
+       "Exodus 23:17",
+       "Exodus 34:23",
+       "Deuteronomy 3:24",
+       "Deuteronomy 9:26",
+       "Joshua 7:7",
+       "Judges 6:22",
+       "Judges 16:28",
+       "2 Samuel 7:18",
+       "2 Samuel 7:19",
+       "2 Samuel 7:20",
+       "2 Samuel 7:28",
+       "2 Samuel 7:29",
+       "1 Kings 2:26",
+       "1 Kings 8:53",
+       "Psalm 69:6",
+       "Psalm 71:5",
+       "Psalm 71:16",
+       "Psalm 73:28",
+       "Isaiah 7:7",
+       "Isaiah 25:8",
+       "Isaiah 28:16",
+       "Isaiah 30:15",
+       "Isaiah 40:10",
+       "Isaiah 48:16",
+       "Isaiah 49:22",
+       "Isaiah 50:4",
+       "Isaiah 50:5",
+       "Isaiah 50:7",
+       "Isaiah 50:9",
+       "Isaiah 51:22",
+       "Isaiah 52:4",
+       "Isaiah 56:8",
+       "Isaiah 61:1",
+       "Isaiah 61:11",
+       "Isaiah 65:13",
+       "Isaiah 65:15",
+       "Jeremiah 1:6",
+       "Jeremiah 2:22"
+      ],
+      "first": {
+       "ref": "Genesis 15:2",
+       "text": "Abram said, “Lord Yahweh, what will you give me, since I go childless, and he who will inherit my estate is Eliezer of Damascus?”"
+      },
+      "last": {
+       "ref": "Zechariah 9:14",
+       "text": "Yahweh will be seen over them; and his arrow will go flash like lightning; and the Lord Yahweh will blow the trumpet, and will go with whirlwinds of the south."
+      },
+      "books": 16
+     }
+    }
+   },
+   "first": {
+    "ref": "Genesis 15:2",
+    "tr": "kjv",
+    "kjv": "And Abram said, Lord GOD, what wilt thou give me, seeing I go childless, and the steward of my house is this Eliezer of Damascus?",
+    "web": "Abram said, “Lord Yahweh, what will you give me, since I go childless, and he who will inherit my estate is Eliezer of Damascus?”"
+   },
+   "verses": [
+    {
+     "ref": "Genesis 15:2",
+     "kjv": "And Abram said, Lord GOD, what wilt thou give me, seeing I go childless, and the steward of my house is this Eliezer of Damascus?",
+     "web": "Abram said, “Lord Yahweh, what will you give me, since I go childless, and he who will inherit my estate is Eliezer of Damascus?”"
+    },
+    {
+     "ref": "Genesis 18:3",
+     "kjv": "And said, My Lord, if now I have found favour in thy sight, pass not away, I pray thee, from thy servant:",
+     "web": "and said, “My lord, if now I have found favor in your sight, please don’t go away from your servant."
+    }
+   ]
+  },
+  "el-shaddai": {
+   "slug": "el-shaddai",
+   "name": "El Shaddai",
+   "hebrew": "אֵל שַׁדַּי",
+   "translit": "El Shaddai (ʼēl šadday)",
+   "strongs": [
+    {
+     "n": "H410",
+     "heb": "אֵל",
+     "tl": "ʼêl",
+     "gloss": "strength; mighty; especially the Almighty, but also any deity"
+    },
+    {
+     "n": "H7706",
+     "heb": "שַׁדַּי",
+     "tl": "Shadday",
+     "gloss": "the Almighty"
+    }
+   ],
+   "literal": "God Almighty",
+   "short": "God Almighty",
+   "kind": "compound",
+   "english": "God Almighty",
+   "why": "El Shaddai is the name God uses with Abraham in Genesis 17:1 and the name the patriarchs knew him by, according to Exodus 6:3. Strong's derives Shaddai from a verb meaning to overpower; where the word comes from is still debated, and some scholars connect it to an old word for mountain.",
+   "use": "Both the KJV and the World English Bible translate El Shaddai as God Almighty, and translate Shaddai on its own as the Almighty, mostly in Job. The KJV also prints Almighty God where the World English Bible has God Almighty, and the New Testament uses the same English for the Greek Pantokrator, so the New Testament counts below are not El Shaddai.",
+   "related": [
+    "elohim",
+    "el-elyon",
+    "jehovah",
+    "el-olam"
+   ],
+   "topics": [
+    "strength",
+    "protection",
+    "faithfulness"
+   ],
+   "faq": [
+    [
+     "What does El Shaddai mean?",
+     "El Shaddai means \"God Almighty\". El is the Hebrew word for God (Strong's H410, strength or mighty one) and Shaddai is translated the Almighty (H7706)."
+    ],
+    [
+     "Where is El Shaddai first used?",
+     "God introduces himself as El Shaddai to Abram in Genesis 17:1, when Abram was ninety-nine, the first verse where the World English Bible has God Almighty."
+    ]
+   ],
+   "searches": {
+    "godalm": {
+     "label": "God Almighty",
+     "scope": null,
+     "kjv": {
+      "n": 11,
+      "verses": 11,
+      "ot": 5,
+      "nt": 6,
+      "otVerses": 5,
+      "ntVerses": 6,
+      "byBook": [
+       [
+        "Genesis",
+        4
+       ],
+       [
+        "Exodus",
+        1
+       ],
+       [
+        "Revelation",
+        6
+       ]
+      ],
+      "refs": [
+       "Genesis 28:3",
+       "Genesis 35:11",
+       "Genesis 43:14",
+       "Genesis 48:3",
+       "Exodus 6:3",
+       "Revelation 4:8",
+       "Revelation 11:17",
+       "Revelation 15:3",
+       "Revelation 16:7",
+       "Revelation 16:14",
+       "Revelation 21:22"
+      ],
+      "first": {
+       "ref": "Genesis 28:3",
+       "text": "And God Almighty bless thee, and make thee fruitful, and multiply thee, that thou mayest be a multitude of people;"
+      },
+      "last": {
+       "ref": "Revelation 21:22",
+       "text": "And I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it."
+      },
+      "books": 3
+     },
+     "web": {
+      "n": 7,
+      "verses": 7,
+      "ot": 7,
+      "nt": 0,
+      "otVerses": 7,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        5
+       ],
+       [
+        "Exodus",
+        1
+       ],
+       [
+        "Ezekiel",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 17:1",
+       "Genesis 28:3",
+       "Genesis 35:11",
+       "Genesis 43:14",
+       "Genesis 48:3",
+       "Exodus 6:3",
+       "Ezekiel 10:5"
+      ],
+      "first": {
+       "ref": "Genesis 17:1",
+       "text": "When Abram was ninety-nine years old, Yahweh appeared to Abram and said to him, “I am God Almighty. Walk before me, and be blameless."
+      },
+      "last": {
+       "ref": "Ezekiel 10:5",
+       "text": "The sound of the wings of the cherubim was heard even to the outer court, as the voice of God Almighty when he speaks."
+      },
+      "books": 3
+     }
+    },
+    "almgod": {
+     "label": "Almighty God",
+     "scope": null,
+     "kjv": {
+      "n": 3,
+      "verses": 3,
+      "ot": 2,
+      "nt": 1,
+      "otVerses": 2,
+      "ntVerses": 1,
+      "byBook": [
+       [
+        "Genesis",
+        1
+       ],
+       [
+        "Ezekiel",
+        1
+       ],
+       [
+        "Revelation",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 17:1",
+       "Ezekiel 10:5",
+       "Revelation 19:15"
+      ],
+      "first": {
+       "ref": "Genesis 17:1",
+       "text": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect."
+      },
+      "last": {
+       "ref": "Revelation 19:15",
+       "text": "And out of his mouth goeth a sharp sword, that with it he should smite the nations: and he shall rule them with a rod of iron: and he treadeth the winepress of the fierceness and wrath of Almighty God."
+      },
+      "books": 3
+     },
+     "web": {
+      "n": 0,
+      "verses": 0,
+      "ot": 0,
+      "nt": 0,
+      "otVerses": 0,
+      "ntVerses": 0,
+      "byBook": [],
+      "refs": [],
+      "first": null,
+      "last": null,
+      "books": 0
+     }
+    },
+    "alm": {
+     "label": "the word Almighty",
+     "scope": null,
+     "kjv": {
+      "n": 57,
+      "verses": 57,
+      "ot": 48,
+      "nt": 9,
+      "otVerses": 48,
+      "ntVerses": 9,
+      "byBook": [
+       [
+        "Genesis",
+        6
+       ],
+       [
+        "Exodus",
+        1
+       ],
+       [
+        "Numbers",
+        2
+       ],
+       [
+        "Ruth",
+        2
+       ],
+       [
+        "Job",
+        31
+       ],
+       [
+        "Psalms",
+        2
+       ],
+       [
+        "Isaiah",
+        1
+       ],
+       [
+        "Ezekiel",
+        2
+       ],
+       [
+        "Joel",
+        1
+       ],
+       [
+        "2 Corinthians",
+        1
+       ],
+       [
+        "Revelation",
+        8
+       ]
+      ],
+      "refs": [
+       "Genesis 17:1",
+       "Genesis 28:3",
+       "Genesis 35:11",
+       "Genesis 43:14",
+       "Genesis 48:3",
+       "Genesis 49:25",
+       "Exodus 6:3",
+       "Numbers 24:4",
+       "Numbers 24:16",
+       "Ruth 1:20",
+       "Ruth 1:21",
+       "Job 5:17",
+       "Job 6:4",
+       "Job 6:14",
+       "Job 8:3",
+       "Job 8:5",
+       "Job 11:7",
+       "Job 13:3",
+       "Job 15:25",
+       "Job 21:15",
+       "Job 21:20",
+       "Job 22:3",
+       "Job 22:17",
+       "Job 22:23",
+       "Job 22:25",
+       "Job 22:26",
+       "Job 23:16",
+       "Job 24:1",
+       "Job 27:2",
+       "Job 27:10",
+       "Job 27:11",
+       "Job 27:13",
+       "Job 29:5",
+       "Job 31:2",
+       "Job 31:35",
+       "Job 32:8",
+       "Job 33:4",
+       "Job 34:10",
+       "Job 34:12",
+       "Job 35:13"
+      ],
+      "first": {
+       "ref": "Genesis 17:1",
+       "text": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect."
+      },
+      "last": {
+       "ref": "Revelation 21:22",
+       "text": "And I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it."
+      },
+      "books": 11
+     },
+     "web": {
+      "n": 58,
+      "verses": 58,
+      "ot": 48,
+      "nt": 10,
+      "otVerses": 48,
+      "ntVerses": 10,
+      "byBook": [
+       [
+        "Genesis",
+        6
+       ],
+       [
+        "Exodus",
+        1
+       ],
+       [
+        "Numbers",
+        2
+       ],
+       [
+        "Ruth",
+        2
+       ],
+       [
+        "Job",
+        31
+       ],
+       [
+        "Psalms",
+        2
+       ],
+       [
+        "Isaiah",
+        1
+       ],
+       [
+        "Ezekiel",
+        2
+       ],
+       [
+        "Joel",
+        1
+       ],
+       [
+        "2 Corinthians",
+        1
+       ],
+       [
+        "Revelation",
+        9
+       ]
+      ],
+      "refs": [
+       "Genesis 17:1",
+       "Genesis 28:3",
+       "Genesis 35:11",
+       "Genesis 43:14",
+       "Genesis 48:3",
+       "Genesis 49:25",
+       "Exodus 6:3",
+       "Numbers 24:4",
+       "Numbers 24:16",
+       "Ruth 1:20",
+       "Ruth 1:21",
+       "Job 5:17",
+       "Job 6:4",
+       "Job 6:14",
+       "Job 8:3",
+       "Job 8:5",
+       "Job 11:7",
+       "Job 13:3",
+       "Job 15:25",
+       "Job 21:15",
+       "Job 21:20",
+       "Job 22:3",
+       "Job 22:17",
+       "Job 22:23",
+       "Job 22:25",
+       "Job 22:26",
+       "Job 23:16",
+       "Job 24:1",
+       "Job 27:2",
+       "Job 27:10",
+       "Job 27:11",
+       "Job 27:13",
+       "Job 29:5",
+       "Job 31:2",
+       "Job 31:35",
+       "Job 32:8",
+       "Job 33:4",
+       "Job 34:10",
+       "Job 34:12",
+       "Job 35:13"
+      ],
+      "first": {
+       "ref": "Genesis 17:1",
+       "text": "When Abram was ninety-nine years old, Yahweh appeared to Abram and said to him, “I am God Almighty. Walk before me, and be blameless."
+      },
+      "last": {
+       "ref": "Revelation 21:22",
+       "text": "I saw no temple in it, for the Lord God, the Almighty, and the Lamb, are its temple."
+      },
+      "books": 11
+     }
+    }
+   },
+   "first": {
+    "ref": "Genesis 17:1",
+    "tr": "web",
+    "kjv": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect.",
+    "web": "When Abram was ninety-nine years old, Yahweh appeared to Abram and said to him, “I am God Almighty. Walk before me, and be blameless."
+   },
+   "verses": [
+    {
+     "ref": "Genesis 17:1",
+     "kjv": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect.",
+     "web": "When Abram was ninety-nine years old, Yahweh appeared to Abram and said to him, “I am God Almighty. Walk before me, and be blameless."
+    },
+    {
+     "ref": "Exodus 6:3",
+     "kjv": "And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty, but by my name JEHOVAH was I not known to them.",
+     "web": "and I appeared to Abraham, to Isaac, and to Jacob, as God Almighty; but by my name Yahweh I was not known to them."
+    }
+   ]
+  },
+  "jehovah": {
+   "slug": "jehovah",
+   "name": "Jehovah",
+   "hebrew": "יְהוָה",
+   "translit": "YHWH (yĕhōvâ), written Jehovah in the KJV",
+   "strongs": [
+    {
+     "n": "H3068",
+     "heb": "יְהֹוָה",
+     "tl": "Yᵊhôvâh",
+     "gloss": "(the) self-Existent or Eternal; Jehovah, the proper name of the God of Israel"
+    }
+   ],
+   "literal": "the self-existent, eternal one (from the verb to be)",
+   "short": "LORD, the personal name of God",
+   "kind": "name",
+   "english": "LORD",
+   "why": "Jehovah is how the KJV prints the four Hebrew letters YHWH, God's personal name. The form Jehovah is a later blend of those consonants with the vowels of Adonai; most scholars think the original pronunciation was closer to Yahweh. The KJV uses Jehovah only a few times and prints LORD in capitals everywhere else.",
+   "use": "Counting the KJV's capitals gives the closest English count of the name, and the World English Bible, which writes Yahweh each time, gives an independent count. The two translations word the name differently, so each count is shown on its own and not added together.",
+   "related": [
+    "yahweh",
+    "adonai",
+    "elohim",
+    "jehovah-jireh"
+   ],
+   "topics": [
+    "trust",
+    "faithfulness",
+    "worship"
+   ],
+   "faq": [
+    [
+     "What does Jehovah mean?",
+     "Jehovah is the English form of YHWH, God's personal name. Strong's glosses it as the self-existent or eternal one, from the Hebrew verb to be, which matches God's reply in Exodus 3:14, \"I AM WHO I AM\"."
+    ],
+    [
+     "Is Jehovah the same as Yahweh?",
+     "Yes. Both stand for the Hebrew letters YHWH. Yahweh is the reconstructed pronunciation most scholars prefer, and Jehovah is the older English form that the KJV uses."
+    ],
+    [
+     "Why does the KJV say LORD instead of Jehovah?",
+     "The KJV follows the Jewish custom of reading Adonai (Lord) aloud in place of the name, and marks the name with LORD in capitals. It prints the name itself only a few times."
+    ]
+   ],
+   "searches": {
+    "jehovah": {
+     "label": "Jehovah",
+     "scope": null,
+     "kjv": {
+      "n": 7,
+      "verses": 7,
+      "ot": 7,
+      "nt": 0,
+      "otVerses": 7,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        1
+       ],
+       [
+        "Exodus",
+        2
+       ],
+       [
+        "Judges",
+        1
+       ],
+       [
+        "Psalms",
+        1
+       ],
+       [
+        "Isaiah",
+        2
+       ]
+      ],
+      "refs": [
+       "Genesis 22:14",
+       "Exodus 6:3",
+       "Exodus 17:15",
+       "Judges 6:24",
+       "Psalm 83:18",
+       "Isaiah 12:2",
+       "Isaiah 26:4"
+      ],
+      "first": {
+       "ref": "Genesis 22:14",
+       "text": "And Abraham called the name of that place Jehovah-jireh: as it is said to this day, In the mount of the LORD it shall be seen."
+      },
+      "last": {
+       "ref": "Isaiah 26:4",
+       "text": "Trust ye in the LORD for ever: for in the LORD JEHOVAH is everlasting strength:"
+      },
+      "books": 5
+     },
+     "web": null
+    },
+    "LORD": {
+     "label": "LORD in capitals",
+     "scope": null,
+     "kjv": {
+      "n": 6577,
+      "verses": 5554,
+      "ot": 6573,
+      "nt": 4,
+      "otVerses": 5550,
+      "ntVerses": 4,
+      "byBook": [
+       [
+        "Genesis",
+        161
+       ],
+       [
+        "Exodus",
+        397
+       ],
+       [
+        "Leviticus",
+        313
+       ],
+       [
+        "Numbers",
+        397
+       ],
+       [
+        "Deuteronomy",
+        550
+       ],
+       [
+        "Joshua",
+        223
+       ],
+       [
+        "Judges",
+        172
+       ],
+       [
+        "Ruth",
+        18
+       ],
+       [
+        "1 Samuel",
+        322
+       ],
+       [
+        "2 Samuel",
+        145
+       ],
+       [
+        "1 Kings",
+        257
+       ],
+       [
+        "2 Kings",
+        278
+       ],
+       [
+        "1 Chronicles",
+        172
+       ],
+       [
+        "2 Chronicles",
+        387
+       ],
+       [
+        "Ezra",
+        37
+       ],
+       [
+        "Nehemiah",
+        17
+       ],
+       [
+        "Job",
+        32
+       ],
+       [
+        "Psalms",
+        722
+       ],
+       [
+        "Proverbs",
+        87
+       ],
+       [
+        "Isaiah",
+        429
+       ],
+       [
+        "Jeremiah",
+        712
+       ],
+       [
+        "Lamentations",
+        32
+       ],
+       [
+        "Ezekiel",
+        219
+       ],
+       [
+        "Daniel",
+        7
+       ],
+       [
+        "Hosea",
+        46
+       ],
+       [
+        "Joel",
+        33
+       ],
+       [
+        "Amos",
+        61
+       ],
+       [
+        "Obadiah",
+        6
+       ],
+       [
+        "Jonah",
+        26
+       ],
+       [
+        "Micah",
+        39
+       ],
+       [
+        "Nahum",
+        13
+       ],
+       [
+        "Habakkuk",
+        13
+       ],
+       [
+        "Zephaniah",
+        33
+       ],
+       [
+        "Haggai",
+        35
+       ],
+       [
+        "Zechariah",
+        134
+       ],
+       [
+        "Malachi",
+        48
+       ],
+       [
+        "Matthew",
+        1
+       ],
+       [
+        "Luke",
+        1
+       ],
+       [
+        "Acts",
+        1
+       ],
+       [
+        "Revelation",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 2:4",
+       "Genesis 2:5",
+       "Genesis 2:7",
+       "Genesis 2:8",
+       "Genesis 2:9",
+       "Genesis 2:15",
+       "Genesis 2:16",
+       "Genesis 2:18",
+       "Genesis 2:19",
+       "Genesis 2:21",
+       "Genesis 2:22",
+       "Genesis 3:1",
+       "Genesis 3:8",
+       "Genesis 3:9",
+       "Genesis 3:13",
+       "Genesis 3:14",
+       "Genesis 3:21",
+       "Genesis 3:22",
+       "Genesis 3:23",
+       "Genesis 4:1",
+       "Genesis 4:3",
+       "Genesis 4:4",
+       "Genesis 4:6",
+       "Genesis 4:9",
+       "Genesis 4:13",
+       "Genesis 4:15",
+       "Genesis 4:16",
+       "Genesis 4:26",
+       "Genesis 5:29",
+       "Genesis 6:3",
+       "Genesis 6:6",
+       "Genesis 6:7",
+       "Genesis 6:8",
+       "Genesis 7:1",
+       "Genesis 7:5",
+       "Genesis 7:16",
+       "Genesis 8:20",
+       "Genesis 8:21",
+       "Genesis 9:26",
+       "Genesis 10:9"
+      ],
+      "first": {
+       "ref": "Genesis 2:4",
+       "text": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,"
+      },
+      "last": {
+       "ref": "Revelation 19:16",
+       "text": "And he hath on his vesture and on his thigh a name written, KING OF KINGS, AND LORD OF LORDS."
+      },
+      "books": 40
+     },
+     "web": null
+    },
+    "GOD": {
+     "label": "GOD in capitals",
+     "scope": null,
+     "kjv": {
+      "n": 309,
+      "verses": 299,
+      "ot": 308,
+      "nt": 1,
+      "otVerses": 298,
+      "ntVerses": 1,
+      "byBook": [
+       [
+        "Genesis",
+        3
+       ],
+       [
+        "Exodus",
+        2
+       ],
+       [
+        "Deuteronomy",
+        3
+       ],
+       [
+        "Joshua",
+        1
+       ],
+       [
+        "Judges",
+        2
+       ],
+       [
+        "2 Samuel",
+        7
+       ],
+       [
+        "1 Kings",
+        2
+       ],
+       [
+        "Psalms",
+        7
+       ],
+       [
+        "Isaiah",
+        25
+       ],
+       [
+        "Jeremiah",
+        14
+       ],
+       [
+        "Ezekiel",
+        217
+       ],
+       [
+        "Amos",
+        21
+       ],
+       [
+        "Obadiah",
+        1
+       ],
+       [
+        "Micah",
+        1
+       ],
+       [
+        "Zephaniah",
+        1
+       ],
+       [
+        "Zechariah",
+        1
+       ],
+       [
+        "Acts",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 6:5",
+       "Genesis 15:2",
+       "Genesis 15:8",
+       "Exodus 23:17",
+       "Exodus 34:23",
+       "Deuteronomy 3:24",
+       "Deuteronomy 9:26",
+       "Deuteronomy 28:58",
+       "Joshua 7:7",
+       "Judges 6:22",
+       "Judges 16:28",
+       "2 Samuel 7:18",
+       "2 Samuel 7:19",
+       "2 Samuel 7:20",
+       "2 Samuel 7:28",
+       "2 Samuel 7:29",
+       "2 Samuel 12:22",
+       "1 Kings 2:26",
+       "1 Kings 8:53",
+       "Psalm 69:6",
+       "Psalm 71:5",
+       "Psalm 71:16",
+       "Psalm 73:28",
+       "Psalm 109:21",
+       "Psalm 140:7",
+       "Psalm 141:8",
+       "Isaiah 3:15",
+       "Isaiah 7:7",
+       "Isaiah 10:23",
+       "Isaiah 10:24",
+       "Isaiah 22:5",
+       "Isaiah 22:12",
+       "Isaiah 22:14",
+       "Isaiah 22:15",
+       "Isaiah 25:8",
+       "Isaiah 28:16",
+       "Isaiah 28:22",
+       "Isaiah 30:15",
+       "Isaiah 40:10",
+       "Isaiah 48:16"
+      ],
+      "first": {
+       "ref": "Genesis 6:5",
+       "text": "And GOD saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of his heart was only evil continually."
+      },
+      "last": {
+       "ref": "Acts 17:23",
+       "text": "For as I passed by, and beheld your devotions, I found an altar with this inscription, TO THE UNKNOWN GOD. Whom therefore ye ignorantly worship, him declare I unto you."
+      },
+      "books": 17
+     },
+     "web": null
+    },
+    "yahweh": {
+     "label": "Yahweh",
+     "scope": null,
+     "kjv": null,
+     "web": {
+      "n": 6829,
+      "verses": 5791,
+      "ot": 6829,
+      "nt": 0,
+      "otVerses": 5791,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        167
+       ],
+       [
+        "Exodus",
+        396
+       ],
+       [
+        "Leviticus",
+        311
+       ],
+       [
+        "Numbers",
+        397
+       ],
+       [
+        "Deuteronomy",
+        549
+       ],
+       [
+        "Joshua",
+        224
+       ],
+       [
+        "Judges",
+        175
+       ],
+       [
+        "Ruth",
+        18
+       ],
+       [
+        "1 Samuel",
+        320
+       ],
+       [
+        "2 Samuel",
+        153
+       ],
+       [
+        "1 Kings",
+        258
+       ],
+       [
+        "2 Kings",
+        278
+       ],
+       [
+        "1 Chronicles",
+        174
+       ],
+       [
+        "2 Chronicles",
+        385
+       ],
+       [
+        "Ezra",
+        37
+       ],
+       [
+        "Nehemiah",
+        17
+       ],
+       [
+        "Job",
+        32
+       ],
+       [
+        "Psalms",
+        691
+       ],
+       [
+        "Proverbs",
+        87
+       ],
+       [
+        "Song of Solomon",
+        1
+       ],
+       [
+        "Isaiah",
+        450
+       ],
+       [
+        "Jeremiah",
+        726
+       ],
+       [
+        "Lamentations",
+        32
+       ],
+       [
+        "Ezekiel",
+        435
+       ],
+       [
+        "Daniel",
+        7
+       ],
+       [
+        "Hosea",
+        48
+       ],
+       [
+        "Joel",
+        33
+       ],
+       [
+        "Amos",
+        81
+       ],
+       [
+        "Obadiah",
+        7
+       ],
+       [
+        "Jonah",
+        26
+       ],
+       [
+        "Micah",
+        40
+       ],
+       [
+        "Nahum",
+        13
+       ],
+       [
+        "Habakkuk",
+        13
+       ],
+       [
+        "Zephaniah",
+        34
+       ],
+       [
+        "Haggai",
+        35
+       ],
+       [
+        "Zechariah",
+        132
+       ],
+       [
+        "Malachi",
+        47
+       ]
+      ],
+      "refs": [
+       "Genesis 2:4",
+       "Genesis 2:5",
+       "Genesis 2:7",
+       "Genesis 2:8",
+       "Genesis 2:9",
+       "Genesis 2:15",
+       "Genesis 2:16",
+       "Genesis 2:18",
+       "Genesis 2:19",
+       "Genesis 2:21",
+       "Genesis 2:22",
+       "Genesis 3:1",
+       "Genesis 3:8",
+       "Genesis 3:9",
+       "Genesis 3:13",
+       "Genesis 3:14",
+       "Genesis 3:21",
+       "Genesis 3:22",
+       "Genesis 3:23",
+       "Genesis 4:1",
+       "Genesis 4:3",
+       "Genesis 4:4",
+       "Genesis 4:6",
+       "Genesis 4:9",
+       "Genesis 4:10",
+       "Genesis 4:13",
+       "Genesis 4:15",
+       "Genesis 4:16",
+       "Genesis 4:26",
+       "Genesis 5:29",
+       "Genesis 6:3",
+       "Genesis 6:5",
+       "Genesis 6:6",
+       "Genesis 6:7",
+       "Genesis 6:8",
+       "Genesis 7:1",
+       "Genesis 7:5",
+       "Genesis 7:16",
+       "Genesis 8:20",
+       "Genesis 8:21"
+      ],
+      "first": {
+       "ref": "Genesis 2:4",
+       "text": "This is the history of the generations of the heavens and of the earth when they were created, in the day that Yahweh God made the earth and the heavens."
+      },
+      "last": {
+       "ref": "Malachi 4:5",
+       "text": "Behold, I will send you Elijah the prophet before the great and terrible day of Yahweh comes."
+      },
+      "books": 37
+     }
+    }
+   },
+   "first": {
+    "ref": "Genesis 22:14",
+    "tr": "kjv",
+    "kjv": "And Abraham called the name of that place Jehovah-jireh: as it is said to this day, In the mount of the LORD it shall be seen.",
+    "web": "Abraham called the name of that place Yahweh Will Provide. As it is said to this day, “On Yahweh’s mountain, it will be provided.”"
+   },
+   "verses": [
+    {
+     "ref": "Exodus 6:3",
+     "kjv": "And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty, but by my name JEHOVAH was I not known to them.",
+     "web": "and I appeared to Abraham, to Isaac, and to Jacob, as God Almighty; but by my name Yahweh I was not known to them."
+    },
+    {
+     "ref": "Psalms 83:18",
+     "kjv": "That men may know that thou, whose name alone is JEHOVAH, art the most high over all the earth.",
+     "web": "that they may know that you alone, whose name is Yahweh, are the Most High over all the earth."
+    }
+   ]
+  },
+  "yahweh": {
+   "slug": "yahweh",
+   "name": "Yahweh",
+   "hebrew": "יהוה",
+   "translit": "Yahweh (YHWH)",
+   "strongs": [
+    {
+     "n": "H3068",
+     "heb": "יְהֹוָה",
+     "tl": "Yᵊhôvâh",
+     "gloss": "(the) self-Existent or Eternal: the proper name of the God of Israel"
+    },
+    {
+     "n": "H3050",
+     "heb": "יָהּ",
+     "tl": "Yâhh",
+     "gloss": "Jah, the shortened form of the name"
+    }
+   ],
+   "literal": "the self-existent, eternal one",
+   "short": "the personal name of God, as the World English Bible writes it",
+   "kind": "name",
+   "english": "Yahweh",
+   "why": "Yahweh is the modern scholarly way of saying YHWH, the name God gives Moses at the burning bush. The World English Bible uses it every time the Hebrew text has the name, where the KJV prints LORD. It is the same name as Jehovah, which has its own page.",
+   "use": "Because the World English Bible writes the name out, the word Yahweh can be counted directly. The shortened form Yah, found in Hallelujah (praise Yah), is counted separately.",
+   "related": [
+    "jehovah",
+    "adonai",
+    "elohim",
+    "jehovah-sabaoth"
+   ],
+   "topics": [
+    "worship",
+    "faithfulness",
+    "trust"
+   ],
+   "faq": [
+    [
+     "What does Yahweh mean?",
+     "Yahweh means \"he is\" or \"the self-existent one\". Strong's glosses the name as the self-existent or eternal, from the Hebrew verb to be."
+    ],
+    [
+     "Where does the Bible first say Yahweh?",
+     "The first verse where the World English Bible uses Yahweh is Genesis 2:4, in the phrase \"Yahweh God\"."
+    ]
+   ],
+   "searches": {
+    "yahweh": {
+     "label": "Yahweh",
+     "scope": null,
+     "kjv": null,
+     "web": {
+      "n": 6829,
+      "verses": 5791,
+      "ot": 6829,
+      "nt": 0,
+      "otVerses": 5791,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        167
+       ],
+       [
+        "Exodus",
+        396
+       ],
+       [
+        "Leviticus",
+        311
+       ],
+       [
+        "Numbers",
+        397
+       ],
+       [
+        "Deuteronomy",
+        549
+       ],
+       [
+        "Joshua",
+        224
+       ],
+       [
+        "Judges",
+        175
+       ],
+       [
+        "Ruth",
+        18
+       ],
+       [
+        "1 Samuel",
+        320
+       ],
+       [
+        "2 Samuel",
+        153
+       ],
+       [
+        "1 Kings",
+        258
+       ],
+       [
+        "2 Kings",
+        278
+       ],
+       [
+        "1 Chronicles",
+        174
+       ],
+       [
+        "2 Chronicles",
+        385
+       ],
+       [
+        "Ezra",
+        37
+       ],
+       [
+        "Nehemiah",
+        17
+       ],
+       [
+        "Job",
+        32
+       ],
+       [
+        "Psalms",
+        691
+       ],
+       [
+        "Proverbs",
+        87
+       ],
+       [
+        "Song of Solomon",
+        1
+       ],
+       [
+        "Isaiah",
+        450
+       ],
+       [
+        "Jeremiah",
+        726
+       ],
+       [
+        "Lamentations",
+        32
+       ],
+       [
+        "Ezekiel",
+        435
+       ],
+       [
+        "Daniel",
+        7
+       ],
+       [
+        "Hosea",
+        48
+       ],
+       [
+        "Joel",
+        33
+       ],
+       [
+        "Amos",
+        81
+       ],
+       [
+        "Obadiah",
+        7
+       ],
+       [
+        "Jonah",
+        26
+       ],
+       [
+        "Micah",
+        40
+       ],
+       [
+        "Nahum",
+        13
+       ],
+       [
+        "Habakkuk",
+        13
+       ],
+       [
+        "Zephaniah",
+        34
+       ],
+       [
+        "Haggai",
+        35
+       ],
+       [
+        "Zechariah",
+        132
+       ],
+       [
+        "Malachi",
+        47
+       ]
+      ],
+      "refs": [
+       "Genesis 2:4",
+       "Genesis 2:5",
+       "Genesis 2:7",
+       "Genesis 2:8",
+       "Genesis 2:9",
+       "Genesis 2:15",
+       "Genesis 2:16",
+       "Genesis 2:18",
+       "Genesis 2:19",
+       "Genesis 2:21",
+       "Genesis 2:22",
+       "Genesis 3:1",
+       "Genesis 3:8",
+       "Genesis 3:9",
+       "Genesis 3:13",
+       "Genesis 3:14",
+       "Genesis 3:21",
+       "Genesis 3:22",
+       "Genesis 3:23",
+       "Genesis 4:1",
+       "Genesis 4:3",
+       "Genesis 4:4",
+       "Genesis 4:6",
+       "Genesis 4:9",
+       "Genesis 4:10",
+       "Genesis 4:13",
+       "Genesis 4:15",
+       "Genesis 4:16",
+       "Genesis 4:26",
+       "Genesis 5:29",
+       "Genesis 6:3",
+       "Genesis 6:5",
+       "Genesis 6:6",
+       "Genesis 6:7",
+       "Genesis 6:8",
+       "Genesis 7:1",
+       "Genesis 7:5",
+       "Genesis 7:16",
+       "Genesis 8:20",
+       "Genesis 8:21"
+      ],
+      "first": {
+       "ref": "Genesis 2:4",
+       "text": "This is the history of the generations of the heavens and of the earth when they were created, in the day that Yahweh God made the earth and the heavens."
+      },
+      "last": {
+       "ref": "Malachi 4:5",
+       "text": "Behold, I will send you Elijah the prophet before the great and terrible day of Yahweh comes."
+      },
+      "books": 37
+     }
+    },
+    "yah": {
+     "label": "Yah",
+     "scope": null,
+     "kjv": null,
+     "web": {
+      "n": 47,
+      "verses": 43,
+      "ot": 47,
+      "nt": 0,
+      "otVerses": 43,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Exodus",
+        2
+       ],
+       [
+        "Psalms",
+        41
+       ],
+       [
+        "Isaiah",
+        4
+       ]
+      ],
+      "refs": [
+       "Exodus 15:2",
+       "Exodus 17:16",
+       "Psalm 68:4",
+       "Psalm 68:18",
+       "Psalm 77:11",
+       "Psalm 89:8",
+       "Psalm 94:7",
+       "Psalm 94:12",
+       "Psalm 102:18",
+       "Psalm 104:35",
+       "Psalm 105:45",
+       "Psalm 106:48",
+       "Psalm 111:1",
+       "Psalm 112:1",
+       "Psalm 113:1",
+       "Psalm 113:9",
+       "Psalm 115:17",
+       "Psalm 115:18",
+       "Psalm 116:19",
+       "Psalm 117:2",
+       "Psalm 118:5",
+       "Psalm 118:14",
+       "Psalm 118:17",
+       "Psalm 118:18",
+       "Psalm 118:19",
+       "Psalm 122:4",
+       "Psalm 130:3",
+       "Psalm 135:1",
+       "Psalm 135:3",
+       "Psalm 135:4",
+       "Psalm 135:21",
+       "Psalm 146:1",
+       "Psalm 146:10",
+       "Psalm 147:1",
+       "Psalm 147:20",
+       "Psalm 148:1",
+       "Psalm 148:14",
+       "Psalm 149:9",
+       "Psalm 150:1",
+       "Psalm 150:6"
+      ],
+      "first": {
+       "ref": "Exodus 15:2",
+       "text": "Yah is my strength and song. He has become my salvation. This is my God, and I will praise him; my father’s God, and I will exalt him."
+      },
+      "last": {
+       "ref": "Isaiah 38:11",
+       "text": "I said, “I won’t see Yah, Yah in the land of the living. I will see man no more with the inhabitants of the world."
+      },
+      "books": 3
+     }
+    },
+    "LORD": {
+     "label": "LORD in capitals (KJV rendering)",
+     "scope": null,
+     "kjv": {
+      "n": 6577,
+      "verses": 5554,
+      "ot": 6573,
+      "nt": 4,
+      "otVerses": 5550,
+      "ntVerses": 4,
+      "byBook": [
+       [
+        "Genesis",
+        161
+       ],
+       [
+        "Exodus",
+        397
+       ],
+       [
+        "Leviticus",
+        313
+       ],
+       [
+        "Numbers",
+        397
+       ],
+       [
+        "Deuteronomy",
+        550
+       ],
+       [
+        "Joshua",
+        223
+       ],
+       [
+        "Judges",
+        172
+       ],
+       [
+        "Ruth",
+        18
+       ],
+       [
+        "1 Samuel",
+        322
+       ],
+       [
+        "2 Samuel",
+        145
+       ],
+       [
+        "1 Kings",
+        257
+       ],
+       [
+        "2 Kings",
+        278
+       ],
+       [
+        "1 Chronicles",
+        172
+       ],
+       [
+        "2 Chronicles",
+        387
+       ],
+       [
+        "Ezra",
+        37
+       ],
+       [
+        "Nehemiah",
+        17
+       ],
+       [
+        "Job",
+        32
+       ],
+       [
+        "Psalms",
+        722
+       ],
+       [
+        "Proverbs",
+        87
+       ],
+       [
+        "Isaiah",
+        429
+       ],
+       [
+        "Jeremiah",
+        712
+       ],
+       [
+        "Lamentations",
+        32
+       ],
+       [
+        "Ezekiel",
+        219
+       ],
+       [
+        "Daniel",
+        7
+       ],
+       [
+        "Hosea",
+        46
+       ],
+       [
+        "Joel",
+        33
+       ],
+       [
+        "Amos",
+        61
+       ],
+       [
+        "Obadiah",
+        6
+       ],
+       [
+        "Jonah",
+        26
+       ],
+       [
+        "Micah",
+        39
+       ],
+       [
+        "Nahum",
+        13
+       ],
+       [
+        "Habakkuk",
+        13
+       ],
+       [
+        "Zephaniah",
+        33
+       ],
+       [
+        "Haggai",
+        35
+       ],
+       [
+        "Zechariah",
+        134
+       ],
+       [
+        "Malachi",
+        48
+       ],
+       [
+        "Matthew",
+        1
+       ],
+       [
+        "Luke",
+        1
+       ],
+       [
+        "Acts",
+        1
+       ],
+       [
+        "Revelation",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 2:4",
+       "Genesis 2:5",
+       "Genesis 2:7",
+       "Genesis 2:8",
+       "Genesis 2:9",
+       "Genesis 2:15",
+       "Genesis 2:16",
+       "Genesis 2:18",
+       "Genesis 2:19",
+       "Genesis 2:21",
+       "Genesis 2:22",
+       "Genesis 3:1",
+       "Genesis 3:8",
+       "Genesis 3:9",
+       "Genesis 3:13",
+       "Genesis 3:14",
+       "Genesis 3:21",
+       "Genesis 3:22",
+       "Genesis 3:23",
+       "Genesis 4:1",
+       "Genesis 4:3",
+       "Genesis 4:4",
+       "Genesis 4:6",
+       "Genesis 4:9",
+       "Genesis 4:13",
+       "Genesis 4:15",
+       "Genesis 4:16",
+       "Genesis 4:26",
+       "Genesis 5:29",
+       "Genesis 6:3",
+       "Genesis 6:6",
+       "Genesis 6:7",
+       "Genesis 6:8",
+       "Genesis 7:1",
+       "Genesis 7:5",
+       "Genesis 7:16",
+       "Genesis 8:20",
+       "Genesis 8:21",
+       "Genesis 9:26",
+       "Genesis 10:9"
+      ],
+      "first": {
+       "ref": "Genesis 2:4",
+       "text": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,"
+      },
+      "last": {
+       "ref": "Revelation 19:16",
+       "text": "And he hath on his vesture and on his thigh a name written, KING OF KINGS, AND LORD OF LORDS."
+      },
+      "books": 40
+     },
+     "web": null
+    }
+   },
+   "first": {
+    "ref": "Genesis 2:4",
+    "tr": "web",
+    "kjv": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,",
+    "web": "This is the history of the generations of the heavens and of the earth when they were created, in the day that Yahweh God made the earth and the heavens."
+   },
+   "verses": [
+    {
+     "ref": "Genesis 2:4",
+     "kjv": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,",
+     "web": "This is the history of the generations of the heavens and of the earth when they were created, in the day that Yahweh God made the earth and the heavens."
+    },
+    {
+     "ref": "Exodus 3:15",
+     "kjv": "And God said moreover unto Moses, Thus shalt thou say unto the children of Israel, The LORD God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, hath sent me unto you: this is my name for ever, and this is my memorial unto all generations.",
+     "web": "God said moreover to Moses, “You shall tell the children of Israel this, ‘Yahweh, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.’ This is my name forever, and this is my memorial to all generations."
+    }
+   ]
+  },
+  "jehovah-jireh": {
+   "slug": "jehovah-jireh",
+   "name": "Jehovah Jireh",
+   "hebrew": "יְהוָה יִרְאֶה",
+   "translit": "Yahweh Yireh (yĕhōvâ yirʼeh)",
+   "strongs": [
+    {
+     "n": "H3070",
+     "heb": "יְהֹוָה יִרְאֶה",
+     "tl": "Yᵊhôvâh yir'eh",
+     "gloss": "Jehovah will see (to it)"
+    }
+   ],
+   "literal": "the LORD will see to it; the LORD will provide",
+   "short": "the LORD will provide",
+   "kind": "compound",
+   "english": "Jehovah-jireh",
+   "why": "Abraham gives this name to the place where God supplied a ram in place of Isaac. Yireh is a form of the verb to see, so the name reads \"the LORD will see\". Genesis 22:8 explains the sense: \"God will provide himself a lamb\", where provide is the same verb, to see ahead and supply.",
+   "use": "The name appears once. The KJV transliterates it as Jehovah-jireh and the World English Bible translates it as Yahweh Will Provide, so the same verse is the only match in each Bible.",
+   "related": [
+    "jehovah",
+    "jehovah-rapha",
+    "jehovah-nissi",
+    "jehovah-shalom"
+   ],
+   "topics": [
+    "provision",
+    "trust",
+    "faith"
+   ],
+   "faq": [
+    [
+     "What does Jehovah Jireh mean?",
+     "Jehovah Jireh means \"the LORD will see to it\", usually put as \"the LORD will provide\". Strong's glosses H3070 as Jehovah will see (to it)."
+    ],
+    [
+     "Where is Jehovah Jireh in the Bible?",
+     "Only in Genesis 22:14, where Abraham names the mountain after God provided a ram in place of his son Isaac."
+    ]
+   ],
+   "searches": {
+    "name": {
+     "label": "Jehovah-jireh (KJV) or Yahweh Will Provide (WEB)",
+     "scope": null,
+     "kjv": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 22:14"
+      ],
+      "first": {
+       "ref": "Genesis 22:14",
+       "text": "And Abraham called the name of that place Jehovah-jireh: as it is said to this day, In the mount of the LORD it shall be seen."
+      },
+      "last": {
+       "ref": "Genesis 22:14",
+       "text": "And Abraham called the name of that place Jehovah-jireh: as it is said to this day, In the mount of the LORD it shall be seen."
+      },
+      "books": 1
+     },
+     "web": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 22:14"
+      ],
+      "first": {
+       "ref": "Genesis 22:14",
+       "text": "Abraham called the name of that place Yahweh Will Provide. As it is said to this day, “On Yahweh’s mountain, it will be provided.”"
+      },
+      "last": {
+       "ref": "Genesis 22:14",
+       "text": "Abraham called the name of that place Yahweh Will Provide. As it is said to this day, “On Yahweh’s mountain, it will be provided.”"
+      },
+      "books": 1
+     }
+    }
+   },
+   "first": {
+    "ref": "Genesis 22:14",
+    "tr": "kjv",
+    "kjv": "And Abraham called the name of that place Jehovah-jireh: as it is said to this day, In the mount of the LORD it shall be seen.",
+    "web": "Abraham called the name of that place Yahweh Will Provide. As it is said to this day, “On Yahweh’s mountain, it will be provided.”"
+   },
+   "verses": [
+    {
+     "ref": "Genesis 22:14",
+     "kjv": "And Abraham called the name of that place Jehovah-jireh: as it is said to this day, In the mount of the LORD it shall be seen.",
+     "web": "Abraham called the name of that place Yahweh Will Provide. As it is said to this day, “On Yahweh’s mountain, it will be provided.”"
+    },
+    {
+     "ref": "Genesis 22:8",
+     "kjv": "And Abraham said, My son, God will provide himself a lamb for a burnt offering: so they went both of them together.",
+     "web": "Abraham said, “God will provide himself the lamb for a burnt offering, my son.” So they both went together."
+    }
+   ]
+  },
+  "jehovah-rapha": {
+   "slug": "jehovah-rapha",
+   "name": "Jehovah Rapha",
+   "hebrew": "יְהוָה רֹפְאֶךָ",
+   "translit": "Yahweh Rapha / Rophe (yĕhōvâ rōpʼekā)",
+   "strongs": [
+    {
+     "n": "H3068",
+     "heb": "יְהֹוָה",
+     "tl": "Yᵊhôvâh",
+     "gloss": "the proper name of the God of Israel"
+    },
+    {
+     "n": "H7495",
+     "heb": "רָפָא",
+     "tl": "râphâʼ",
+     "gloss": "to mend (by stitching); figuratively, to cure or heal"
+    }
+   ],
+   "literal": "the LORD who heals you",
+   "short": "the LORD who heals",
+   "kind": "devotional",
+   "english": "the LORD that healeth thee",
+   "why": "Jehovah Rapha is not a name printed anywhere in the text. It is drawn from Exodus 15:26, where God says \"I am the LORD that healeth thee\", in Hebrew YHWH rophe'ka, using the participle of rapha, to heal. Bible teachers began calling it a name of God because of that verse, and it is now a common worship phrase.",
+   "use": "We searched both Bibles for the name written out and it never appears: the count is zero in each. What the text does contain is the sentence in Exodus 15:26, which is why this page counts that wording instead.",
+   "related": [
+    "jehovah",
+    "jehovah-jireh",
+    "jehovah-shalom",
+    "jehovah-nissi"
+   ],
+   "topics": [
+    "healing",
+    "comfort",
+    "trust"
+   ],
+   "faq": [
+    [
+     "What does Jehovah Rapha mean?",
+     "Jehovah Rapha means \"the LORD who heals\". Rapha (Strong's H7495) means to mend or heal, and the phrase comes from God's words to Israel in Exodus 15:26."
+    ],
+    [
+     "Is Jehovah Rapha a name in the Bible?",
+     "Not as a printed name. The phrase is built from Exodus 15:26, \"I am the LORD that healeth thee\"; neither the KJV nor the World English Bible prints Jehovah-rapha."
+    ]
+   ],
+   "searches": {
+    "name": {
+     "label": "Jehovah-rapha, Jehovah Rapha or Yahweh Rapha",
+     "scope": null,
+     "kjv": {
+      "n": 0,
+      "verses": 0,
+      "ot": 0,
+      "nt": 0,
+      "otVerses": 0,
+      "ntVerses": 0,
+      "byBook": [],
+      "refs": [],
+      "first": null,
+      "last": null,
+      "books": 0
+     },
+     "web": {
+      "n": 0,
+      "verses": 0,
+      "ot": 0,
+      "nt": 0,
+      "otVerses": 0,
+      "ntVerses": 0,
+      "byBook": [],
+      "refs": [],
+      "first": null,
+      "last": null,
+      "books": 0
+     }
+    },
+    "heals": {
+     "label": "\"healeth thee\" (KJV) or \"who heals you\" (WEB)",
+     "scope": null,
+     "kjv": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Exodus",
+        1
+       ]
+      ],
+      "refs": [
+       "Exodus 15:26"
+      ],
+      "first": {
+       "ref": "Exodus 15:26",
+       "text": "And said, If thou wilt diligently hearken to the voice of the LORD thy God, and wilt do that which is right in his sight, and wilt give ear to his commandments, and keep all his statutes, I will put none of these diseases upon thee, which I have brought upon the Egyptians: for I am the LORD that healeth thee."
+      },
+      "last": {
+       "ref": "Exodus 15:26",
+       "text": "And said, If thou wilt diligently hearken to the voice of the LORD thy God, and wilt do that which is right in his sight, and wilt give ear to his commandments, and keep all his statutes, I will put none of these diseases upon thee, which I have brought upon the Egyptians: for I am the LORD that healeth thee."
+      },
+      "books": 1
+     },
+     "web": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Exodus",
+        1
+       ]
+      ],
+      "refs": [
+       "Exodus 15:26"
+      ],
+      "first": {
+       "ref": "Exodus 15:26",
+       "text": "and he said, “If you will diligently listen to Yahweh your God’s voice, and will do that which is right in his eyes, and will pay attention to his commandments, and keep all his statutes, I will put none of the diseases on you, which I have put on the Egyptians; for I am Yahweh who heals you.”"
+      },
+      "last": {
+       "ref": "Exodus 15:26",
+       "text": "and he said, “If you will diligently listen to Yahweh your God’s voice, and will do that which is right in his eyes, and will pay attention to his commandments, and keep all his statutes, I will put none of the diseases on you, which I have put on the Egyptians; for I am Yahweh who heals you.”"
+      },
+      "books": 1
+     }
+    }
+   },
+   "first": {
+    "ref": "Exodus 15:26",
+    "tr": "kjv",
+    "kjv": "And said, If thou wilt diligently hearken to the voice of the LORD thy God, and wilt do that which is right in his sight, and wilt give ear to his commandments, and keep all his statutes, I will put none of these diseases upon thee, which I have brought upon the Egyptians: for I am the LORD that healeth thee.",
+    "web": "and he said, “If you will diligently listen to Yahweh your God’s voice, and will do that which is right in his eyes, and will pay attention to his commandments, and keep all his statutes, I will put none of the diseases on you, which I have put on the Egyptians; for I am Yahweh who heals you.”"
+   },
+   "verses": [
+    {
+     "ref": "Exodus 15:26",
+     "kjv": "And said, If thou wilt diligently hearken to the voice of the LORD thy God, and wilt do that which is right in his sight, and wilt give ear to his commandments, and keep all his statutes, I will put none of these diseases upon thee, which I have brought upon the Egyptians: for I am the LORD that healeth thee.",
+     "web": "and he said, “If you will diligently listen to Yahweh your God’s voice, and will do that which is right in his eyes, and will pay attention to his commandments, and keep all his statutes, I will put none of the diseases on you, which I have put on the Egyptians; for I am Yahweh who heals you.”"
+    }
+   ]
+  },
+  "jehovah-nissi": {
+   "slug": "jehovah-nissi",
+   "name": "Jehovah Nissi",
+   "hebrew": "יְהוָה נִסִּי",
+   "translit": "Yahweh Nissi (yĕhōvâ nissî)",
+   "strongs": [
+    {
+     "n": "H3071",
+     "heb": "יְהֹוָה נִסִּי",
+     "tl": "Yᵊhôvâh Nicciy",
+     "gloss": "Jehovah (is) my banner"
+    }
+   ],
+   "literal": "the LORD is my banner",
+   "short": "the LORD is my banner",
+   "kind": "compound",
+   "english": "Jehovah-nissi",
+   "why": "Moses names an altar Jehovah-nissi after Israel beats Amalek at Rephidim. Nes, the word behind nissi, is a banner or standard raised on a pole as a rallying point, so the name says that God is the banner Israel gathers under. The World English Bible puts it as \"Yahweh our Banner\".",
+   "use": "The name occurs once in each Bible, in the same verse. Where the KJV leaves the Hebrew in transliteration, the World English Bible translates it.",
+   "related": [
+    "jehovah",
+    "jehovah-sabaoth",
+    "jehovah-shalom",
+    "jehovah-jireh"
+   ],
+   "topics": [
+    "protection",
+    "courage",
+    "strength"
+   ],
+   "faq": [
+    [
+     "What does Jehovah Nissi mean?",
+     "Jehovah Nissi means \"the LORD is my banner\". Strong's glosses H3071 as Jehovah (is) my banner."
+    ],
+    [
+     "Where is Jehovah Nissi in the Bible?",
+     "Only in Exodus 17:15, where Moses builds an altar and gives it this name after the battle with Amalek."
+    ]
+   ],
+   "searches": {
+    "name": {
+     "label": "Jehovah-nissi (KJV) or Yahweh our Banner (WEB)",
+     "scope": null,
+     "kjv": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Exodus",
+        1
+       ]
+      ],
+      "refs": [
+       "Exodus 17:15"
+      ],
+      "first": {
+       "ref": "Exodus 17:15",
+       "text": "And Moses built an altar, and called the name of it Jehovah-nissi:"
+      },
+      "last": {
+       "ref": "Exodus 17:15",
+       "text": "And Moses built an altar, and called the name of it Jehovah-nissi:"
+      },
+      "books": 1
+     },
+     "web": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Exodus",
+        1
+       ]
+      ],
+      "refs": [
+       "Exodus 17:15"
+      ],
+      "first": {
+       "ref": "Exodus 17:15",
+       "text": "Moses built an altar, and called its name Yahweh our Banner."
+      },
+      "last": {
+       "ref": "Exodus 17:15",
+       "text": "Moses built an altar, and called its name Yahweh our Banner."
+      },
+      "books": 1
+     }
+    }
+   },
+   "first": {
+    "ref": "Exodus 17:15",
+    "tr": "kjv",
+    "kjv": "And Moses built an altar, and called the name of it Jehovah-nissi:",
+    "web": "Moses built an altar, and called its name Yahweh our Banner."
+   },
+   "verses": [
+    {
+     "ref": "Exodus 17:15",
+     "kjv": "And Moses built an altar, and called the name of it Jehovah-nissi:",
+     "web": "Moses built an altar, and called its name Yahweh our Banner."
+    },
+    {
+     "ref": "Exodus 17:8",
+     "kjv": "Then came Amalek, and fought with Israel in Rephidim.",
+     "web": "Then Amalek came and fought with Israel in Rephidim."
+    }
+   ]
+  },
+  "jehovah-shalom": {
+   "slug": "jehovah-shalom",
+   "name": "Jehovah Shalom",
+   "hebrew": "יְהוָה שָׁלוֹם",
+   "translit": "Yahweh Shalom (yĕhōvâ šālôm)",
+   "strongs": [
+    {
+     "n": "H3073",
+     "heb": "יְהֹוָה שָׁלוֹם",
+     "tl": "Yᵊhôvâh Shâlôwm",
+     "gloss": "Jehovah (is) peace"
+    },
+    {
+     "n": "H7965",
+     "heb": "שָׁלוֹם",
+     "tl": "shâlôwm",
+     "gloss": "safe, well, happy, friendly; welfare, health, prosperity, peace"
+    }
+   ],
+   "literal": "the LORD is peace",
+   "short": "the LORD is peace",
+   "kind": "compound",
+   "english": "Jehovah-shalom",
+   "why": "Gideon builds an altar at Ophrah and names it Jehovah-shalom after the angel of the LORD tells him he will not die. Shalom means more than the absence of war: Strong's lists welfare, health and prosperity as well as peace.",
+   "use": "The name occurs once. The KJV transliterates it and the World English Bible translates it, \"Yahweh is Peace\", both in Judges 6:24.",
+   "related": [
+    "jehovah",
+    "jehovah-nissi",
+    "jehovah-rapha",
+    "jehovah-shammah"
+   ],
+   "topics": [
+    "peace",
+    "anxiety",
+    "comfort"
+   ],
+   "faq": [
+    [
+     "What does Jehovah Shalom mean?",
+     "Jehovah Shalom means \"the LORD is peace\". Shalom (Strong's H7965) covers wholeness and welfare as well as peace."
+    ],
+    [
+     "Where is Jehovah Shalom in the Bible?",
+     "Judges 6:24 is the only verse. Gideon names his altar after hearing \"Peace be unto thee; fear not\" in the verse before."
+    ]
+   ],
+   "searches": {
+    "name": {
+     "label": "Jehovah-shalom (KJV) or Yahweh is Peace (WEB)",
+     "scope": null,
+     "kjv": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Judges",
+        1
+       ]
+      ],
+      "refs": [
+       "Judges 6:24"
+      ],
+      "first": {
+       "ref": "Judges 6:24",
+       "text": "Then Gideon built an altar there unto the LORD, and called it Jehovah-shalom: unto this day it is yet in Ophrah of the Abi-ezrites."
+      },
+      "last": {
+       "ref": "Judges 6:24",
+       "text": "Then Gideon built an altar there unto the LORD, and called it Jehovah-shalom: unto this day it is yet in Ophrah of the Abi-ezrites."
+      },
+      "books": 1
+     },
+     "web": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Judges",
+        1
+       ]
+      ],
+      "refs": [
+       "Judges 6:24"
+      ],
+      "first": {
+       "ref": "Judges 6:24",
+       "text": "Then Gideon built an altar there to Yahweh, and called it “Yahweh is Peace.” To this day it is still in Ophrah of the Abiezrites."
+      },
+      "last": {
+       "ref": "Judges 6:24",
+       "text": "Then Gideon built an altar there to Yahweh, and called it “Yahweh is Peace.” To this day it is still in Ophrah of the Abiezrites."
+      },
+      "books": 1
+     }
+    }
+   },
+   "first": {
+    "ref": "Judges 6:24",
+    "tr": "kjv",
+    "kjv": "Then Gideon built an altar there unto the LORD, and called it Jehovah-shalom: unto this day it is yet in Ophrah of the Abi-ezrites.",
+    "web": "Then Gideon built an altar there to Yahweh, and called it “Yahweh is Peace.” To this day it is still in Ophrah of the Abiezrites."
+   },
+   "verses": [
+    {
+     "ref": "Judges 6:24",
+     "kjv": "Then Gideon built an altar there unto the LORD, and called it Jehovah-shalom: unto this day it is yet in Ophrah of the Abi-ezrites.",
+     "web": "Then Gideon built an altar there to Yahweh, and called it “Yahweh is Peace.” To this day it is still in Ophrah of the Abiezrites."
+    },
+    {
+     "ref": "Judges 6:23",
+     "kjv": "And the LORD said unto him, Peace be unto thee; fear not: thou shalt not die.",
+     "web": "Yahweh said to him, “Peace be to you! Don’t be afraid. You shall not die.”"
+    }
+   ]
+  },
+  "jehovah-tsidkenu": {
+   "slug": "jehovah-tsidkenu",
+   "name": "Jehovah Tsidkenu",
+   "hebrew": "יְהוָה צִדְקֵנוּ",
+   "translit": "Yahweh Tsidkenu (yĕhōvâ ṣidqēnû)",
+   "strongs": [
+    {
+     "n": "H3072",
+     "heb": "יְהֹוָה צִדְקֵנוּ",
+     "tl": "Yᵊhôvâh Tsidqênûw",
+     "gloss": "Jehovah (is) our right(eousness)"
+    }
+   ],
+   "literal": "the LORD is our righteousness",
+   "short": "the LORD our righteousness",
+   "kind": "compound",
+   "english": "THE LORD OUR RIGHTEOUSNESS",
+   "why": "Jeremiah gives this as the name of the coming righteous Branch from David in 23:6 and, in 33:16, as the name Jerusalem will be called. Christians have read it as pointing to Christ, who Paul says was made righteousness for believers in 1 Corinthians 1:30.",
+   "use": "The KJV never prints Jehovah-tsidkenu; it translates the name, in capitals in Jeremiah 23:6. The count below is the English wording in both Bibles.",
+   "related": [
+    "jehovah",
+    "jehovah-shammah",
+    "jehovah-shalom",
+    "adonai"
+   ],
+   "topics": [
+    "salvation",
+    "grace",
+    "forgiveness"
+   ],
+   "faq": [
+    [
+     "What does Jehovah Tsidkenu mean?",
+     "Jehovah Tsidkenu means \"the LORD is our righteousness\". Strong's glosses H3072 as Jehovah (is) our right or righteousness."
+    ],
+    [
+     "Where is Jehovah Tsidkenu in the Bible?",
+     "It is the name given to the Branch of David in Jeremiah 23:6 and to Jerusalem in Jeremiah 33:16."
+    ]
+   ],
+   "searches": {
+    "name": {
+     "label": "the LORD our righteousness (KJV) or Yahweh our righteousness (WEB)",
+     "scope": null,
+     "kjv": {
+      "n": 2,
+      "verses": 2,
+      "ot": 2,
+      "nt": 0,
+      "otVerses": 2,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Jeremiah",
+        2
+       ]
+      ],
+      "refs": [
+       "Jeremiah 23:6",
+       "Jeremiah 33:16"
+      ],
+      "first": {
+       "ref": "Jeremiah 23:6",
+       "text": "In his days Judah shall be saved, and Israel shall dwell safely: and this is his name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS."
+      },
+      "last": {
+       "ref": "Jeremiah 33:16",
+       "text": "In those days shall Judah be saved, and Jerusalem shall dwell safely: and this is the name wherewith she shall be called, The LORD our righteousness."
+      },
+      "books": 1
+     },
+     "web": {
+      "n": 2,
+      "verses": 2,
+      "ot": 2,
+      "nt": 0,
+      "otVerses": 2,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Jeremiah",
+        2
+       ]
+      ],
+      "refs": [
+       "Jeremiah 23:6",
+       "Jeremiah 33:16"
+      ],
+      "first": {
+       "ref": "Jeremiah 23:6",
+       "text": "In his days Judah will be saved, and Israel will dwell safely. This is his name by which he will be called: Yahweh our righteousness."
+      },
+      "last": {
+       "ref": "Jeremiah 33:16",
+       "text": "In those days Judah will be saved, and Jerusalem will dwell safely. This is the name by which she will be called: Yahweh our righteousness.”"
+      },
+      "books": 1
+     }
+    }
+   },
+   "first": {
+    "ref": "Jeremiah 23:6",
+    "tr": "kjv",
+    "kjv": "In his days Judah shall be saved, and Israel shall dwell safely: and this is his name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS.",
+    "web": "In his days Judah will be saved, and Israel will dwell safely. This is his name by which he will be called: Yahweh our righteousness."
+   },
+   "verses": [
+    {
+     "ref": "Jeremiah 23:6",
+     "kjv": "In his days Judah shall be saved, and Israel shall dwell safely: and this is his name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS.",
+     "web": "In his days Judah will be saved, and Israel will dwell safely. This is his name by which he will be called: Yahweh our righteousness."
+    },
+    {
+     "ref": "Jeremiah 33:16",
+     "kjv": "In those days shall Judah be saved, and Jerusalem shall dwell safely: and this is the name wherewith she shall be called, The LORD our righteousness.",
+     "web": "In those days Judah will be saved, and Jerusalem will dwell safely. This is the name by which she will be called: Yahweh our righteousness.”"
+    }
+   ]
+  },
+  "jehovah-shammah": {
+   "slug": "jehovah-shammah",
+   "name": "Jehovah Shammah",
+   "hebrew": "יְהוָה שָׁמָּה",
+   "translit": "Yahweh Shammah (yĕhōvâ šāmmâ)",
+   "strongs": [
+    {
+     "n": "H3074",
+     "heb": "יְהֹוָה שָׁמָּה",
+     "tl": "Yᵊhôvâh Shâmmâh",
+     "gloss": "Jehovah (is) there"
+    }
+   ],
+   "literal": "the LORD is there",
+   "short": "the LORD is there",
+   "kind": "compound",
+   "english": "The LORD is there",
+   "why": "Jehovah Shammah is the name Ezekiel gives to the restored city in the last verse of his book. Shammah is the Hebrew for \"there\", so the name answers the vision that began with God's glory leaving the temple: the city's name is that he is back.",
+   "use": "The Hebrew name is not transliterated in either Bible. Both translate it as a sentence, so this page counts that sentence.",
+   "related": [
+    "jehovah",
+    "jehovah-tsidkenu",
+    "jehovah-shalom",
+    "el-roi"
+   ],
+   "topics": [
+    "comfort",
+    "loneliness",
+    "protection"
+   ],
+   "faq": [
+    [
+     "What does Jehovah Shammah mean?",
+     "Jehovah Shammah means \"the LORD is there\". Strong's glosses H3074 as Jehovah (is) there."
+    ],
+    [
+     "Where is Jehovah Shammah in the Bible?",
+     "Ezekiel 48:35, the closing verse of the book, gives it as the name of the city."
+    ]
+   ],
+   "searches": {
+    "name": {
+     "label": "the LORD is there (KJV) or Yahweh is there (WEB)",
+     "scope": null,
+     "kjv": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Ezekiel",
+        1
+       ]
+      ],
+      "refs": [
+       "Ezekiel 48:35"
+      ],
+      "first": {
+       "ref": "Ezekiel 48:35",
+       "text": "It was round about eighteen thousand measures: and the name of the city from that day shall be, The LORD is there."
+      },
+      "last": {
+       "ref": "Ezekiel 48:35",
+       "text": "It was round about eighteen thousand measures: and the name of the city from that day shall be, The LORD is there."
+      },
+      "books": 1
+     },
+     "web": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Ezekiel",
+        1
+       ]
+      ],
+      "refs": [
+       "Ezekiel 48:35"
+      ],
+      "first": {
+       "ref": "Ezekiel 48:35",
+       "text": "“It shall be eighteen thousand reeds around: and the name of the city from that day shall be, ‘Yahweh is there.’"
+      },
+      "last": {
+       "ref": "Ezekiel 48:35",
+       "text": "“It shall be eighteen thousand reeds around: and the name of the city from that day shall be, ‘Yahweh is there.’"
+      },
+      "books": 1
+     }
+    }
+   },
+   "first": {
+    "ref": "Ezekiel 48:35",
+    "tr": "kjv",
+    "kjv": "It was round about eighteen thousand measures: and the name of the city from that day shall be, The LORD is there.",
+    "web": "“It shall be eighteen thousand reeds around: and the name of the city from that day shall be, ‘Yahweh is there.’"
+   },
+   "verses": [
+    {
+     "ref": "Ezekiel 48:35",
+     "kjv": "It was round about eighteen thousand measures: and the name of the city from that day shall be, The LORD is there.",
+     "web": "“It shall be eighteen thousand reeds around: and the name of the city from that day shall be, ‘Yahweh is there.’"
+    }
+   ]
+  },
+  "jehovah-sabaoth": {
+   "slug": "jehovah-sabaoth",
+   "name": "Jehovah Sabaoth",
+   "hebrew": "יְהוָה צְבָאוֹת",
+   "translit": "Yahweh Tsevaot (yĕhōvâ ṣĕḇāʼôṯ)",
+   "strongs": [
+    {
+     "n": "H3068",
+     "heb": "יְהֹוָה",
+     "tl": "Yᵊhôvâh",
+     "gloss": "the proper name of the God of Israel"
+    },
+    {
+     "n": "H6635",
+     "heb": "צָבָא",
+     "tl": "tsâbâʼ",
+     "gloss": "a mass of persons, especially organized for war: an army, a host"
+    }
+   ],
+   "literal": "the LORD of hosts (armies)",
+   "short": "the LORD of hosts",
+   "kind": "compound",
+   "english": "LORD of hosts",
+   "why": "The LORD of hosts is the name of God as commander of armies, human and heavenly. It first appears in 1 Samuel 1:3 and is common in the prophets. Sabaoth is the Hebrew word for hosts written in Greek letters: Paul quotes Isaiah with it in Romans 9:29, and James uses it in James 5:4.",
+   "use": "The KJV prints LORD of hosts, and the World English Bible prints Yahweh of Armies. Both are counted, and the different totals show how each translation words the same Hebrew phrase.",
+   "related": [
+    "jehovah",
+    "jehovah-nissi",
+    "adonai",
+    "elohim"
+   ],
+   "topics": [
+    "protection",
+    "courage",
+    "spiritual-warfare"
+   ],
+   "faq": [
+    [
+     "What does Jehovah Sabaoth mean?",
+     "Jehovah Sabaoth means \"the LORD of hosts\", or \"of armies\". Tsaba (Strong's H6635) is an army or host, organized especially for war."
+    ],
+    [
+     "Where is Jehovah Sabaoth first used?",
+     "In 1 Samuel 1:3, where Elkanah goes up to worship \"the LORD of hosts\" at Shiloh."
+    ]
+   ],
+   "searches": {
+    "hosts": {
+     "label": "LORD of hosts (KJV) or Yahweh of Armies (WEB)",
+     "scope": null,
+     "kjv": {
+      "n": 245,
+      "verses": 235,
+      "ot": 245,
+      "nt": 0,
+      "otVerses": 235,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "1 Samuel",
+        5
+       ],
+       [
+        "2 Samuel",
+        5
+       ],
+       [
+        "1 Kings",
+        1
+       ],
+       [
+        "2 Kings",
+        2
+       ],
+       [
+        "1 Chronicles",
+        3
+       ],
+       [
+        "Psalms",
+        7
+       ],
+       [
+        "Isaiah",
+        54
+       ],
+       [
+        "Jeremiah",
+        71
+       ],
+       [
+        "Micah",
+        1
+       ],
+       [
+        "Nahum",
+        2
+       ],
+       [
+        "Habakkuk",
+        1
+       ],
+       [
+        "Zephaniah",
+        2
+       ],
+       [
+        "Haggai",
+        14
+       ],
+       [
+        "Zechariah",
+        53
+       ],
+       [
+        "Malachi",
+        24
+       ]
+      ],
+      "refs": [
+       "1 Samuel 1:3",
+       "1 Samuel 1:11",
+       "1 Samuel 4:4",
+       "1 Samuel 15:2",
+       "1 Samuel 17:45",
+       "2 Samuel 6:2",
+       "2 Samuel 6:18",
+       "2 Samuel 7:8",
+       "2 Samuel 7:26",
+       "2 Samuel 7:27",
+       "1 Kings 18:15",
+       "2 Kings 3:14",
+       "2 Kings 19:31",
+       "1 Chronicles 11:9",
+       "1 Chronicles 17:7",
+       "1 Chronicles 17:24",
+       "Psalm 24:10",
+       "Psalm 46:7",
+       "Psalm 46:11",
+       "Psalm 48:8",
+       "Psalm 84:1",
+       "Psalm 84:3",
+       "Psalm 84:12",
+       "Isaiah 1:9",
+       "Isaiah 1:24",
+       "Isaiah 2:12",
+       "Isaiah 3:1",
+       "Isaiah 5:7",
+       "Isaiah 5:9",
+       "Isaiah 5:16",
+       "Isaiah 5:24",
+       "Isaiah 6:3",
+       "Isaiah 6:5",
+       "Isaiah 8:13",
+       "Isaiah 8:18",
+       "Isaiah 9:7",
+       "Isaiah 9:13",
+       "Isaiah 9:19",
+       "Isaiah 10:16",
+       "Isaiah 10:26"
+      ],
+      "first": {
+       "ref": "1 Samuel 1:3",
+       "text": "And this man went up out of his city yearly to worship and to sacrifice unto the LORD of hosts in Shiloh. And the two sons of Eli, Hophni and Phinehas, the priests of the LORD, were there."
+      },
+      "last": {
+       "ref": "Malachi 4:3",
+       "text": "And ye shall tread down the wicked; for they shall be ashes under the soles of your feet in the day that I shall do this, saith the LORD of hosts."
+      },
+      "books": 15
+     },
+     "web": {
+      "n": 260,
+      "verses": 248,
+      "ot": 260,
+      "nt": 0,
+      "otVerses": 248,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "1 Samuel",
+        5
+       ],
+       [
+        "2 Samuel",
+        5
+       ],
+       [
+        "1 Kings",
+        1
+       ],
+       [
+        "2 Kings",
+        1
+       ],
+       [
+        "1 Chronicles",
+        3
+       ],
+       [
+        "Psalms",
+        8
+       ],
+       [
+        "Isaiah",
+        62
+       ],
+       [
+        "Jeremiah",
+        77
+       ],
+       [
+        "Amos",
+        1
+       ],
+       [
+        "Micah",
+        1
+       ],
+       [
+        "Nahum",
+        2
+       ],
+       [
+        "Habakkuk",
+        1
+       ],
+       [
+        "Zephaniah",
+        2
+       ],
+       [
+        "Haggai",
+        14
+       ],
+       [
+        "Zechariah",
+        53
+       ],
+       [
+        "Malachi",
+        24
+       ]
+      ],
+      "refs": [
+       "1 Samuel 1:3",
+       "1 Samuel 1:11",
+       "1 Samuel 4:4",
+       "1 Samuel 15:2",
+       "1 Samuel 17:45",
+       "2 Samuel 6:2",
+       "2 Samuel 6:18",
+       "2 Samuel 7:8",
+       "2 Samuel 7:26",
+       "2 Samuel 7:27",
+       "1 Kings 18:15",
+       "2 Kings 3:14",
+       "1 Chronicles 11:9",
+       "1 Chronicles 17:7",
+       "1 Chronicles 17:24",
+       "Psalm 24:10",
+       "Psalm 46:7",
+       "Psalm 46:11",
+       "Psalm 48:8",
+       "Psalm 69:6",
+       "Psalm 84:1",
+       "Psalm 84:3",
+       "Psalm 84:12",
+       "Isaiah 1:9",
+       "Isaiah 1:24",
+       "Isaiah 2:12",
+       "Isaiah 3:1",
+       "Isaiah 3:15",
+       "Isaiah 5:7",
+       "Isaiah 5:9",
+       "Isaiah 5:16",
+       "Isaiah 5:24",
+       "Isaiah 6:3",
+       "Isaiah 6:5",
+       "Isaiah 8:13",
+       "Isaiah 8:18",
+       "Isaiah 9:7",
+       "Isaiah 9:13",
+       "Isaiah 9:19",
+       "Isaiah 10:16"
+      ],
+      "first": {
+       "ref": "1 Samuel 1:3",
+       "text": "This man went up out of his city from year to year to worship and to sacrifice to Yahweh of Armies in Shiloh. The two sons of Eli, Hophni and Phinehas, priests to Yahweh, were there."
+      },
+      "last": {
+       "ref": "Malachi 4:3",
+       "text": "You shall tread down the wicked; for they will be ashes under the soles of your feet in the day that I make,” says Yahweh of Armies."
+      },
+      "books": 16
+     }
+    },
+    "godhosts": {
+     "label": "LORD God of hosts (KJV) or Yahweh God of Armies (WEB)",
+     "scope": null,
+     "kjv": {
+      "n": 29,
+      "verses": 28,
+      "ot": 29,
+      "nt": 0,
+      "otVerses": 28,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "2 Samuel",
+        1
+       ],
+       [
+        "1 Kings",
+        2
+       ],
+       [
+        "Psalms",
+        6
+       ],
+       [
+        "Isaiah",
+        8
+       ],
+       [
+        "Jeremiah",
+        9
+       ],
+       [
+        "Hosea",
+        1
+       ],
+       [
+        "Amos",
+        2
+       ]
+      ],
+      "refs": [
+       "2 Samuel 5:10",
+       "1 Kings 19:10",
+       "1 Kings 19:14",
+       "Psalm 59:5",
+       "Psalm 69:6",
+       "Psalm 80:4",
+       "Psalm 80:19",
+       "Psalm 84:8",
+       "Psalm 89:8",
+       "Isaiah 3:15",
+       "Isaiah 10:23",
+       "Isaiah 10:24",
+       "Isaiah 22:5",
+       "Isaiah 22:12",
+       "Isaiah 22:14",
+       "Isaiah 22:15",
+       "Isaiah 28:22",
+       "Jeremiah 2:19",
+       "Jeremiah 5:14",
+       "Jeremiah 15:16",
+       "Jeremiah 35:17",
+       "Jeremiah 46:10",
+       "Jeremiah 49:5",
+       "Jeremiah 50:25",
+       "Jeremiah 50:31",
+       "Hosea 12:5",
+       "Amos 5:15",
+       "Amos 9:5"
+      ],
+      "first": {
+       "ref": "2 Samuel 5:10",
+       "text": "And David went on, and grew great, and the LORD God of hosts was with him."
+      },
+      "last": {
+       "ref": "Amos 9:5",
+       "text": "And the Lord GOD of hosts is he that toucheth the land, and it shall melt, and all that dwell therein shall mourn: and it shall rise up wholly like a flood; and shall be drowned, as by the flood of Egypt."
+      },
+      "books": 7
+     },
+     "web": {
+      "n": 6,
+      "verses": 6,
+      "ot": 6,
+      "nt": 0,
+      "otVerses": 6,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Psalms",
+        5
+       ],
+       [
+        "Jeremiah",
+        1
+       ]
+      ],
+      "refs": [
+       "Psalm 59:5",
+       "Psalm 80:4",
+       "Psalm 80:19",
+       "Psalm 84:8",
+       "Psalm 89:8",
+       "Jeremiah 15:16"
+      ],
+      "first": {
+       "ref": "Psalm 59:5",
+       "text": "You, Yahweh God of Armies, the God of Israel, rouse yourself to punish the nations. Show no mercy to the wicked traitors. Selah."
+      },
+      "last": {
+       "ref": "Jeremiah 15:16",
+       "text": "Your words were found, and I ate them. Your words were to me a joy and the rejoicing of my heart, for I am called by your name, Yahweh, God of Armies."
+      },
+      "books": 2
+     }
+    },
+    "sabaoth": {
+     "label": "Sabaoth (KJV) or Lord of Armies (WEB)",
+     "scope": null,
+     "kjv": {
+      "n": 2,
+      "verses": 2,
+      "ot": 0,
+      "nt": 2,
+      "otVerses": 0,
+      "ntVerses": 2,
+      "byBook": [
+       [
+        "Romans",
+        1
+       ],
+       [
+        "James",
+        1
+       ]
+      ],
+      "refs": [
+       "Romans 9:29",
+       "James 5:4"
+      ],
+      "first": {
+       "ref": "Romans 9:29",
+       "text": "And as Esaias said before, Except the Lord of Sabaoth had left us a seed, we had been as Sodoma, and been made like unto Gomorrha."
+      },
+      "last": {
+       "ref": "James 5:4",
+       "text": "Behold, the hire of the labourers who have reaped down your fields, which is of you kept back by fraud, crieth: and the cries of them which have reaped are entered into the ears of the Lord of sabaoth."
+      },
+      "books": 2
+     },
+     "web": {
+      "n": 2,
+      "verses": 2,
+      "ot": 0,
+      "nt": 2,
+      "otVerses": 0,
+      "ntVerses": 2,
+      "byBook": [
+       [
+        "Romans",
+        1
+       ],
+       [
+        "James",
+        1
+       ]
+      ],
+      "refs": [
+       "Romans 9:29",
+       "James 5:4"
+      ],
+      "first": {
+       "ref": "Romans 9:29",
+       "text": "As Isaiah has said before, “Unless the Lord of Armies had left us a seed, we would have become like Sodom, and would have been made like Gomorrah.”"
+      },
+      "last": {
+       "ref": "James 5:4",
+       "text": "Behold, the wages of the laborers who mowed your fields, which you have kept back by fraud, cry out, and the cries of those who reaped have entered into the ears of the Lord of Armies."
+      },
+      "books": 2
+     }
+    }
+   },
+   "first": {
+    "ref": "1 Samuel 1:3",
+    "tr": "kjv",
+    "kjv": "And this man went up out of his city yearly to worship and to sacrifice unto the LORD of hosts in Shiloh. And the two sons of Eli, Hophni and Phinehas, the priests of the LORD, were there.",
+    "web": "This man went up out of his city from year to year to worship and to sacrifice to Yahweh of Armies in Shiloh. The two sons of Eli, Hophni and Phinehas, priests to Yahweh, were there."
+   },
+   "verses": [
+    {
+     "ref": "1 Samuel 1:3",
+     "kjv": "And this man went up out of his city yearly to worship and to sacrifice unto the LORD of hosts in Shiloh. And the two sons of Eli, Hophni and Phinehas, the priests of the LORD, were there.",
+     "web": "This man went up out of his city from year to year to worship and to sacrifice to Yahweh of Armies in Shiloh. The two sons of Eli, Hophni and Phinehas, priests to Yahweh, were there."
+    },
+    {
+     "ref": "1 Samuel 17:45",
+     "kjv": "Then said David to the Philistine, Thou comest to me with a sword, and with a spear, and with a shield: but I come to thee in the name of the LORD of hosts, the God of the armies of Israel, whom thou hast defied.",
+     "web": "Then David said to the Philistine, “You come to me with a sword, with a spear, and with a javelin; but I come to you in the name of Yahweh of Armies, the God of the armies of Israel, whom you have defied."
+    }
+   ]
+  },
+  "el-elyon": {
+   "slug": "el-elyon",
+   "name": "El Elyon",
+   "hebrew": "אֵל עֶלְיוֹן",
+   "translit": "El Elyon (ʼēl ʻelyôn)",
+   "strongs": [
+    {
+     "n": "H410",
+     "heb": "אֵל",
+     "tl": "ʼêl",
+     "gloss": "strength; mighty; especially the Almighty, but also any deity"
+    },
+    {
+     "n": "H5945",
+     "heb": "עֶלְיוֹן",
+     "tl": "ʻelyôwn",
+     "gloss": "an elevation, i.e. lofty; as a noun, the Supreme (God)"
+    }
+   ],
+   "literal": "God Most High",
+   "short": "God Most High",
+   "kind": "compound",
+   "english": "the most high God",
+   "why": "El Elyon is the title Melchizedek, king of Salem, carries as priest in Genesis 14. Abram uses it in the same chapter to swear to the king of Sodom, where he adds the LORD, tying the Most High God to Yahweh. Elyon comes from a word for high, so the title means God above all.",
+   "use": "The KJV prints most high God, the World English Bible prints God Most High, and both are counted. The English phrase also covers the Aramaic of Daniel and the Greek of Mark and Acts, so the Old Testament and New Testament counts are split.",
+   "related": [
+    "elohim",
+    "el-shaddai",
+    "el-olam",
+    "jehovah"
+   ],
+   "topics": [
+    "worship",
+    "holiness",
+    "trust"
+   ],
+   "faq": [
+    [
+     "What does El Elyon mean?",
+     "El Elyon means \"God Most High\". Elyon (Strong's H5945) comes from a word for elevation or height and is used as a name for the Supreme God."
+    ],
+    [
+     "Who first called God El Elyon?",
+     "Melchizedek, king of Salem and priest, in Genesis 14:18-20, when he blessed Abram."
+    ]
+   ],
+   "searches": {
+    "mhgod": {
+     "label": "most high God",
+     "scope": null,
+     "kjv": {
+      "n": 11,
+      "verses": 11,
+      "ot": 8,
+      "nt": 3,
+      "otVerses": 8,
+      "ntVerses": 3,
+      "byBook": [
+       [
+        "Genesis",
+        4
+       ],
+       [
+        "Psalms",
+        1
+       ],
+       [
+        "Daniel",
+        3
+       ],
+       [
+        "Mark",
+        1
+       ],
+       [
+        "Acts",
+        1
+       ],
+       [
+        "Hebrews",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 14:18",
+       "Genesis 14:19",
+       "Genesis 14:20",
+       "Genesis 14:22",
+       "Psalm 78:56",
+       "Daniel 3:26",
+       "Daniel 5:18",
+       "Daniel 5:21",
+       "Mark 5:7",
+       "Acts 16:17",
+       "Hebrews 7:1"
+      ],
+      "first": {
+       "ref": "Genesis 14:18",
+       "text": "And Melchizedek king of Salem brought forth bread and wine: and he was the priest of the most high God."
+      },
+      "last": {
+       "ref": "Hebrews 7:1",
+       "text": "For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him;"
+      },
+      "books": 6
+     },
+     "web": {
+      "n": 15,
+      "verses": 15,
+      "ot": 11,
+      "nt": 4,
+      "otVerses": 11,
+      "ntVerses": 4,
+      "byBook": [
+       [
+        "Genesis",
+        4
+       ],
+       [
+        "Psalms",
+        3
+       ],
+       [
+        "Daniel",
+        4
+       ],
+       [
+        "Mark",
+        1
+       ],
+       [
+        "Luke",
+        1
+       ],
+       [
+        "Acts",
+        1
+       ],
+       [
+        "Hebrews",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 14:18",
+       "Genesis 14:19",
+       "Genesis 14:20",
+       "Genesis 14:22",
+       "Psalm 57:2",
+       "Psalm 78:35",
+       "Psalm 78:56",
+       "Daniel 3:26",
+       "Daniel 4:2",
+       "Daniel 5:18",
+       "Daniel 5:21",
+       "Mark 5:7",
+       "Luke 8:28",
+       "Acts 16:17",
+       "Hebrews 7:1"
+      ],
+      "first": {
+       "ref": "Genesis 14:18",
+       "text": "Melchizedek king of Salem brought out bread and wine: and he was priest of God Most High."
+      },
+      "last": {
+       "ref": "Hebrews 7:1",
+       "text": "For this Melchizedek, king of Salem, priest of God Most High, who met Abraham returning from the slaughter of the kings and blessed him,"
+      },
+      "books": 7
+     }
+    },
+    "mh": {
+     "label": "Most High",
+     "scope": null,
+     "kjv": {
+      "n": 49,
+      "verses": 48,
+      "ot": 44,
+      "nt": 5,
+      "otVerses": 43,
+      "ntVerses": 5,
+      "byBook": [
+       [
+        "Genesis",
+        4
+       ],
+       [
+        "Numbers",
+        1
+       ],
+       [
+        "Deuteronomy",
+        1
+       ],
+       [
+        "2 Samuel",
+        1
+       ],
+       [
+        "Psalms",
+        19
+       ],
+       [
+        "Isaiah",
+        1
+       ],
+       [
+        "Lamentations",
+        2
+       ],
+       [
+        "Daniel",
+        13
+       ],
+       [
+        "Hosea",
+        2
+       ],
+       [
+        "Mark",
+        1
+       ],
+       [
+        "Luke",
+        1
+       ],
+       [
+        "Acts",
+        2
+       ],
+       [
+        "Hebrews",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 14:18",
+       "Genesis 14:19",
+       "Genesis 14:20",
+       "Genesis 14:22",
+       "Numbers 24:16",
+       "Deuteronomy 32:8",
+       "2 Samuel 22:14",
+       "Psalm 7:17",
+       "Psalm 9:2",
+       "Psalm 21:7",
+       "Psalm 46:4",
+       "Psalm 47:2",
+       "Psalm 50:14",
+       "Psalm 56:2",
+       "Psalm 57:2",
+       "Psalm 73:11",
+       "Psalm 77:10",
+       "Psalm 78:17",
+       "Psalm 78:56",
+       "Psalm 82:6",
+       "Psalm 83:18",
+       "Psalm 91:1",
+       "Psalm 91:9",
+       "Psalm 92:1",
+       "Psalm 92:8",
+       "Psalm 107:11",
+       "Isaiah 14:14",
+       "Lamentations 3:35",
+       "Lamentations 3:38",
+       "Daniel 3:26",
+       "Daniel 4:17",
+       "Daniel 4:24",
+       "Daniel 4:25",
+       "Daniel 4:32",
+       "Daniel 4:34",
+       "Daniel 5:18",
+       "Daniel 5:21",
+       "Daniel 7:18",
+       "Daniel 7:22",
+       "Daniel 7:25"
+      ],
+      "first": {
+       "ref": "Genesis 14:18",
+       "text": "And Melchizedek king of Salem brought forth bread and wine: and he was the priest of the most high God."
+      },
+      "last": {
+       "ref": "Hebrews 7:1",
+       "text": "For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him;"
+      },
+      "books": 13
+     },
+     "web": {
+      "n": 56,
+      "verses": 55,
+      "ot": 47,
+      "nt": 9,
+      "otVerses": 46,
+      "ntVerses": 9,
+      "byBook": [
+       [
+        "Genesis",
+        4
+       ],
+       [
+        "Numbers",
+        1
+       ],
+       [
+        "Deuteronomy",
+        1
+       ],
+       [
+        "2 Samuel",
+        1
+       ],
+       [
+        "Psalms",
+        21
+       ],
+       [
+        "Isaiah",
+        1
+       ],
+       [
+        "Lamentations",
+        2
+       ],
+       [
+        "Daniel",
+        14
+       ],
+       [
+        "Hosea",
+        2
+       ],
+       [
+        "Mark",
+        1
+       ],
+       [
+        "Luke",
+        5
+       ],
+       [
+        "Acts",
+        2
+       ],
+       [
+        "Hebrews",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 14:18",
+       "Genesis 14:19",
+       "Genesis 14:20",
+       "Genesis 14:22",
+       "Numbers 24:16",
+       "Deuteronomy 32:8",
+       "2 Samuel 22:14",
+       "Psalm 7:17",
+       "Psalm 9:2",
+       "Psalm 18:13",
+       "Psalm 21:7",
+       "Psalm 46:4",
+       "Psalm 47:2",
+       "Psalm 50:14",
+       "Psalm 57:2",
+       "Psalm 73:11",
+       "Psalm 77:10",
+       "Psalm 78:17",
+       "Psalm 78:35",
+       "Psalm 78:56",
+       "Psalm 82:6",
+       "Psalm 83:18",
+       "Psalm 87:5",
+       "Psalm 91:1",
+       "Psalm 91:9",
+       "Psalm 92:1",
+       "Psalm 97:9",
+       "Psalm 107:11",
+       "Isaiah 14:14",
+       "Lamentations 3:35",
+       "Lamentations 3:38",
+       "Daniel 3:26",
+       "Daniel 4:2",
+       "Daniel 4:17",
+       "Daniel 4:24",
+       "Daniel 4:25",
+       "Daniel 4:32",
+       "Daniel 4:34",
+       "Daniel 5:18",
+       "Daniel 5:21"
+      ],
+      "first": {
+       "ref": "Genesis 14:18",
+       "text": "Melchizedek king of Salem brought out bread and wine: and he was priest of God Most High."
+      },
+      "last": {
+       "ref": "Hebrews 7:1",
+       "text": "For this Melchizedek, king of Salem, priest of God Most High, who met Abraham returning from the slaughter of the kings and blessed him,"
+      },
+      "books": 13
+     }
+    }
+   },
+   "first": {
+    "ref": "Genesis 14:18",
+    "tr": "kjv",
+    "kjv": "And Melchizedek king of Salem brought forth bread and wine: and he was the priest of the most high God.",
+    "web": "Melchizedek king of Salem brought out bread and wine: and he was priest of God Most High."
+   },
+   "verses": [
+    {
+     "ref": "Genesis 14:18",
+     "kjv": "And Melchizedek king of Salem brought forth bread and wine: and he was the priest of the most high God.",
+     "web": "Melchizedek king of Salem brought out bread and wine: and he was priest of God Most High."
+    },
+    {
+     "ref": "Genesis 14:19",
+     "kjv": "And he blessed him, and said, Blessed be Abram of the most high God, possessor of heaven and earth:",
+     "web": "He blessed him, and said, “Blessed be Abram of God Most High, possessor of heaven and earth:"
+    }
+   ]
+  },
+  "el-roi": {
+   "slug": "el-roi",
+   "name": "El Roi",
+   "hebrew": "אֵל רֳאִי",
+   "translit": "El Roi (ʼēl roʼî)",
+   "strongs": [
+    {
+     "n": "H410",
+     "heb": "אֵל",
+     "tl": "ʼêl",
+     "gloss": "strength; mighty; especially the Almighty, but also any deity"
+    },
+    {
+     "n": "H7210",
+     "heb": "רֳאִי",
+     "tl": "roʼîy",
+     "gloss": "seeing; a sight"
+    }
+   ],
+   "literal": "the God who sees me (God of seeing)",
+   "short": "the God who sees me",
+   "kind": "compound",
+   "english": "Thou God seest me",
+   "why": "Hagar, running from Sarai into the wilderness, hears from the angel of the LORD and names him the God who sees her. The Hebrew roi is seeing, so the name means God of seeing, and the well is called Beer-lahai-roi in the next verse.",
+   "use": "The Hebrew name is not transliterated in the KJV or the World English Bible; both translate Hagar's words in Genesis 16:13. The well named for it is counted separately.",
+   "related": [
+    "jehovah-shammah",
+    "el-shaddai",
+    "elohim",
+    "jehovah-jireh"
+   ],
+   "topics": [
+    "loneliness",
+    "comfort",
+    "hard-times"
+   ],
+   "faq": [
+    [
+     "What does El Roi mean?",
+     "El Roi means \"the God who sees me\". Roi (Strong's H7210) is seeing or a sight, so the name reads God of seeing."
+    ],
+    [
+     "Who named God El Roi?",
+     "Hagar, in Genesis 16:13, after the angel of the LORD found her by a spring in the wilderness."
+    ]
+   ],
+   "searches": {
+    "name": {
+     "label": "Thou God seest me (KJV) or You are a God who sees (WEB)",
+     "scope": null,
+     "kjv": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 16:13"
+      ],
+      "first": {
+       "ref": "Genesis 16:13",
+       "text": "And she called the name of the LORD that spake unto her, Thou God seest me: for she said, Have I also here looked after him that seeth me?"
+      },
+      "last": {
+       "ref": "Genesis 16:13",
+       "text": "And she called the name of the LORD that spake unto her, Thou God seest me: for she said, Have I also here looked after him that seeth me?"
+      },
+      "books": 1
+     },
+     "web": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 16:13"
+      ],
+      "first": {
+       "ref": "Genesis 16:13",
+       "text": "She called the name of Yahweh who spoke to her, “You are a God who sees,” for she said, “Have I even stayed alive after seeing him?”"
+      },
+      "last": {
+       "ref": "Genesis 16:13",
+       "text": "She called the name of Yahweh who spoke to her, “You are a God who sees,” for she said, “Have I even stayed alive after seeing him?”"
+      },
+      "books": 1
+     }
+    },
+    "well": {
+     "label": "Lahai-roi, the well named for it",
+     "scope": null,
+     "kjv": {
+      "n": 2,
+      "verses": 2,
+      "ot": 2,
+      "nt": 0,
+      "otVerses": 2,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        2
+       ]
+      ],
+      "refs": [
+       "Genesis 24:62",
+       "Genesis 25:11"
+      ],
+      "first": {
+       "ref": "Genesis 24:62",
+       "text": "And Isaac came from the way of the well Lahai-roi; for he dwelt in the south country."
+      },
+      "last": {
+       "ref": "Genesis 25:11",
+       "text": "And it came to pass after the death of Abraham, that God blessed his son Isaac; and Isaac dwelt by the well Lahai-roi."
+      },
+      "books": 1
+     },
+     "web": {
+      "n": 3,
+      "verses": 3,
+      "ot": 3,
+      "nt": 0,
+      "otVerses": 3,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        3
+       ]
+      ],
+      "refs": [
+       "Genesis 16:14",
+       "Genesis 24:62",
+       "Genesis 25:11"
+      ],
+      "first": {
+       "ref": "Genesis 16:14",
+       "text": "Therefore the well was called Beer Lahai Roi. Behold, it is between Kadesh and Bered."
+      },
+      "last": {
+       "ref": "Genesis 25:11",
+       "text": "After the death of Abraham, God blessed Isaac, his son. Isaac lived by Beer Lahai Roi."
+      },
+      "books": 1
+     }
+    }
+   },
+   "first": {
+    "ref": "Genesis 16:13",
+    "tr": "kjv",
+    "kjv": "And she called the name of the LORD that spake unto her, Thou God seest me: for she said, Have I also here looked after him that seeth me?",
+    "web": "She called the name of Yahweh who spoke to her, “You are a God who sees,” for she said, “Have I even stayed alive after seeing him?”"
+   },
+   "verses": [
+    {
+     "ref": "Genesis 16:13",
+     "kjv": "And she called the name of the LORD that spake unto her, Thou God seest me: for she said, Have I also here looked after him that seeth me?",
+     "web": "She called the name of Yahweh who spoke to her, “You are a God who sees,” for she said, “Have I even stayed alive after seeing him?”"
+    },
+    {
+     "ref": "Genesis 16:14",
+     "kjv": "Wherefore the well was called Beer-lahai-roi; behold, it is between Kadesh and Bered.",
+     "web": "Therefore the well was called Beer Lahai Roi. Behold, it is between Kadesh and Bered."
+    }
+   ]
+  },
+  "el-olam": {
+   "slug": "el-olam",
+   "name": "El Olam",
+   "hebrew": "אֵל עוֹלָם",
+   "translit": "El Olam (ʼēl ʻôlām)",
+   "strongs": [
+    {
+     "n": "H410",
+     "heb": "אֵל",
+     "tl": "ʼêl",
+     "gloss": "strength; mighty; especially the Almighty, but also any deity"
+    },
+    {
+     "n": "H5769",
+     "heb": "עוֹלָם",
+     "tl": "ʻôwlâm",
+     "gloss": "concealed, i.e. the vanishing point; time out of mind (past or future), eternity"
+    }
+   ],
+   "literal": "the everlasting God",
+   "short": "the everlasting God",
+   "kind": "compound",
+   "english": "the everlasting God",
+   "why": "Abraham calls on El Olam at Beersheba in Genesis 21:33 after making peace with Abimelech. Olam is a word for time out of mind, stretching to the farthest past or future, so the name says that God is not bounded by time. Isaiah 40:28 repeats the thought: \"the everlasting God, the LORD, the Creator of the ends of the earth\".",
+   "use": "English text can only follow the translation: the KJV prints everlasting God and eternal God, and the World English Bible uses the same two, so both phrases are counted. Romans 16:26 has the same English for the Greek, so the Old Testament split matters.",
+   "related": [
+    "el-elyon",
+    "el-shaddai",
+    "elohim",
+    "jehovah"
+   ],
+   "topics": [
+    "eternal-life",
+    "faithfulness",
+    "worship"
+   ],
+   "faq": [
+    [
+     "What does El Olam mean?",
+     "El Olam means \"the everlasting God\" or \"the eternal God\". Olam (Strong's H5769) is time out of mind, eternity."
+    ],
+    [
+     "Where is El Olam in the Bible?",
+     "Genesis 21:33 is the verse: Abraham plants a tree at Beersheba and calls on the name of the LORD, the everlasting God."
+    ]
+   ],
+   "searches": {
+    "everlasting": {
+     "label": "the everlasting God",
+     "scope": null,
+     "kjv": {
+      "n": 3,
+      "verses": 3,
+      "ot": 2,
+      "nt": 1,
+      "otVerses": 2,
+      "ntVerses": 1,
+      "byBook": [
+       [
+        "Genesis",
+        1
+       ],
+       [
+        "Isaiah",
+        1
+       ],
+       [
+        "Romans",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 21:33",
+       "Isaiah 40:28",
+       "Romans 16:26"
+      ],
+      "first": {
+       "ref": "Genesis 21:33",
+       "text": "And Abraham planted a grove in Beer-sheba, and called there on the name of the LORD, the everlasting God."
+      },
+      "last": {
+       "ref": "Romans 16:26",
+       "text": "But now is made manifest, and by the scriptures of the prophets, according to the commandment of the everlasting God, made known to all nations for the obedience of faith:"
+      },
+      "books": 3
+     },
+     "web": {
+      "n": 2,
+      "verses": 2,
+      "ot": 2,
+      "nt": 0,
+      "otVerses": 2,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Genesis",
+        1
+       ],
+       [
+        "Isaiah",
+        1
+       ]
+      ],
+      "refs": [
+       "Genesis 21:33",
+       "Isaiah 40:28"
+      ],
+      "first": {
+       "ref": "Genesis 21:33",
+       "text": "Abraham planted a tamarisk tree in Beersheba, and called there on the name of Yahweh, the Everlasting God."
+      },
+      "last": {
+       "ref": "Isaiah 40:28",
+       "text": "Haven’t you known? Haven’t you heard? The everlasting God, Yahweh, The Creator of the ends of the earth, doesn’t faint. He isn’t weary. His understanding is unsearchable."
+      },
+      "books": 2
+     }
+    },
+    "eternal": {
+     "label": "the eternal God",
+     "scope": null,
+     "kjv": {
+      "n": 1,
+      "verses": 1,
+      "ot": 1,
+      "nt": 0,
+      "otVerses": 1,
+      "ntVerses": 0,
+      "byBook": [
+       [
+        "Deuteronomy",
+        1
+       ]
+      ],
+      "refs": [
+       "Deuteronomy 33:27"
+      ],
+      "first": {
+       "ref": "Deuteronomy 33:27",
+       "text": "The eternal God is thy refuge, and underneath are the everlasting arms: and he shall thrust out the enemy from before thee; and shall say, Destroy them."
+      },
+      "last": {
+       "ref": "Deuteronomy 33:27",
+       "text": "The eternal God is thy refuge, and underneath are the everlasting arms: and he shall thrust out the enemy from before thee; and shall say, Destroy them."
+      },
+      "books": 1
+     },
+     "web": {
+      "n": 2,
+      "verses": 2,
+      "ot": 1,
+      "nt": 1,
+      "otVerses": 1,
+      "ntVerses": 1,
+      "byBook": [
+       [
+        "Deuteronomy",
+        1
+       ],
+       [
+        "Romans",
+        1
+       ]
+      ],
+      "refs": [
+       "Deuteronomy 33:27",
+       "Romans 14:25"
+      ],
+      "first": {
+       "ref": "Deuteronomy 33:27",
+       "text": "The eternal God is your dwelling place. Underneath are the everlasting arms. He thrust out the enemy from before you, and said, ‘Destroy!’"
+      },
+      "last": {
+       "ref": "Romans 14:25",
+       "text": "but now is revealed, and by the Scriptures of the prophets, according to the commandment of the eternal God, is made known for obedience of faith to all the nations;"
+      },
+      "books": 2
+     }
+    }
+   },
+   "first": {
+    "ref": "Genesis 21:33",
+    "tr": "kjv",
+    "kjv": "And Abraham planted a grove in Beer-sheba, and called there on the name of the LORD, the everlasting God.",
+    "web": "Abraham planted a tamarisk tree in Beersheba, and called there on the name of Yahweh, the Everlasting God."
+   },
+   "verses": [
+    {
+     "ref": "Genesis 21:33",
+     "kjv": "And Abraham planted a grove in Beer-sheba, and called there on the name of the LORD, the everlasting God.",
+     "web": "Abraham planted a tamarisk tree in Beersheba, and called there on the name of Yahweh, the Everlasting God."
+    },
+    {
+     "ref": "Isaiah 40:28",
+     "kjv": "Hast thou not known? hast thou not heard, that the everlasting God, the LORD, the Creator of the ends of the earth, fainteth not, neither is weary? there is no searching of his understanding.",
+     "web": "Haven’t you known? Haven’t you heard? The everlasting God, Yahweh, The Creator of the ends of the earth, doesn’t faint. He isn’t weary. His understanding is unsearchable."
+    }
+   ]
+  }
+ }
+}

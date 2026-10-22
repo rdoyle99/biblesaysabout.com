@@ -181,6 +181,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/names-of-god"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Names of God and Their Meanings
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/bible-names"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >

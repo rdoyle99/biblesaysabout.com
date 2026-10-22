@@ -94,6 +94,13 @@ export default function BibleNames() {
 
         <Section>
           <p className="mb-4">
+            Looking for the names of God? See{" "}
+            <Link href="/names-of-god" className="underline underline-offset-2 hover:text-primary">
+              Elohim, Adonai, El Shaddai, Jehovah and more
+            </Link>
+            .
+          </p>
+          <p className="mb-4">
             Want counts for words rather than names? See{" "}
             <Link href="/words" className="underline underline-offset-2 hover:text-primary">
               how many times every word appears in the Bible

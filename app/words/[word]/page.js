@@ -364,6 +364,15 @@ export default async function WordPage({ params }) {
               .
             </p>
           ) : null}
+          {["god", "lord", "jehovah", "yahweh"].includes(w.slug) ? (
+            <p className="mb-4">
+              The Hebrew behind it, with meanings and first verses:{" "}
+              <Link href={w.slug === "jehovah" || w.slug === "yahweh" ? `/names-of-god/${w.slug}` : "/names-of-god"} className="font-medium underline underline-offset-2 hover:text-primary">
+                {w.slug === "jehovah" || w.slug === "yahweh" ? `${w.word} meaning` : "names of God and their meanings"}
+              </Link>
+              .
+            </p>
+          ) : null}
           <p className="mb-4">
             More word counts:{" "}
             {neighbors.map((n, i) => (
