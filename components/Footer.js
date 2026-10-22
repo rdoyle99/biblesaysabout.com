@@ -149,6 +149,22 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/books-of-the-bible-in-order"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Books in Order
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/how-long-is-the-bible"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  How Long Is the Bible?
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/bible-by-the-numbers"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >

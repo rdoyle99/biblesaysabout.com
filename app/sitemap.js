@@ -4,6 +4,7 @@ import { getAllTopics, getVersesByTopic, topicCategories } from "@/lib/verses";
 import { books, words, DATA_DATE, WORDS_DATE } from "@/lib/bibleData";
 import { STATS_UPDATED } from "@/lib/bibleStats";
 import { PLANS, PLAN_DATE } from "@/lib/readingPlan";
+import { LIST_DATE, RANK_DATE, RANK_SLUGS } from "@/lib/bookLists";
 import { getPageMeaning, NAMES_DATE } from "@/lib/bibleNames";
 
 const baseUrl = "https://www.biblesaysabout.com";
@@ -25,6 +26,8 @@ export default function sitemap() {
     { url: `${baseUrl}/books-of-the-bible`, lastModified: DATA_DATE, priority: 0.9 },
     { url: `${baseUrl}/bible-by-the-numbers`, lastModified: DATA_DATE, priority: 0.9 },
     { url: `${baseUrl}/how-long-does-it-take-to-read-the-bible`, lastModified: DATA_DATE, priority: 0.9 },
+    ...["books-of-the-bible-in-order", "old-testament-books-in-order", "new-testament-books-in-order", "how-long-is-the-bible"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LIST_DATE, priority: 0.9 })),
+    ...RANK_SLUGS.map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: RANK_DATE, priority: 0.8 })),
     { url: `${baseUrl}/words`, lastModified: WORDS_DATE, priority: 0.8 },
     { url: `${baseUrl}/bible-names`, lastModified: NAMES_DATE, priority: 0.8 },
     { url: `${baseUrl}/bible-reading-plan`, lastModified: PLAN_DATE, priority: 0.9 },

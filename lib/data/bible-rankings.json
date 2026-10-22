@@ -1,0 +1,703 @@
+{
+ "generated": "2026-10-22",
+ "kjv": {
+  "ntLongestVerse": {
+   "ref": "Revelation 20:4",
+   "words": 68,
+   "letters": 284,
+   "text": "And I saw thrones, and they sat upon them, and judgment was given unto them: and I saw the souls of them that were beheaded for the witness of Jesus, and for the word of God, and which had not worshipped the beast, neither his image, neither had received his mark upon their foreheads, or in their hands; and they lived and reigned with Christ a thousand years."
+  },
+  "ntLongestChapter": {
+   "ref": "Luke 1",
+   "verses": 80,
+   "words": 1583
+  },
+  "ntShortestChapter": {
+   "ref": "Revelation 15",
+   "verses": 8,
+   "words": 252
+  },
+  "shortestVerses": [
+   {
+    "ref": "John 11:35",
+    "words": 2,
+    "letters": 9,
+    "text": "Jesus wept."
+   },
+   {
+    "ref": "1 Thessalonians 5:16",
+    "words": 2,
+    "letters": 15,
+    "text": "Rejoice evermore."
+   },
+   {
+    "ref": "1 Chronicles 1:25",
+    "words": 3,
+    "letters": 12,
+    "text": "Eber, Peleg, Reu,"
+   },
+   {
+    "ref": "1 Chronicles 1:1",
+    "words": 3,
+    "letters": 14,
+    "text": "Adam, Sheth, Enosh,"
+   },
+   {
+    "ref": "1 Chronicles 1:26",
+    "words": 3,
+    "letters": 15,
+    "text": "Serug, Nahor, Terah,"
+   },
+   {
+    "ref": "Nehemiah 10:15",
+    "words": 3,
+    "letters": 15,
+    "text": "Bunni, Azgad, Bebai,"
+   },
+   {
+    "ref": "Luke 17:32",
+    "words": 3,
+    "letters": 16,
+    "text": "Remember Lot’s wife."
+   },
+   {
+    "ref": "Nehemiah 10:13",
+    "words": 3,
+    "letters": 17,
+    "text": "Hodijah, Bani, Beninu."
+   },
+   {
+    "ref": "Nehemiah 10:17",
+    "words": 3,
+    "letters": 17,
+    "text": "Ater, Hizkijah, Azzur,"
+   },
+   {
+    "ref": "Nehemiah 11:33",
+    "words": 3,
+    "letters": 17,
+    "text": "Hazor, Ramah, Gittaim,"
+   }
+  ],
+  "longestVerses": [
+   {
+    "ref": "Esther 8:9",
+    "words": 90,
+    "letters": 426,
+    "text": "Then were the king’s scribes called at that time in the third month, that is, the month Sivan, on the three and twentieth day thereof; and it was written according to all that Mordecai commanded unto the Jews, and to the lieutenants, and the deputies and rulers of the provinces which are from India unto Ethiopia, an hundred twenty and seven provinces, unto every province according to the writing thereof, and unto every people after their language, and to the Jews according to their writing, and according to their language."
+   },
+   {
+    "ref": "Jeremiah 21:7",
+    "words": 83,
+    "letters": 344,
+    "text": "And afterward, saith the LORD, I will deliver Zedekiah king of Judah, and his servants, and the people, and such as are left in this city from the pestilence, from the sword, and from the famine, into the hand of Nebuchadrezzar king of Babylon, and into the hand of their enemies, and into the hand of those that seek their life: and he shall smite them with the edge of the sword; he shall not spare them, neither have pity, nor have mercy."
+   },
+   {
+    "ref": "Ezekiel 46:9",
+    "words": 81,
+    "letters": 292,
+    "text": "But when the people of the land shall come before the LORD in the solemn feasts, he that entereth in by the way of the north gate to worship shall go out by the way of the south gate; and he that entereth by the way of the south gate shall go forth by the way of the north gate: he shall not return by the way of the gate whereby he came in, but shall go forth over against it."
+   },
+   {
+    "ref": "Ezekiel 48:21",
+    "words": 80,
+    "letters": 343,
+    "text": "And the residue shall be for the prince, on the one side and on the other of the holy oblation, and of the possession of the city, over against the five and twenty thousand of the oblation toward the east border, and westward over against the five and twenty thousand toward the west border, over against the portions for the prince: and it shall be the holy oblation; and the sanctuary of the house shall be in the midst thereof."
+   },
+   {
+    "ref": "Joshua 8:33",
+    "words": 80,
+    "letters": 335,
+    "text": "And all Israel, and their elders, and officers, and their judges, stood on this side the ark and on that side before the priests the Levites, which bare the ark of the covenant of the LORD, as well the stranger, as he that was born among them; half of them over against mount Gerizim, and half of them over against mount Ebal; as Moses the servant of the LORD had commanded before, that they should bless the people of Israel."
+   },
+   {
+    "ref": "Jeremiah 44:12",
+    "words": 80,
+    "letters": 312,
+    "text": "And I will take the remnant of Judah, that have set their faces to go into the land of Egypt to sojourn there, and they shall all be consumed, and fall in the land of Egypt; they shall even be consumed by the sword and by the famine: they shall die, from the least even unto the greatest, by the sword and by the famine: and they shall be an execration, and an astonishment, and a curse, and a reproach."
+   },
+   {
+    "ref": "2 Chronicles 2:14",
+    "words": 80,
+    "letters": 290,
+    "text": "The son of a woman of the daughters of Dan, and his father was a man of Tyre, skilful to work in gold, and in silver, in brass, in iron, in stone, and in timber, in purple, in blue, and in fine linen, and in crimson; also to grave any manner of graving, and to find out every device which shall be put to him, with thy cunning men, and with the cunning men of my lord David thy father."
+   },
+   {
+    "ref": "2 Kings 16:15",
+    "words": 79,
+    "letters": 352,
+    "text": "And king Ahaz commanded Urijah the priest, saying, Upon the great altar burn the morning burnt offering, and the evening meat offering, and the king’s burnt sacrifice, and his meat offering, with the burnt offering of all the people of the land, and their meat offering, and their drink offerings; and sprinkle upon it all the blood of the burnt offering, and all the blood of the sacrifice: and the brasen altar shall be for me to enquire by."
+   },
+   {
+    "ref": "Daniel 5:23",
+    "words": 78,
+    "letters": 313,
+    "text": "But hast lifted up thyself against the Lord of heaven; and they have brought the vessels of his house before thee, and thou, and thy lords, thy wives, and thy concubines, have drunk wine in them; and thou hast praised the gods of silver, and gold, of brass, iron, wood, and stone, which see not, nor hear, nor know: and the God in whose hand thy breath is, and whose are all thy ways, hast thou not glorified:"
+   },
+   {
+    "ref": "Jeremiah 33:11",
+    "words": 77,
+    "letters": 296,
+    "text": "The voice of joy, and the voice of gladness, the voice of the bridegroom, and the voice of the bride, the voice of them that shall say, Praise the LORD of hosts: for the LORD is good; for his mercy endureth for ever: and of them that shall bring the sacrifice of praise into the house of the LORD. For I will cause to return the captivity of the land, as at the first, saith the LORD."
+   }
+  ],
+  "longestChapters": [
+   {
+    "ref": "Psalm 119",
+    "verses": 176,
+    "words": 2423
+   },
+   {
+    "ref": "Numbers 7",
+    "verses": 89,
+    "words": 1939
+   },
+   {
+    "ref": "1 Chronicles 6",
+    "verses": 81,
+    "words": 1344
+   },
+   {
+    "ref": "Luke 1",
+    "verses": 80,
+    "words": 1583
+   },
+   {
+    "ref": "Matthew 26",
+    "verses": 75,
+    "words": 1625
+   },
+   {
+    "ref": "Nehemiah 7",
+    "verses": 73,
+    "words": 1179
+   },
+   {
+    "ref": "Mark 14",
+    "verses": 72,
+    "words": 1595
+   },
+   {
+    "ref": "Psalm 78",
+    "verses": 72,
+    "words": 1225
+   },
+   {
+    "ref": "John 6",
+    "verses": 71,
+    "words": 1506
+   },
+   {
+    "ref": "Luke 22",
+    "verses": 71,
+    "words": 1396
+   }
+  ],
+  "shortestChapters": [
+   {
+    "ref": "Psalm 117",
+    "verses": 2,
+    "words": 33
+   },
+   {
+    "ref": "Psalm 134",
+    "verses": 3,
+    "words": 44
+   },
+   {
+    "ref": "Psalm 131",
+    "verses": 3,
+    "words": 60
+   },
+   {
+    "ref": "Psalm 133",
+    "verses": 3,
+    "words": 69
+   },
+   {
+    "ref": "Esther 10",
+    "verses": 3,
+    "words": 93
+   },
+   {
+    "ref": "Psalm 123",
+    "verses": 4,
+    "words": 94
+   },
+   {
+    "ref": "Psalm 100",
+    "verses": 5,
+    "words": 86
+   },
+   {
+    "ref": "Psalm 93",
+    "verses": 5,
+    "words": 92
+   },
+   {
+    "ref": "Psalm 15",
+    "verses": 5,
+    "words": 99
+   },
+   {
+    "ref": "Psalm 70",
+    "verses": 5,
+    "words": 102
+   }
+  ],
+  "longestChaptersByWords": [
+   {
+    "ref": "Psalm 119",
+    "verses": 176,
+    "words": 2423
+   },
+   {
+    "ref": "1 Kings 8",
+    "verses": 66,
+    "words": 2138
+   },
+   {
+    "ref": "Deuteronomy 28",
+    "verses": 68,
+    "words": 2075
+   },
+   {
+    "ref": "Numbers 7",
+    "verses": 89,
+    "words": 1939
+   },
+   {
+    "ref": "Leviticus 13",
+    "verses": 59,
+    "words": 1858
+   },
+   {
+    "ref": "Jeremiah 51",
+    "verses": 64,
+    "words": 1853
+   },
+   {
+    "ref": "Ezekiel 16",
+    "verses": 63,
+    "words": 1820
+   },
+   {
+    "ref": "Genesis 24",
+    "verses": 67,
+    "words": 1817
+   },
+   {
+    "ref": "1 Samuel 17",
+    "verses": 58,
+    "words": 1721
+   },
+   {
+    "ref": "Leviticus 14",
+    "verses": 57,
+    "words": 1713
+   }
+  ],
+  "shortestChaptersByWords": [
+   {
+    "ref": "Psalm 117",
+    "verses": 2,
+    "words": 33
+   },
+   {
+    "ref": "Psalm 134",
+    "verses": 3,
+    "words": 44
+   },
+   {
+    "ref": "Psalm 131",
+    "verses": 3,
+    "words": 60
+   },
+   {
+    "ref": "Psalm 133",
+    "verses": 3,
+    "words": 69
+   },
+   {
+    "ref": "Psalm 150",
+    "verses": 6,
+    "words": 85
+   },
+   {
+    "ref": "Psalm 100",
+    "verses": 5,
+    "words": 86
+   },
+   {
+    "ref": "Psalm 120",
+    "verses": 7,
+    "words": 88
+   },
+   {
+    "ref": "Job 25",
+    "verses": 6,
+    "words": 90
+   },
+   {
+    "ref": "Psalm 93",
+    "verses": 5,
+    "words": 92
+   },
+   {
+    "ref": "Esther 10",
+    "verses": 3,
+    "words": 93
+   }
+  ]
+ },
+ "web": {
+  "ntLongestVerse": {
+   "ref": "Revelation 20:4",
+   "words": 67,
+   "letters": 266,
+   "text": "I saw thrones, and they sat on them, and judgment was given to them. I saw the souls of those who had been beheaded for the testimony of Jesus, and for the word of God, and such as didn’t worship the beast nor his image, and didn’t receive the mark on their forehead and on their hand. They lived and reigned with Christ for a thousand years."
+  },
+  "ntLongestChapter": {
+   "ref": "Luke 1",
+   "verses": 80,
+   "words": 1491
+  },
+  "ntShortestChapter": {
+   "ref": "Revelation 15",
+   "verses": 8,
+   "words": 228
+  },
+  "shortestVerses": [
+   {
+    "ref": "John 11:35",
+    "words": 2,
+    "letters": 9,
+    "text": "Jesus wept."
+   },
+   {
+    "ref": "Job 3:2",
+    "words": 2,
+    "letters": 11,
+    "text": "Job answered:"
+   },
+   {
+    "ref": "1 Thessalonians 5:16",
+    "words": 2,
+    "letters": 13,
+    "text": "Rejoice always."
+   },
+   {
+    "ref": "1 Chronicles 1:25",
+    "words": 3,
+    "letters": 12,
+    "text": "Eber, Peleg, Reu,"
+   },
+   {
+    "ref": "Joshua 15:29",
+    "words": 3,
+    "letters": 13,
+    "text": "Baalah, Iim, Ezem,"
+   },
+   {
+    "ref": "1 Chronicles 1:1",
+    "words": 3,
+    "letters": 13,
+    "text": "Adam, Seth, Enosh,"
+   },
+   {
+    "ref": "Joshua 15:52",
+    "words": 3,
+    "letters": 14,
+    "text": "Arab, Dumah, Eshan,"
+   },
+   {
+    "ref": "Joshua 19:43",
+    "words": 3,
+    "letters": 15,
+    "text": "Elon, Timnah, Ekron,"
+   },
+   {
+    "ref": "1 Chronicles 1:26",
+    "words": 3,
+    "letters": 15,
+    "text": "Serug, Nahor, Terah,"
+   },
+   {
+    "ref": "1 Chronicles 8:22",
+    "words": 3,
+    "letters": 15,
+    "text": "Ishpan, Eber, Eliel,"
+   }
+  ],
+  "longestVerses": [
+   {
+    "ref": "Esther 8:9",
+    "words": 87,
+    "letters": 384,
+    "text": "Then the king’s scribes were called at that time, in the third month, which is the month Sivan, on the twenty-third day of the month; and it was written according to all that Mordecai commanded to the Jews, and to the satraps, and the governors and princes of the provinces which are from India to Ethiopia, one hundred twenty-seven provinces, to every province according to its writing, and to every people in their language, and to the Jews in their writing, and in their language."
+   },
+   {
+    "ref": "2 Chronicles 2:14",
+    "words": 80,
+    "letters": 302,
+    "text": "the son of a woman of the daughters of Dan; and his father was a man of Tyre, skillful to work in gold, in silver, in brass, in iron, in stone, in timber, and in purple, in blue, in fine linen, and in crimson, also to engrave any kind of engraving and to devise any device; that there may be a place appointed to him with your skillful men, and with the skillful men of my lord David your father."
+   },
+   {
+    "ref": "Jeremiah 44:12",
+    "words": 79,
+    "letters": 299,
+    "text": "I will take the remnant of Judah, that have set their faces to go into the land of Egypt to live there, and they will all be consumed. They will fall in the land of Egypt. They will be consumed by the sword and by the famine. They will die, from the least even to the greatest, by the sword and by the famine. They will be an object of horror, an astonishment, and a curse, and a reproach."
+   },
+   {
+    "ref": "Ezekiel 46:9",
+    "words": 79,
+    "letters": 281,
+    "text": "“‘“But when the people of the land come before Yahweh in the appointed feasts, he who enters by the way of the north gate to worship shall go out by the way of the south gate; and he who enters by the way of the south gate shall go out by the way of the north gate. He shall not return by the way of the gate by which he came in, but shall go out straight before him."
+   },
+   {
+    "ref": "Jeremiah 21:7",
+    "words": 78,
+    "letters": 326,
+    "text": "Afterward,” says Yahweh, “I will deliver Zedekiah king of Judah, his servants, and the people, even those who are left in this city from the pestilence, from the sword, and from the famine, into the hand of Nebuchadnezzar king of Babylon, and into the hand of their enemies, and into the hand of those who seek their life. He will strike them with the edge of the sword. He will not spare them, have pity, or have mercy.”’"
+   },
+   {
+    "ref": "Ezekiel 48:21",
+    "words": 78,
+    "letters": 325,
+    "text": "“The remainder shall be for the prince, on the one side and on the other of the holy offering and of the possession of the city; in front of the twenty-five thousand of the offering toward the east border, and westward in front of the twenty-five thousand toward the west border, alongside the portions, it shall be for the prince. The holy offering and the sanctuary of the house shall be in the middle of it."
+   },
+   {
+    "ref": "Daniel 5:23",
+    "words": 77,
+    "letters": 313,
+    "text": "but have lifted up yourself against the Lord of heaven; and they have brought the vessels of his house before you, and you and your lords, your wives, and your concubines, have drunk wine from them. You have praised the gods of silver and gold, of brass, iron, wood, and stone, which don’t see, or hear, or know; and you have not glorified the God in whose hand your breath is, and whose are all your ways."
+   },
+   {
+    "ref": "1 Samuel 29:4",
+    "words": 77,
+    "letters": 305,
+    "text": "But the princes of the Philistines were angry with him; and the princes of the Philistines said to him, “Make the man return, that he may go back to his place where you have appointed him, and let him not go down with us to battle, lest in the battle he become an adversary to us. For with what should this fellow reconcile himself to his lord? Should it not be with the heads of these men?"
+   },
+   {
+    "ref": "Daniel 11:6",
+    "words": 77,
+    "letters": 295,
+    "text": "At the end of years they will join themselves together; and the daughter of the king of the south will come to the king of the north to make an agreement; but she will not retain the strength of her arm. He will also not stand, nor will his arm; but she will be given up, with those who brought her, and he who became the father of her, and he who strengthened her in those times."
+   },
+   {
+    "ref": "Esther 3:12",
+    "words": 76,
+    "letters": 327,
+    "text": "Then the king’s scribes were called in on the first month, on the thirteenth day of the month; and all that Haman commanded was written to the king’s satraps, and to the governors who were over every province, and to the princes of every people, to every province according to its writing, and to every people in their language. It was written in the name of King Ahasuerus, and it was sealed with the king’s ring."
+   }
+  ],
+  "longestChapters": [
+   {
+    "ref": "Psalm 119",
+    "verses": 176,
+    "words": 2309
+   },
+   {
+    "ref": "Numbers 7",
+    "verses": 89,
+    "words": 1906
+   },
+   {
+    "ref": "1 Chronicles 6",
+    "verses": 81,
+    "words": 1321
+   },
+   {
+    "ref": "Luke 1",
+    "verses": 80,
+    "words": 1491
+   },
+   {
+    "ref": "Matthew 26",
+    "verses": 75,
+    "words": 1575
+   },
+   {
+    "ref": "Nehemiah 7",
+    "verses": 73,
+    "words": 1102
+   },
+   {
+    "ref": "Mark 14",
+    "verses": 72,
+    "words": 1540
+   },
+   {
+    "ref": "Psalm 78",
+    "verses": 72,
+    "words": 1165
+   },
+   {
+    "ref": "John 6",
+    "verses": 71,
+    "words": 1492
+   },
+   {
+    "ref": "Luke 22",
+    "verses": 71,
+    "words": 1363
+   }
+  ],
+  "shortestChapters": [
+   {
+    "ref": "Psalm 117",
+    "verses": 2,
+    "words": 24
+   },
+   {
+    "ref": "Psalm 134",
+    "verses": 3,
+    "words": 37
+   },
+   {
+    "ref": "Psalm 131",
+    "verses": 3,
+    "words": 58
+   },
+   {
+    "ref": "Psalm 133",
+    "verses": 3,
+    "words": 65
+   },
+   {
+    "ref": "Esther 10",
+    "verses": 3,
+    "words": 91
+   },
+   {
+    "ref": "Psalm 123",
+    "verses": 4,
+    "words": 88
+   },
+   {
+    "ref": "Psalm 100",
+    "verses": 5,
+    "words": 78
+   },
+   {
+    "ref": "Psalm 93",
+    "verses": 5,
+    "words": 79
+   },
+   {
+    "ref": "Psalm 70",
+    "verses": 5,
+    "words": 89
+   },
+   {
+    "ref": "Psalm 125",
+    "verses": 5,
+    "words": 98
+   }
+  ],
+  "longestChaptersByWords": [
+   {
+    "ref": "Psalm 119",
+    "verses": 176,
+    "words": 2309
+   },
+   {
+    "ref": "1 Kings 8",
+    "verses": 66,
+    "words": 2037
+   },
+   {
+    "ref": "Deuteronomy 28",
+    "verses": 68,
+    "words": 1983
+   },
+   {
+    "ref": "Numbers 7",
+    "verses": 89,
+    "words": 1906
+   },
+   {
+    "ref": "Leviticus 13",
+    "verses": 59,
+    "words": 1766
+   },
+   {
+    "ref": "Jeremiah 51",
+    "verses": 64,
+    "words": 1761
+   },
+   {
+    "ref": "Ezekiel 16",
+    "verses": 63,
+    "words": 1747
+   },
+   {
+    "ref": "Genesis 24",
+    "verses": 67,
+    "words": 1669
+   },
+   {
+    "ref": "Leviticus 14",
+    "verses": 57,
+    "words": 1644
+   },
+   {
+    "ref": "1 Samuel 17",
+    "verses": 58,
+    "words": 1624
+   }
+  ],
+  "shortestChaptersByWords": [
+   {
+    "ref": "Psalm 117",
+    "verses": 2,
+    "words": 24
+   },
+   {
+    "ref": "Psalm 134",
+    "verses": 3,
+    "words": 37
+   },
+   {
+    "ref": "Psalm 131",
+    "verses": 3,
+    "words": 58
+   },
+   {
+    "ref": "Psalm 133",
+    "verses": 3,
+    "words": 65
+   },
+   {
+    "ref": "Psalm 150",
+    "verses": 6,
+    "words": 76
+   },
+   {
+    "ref": "Psalm 100",
+    "verses": 5,
+    "words": 78
+   },
+   {
+    "ref": "Psalm 93",
+    "verses": 5,
+    "words": 79
+   },
+   {
+    "ref": "Job 25",
+    "verses": 6,
+    "words": 82
+   },
+   {
+    "ref": "Psalm 120",
+    "verses": 7,
+    "words": 88
+   },
+   {
+    "ref": "Psalm 123",
+    "verses": 4,
+    "words": 88
+   }
+  ]
+ }
+}

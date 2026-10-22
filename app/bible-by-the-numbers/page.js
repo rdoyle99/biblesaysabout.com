@@ -144,6 +144,19 @@ export default function BibleByTheNumbers() {
           <p className="mt-3 text-xs text-muted-foreground">The 10 longest chapters by verse count (KJV).</p>
         </Section>
 
+        <Section id="full-rankings" title="Full top-10 rankings">
+          <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 list-disc pl-5">
+            <li><Link href="/shortest-verse-in-the-bible" className="underline underline-offset-2 hover:text-primary">Shortest verse in the Bible</Link></li>
+            <li><Link href="/longest-verse-in-the-bible" className="underline underline-offset-2 hover:text-primary">Longest verse in the Bible</Link></li>
+            <li><Link href="/shortest-chapter-in-the-bible" className="underline underline-offset-2 hover:text-primary">Shortest chapter in the Bible</Link></li>
+            <li><Link href="/longest-chapter-in-the-bible" className="underline underline-offset-2 hover:text-primary">Longest chapter in the Bible</Link></li>
+            <li><Link href="/shortest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">Shortest book in the Bible</Link></li>
+            <li><Link href="/longest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">Longest book in the Bible</Link></li>
+            <li><Link href="/books-of-the-bible-in-order" className="underline underline-offset-2 hover:text-primary">Books of the Bible in order</Link></li>
+            <li><Link href="/how-long-is-the-bible" className="underline underline-offset-2 hover:text-primary">How long is the Bible?</Link></li>
+          </ul>
+        </Section>
+
         <AmazonPicks
           title="Go deeper"
           items={[

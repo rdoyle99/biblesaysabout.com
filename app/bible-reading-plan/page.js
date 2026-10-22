@@ -107,6 +107,22 @@ export default function ReadingPlanHub() {
             <Link href="/books-of-the-bible" className="underline underline-offset-2 hover:text-primary">
               all 66 books
             </Link>
+            , see{" "}
+            <Link href="/books-of-the-bible-in-order" className="underline underline-offset-2 hover:text-primary">
+              the books of the Bible in order
+            </Link>{" "}
+            (
+            <Link href="/old-testament-books-in-order" className="underline underline-offset-2 hover:text-primary">
+              Old Testament
+            </Link>
+            ,{" "}
+            <Link href="/new-testament-books-in-order" className="underline underline-offset-2 hover:text-primary">
+              New Testament
+            </Link>
+            ), or check{" "}
+            <Link href="/how-long-is-the-bible" className="underline underline-offset-2 hover:text-primary">
+              how long the Bible is
+            </Link>
             .
           </p>
           <MethodNote text={PLAN_METHOD} date={PLAN_DATE} />

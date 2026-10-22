@@ -179,6 +179,17 @@ export default function BooksOfTheBible() {
           ]}
         />
 
+        <Section id="in-order" title="Books of the Bible in order">
+          <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-2 list-disc pl-5">
+            <li><Link href="/books-of-the-bible-in-order" className="underline underline-offset-2 hover:text-primary">All 66 books in order</Link></li>
+            <li><Link href="/old-testament-books-in-order" className="underline underline-offset-2 hover:text-primary">Old Testament books in order</Link></li>
+            <li><Link href="/new-testament-books-in-order" className="underline underline-offset-2 hover:text-primary">New Testament books in order</Link></li>
+            <li><Link href="/longest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">Longest book in the Bible</Link></li>
+            <li><Link href="/shortest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">Shortest book in the Bible</Link></li>
+            <li><Link href="/how-long-is-the-bible" className="underline underline-offset-2 hover:text-primary">How long is the Bible?</Link></li>
+          </ul>
+        </Section>
+
         <Section muted>
           <p className="mb-4">
             More counts:{" "}
