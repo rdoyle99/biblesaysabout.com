@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { books, fmt, METHOD, SITE } from "@/lib/bibleData";
 import { getVersesByTopic } from "@/lib/verses";
-import { GOD_NAMES, getGodName, TR_NAME, TR_SHORT, NAMES_OF_GOD_DATE, STRONGS_SOURCE, STRONGS_NOTE } from "@/lib/namesOfGod";
+import { GOD_NAMES, getGodName, STRONGS_READ, TR_NAME, TR_SHORT, NAMES_OF_GOD_DATE, STRONGS_SOURCE, STRONGS_NOTE } from "@/lib/namesOfGod";
 import { generateBreadcrumbSchema, generateFAQSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
 import { JsonLd, Breadcrumbs, StatTiles, BarRows, VerseQuote, FaqSection, Section, MethodNote } from "@/components/DataBits";
 
@@ -271,7 +271,7 @@ export default async function GodNamePage({ params }) {
         <Section>
           <h2 className="text-2xl font-bold mb-3">Sources</h2>
           <p className="mb-4 text-sm text-muted-foreground">
-            Hebrew meanings: {STRONGS_SOURCE}. Verse text: King James Version and World English Bible, public domain. Counts: Bible Says About, {NAMES_OF_GOD_DATE}.
+            Source: {n.strongs.map((x) => x.n).join(", ")} via biblehub.com/hebrew, read {STRONGS_READ}. Hebrew meanings: {STRONGS_SOURCE}. Verse text: King James Version and World English Bible, public domain. Counts: Bible Says About, {NAMES_OF_GOD_DATE}.
           </p>
           <p className="mb-4">
             Verses on our topic pages:{" "}

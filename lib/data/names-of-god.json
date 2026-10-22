@@ -27,8 +27,8 @@
     {
      "n": "H430",
      "heb": "אֱלֹהִים",
-     "tl": "ʼĕlôhîym",
-     "gloss": "plural of eloah: gods in the ordinary sense; specifically, the supreme God"
+     "tl": "elohiym",
+     "gloss": "plural of eloah (H433): gods in the ordinary sense; specifically, the supreme God; occasionally applied to magistrates (judges)"
     }
    ],
    "literal": "God (a plural form that takes a singular verb when it means the one God)",
@@ -824,15 +824,15 @@
     {
      "n": "H136",
      "heb": "אֲדֹנָי",
-     "tl": "ʼĂdônây",
-     "gloss": "an emphatic form of adon (master): the Lord, used as a proper name of God only"
+     "tl": "Adonay",
+     "gloss": "the Lord (used as a proper name of God only); short definition: Lord, Master"
     }
    ],
    "literal": "my Lord, my Master",
    "short": "my Lord, a title of respect and rule",
    "kind": "title",
    "english": "Lord",
-   "why": "Adonai is the plural of adon (master) with the ending for \"my\": literally \"my lords\", used of God as a plural of majesty. Jewish readers say Adonai aloud wherever the written text has the name YHWH, so the word became the spoken stand-in for the name.",
+   "why": "Adonai comes from adon (lord, master; Strong's: sovereign, controller, human or divine). The form is a plural of rank with the ending for \"my\", literally \"my lords\", and it is used of God alone. Jewish readers say Adonai aloud wherever the written text has the name YHWH, so the word became the spoken stand-in for the name.",
    "use": "English Bibles print Adonai as Lord, in ordinary capitals, and print the name YHWH as LORD in small capitals. The same Lord also translates the Greek Kyrios in the New Testament, so a count of the word Lord cannot isolate Adonai and we leave that count out. The one pattern English text does mark is Adonai followed by YHWH, printed Lord GOD in the KJV and Lord Yahweh in the World English Bible.",
    "related": [
     "jehovah",
@@ -1139,21 +1139,21 @@
     {
      "n": "H410",
      "heb": "אֵל",
-     "tl": "ʼêl",
-     "gloss": "strength; mighty; especially the Almighty, but also any deity"
+     "tl": "el",
+     "gloss": "God, god, mighty one"
     },
     {
      "n": "H7706",
      "heb": "שַׁדַּי",
      "tl": "Shadday",
-     "gloss": "the Almighty"
+     "gloss": "the Almighty (from shadad)"
     }
    ],
    "literal": "God Almighty",
    "short": "God Almighty",
    "kind": "compound",
    "english": "God Almighty",
-   "why": "El Shaddai is the name God uses with Abraham in Genesis 17:1 and the name the patriarchs knew him by, according to Exodus 6:3. Strong's derives Shaddai from a verb meaning to overpower; where the word comes from is still debated, and some scholars connect it to an old word for mountain.",
+   "why": "El Shaddai is the name God uses with Abraham in Genesis 17:1 and the name the patriarchs knew him by, according to Exodus 6:3. Strong's gives Shaddai as coming from shadad; where the word comes from is still debated.",
    "use": "Both the KJV and the World English Bible translate El Shaddai as God Almighty, and translate Shaddai on its own as the Almighty, mostly in Job. The KJV also prints Almighty God where the World English Bible has God Almighty, and the New Testament uses the same English for the Greek Pantokrator, so the New Testament counts below are not El Shaddai.",
    "related": [
     "elohim",
@@ -1561,11 +1561,11 @@
     {
      "n": "H3068",
      "heb": "יְהֹוָה",
-     "tl": "Yᵊhôvâh",
-     "gloss": "(the) self-Existent or Eternal; Jehovah, the proper name of the God of Israel"
+     "tl": "Yhwh",
+     "gloss": "(the) self-Existent or Eternal; Jehovah, Jewish national name of God"
     }
    ],
-   "literal": "the self-existent, eternal one (from the verb to be)",
+   "literal": "the self-existent, eternal one",
    "short": "LORD, the personal name of God",
    "kind": "name",
    "english": "LORD",
@@ -1585,7 +1585,7 @@
    "faq": [
     [
      "What does Jehovah mean?",
-     "Jehovah is the English form of YHWH, God's personal name. Strong's glosses it as the self-existent or eternal one, from the Hebrew verb to be, which matches God's reply in Exodus 3:14, \"I AM WHO I AM\"."
+     "Jehovah is the English form of YHWH, God's personal name. Strong's glosses it as the self-existent or eternal one, which matches God's reply in Exodus 3:14, \"I AM WHO I AM\"."
     ],
     [
      "Is Jehovah the same as Yahweh?",
@@ -2253,14 +2253,14 @@
     {
      "n": "H3068",
      "heb": "יְהֹוָה",
-     "tl": "Yᵊhôvâh",
-     "gloss": "(the) self-Existent or Eternal: the proper name of the God of Israel"
+     "tl": "Yhwh",
+     "gloss": "(the) self-Existent or Eternal; Jehovah, Jewish national name of God"
     },
     {
      "n": "H3050",
      "heb": "יָהּ",
-     "tl": "Yâhh",
-     "gloss": "Jah, the shortened form of the name"
+     "tl": "Yahh",
+     "gloss": "Jah, the sacred name"
     }
    ],
    "literal": "the self-existent, eternal one",
@@ -2283,7 +2283,7 @@
    "faq": [
     [
      "What does Yahweh mean?",
-     "Yahweh means \"he is\" or \"the self-existent one\". Strong's glosses the name as the self-existent or eternal, from the Hebrew verb to be."
+     "Yahweh means \"he is\" or \"the self-existent one\". Strong's glosses the name as the self-existent or eternal."
     ],
     [
      "Where does the Bible first say Yahweh?",
@@ -2838,8 +2838,8 @@
     {
      "n": "H3070",
      "heb": "יְהֹוָה יִרְאֶה",
-     "tl": "Yᵊhôvâh yir'eh",
-     "gloss": "Jehovah will see (to it)"
+     "tl": "Yhovah yireh",
+     "gloss": "Jehovah will see (to it); Jehovah-Jireh, a symbolical name for Mount Moriah"
     }
    ],
    "literal": "the LORD will see to it; the LORD will provide",
@@ -2955,14 +2955,14 @@
     {
      "n": "H3068",
      "heb": "יְהֹוָה",
-     "tl": "Yᵊhôvâh",
-     "gloss": "the proper name of the God of Israel"
+     "tl": "Yhwh",
+     "gloss": "(the) self-Existent or Eternal; Jehovah, Jewish national name of God"
     },
     {
      "n": "H7495",
      "heb": "רָפָא",
-     "tl": "râphâʼ",
-     "gloss": "to mend (by stitching); figuratively, to cure or heal"
+     "tl": "rapha'",
+     "gloss": "(properly) to mend (by stitching), i.e. (figuratively) to cure; to heal, restore"
     }
    ],
    "literal": "the LORD who heals you",
@@ -3103,8 +3103,8 @@
     {
      "n": "H3071",
      "heb": "יְהֹוָה נִסִּי",
-     "tl": "Yᵊhôvâh Nicciy",
-     "gloss": "Jehovah (is) my banner"
+     "tl": "Yhovah nicciy",
+     "gloss": "Jehovah (is) my banner; Jehovah-Nissi, a symbolical name of an altar"
     }
    ],
    "literal": "the LORD is my banner",
@@ -3220,21 +3220,21 @@
     {
      "n": "H3073",
      "heb": "יְהֹוָה שָׁלוֹם",
-     "tl": "Yᵊhôvâh Shâlôwm",
-     "gloss": "Jehovah (is) peace"
+     "tl": "Yhovah shalowm",
+     "gloss": "Jehovah (is) peace; Jehovah-Shalom, a symbolical name of an altar"
     },
     {
      "n": "H7965",
      "heb": "שָׁלוֹם",
-     "tl": "shâlôwm",
-     "gloss": "safe, well, happy, friendly; welfare, health, prosperity, peace"
+     "tl": "shalowm",
+     "gloss": "peace, completeness, welfare, well-being, safety, prosperity"
     }
    ],
    "literal": "the LORD is peace",
    "short": "the LORD is peace",
    "kind": "compound",
    "english": "Jehovah-shalom",
-   "why": "Gideon builds an altar at Ophrah and names it Jehovah-shalom after the angel of the LORD tells him he will not die. Shalom means more than the absence of war: Strong's lists welfare, health and prosperity as well as peace.",
+   "why": "Gideon builds an altar at Ophrah and names it Jehovah-shalom after the angel of the LORD tells him he will not die. Shalom means more than the absence of war: Strong's lists completeness, welfare, safety and prosperity as well as peace.",
    "use": "The name occurs once. The KJV transliterates it and the World English Bible translates it, \"Yahweh is Peace\", both in Judges 6:24.",
    "related": [
     "jehovah",
@@ -3343,8 +3343,8 @@
     {
      "n": "H3072",
      "heb": "יְהֹוָה צִדְקֵנוּ",
-     "tl": "Yᵊhôvâh Tsidqênûw",
-     "gloss": "Jehovah (is) our right(eousness)"
+     "tl": "Yhovah tsidqenuw",
+     "gloss": "Jehovah (is) our right; Jehovah-Tsidkenu, a symbolical epithet of the Messiah and of Jerusalem"
     }
    ],
    "literal": "the LORD is our righteousness",
@@ -3367,7 +3367,7 @@
    "faq": [
     [
      "What does Jehovah Tsidkenu mean?",
-     "Jehovah Tsidkenu means \"the LORD is our righteousness\". Strong's glosses H3072 as Jehovah (is) our right or righteousness."
+     "Jehovah Tsidkenu means \"the LORD is our righteousness\". Strong's glosses H3072 as Jehovah (is) our right."
     ],
     [
      "Where is Jehovah Tsidkenu in the Bible?",
@@ -3462,8 +3462,8 @@
     {
      "n": "H3074",
      "heb": "יְהֹוָה שָׁמָּה",
-     "tl": "Yᵊhôvâh Shâmmâh",
-     "gloss": "Jehovah (is) there"
+     "tl": "Yhovah shammah",
+     "gloss": "Jehovah (is) thither; Jehovah-Shammah, a symbolic title of Jerusalem"
     }
    ],
    "literal": "the LORD is there",
@@ -3486,7 +3486,7 @@
    "faq": [
     [
      "What does Jehovah Shammah mean?",
-     "Jehovah Shammah means \"the LORD is there\". Strong's glosses H3074 as Jehovah (is) there."
+     "Jehovah Shammah means \"the LORD is there\". Strong's glosses H3074 as Jehovah (is) thither, and the verse renders it \"The LORD is there\"."
     ],
     [
      "Where is Jehovah Shammah in the Bible?",
@@ -3574,14 +3574,14 @@
     {
      "n": "H3068",
      "heb": "יְהֹוָה",
-     "tl": "Yᵊhôvâh",
-     "gloss": "the proper name of the God of Israel"
+     "tl": "Yhwh",
+     "gloss": "(the) self-Existent or Eternal; Jehovah, Jewish national name of God"
     },
     {
      "n": "H6635",
      "heb": "צָבָא",
-     "tl": "tsâbâʼ",
-     "gloss": "a mass of persons, especially organized for war: an army, a host"
+     "tl": "tsaba'",
+     "gloss": "a mass of persons, especially regularly organized for war (an army); hosts"
     }
    ],
    "literal": "the LORD of hosts (armies)",
@@ -4073,14 +4073,14 @@
     {
      "n": "H410",
      "heb": "אֵל",
-     "tl": "ʼêl",
-     "gloss": "strength; mighty; especially the Almighty, but also any deity"
+     "tl": "el",
+     "gloss": "God, god, mighty one"
     },
     {
      "n": "H5945",
      "heb": "עֶלְיוֹן",
-     "tl": "ʻelyôwn",
-     "gloss": "an elevation, i.e. lofty; as a noun, the Supreme (God)"
+     "tl": "elyown",
+     "gloss": "an elevation, i.e. (adj.) lofty; as title, the Supreme; most high"
     }
    ],
    "literal": "God Most High",
@@ -4494,14 +4494,14 @@
     {
      "n": "H410",
      "heb": "אֵל",
-     "tl": "ʼêl",
-     "gloss": "strength; mighty; especially the Almighty, but also any deity"
+     "tl": "el",
+     "gloss": "God, god, mighty one"
     },
     {
      "n": "H7210",
      "heb": "רֳאִי",
-     "tl": "roʼîy",
-     "gloss": "seeing; a sight"
+     "tl": "ro'iy",
+     "gloss": "seeing, vision, sight"
     }
    ],
    "literal": "the God who sees me (God of seeing)",
@@ -4676,14 +4676,14 @@
     {
      "n": "H410",
      "heb": "אֵל",
-     "tl": "ʼêl",
-     "gloss": "strength; mighty; especially the Almighty, but also any deity"
+     "tl": "el",
+     "gloss": "God, god, mighty one"
     },
     {
      "n": "H5769",
      "heb": "עוֹלָם",
-     "tl": "ʻôwlâm",
-     "gloss": "concealed, i.e. the vanishing point; time out of mind (past or future), eternity"
+     "tl": "owlam",
+     "gloss": "properly, concealed, i.e. the vanishing point; time out of mind, i.e. (practically) eternity"
     }
    ],
    "literal": "the everlasting God",
