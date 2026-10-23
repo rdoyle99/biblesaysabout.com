@@ -35,8 +35,13 @@ function booksSentence(word, topBooks, mainName, nBooks) {
   return `${lead} ${topBooks[0][0]} has the most (${fmt(top)})${rest.length ? `, then ${rest.join(" and ")}` : ""}.`;
 }
 
+// Title test 2026-10-23 (seo move 2026-10-23-snippet-zero-click-titles): pages at position 3-7 with click rates under 1%;
+// the count stays in the description and the answer box, the title promises the book-by-book table instead.
+const TITLE_TEST = new Set(["blood", "jesus", "sin"]);
+
 function titleFor(w) {
   const h = headline(w);
+  if (TITLE_TEST.has(w.slug)) return `How Many Times Is ${cap(w.word)} Mentioned in the Bible? Every Use by Book`;
   if (w.slug === "fear-not") return `How Many Times Does the Bible Say Fear Not? ${h.n} (${h.translation})`;
   if (w.kind === "phrase") return `How Many Times Is "${cap(w.word)}" in the Bible? ${fmt(h.n)} (${h.translation})`;
   return `How Many Times Is ${cap(w.word)} Mentioned in the Bible? ${fmt(h.n)} (${h.translation})`;
@@ -139,7 +144,7 @@ export default async function WordPage({ params }) {
   const curated = [...w.curated].sort((a, b) => (b.topics.includes(w.topic) - a.topics.includes(w.topic)) || b.topics.length - a.topics.length);
 
   const meaning = getPageMeaning(w.slug);
-  const dateModified = meaning ? meaning.date || NAMES_DATE : w.added || DATA_DATE;
+  const dateModified = [meaning ? meaning.date || NAMES_DATE : w.added || DATA_DATE, w.modified].filter(Boolean).sort().at(-1);
 
   const faqs = [
     { q: questionFor(w), a: answer },

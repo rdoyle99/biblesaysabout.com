@@ -44,7 +44,9 @@ export async function generateMetadata({ params }) {
   if (!b) return { title: "Book Not Found" };
   const url = `${SITE}/books/${b.slug}`;
   const title =
-    b.slug === "psalms"
+    b.slug === "job" // title test 2026-10-23 (seo move 2026-10-23-snippet-zero-click-titles)
+      ? `How Many Chapters in Job? Verses by Chapter and Reading Time`
+      : b.slug === "psalms"
       ? `How Many Psalms Are There? ${b.chapters} Psalms, ${fmt(b.verses.kjv)} Verses`
       : b.chapters === 1
         ? `How Many Verses in ${b.name}? ${b.verses.kjv} Verses, 1 Chapter`
