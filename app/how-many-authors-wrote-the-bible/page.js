@@ -14,6 +14,7 @@ const PS = authors.psalms;
 const PL = authors.paulVsLuke;
 const book = (name) => authors.books.find((b) => b.name === name);
 const pct = (n, d) => ((n / d) * 100).toFixed(1);
+const share1 = (n) => Number(n).toFixed(1);
 const moses = authors.byAuthor.find((a) => a.author === "Moses");
 const pentateuch = moses.words - book("Job").words;
 const UNDISPUTED = ["Romans", "1 Corinthians", "2 Corinthians", "Galatians", "Philippians", "1 Thessalonians", "Philemon"];
@@ -23,7 +24,7 @@ const ntTradition = [...new Set(authors.books.filter((b) => b.testament === "NT"
 const GQ = authors.traditionSource;
 
 const TITLE = `How Many Authors Wrote the Bible? ${C.named} of 66 Books Name One`;
-const ANSWER = `The Bible gives no total. ${C.named} of its 66 books name a writer or speaker in their own verses, ${C.namedPeople} different people in all, and ${C.silent} books never say who wrote them. The usual answer, about 40 authors, comes from tradition: the common Protestant list names ${C.traditionNames} people, and the books name ${C.extraFromText} more, which makes ${C.traditionPlusText}.`;
+const ANSWER = `Tradition counts about 40 authors, but the Bible gives no total. In the King James Version, ${C.named} of its 66 books name a writer or speaker in their own verses (${C.namedPeople} different people), and ${C.silent} books never say who wrote them. The common Protestant list names ${C.traditionNames} people; the books name ${C.extraFromText} more, which makes ${C.traditionPlusText}.`;
 
 const KIND = {
   opens: "Names the writer or speaker in its opening",
@@ -42,11 +43,11 @@ export const metadata = {
 
 const faqs = [
   { q: "How many authors wrote the Bible?", a: ANSWER },
-  { q: "Who wrote the most books of the Bible?", a: `Paul. ${PL.paulBooks} New Testament letters open with his name, from Romans to Philemon. By words, Moses comes first: the five books of the Law, plus Job, which GotQuestions.org also gives to him, fill ${fmt(moses.words)} words, ${moses.share}% of the King James Version (${pct(pentateuch, authors.totalWords)}% without Job).` },
-  { q: "Did Luke or Paul write more of the New Testament?", a: `Luke, by words. The Gospel of Luke and Acts hold ${fmt(PL.luke)} KJV words, ${PL.lukeNtShare}% of the New Testament. Paul's ${PL.paulBooks} letters hold ${fmt(PL.paul)}, ${PL.paulNtShare}%. Neither book of Luke names its writer; tradition credits both to Luke because Acts 1:1 points back to "the former treatise" for the same Theophilus.` },
+  { q: "Who wrote the most books of the Bible?", a: `Paul, by the traditional count: ${PL.paulBooks} New Testament letters open with his name, from Romans to Philemon (scholars accept seven of them as his, see below). By words, Moses comes first: the five books of the Law, plus Job, which GotQuestions.org also gives to him, fill ${fmt(moses.words)} words, ${moses.share}% of the King James Version (${pct(pentateuch, authors.totalWords)}% without Job).` },
+  { q: "Did Luke or Paul write more of the New Testament?", a: `Luke, by words, if tradition is right about both. The Gospel of Luke and Acts hold ${fmt(PL.luke)} KJV words, ${PL.lukeNtShare}% of the New Testament. Paul's ${PL.paulBooks} letters hold ${fmt(PL.paul)}, ${share1(PL.paulNtShare)}%. Neither book of Luke names its writer. Acts 1:1 links them, since "the former treatise" went to the same Theophilus as Luke 1:3, and tradition credits both to Luke.` },
   { q: "Which books of the Bible don't say who wrote them?", a: `${C.silent} books: ${silentBooks.map((b) => b.name).join(", ")}. Together they hold ${fmt(C.silentWords)} words, ${C.silentShare}% of the King James Version. Their usual authors come from later tradition.` },
   { q: "How many people wrote the New Testament?", a: `Tradition names ${ntTradition.length}: ${ntTradition.join(", ")}, with the writer of Hebrews unknown. The New Testament text itself names ${["Paul", "James", "Peter", "Jude", "John"].length} of them in its letters and Revelation; the four Gospels and Acts never name their writers.` },
-  { q: "Who wrote the Psalms?", a: `The psalm titles name a person for ${PS.withName} of the 150 psalms: ${PS.byName.map((p) => `${p.who} ${p.psalms}`).join(", ")} (Psalm 88 names both Heman and the sons of Korah). The other ${PS.untitledOrUnnamed} psalms have no title or a title with no name.` },
+  { q: "Who wrote the Psalms?", a: `The psalm titles name a person for ${PS.withName} of the 150 psalms. The counts are ${PS.byName.map((p) => `${p.who} ${p.psalms}`).join(", ")}, and Psalm 88 names both Heman and the sons of Korah. The other ${PS.untitledOrUnnamed} psalms have no title or a title with no name.` },
 ];
 
 const textCell = (b) => {
@@ -87,13 +88,16 @@ export default function HowManyAuthors() {
                 { label: "Books that name a writer", value: C.named, note: `${C.opens} in the opening, ${C.part} in a later verse` },
                 { label: "People they name", value: C.namedPeople, note: "Moses to John" },
                 { label: "Books that never say", value: C.silent, note: `${C.silentShare}% of the Bible's words` },
-                { label: "Psalms with a named writer", value: PS.withName, note: `of 150; David has ${PS.byName[0].psalms}` },
+                { label: "Psalm titles that name someone", value: PS.withName, note: `of 150 psalms; David has ${PS.byName[0].psalms}` },
               ]}
             />
           </div>
         </section>
 
         <Section id="by-book" title="What each book says about who wrote it" intro={`Each row names the KJV verse it relies on, and the build script stops if the name isn't in that verse. The traditional author is the one GotQuestions.org lists for the book. Words are King James Version verse words.`}>
+          <p className="mb-4 text-sm text-muted-foreground leading-relaxed">
+            A name in a book's opening says whose words or vision it is, not who held the pen: a prophet's opening names the man the word came to, and Jeremiah 36:4 has Baruch writing Jeremiah's words down. That is why {C.named} plus the {C.silent} silent books is not 66. The other {66 - C.named - C.silent} are Psalms (names only in the psalm titles), Ecclesiastes, 2 John and 3 John (a title only: "the Preacher", "the elder"), and Luke, John and Acts (a writer who says "I" without a name).
+          </p>
           <div className="overflow-x-auto rounded-xl border bg-card">
             <table className="w-full text-left text-sm">
               <thead className="border-b bg-muted/50">
@@ -122,26 +126,26 @@ export default function HowManyAuthors() {
             </table>
           </div>
           <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-            The book headings in the KJV are not verse text. In the public-domain KJV text counted here, {authors.kjvTitleAttributions.length} headings put a name on a book whose verses give none: {authors.kjvTitleAttributions.map((t) => `${t.book} ("${t.kjvTitle}")`).join(", ")}.
+            The book headings in the KJV are not verse text. In the public-domain KJV text counted here, {authors.kjvTitleAttributions.length} headings put a name on a book whose verses give none. They are {authors.kjvTitleAttributions.map((t) => `${t.book} ("${t.kjvTitle}")`).join(", ")}.
           </p>
         </Section>
 
         <Section id="where-40-comes-from" title="Where the number 40 comes from" intro="No verse counts the Bible's writers. The figure is a sum of tradition and the text." muted>
           <p className="leading-relaxed mb-4">
-            GotQuestions.org says the Bible "was written by approximately 40 men of diverse backgrounds over the course of 1500 years," and lists an author for every book. That list holds {C.traditionNames} names: {authors.traditionNames.join(", ")}, with Hebrews left unknown. The books themselves name {C.extraFromText} more writers or speakers that the list folds into someone else: {authors.extraFromText.join(", ")}. Add them and the count is {C.traditionPlusText}.
+            GotQuestions.org says the Bible "was written by approximately 40 men of diverse backgrounds over the course of 1500 years," and lists an author for every book. That list holds {C.traditionNames} names, with Hebrews left unknown. They are {authors.traditionNames.join(", ")}. The books themselves name {C.extraFromText} more writers or speakers that the list folds into someone else: {authors.extraFromText.join(", ")}. Add them and the count is {C.traditionPlusText}. That sum is ours, one way to count and not a census: it counts the sons of Korah as one writer and leaves out people the text only mentions, such as Baruch, who wrote down Jeremiah's words.
           </p>
           <p className="leading-relaxed">
-            Other lists land lower. OverviewBible counts 35 traditional authors and says "there really were around 40 authors of the Bible, but the Bible and tradition only call out around 35 by name." Lists differ most on the books whose text is silent, such as Judges, Ruth, Samuel, Job, Esther and Hebrews.
+            Other lists land lower. OverviewBible counts 35 traditional authors and says "there really were around 40 authors of the Bible, but the Bible and tradition only call out around 35 by name." Its 35 include a few candidates for anonymous works (Moses, Ezra and Matthew), and it notes that somebody wrote Judges but we don't know who.
           </p>
         </Section>
 
         <Section id="most-words" title="Who wrote the most of the Bible?" intro={`Share of the King James Version's ${fmt(authors.totalWords)} words, grouped by the author tradition gives each book.`}>
-          <BarRows rows={authors.byAuthor.slice(0, 12).map((a) => ({ label: a.author, value: a.words, display: `${a.share}%` }))} labelWidth="w-48" />
+          <BarRows rows={authors.byAuthor.slice(0, 12).map((a) => ({ label: a.author, value: a.words, display: `${share1(a.share)}%` }))} labelWidth="w-48" />
           <p className="mt-5 leading-relaxed">
-            {wordLink("moses", "Moses")} leads with {moses.share}% because tradition gives him the five books of the Law and Job; the Law alone is {pct(pentateuch, authors.totalWords)}%. Exodus 24:4, Numbers 33:2 and Deuteronomy 31:9 each say "Moses wrote", but Deuteronomy 34 reports his death and burial, so the books cannot be his alone in their present form.
+            {wordLink("moses", "Moses")} leads with {moses.share}% because tradition gives him the five books of the Law and Job; the Law alone is {pct(pentateuch, authors.totalWords)}%. Exodus 24:4, Numbers 33:2 and Deuteronomy 31:9 each say "Moses wrote" a part: the words of the LORD, the stages of the march, this law. Deuteronomy 34 reports his death and burial. History.com notes that the Talmud answered this by saying Joshua likely wrote the verses about Moses' death, and that Joel Baden of Yale Divinity School calls that "one opinion among many."
           </p>
           <p className="mt-3 leading-relaxed">
-            In the New Testament, Luke's two books, the Gospel and Acts, hold {fmt(PL.luke)} words ({PL.lukeNtShare}% of the New Testament). {wordLink("paul", "Paul")}'s {PL.paulBooks} letters hold {fmt(PL.paul)} ({PL.paulNtShare}%). Paul wrote the most books; Luke wrote the most words.
+            In the New Testament, Luke's two books, the Gospel and Acts, hold {fmt(PL.luke)} words ({PL.lukeNtShare}% of the New Testament). {wordLink("paul", "Paul")}'s {PL.paulBooks} letters hold {fmt(PL.paul)} ({share1(PL.paulNtShare)}%). On the traditional list, Paul wrote the most books and Luke the most words.
           </p>
         </Section>
 
@@ -157,10 +161,13 @@ export default function HowManyAuthors() {
             The names on the Gospels come from early church writers. Irenaeus of Lyon said Matthew "issued a written Gospel among the Hebrews," Mark was "the disciple and interpreter of Peter," Luke "the companion of Paul," and John "the disciple of the Lord" (Against Heresies 3.1.1). The Gospel texts themselves name no writer, and The Conversation notes that they "weren't attributed to these figures until the second and third centuries."
           </p>
           <p className="leading-relaxed mb-4">
-            Most modern scholars read the authorship differently. History.com, quoting Joel Baden of Yale Divinity School, reports that most scholars agree the stories and laws of the first books were passed down orally and written down by different schools of writers starting around the 7th century BC. It also reports that scholars agree on only seven letters as Paul's own: {UNDISPUTED.join(", ")}. Those seven hold {fmt(undisputedWords)} KJV words, {pct(undisputedWords, authors.ntWords)}% of the New Testament, against {PL.paulNtShare}% for all {PL.paulBooks}.
+            Most modern scholars read the authorship differently. History.com reports that most scholars today agree the Old Testament's stories and laws were passed down orally and written down by different schools of authors, starting around the 7th century BC. It also reports that scholars agree on the authenticity of only seven letters as Paul's: {UNDISPUTED.join(", ")}. Those seven hold {fmt(undisputedWords)} KJV words, {pct(undisputedWords, authors.ntWords)}% of the New Testament, against {share1(PL.paulNtShare)}% for all {PL.paulBooks}.
           </p>
           <p className="leading-relaxed">
-            So the count depends on the question. Writers the text names: {C.namedPeople}. Writers tradition names: about 40. Writers a historian can identify by name: fewer, because many books passed through editors and scribes whose names were never recorded.
+            So the count depends on the question. The text names {C.namedPeople} writers. Tradition names about 40. A historian can identify fewer, because many books passed through editors and scribes whose names were never recorded.
+          </p>
+          <p className="leading-relaxed mt-4">
+            Tradition also answers a different question. GotQuestions.org says that, above the human writers, the Bible was written by God, who guided them while they used their own styles. The Bible says as much of itself: "All scripture is given by inspiration of God" (2 Timothy 3:16) and "holy men of God spake as they were moved by the Holy Ghost" (2 Peter 1:21). Counting the people does not settle that either way.
           </p>
         </Section>
 
@@ -180,8 +187,8 @@ export default function HowManyAuthors() {
         <Section>
           <p className="mb-4">
             See every book's chapters and verses on{" "}
-            <Link href="/books-of-the-bible" className="underline underline-offset-2 hover:text-primary">the books of the Bible</Link>, put them in order with{" "}
-            <Link href="/books-of-the-bible-in-order" className="underline underline-offset-2 hover:text-primary">the books of the Bible in order</Link>, find{" "}
+            <Link href="/books-of-the-bible" className="underline underline-offset-2 hover:text-primary">the books of the Bible</Link>, or put them in order with{" "}
+            <Link href="/books-of-the-bible-in-order" className="underline underline-offset-2 hover:text-primary">the books of the Bible in order</Link>. Find{" "}
             <Link href="/longest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">the longest book in the Bible</Link>, or read who speaks in Proverbs on{" "}
             <Link href="/how-many-proverbs-are-there" className="underline underline-offset-2 hover:text-primary">how many proverbs are there</Link>. More counts are on{" "}
             <Link href="/bible-by-the-numbers" className="underline underline-offset-2 hover:text-primary">the Bible by the numbers</Link>.
