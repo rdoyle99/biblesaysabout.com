@@ -117,10 +117,18 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/#verse-of-day"
+                  href="/bible-verse-of-the-day"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >
                   Verse of the Day
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/random-bible-verse"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Random Bible Verse
                 </Link>
               </li>
               <li>

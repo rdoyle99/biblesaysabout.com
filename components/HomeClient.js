@@ -182,6 +182,12 @@ export default function HomeClient({
                         </Badge>
                       </cite>
                       <Button variant="ghost" size="sm" asChild>
+                        <Link href="/bible-verse-of-the-day">Past week's verses →</Link>
+                      </Button>
+                      <Button variant="ghost" size="sm" asChild>
+                        <Link href="/random-bible-verse">Random verse →</Link>
+                      </Button>
+                      <Button variant="ghost" size="sm" asChild>
                         <Link href={`/verses/${verseOfTheDay.topic}`}>
                           More{" "}
                           {verseOfTheDay.topic.charAt(0).toUpperCase() +

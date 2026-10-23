@@ -130,7 +130,7 @@ export default function HeaderClient({ topics: topicList }) {
             <Link href="/#topics">Topics</Link>
           </Button>
           <Button variant="ghost" size="sm" asChild>
-            <Link href="/#verse-of-day">Verse of the Day</Link>
+            <Link href="/bible-verse-of-the-day">Verse of the Day</Link>
           </Button>
           <Button variant="ghost" size="sm" asChild>
             <Link href="/favorites">
@@ -247,7 +247,7 @@ export default function HeaderClient({ topics: topicList }) {
                       variant="ghost"
                       className="w-full justify-start"
                       onClick={() => {
-                        router.push("/#verse-of-day");
+                        router.push("/bible-verse-of-the-day");
                         setIsOpen(false);
                       }}
                     >

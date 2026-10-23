@@ -9,10 +9,10 @@ import {
   getAllTopics,
   getTopicMetadata,
   getCategorizedTopics,
-  getVerseOfTheDay,
   getTotalVerseCount,
   getVersesByTopic,
 } from "@/lib/verses";
+import { verseOfTheDay } from "@/lib/verseTool";
 
 // Regenerate hourly so the verse of the day rolls over
 export const revalidate = 3600;
@@ -93,13 +93,15 @@ export default function Home() {
     }
   }
 
-  const votd = getVerseOfTheDay();
-  const verseOfTheDay = {
-    text: votd.text,
+  // Same verse as /bible-verse-of-the-day (New York date)
+  const votd = verseOfTheDay();
+  const votdTopic = votd.topics[0];
+  const verseOfTheDayCard = {
+    text: votd.web,
     reference: votd.reference,
-    translation: votd.translation,
-    topic: votd.topic,
-    icon: getTopicMetadata(votd.topic).icon,
+    translation: "WEB",
+    topic: votdTopic,
+    icon: getTopicMetadata(votdTopic).icon,
   };
 
   return (
@@ -117,7 +119,7 @@ export default function Home() {
       categories={categories}
       allTopics={allTopics}
       topicIcons={topicIcons}
-      verseOfTheDay={verseOfTheDay}
+      verseOfTheDay={verseOfTheDayCard}
       totalVerses={totalVerses}
     />
   );
