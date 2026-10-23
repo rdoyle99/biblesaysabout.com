@@ -34,7 +34,7 @@ const faqs = [
   { q: "How long is the Bible?", a: ANSWER },
   { q: "How many words are in the Bible?", a: `${fmt(k.words)} in the King James Version and ${fmt(w.words)} in the World English Bible, counting verse text only (${fmt(sum(otBooks))} KJV words in the Old Testament and ${fmt(sum(ntBooks))} in the New). Counts you see elsewhere differ by a few thousand depending on the edition and on whether psalm titles (${fmt(bible.psalmTitleWords)} words) and hyphenated names count.` },
   { q: "How many pages are in the Bible?", a: `There is no single answer, because a printed Bible's page count depends on its type size, margins and notes. At the common convention of ${H.PAGE} words a page, the KJV text is about ${fmt(H.kPages)} pages and the WEB about ${fmt(H.wPages)}.` },
-  { q: "How many verses and chapters are in the Bible?", a: `${fmt(k.verses)} verses and ${fmt(k.chapters)} chapters in the KJV (${fmt(w.verses)} verses in the WEB, which prints ${bible.webMissing.length} verses as footnotes).` },
+  { q: "How many verses and chapters are in the Bible?", a: `${fmt(k.verses)} verses and ${fmt(k.chapters)} chapters in the KJV (${fmt(w.verses)} verses in the WEB, which leaves ${bible.webMissing.filter((r) => !r.startsWith("Romans ")).join(", ")} to footnotes and numbers the closing doxology of Romans as 14:24-26).` },
   { q: "How long does it take to read the Bible out loud?", a: `About ${readingTime(H.kAloud)} at ${H.ALOUD} words a minute, the average adult reading-aloud rate (Brysbaert 2019).` },
   { q: "Why are the KJV and WEB different lengths?", a: `The two translate the same books with different wording: the KJV uses ${fmt(k.words - w.words)} more words (${((k.words / w.words - 1) * 100).toFixed(1)}% more) over ${fmt(k.verses)} verses.` },
 ];

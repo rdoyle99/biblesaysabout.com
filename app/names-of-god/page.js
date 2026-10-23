@@ -1,8 +1,8 @@
 /* Names of God hub: every name with its Hebrew, Strong's meaning and first verse */
 
 import Link from "next/link";
-import { fmt, METHOD, SITE } from "@/lib/bibleData";
-import { GOD_NAMES, getGodName, NAMES_OF_GOD_DATE, STRONGS_SOURCE, STRONGS_NOTE } from "@/lib/namesOfGod";
+import { fmt, SITE } from "@/lib/bibleData";
+import { NAMES_METHOD, GOD_NAMES, getGodName, NAMES_OF_GOD_DATE, STRONGS_SOURCE, STRONGS_NOTE } from "@/lib/namesOfGod";
 import { generateBreadcrumbSchema, generateFAQSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
 import { JsonLd, Breadcrumbs, StatTiles, FaqSection, Section, MethodNote } from "@/components/DataBits";
 
@@ -65,8 +65,8 @@ export default function NamesOfGod() {
             <StatTiles
               stats={[
                 { label: "Names explained", value: String(GOD_NAMES.length), note: "each with its own page" },
-                { label: "LORD in the KJV", value: fmt(lord), note: "capitals mark the name YHWH" },
-                { label: "Yahweh in the WEB", value: fmt(yahweh), note: "the same name, written out" },
+                { label: "LORD in the KJV", value: fmt(lord), note: `capitals mark the name YHWH; ${fmt(getGodName("jehovah").searches.GOD.kjv.n)} more print as GOD after Lord` },
+                { label: "Yahweh in the WEB", value: fmt(yahweh), note: "the same name, written out; the KJV and WEB count it differently" },
                 { label: "Jehovah in the KJV", value: fmt(getGodName("jehovah").searches.jehovah.kjv.n), note: "the only places it prints the form" },
               ]}
             />
@@ -121,7 +121,7 @@ export default function NamesOfGod() {
             <Link href="/words/god" className="underline underline-offset-2 hover:text-primary">how many times God is in the Bible</Link> and{" "}
             <Link href="/words" className="underline underline-offset-2 hover:text-primary">every word count</Link>.
           </p>
-          <MethodNote text={METHOD} date={NAMES_OF_GOD_DATE} />
+          <MethodNote text={NAMES_METHOD} date={NAMES_OF_GOD_DATE} />
         </Section>
       </div>
     </>

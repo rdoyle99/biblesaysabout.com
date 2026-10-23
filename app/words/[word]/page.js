@@ -28,6 +28,7 @@ function booksSentence(word, topBooks, mainName, nBooks) {
   const lead = `${cap(word)} appears in ${plural(nBooks, "book", "books")} of the 66 in the ${mainName}.`;
   const top = topBooks[0][1];
   const tiedTop = topBooks.filter(([, n]) => n === top).map(([b]) => b);
+  if (topBooks.length === 1) return top === 1 ? `${lead} It is used once, in ${topBooks[0][0]}.` : `${lead} All ${fmt(top)} uses are in ${topBooks[0][0]}.`;
   if (top === 1) return `${lead} It is used once each in ${tiedTop.join(", ").replace(/, ([^,]*)$/, " and $1")}.`;
   if (tiedTop.length > 1) return `${lead} ${tiedTop.join(", ").replace(/, ([^,]*)$/, " and $1")} share the most, ${fmt(top)} each.`;
   const rest = topBooks.slice(1, 3).map(([b, n]) => `${b} (${fmt(n)})`);

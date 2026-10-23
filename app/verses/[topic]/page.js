@@ -22,6 +22,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 // Generate static params for all topics
+// Every topic is prerendered; any other slug is a real 404 (loading.js streams a 200 before notFound() can run)
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const topics = getAllTopics();
   return topics.map((topic) => ({
@@ -352,7 +355,7 @@ export default async function TopicPage({ params }) {
                 className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                 asChild
               >
-                <Link href="/#verse-of-day">Verse of the Day</Link>
+                <Link href="/bible-verse-of-the-day">Verse of the Day</Link>
               </Button>
             </div>
           </div>

@@ -1477,6 +1477,16 @@
    "held": false,
    "date": "2026-10-22"
   },
+  "naaman": {
+   "term": "Naaman",
+   "entries": [
+    {
+     "meaning": "beautiful; agreeable"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
   "shem": {
    "term": "Shem",
    "entries": [
@@ -1492,6 +1502,16 @@
    "entries": [
     {
      "meaning": "hot; heat; brown"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "japheth": {
+   "term": "Japheth",
+   "entries": [
+    {
+     "meaning": "enlarged; fair; persuading"
     }
    ],
    "held": false,
@@ -1571,10 +1591,10 @@
    "term": "Rahab",
    "entries": [
     {
-     "meaning": "proud; quarrelsome (applied to Egypt)"
+     "meaning": "large; extended (name of a woman)"
     },
     {
-     "meaning": "large; extended (name of a woman)"
+     "meaning": "proud; quarrelsome (applied to Egypt)"
     }
    ],
    "held": false,
@@ -1936,6 +1956,17 @@
    "entries": [
     {
      "meaning": "wicked, worthless"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "beelzebub": {
+   "term": "Beelzebub",
+   "entries": [
+    {
+     "meaning": "god of the fly",
+     "via": "Baalzebub"
     }
    ],
    "held": false,

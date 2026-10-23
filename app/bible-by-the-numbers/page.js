@@ -26,7 +26,7 @@ export const metadata = {
 const faqs = [
   {
     q: "How many verses are in the Bible?",
-    a: `${fmt(k.verses)} in the King James Version: ${fmt(totals.otVerses)} in the Old Testament and ${fmt(totals.ntVerses)} in the New. The World English Bible numbers ${fmt(w.verses)}, because it prints ${bible.webMissing.length} verses as footnotes (${bible.webMissing.join(", ")}) and numbers the closing doxology of Romans as 14:24-26.`,
+    a: `${fmt(k.verses)} in the King James Version: ${fmt(totals.otVerses)} in the Old Testament and ${fmt(totals.ntVerses)} in the New. The World English Bible numbers ${fmt(w.verses)}, because it leaves ${bible.webMissing.filter((r) => !r.startsWith("Romans ")).length} verses to footnotes (${bible.webMissing.filter((r) => !r.startsWith("Romans ")).join(", ")}) and numbers the closing doxology of Romans as 14:24-26.`,
   },
   {
     q: "How many chapters are in the Bible?",

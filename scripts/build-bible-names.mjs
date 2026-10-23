@@ -19,6 +19,10 @@ const DATE = "2026-10-22";
 const FIRST = "2026-10-06"; // names that already had a meaning section keep their date; new ones get DATE
 const HOLD = new Set(["god", "lord", "jesus", "christ", "satan", "israel", "joshua", "daniel", "john", "james", "ruth", "esther", "job", "jonah", "isaiah", "jeremiah"]);
 const SKIP = new Set(["antichrist", "god", "lord", "yahweh"]); // not a name Hitchcock explains, or not in his list
+// Hitchcock files these under another spelling: Japhet; Naamah's entry reads "Naaman, beautiful; agreeable"
+const ALIAS = { japheth: "japhet", naaman: "naamah" };
+// pages where the first entry should be the person most readers mean (Hitchcock lists the figurative sense first)
+const PREFER = { rahab: /woman/ };
 
 const xml = await (await fetch(SRC)).text();
 const strip = (s) =>
@@ -30,22 +34,25 @@ for (const m of xml.matchAll(/<term id="[^"]*">([\s\S]*?)<\/term>\s*<def id="[^"
   H.get(k).push(strip(m[2]));
 }
 
+const norm = (k) => k.replace(/[^a-z]/g, "");
+const HN = new Map([...H].map(([k, v]) => [norm(k), v])); // "Baalzebub" -> Hitchcock's "Baal-zebub"
 const wordsData = JSON.parse(fs.readFileSync(path.join(root, "lib/data/bible-words.json"), "utf8"));
 const prev = fs.existsSync(path.join(root, "lib/data/bible-names.json")) ? JSON.parse(fs.readFileSync(path.join(root, "lib/data/bible-names.json"), "utf8")).names : {};
 const out = {};
 for (const w of wordsData.words) {
   if (w.kind !== "name" || SKIP.has(w.slug)) continue;
-  const raw = H.get(w.word.toLowerCase());
+  const raw = H.get(w.word.toLowerCase()) || (ALIAS[w.slug] && H.get(ALIAS[w.slug]));
   if (!raw) continue;
   const entries = [];
   for (const d of raw) {
     const same = d.match(/^(?:[A-Za-z]+, )?same as ([A-Za-z]+)$/);
     if (same) {
-      const target = H.get(same[1].toLowerCase());
+      const target = H.get(same[1].toLowerCase()) || HN.get(norm(same[1].toLowerCase()));
       if (!target) continue;
       entries.push({ meaning: target[0], via: same[1] });
     } else entries.push({ meaning: d.replace(/^(?:or )?[A-Z][a-z]+, /, "") });
   }
+  if (PREFER[w.slug]) entries.sort((x, y) => PREFER[w.slug].test(y.meaning) - PREFER[w.slug].test(x.meaning));
   if (entries.length) out[w.slug] = { term: w.word, entries, held: HOLD.has(w.slug), date: prev[w.slug] ? prev[w.slug].date || FIRST : DATE };
 }
 fs.writeFileSync(

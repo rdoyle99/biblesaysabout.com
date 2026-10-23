@@ -144,7 +144,7 @@ export default function BooksInOrder({ mode }) {
             intro={
               mode === "all"
                 ? `${g.note}. ${fmt(sum(g.list, (b) => b.chapters))} chapters, ${fmt(sum(g.list, (b) => b.verses.kjv))} verses and ${fmt(sum(g.list, (b) => b.words.kjv))} words in the KJV. Reading times assume ${READING_WPM} words a minute.`
-                : `${g.note}: ${Math.round((sum(g.list, (b) => b.words.kjv) / setWords) * 100)}% of the ${mode === "ot" ? "Old" : "New"} Testament's words, ${readingTime(sum(g.list, (b) => b.words.kjv) / READING_WPM)} start to finish. The largest book here is ${[...g.list].sort((a, b) => b.words.kjv - a.words.kjv)[0].name} and the smallest is ${[...g.list].sort((a, b) => a.words.kjv - b.words.kjv)[0].name}.`
+                : `${g.note}: ${Math.round((sum(g.list, (b) => b.words.kjv) / setWords) * 100)}% of the ${mode === "ot" ? "Old" : "New"} Testament's words, ${readingTime(sum(g.list, (b) => b.words.kjv) / READING_WPM)} start to finish.${g.list.length > 1 ? ` The largest book here is ${[...g.list].sort((a, b) => b.words.kjv - a.words.kjv)[0].name} and the smallest is ${[...g.list].sort((a, b) => a.words.kjv - b.words.kjv)[0].name}.` : ""}`
             }
             muted={i % 2 === 1}
           >

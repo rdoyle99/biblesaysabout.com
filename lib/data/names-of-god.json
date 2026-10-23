@@ -36,7 +36,7 @@
    "kind": "title",
    "english": "God",
    "why": "The first name for God in the Bible, and the one in Genesis 1:1. The ending -im is normally a plural, and scholars read it here as a plural of majesty: many in form, one in meaning. The same word is also used in the Hebrew Bible for the gods of other nations.",
-   "use": "English Bibles print Elohim as God, so we can count the English word but not the Hebrew one. The English word God also translates the Greek Theos in the New Testament, which is why the Old Testament and New Testament counts are split below.",
+   "use": "English Bibles print Elohim as God, so we can count the English word but not the Hebrew one. The English word God also translates the Greek Theos in the New Testament, which is why the Old Testament and New Testament counts are split below. The count is of God with a capital G; the God word page also counts lowercase god and gods, so its total is higher.",
    "related": [
     "el-shaddai",
     "el-elyon",
@@ -60,7 +60,7 @@
    ],
    "searches": {
     "god": {
-     "label": "the word God",
+     "label": "God with a capital G",
      "scope": null,
      "kjv": {
       "n": 4106,
@@ -690,7 +690,7 @@
      }
     },
     "gen1": {
-     "label": "the word God in Genesis 1",
+     "label": "God with a capital G in Genesis 1",
      "scope": "Genesis 1",
      "kjv": {
       "n": 32,
@@ -1569,7 +1569,7 @@
    "short": "LORD, the personal name of God",
    "kind": "name",
    "english": "LORD",
-   "why": "Jehovah is how the KJV prints the four Hebrew letters YHWH, God's personal name. The form Jehovah is a later blend of those consonants with the vowels of Adonai; most scholars think the original pronunciation was closer to Yahweh. The KJV uses Jehovah only a few times and prints LORD in capitals everywhere else.",
+   "why": "Jehovah is how the KJV prints the four Hebrew letters YHWH, God's personal name. The form Jehovah is a later blend of those consonants with the vowels of Adonai; most scholars think the original pronunciation was closer to Yahweh. The KJV spells out Jehovah only 7 times; everywhere else it prints LORD in capitals, or GOD in capitals after Lord.",
    "use": "Counting the KJV's capitals gives the closest English count of the name, and the World English Bible, which writes Yahweh each time, gives an independent count. The two translations word the name differently, so each count is shown on its own and not added together.",
    "related": [
     "yahweh",
@@ -1585,7 +1585,7 @@
    "faq": [
     [
      "What does Jehovah mean?",
-     "Jehovah is the English form of YHWH, God's personal name. Strong's glosses it as the self-existent or eternal one, which matches God's reply in Exodus 3:14, \"I AM WHO I AM\"."
+     "Jehovah is the English form of YHWH, God's personal name. Strong's glosses it as the self-existent or eternal one, which fits God's reply in Exodus 3:14, \"I AM WHO I AM\" (WEB)."
     ],
     [
      "Is Jehovah the same as Yahweh?",
@@ -1593,7 +1593,7 @@
     ],
     [
      "Why does the KJV say LORD instead of Jehovah?",
-     "The KJV follows the Jewish custom of reading Adonai (Lord) aloud in place of the name, and marks the name with LORD in capitals. It prints the name itself only a few times."
+     "The KJV follows the Jewish custom of reading Adonai (Lord) aloud in place of the name, and marks the name with LORD in capitals. It spells out the name itself only 7 times."
     ]
    ],
    "searches": {
@@ -2283,7 +2283,7 @@
    "faq": [
     [
      "What does Yahweh mean?",
-     "Yahweh means \"he is\" or \"the self-existent one\". Strong's glosses the name as the self-existent or eternal."
+     "Yahweh means \"the self-existent one\": Strong's glosses the name as the self-existent or eternal, and the name is tied to the Hebrew verb for \"to be\"."
     ],
     [
      "Where does the Bible first say Yahweh?",
@@ -2962,14 +2962,14 @@
      "n": "H7495",
      "heb": "רָפָא",
      "tl": "rapha'",
-     "gloss": "(properly) to mend (by stitching), i.e. (figuratively) to cure; to heal, restore"
+     "gloss": "(properly) to mend (by stitching), i.e. (figuratively) to cure; heal, make whole"
     }
    ],
    "literal": "the LORD who heals you",
    "short": "the LORD who heals",
    "kind": "devotional",
    "english": "the LORD that healeth thee",
-   "why": "Jehovah Rapha is not a name printed anywhere in the text. It is drawn from Exodus 15:26, where God says \"I am the LORD that healeth thee\", in Hebrew YHWH rophe'ka, using the participle of rapha, to heal. Bible teachers began calling it a name of God because of that verse, and it is now a common worship phrase.",
+   "why": "Jehovah Rapha is not a name printed anywhere in the text. It is drawn from Exodus 15:26, where God says \"I am the LORD that healeth thee\", in Hebrew YHWH rophe'ka, using the participle of rapha, to heal. The phrase is used as a name of God because of that verse, and it is common in worship.",
    "use": "We searched both Bibles for the name written out and it never appears: the count is zero in each. What the text does contain is the sentence in Exodus 15:26, which is why this page counts that wording instead.",
    "related": [
     "jehovah",
@@ -3227,14 +3227,14 @@
      "n": "H7965",
      "heb": "שָׁלוֹם",
      "tl": "shalowm",
-     "gloss": "peace, completeness, welfare, well-being, safety, prosperity"
+     "gloss": "safe, i.e. (figuratively) well, happy, friendly; also welfare, i.e. health, prosperity, peace"
     }
    ],
    "literal": "the LORD is peace",
    "short": "the LORD is peace",
    "kind": "compound",
    "english": "Jehovah-shalom",
-   "why": "Gideon builds an altar at Ophrah and names it Jehovah-shalom after the angel of the LORD tells him he will not die. Shalom means more than the absence of war: Strong's lists completeness, welfare, safety and prosperity as well as peace.",
+   "why": "Gideon builds an altar at Ophrah and names it Jehovah-shalom after the LORD tells him he will not die. Shalom means more than the absence of war: Strong's lists welfare, health, safety and prosperity as well as peace.",
    "use": "The name occurs once. The KJV transliterates it and the World English Bible translates it, \"Yahweh is Peace\", both in Judges 6:24.",
    "related": [
     "jehovah",
@@ -3250,7 +3250,7 @@
    "faq": [
     [
      "What does Jehovah Shalom mean?",
-     "Jehovah Shalom means \"the LORD is peace\". Shalom (Strong's H7965) covers wholeness and welfare as well as peace."
+     "Jehovah Shalom means \"the LORD is peace\". Shalom (Strong's H7965) covers welfare, health and safety as well as peace."
     ],
     [
      "Where is Jehovah Shalom in the Bible?",
@@ -4592,25 +4592,26 @@
      "label": "Lahai-roi, the well named for it",
      "scope": null,
      "kjv": {
-      "n": 2,
-      "verses": 2,
-      "ot": 2,
+      "n": 3,
+      "verses": 3,
+      "ot": 3,
       "nt": 0,
-      "otVerses": 2,
+      "otVerses": 3,
       "ntVerses": 0,
       "byBook": [
        [
         "Genesis",
-        2
+        3
        ]
       ],
       "refs": [
+       "Genesis 16:14",
        "Genesis 24:62",
        "Genesis 25:11"
       ],
       "first": {
-       "ref": "Genesis 24:62",
-       "text": "And Isaac came from the way of the well Lahai-roi; for he dwelt in the south country."
+       "ref": "Genesis 16:14",
+       "text": "Wherefore the well was called Beer-lahai-roi; behold, it is between Kadesh and Bered."
       },
       "last": {
        "ref": "Genesis 25:11",

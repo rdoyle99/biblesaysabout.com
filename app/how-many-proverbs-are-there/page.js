@@ -28,7 +28,7 @@ export const metadata = {
 
 const faqs = [
   { q: "How many proverbs are in the Bible?", a: ANSWER },
-  { q: "How many chapters are in Proverbs?", a: `${proverbs.chapters}, one for each day of a 31-day month. Chapter ${longest.chapter} is the longest (${longest.verses} verses) and chapter ${shortest.chapter} the shortest (${shortest.verses} verses).` },
+  { q: "How many chapters are in Proverbs?", a: `${proverbs.chapters}, which fits reading one a day through a 31-day month. Chapter ${longest.chapter} is the longest (${longest.verses} verses) and chapter ${shortest.chapter} the shortest (${shortest.verses} verses).` },
   { q: "How many verses are in Proverbs?", a: `${fmt(proverbs.verses)} in the King James Version and ${fmt(P.verses.web)} in the World English Bible, with ${fmt(P.words.kjv)} and ${fmt(P.words.web)} words.` },
   { q: "How many proverbs did Solomon write?", a: `The text gives two figures to compare. 1 Kings 4:32 says he "spake three thousand proverbs". The Book of Proverbs has ${fmt(proverbs.verses)} verses, ${fmt(proverbs.solomonNamed)} of them in sections that open with his name (${S.intro.ref}, ${S.solomon1.ref} and ${S.hezekiah.ref}). Who wrote each saying is a question this page does not settle; it counts what the text says about itself.` },
   { q: "Who are the other voices in Proverbs?", a: `The book names "the words of the wise" (from ${S.wise1.ref.replace("Proverbs ", "")}, ${S.wise1.verses} verses, and ${S.wise2.ref.replace("Proverbs ", "")}, ${S.wise2.verses} verses), Agur (chapter 30, ${S.agur.verses} verses) and king Lemuel (chapter 31, ${S.lemuel.verses} verses).` },
@@ -102,7 +102,7 @@ export default function HowManyProverbs() {
           </div>
         </Section>
 
-        <Section id="three-thousand" title="Solomon's 3,000 proverbs against the 915 verses" intro="Two verses give the figures, and both are in our text." muted>
+        <Section id="three-thousand" title="Solomon's 3,000 proverbs against the 915 verses" intro={'1 Kings 4:32 gives the 3,000; Ecclesiastes 12:9 says the Preacher set in order "many proverbs".'} muted>
           <div className="space-y-3">
             <blockquote className="rounded-xl border border-l-4 border-l-primary/60 bg-card p-4">
               <p className="leading-relaxed">{quoted(proverbs.kings432.text)}</p>

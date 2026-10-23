@@ -2,9 +2,9 @@
 
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { books, fmt, METHOD, SITE } from "@/lib/bibleData";
+import { books, fmt, SITE } from "@/lib/bibleData";
 import { getVersesByTopic } from "@/lib/verses";
-import { GOD_NAMES, getGodName, STRONGS_READ, TR_NAME, TR_SHORT, NAMES_OF_GOD_DATE, STRONGS_SOURCE, STRONGS_NOTE } from "@/lib/namesOfGod";
+import { NAMES_METHOD, GOD_NAMES, getGodName, STRONGS_READ, TR_NAME, TR_SHORT, NAMES_OF_GOD_DATE, STRONGS_SOURCE, STRONGS_NOTE } from "@/lib/namesOfGod";
 import { generateBreadcrumbSchema, generateFAQSchema, generateDataArticleSchema, combineSchemas } from "@/lib/schema";
 import { JsonLd, Breadcrumbs, StatTiles, BarRows, VerseQuote, FaqSection, Section, MethodNote } from "@/components/DataBits";
 
@@ -297,7 +297,7 @@ export default async function GodNamePage({ params }) {
             </Link>
             .
           </p>
-          <MethodNote text={METHOD} date={NAMES_OF_GOD_DATE} />
+          <MethodNote text={NAMES_METHOD} date={NAMES_OF_GOD_DATE} />
         </Section>
       </div>
     </>

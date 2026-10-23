@@ -52,7 +52,7 @@ const SECTIONS = [
     qs: [
       { q: "How many books are in the Bible?", a: `${totals.books}: ${totals.ot} in the Old Testament and ${totals.nt} in the New Testament, in the 66-book Protestant canon.`, href: "/books-of-the-bible-in-order", link: "All 66 books in order" },
       { q: "How many chapters are in the Bible?", a: `${fmt(k.chapters)}: ${fmt(totals.otChapters)} in the Old Testament and ${fmt(totals.ntChapters)} in the New.`, href: "/bible-by-the-numbers", link: "Bible by the numbers" },
-      { q: "How many verses are in the Bible?", a: `${fmt(k.verses)} in the King James Version (${fmt(totals.otVerses)} Old Testament, ${fmt(totals.ntVerses)} New Testament). The World English Bible numbers ${fmt(w.verses)}, because it prints ${bible.webMissing.length} verses as footnotes.`, href: "/bible-by-the-numbers", link: "Verse counts and the WEB difference" },
+      { q: "How many verses are in the Bible?", a: `${fmt(k.verses)} in the King James Version (${fmt(totals.otVerses)} Old Testament, ${fmt(totals.ntVerses)} New Testament). The World English Bible numbers ${fmt(w.verses)}, because it leaves ${bible.webMissing.filter((r) => !r.startsWith("Romans ")).join(", ")} to footnotes and numbers the closing doxology of Romans as 14:24-26.`, href: "/bible-by-the-numbers", link: "Verse counts and the WEB difference" },
       { q: "How many words are in the Bible?", a: `${fmt(k.words)} in the King James Version and ${fmt(w.words)} in the World English Bible, verse text only.`, href: "/how-long-is-the-bible", link: "How long is the Bible" },
       { q: "How many pages are in the Bible?", a: `About ${fmt(H.kPages)} at ${H.PAGE} words a page. That page size is a stated convention, not a printed count: real Bibles vary with type size and notes.`, href: "/how-long-is-the-bible", link: "Words, pages and hours" },
       { q: "How long does it take to read the whole Bible?", a: `About ${(H.kSilent / 60).toFixed(1)} hours silently at ${H.SILENT} words a minute, or ${(H.kAloud / 60).toFixed(1)} hours aloud at ${H.ALOUD}.`, href: "/how-long-does-it-take-to-read-the-bible", link: "Reading time calculator" },
@@ -82,7 +82,7 @@ const SECTIONS = [
       { q: "What is the longest verse in the Bible?", a: `${k.longestVerse.ref}, at ${k.longestVerse.words} words in the KJV (${w.longestVerse.words} in the WEB).`, href: "/longest-verse-in-the-bible", link: "Ten longest verses, ranked" },
       { q: "What is the longest chapter in the Bible?", a: `${k.longestChapter.ref}, with ${k.longestChapter.verses} verses. ${kr.longestChapters[1].ref} is second with ${kr.longestChapters[1].verses}.`, href: "/longest-chapter-in-the-bible", link: "Ten longest chapters, ranked" },
       { q: "What is the shortest chapter in the Bible?", a: `${k.shortestChapter.ref}, with ${k.shortestChapter.verses} verses and ${kr.shortestChapters[0].words} words.`, href: "/shortest-chapter-in-the-bible", link: "Ten shortest chapters, ranked" },
-      { q: "What is the longest chapter in the New Testament?", a: `${kr.ntLongestChapter.ref}, with ${kr.ntLongestChapter.verses} verses (${fmt(kr.ntLongestChapter.words)} words).`, href: "/longest-chapter-in-the-bible", link: "Longest chapters" },
+      { q: "What is the longest chapter in the New Testament?", a: `By verses, ${kr.ntLongestChapter.ref}, with ${kr.ntLongestChapter.verses} (${fmt(kr.ntLongestChapter.words)} words in the KJV).`, href: "/longest-chapter-in-the-bible", link: "Longest chapters" },
       { q: "What is the longest verse in the New Testament?", a: `${kr.ntLongestVerse.ref}, at ${kr.ntLongestVerse.words} words.`, href: "/longest-verse-in-the-bible", link: "Longest verses" },
       { q: "What is the middle verse of the Bible?", a: `The KJV has an even number of verses (${fmt(k.verses)}), so two share the middle: ${k.middleVerses.map((v) => v.ref).join(" and ")}. Psalm 118:8, often called the middle verse, is verse number ${fmt(bible.psalm118v8Position)}.`, href: "/bible-by-the-numbers", link: "Middle verse and chapter" },
       { q: "What is the middle chapter of the Bible?", a: `${k.middleChapters[0].ref}, chapter number ${k.middleChapters[0].position} of ${fmt(k.chapters)}.${k.middleChapters[0].ref === k.shortestChapter.ref ? " It is also the shortest chapter in the Bible." : ""}`, href: "/bible-by-the-numbers", link: "Middle verse and chapter" },
@@ -139,7 +139,7 @@ export default function BibleTrivia() {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">Bible trivia questions and answers</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6">
               <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
-              <p className="mt-3 text-sm text-muted-foreground">Updated October 22, 2026. No answer here comes from memory or a quiz book: each is a count from the text, and the link under it opens the page with the full data.</p>
+              <p className="mt-3 text-sm text-muted-foreground">Updated October 22, 2026. Each number here is a count from the text, and the link under each answer opens the page with the full data.</p>
             </div>
           </div>
         </section>
