@@ -457,6 +457,29 @@ export default function HomeClient({
               Bible reading plans
             </Link>
           </div>
+          <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
+            {[
+              ["/books-of-the-bible-in-order", "Books of the Bible in order"],
+              ["/old-testament-books-in-order", "Old Testament books in order"],
+              ["/new-testament-books-in-order", "New Testament books in order"],
+              ["/shortest-book-in-the-bible", "Shortest book"],
+              ["/longest-book-in-the-bible", "Longest book"],
+              ["/shortest-chapter-in-the-bible", "Shortest chapter"],
+              ["/longest-chapter-in-the-bible", "Longest chapter"],
+              ["/shortest-verse-in-the-bible", "Shortest verse"],
+              ["/longest-verse-in-the-bible", "Longest verse"],
+              ["/how-long-is-the-bible", "How long is the Bible"],
+              ["/how-many-proverbs-are-there", "How many proverbs are there"],
+              ["/bible-trivia-questions", "Bible trivia questions"],
+            ].map(([href, label], i) => (
+              <span key={href}>
+                {i ? " · " : ""}
+                <Link href={href} className="underline underline-offset-2 hover:text-foreground">
+                  {label}
+                </Link>
+              </span>
+            ))}
+          </p>
         </div>
       </section>
 
