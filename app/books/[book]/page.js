@@ -251,6 +251,15 @@ export default async function BookPage({ params }) {
               , counted in the KJV and the World English Bible.
             </p>
           ) : null}
+          {b.slug === "proverbs" ? (
+            <p className="mb-4">
+              Solomon's 3,000 proverbs against the verses in this book:{" "}
+              <Link href="/how-many-proverbs-are-there" className="underline underline-offset-2 hover:text-primary">
+                how many proverbs are there
+              </Link>
+              .
+            </p>
+          ) : null}
           <p className="mb-4">
             Compare all 66 books on{" "}
             <Link href="/books-of-the-bible" className="underline underline-offset-2 hover:text-primary">

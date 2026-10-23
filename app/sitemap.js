@@ -8,6 +8,10 @@ import { LIST_DATE, RANK_DATE, RANK_SLUGS } from "@/lib/bookLists";
 import { getPageMeaning, NAMES_DATE } from "@/lib/bibleNames";
 import { GOD_NAMES, NAMES_OF_GOD_DATE } from "@/lib/namesOfGod";
 
+// data pages added 2026-10-22: fixed dates, never new Date()
+const PROVERBS_DATE = "2026-10-22";
+const TRIVIA_DATE = "2026-10-22";
+
 const baseUrl = "https://www.biblesaysabout.com";
 
 // Pages whose content is not generated from data: the date their copy last changed
@@ -33,6 +37,8 @@ export default function sitemap() {
     { url: `${baseUrl}/bible-names`, lastModified: NAMES_DATE, priority: 0.8 },
     { url: `${baseUrl}/names-of-god`, lastModified: NAMES_OF_GOD_DATE, priority: 0.9 },
     { url: `${baseUrl}/bible-reading-plan`, lastModified: PLAN_DATE, priority: 0.9 },
+    { url: `${baseUrl}/how-many-proverbs-are-there`, lastModified: PROVERBS_DATE, priority: 0.9 },
+    { url: `${baseUrl}/bible-trivia-questions`, lastModified: TRIVIA_DATE, priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: PAGE_DATES.about, priority: 0.5 },
     { url: `${baseUrl}/privacy`, lastModified: PAGE_DATES.privacy, priority: 0.3 },
     { url: `${baseUrl}/terms`, lastModified: PAGE_DATES.terms, priority: 0.3 },
@@ -58,7 +64,7 @@ export default function sitemap() {
 
   const wordPages = words.map((w) => ({
     url: `${baseUrl}/words/${w.slug}`,
-    lastModified: getPageMeaning(w.slug) ? NAMES_DATE : w.added || DATA_DATE,
+    lastModified: getPageMeaning(w.slug) ? getPageMeaning(w.slug).date || NAMES_DATE : w.added || DATA_DATE,
     priority: 0.7,
   }));
 

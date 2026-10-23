@@ -154,6 +154,8 @@ export default function BibleByTheNumbers() {
             <li><Link href="/longest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">Longest book in the Bible</Link></li>
             <li><Link href="/books-of-the-bible-in-order" className="underline underline-offset-2 hover:text-primary">Books of the Bible in order</Link></li>
             <li><Link href="/how-long-is-the-bible" className="underline underline-offset-2 hover:text-primary">How long is the Bible?</Link></li>
+            <li><Link href="/bible-trivia-questions" className="underline underline-offset-2 hover:text-primary">Bible trivia questions and answers</Link></li>
+            <li><Link href="/how-many-proverbs-are-there" className="underline underline-offset-2 hover:text-primary">How many proverbs are there?</Link></li>
           </ul>
         </Section>
 
