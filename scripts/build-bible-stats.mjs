@@ -158,7 +158,7 @@ const psalmTitleWords = [...kjvXml.matchAll(/<title type="psalm"[^>]*>([\s\S]*?)
 
 // the books data is a pure function of the two texts, so its as-of date only moves when the texts or the method do
 const prevBooks = fs.existsSync(path.join(outDir, "bible-books.json")) ? JSON.parse(fs.readFileSync(path.join(outDir, "bible-books.json"), "utf8")) : null;
-const today = new Date().toISOString().slice(0, 10);
+const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(new Date()); // Eastern, like all date logic here
 const bible = {
   psalmTitleWords,
   generated: prevBooks ? prevBooks.bible.generated : today,

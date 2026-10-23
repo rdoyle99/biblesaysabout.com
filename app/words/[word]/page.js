@@ -138,7 +138,7 @@ export default async function WordPage({ params }) {
   const curated = [...w.curated].sort((a, b) => (b.topics.includes(w.topic) - a.topics.includes(w.topic)) || b.topics.length - a.topics.length);
 
   const meaning = getPageMeaning(w.slug);
-  const dateModified = meaning ? NAMES_DATE : w.added || DATA_DATE;
+  const dateModified = meaning ? meaning.date || NAMES_DATE : w.added || DATA_DATE;
 
   const faqs = [
     { q: questionFor(w), a: answer },

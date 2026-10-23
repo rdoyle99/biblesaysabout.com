@@ -15,7 +15,8 @@ import { fileURLToPath } from "url";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = "https://raw.githubusercontent.com/neuu-org/bible-dictionary-dataset/HEAD/data/00_raw/ccel/xml/hitchcock_bible_names.xml";
-const DATE = "2026-10-06";
+const DATE = "2026-10-22";
+const FIRST = "2026-10-06"; // names that already had a meaning section keep their date; new ones get DATE
 const HOLD = new Set(["god", "lord", "jesus", "christ", "satan", "israel", "joshua", "daniel", "john", "james", "ruth", "esther", "job", "jonah", "isaiah", "jeremiah"]);
 const SKIP = new Set(["antichrist", "god", "lord", "yahweh"]); // not a name Hitchcock explains, or not in his list
 
@@ -30,6 +31,7 @@ for (const m of xml.matchAll(/<term id="[^"]*">([\s\S]*?)<\/term>\s*<def id="[^"
 }
 
 const wordsData = JSON.parse(fs.readFileSync(path.join(root, "lib/data/bible-words.json"), "utf8"));
+const prev = fs.existsSync(path.join(root, "lib/data/bible-names.json")) ? JSON.parse(fs.readFileSync(path.join(root, "lib/data/bible-names.json"), "utf8")).names : {};
 const out = {};
 for (const w of wordsData.words) {
   if (w.kind !== "name" || SKIP.has(w.slug)) continue;
@@ -44,7 +46,7 @@ for (const w of wordsData.words) {
       entries.push({ meaning: target[0], via: same[1] });
     } else entries.push({ meaning: d.replace(/^(?:or )?[A-Z][a-z]+, /, "") });
   }
-  if (entries.length) out[w.slug] = { term: w.word, entries, held: HOLD.has(w.slug) };
+  if (entries.length) out[w.slug] = { term: w.word, entries, held: HOLD.has(w.slug), date: prev[w.slug] ? prev[w.slug].date || FIRST : DATE };
 }
 fs.writeFileSync(
   path.join(root, "lib/data/bible-names.json"),

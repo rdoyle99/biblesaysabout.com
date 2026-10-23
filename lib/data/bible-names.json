@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06",
+ "generated": "2026-10-22",
  "source": "Hitchcock's Bible Names Dictionary (1869), public domain",
  "names": {
   "jesus": {
@@ -9,7 +9,8 @@
      "meaning": "savior; deliverer"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "christ": {
    "term": "Christ",
@@ -18,7 +19,8 @@
      "meaning": "anointed"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "satan": {
    "term": "Satan",
@@ -27,7 +29,8 @@
      "meaning": "contrary; adversary; enemy; accuser"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "israel": {
    "term": "Israel",
@@ -36,7 +39,8 @@
      "meaning": "who prevails with God"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "david": {
    "term": "David",
@@ -45,7 +49,8 @@
      "meaning": "well-beloved, dear"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "moses": {
    "term": "Moses",
@@ -54,7 +59,8 @@
      "meaning": "taken out; drawn forth"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "abraham": {
    "term": "Abraham",
@@ -63,7 +69,8 @@
      "meaning": "father of a great multitude"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "mary": {
    "term": "Mary",
@@ -73,7 +80,8 @@
      "via": "Miriam"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "paul": {
    "term": "Paul",
@@ -82,7 +90,8 @@
      "meaning": "small; little"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "peter": {
    "term": "Peter",
@@ -91,7 +100,8 @@
      "meaning": "a rock or stone"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "jerusalem": {
    "term": "Jerusalem",
@@ -100,7 +110,8 @@
      "meaning": "vision of peace"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "egypt": {
    "term": "Egypt",
@@ -109,7 +120,8 @@
      "meaning": "that troubles or oppresses; anguish"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "noah": {
    "term": "Noah",
@@ -121,7 +133,8 @@
      "meaning": "that quavers or totters (Zelophehad's daughter)"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "adam": {
    "term": "Adam",
@@ -130,7 +143,8 @@
      "meaning": "earthy; red"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "eve": {
    "term": "Eve",
@@ -139,7 +153,8 @@
      "meaning": "living; enlivening"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "isaac": {
    "term": "Isaac",
@@ -148,7 +163,8 @@
      "meaning": "laughter"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "jacob": {
    "term": "Jacob",
@@ -157,7 +173,8 @@
      "meaning": "that supplants, undermines; the heel"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "joseph": {
    "term": "Joseph",
@@ -166,7 +183,8 @@
      "meaning": "increase; addition"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "solomon": {
    "term": "Solomon",
@@ -175,7 +193,8 @@
      "meaning": "peaceable; perfect; one who recompenses"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "aaron": {
    "term": "Aaron",
@@ -184,7 +203,8 @@
      "meaning": "a teacher; lofty; mountain of strength"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "joshua": {
    "term": "Joshua",
@@ -193,7 +213,8 @@
      "meaning": "a savior; a deliverer"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "samuel": {
    "term": "Samuel",
@@ -202,7 +223,8 @@
      "meaning": "heard of God; asked of God"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "saul": {
    "term": "Saul",
@@ -211,7 +233,8 @@
      "meaning": "demanded; lent; ditch; death"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "elijah": {
    "term": "Elijah",
@@ -220,7 +243,8 @@
      "meaning": "God the Lord, the strong Lord"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "elisha": {
    "term": "Elisha",
@@ -229,7 +253,8 @@
      "meaning": "salvation of God"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "daniel": {
    "term": "Daniel",
@@ -238,7 +263,8 @@
      "meaning": "judgment of God; God my judge"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "john": {
    "term": "John",
@@ -247,7 +273,8 @@
      "meaning": "the grace or mercy of the Lord"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "james": {
    "term": "James",
@@ -257,7 +284,8 @@
      "via": "Jacob"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "judas": {
    "term": "Judas",
@@ -267,7 +295,8 @@
      "via": "Judah"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "martha": {
    "term": "Martha",
@@ -276,7 +305,8 @@
      "meaning": "who becomes bitter; provoking"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "lazarus": {
    "term": "Lazarus",
@@ -285,7 +315,8 @@
      "meaning": "assistance of God"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "gabriel": {
    "term": "Gabriel",
@@ -294,7 +325,8 @@
      "meaning": "God is my strength"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "stephen": {
    "term": "Stephen",
@@ -304,7 +336,8 @@
      "via": "Stephanas"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "thomas": {
    "term": "Thomas",
@@ -313,7 +346,8 @@
      "meaning": "a twin"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "barnabas": {
    "term": "Barnabas",
@@ -322,7 +356,8 @@
      "meaning": "son of the prophet, or of consolation"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "silas": {
    "term": "Silas",
@@ -331,7 +366,8 @@
      "meaning": "three, or the third"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "ruth": {
    "term": "Ruth",
@@ -340,7 +376,8 @@
      "meaning": "drunk; satisfied"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "esther": {
    "term": "Esther",
@@ -349,7 +386,8 @@
      "meaning": "secret; hidden"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "job": {
    "term": "Job",
@@ -358,7 +396,8 @@
      "meaning": "he that weeps or cries"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "sarah": {
    "term": "Sarah",
@@ -367,7 +406,8 @@
      "meaning": "lady; princess; princess of the multitude"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "rebekah": {
    "term": "Rebekah",
@@ -376,7 +416,8 @@
      "meaning": "fat; fattened; a quarrel appeased"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "rachel": {
    "term": "Rachel",
@@ -385,7 +426,8 @@
      "meaning": "sheep"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "leah": {
    "term": "Leah",
@@ -394,7 +436,8 @@
      "meaning": "weary; tired"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "samson": {
    "term": "Samson",
@@ -403,7 +446,8 @@
      "meaning": "his sun; his service; there the second time"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "goliath": {
    "term": "Goliath",
@@ -412,7 +456,8 @@
      "meaning": "passage; revolution; heap"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "gideon": {
    "term": "Gideon",
@@ -421,7 +466,8 @@
      "meaning": "he that bruises or breaks; a destroyer"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "jonah": {
    "term": "Jonah",
@@ -430,7 +476,8 @@
      "meaning": "a dove; he that oppresses; destroyer"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "isaiah": {
    "term": "Isaiah",
@@ -439,7 +486,8 @@
      "meaning": "the salvation of the Lord"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "jeremiah": {
    "term": "Jeremiah",
@@ -448,7 +496,8 @@
      "meaning": "exaltation of the Lord"
     }
    ],
-   "held": true
+   "held": true,
+   "date": "2026-10-06"
   },
   "nebuchadnezzar": {
    "term": "Nebuchadnezzar",
@@ -457,7 +506,8 @@
      "meaning": "tears and groans of judgment"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "pharaoh": {
    "term": "Pharaoh",
@@ -466,7 +516,8 @@
      "meaning": "that disperses; that spoils"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "herod": {
    "term": "Herod",
@@ -475,7 +526,8 @@
      "meaning": "son of a hero"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "pilate": {
    "term": "Pilate",
@@ -484,7 +536,8 @@
      "meaning": "armed with a dart"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "cain": {
    "term": "Cain",
@@ -493,7 +546,8 @@
      "meaning": "possession, or possessed"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "ishmael": {
    "term": "Ishmael",
@@ -502,7 +556,8 @@
      "meaning": "God that hears"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "esau": {
    "term": "Esau",
@@ -511,7 +566,8 @@
      "meaning": "he that acts or finishes"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "judah": {
    "term": "Judah",
@@ -520,7 +576,8 @@
      "meaning": "the praise of the Lord; confession"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "babylon": {
    "term": "Babylon",
@@ -530,7 +587,8 @@
      "via": "Babel"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "nazareth": {
    "term": "Nazareth",
@@ -539,7 +597,8 @@
      "meaning": "separated; crowned; sanctified"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "galilee": {
    "term": "Galilee",
@@ -548,7 +607,8 @@
      "meaning": "wheel; revolution"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "jordan": {
    "term": "Jordan",
@@ -557,7 +617,8 @@
      "meaning": "the river of judgment"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "sinai": {
    "term": "Sinai",
@@ -566,7 +627,8 @@
      "meaning": "a bush; enmity"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "sodom": {
    "term": "Sodom",
@@ -575,7 +637,8 @@
      "meaning": "their secret; their cement"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "gomorrah": {
    "term": "Gomorrah",
@@ -584,7 +647,8 @@
      "meaning": "rebellious people"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "eden": {
    "term": "Eden",
@@ -593,7 +657,8 @@
      "meaning": "pleasure; delight"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "zion": {
    "term": "Zion",
@@ -602,7 +667,8 @@
      "meaning": "monument; raised up; sepulcher"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "canaan": {
    "term": "Canaan",
@@ -611,7 +677,8 @@
      "meaning": "merchant; trader; or that humbles and subdues"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "damascus": {
    "term": "Damascus",
@@ -620,7 +687,8 @@
      "meaning": "a sack full of blood; the similitude of burning"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "jericho": {
    "term": "Jericho",
@@ -629,7 +697,8 @@
      "meaning": "his moon; his month; his sweet smell"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "samaria": {
    "term": "Samaria",
@@ -638,7 +707,8 @@
      "meaning": "watch-mountain"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "nineveh": {
    "term": "Nineveh",
@@ -647,7 +717,8 @@
      "meaning": "handsome; agreeable"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
   },
   "jehovah": {
    "term": "Jehovah",
@@ -656,7 +727,1649 @@
      "meaning": "self-subsisting"
     }
    ],
-   "held": false
+   "held": false,
+   "date": "2026-10-06"
+  },
+  "philistines": {
+   "term": "Philistines",
+   "entries": [
+    {
+     "meaning": "those who dwell in villages"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "pharisees": {
+   "term": "Pharisees",
+   "entries": [
+    {
+     "meaning": "set apart"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "sadducees": {
+   "term": "Sadducees",
+   "entries": [
+    {
+     "meaning": "followers of Sadoc, or Zadok"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "hebrews": {
+   "term": "Hebrews",
+   "entries": [
+    {
+     "meaning": "descendants of Heber"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ephraim": {
+   "term": "Ephraim",
+   "entries": [
+    {
+     "meaning": "fruitful; increasing"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "benjamin": {
+   "term": "Benjamin",
+   "entries": [
+    {
+     "meaning": "son of the right hand"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "manasseh": {
+   "term": "Manasseh",
+   "entries": [
+    {
+     "meaning": "forgetfulness; he that is forgotten"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "levi": {
+   "term": "Levi",
+   "entries": [
+    {
+     "meaning": "associated with him"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "reuben": {
+   "term": "Reuben",
+   "entries": [
+    {
+     "meaning": "who sees the son; the vision of the son"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "gad": {
+   "term": "Gad",
+   "entries": [
+    {
+     "meaning": "a band; a troop"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "dan": {
+   "term": "Dan",
+   "entries": [
+    {
+     "meaning": "judgment; he that judges"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "naphtali": {
+   "term": "Naphtali",
+   "entries": [
+    {
+     "meaning": "that struggles or fights"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "simeon": {
+   "term": "Simeon",
+   "entries": [
+    {
+     "meaning": "that hears or obeys; that is heard"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "asher": {
+   "term": "Asher",
+   "entries": [
+    {
+     "meaning": "happiness"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "zebulun": {
+   "term": "Zebulun",
+   "entries": [
+    {
+     "meaning": "dwelling; habitation"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "issachar": {
+   "term": "Issachar",
+   "entries": [
+    {
+     "meaning": "reward; recompense"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "joab": {
+   "term": "Joab",
+   "entries": [
+    {
+     "meaning": "paternity; voluntary"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "hezekiah": {
+   "term": "Hezekiah",
+   "entries": [
+    {
+     "meaning": "strength of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "jonathan": {
+   "term": "Jonathan",
+   "entries": [
+    {
+     "meaning": "given of God"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "absalom": {
+   "term": "Absalom",
+   "entries": [
+    {
+     "meaning": "father of peace"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "jeroboam": {
+   "term": "Jeroboam",
+   "entries": [
+    {
+     "meaning": "he that opposes the people"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ahab": {
+   "term": "Ahab",
+   "entries": [
+    {
+     "meaning": "uncle, or father's brother"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "jehoshaphat": {
+   "term": "Jehoshaphat",
+   "entries": [
+    {
+     "meaning": "the Lord is judge"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "eleazar": {
+   "term": "Eleazar",
+   "entries": [
+    {
+     "meaning": "help of God, court of God"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "abimelech": {
+   "term": "Abimelech",
+   "entries": [
+    {
+     "meaning": "father of the king"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "abner": {
+   "term": "Abner",
+   "entries": [
+    {
+     "meaning": "father of light"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "simon": {
+   "term": "Simon",
+   "entries": [
+    {
+     "meaning": "that hears; that obeys"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "balaam": {
+   "term": "Balaam",
+   "entries": [
+    {
+     "meaning": "the ancient of the people; the destruction of the people"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "asa": {
+   "term": "Asa",
+   "entries": [
+    {
+     "meaning": "physician; cure"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "jehu": {
+   "term": "Jehu",
+   "entries": [
+    {
+     "meaning": "himself who exists"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "zedekiah": {
+   "term": "Zedekiah",
+   "entries": [
+    {
+     "meaning": "the Lord is my justice; the justice of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "mordecai": {
+   "term": "Mordecai",
+   "entries": [
+    {
+     "meaning": "contrition; bitter; bruising"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "laban": {
+   "term": "Laban",
+   "entries": [
+    {
+     "meaning": "white; shining; gentle; brittle"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "josiah": {
+   "term": "Josiah",
+   "entries": [
+    {
+     "meaning": "the Lord burns; the fire of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "zadok": {
+   "term": "Zadok",
+   "entries": [
+    {
+     "meaning": "just; justified"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "rehoboam": {
+   "term": "Rehoboam",
+   "entries": [
+    {
+     "meaning": "who sets the people at liberty"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "haman": {
+   "term": "Haman",
+   "entries": [
+    {
+     "meaning": "noise; tumult"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "jesse": {
+   "term": "Jesse",
+   "entries": [
+    {
+     "meaning": "gift; oblation; one who is"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "nathan": {
+   "term": "Nathan",
+   "entries": [
+    {
+     "meaning": "given; giving; rewarded"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "balak": {
+   "term": "Balak",
+   "entries": [
+    {
+     "meaning": "who lays waste or destroys"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ahaz": {
+   "term": "Ahaz",
+   "entries": [
+    {
+     "meaning": "one that takes or possesses"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "zechariah": {
+   "term": "Zechariah",
+   "entries": [
+    {
+     "meaning": "memory of the Lord",
+     "via": "Zachariah"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "eli": {
+   "term": "Eli",
+   "entries": [
+    {
+     "meaning": "the offering or lifting up"
+    },
+    {
+     "meaning": "my God, my God"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "caleb": {
+   "term": "Caleb",
+   "entries": [
+    {
+     "meaning": "a dog; a crow; a basket"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ahasuerus": {
+   "term": "Ahasuerus",
+   "entries": [
+    {
+     "meaning": "prince; head; chief"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "philip": {
+   "term": "Philip",
+   "entries": [
+    {
+     "meaning": "warlike; a lover of horses"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "uzziah": {
+   "term": "Uzziah",
+   "entries": [
+    {
+     "meaning": "the strength, or kid, of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "korah": {
+   "term": "Korah",
+   "entries": [
+    {
+     "meaning": "baldness; ice; frost"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "micah": {
+   "term": "Micah",
+   "entries": [
+    {
+     "meaning": "poor; humble"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ezra": {
+   "term": "Ezra",
+   "entries": [
+    {
+     "meaning": "help; court"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "baruch": {
+   "term": "Baruch",
+   "entries": [
+    {
+     "meaning": "who is blessed"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "abishai": {
+   "term": "Abishai",
+   "entries": [
+    {
+     "meaning": "the present of my father"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "adonijah": {
+   "term": "Adonijah",
+   "entries": [
+    {
+     "meaning": "the Lord is my master"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "uriah": {
+   "term": "Uriah",
+   "entries": [
+    {
+     "meaning": "the Lord is my light or fire"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "darius": {
+   "term": "Darius",
+   "entries": [
+    {
+     "meaning": "he that informs himself"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "abel": {
+   "term": "Abel",
+   "entries": [
+    {
+     "meaning": "vanity; breath; vapor"
+    },
+    {
+     "meaning": "a city; mourning"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "phinehas": {
+   "term": "Phinehas",
+   "entries": [
+    {
+     "meaning": "bold aspect; face of trust or protection"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "boaz": {
+   "term": "Boaz",
+   "entries": [
+    {
+     "meaning": "in strength"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "hazael": {
+   "term": "Hazael",
+   "entries": [
+    {
+     "meaning": "that sees God"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "cyrus": {
+   "term": "Cyrus",
+   "entries": [
+    {
+     "meaning": "as miserable; as heir"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "hiram": {
+   "term": "Hiram",
+   "entries": [
+    {
+     "meaning": "exaltation of life; a destroyer"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "jezebel": {
+   "term": "Jezebel",
+   "entries": [
+    {
+     "meaning": "chaste"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "naboth": {
+   "term": "Naboth",
+   "entries": [
+    {
+     "meaning": "words; prophecies"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "zerubbabel": {
+   "term": "Zerubbabel",
+   "entries": [
+    {
+     "meaning": "a stranger at Babylon; dispersion of confusion"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "sisera": {
+   "term": "Sisera",
+   "entries": [
+    {
+     "meaning": "that sees a horse or a swallow"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "naomi": {
+   "term": "Naomi",
+   "entries": [
+    {
+     "meaning": "beautiful; agreeable"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ahithophel": {
+   "term": "Ahithophel",
+   "entries": [
+    {
+     "meaning": "brother of ruin or folly"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "obadiah": {
+   "term": "Obadiah",
+   "entries": [
+    {
+     "meaning": "servant of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "joel": {
+   "term": "Joel",
+   "entries": [
+    {
+     "meaning": "he that wills or commands"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "michal": {
+   "term": "Michal",
+   "entries": [
+    {
+     "meaning": "who is perfect?"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "nabal": {
+   "term": "Nabal",
+   "entries": [
+    {
+     "meaning": "fool; senseless"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "omri": {
+   "term": "Omri",
+   "entries": [
+    {
+     "meaning": "sheaf of corn"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "abigail": {
+   "term": "Abigail",
+   "entries": [
+    {
+     "meaning": "the father's joy"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "athaliah": {
+   "term": "Athaliah",
+   "entries": [
+    {
+     "meaning": "the time of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "shem": {
+   "term": "Shem",
+   "entries": [
+    {
+     "meaning": "name; renown"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ham": {
+   "term": "Ham",
+   "entries": [
+    {
+     "meaning": "hot; heat; brown"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "miriam": {
+   "term": "Miriam",
+   "entries": [
+    {
+     "meaning": "rebellion"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "hagar": {
+   "term": "Hagar",
+   "entries": [
+    {
+     "meaning": "a stranger; one that fears"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "enoch": {
+   "term": "Enoch",
+   "entries": [
+    {
+     "meaning": "dedicated; disciplined"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "lamech": {
+   "term": "Lamech",
+   "entries": [
+    {
+     "meaning": "poor; made low"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "nahor": {
+   "term": "Nahor",
+   "entries": [
+    {
+     "meaning": "hoarse; dry; hot"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "eliezer": {
+   "term": "Eliezer",
+   "entries": [
+    {
+     "meaning": "help, or court, of my God"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "jethro": {
+   "term": "Jethro",
+   "entries": [
+    {
+     "meaning": "his excellence; his posterity"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "rahab": {
+   "term": "Rahab",
+   "entries": [
+    {
+     "meaning": "proud; quarrelsome (applied to Egypt)"
+    },
+    {
+     "meaning": "large; extended (name of a woman)"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "deborah": {
+   "term": "Deborah",
+   "entries": [
+    {
+     "meaning": "word; thing; a bee"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "delilah": {
+   "term": "Delilah",
+   "entries": [
+    {
+     "meaning": "poor; small; head of hair"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "hannah": {
+   "term": "Hannah",
+   "entries": [
+    {
+     "meaning": "gracious; merciful; he that gives"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "seth": {
+   "term": "Seth",
+   "entries": [
+    {
+     "meaning": "put; who puts; fixed"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "terah": {
+   "term": "Terah",
+   "entries": [
+    {
+     "meaning": "to breathe; scent; blow"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "dinah": {
+   "term": "Dinah",
+   "entries": [
+    {
+     "meaning": "judgment; who judges"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "nimrod": {
+   "term": "Nimrod",
+   "entries": [
+    {
+     "meaning": "rebellion (but probably an unknown Assyrian word)"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "melchizedek": {
+   "term": "Melchizedek",
+   "entries": [
+    {
+     "meaning": "king of justice"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "andrew": {
+   "term": "Andrew",
+   "entries": [
+    {
+     "meaning": "a strong man"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "festus": {
+   "term": "Festus",
+   "entries": [
+    {
+     "meaning": "festive, joyful"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "titus": {
+   "term": "Titus",
+   "entries": [
+    {
+     "meaning": "pleasing"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "cornelius": {
+   "term": "Cornelius",
+   "entries": [
+    {
+     "meaning": "of a horn"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "apollos": {
+   "term": "Apollos",
+   "entries": [
+    {
+     "meaning": "one who destroys; destroyer"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "felix": {
+   "term": "Felix",
+   "entries": [
+    {
+     "meaning": "happy, prosperous"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "gamaliel": {
+   "term": "Gamaliel",
+   "entries": [
+    {
+     "meaning": "recompense of God; camel of God"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "barabbas": {
+   "term": "Barabbas",
+   "entries": [
+    {
+     "meaning": "son of shame, confusion"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ananias": {
+   "term": "Ananias",
+   "entries": [
+    {
+     "meaning": "the cloud of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "bartholomew": {
+   "term": "Bartholomew",
+   "entries": [
+    {
+     "meaning": "a son that suspends the waters"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "matthew": {
+   "term": "Matthew",
+   "entries": [
+    {
+     "meaning": "given; a reward"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "nathanael": {
+   "term": "Nathanael",
+   "entries": [
+    {
+     "meaning": "the gift of God"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "aquila": {
+   "term": "Aquila",
+   "entries": [
+    {
+     "meaning": "an eagle"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "priscilla": {
+   "term": "Priscilla",
+   "entries": [
+    {
+     "meaning": "ancient",
+     "via": "Prisca"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "agrippa": {
+   "term": "Agrippa",
+   "entries": [
+    {
+     "meaning": "one who causes great pain at his birth"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "magdalene": {
+   "term": "Magdalene",
+   "entries": [
+    {
+     "meaning": "a person from Magdala"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "iscariot": {
+   "term": "Iscariot",
+   "entries": [
+    {
+     "meaning": "a man of murder; a hireling"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "belshazzar": {
+   "term": "Belshazzar",
+   "entries": [
+    {
+     "meaning": "master of the treasure"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "vashti": {
+   "term": "Vashti",
+   "entries": [
+    {
+     "meaning": "that drinks; thread"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "nehemiah": {
+   "term": "Nehemiah",
+   "entries": [
+    {
+     "meaning": "consolation; repentance of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "amos": {
+   "term": "Amos",
+   "entries": [
+    {
+     "meaning": "loading; weighty"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "tamar": {
+   "term": "Tamar",
+   "entries": [
+    {
+     "meaning": "palm; palm-tree"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "jonadab": {
+   "term": "Jonadab",
+   "entries": [
+    {
+     "meaning": "who gives liberally"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "agag": {
+   "term": "Agag",
+   "entries": [
+    {
+     "meaning": "roof; upper floor"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "baal": {
+   "term": "Baal",
+   "entries": [
+    {
+     "meaning": "master; lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "molech": {
+   "term": "Molech",
+   "entries": [
+    {
+     "meaning": "king"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "chemosh": {
+   "term": "Chemosh",
+   "entries": [
+    {
+     "meaning": "handling; stroking; taking away"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "belial": {
+   "term": "Belial",
+   "entries": [
+    {
+     "meaning": "wicked, worthless"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "lucifer": {
+   "term": "Lucifer",
+   "entries": [
+    {
+     "meaning": "bringing light"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "moab": {
+   "term": "Moab",
+   "entries": [
+    {
+     "meaning": "of his father"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "assyria": {
+   "term": "Assyria",
+   "entries": [
+    {
+     "meaning": "country of Assur or Ashur"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "hebron": {
+   "term": "Hebron",
+   "entries": [
+    {
+     "meaning": "society; friendship"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "lebanon": {
+   "term": "Lebanon",
+   "entries": [
+    {
+     "meaning": "white, incense"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "shechem": {
+   "term": "Shechem",
+   "entries": [
+    {
+     "meaning": "part; portion; back early in the morning"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "bashan": {
+   "term": "Bashan",
+   "entries": [
+    {
+     "meaning": "in the tooth, in ivory"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "gilgal": {
+   "term": "Gilgal",
+   "entries": [
+    {
+     "meaning": "wheel; rolling; heap"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "persia": {
+   "term": "Persia",
+   "entries": [
+    {
+     "meaning": "that cuts or divides; a nail; a gryphon; a horseman"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "macedonia": {
+   "term": "Macedonia",
+   "entries": [
+    {
+     "meaning": "burning; adoration"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ephesus": {
+   "term": "Ephesus",
+   "entries": [
+    {
+     "meaning": "desirable"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "corinth": {
+   "term": "Corinth",
+   "entries": [
+    {
+     "meaning": "which is satisfied; ornament; beauty"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "philippi": {
+   "term": "Philippi",
+   "entries": [
+    {
+     "meaning": "same as Philip, in the plural"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "antioch": {
+   "term": "Antioch",
+   "entries": [
+    {
+     "meaning": "speedy as a chariot"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "rome": {
+   "term": "Rome",
+   "entries": [
+    {
+     "meaning": "strength; power"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "crete": {
+   "term": "Crete",
+   "entries": [
+    {
+     "meaning": "carnal; fleshly"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "cyprus": {
+   "term": "Cyprus",
+   "entries": [
+    {
+     "meaning": "fair; fairness"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "capernaum": {
+   "term": "Capernaum",
+   "entries": [
+    {
+     "meaning": "the field of repentance; city of comfort"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "bethany": {
+   "term": "Bethany",
+   "entries": [
+    {
+     "meaning": "the house of song; the house of affliction"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "tyre": {
+   "term": "Tyre",
+   "entries": [
+    {
+     "meaning": "strength; rock; sharp"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "sidon": {
+   "term": "Sidon",
+   "entries": [
+    {
+     "meaning": "hunting; fishing; venison"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "gaza": {
+   "term": "Gaza",
+   "entries": [
+    {
+     "meaning": "strong; a goat"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ashdod": {
+   "term": "Ashdod",
+   "entries": [
+    {
+     "meaning": "effusion; inclination; theft"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "gath": {
+   "term": "Gath",
+   "entries": [
+    {
+     "meaning": "a wine-press"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "shiloh": {
+   "term": "Shiloh",
+   "entries": [
+    {
+     "meaning": "sent"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "carmel": {
+   "term": "Carmel",
+   "entries": [
+    {
+     "meaning": "circumcised lamb; harvest; full of ears of corn"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "kadesh": {
+   "term": "Kadesh",
+   "entries": [
+    {
+     "meaning": "holiness"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "horeb": {
+   "term": "Horeb",
+   "entries": [
+    {
+     "meaning": "desert; solitude; destruction"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "goshen": {
+   "term": "Goshen",
+   "entries": [
+    {
+     "meaning": "approaching; drawing near"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "euphrates": {
+   "term": "Euphrates",
+   "entries": [
+    {
+     "meaning": "that makes fruitful"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ethiopia": {
+   "term": "Ethiopia",
+   "entries": [
+    {
+     "meaning": "blackness; heat"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "tarshish": {
+   "term": "Tarshish",
+   "entries": [
+    {
+     "meaning": "contemplation; examination"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "ophir": {
+   "term": "Ophir",
+   "entries": [
+    {
+     "meaning": "fruitful region"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "haran": {
+   "term": "Haran",
+   "entries": [
+    {
+     "meaning": "mountainous country"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "joppa": {
+   "term": "Joppa",
+   "entries": [
+    {
+     "meaning": "beauty; comeliness"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "nebo": {
+   "term": "Nebo",
+   "entries": [
+    {
+     "meaning": "that speaks or prophesies"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "hermon": {
+   "term": "Hermon",
+   "entries": [
+    {
+     "meaning": "anathema; devoted to destruction"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "gilead": {
+   "term": "Gilead",
+   "entries": [
+    {
+     "meaning": "the heap or mass of testimony"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "edom": {
+   "term": "Edom",
+   "entries": [
+    {
+     "meaning": "red, earthy; of blood"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "golgotha": {
+   "term": "Golgotha",
+   "entries": [
+    {
+     "meaning": "a heap of skulls; something skull-shaped"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "gethsemane": {
+   "term": "Gethsemane",
+   "entries": [
+    {
+     "meaning": "a very fat or plentiful vale"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "calvary": {
+   "term": "Calvary",
+   "entries": [
+    {
+     "meaning": "the place of a skull"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
+  },
+  "armageddon": {
+   "term": "Armageddon",
+   "entries": [
+    {
+     "meaning": "hill of fruits; mountain of Megiddo"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-22"
   }
  }
 }
