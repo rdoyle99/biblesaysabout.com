@@ -43,7 +43,12 @@ function answerFor(n, h) {
   const parts = [`${n.name} (Hebrew ${n.hebrew}) means ${n.literal}.`];
   parts.push(`Strong's Hebrew dictionary lists it as ${strongsList(n)}.`);
   if (h) {
-    parts.push(`In the ${TR_NAME[h.tr]} text, ${labelFor(h.s.label, h.tr)} appears ${times(h.stat.n)} in ${inVerses(h.stat.verses)}.`);
+    const st = h.stat;
+    parts.push(
+      st.ot > 0 && st.nt > 0
+        ? `In the ${TR_NAME[h.tr]} Old Testament, ${labelFor(h.s.label, h.tr)} appears ${times(st.ot)} in ${inVerses(st.otVerses)}. Its ${fmt(st.nt)} New Testament uses translate Greek words, not the Hebrew ${n.name}.`
+        : `In the ${TR_NAME[h.tr]} text, ${labelFor(h.s.label, h.tr)} appears ${times(st.n)} in ${inVerses(st.verses)}.`
+    );
   } else {
     parts.push("Neither the KJV nor the World English Bible prints it as a name.");
   }
@@ -56,7 +61,8 @@ function firstLine(n) {
 
 function descFor(n, h) {
   const base = `${n.name} (${n.hebrew}) means "${n.short}". Strong's ${n.strongs.map((s) => s.n).join(" + ")}, first at ${n.first.ref}`;
-  const tail = h ? `, ${times(h.stat.n)} counted in the ${TR_SHORT[h.tr]}.` : ", with every verse.";
+  const split = h && h.stat.ot > 0 && h.stat.nt > 0;
+  const tail = h ? (split ? `, ${times(h.stat.ot)} in the ${TR_SHORT[h.tr]} Old Testament.` : `, ${times(h.stat.n)} counted in the ${TR_SHORT[h.tr]}.`) : ", with every verse.";
   const d = base + tail;
   return d.length <= 158 ? d : base + ".";
 }
@@ -126,7 +132,7 @@ export default async function GodNamePage({ params }) {
     {
       q: h ? `How many times is ${n.name} in the Bible?` : `Is ${n.name} printed as a name in the Bible?`,
       a: h
-        ? `Searching the full ${TR_NAME[h.tr]} text for ${labelFor(h.s.label, h.tr)} finds ${times(h.stat.n)} in ${inVerses(h.stat.verses)}${h.stat.nt > 0 && h.stat.ot > 0 ? `, ${fmt(h.stat.ot)} in the Old Testament and ${fmt(h.stat.nt)} in the New` : ""}.${other ? ` The ${TR_NAME[otherTr]} has ${times(other.n)}.` : ""} English Bibles translate Hebrew names, so a count in English counts the translation, not the Hebrew word.`
+        ? `Searching the full ${TR_NAME[h.tr]} text for ${labelFor(h.s.label, h.tr)} finds ${times(h.stat.n)} in ${inVerses(h.stat.verses)}${h.stat.nt > 0 && h.stat.ot > 0 ? `: ${fmt(h.stat.ot)} in the Old Testament, where it translates ${n.name}, and ${fmt(h.stat.nt)} in the New, where it translates Greek` : ""}.${other ? ` The ${TR_NAME[otherTr]} has ${times(other.n)}.` : ""} English Bibles translate Hebrew names, so a count in English counts the translation, not the Hebrew word.`
         : `No. We searched the full text of the King James Version and the World English Bible for the name and found 0 matches in each. The name comes from ${n.verses[0].ref}.`,
     },
   ];

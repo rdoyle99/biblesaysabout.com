@@ -68,7 +68,7 @@ export default function sitemap() {
 
   const wordPages = words.map((w) => ({
     url: `${baseUrl}/words/${w.slug}`,
-    lastModified: getPageMeaning(w.slug) ? getPageMeaning(w.slug).date || NAMES_DATE : w.added || DATA_DATE,
+    lastModified: [getPageMeaning(w.slug) ? getPageMeaning(w.slug).date || NAMES_DATE : w.added || DATA_DATE, w.modified].filter(Boolean).sort().at(-1),
     priority: 0.7,
   }));
 

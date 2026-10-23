@@ -252,6 +252,9 @@ function countWord(id, entry) {
 // a word page keeps the date it first shipped; only new words get today's date (sitemap lastmod follows content)
 const prevWords = fs.existsSync(path.join(outDir, "bible-words.json")) ? JSON.parse(fs.readFileSync(path.join(outDir, "bible-words.json"), "utf8")) : null;
 const addedOn = new Map((prevWords ? prevWords.words : []).map((w) => [w.slug, w.added || prevWords.generated]));
+// modified moves to today only when a page's counts, forms or note change
+const prevBySlug = new Map((prevWords ? prevWords.words : []).map((w) => [w.slug, w]));
+const contentKey = (w) => JSON.stringify([w.note, w.kjvForms, w.webForms, w.kjv && w.kjv.total, w.web && w.web.total]);
 const words = [];
 for (const entry of WORDS) {
   const k = countWord("kjv", entry);
@@ -297,6 +300,9 @@ for (const entry of WORDS) {
       .slice(0, 12),
     curatedCount: curatedHits.length,
   });
+  const cur = words[words.length - 1];
+  const prev = prevBySlug.get(entry.slug);
+  cur.modified = prev && contentKey(prev) === contentKey(cur) ? prev.modified || prev.added || prevWords.generated : today;
 }
 fs.writeFileSync(path.join(outDir, "bible-words.json"), JSON.stringify({ generated: today, words }));
 

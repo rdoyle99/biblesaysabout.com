@@ -168,6 +168,15 @@ export default function BooksInOrder({ mode }) {
             <Link href="/how-long-is-the-bible" className="underline underline-offset-2 hover:text-primary">how long the Bible is</Link>.
           </p>
           <MethodNote text={METHOD} date={LIST_DATE} />
+          {mode === "all" && (
+            <p className="mt-2 text-xs text-muted-foreground leading-relaxed">
+              Catholic canon of 73 books:{" "}
+              <a href="https://bible.usccb.org/bible" className="underline underline-offset-2" rel="noopener">
+                USCCB
+              </a>
+              .
+            </p>
+          )}
         </Section>
       </div>
     </>
