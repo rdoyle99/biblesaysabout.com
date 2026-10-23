@@ -156,6 +156,7 @@ export default function BibleByTheNumbers() {
             <li><Link href="/how-long-is-the-bible" className="underline underline-offset-2 hover:text-primary">How long is the Bible?</Link></li>
             <li><Link href="/bible-trivia-questions" className="underline underline-offset-2 hover:text-primary">Bible trivia questions and answers</Link></li>
             <li><Link href="/how-many-proverbs-are-there" className="underline underline-offset-2 hover:text-primary">How many proverbs are there?</Link></li>
+            <li><Link href="/how-many-authors-wrote-the-bible" className="underline underline-offset-2 hover:text-primary">How many authors wrote the Bible?</Link></li>
           </ul>
         </Section>
 

@@ -471,6 +471,7 @@ export default function HomeClient({
               ["/how-long-is-the-bible", "How long is the Bible"],
               ["/how-many-proverbs-are-there", "How many proverbs are there"],
               ["/bible-trivia-questions", "Bible trivia questions"],
+              ["/how-many-authors-wrote-the-bible", "How many authors wrote the Bible"],
             ].map(([href, label], i) => (
               <span key={href}>
                 {i ? " · " : ""}

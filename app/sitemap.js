@@ -11,6 +11,8 @@ import { GOD_NAMES, NAMES_OF_GOD_DATE } from "@/lib/namesOfGod";
 // data pages added 2026-10-22: fixed dates, never new Date()
 const PROVERBS_DATE = "2026-10-22";
 const TRIVIA_DATE = "2026-10-22";
+// authors page, added 2026-10-23
+const AUTHORS_DATE = "2026-10-23";
 // random verse tool and verse of the day, added 2026-10-23 (the verse changes daily; the page template does not)
 const VERSE_TOOL_DATE = "2026-10-23";
 
@@ -41,6 +43,7 @@ export default function sitemap() {
     { url: `${baseUrl}/bible-reading-plan`, lastModified: PLAN_DATE, priority: 0.9 },
     { url: `${baseUrl}/how-many-proverbs-are-there`, lastModified: PROVERBS_DATE, priority: 0.9 },
     { url: `${baseUrl}/bible-trivia-questions`, lastModified: TRIVIA_DATE, priority: 0.9 },
+    { url: `${baseUrl}/how-many-authors-wrote-the-bible`, lastModified: AUTHORS_DATE, priority: 0.9 },
     { url: `${baseUrl}/random-bible-verse`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
     { url: `${baseUrl}/bible-verse-of-the-day`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: PAGE_DATES.about, priority: 0.5 },

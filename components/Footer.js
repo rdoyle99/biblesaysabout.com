@@ -189,6 +189,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/how-many-authors-wrote-the-bible"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  How Many Authors Wrote the Bible?
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/bible-by-the-numbers"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >

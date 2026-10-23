@@ -187,6 +187,7 @@ export default function BooksOfTheBible() {
             <li><Link href="/longest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">Longest book in the Bible</Link></li>
             <li><Link href="/shortest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">Shortest book in the Bible</Link></li>
             <li><Link href="/how-long-is-the-bible" className="underline underline-offset-2 hover:text-primary">How long is the Bible?</Link></li>
+            <li><Link href="/how-many-authors-wrote-the-bible" className="underline underline-offset-2 hover:text-primary">Who wrote each book of the Bible?</Link></li>
           </ul>
         </Section>
 

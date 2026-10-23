@@ -136,6 +136,8 @@ export default function HowManyProverbs() {
             ) : null}
             , browse{" "}
             <Link href="/verses/wisdom" className="underline underline-offset-2 hover:text-primary">Bible verses about wisdom</Link>
+            , see{" "}
+            <Link href="/how-many-authors-wrote-the-bible" className="underline underline-offset-2 hover:text-primary">who wrote each book of the Bible</Link>
             , or test yourself with{" "}
             <Link href="/bible-trivia-questions" className="underline underline-offset-2 hover:text-primary">Bible trivia questions counted from the text</Link>
             . More counts are on{" "}
