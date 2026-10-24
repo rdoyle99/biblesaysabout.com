@@ -197,6 +197,38 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/fruit-of-the-spirit"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Fruit of the Spirit
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/armor-of-god"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Armor of God
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/twelve-tribes-of-israel"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  The 12 Tribes of Israel
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/ten-plagues-of-egypt"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  The 10 Plagues of Egypt
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/bible-by-the-numbers"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >
