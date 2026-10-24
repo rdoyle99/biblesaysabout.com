@@ -183,6 +183,8 @@ if (messiahAllKjv !== R("Messiah").kjv.total) fail("KJV prints Messiah outside D
 const immanuelVerses = count("kjv", /\bImmanuel\b/g, { scope: "OT" }).refs;
 if (immanuelVerses.join() !== "Isaiah 7:14,Isaiah 8:8") fail(`Immanuel verses ${immanuelVerses}`);
 const hpHeb = count("kjv", /\bhigh priest\b/gi).byBook.Hebrews;
+// outside Hebrews, "high priest" is only in the Gospels and Acts (the high priest in Jerusalem, as Matthew 26:3)
+for (const b of Object.keys(count("kjv", /\bhigh priest\b/gi).byBook)) if (![...GOSPELS, "Acts", "Hebrews"].includes(b)) fail(`high priest in ${b}`);
 const rabbiRaw = { kjv: count("kjv", /\bRabbi\b/g).total, web: count("web", /\bRabbi\b/g).total };
 const jesusRaw = { kjv: count("kjv", /\bJesus\b/gi).total, web: count("web", /\bJesus\b/gi).total };
 mustWeb("Acts 7:45", "brought in with Joshua");

@@ -109,7 +109,7 @@ export default function MiraclesOfJesus() {
 
         <Section id="rule" title="What counts as a miracle on this list" muted>
           <p className="leading-relaxed">A row is one event the Gospels narrate in which Jesus himself does something beyond nature to a person or a thing. No verse numbers the miracles, so the list is a judgment. Summary verses are not counted as separate miracles, such as Matthew 4:24, "and he healed them", or Mark 1:34, "he healed many that were sick".</p>
-          <p className="mt-3 leading-relaxed">The transfiguration (Matthew 17:2, "transfigured before them") and the resurrection (Matthew 28:6, "he is risen") are left out. Both happen to Jesus rather than being done by him, and this list counts what Jesus does.</p>
+          <p className="mt-3 leading-relaxed">The transfiguration (Matthew 17:2, "transfigured before them") and the resurrection (Matthew 28:6, "he is risen") are left out. Both happen to Jesus rather than being done by him, and this list counts what Jesus does. The coin in the fish's mouth is kept, though Matthew 17:27 gives only Jesus' word to Peter, "thou shalt find a piece of money", and does not tell the finding.</p>
           <p className="mt-3 leading-relaxed">Each row gets one type, by the first rule that fits. If the person was dead, it is raising the dead. If a devil or unclean spirit is cast out, it is casting out a demon, even when speech or sight returns too. If a sickness or injury is cured, it is a healing. Anything else is over nature.</p>
         </Section>
 
@@ -141,7 +141,7 @@ export default function MiraclesOfJesus() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 leading-relaxed">John numbers two of the miracles. John 2:11 in the KJV reads "{DATA.johnSigns.first.kjv}" The WEB has "{DATA.johnSigns.first.web}" John 4:54 calls the healing of the nobleman's son "the second miracle" in the KJV and "the second sign" in the WEB. No other miracle in John has a number.</p>
+          <p className="mt-4 leading-relaxed">John numbers two of the miracles. John 2:11 in the KJV reads "{DATA.johnSigns.first.kjv}" The WEB has "{DATA.johnSigns.first.web}" John 4:54 calls the healing of the nobleman's son "the second miracle" in the KJV and "the second sign" in the WEB. No other miracle in John is numbered. John 21:14 calls the appearance at the catch of fish "the third time that Jesus shewed himself to his disciples", which counts his appearances after he rose.</p>
           <p className="mt-3 text-sm text-muted-foreground leading-relaxed">Counts are whole words: "miracle" and "miracles" together, "sign" and "signs" together, and the single form "healed". Not every "sign" is a miracle of Jesus. In Matthew 12:38 the Pharisees ask for a sign, and in Matthew 26:48 Judas "gave them a sign". In the whole Bible, "miracle" or "miracles" is in the KJV {W.miracleKjvBible} times and the WEB {W.miracleWebBible}.</p>
         </Section>
 

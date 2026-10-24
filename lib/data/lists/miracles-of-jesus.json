@@ -248,7 +248,7 @@
   },
   {
    "n": 14,
-   "name": "Two blind men healed in Galilee",
+   "name": "Two blind men who followed him (Matthew 9)",
    "type": "healing",
    "gospels": [
     "Matthew"
@@ -613,7 +613,7 @@
  "inOneCount": 17,
  "onlyIn": {
   "Matthew": [
-   "Two blind men healed in Galilee",
+   "Two blind men who followed him (Matthew 9)",
    "A mute man possessed with a devil",
    "The coin in the fish's mouth"
   ],
@@ -733,6 +733,10 @@
   "many": {
    "ref": "John 20:30",
    "kjv": "And many other signs truly did Jesus in the presence of his disciples, which are not written in this book:"
+  },
+  "third": {
+   "ref": "John 21:14",
+   "kjv": "This is now the third time that Jesus shewed himself to his disciples, after that he was risen from the dead."
   }
  }
 }

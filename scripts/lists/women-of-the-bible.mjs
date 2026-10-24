@@ -76,15 +76,15 @@ const W = [
   { key: "zipporah", name: "Zipporah", sp: ["Zipporah"], who: ["Moses' wife", "Exodus 18:2", "Zipporah, Moses' wife"] },
   { key: "rahab", name: "Rahab", sp: ["Rahab", "Rachab"], who: ["A harlot of Jericho who lodged Joshua's spies", "Joshua 2:1", "even Jericho", "harlot's house, named Rahab"], word: "rahab",
     filter: (r) => r.book !== "Psalms" && r.book !== "Isaiah", rule: "leaves out Psalms and Isaiah, where Rahab is not the woman of Jericho",
-    also: [["Psalms 87:4", "mention of Rahab and Babylon", "listed with Babylon, Philistia, Tyre and Ethiopia"], ["Psalms 89:10", "broken Rahab in pieces", "a defeated enemy"], ["Isaiah 51:9", "cut Rahab, and wounded the dragon", "set beside the dragon"]] },
+    also: [["Psalms 87:4", "mention of Rahab and Babylon", "Philistia, and Tyre, with Ethiopia", "listed with Babylon, Philistia, Tyre and Ethiopia"], ["Psalms 89:10", "broken Rahab in pieces", "a defeated enemy"], ["Isaiah 51:9", "cut Rahab, and wounded the dragon", "set beside the dragon"]] },
   { key: "deborah", name: "Deborah", sp: ["Deborah"], who: ["A prophetess who judged Israel", "Judges 4:4", "Deborah, a prophetess", "she judged Israel"], word: "deborah",
     filter: inBook("Judges"), rule: "counts Judges only",
     also: [["Genesis 35:8", "Deborah Rebekah's nurse died", "Rebekah's nurse"]] },
   { key: "jael", name: "Jael", sp: ["Jael"], who: ["Heber's wife, who killed Sisera with a tent nail", "Judges 4:21-22", "Jael Heber's wife took a nail of the tent", "Sisera lay dead"] },
   { key: "delilah", name: "Delilah", sp: ["Delilah"], who: ["The woman of the valley of Sorek whom Samson loved", "Judges 16:4-6", "valley of Sorek, whose name was Delilah", "Delilah said to Samson"], word: "delilah" },
   { key: "naomi", name: "Naomi", sp: ["Naomi"], who: ["Elimelech's wife", "Ruth 1:2", "the name of his wife Naomi"], word: "naomi" },
-  { key: "ruth", name: "Ruth", sp: ["Ruth"], who: ["Clave to her mother-in-law, while Orpah kissed her", "Ruth 1:14-15", "Orpah kissed her mother in law; but Ruth clave unto her", "thy sister in law"], word: "ruth" },
   { key: "orpah", name: "Orpah", sp: ["Orpah"], who: ["A woman of Moab who married one of Naomi's two sons", "Ruth 1:3-4", "her two sons", "women of Moab; the name of the one was Orpah"] },
+  { key: "ruth", name: "Ruth", sp: ["Ruth"], who: ["Clave to her mother-in-law when Orpah went back", "Ruth 1:14-15", "Orpah kissed her mother in law; but Ruth clave unto her", "thy sister in law is gone back"], word: "ruth" },
   { key: "hannah", name: "Hannah", sp: ["Hannah"], who: ["Mother of Samuel", "1 Samuel 1:20", "after Hannah had conceived", "called his name Samuel"], word: "hannah" },
   { key: "michal", name: "Michal", sp: ["Michal"], who: ["Saul's daughter, given to David as his wife", "1 Samuel 18:27", "Saul gave him Michal his daughter to wife"], word: "michal" },
   { key: "abigail", name: "Abigail", sp: ["Abigail"], who: ["Nabal's widow, one of David's two wives", "1 Samuel 30:5", "David's two wives", "Abigail the wife of Nabal"], word: "abigail",
@@ -257,7 +257,17 @@ const split = {
   firstNT: rows.filter((r) => r.firstTestament === "NT").length,
   both: rows.filter((r) => r.count.ot && r.count.nt).map((r) => r.name),
 };
-const shared = rows.filter((r) => r.rule).length;
+// a row "shares" its name when the name, counted for everyone, has verses this row leaves out; every such row states its rule
+const shared = rows.filter((r) => r.nameTotal > r.count.total).map((r) => r.key);
+for (const r of rows) if (r.nameTotal > r.count.total && !r.rule) fail(`${r.name}: verses left out with no rule`);
+// the order rule: within a verse that first names two women, the one named first comes first
+for (let i = 1; i < rows.length; i++) {
+  const [a, b] = [rows[i - 1], rows[i]];
+  if (a.count.first !== b.count.first) continue;
+  const t = norm(kjv.get(a.count.first));
+  const at = (r) => Math.min(...r.spellings.map((s) => t.search(nameRe(s))).filter((x) => x >= 0));
+  if (at(a) > at(b)) fail(`${a.name} and ${b.name} share ${a.count.first} but are out of order`);
+}
 
 writeList("women-of-the-bible", {
   generated: "2026-10-24",

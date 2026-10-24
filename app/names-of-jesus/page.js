@@ -21,12 +21,13 @@ const C = DATA.counts;
 const byCount = [...nt].sort((a, b) => b.kjv.total - a.kjv.total).slice(0, 12);
 const top = (x) => `${x.top.tied.join(", ")} (${x.top.count})`;
 const short = (ref) => ref.replace(/^Revelation /, "Rev. ");
+const andList = (a) => (a.length < 2 ? a.join("") : `${a.slice(0, -1).join(", ")} and ${a.at(-1)}`);
 const link = "underline underline-offset-2 hover:text-primary";
 const METHOD_TEXT =
   "Counted by Bible Says About from the full public-domain text of the King James Version (1769 edition) and the World English Bible, verse text only. A phrase is a run of words matched in each verse and counted once per occurrence; possessives count. Matching ignores capital letters except where a row says capitals decide.";
 
 const TITLE = `Names of Jesus: ${C.total} Titles With Verses and Counts`;
-const ANSWER = `The names of Jesus in the New Testament include Jesus, Christ, Lord Jesus, the Son of man, the Son of God, the Lamb of God, the Word, Emmanuel and Messias. The King James Version prints "Jesus" ${fmt(jesus.kjv.total)} times in the New Testament and "Son of man" ${som.kjv.total} times. This page lists ${C.total} names and titles, including the seven "I am" sayings in John.`;
+const ANSWER = `The names of Jesus in the New Testament include Jesus, Christ, Lord Jesus, the Son of man, the Son of God, the Lamb of God, the Word, Emmanuel and Messias. The King James Version uses the name Jesus for him ${fmt(jesus.kjv.total)} times in the New Testament and "Son of man" ${som.kjv.total} times. This page lists ${C.total} names and titles, including the seven "I am" sayings in John.`;
 
 export const metadata = {
   title: { absolute: TITLE },
@@ -39,8 +40,8 @@ const faqs = [
   { q: "What are the names of Jesus in the Bible?", a: `The table above has ${C.ntRows} from the New Testament, among them Jesus, Christ, Lord Jesus, Son of man, Son of God, Son of David, Lamb of God, the Word, Emmanuel, Rabbi, Master, King of the Jews and Alpha and Omega. It adds ${C.prophecyRows} marked Old Testament prophecies and the ${C.iamRows} "I am" sayings in John.` },
   { q: "How many times is Jesus mentioned in the Bible?", a: `The name Jesus appears ${fmt(jesus.kjv.total)} times in the King James New Testament and ${fmt(jesus.web.total)} times in the World English Bible, leaving out the verses where it names someone else. Neither translation prints the name in the Old Testament.` },
   { q: "Which Gospel uses \"Son of man\" the most?", a: `${S.top}, with ${S.gospels.find((g) => g.book === S.top).kjv} of the ${som.kjv.total} times in the King James New Testament. Ezekiel has "son of man" ${S.ezekiel.kjv} times, but there it is said to the prophet, so it is not counted here.` },
-  { q: "What are the 7 \"I am\" sayings of Jesus?", a: `In John's Gospel Jesus says: ${DATA.iam.map((s) => `"${s.saying}" (${s.ref})`).join(", ")}.` },
-  { q: "Is the word Messiah in the New Testament?", a: `The King James Version spells it Messias, in John 1:41 and 4:25, and prints Messiah only in Daniel 9:25-26. The World English Bible uses Messiah in John and "the Anointed One" in Daniel. John 1:41 explains the word as "the Christ".` },
+  { q: "What are the 7 \"I am\" sayings of Jesus?", a: `In John's Gospel Jesus says ${andList(DATA.iam.slice(0, 4).map((s) => `"${s.saying}" (${s.ref})`))}. He also says ${andList(DATA.iam.slice(4).map((s) => `"${s.saying}" (${s.ref})`))}.` },
+  { q: "Is the word Messiah in the New Testament?", a: `Yes, twice: John 1:41 and 4:25. The King James Version spells it Messias there and prints Messiah only in Daniel 9:25-26. The World English Bible uses Messiah in John and "the Anointed One" in Daniel. John 1:41 explains the word as "the Christ".` },
   { q: "What does Emmanuel mean?", a: `Matthew 1:23 gives the meaning: "God with us". The King James Version spells it Emmanuel there and Immanuel in Isaiah 7:14 and 8:8. The World English Bible spells it Immanuel in all three verses.` },
 ];
 
@@ -83,7 +84,7 @@ export default function NamesOfJesus() {
             </div>
             <StatTiles
               stats={[
-                { label: `Times "Jesus" appears (KJV NT)`, value: fmt(jesus.kjv.total), note: `${jesus.kjv.top.book} has ${jesus.kjv.top.count}` },
+                { label: `Times "Jesus" names him (KJV NT)`, value: fmt(jesus.kjv.total), note: `${jesus.kjv.top.book} has ${jesus.kjv.top.count}` },
                 { label: `Times "Christ" appears (KJV NT)`, value: christ.kjv.total, note: `${christ.kjv.top.book} has ${christ.kjv.top.count}` },
                 { label: `"Son of man" (KJV NT)`, value: som.kjv.total, note: `${S.top} has ${som.kjv.top.count}` },
                 { label: "Names and titles listed", value: C.total, note: `${C.ntRows} NT, ${C.prophecyRows} prophecy, ${C.iamRows} "I am"` },
@@ -119,20 +120,20 @@ export default function NamesOfJesus() {
         </Section>
 
         <Section id="rules" title="How this page decides what to count" muted>
-          <p className="leading-relaxed">Most rows count a name only where it refers to Jesus, by the rule written beside the row; high priest and Saviour are raw counts. Choosing which titles are names of Jesus is a judgment: this page lists a title when a New Testament verse uses it of him, plus three marked prophecies. Old Testament names of God are on <Link href="/names-of-god" className={link}>the names of God page</Link>.</p>
+          <p className="leading-relaxed">Rows with a rule beside them leave out the verses where the name refers to someone else. High priest and Saviour are raw counts. The notes on Christ, Son of God, King of kings, Alpha and Omega and morning star name verses where the words are used of someone else or by someone else. Choosing which titles are names of Jesus is a judgment: this page lists a title when a New Testament verse uses it of him, plus three marked prophecies. Old Testament names of God are on <Link href="/names-of-god" className={link}>the names of God page</Link>.</p>
           <ul className="mt-4 list-disc pl-5 space-y-2 leading-relaxed">
             <li>Jesus: {fmt(DATA.jesusRaw.kjv)} matches in the KJV New Testament, less {DATA.jesusRaw.kjv - jesus.kjv.total} in verses that name someone else. Those are Jesus called Justus (Colossians 4:11), the sorcerer Bar-jesus (Acts 13:6) and Joshua in Acts 7:45 and Hebrews 4:8, where the WEB prints Joshua.</li>
             <li>Christ: the {christ.kjv.total} includes the {R("Jesus Christ").kjv.total} "Jesus Christ" and {R("Christ Jesus").kjv.total} "Christ Jesus" rows. Those phrases are not extra mentions on top of it.</li>
             <li>Son of man: New Testament only. Ezekiel has "son of man" {S.ezekiel.kjv} times, where it addresses the prophet, as in Ezekiel 2:1.</li>
             <li>Rabbi and Master: only where someone speaks to or about Jesus. Rabbi is {DATA.rabbiRaw.kjv} raw matches in the KJV and {R("Rabbi").kjv.total} after that rule. Master is counted with a capital M in the four Gospels.</li>
-            <li>Lord alone is left out. The KJV New Testament prints it {fmt(DATA.lordRaw.kjv)} times, for God, for Jesus and for masters in the parables, as in Matthew 18:26. No simple rule separates them. Lord Jesus is counted instead.</li>
+            <li>Lord alone is left out. The KJV New Testament prints it with a capital L {fmt(DATA.lordRaw.kjv)} times, for God, for Jesus and for masters in the parables, as in Matthew 18:26. No simple rule separates them. Lord Jesus is counted instead.</li>
           </ul>
         </Section>
 
         <Section id="most-used" title="Which name of Jesus appears most?" intro={`Jesus is the most-used name, ${fmt(jesus.kjv.total)} times in the King James New Testament, then Christ at ${christ.kjv.total}. These are the ${byCount.length} highest counts from the table.`}>
           <BarRows rows={byCount.map((r) => ({ label: r.name, value: r.kjv.total }))} labelWidth="w-40" />
           <p className="mt-5 leading-relaxed">
-            {wordLink("jesus", "Jesus")} is used most in {jesus.kjv.top.book} ({jesus.kjv.top.count} times). {wordLink("christ", "Christ")} is used most in {christ.kjv.top.book} ({christ.kjv.top.count}), and "Jesus Christ" most in {R("Jesus Christ").kjv.top.book} ({R("Jesus Christ").kjv.top.count}). High priest and Saviour are raw counts: most "high priest" verses are about the high priest in Jerusalem, and {DATA.highPriestHebrews} are in Hebrews.
+            {wordLink("jesus", "Jesus")} is used most in {jesus.kjv.top.book} ({jesus.kjv.top.count} times). {wordLink("christ", "Christ")} is used most in {christ.kjv.top.book} ({christ.kjv.top.count}), and "Jesus Christ" most in {R("Jesus Christ").kjv.top.book} ({R("Jesus Christ").kjv.top.count}). High priest and Saviour are raw counts. Of the {R("high priest").kjv.total} uses of "high priest", {DATA.highPriestHebrews} are in Hebrews, which gives the title to Jesus. The rest are in the Gospels and Acts, mostly the high priest in Jerusalem.
           </p>
         </Section>
 

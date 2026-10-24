@@ -23,7 +23,7 @@ const LIST = [
   ["The demons sent into the swine (Gadarenes)", "casting out a demon", { Matthew: [["Matthew 8:28-34", "Gergesenes", "swine"]], Mark: [["Mark 5:1-20", "Gadarenes", "Legion", "swine"]], Luke: [["Luke 8:26-39", "Gadarenes", "Legion", "swine"]] }],
   ["Jairus' daughter raised", "raising the dead", { Matthew: [["Matthew 9:18-26", "ruler", "the maid arose"]], Mark: [["Mark 5:21-43", "Jairus", "Talitha cumi"]], Luke: [["Luke 8:40-56", "Jairus", "Maid, arise"]] }],
   ["The woman with an issue of blood", "healing", { Matthew: [["Matthew 9:20-22", "issue of blood", "hem of his garment"]], Mark: [["Mark 5:25-34", "issue of blood", "twelve years"]], Luke: [["Luke 8:43-48", "issue of blood", "twelve years"]] }],
-  ["Two blind men healed in Galilee", "healing", { Matthew: [["Matthew 9:27-31", "two blind men", "their eyes were opened"]] }],
+  ["Two blind men who followed him (Matthew 9)", "healing", { Matthew: [["Matthew 9:27-31", "two blind men", "their eyes were opened"]] }],
   ["A mute man possessed with a devil", "casting out a demon", { Matthew: [["Matthew 9:32-34", "dumb man possessed with a devil", "the dumb spake"]] }],
   ["A blind and mute man possessed with a devil", "casting out a demon", { Matthew: [["Matthew 12:22-23", "blind, and dumb", "devil"]], Luke: [["Luke 11:14", "casting out a devil", "dumb"]] }],
   ["The man at the pool of Bethesda", "healing", { John: [["John 5:1-15", "Bethesda", "thirty and eight years", "take up thy bed"]] }],
@@ -87,11 +87,13 @@ const words = {
 const johnSigns = {
   first: { ref: "John 2:11", kjv: must("John 2:11", "This beginning of miracles"), web: mustWeb("John 2:11", "This beginning of his signs") },
   second: { ref: "John 4:54", kjv: must("John 4:54", "the second miracle"), web: mustWeb("John 4:54", "the second sign") },
-  many: { ref: "John 20:30", kjv: must("John 20:30", "many other signs truly did Jesus") },
+  many: { ref: "John 20:30", kjv: must("John 20:30", "many other signs truly did Jesus", "are not written in this book") },
+  third: { ref: "John 21:14", kjv: must("John 21:14", "the third time that Jesus shewed himself to his disciples") },
 };
 // verses the page cites outside the table
 const cited = {
-  transfiguration: must("Matthew 17:2", "transfigured"),
+  transfiguration: must("Matthew 17:2", "transfigured before them"),
+  coin: must("Matthew 17:27", "thou shalt find a piece of money"),
   risen: must("Matthew 28:6", "He is not here: for he is risen"),
   malchus: must("John 18:10", "Malchus", "right ear"),
   earMatthew: must("Matthew 26:51", "smote off his ear"),

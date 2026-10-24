@@ -809,46 +809,6 @@
   {
    "n": 19,
    "spellingRefs": {},
-   "key": "ruth",
-   "name": "Ruth",
-   "spellings": [
-    "Ruth"
-   ],
-   "count": {
-    "total": 13,
-    "verses": 13,
-    "ot": 12,
-    "nt": 1,
-    "books": 2,
-    "bySpelling": {
-     "Ruth": 13
-    },
-    "first": "Ruth 1:4",
-    "top": {
-     "book": "Ruth",
-     "count": 12,
-     "tied": [
-      "Ruth"
-     ]
-    }
-   },
-   "nameTotal": 13,
-   "rule": null,
-   "firstTestament": "OT",
-   "who": {
-    "text": "Clave to her mother-in-law, while Orpah kissed her",
-    "ref": "Ruth 1:14-15"
-   },
-   "also": [],
-   "wordPage": {
-    "slug": "ruth",
-    "total": 13,
-    "diff": []
-   }
-  },
-  {
-   "n": 20,
-   "spellingRefs": {},
    "key": "orpah",
    "name": "Orpah",
    "spellings": [
@@ -881,6 +841,46 @@
    },
    "also": [],
    "wordPage": null
+  },
+  {
+   "n": 20,
+   "spellingRefs": {},
+   "key": "ruth",
+   "name": "Ruth",
+   "spellings": [
+    "Ruth"
+   ],
+   "count": {
+    "total": 13,
+    "verses": 13,
+    "ot": 12,
+    "nt": 1,
+    "books": 2,
+    "bySpelling": {
+     "Ruth": 13
+    },
+    "first": "Ruth 1:4",
+    "top": {
+     "book": "Ruth",
+     "count": 12,
+     "tied": [
+      "Ruth"
+     ]
+    }
+   },
+   "nameTotal": 13,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Clave to her mother-in-law when Orpah went back",
+    "ref": "Ruth 1:14-15"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "ruth",
+    "total": 13,
+    "diff": []
+   }
   },
   {
    "n": 21,
@@ -1918,7 +1918,23 @@
    "Ruth"
   ]
  },
- "shared": 16,
+ "shared": [
+  "sarah",
+  "bilhah",
+  "tamar-judah",
+  "puah",
+  "miriam",
+  "rahab",
+  "deborah",
+  "abigail",
+  "tamar-david",
+  "jezebel",
+  "athaliah",
+  "gomer",
+  "mary-mother",
+  "mary-bethany",
+  "lydia"
+ ],
  "eve": {
   "total": 4,
   "refs": [

@@ -13,8 +13,8 @@ const first = (ref) => ref.replace(/-\d+$/, ""); // "Matthew 13:3-9" -> "Matthew
 
 // [name, { Gospel: [[ref, needle from the first verse], ...] }, label verse naming it a parable or null]
 const TABLE = [
-  ["The sower", { Matthew: [["Matthew 13:3-9", "a sower went forth to sow"]], Mark: [["Mark 4:3-9", "there went out a sower to sow"]], Luke: [["Luke 8:5-8", "A sower went out to sow"]] }, ["Matthew 13:18", "the parable of the sower"]],
-  ["The wheat and the tares", { Matthew: [["Matthew 13:24-30", "sowed good seed in his field"]] }, ["Matthew 13:36", "the parable of the tares"]],
+  ["The sower", { Matthew: [["Matthew 13:3-9", "a sower went forth to sow"]], Mark: [["Mark 4:3-9", "there went out a sower to sow"]], Luke: [["Luke 8:5-8", "A sower went out to sow"]] }, ["Luke 8:4", "he spake by a parable"]],
+  ["The wheat and the tares", { Matthew: [["Matthew 13:24-30", "sowed good seed in his field"]] }, ["Matthew 13:24", "Another parable put he forth"]],
   ["The mustard seed", { Matthew: [["Matthew 13:31-32", "grain of mustard seed"]], Mark: [["Mark 4:30-32", "Whereunto shall we liken the kingdom of God"]], Luke: [["Luke 13:18-19", "Unto what is the kingdom of God like"]] }, ["Matthew 13:31", "Another parable"]],
   ["The leaven", { Matthew: [["Matthew 13:33", "like unto leaven"]], Luke: [["Luke 13:20-21", "Whereunto shall I liken the kingdom of God"]] }, ["Matthew 13:33", "Another parable"]],
   ["The hidden treasure", { Matthew: [["Matthew 13:44", "treasure hid in a field"]] }, null],
@@ -141,11 +141,22 @@ const john10_6 = { kjv: must("John 10:6", "This parable spake Jesus unto them"),
 const john16 = { kjv: must("John 16:25", "in proverbs"), web: mustWeb("John 16:25", "figures of speech") };
 const mark430 = { kjv: must("Mark 4:30", "with what comparison"), web: mustWeb("Mark 4:30", "with what parable") };
 const webNames = { sower: mustWeb("Matthew 13:3", "a farmer went out to sow"), tares: mustWeb("Matthew 13:36", "the parable of the darnel weeds") };
-if ((word.kjv.byBook.John || 0) !== 1) fail("expected one KJV use in John");
+if ((word.kjv.byBook.John || 0) !== 1 || (word.web.byBook.John || 0) !== 1) fail("expected one KJV and one WEB use in John (John 10:6)");
 const wordBooks = BOOKS.map((b) => b[0])
   .filter((b) => word.kjv.byBook[b] || word.web.byBook[b])
   .map((book) => ({ book, kjv: word.kjv.byBook[book] || 0, web: word.web.byBook[book] || 0 }));
 must("Matthew 25:32", "as a shepherd divideth his sheep from the goats");
+// verses the page cites about where a reference ends and why he spoke in parables
+must("Matthew 20:16", "So the last shall be first");
+must("Luke 16:9", "Make to yourselves friends");
+must("Matthew 13:11", "given unto you to know the mysteries of the kingdom of heaven");
+must("Matthew 13:18", "the parable of the sower");
+must("Matthew 13:36", "the parable of the tares");
+for (const name of ["The sower", "The wheat and the tares"]) {
+  const r = rows.find((x) => x.name === name);
+  const start = Object.values(r.refs).flat().map((x) => x.ref);
+  if (!r.label || !start.some((ref) => ref.startsWith(r.label.split(":")[0] + ":"))) fail(`${name}: label ${r.label} is not in a telling's chapter`);
+}
 
 writeList("parables-of-jesus", {
   generated: "2026-10-24",

@@ -20,6 +20,7 @@ const ch13 = rows.filter((r) => r.refs.Matthew?.some((x) => x.ref.startsWith("Ma
 const lower = (s) => s.charAt(0).toLowerCase() + s.slice(1);
 const join = (a) => (a.length < 3 ? a.join(" and ") : `${a.slice(0, -1).join(", ")} and ${a.at(-1)}`);
 const short = (ref) => ref.replace(/^\S+ /, "");
+const halves = (a) => [a.slice(0, Math.ceil(a.length / 2)), a.slice(Math.ceil(a.length / 2))].map((h) => join(h.map(lower)));
 const lnk = "underline underline-offset-2 hover:text-primary";
 
 const TITLE = `Parables of Jesus: ${T.count} Parables Listed by Gospel`;
@@ -33,11 +34,11 @@ export const metadata = {
 };
 
 const faqs = [
-  { q: "How many parables did Jesus tell?", a: `No verse numbers them, so lists give different totals. This page counts ${T.count} in Matthew, Mark and Luke, using one rule: a story or extended comparison Jesus tells. Shorter sayings, such as the blind leading the blind, are listed separately and left out of the total.` },
+  { q: "How many parables did Jesus tell?", a: `No verse numbers them, so the total depends on the rule a list uses. This page counts ${T.count} in Matthew, Mark and Luke, using one rule: a story or extended comparison Jesus tells. Shorter sayings, such as the blind leading the blind, are listed separately and left out of the total.` },
   { q: "What is the longest parable of Jesus?", a: `${L.name}, ${L.ref}, at ${L.words} words in the King James Version. ${second.name} comes next at ${second.words} words (${second.ref}).` },
   { q: "Which parables are in all three Gospels?", a: `${T.allThree.length} of the ${T.count}: ${join(T.allThree.map(lower))}. They are told in Matthew, Mark and Luke.` },
-  { q: "Are there parables in the Gospel of John?", a: `This table covers Matthew, Mark and Luke. In John the word "parable" appears ${john.kjv} time in the King James Version and ${john.web} in the World English Bible, both at John 10:6, about the sheepfold saying in John 10:1-5. Both translations read "this parable" there.` },
-  { q: "Why did Jesus speak in parables?", a: `He answers the question in Matthew 13:13 (KJV): "Therefore speak I to them in parables: because they seeing see not; and hearing they hear not, neither do they understand." Mark 4:11-12 and Luke 8:10 give the same answer.` },
+  { q: "Are there parables in the Gospel of John?", a: `John uses the word only at John 10:6 (${john.kjv} in the King James Version, ${john.web} in the World English Bible). Both call the sheepfold saying in John 10:1-5 "this parable". This table covers Matthew, Mark and Luke only.` },
+  { q: "Why did Jesus speak in parables?", a: `He answers the question in Matthew 13:13 (KJV): "Therefore speak I to them in parables: because they seeing see not; and hearing they hear not, neither do they understand." Mark 4:11-12 and Luke 8:10 give a similar answer.` },
 ];
 
 export default function ParablesOfJesus() {
@@ -106,17 +107,17 @@ export default function ParablesOfJesus() {
             </table>
           </div>
           <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-            Each reference runs from the first words of the story to its last line, with any closing comment in the same passage. The narrator's introduction is left out, and so are the explanations of the sower and the tares given later in Matthew 13. The Gospels call {T.labeled} of the {T.count} a parable in a verse at the start of the story or next to it; that verse is shown under the name. The World English Bible names some differently: its Matthew 13:3 has "a farmer", and Matthew 13:36 calls the tares "darnel weeds".
+            Each reference runs from the verse where the story starts to its last line. Some end with a closing comment, as Matthew 20:16 does, and some stop before one, as Luke 16:8 does. A verse that only introduces the story is left out, and so are the explanations of the sower and the tares given later in Matthew 13. The Gospels call {T.labeled} of the {T.count} a parable in a verse at the start of the story or soon after it; that verse is shown under the name. The World English Bible names some differently: its Matthew 13:3 has "a farmer", and Matthew 13:36 calls the tares "darnel weeds".
           </p>
         </Section>
 
         <Section id="gospels" title="How many parables are in each Gospel?" intro={`Luke has the most, ${T.byGospel.Luke} of the ${T.count}. Matthew has ${T.byGospel.Matthew} and Mark ${T.byGospel.Mark}. A parable told in two or three Gospels counts once in each.`} muted>
           <BarRows rows={GOSPELS.map((g) => ({ label: g, value: T.byGospel[g], href: `/books/${g.toLowerCase()}` }))} labelWidth="w-24" />
           <p className="mt-5 leading-relaxed">
-            {T.onlyLuke.length} are found only in Luke: {join(T.onlyLuke.map(lower))}.
+            {T.onlyLuke.length} are found only in Luke: {halves(T.onlyLuke)[0]}. The others only in Luke are {halves(T.onlyLuke)[1]}.
           </p>
           <p className="mt-3 leading-relaxed">
-            {T.onlyMatthew.length} are found only in Matthew: {join(T.onlyMatthew.map(lower))}. {ch13} of Matthew's {T.byGospel.Matthew} are in chapter 13. Mark has {T.onlyMark.length} of its own: {join(T.onlyMark.map(lower))}.
+            {T.onlyMatthew.length} are found only in Matthew: {halves(T.onlyMatthew)[0]}. The others only in Matthew are {halves(T.onlyMatthew)[1]}. {ch13} of Matthew's {T.byGospel.Matthew} are in chapter 13. Mark has {T.onlyMark.length} of its own: {join(T.onlyMark.map(lower))}.
           </p>
         </Section>
 
@@ -144,7 +145,7 @@ export default function ParablesOfJesus() {
         </Section>
 
         <Section id="why" title="Why Jesus spoke in parables">
-          <p className="leading-relaxed mb-4">Jesus says the disciples are given to know the mysteries of the kingdom, and the others hear parables, because "they seeing see not" (Matthew 13:13). He says it when the disciples ask him, in Matthew 13, Mark 4 and Luke 8.</p>
+          <p className="leading-relaxed mb-4">Jesus says the disciples are given to know the mysteries of the kingdom, and the others hear parables, because "they seeing see not" (Matthew 13:11-13). He says it when the disciples ask him, in Matthew 13, Mark 4 and Luke 8.</p>
           {DATA.why.map((w) => (
             <blockquote key={w.ref} className="rounded-xl border border-l-4 border-l-primary/60 bg-card p-4 mb-3">
               <p className="leading-relaxed">{w.kjv}</p>
@@ -155,7 +156,7 @@ export default function ParablesOfJesus() {
         </Section>
 
         <Section id="rule" title="How this page decided what counts as a parable" muted>
-          <p className="leading-relaxed">This page counts a story or extended comparison Jesus tells in Matthew, Mark or Luke. No verse numbers the parables, so totals differ between lists. It keeps three short ones, the lamp, the new cloth and the new wine, because each is told in all three Gospels. It includes the sheep and the goats, whose comparison is in Matthew 25:32: "as a shepherd divideth his sheep from the goats". These shorter sayings are left out:</p>
+          <p className="leading-relaxed">This page counts a story or extended comparison Jesus tells in Matthew, Mark or Luke. No verse numbers the parables, so the total depends on which stories a list counts. It keeps three short ones, the lamp, the new cloth and the new wine, because each is told in all three Gospels. It includes the sheep and the goats, whose comparison is in Matthew 25:32: "as a shepherd divideth his sheep from the goats". These shorter sayings are left out:</p>
           <ul className="mt-3 list-disc pl-5 space-y-1.5 leading-relaxed">
             {DATA.leftOut.map((x) => <li key={x.name}><span className="font-medium">{x.name}</span> ({x.refs.join(", ")}): {x.why}.</li>)}
           </ul>
