@@ -1,0 +1,1141 @@
+{
+ "generated": "2026-10-24",
+ "fruit": {
+  "rows": [
+   {
+    "n": 1,
+    "kjv": "love",
+    "web": "love",
+    "greek": "ἀγάπη",
+    "translit": "agapē",
+    "kjvCount": {
+     "total": 310,
+     "verses": 280,
+     "books": 49,
+     "top": {
+      "book": "1 John",
+      "count": 33,
+      "tied": [
+       "1 John"
+      ]
+     },
+     "first": "Genesis 27:4"
+    },
+    "webCount": {
+     "total": 353,
+     "verses": 318,
+     "books": 51,
+     "top": {
+      "book": "1 John",
+      "count": 35,
+      "tied": [
+       "1 John"
+      ]
+     },
+     "first": "Genesis 22:2"
+    }
+   },
+   {
+    "n": 2,
+    "kjv": "joy",
+    "web": "joy",
+    "greek": "χαρά",
+    "translit": "chara",
+    "kjvCount": {
+     "total": 165,
+     "verses": 155,
+     "books": 38,
+     "top": {
+      "book": "Isaiah",
+      "count": 28,
+      "tied": [
+       "Isaiah"
+      ]
+     },
+     "first": "1 Samuel 18:6"
+    },
+    "webCount": {
+     "total": 172,
+     "verses": 167,
+     "books": 39,
+     "top": {
+      "book": "Psalms",
+      "count": 31,
+      "tied": [
+       "Psalms"
+      ]
+     },
+     "first": "1 Samuel 18:6"
+    }
+   },
+   {
+    "n": 3,
+    "kjv": "peace",
+    "web": "peace",
+    "greek": "εἰρήνη",
+    "translit": "eirēnē",
+    "kjvCount": {
+     "total": 429,
+     "verses": 400,
+     "books": 59,
+     "top": {
+      "book": "Leviticus",
+      "count": 32,
+      "tied": [
+       "Leviticus",
+       "Isaiah"
+      ]
+     },
+     "first": "Genesis 15:15"
+    },
+    "webCount": {
+     "total": 412,
+     "verses": 382,
+     "books": 59,
+     "top": {
+      "book": "Leviticus",
+      "count": 32,
+      "tied": [
+       "Leviticus"
+      ]
+     },
+     "first": "Genesis 15:15"
+    }
+   },
+   {
+    "n": 4,
+    "kjv": "longsuffering",
+    "web": "patience",
+    "greek": "μακροθυμία",
+    "translit": "makrothymia",
+    "kjvCount": {
+     "total": 17,
+     "verses": 17,
+     "books": 13,
+     "top": {
+      "book": "Romans",
+      "count": 2,
+      "tied": [
+       "Romans",
+       "Colossians",
+       "2 Timothy",
+       "2 Peter"
+      ]
+     },
+     "first": "Exodus 34:6"
+    },
+    "webCount": {
+     "total": 15,
+     "verses": 14,
+     "books": 10,
+     "top": {
+      "book": "Romans",
+      "count": 3,
+      "tied": [
+       "Romans"
+      ]
+     },
+     "first": "Proverbs 25:15"
+    }
+   },
+   {
+    "n": 5,
+    "kjv": "gentleness",
+    "web": "kindness",
+    "greek": "χρηστότης",
+    "translit": "chrēstotēs",
+    "kjvCount": {
+     "total": 4,
+     "verses": 4,
+     "books": 4,
+     "top": {
+      "book": "2 Samuel",
+      "count": 1,
+      "tied": [
+       "2 Samuel",
+       "Psalms",
+       "2 Corinthians",
+       "Galatians"
+      ]
+     },
+     "first": "2 Samuel 22:36"
+    },
+    "webCount": {
+     "total": 211,
+     "verses": 207,
+     "books": 31,
+     "top": {
+      "book": "Psalms",
+      "count": 120,
+      "tied": [
+       "Psalms"
+      ]
+     },
+     "first": "Genesis 19:19"
+    }
+   },
+   {
+    "n": 6,
+    "kjv": "goodness",
+    "web": "goodness",
+    "greek": "ἀγαθωσύνη",
+    "translit": "agathōsynē",
+    "kjvCount": {
+     "total": 51,
+     "verses": 48,
+     "books": 18,
+     "top": {
+      "book": "Psalms",
+      "count": 18,
+      "tied": [
+       "Psalms"
+      ]
+     },
+     "first": "Exodus 18:9"
+    },
+    "webCount": {
+     "total": 33,
+     "verses": 30,
+     "books": 15,
+     "top": {
+      "book": "Psalms",
+      "count": 9,
+      "tied": [
+       "Psalms"
+      ]
+     },
+     "first": "Exodus 18:9"
+    }
+   },
+   {
+    "n": 7,
+    "kjv": "faith",
+    "web": "faith",
+    "greek": "πίστις",
+    "translit": "pistis",
+    "kjvCount": {
+     "total": 247,
+     "verses": 231,
+     "books": 26,
+     "top": {
+      "book": "Romans",
+      "count": 39,
+      "tied": [
+       "Romans"
+      ]
+     },
+     "first": "Deuteronomy 32:20"
+    },
+    "webCount": {
+     "total": 249,
+     "verses": 232,
+     "books": 26,
+     "top": {
+      "book": "Romans",
+      "count": 42,
+      "tied": [
+       "Romans"
+      ]
+     },
+     "first": "Isaiah 26:2"
+    }
+   },
+   {
+    "n": 8,
+    "kjv": "meekness",
+    "web": "gentleness",
+    "greek": "πραΰτης",
+    "translit": "prautēs",
+    "kjvCount": {
+     "total": 14,
+     "verses": 14,
+     "books": 12,
+     "top": {
+      "book": "Galatians",
+      "count": 2,
+      "tied": [
+       "Galatians",
+       "James"
+      ]
+     },
+     "first": "Psalms 45:4"
+    },
+    "webCount": {
+     "total": 11,
+     "verses": 11,
+     "books": 10,
+     "top": {
+      "book": "Galatians",
+      "count": 2,
+      "tied": [
+       "Galatians"
+      ]
+     },
+     "first": "2 Samuel 22:36"
+    }
+   },
+   {
+    "n": 9,
+    "kjv": "temperance",
+    "web": "self-control",
+    "greek": "ἐγκράτεια",
+    "translit": "enkrateia",
+    "kjvCount": {
+     "total": 4,
+     "verses": 3,
+     "books": 3,
+     "top": {
+      "book": "2 Peter",
+      "count": 2,
+      "tied": [
+       "2 Peter"
+      ]
+     },
+     "first": "Acts 24:25"
+    },
+    "webCount": {
+     "total": 9,
+     "verses": 8,
+     "books": 0,
+     "top": {
+      "book": null,
+      "count": 0
+     },
+     "first": "Acts 24:25"
+    }
+   }
+  ],
+  "text": {
+   "kjv": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law.",
+   "web": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control. Against such things there is no law."
+  },
+  "phrase": {
+   "kjv": {
+    "total": 2,
+    "refs": [
+     "Galatians 5:22",
+     "Ephesians 5:9"
+    ]
+   },
+   "web": {
+    "total": 2,
+    "refs": [
+     "Galatians 5:22",
+     "Ephesians 5:9"
+    ]
+   }
+  },
+  "works": {
+   "kjv": [
+    "adultery",
+    "fornication",
+    "uncleanness",
+    "lasciviousness",
+    "idolatry",
+    "witchcraft",
+    "hatred",
+    "variance",
+    "emulations",
+    "wrath",
+    "strife",
+    "seditions",
+    "heresies",
+    "envyings",
+    "murders",
+    "drunkenness",
+    "revellings"
+   ],
+   "web": [
+    "adultery",
+    "sexual immorality",
+    "uncleanness",
+    "lustfulness",
+    "idolatry",
+    "sorcery",
+    "hatred",
+    "strife",
+    "jealousies",
+    "outbursts of anger",
+    "rivalries",
+    "divisions",
+    "heresies",
+    "envy",
+    "murders",
+    "drunkenness",
+    "orgies"
+   ]
+  }
+ },
+ "armor": {
+  "rows": [
+   {
+    "n": 1,
+    "piece": "Belt of truth",
+    "ref": "Ephesians 6:14",
+    "kjvPhrase": "loins girt about with truth",
+    "webPhrase": "belt of truth",
+    "forms": [
+     "girdle",
+     "girdles"
+    ],
+    "noun": "girdle",
+    "kjv": {
+     "total": 44,
+     "verses": 40,
+     "books": 16,
+     "top": {
+      "book": "Exodus",
+      "count": 12,
+      "tied": [
+       "Exodus"
+      ]
+     },
+     "first": "Exodus 28:4"
+    }
+   },
+   {
+    "n": 2,
+    "piece": "Breastplate of righteousness",
+    "ref": "Ephesians 6:14",
+    "kjvPhrase": "breastplate of righteousness",
+    "webPhrase": "breastplate of righteousness",
+    "forms": [
+     "breastplate",
+     "breastplates"
+    ],
+    "noun": "breastplate",
+    "kjv": {
+     "total": 31,
+     "verses": 26,
+     "books": 6,
+     "top": {
+      "book": "Exodus",
+      "count": 23,
+      "tied": [
+       "Exodus"
+      ]
+     },
+     "first": "Exodus 25:7"
+    }
+   },
+   {
+    "n": 3,
+    "piece": "Shoes of the gospel of peace",
+    "ref": "Ephesians 6:15",
+    "kjvPhrase": "feet shod with the preparation of the gospel of peace",
+    "webPhrase": "feet with the preparation of the Good News of peace",
+    "forms": [
+     "shoe",
+     "shoes"
+    ],
+    "noun": "shoe",
+    "kjv": {
+     "total": 30,
+     "verses": 30,
+     "books": 14,
+     "top": {
+      "book": "Deuteronomy",
+      "count": 4,
+      "tied": [
+       "Deuteronomy",
+       "Luke"
+      ]
+     },
+     "first": "Exodus 3:5"
+    }
+   },
+   {
+    "n": 4,
+    "piece": "Shield of faith",
+    "ref": "Ephesians 6:16",
+    "kjvPhrase": "shield of faith",
+    "webPhrase": "shield of faith",
+    "forms": [
+     "shield",
+     "shields"
+    ],
+    "noun": "shield",
+    "kjv": {
+     "total": 68,
+     "verses": 65,
+     "books": 19,
+     "top": {
+      "book": "Psalms",
+      "count": 17,
+      "tied": [
+       "Psalms"
+      ]
+     },
+     "first": "Genesis 15:1"
+    }
+   },
+   {
+    "n": 5,
+    "piece": "Helmet of salvation",
+    "ref": "Ephesians 6:17",
+    "kjvPhrase": "helmet of salvation",
+    "webPhrase": "helmet of salvation",
+    "forms": [
+     "helmet",
+     "helmets"
+    ],
+    "noun": "helmet",
+    "kjv": {
+     "total": 10,
+     "verses": 10,
+     "books": 7,
+     "top": {
+      "book": "Ezekiel",
+      "count": 3,
+      "tied": [
+       "Ezekiel"
+      ]
+     },
+     "first": "1 Samuel 17:5"
+    }
+   },
+   {
+    "n": 6,
+    "piece": "Sword of the Spirit",
+    "ref": "Ephesians 6:17",
+    "kjvPhrase": "sword of the Spirit, which is the word of God",
+    "webPhrase": "sword of the Spirit, which is the word of God",
+    "forms": [
+     "sword",
+     "swords"
+    ],
+    "noun": "sword",
+    "kjv": {
+     "total": 448,
+     "verses": 404,
+     "books": 42,
+     "top": {
+      "book": "Ezekiel",
+      "count": 89,
+      "tied": [
+       "Ezekiel"
+      ]
+     },
+     "first": "Genesis 3:24"
+    }
+   }
+  ],
+  "phrase": {
+   "kjv": {
+    "total": 2,
+    "refs": [
+     "Ephesians 6:11",
+     "Ephesians 6:13"
+    ]
+   },
+   "web": {
+    "total": 2,
+    "refs": [
+     "Ephesians 6:11",
+     "Ephesians 6:13"
+    ]
+   }
+  },
+  "armourWord": {
+   "kjv": {
+    "total": 24,
+    "verses": 24,
+    "books": 11,
+    "top": {
+     "book": "1 Samuel",
+     "count": 7,
+     "tied": [
+      "1 Samuel"
+     ]
+    },
+    "first": "1 Samuel 14:1"
+   },
+   "web": {
+    "total": 46,
+    "verses": 42,
+    "books": 13,
+    "top": {
+     "book": "1 Samuel",
+     "count": 18,
+     "tied": [
+      "1 Samuel"
+     ]
+    },
+    "first": "Judges 9:54"
+   }
+  },
+  "xref": [
+   {
+    "ref": "Isaiah 59:17",
+    "note": "The LORD puts on righteousness as a breastplate and a helmet of salvation.",
+    "needles": [
+     "breastplate",
+     "helmet of salvation"
+    ],
+    "kjvText": "For he put on righteousness as a breastplate, and an helmet of salvation upon his head; and he put on the garments of vengeance for clothing, and was clad with zeal as a cloke.",
+    "webText": "He put on righteousness as a breastplate, and a helmet of salvation on his head. He put on garments of vengeance for clothing, and was clad with zeal as a mantle."
+   },
+   {
+    "ref": "1 Thessalonians 5:8",
+    "note": "Paul's breastplate is faith and love, and the helmet is the hope of salvation.",
+    "needles": [
+     "breastplate of faith and love",
+     "helmet",
+     "hope of salvation"
+    ],
+    "kjvText": "But let us, who are of the day, be sober, putting on the breastplate of faith and love; and for an helmet, the hope of salvation.",
+    "webText": "But let us, since we belong to the day, be sober, putting on the breastplate of faith and love, and, for a helmet, the hope of salvation."
+   },
+   {
+    "ref": "2 Corinthians 6:7",
+    "note": "The armour of righteousness on the right hand and on the left.",
+    "needles": [
+     "armour of righteousness"
+    ],
+    "kjvText": "By the word of truth, by the power of God, by the armour of righteousness on the right hand and on the left,",
+    "webText": "in the word of truth, in the power of God; by the armor of righteousness on the right hand and on the left,"
+   },
+   {
+    "ref": "Romans 13:12",
+    "note": "The armour of light, put on in place of the works of darkness.",
+    "needles": [
+     "armour of light"
+    ],
+    "kjvText": "The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armour of light.",
+    "webText": "The night is far gone, and the day is near. Let’s therefore throw off the deeds of darkness, and let’s put on the armor of light."
+   },
+   {
+    "ref": "Hebrews 4:12",
+    "note": "The word of God is sharper than any twoedged sword, the same pair the armor passage joins.",
+    "needles": [
+     "word of God",
+     "twoedged sword"
+    ],
+    "kjvText": "For the word of God is quick, and powerful, and sharper than any twoedged sword, piercing even to the dividing asunder of soul and spirit, and of the joints and marrow, and is a discerner of the thoughts and intents of the heart.",
+    "webText": "For the word of God is living and active, and sharper than any two-edged sword, piercing even to the dividing of soul and spirit, of both joints and marrow, and is able to discern the thoughts and intentions of the heart."
+   }
+  ]
+ },
+ "tribes": {
+  "sons": [
+   {
+    "slug": "reuben",
+    "name": "Reuben",
+    "mother": "Leah",
+    "birth": "Genesis 29:32",
+    "blessing": "Genesis 49:3-4",
+    "tribeOfKjv": 11,
+    "census1": 46500,
+    "census2": 43730,
+    "census1Ref": "Numbers 1:21",
+    "census2Ref": "Numbers 26:7"
+   },
+   {
+    "slug": "simeon",
+    "name": "Simeon",
+    "mother": "Leah",
+    "birth": "Genesis 29:33",
+    "blessing": "Genesis 49:5-7",
+    "tribeOfKjv": 11,
+    "census1": 59300,
+    "census2": 22200,
+    "census1Ref": "Numbers 1:23",
+    "census2Ref": "Numbers 26:14"
+   },
+   {
+    "slug": "levi",
+    "name": "Levi",
+    "mother": "Leah",
+    "birth": "Genesis 29:34",
+    "blessing": "Genesis 49:5-7",
+    "tribeOfKjv": 9
+   },
+   {
+    "slug": "judah",
+    "name": "Judah",
+    "mother": "Leah",
+    "birth": "Genesis 29:35",
+    "blessing": "Genesis 49:8-12",
+    "tribeOfKjv": 19,
+    "census1": 74600,
+    "census2": 76500,
+    "census1Ref": "Numbers 1:27",
+    "census2Ref": "Numbers 26:22"
+   },
+   {
+    "slug": "dan",
+    "name": "Dan",
+    "mother": "Bilhah",
+    "birth": "Genesis 30:6",
+    "blessing": "Genesis 49:16-18",
+    "tribeOfKjv": 12,
+    "census1": 62700,
+    "census2": 64400,
+    "census1Ref": "Numbers 1:39",
+    "census2Ref": "Numbers 26:43"
+   },
+   {
+    "slug": "naphtali",
+    "name": "Naphtali",
+    "mother": "Bilhah",
+    "birth": "Genesis 30:8",
+    "blessing": "Genesis 49:21",
+    "tribeOfKjv": 11,
+    "census1": 53400,
+    "census2": 45400,
+    "census1Ref": "Numbers 1:43",
+    "census2Ref": "Numbers 26:50"
+   },
+   {
+    "slug": "gad",
+    "name": "Gad",
+    "mother": "Zilpah",
+    "birth": "Genesis 30:11",
+    "blessing": "Genesis 49:19",
+    "tribeOfKjv": 12,
+    "census1": 45650,
+    "census2": 40500,
+    "census1Ref": "Numbers 1:25",
+    "census2Ref": "Numbers 26:18"
+   },
+   {
+    "slug": "asher",
+    "name": "Asher",
+    "mother": "Zilpah",
+    "birth": "Genesis 30:13",
+    "blessing": "Genesis 49:20",
+    "tribeOfKjv": 11,
+    "census1": 41500,
+    "census2": 53400,
+    "census1Ref": "Numbers 1:41",
+    "census2Ref": "Numbers 26:47"
+   },
+   {
+    "slug": "issachar",
+    "name": "Issachar",
+    "mother": "Leah",
+    "birth": "Genesis 30:18",
+    "blessing": "Genesis 49:14-15",
+    "tribeOfKjv": 11,
+    "census1": 54400,
+    "census2": 64300,
+    "census1Ref": "Numbers 1:29",
+    "census2Ref": "Numbers 26:25"
+   },
+   {
+    "slug": "zebulun",
+    "name": "Zebulun",
+    "mother": "Leah",
+    "birth": "Genesis 30:20",
+    "blessing": "Genesis 49:13",
+    "tribeOfKjv": 9,
+    "census1": 57400,
+    "census2": 60500,
+    "census1Ref": "Numbers 1:31",
+    "census2Ref": "Numbers 26:27"
+   },
+   {
+    "slug": "joseph",
+    "name": "Joseph",
+    "mother": "Rachel",
+    "birth": "Genesis 30:24",
+    "blessing": "Genesis 49:22-26",
+    "tribeOfKjv": 3
+   },
+   {
+    "slug": "benjamin",
+    "name": "Benjamin",
+    "mother": "Rachel",
+    "birth": "Genesis 35:18",
+    "blessing": "Genesis 49:27",
+    "tribeOfKjv": 20,
+    "census1": 35400,
+    "census2": 45600,
+    "census1Ref": "Numbers 1:37",
+    "census2Ref": "Numbers 26:41"
+   }
+  ],
+  "josephSons": [
+   {
+    "slug": "ephraim",
+    "name": "Ephraim",
+    "birth": "Genesis 41:52",
+    "tribeOfKjv": 8,
+    "census1": 40500,
+    "census2": 32500,
+    "census1Ref": "Numbers 1:33",
+    "census2Ref": "Numbers 26:37"
+   },
+   {
+    "slug": "manasseh",
+    "name": "Manasseh",
+    "birth": "Genesis 41:51",
+    "tribeOfKjv": 42,
+    "census1": 32200,
+    "census2": 52700,
+    "census1Ref": "Numbers 1:35",
+    "census2Ref": "Numbers 26:34"
+   }
+  ],
+  "summary": {
+   "tenTribes": {
+    "kjv": {
+     "total": 2,
+     "refs": [
+      "1 Kings 11:31",
+      "1 Kings 11:35"
+     ]
+    },
+    "web": {
+     "total": 2,
+     "refs": [
+      "1 Kings 11:31",
+      "1 Kings 11:35"
+     ]
+    }
+   },
+   "lostTribes": {
+    "kjv": {
+     "total": 0,
+     "refs": []
+    },
+    "web": {
+     "total": 0,
+     "refs": []
+    }
+   },
+   "sons": 12,
+   "total1": 603550,
+   "total2": 601730,
+   "levites1": 22000,
+   "levites2": 23000,
+   "change": -1820,
+   "changePct": -0.3,
+   "revList": [
+    "Judah",
+    "Reuben",
+    "Gad",
+    "Asher",
+    "Naphtali",
+    "Manasseh",
+    "Simeon",
+    "Levi",
+    "Issachar",
+    "Zebulun",
+    "Joseph",
+    "Benjamin"
+   ],
+   "revMissing": [
+    "Dan",
+    "Ephraim"
+   ],
+   "tribeNames": 14
+  },
+  "levites": {
+   "num3": 22000,
+   "num26": 23000
+  }
+ },
+ "plagues": {
+  "rows": [
+   {
+    "n": 1,
+    "name": "Water to blood",
+    "kjvName": "blood",
+    "passage": "Exodus 7:14-25",
+    "verses": 12,
+    "kjvWords": 394,
+    "webWords": 364,
+    "warned": "Exodus 7:15",
+    "begins": "river",
+    "webName": "blood",
+    "key": "Exodus 7:20",
+    "magicians": {
+     "ref": "Exodus 7:22",
+     "could": true
+    },
+    "harden": {
+     "ref": "Exodus 7:22",
+     "who": "unspecified"
+    },
+    "goshen": null
+   },
+   {
+    "n": 2,
+    "name": "Frogs",
+    "kjvName": "frogs",
+    "passage": "Exodus 8:1-15",
+    "verses": 15,
+    "kjvWords": 398,
+    "webWords": 382,
+    "warned": "Exodus 8:1",
+    "begins": "palace",
+    "webName": "frogs",
+    "key": "Exodus 8:6",
+    "magicians": {
+     "ref": "Exodus 8:7",
+     "could": true
+    },
+    "harden": {
+     "ref": "Exodus 8:15",
+     "who": "Pharaoh"
+    },
+    "goshen": null
+   },
+   {
+    "n": 3,
+    "name": "Lice",
+    "kjvName": "lice",
+    "passage": "Exodus 8:16-19",
+    "verses": 4,
+    "kjvWords": 127,
+    "webWords": 115,
+    "warned": null,
+    "begins": "none",
+    "webName": "lice",
+    "key": "Exodus 8:17",
+    "magicians": {
+     "ref": "Exodus 8:18",
+     "could": false
+    },
+    "harden": {
+     "ref": "Exodus 8:19",
+     "who": "unspecified"
+    },
+    "goshen": null
+   },
+   {
+    "n": 4,
+    "name": "Flies",
+    "kjvName": "swarms of flies",
+    "passage": "Exodus 8:20-32",
+    "verses": 13,
+    "kjvWords": 411,
+    "webWords": 384,
+    "warned": "Exodus 8:20",
+    "begins": "river",
+    "webName": "swarms of flies",
+    "key": "Exodus 8:24",
+    "magicians": null,
+    "harden": {
+     "ref": "Exodus 8:32",
+     "who": "Pharaoh"
+    },
+    "goshen": "Exodus 8:22"
+   },
+   {
+    "n": 5,
+    "name": "Livestock disease",
+    "kjvName": "murrain",
+    "passage": "Exodus 9:1-7",
+    "verses": 7,
+    "kjvWords": 187,
+    "webWords": 178,
+    "warned": "Exodus 9:1",
+    "begins": "palace",
+    "webName": "pestilence",
+    "key": "Exodus 9:6",
+    "magicians": null,
+    "harden": {
+     "ref": "Exodus 9:7",
+     "who": "unspecified"
+    },
+    "goshen": "Exodus 9:4"
+   },
+   {
+    "n": 6,
+    "name": "Boils",
+    "kjvName": "boils",
+    "passage": "Exodus 9:8-12",
+    "verses": 5,
+    "kjvWords": 140,
+    "webWords": 132,
+    "warned": null,
+    "begins": "none",
+    "webName": "boils",
+    "key": "Exodus 9:10",
+    "magicians": {
+     "ref": "Exodus 9:11",
+     "could": false
+    },
+    "harden": {
+     "ref": "Exodus 9:12",
+     "who": "LORD"
+    },
+    "goshen": null
+   },
+   {
+    "n": 7,
+    "name": "Hail",
+    "kjvName": "hail",
+    "passage": "Exodus 9:13-35",
+    "verses": 23,
+    "kjvWords": 655,
+    "webWords": 616,
+    "warned": "Exodus 9:13",
+    "begins": "river",
+    "webName": "hail",
+    "key": "Exodus 9:25",
+    "magicians": null,
+    "harden": {
+     "ref": "Exodus 9:34",
+     "who": "Pharaoh"
+    },
+    "goshen": "Exodus 9:26"
+   },
+   {
+    "n": 8,
+    "name": "Locusts",
+    "kjvName": "locusts",
+    "passage": "Exodus 10:1-20",
+    "verses": 20,
+    "kjvWords": 676,
+    "webWords": 633,
+    "warned": "Exodus 10:1",
+    "begins": "palace",
+    "webName": "locusts",
+    "key": "Exodus 10:15",
+    "magicians": null,
+    "harden": {
+     "ref": "Exodus 10:20",
+     "who": "LORD"
+    },
+    "goshen": null
+   },
+   {
+    "n": 9,
+    "name": "Darkness",
+    "kjvName": "darkness",
+    "passage": "Exodus 10:21-29",
+    "verses": 9,
+    "kjvWords": 223,
+    "webWords": 213,
+    "warned": null,
+    "begins": "none",
+    "webName": "darkness",
+    "key": "Exodus 10:22",
+    "magicians": null,
+    "harden": {
+     "ref": "Exodus 10:27",
+     "who": "LORD"
+    },
+    "goshen": "Exodus 10:23"
+   },
+   {
+    "n": 10,
+    "name": "Death of the firstborn",
+    "kjvName": "firstborn",
+    "passage": "Exodus 11:1-10; 12:29-32",
+    "verses": 14,
+    "kjvWords": 461,
+    "webWords": 428,
+    "warned": "Exodus 11:4",
+    "begins": "announced",
+    "webName": "firstborn",
+    "key": "Exodus 12:29",
+    "magicians": null,
+    "harden": {
+     "ref": "Exodus 11:10",
+     "who": "LORD"
+    },
+    "goshen": "Exodus 11:7"
+   }
+  ],
+  "harden": {
+   "rows": [
+    {
+     "ref": "Exodus 4:21",
+     "who": "LORD, promised"
+    },
+    {
+     "ref": "Exodus 7:3",
+     "who": "LORD, promised"
+    },
+    {
+     "ref": "Exodus 7:13",
+     "who": "unspecified"
+    },
+    {
+     "ref": "Exodus 7:14",
+     "who": "unspecified"
+    },
+    {
+     "ref": "Exodus 7:22",
+     "who": "unspecified"
+    },
+    {
+     "ref": "Exodus 8:15",
+     "who": "Pharaoh"
+    },
+    {
+     "ref": "Exodus 8:19",
+     "who": "unspecified"
+    },
+    {
+     "ref": "Exodus 8:32",
+     "who": "Pharaoh"
+    },
+    {
+     "ref": "Exodus 9:7",
+     "who": "unspecified"
+    },
+    {
+     "ref": "Exodus 9:12",
+     "who": "LORD"
+    },
+    {
+     "ref": "Exodus 9:34",
+     "who": "Pharaoh"
+    },
+    {
+     "ref": "Exodus 9:35",
+     "who": "unspecified"
+    },
+    {
+     "ref": "Exodus 10:1",
+     "who": "LORD"
+    },
+    {
+     "ref": "Exodus 10:20",
+     "who": "LORD"
+    },
+    {
+     "ref": "Exodus 10:27",
+     "who": "LORD"
+    },
+    {
+     "ref": "Exodus 11:10",
+     "who": "LORD"
+    },
+    {
+     "ref": "Exodus 14:4",
+     "who": "LORD, promised"
+    },
+    {
+     "ref": "Exodus 14:8",
+     "who": "LORD"
+    }
+   ],
+   "egyptians": [
+    "Exodus 14:17"
+   ],
+   "byWho": {
+    "LORD, promised": 3,
+    "unspecified": 6,
+    "Pharaoh": 3,
+    "LORD": 6
+   },
+   "firstLord": "Exodus 9:12",
+   "firstPharaoh": "Exodus 8:15"
+  },
+  "plagueWord": {
+   "total": 122,
+   "exodus7to12": [
+    "Exodus 9:14",
+    "Exodus 11:1",
+    "Exodus 12:13"
+   ]
+  },
+  "signsWondersVerses": 6
+ }
+}

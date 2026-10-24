@@ -472,6 +472,10 @@ export default function HomeClient({
               ["/how-many-proverbs-are-there", "How many proverbs are there"],
               ["/bible-trivia-questions", "Bible trivia questions"],
               ["/how-many-authors-wrote-the-bible", "How many authors wrote the Bible"],
+              ["/fruit-of-the-spirit", "Fruit of the Spirit"],
+              ["/armor-of-god", "Armor of God"],
+              ["/twelve-tribes-of-israel", "The 12 tribes of Israel"],
+              ["/ten-plagues-of-egypt", "The 10 plagues of Egypt"],
             ].map(([href, label], i) => (
               <span key={href}>
                 {i ? " · " : ""}

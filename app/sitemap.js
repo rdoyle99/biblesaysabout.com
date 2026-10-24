@@ -16,6 +16,10 @@ const AUTHORS_DATE = "2026-10-23";
 // random verse tool and verse of the day, added 2026-10-23 (the verse changes daily; the page template does not)
 const VERSE_TOOL_DATE = "2026-10-23";
 
+import { LISTS_DATE } from "@/lib/bibleLists";
+
+// list pages (fruit of the Spirit, armor of God, twelve tribes, ten plagues), added 2026-10-24
+
 const baseUrl = "https://www.biblesaysabout.com";
 
 // Pages whose content is not generated from data: the date their copy last changed
@@ -44,6 +48,7 @@ export default function sitemap() {
     { url: `${baseUrl}/how-many-proverbs-are-there`, lastModified: PROVERBS_DATE, priority: 0.9 },
     { url: `${baseUrl}/bible-trivia-questions`, lastModified: TRIVIA_DATE, priority: 0.9 },
     { url: `${baseUrl}/how-many-authors-wrote-the-bible`, lastModified: AUTHORS_DATE, priority: 0.9 },
+    ...["fruit-of-the-spirit", "armor-of-god", "twelve-tribes-of-israel", "ten-plagues-of-egypt"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS_DATE, priority: 0.9 })),
     { url: `${baseUrl}/random-bible-verse`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
     { url: `${baseUrl}/bible-verse-of-the-day`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: PAGE_DATES.about, priority: 0.5 },

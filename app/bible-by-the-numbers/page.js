@@ -158,6 +158,10 @@ export default function BibleByTheNumbers() {
             <li><Link href="/bible-trivia-questions" className="underline underline-offset-2 hover:text-primary">Bible trivia questions and answers</Link></li>
             <li><Link href="/how-many-proverbs-are-there" className="underline underline-offset-2 hover:text-primary">How many proverbs are there?</Link></li>
             <li><Link href="/how-many-authors-wrote-the-bible" className="underline underline-offset-2 hover:text-primary">How many authors wrote the Bible?</Link></li>
+            <li><Link href="/fruit-of-the-spirit" className="underline underline-offset-2 hover:text-primary">Fruit of the Spirit</Link></li>
+            <li><Link href="/armor-of-god" className="underline underline-offset-2 hover:text-primary">Armor of God</Link></li>
+            <li><Link href="/twelve-tribes-of-israel" className="underline underline-offset-2 hover:text-primary">The 12 tribes of Israel</Link></li>
+            <li><Link href="/ten-plagues-of-egypt" className="underline underline-offset-2 hover:text-primary">The 10 plagues of Egypt</Link></li>
           </ul>
         </Section>
 
