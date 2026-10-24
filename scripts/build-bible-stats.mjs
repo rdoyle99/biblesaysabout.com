@@ -23,6 +23,12 @@ const web = await loadBible("web");
 const { versesData } = await import(path.join(root, "lib", "verses.js"));
 
 const tokens = (text) => (text.replace(/’/g, "'").match(/[A-Za-z]+(?:'[A-Za-z]+)*/g) || []);
+// for each token, the hyphenated name it sits in (Obed-edom), else null; same token order as tokens()
+const compounds = (text) =>
+  (text.replace(/’/g, "'").match(/[A-Za-z]+(?:'[A-Za-z]+)*(?:-[A-Za-z]+(?:'[A-Za-z]+)*)*/g) || []).flatMap((m) => {
+    const parts = m.split("-");
+    return parts.map(() => (parts.length > 1 ? m : null));
+  });
 const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const ref = (book, ch, v) => `${book === "Psalms" ? "Psalm" : book} ${ch}:${v}`;
 
@@ -33,7 +39,7 @@ function flatten(bible) {
     b.chapters.forEach((verses, ch) => {
       if (!verses) return;
       verses.forEach((text, v) => {
-        if (text) rows.push({ bi, book: BOOKS[bi][0], ch, v, text, words: tokens(text) });
+        if (text) rows.push({ bi, book: BOOKS[bi][0], ch, v, text, words: tokens(text), comp: compounds(text) });
       });
     });
   });
@@ -179,9 +185,31 @@ fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, "bible-books.json"), JSON.stringify({ bible, books }));
 
 // ---------- words ----------
+// every hyphenated name in the KJV (Ramoth-gilead), by part: the WEB writes many of them with a space (Ramoth Gilead)
+const KJV_COMPOUNDS = new Map();
+for (const r of rows.kjv)
+  for (const c of new Set(r.comp.filter(Boolean))) {
+    const parts = c.toLowerCase().split("-");
+    parts.forEach((p, o) => {
+      if (!KJV_COMPOUNDS.has(p)) KJV_COMPOUNDS.set(p, []);
+      if (!KJV_COMPOUNDS.get(p).some((x) => x.key === c.toLowerCase())) KJV_COMPOUNDS.get(p).push({ key: c.toLowerCase(), parts, o });
+    });
+  }
+// the hyphenated name a match at token i sits in, written with a hyphen or a space, else null
+function compoundAt(r, lw, i, parts) {
+  if (r.comp[i]) return r.comp[i];
+  if (parts.length > 1) return null;
+  for (const c of KJV_COMPOUNDS.get(lw[i]) || []) {
+    const start = i - c.o;
+    if (start >= 0 && c.parts.every((p, j) => lw[start + j] === p)) return r.words.slice(start, start + c.parts.length).join(" ");
+  }
+  return null;
+}
 function countWord(id, entry) {
   const forms = entry.forms.map((f) => f.toLowerCase().split(/\s+/));
   const excluded = (entry.exclude || []).map((f) => f.toLowerCase().split(/\s+/));
+  const allowed = new Set((entry.compounds || []).map((c) => c.toLowerCase()));
+  const skipped = {};
   const byForm = Object.fromEntries(entry.forms.map((f) => [f, 0]));
   const byCase = {};
   const casing = Object.fromEntries(entry.forms.map((f) => [f, {}]));
@@ -196,6 +224,13 @@ function countWord(id, entry) {
     forms.forEach((parts, fi) => {
       for (let i = 0; i + parts.length <= lw.length; i++) {
         if (parts.every((p, j) => lw[i + j] === p) && !excluded.some((ex) => ex.every((p, j) => lw[i + j] === p))) {
+          // a name inside another person's or place's hyphenated name (Obed-edom on the Edom page) is not a use of it,
+          // unless the whole hyphenated name is the form itself or the entry lists it as the same person or place
+          const cp = entry.kind === "name" ? compoundAt(r, lw, i, parts) : null;
+          if (cp && cp.toLowerCase().replace(/ /g, "-") !== parts.join("-") && !allowed.has(cp.toLowerCase().replace(/ /g, "-"))) {
+            skipped[cp] = (skipped[cp] || 0) + 1;
+            continue;
+          }
           inVerse++;
           byForm[entry.forms[fi]]++;
           const original = r.words.slice(i, i + parts.length).join(" ");
@@ -216,7 +251,11 @@ function countWord(id, entry) {
   const exact = byForm[entry.forms[0]];
   const exactVerses = rows[id].filter((r) => {
     const lw = r.words.map((w) => w.toLowerCase());
-    for (let i = 0; i + headParts.length <= lw.length; i++) if (headParts.every((p, j) => lw[i + j] === p)) return true;
+    for (let i = 0; i + headParts.length <= lw.length; i++) {
+      const cp = entry.kind === "name" ? compoundAt(r, lw, i, headParts) : null;
+      if (cp && cp.toLowerCase().replace(/ /g, "-") !== headParts.join("-") && !allowed.has(cp.toLowerCase().replace(/ /g, "-"))) continue;
+      if (headParts.every((p, j) => lw[i + j] === p)) return true;
+    }
     return false;
   }).length;
   const most = [...hits].sort((a, b) => b.n - a.n)[0] || null;
@@ -244,6 +283,7 @@ function countWord(id, entry) {
     first: hits[0] ? { ref: hits[0].ref, text: hits[0].text } : null,
     last: hits.length ? { ref: hits.at(-1).ref, text: hits.at(-1).text } : null,
     mostInVerse: most && most.n > 1 ? { ref: most.ref, n: most.n, text: most.text, tied: tied.slice(0, 5), tiedCount: tied.length } : null,
+    compoundsSkipped: Object.keys(skipped).length ? Object.entries(skipped).sort((a, b) => b[1] - a[1]) : undefined,
     hitKeys: hits.map((h) => h.key),
     headPhrase: headParts.join(" "),
   };

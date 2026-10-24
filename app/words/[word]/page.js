@@ -121,6 +121,23 @@ export async function generateMetadata({ params }) {
   };
 }
 
+// names inside the hyphenated name of a different person or place (Obed-edom on the Edom page) are left out of the counts
+function skippedLine(w) {
+  const k = w.kjv.compoundsSkipped || [];
+  const wb = w.web.compoundsSkipped || [];
+  if (!k.length && !wb.length) return null;
+  const list = (rows) => {
+    const shown = rows.slice(0, 6).map(([c, n]) => `${c} (${fmt(n)})`);
+    const rest = rows.length - shown.length;
+    return shown.join(", ") + (rest > 0 ? ` and ${rest} more` : "");
+  };
+  const kt = k.reduce((a, [, n]) => a + n, 0);
+  const wt = wb.reduce((a, [, n]) => a + n, 0);
+  const head = `Not counted: ${cap(w.word)} inside the hyphenated name of a different person or place`;
+  if (!k.length) return `${head}, ${plural(wt, "time", "times")} in the World English Bible: ${list(wb)}.`;
+  return `${head}, ${plural(kt, "time", "times")} in the KJV: ${list(k)}.${wb.length ? ` The World English Bible has ${plural(wt, "such use", "such uses")}.` : ""}`;
+}
+
 export default async function WordPage({ params }) {
   const { word } = await params;
   const w = getWord(word);
@@ -186,6 +203,7 @@ export default async function WordPage({ params }) {
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
               <p className="text-lg md:text-xl leading-relaxed font-medium">{answer}</p>
               {w.note ? <p className="mt-4 text-muted-foreground leading-relaxed">{w.note}</p> : null}
+              {skippedLine(w) ? <p className="mt-4 text-muted-foreground leading-relaxed">{skippedLine(w)}</p> : null}
             </div>
             <StatTiles
               stats={[
