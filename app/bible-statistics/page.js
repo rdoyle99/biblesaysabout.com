@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Bible Reading Statistics — linkbait reference page.
  * Every stat is sourced to a named research organization in lib/bibleStats.js.
  * Fully server-rendered: charts are plain HTML/CSS bars, no client JS.
@@ -33,7 +34,7 @@ export const metadata = {
     "bible ownership statistics",
   ].join(", "),
   alternates: { canonical: PAGE_URL },
-  openGraph: {
+  openGraph: { videos: OG_VIDEOS,
     title: "Bible Reading Statistics 2026 (65 Stats)",
     description: `${totalStatCount} verified Bible reading, translation, and engagement statistics with a linked source on every number.`,
     type: "article",

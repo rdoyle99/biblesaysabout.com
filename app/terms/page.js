@@ -1,8 +1,9 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 export const metadata = {
   title: "Terms of Service",
   description: "The terms for using Bible Says About, including how you may use and share the verses and Bible facts on the site.",
   alternates: { canonical: "https://www.biblesaysabout.com/terms" },
-  openGraph: { url: "https://www.biblesaysabout.com/terms", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, url: "https://www.biblesaysabout.com/terms", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 export default function TermsOfService() {

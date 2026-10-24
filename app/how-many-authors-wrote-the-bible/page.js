@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* How many authors wrote the Bible: what each book's own text says about its writer, the traditional list, and the
    share of the Bible each traditional author's books fill, counted from the full KJV text (scripts/build-authors.mjs) */
 
@@ -38,7 +39,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: `${C.named} of the 66 books name their writer (${C.namedPeople} people) and ${C.silent} say nothing. Tradition counts about 40 authors; Moses' books fill ${moses.share}% of the KJV.`,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 const faqs = [

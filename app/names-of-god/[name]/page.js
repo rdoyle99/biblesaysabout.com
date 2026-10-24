@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* One name of God: Hebrew, Strong's meaning, and where it appears, counted from the full KJV and WEB text */
 
 import { notFound } from "next/navigation";
@@ -78,7 +79,7 @@ export async function generateMetadata({ params }) {
     title: { absolute: title },
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, type: "article", images: [OG_IMAGE] },
+    openGraph: { videos: OG_VIDEOS, title, description, url, type: "article", images: [OG_IMAGE] },
   };
 }
 

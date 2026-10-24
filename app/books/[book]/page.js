@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Book of the Bible: chapters, verses, words and reading time, counted from the full KJV and WEB text */
 
 import { notFound } from "next/navigation";
@@ -56,7 +57,7 @@ export async function generateMetadata({ params }) {
     title: { absolute: title },
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+    openGraph: { videos: OG_VIDEOS, title, description, url, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
   };
 }
 

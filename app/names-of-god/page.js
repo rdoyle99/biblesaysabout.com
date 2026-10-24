@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Names of God hub: every name with its Hebrew, Strong's meaning and first verse */
 
 import Link from "next/link";
@@ -32,7 +33,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, description: DESCRIPTION, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 export default function NamesOfGod() {

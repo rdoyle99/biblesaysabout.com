@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Layout - Main application layout
  * Updated: Added Sonner toasts, enhanced metadata, and TooltipProvider
  */
@@ -40,7 +41,7 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  openGraph: {
+  openGraph: { videos: OG_VIDEOS,
     type: "website",
     siteName: "Bible Says About",
     locale: "en_US",

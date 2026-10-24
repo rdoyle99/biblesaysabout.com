@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Random Bible verse generator: the topic-list pool (lib/verseTool.js) or the whole KJV/WEB text (/api/random-verse).
  * Rebuilt hourly so the verse a crawler sees without JavaScript changes too. */
 
@@ -34,7 +35,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: `Free random Bible verse generator: ${fmt(EVERYDAY)} encouraging verses, ${fmt(POOL)} on ${poolTopics.length} topics, or all ${fmt(KJV)} KJV verses. Filter by topic or book.`,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, url: URL, type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 const faqs = [

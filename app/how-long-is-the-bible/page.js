@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* How long is the Bible: words, pages and hours, computed from the full KJV and WEB text */
 
 import Link from "next/link";
@@ -21,7 +22,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: `The Bible is ${fmt(k.words)} words in the KJV (${fmt(w.words)} in the WEB), about ${fmt(H.kPages)} pages at ${H.PAGE} words a page, ${hours(H.kSilent)} hours to read. Counted from the full text.`,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 const rows = [

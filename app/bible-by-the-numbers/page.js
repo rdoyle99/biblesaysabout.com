@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* The Bible by the numbers: verses, chapters, words, and the longest, shortest and middle verse and chapter */
 
 import Link from "next/link";
@@ -20,7 +21,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: `The Bible has ${fmt(k.verses)} verses, ${fmt(k.chapters)} chapters and ${fmt(k.words)} words (KJV). The shortest, longest and middle verse and chapter, counted from the full text.`,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 const faqs = [

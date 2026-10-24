@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Bible word counts: how many times each word appears in the full KJV and WEB text */
 
 import Link from "next/link";
@@ -18,7 +19,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: `How many times is love, God, Jesus, faith or fear not in the Bible? Counts for ${words.length} words in the KJV and World English Bible, by book and testament.`,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 export default function WordsIndex() {

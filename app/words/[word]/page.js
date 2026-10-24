@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* How many times a word is in the Bible: every match in the full KJV and WEB text, by form, book and testament */
 
 import { notFound } from "next/navigation";
@@ -117,7 +118,7 @@ export async function generateMetadata({ params }) {
     title: { absolute: title },
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, type: "article", images: [OG_IMAGE] },
+    openGraph: { videos: OG_VIDEOS, title, description, url, type: "article", images: [OG_IMAGE] },
   };
 }
 

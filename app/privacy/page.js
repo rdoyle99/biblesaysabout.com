@@ -1,8 +1,9 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 export const metadata = {
   title: "Privacy Policy",
   description: "How Bible Says About handles your information: what we collect, how we use it, and the choices you have.",
   alternates: { canonical: "https://www.biblesaysabout.com/privacy" },
-  openGraph: { url: "https://www.biblesaysabout.com/privacy", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, url: "https://www.biblesaysabout.com/privacy", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 export default function PrivacyPolicy() {

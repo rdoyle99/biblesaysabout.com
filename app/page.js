@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Homepage - Main landing page
  * Updated: Server component. Computes everything the page renders and passes
  * it to components/HomeClient.js, so lib/verses.js never ships to the browser.
@@ -20,7 +21,7 @@ export const revalidate = 3600;
 export const metadata = {
   title: { absolute: "Bible Verses by Topic: What Does the Bible Say About It?" },
   alternates: { canonical: "https://www.biblesaysabout.com" },
-  openGraph: {
+  openGraph: { videos: OG_VIDEOS,
     title: "Bible Verses by Topic: What Does the Bible Say About It?",
     url: "https://www.biblesaysabout.com",
   },

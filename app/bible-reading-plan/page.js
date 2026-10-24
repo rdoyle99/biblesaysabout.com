@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Bible reading plan generator and the plan pages: whole chapters of the KJV split into days of equal length */
 
 import Link from "next/link";
@@ -20,7 +21,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: `Build a Bible reading plan for any book, any number of days. Read the Bible in a year in ${minutesLabel(year.avgMinutes)} a day, or the New Testament in 30 or 90 days. Free, with dates.`,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 const faqs = [

@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* One ready-made reading plan: every day's reading, computed from KJV chapter word counts */
 
 import Link from "next/link";
@@ -43,7 +44,7 @@ export async function generateMetadata({ params }) {
     title: { absolute: title },
     description: `${c.p.name}, every day listed: ${c.plan[0].ref} on day 1 to ${c.plan.at(-1).ref} on day ${c.p.days}. About ${fmt(c.s.avgWords)} words, ${minutesLabel(c.s.avgMinutes)}, a day.`,
     alternates: { canonical: url },
-    openGraph: { title, url, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+    openGraph: { videos: OG_VIDEOS, title, url, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
   };
 }
 

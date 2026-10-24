@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* About: the facts page. Every statement here is read from the data files or from the site's own source notes. */
 
 import Link from "next/link";
@@ -27,7 +28,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: URL, type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, description: DESCRIPTION, url: URL, type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 const facts = [

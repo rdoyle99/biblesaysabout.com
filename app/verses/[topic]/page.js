@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Topic Page - Individual Bible verse topic page
  * Updated: Enhanced SEO with schema markup, modern design, and engagement features
  */
@@ -51,7 +52,7 @@ export async function generateMetadata({ params }) {
     title: topicData.title,
     description: topicData.description,
     keywords: topicData.keywords?.join(", "),
-    openGraph: {
+    openGraph: { videos: OG_VIDEOS,
       title: topicData.title,
       description: topicData.description,
       type: "article",

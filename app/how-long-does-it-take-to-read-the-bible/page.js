@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* How long it takes to read the Bible: word counts from the full KJV and WEB text, timed at measured reading rates */
 
 import Link from "next/link";
@@ -44,7 +45,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: `The Bible takes about ${Math.round(silentMin / 60)} hours to read (${fmt(k.words)} words at ${SILENT} words a minute). Calculator for any book, pace and minutes a day, plus reading times for every book.`,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 const groupTime = (list) => readingTime(sum(list) / SILENT);

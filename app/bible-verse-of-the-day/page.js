@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Bible verse of the day: one verse a day for everyone, picked by the New York date from the topic-list pool
  * (lib/verseTool.js). Rendered on each request, so the page rolls over at midnight ET with no one touching it.
  * /api/votd reports the same verse for the data-status check. */
@@ -21,7 +22,7 @@ export async function generateMetadata() {
     title: { absolute: TITLE },
     description: `Today's Bible verse is ${v.reference}. One verse a day from ${fmt(POOL)} encouraging verses, in the WEB and the KJV, new at midnight Eastern Time.`,
     alternates: { canonical: URL },
-    openGraph: { title: TITLE, url: URL, type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+    openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
   };
 }
 

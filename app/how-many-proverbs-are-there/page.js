@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* How many proverbs are there: chapters, verses and sections of Proverbs counted from the full KJV text (scripts/build-proverbs.mjs) */
 
 import Link from "next/link";
@@ -23,7 +24,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: `Proverbs has ${proverbs.chapters} chapters and ${fmt(proverbs.verses)} verses. ${fmt(proverbs.solomonNamed)} sit under headings naming Solomon; 1 Kings 4:32 says he spoke 3,000 proverbs. Counted from the full text.`,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 const faqs = [

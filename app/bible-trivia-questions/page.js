@@ -1,3 +1,4 @@
+import { OG_VIDEOS } from "@/lib/og-video";
 /* Bible trivia questions and answers: every answer is a count from the full KJV and WEB text, linked to the page that holds the data */
 
 import Link from "next/link";
@@ -115,7 +116,7 @@ export const metadata = {
   title: { absolute: TITLE },
   description: `${total} Bible trivia questions and answers on books, chapters, verses and how often names appear, every answer counted from the text and linked to its data.`,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
+  openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
 
 export default function BibleTrivia() {
