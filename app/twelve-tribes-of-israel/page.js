@@ -39,7 +39,7 @@ export const metadata = {
 
 const faqs = [
   { q: "What are the 12 tribes of Israel?", a: ANSWER },
-  { q: "How many tribes of Israel are there?", a: `Twelve, if you count by Jacob's sons (Genesis 35:22). The tribe lists in the Bible use ${S.tribeNames} different names, though, since Joseph's two sons Ephraim and Manasseh are each counted as a tribe (Joshua 14:4: "the children of Joseph were two tribes") and Levi is sometimes left out of the list because the Levites received no land (Joshua 13:14).` },
+  { q: "How many tribes of Israel are there?", a: `Twelve, if you count by Jacob's sons (Genesis 35:22). The tribe lists in the Bible use ${S.tribeNames} different names, though. Joseph's two sons Ephraim and Manasseh are each counted as a tribe (Joshua 14:4: "the children of Joseph were two tribes"). Levi is sometimes left out because the Levites received no land (Joshua 13:14).` },
   { q: "Which tribe was the largest?", a: `Judah, in both counts: ${fmt(census.find((r) => r.name === "Judah").census1)} men in Numbers 1 and ${fmt(census.find((r) => r.name === "Judah").census2)} in Numbers 26. The smallest was Manasseh in the first census (${fmt(census.find((r) => r.name === "Manasseh").census1)}) and Simeon in the second (${fmt(census.find((r) => r.name === "Simeon").census2)}).` },
   { q: "Why is Dan missing from Revelation 7?", a: `Revelation 7:5-8 seals twelve thousand from each of twelve tribes and leaves out ${joinList(S.revMissing)}. It lists Joseph and Manasseh in their place and Levi, who is absent from the censuses. The chapter gives no reason for the changes.` },
   { q: "What happened to the ten lost tribes?", a: `The Bible text has no "lost tribes". The King James Version never uses the phrase and "ten tribes" appears ${S.tenTribes.kjv.total} times, both in 1 Kings 11, where God promises Jeroboam ten tribes. After the kingdom split, 1 Kings 12:20 says only the tribe of Judah followed David's house, with Benjamin joining in verse 21. 2 Kings 17:6 says the king of Assyria took Samaria and carried Israel away, and 2 Kings 17:18 says "there was none left but the tribe of Judah only".` },
@@ -170,7 +170,7 @@ export default function TwelveTribes() {
         </Section>
 
         <Section id="limits" title="What the censuses do and do not show">
-          <p className="leading-relaxed">Each census counts men of fighting age, so the figures say little about women, children or the Levites, who were counted apart. The Bible gives no reason for most of the changes between the two counts, and nothing on this page claims one. Numbers 1:1 dates the first count to the second month of the second year after the exodus, and Numbers 26:1 places the second "after the plague" in the plains of Moab, so the years between them are not stated.</p>
+          <p className="leading-relaxed">Each census counts men of fighting age, so the figures say little about women, children or the Levites, who were counted apart. The Bible gives no reason for most of the changes between the two counts, and nothing on this page claims one. Numbers 1:1 dates the first count to the second month of the second year after the exodus. Numbers 26:1 places the second "after the plague" in the plains of Moab, so the years between them are not stated.</p>
         </Section>
 
         <FaqSection title="Questions about the twelve tribes" faqs={faqs} />

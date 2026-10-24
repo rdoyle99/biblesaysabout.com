@@ -14,7 +14,10 @@
      "books": 49,
      "top": {
       "book": "1 John",
-      "count": 33
+      "count": 33,
+      "tied": [
+       "1 John"
+      ]
      },
      "first": "Genesis 27:4"
     },
@@ -24,7 +27,10 @@
      "books": 51,
      "top": {
       "book": "1 John",
-      "count": 35
+      "count": 35,
+      "tied": [
+       "1 John"
+      ]
      },
      "first": "Genesis 22:2"
     }
@@ -41,7 +47,10 @@
      "books": 38,
      "top": {
       "book": "Isaiah",
-      "count": 28
+      "count": 28,
+      "tied": [
+       "Isaiah"
+      ]
      },
      "first": "1 Samuel 18:6"
     },
@@ -51,7 +60,10 @@
      "books": 39,
      "top": {
       "book": "Psalms",
-      "count": 31
+      "count": 31,
+      "tied": [
+       "Psalms"
+      ]
      },
      "first": "1 Samuel 18:6"
     }
@@ -68,7 +80,11 @@
      "books": 59,
      "top": {
       "book": "Leviticus",
-      "count": 32
+      "count": 32,
+      "tied": [
+       "Leviticus",
+       "Isaiah"
+      ]
      },
      "first": "Genesis 15:15"
     },
@@ -78,7 +94,10 @@
      "books": 59,
      "top": {
       "book": "Leviticus",
-      "count": 32
+      "count": 32,
+      "tied": [
+       "Leviticus"
+      ]
      },
      "first": "Genesis 15:15"
     }
@@ -95,7 +114,13 @@
      "books": 13,
      "top": {
       "book": "Romans",
-      "count": 2
+      "count": 2,
+      "tied": [
+       "Romans",
+       "Colossians",
+       "2 Timothy",
+       "2 Peter"
+      ]
      },
      "first": "Exodus 34:6"
     },
@@ -105,7 +130,10 @@
      "books": 10,
      "top": {
       "book": "Romans",
-      "count": 3
+      "count": 3,
+      "tied": [
+       "Romans"
+      ]
      },
      "first": "Proverbs 25:15"
     }
@@ -122,7 +150,13 @@
      "books": 4,
      "top": {
       "book": "2 Samuel",
-      "count": 1
+      "count": 1,
+      "tied": [
+       "2 Samuel",
+       "Psalms",
+       "2 Corinthians",
+       "Galatians"
+      ]
      },
      "first": "2 Samuel 22:36"
     },
@@ -132,7 +166,10 @@
      "books": 31,
      "top": {
       "book": "Psalms",
-      "count": 120
+      "count": 120,
+      "tied": [
+       "Psalms"
+      ]
      },
      "first": "Genesis 19:19"
     }
@@ -149,7 +186,10 @@
      "books": 18,
      "top": {
       "book": "Psalms",
-      "count": 18
+      "count": 18,
+      "tied": [
+       "Psalms"
+      ]
      },
      "first": "Exodus 18:9"
     },
@@ -159,7 +199,10 @@
      "books": 15,
      "top": {
       "book": "Psalms",
-      "count": 9
+      "count": 9,
+      "tied": [
+       "Psalms"
+      ]
      },
      "first": "Exodus 18:9"
     }
@@ -176,7 +219,10 @@
      "books": 26,
      "top": {
       "book": "Romans",
-      "count": 39
+      "count": 39,
+      "tied": [
+       "Romans"
+      ]
      },
      "first": "Deuteronomy 32:20"
     },
@@ -186,7 +232,10 @@
      "books": 26,
      "top": {
       "book": "Romans",
-      "count": 42
+      "count": 42,
+      "tied": [
+       "Romans"
+      ]
      },
      "first": "Isaiah 26:2"
     }
@@ -203,7 +252,11 @@
      "books": 12,
      "top": {
       "book": "Galatians",
-      "count": 2
+      "count": 2,
+      "tied": [
+       "Galatians",
+       "James"
+      ]
      },
      "first": "Psalms 45:4"
     },
@@ -213,7 +266,10 @@
      "books": 10,
      "top": {
       "book": "Galatians",
-      "count": 2
+      "count": 2,
+      "tied": [
+       "Galatians"
+      ]
      },
      "first": "2 Samuel 22:36"
     }
@@ -230,7 +286,10 @@
      "books": 3,
      "top": {
       "book": "2 Peter",
-      "count": 2
+      "count": 2,
+      "tied": [
+       "2 Peter"
+      ]
      },
      "first": "Acts 24:25"
     },
@@ -247,7 +306,7 @@
    }
   ],
   "text": {
-   "kjv": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law.",
+   "kjv": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law.",
    "web": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control. Against such things there is no law."
   },
   "phrase": {
@@ -326,7 +385,10 @@
      "books": 16,
      "top": {
       "book": "Exodus",
-      "count": 12
+      "count": 12,
+      "tied": [
+       "Exodus"
+      ]
      },
      "first": "Exodus 28:4"
     }
@@ -348,7 +410,10 @@
      "books": 6,
      "top": {
       "book": "Exodus",
-      "count": 23
+      "count": 23,
+      "tied": [
+       "Exodus"
+      ]
      },
      "first": "Exodus 25:7"
     }
@@ -370,7 +435,11 @@
      "books": 14,
      "top": {
       "book": "Deuteronomy",
-      "count": 4
+      "count": 4,
+      "tied": [
+       "Deuteronomy",
+       "Luke"
+      ]
      },
      "first": "Exodus 3:5"
     }
@@ -392,7 +461,10 @@
      "books": 19,
      "top": {
       "book": "Psalms",
-      "count": 17
+      "count": 17,
+      "tied": [
+       "Psalms"
+      ]
      },
      "first": "Genesis 15:1"
     }
@@ -414,7 +486,10 @@
      "books": 7,
      "top": {
       "book": "Ezekiel",
-      "count": 3
+      "count": 3,
+      "tied": [
+       "Ezekiel"
+      ]
      },
      "first": "1 Samuel 17:5"
     }
@@ -436,7 +511,10 @@
      "books": 42,
      "top": {
       "book": "Ezekiel",
-      "count": 89
+      "count": 89,
+      "tied": [
+       "Ezekiel"
+      ]
      },
      "first": "Genesis 3:24"
     }
@@ -465,7 +543,10 @@
     "books": 11,
     "top": {
      "book": "1 Samuel",
-     "count": 7
+     "count": 7,
+     "tied": [
+      "1 Samuel"
+     ]
     },
     "first": "1 Samuel 14:1"
    },
@@ -475,7 +556,10 @@
     "books": 13,
     "top": {
      "book": "1 Samuel",
-     "count": 18
+     "count": 18,
+     "tied": [
+      "1 Samuel"
+     ]
     },
     "first": "Judges 9:54"
    }
@@ -1030,14 +1114,13 @@
     {
      "ref": "Exodus 14:8",
      "who": "LORD"
-    },
-    {
-     "ref": "Exodus 14:17",
-     "who": "LORD, promised"
     }
    ],
+   "egyptians": [
+    "Exodus 14:17"
+   ],
    "byWho": {
-    "LORD, promised": 4,
+    "LORD, promised": 3,
     "unspecified": 6,
     "Pharaoh": 3,
     "LORD": 6

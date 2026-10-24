@@ -48,7 +48,7 @@ const faqs = [
   { q: "Who hardened Pharaoh's heart?", a: `The text gives both answers. Pharaoh hardens his own heart in ${joinList(pharaohRefs.map((r) => "Exodus " + r))}. The LORD hardens it in ${joinList(lordRefs.map((r) => "Exodus " + r))}, and he says he will in ${joinList(promiseRefs.map((r) => "Exodus " + r))}. In ${num(unsetRefs.length)} more verses the heart "was hardened" with no one named as the cause.` },
   { q: "Which plagues did the Egyptian magicians copy?", a: `The magicians copied the first two, blood (Exodus 7:22) and frogs (Exodus 8:7). With the lice they "could not" (Exodus 8:18), and by the boils they "could not stand before Moses" (Exodus 9:11).` },
   { q: "Which plagues did the Israelites not suffer?", a: `The text says Israel was spared in plagues ${joinList(spared.map(String))}: flies (Exodus 8:22), livestock (9:4), hail (9:26), darkness (10:23) and the firstborn (11:7). For blood, frogs, lice, boils and locusts it does not say either way.` },
-  { q: "Does the Bible call them the ten plagues?", a: `Not in those words. "Plague" appears in only ${P.plagueWord.exodus7to12.length} verses of Exodus 7 to 12 (${P.plagueWord.exodus7to12.join(", ").replaceAll("Exodus ", "")}); the story is told mostly in "signs and wonders" (${P.signsWondersVerses} verses). Exodus 11:1 calls the last "one plague more", which is where the count of ten is usually reckoned from.` },
+  { q: "Does the Bible call them the ten plagues?", a: `Not in those words. "Plague" appears in only ${P.plagueWord.exodus7to12.length} verses of Exodus 7 to 12 (${P.plagueWord.exodus7to12.join(", ").replaceAll("Exodus ", "")}); "signs" or "wonders" appears in ${P.signsWondersVerses} verses of those chapters. Exodus 11:1 calls the last "one plague more", but no verse in Exodus 7 to 12 numbers the plagues as ten.` },
   { q: "Why did God send the plagues?", a: `Exodus 12:12 gives one reason in the text: "against all the gods of Egypt I will execute judgment: I am the LORD". Exodus 9:14 gives another, "that thou mayest know that there is none like me in all the earth".` },
 ];
 
@@ -154,7 +154,7 @@ export default function TenPlagues() {
             </div>
             <div className="rounded-xl border bg-card p-5">
               <h3 className="font-semibold mb-2">The LORD says he will ({promiseRefs.length})</h3>
-              <p className="text-sm leading-relaxed text-muted-foreground">Exodus {promiseRefs.join(", ")}: before Moses goes to Egypt, before the signs begin, and twice before the crossing.</p>
+              <p className="text-sm leading-relaxed text-muted-foreground">Exodus {promiseRefs.join(", ")}: before Moses goes to Egypt, before the signs begin, and before the crossing. Exodus {H.egyptians.map((r) => r.replace("Exodus ", "")).join(", ")} is left out of the counts because it says the LORD will harden the hearts of the Egyptians, not Pharaoh's.</p>
             </div>
             <div className="rounded-xl border bg-card p-5">
               <h3 className="font-semibold mb-2">"Was hardened," no one named ({unsetRefs.length})</h3>
@@ -162,7 +162,7 @@ export default function TenPlagues() {
             </div>
           </div>
           <p className="mt-5 leading-relaxed">
-            Read in order, the pattern is plain in the text: the LORD promises it twice before the first plague (4:21, 7:3), Pharaoh is the one who hardens his heart in the second, fourth and seventh plagues, and from the sixth plague on the verses say the LORD did. Readers disagree about what this means for Pharaoh's choice, and the verses above are the evidence both sides cite.
+            Read in order, the verses follow a pattern. The LORD promises it twice before the first plague (4:21, 7:3). Pharaoh is the one who hardens his heart in the second, fourth and seventh plagues. The first verse that names the LORD as the one who hardened it is in the sixth, and after the hail (9:34) every verse that names who did it says the LORD (10:1, 10:20, 10:27, 11:10, 14:8). Readers disagree about what this means for Pharaoh's choice, and the verses above are the evidence both sides cite.
           </p>
         </Section>
 

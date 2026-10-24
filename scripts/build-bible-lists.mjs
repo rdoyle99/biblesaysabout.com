@@ -73,7 +73,8 @@ function countForms(id, forms) {
     first ||= r.ref;
   }
   const top = [...byBook.entries()].sort((a, b) => b[1] - a[1])[0] || [null, 0];
-  return { total, verses, books: byBook.size, top: { book: top[0], count: top[1] }, first };
+  const tied = [...byBook.entries()].filter(([, n]) => n === top[1]).map(([b]) => b);
+  return { total, verses, books: byBook.size, top: { book: top[0], count: top[1], tied }, first };
 }
 /** count a phrase (regex over normalised verse text), with the verse list */
 function countPhrase(id, re) {
@@ -131,7 +132,7 @@ const FRUIT = [
   { kjv: "meekness", web: "gentleness", greek: "πραΰτης", translit: "prautēs" },
   { kjv: "temperance", web: "self-control", greek: "ἐγκράτεια", translit: "enkrateia" },
 ];
-const fruitKjvText = must("Galatians 5:22-23", "love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance");
+const fruitKjvText = must("Galatians 5:22-23", "love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance").replace(", Meekness,", ", meekness,"); // verse 23 starts with a capital; joined, it is mid-sentence
 const fruitWebText = mustWeb("Galatians 5:22-23", "love, joy, peace, patience, kindness, goodness, faith, gentleness");
 mustWeb("Galatians 5:22-23", "self-control");
 const fruit = FRUIT.map((f, i) => {
@@ -342,10 +343,15 @@ const plagues = PL.map((p) => {
 });
 // Pharaoh's own hardening (active, Pharaoh the subject) and the LORD's in Exodus 4-14, counted from the verses
 const hardenRows = [];
+const hardenEgyptians = []; // verses that harden the Egyptians' hearts, not Pharaoh's (Exodus 14:17): listed apart, not counted
 for (const r of ROWS.kjv) {
   if (r.book !== "Exodus" || r.ch < 4 || r.ch > 14) continue;
   if (!/\bharden(ed|eth)?\b/i.test(r.text)) continue;
   const t = norm(r.text);
+  if (/harden the hearts of the Egyptians/i.test(t)) {
+    hardenEgyptians.push(r.ref);
+    continue;
+  }
   let who;
   if (/(the LORD hardened|for I have hardened|I will harden)/i.test(t)) who = /I will harden/i.test(t) ? "LORD, promised" : "LORD";
   else if (/Pharaoh hardened|hardened his heart/i.test(t)) who = "Pharaoh";
@@ -380,7 +386,7 @@ const out = {
   },
   plagues: {
     rows: plagues,
-    harden: { rows: hardenRows, byWho: hardenByWho, firstLord: firstLord.ref, firstPharaoh: firstPharaoh.ref },
+    harden: { rows: hardenRows, egyptians: hardenEgyptians, byWho: hardenByWho, firstLord: firstLord.ref, firstPharaoh: firstPharaoh.ref },
     plagueWord: { total: plagueWord.total, exodus7to12: exPlague },
     signsWondersVerses: sign,
   },

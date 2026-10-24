@@ -18,7 +18,7 @@ const shield = rows.find((r) => r.noun === "shield");
 const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
 const TITLE = "Armor of God: The 6 Pieces, Verses and Word Counts";
-const ANSWER = `The armor of God is six pieces of armor Paul names in Ephesians 6:13-18: the belt of truth, the breastplate of righteousness, shoes of the gospel of peace, the shield of faith, the helmet of salvation and the sword of the Spirit, which is the word of God. He ends with prayer. The phrase "whole armour of God" appears ${A.phrase.kjv.total} times in the King James Version, in Ephesians 6:11 and 6:13.`;
+const ANSWER = `The armor of God is six pieces Paul names in Ephesians 6:13-18. They are the belt of truth, the breastplate of righteousness, shoes of the gospel of peace, the shield of faith, the helmet of salvation and the sword of the Spirit, which is the word of God. He ends with prayer. The phrase "whole armour of God" appears ${A.phrase.kjv.total} times in the King James Version, in Ephesians 6:11 and 6:13.`;
 
 export const metadata = {
   title: { absolute: TITLE },
@@ -31,7 +31,7 @@ const faqs = [
   { q: "What are the 6 pieces of the armor of God?", a: `Ephesians 6:14-17 names them in order: the belt of truth, the breastplate of righteousness, shoes that carry the gospel of peace, the shield of faith, the helmet of salvation and the sword of the Spirit. Verse 18 adds praying always in the Spirit.` },
   { q: "Where is the armor of God in the Bible?", a: `Ephesians 6:10-18. The words "the whole armour of God" are in verse 11 and again in verse 13 of the King James Version. The World English Bible says "the whole armor of God" in the same two verses.` },
   { q: "Which piece of the armor is a weapon?", a: `The sword of the Spirit is the only offensive weapon in the list; the belt, breastplate, shoes, shield and helmet cover the body. Paul explains the sword in the same verse: it "is the word of God". Hebrews 4:12 uses the same pair: the word of God is "sharper than any twoedged sword".` },
-  { q: "Did Paul invent the armor of God?", a: `Pieces of it appear earlier. Isaiah 59:17 has the LORD putting on righteousness as a breastplate and a helmet of salvation on his head, and 1 Thessalonians 5:8, also by Paul, has a breastplate of faith and love and a helmet that is the hope of salvation.` },
+  { q: "Did Paul invent the armor of God?", a: `Pieces of it appear earlier. Isaiah 59:17 has the LORD putting on righteousness as a breastplate and a helmet of salvation on his head. 1 Thessalonians 5:8, also by Paul, has a breastplate of faith and love and a helmet that is the hope of salvation.` },
   { q: "Is it armor or armour?", a: `Both. "Armour" is the King James Version's spelling and appears ${A.armourWord.kjv.total} times in it. "Armor" is the World English Bible's spelling, ${A.armourWord.web.total} times.` },
 ];
 
