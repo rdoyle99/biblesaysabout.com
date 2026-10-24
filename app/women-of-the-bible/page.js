@@ -102,13 +102,13 @@ export default function WomenOfTheBible() {
                     <td className="p-3 font-medium">{wordLink(r.wordPage?.slug, r.name)}</td>
                     <td className="p-3">
                       {r.who.text} <span className="text-muted-foreground whitespace-nowrap">({r.who.ref})</span>
-                      {r.also.length ? <span className="block mt-1 text-xs text-muted-foreground">The name also names: {r.also.map((a) => `${a.desc} (${a.ref})`).join("; ")}.</span> : null}
+                      {" "}{r.also.length ? <span className="block mt-1 text-xs text-muted-foreground">The name also names: {r.also.map((a) => `${a.desc} (${a.ref})`).join("; ")}.</span> : null}
                     </td>
                     <td className="p-3 whitespace-nowrap">{r.count.first}</td>
                     <td className="p-3 text-right tabular-nums">
                       {r.count.total}
-                      {r.spellings.length > 1 ? <span className="block text-xs text-muted-foreground">{spells(r)}</span> : null}
-                      {r.rule ? <span className="block text-xs text-muted-foreground">{r.rule}</span> : null}
+                      {" "}{r.spellings.length > 1 ? <span className="block text-xs text-muted-foreground">{spells(r)}</span> : null}
+                      {" "}{r.rule ? <span className="block text-xs text-muted-foreground">{r.rule}</span> : null}
                     </td>
                     <td className="p-3">{r.count.top.tied.join(", ")} <span className="text-muted-foreground">({r.count.top.count})</span></td>
                   </tr>

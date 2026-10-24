@@ -98,7 +98,7 @@ export default function MiraclesOfJesus() {
                     <td className="p-3 tabular-nums">{r.n}</td>
                     <td className="p-3 font-medium">{r.name}</td>
                     <td className="p-3 text-muted-foreground">{r.type}</td>
-                    <td className="p-3">{G.flatMap((g) => r.refs[g] || []).map((ref) => <span key={ref} className="block whitespace-nowrap">{ref}</span>)}</td>
+                    <td className="p-3">{G.flatMap((g) => r.refs[g] || []).map((ref) => <span key={ref} className="block whitespace-nowrap">{ref} </span>)}</td>
                     <td className="p-3 text-right tabular-nums">{r.gospels.length}</td>
                   </tr>
                 ))}

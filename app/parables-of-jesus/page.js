@@ -96,7 +96,7 @@ export default function ParablesOfJesus() {
                     </td>
                     {GOSPELS.map((g) => (
                       <td key={g} className="p-3 whitespace-nowrap tabular-nums">
-                        {(r.refs[g] || []).map((x) => <span key={x.ref} className={`block ${x.ref === r.main.ref ? "font-semibold" : ""}`}>{short(x.ref)}</span>)}
+                        {(r.refs[g] || []).map((x) => <span key={x.ref} className={`block ${x.ref === r.main.ref ? "font-semibold" : ""}`}>{short(x.ref)} </span>)}
                         {r.refs[g] ? null : <span className="text-muted-foreground">-</span>}
                       </td>
                     ))}
