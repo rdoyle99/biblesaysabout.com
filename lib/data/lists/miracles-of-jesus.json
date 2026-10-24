@@ -1,0 +1,742 @@
+{
+ "generated": "2026-10-24",
+ "gospels": [
+  "Matthew",
+  "Mark",
+  "Luke",
+  "John"
+ ],
+ "types": [
+  "healing",
+  "casting out a demon",
+  "raising the dead",
+  "over nature"
+ ],
+ "rows": [
+  {
+   "n": 1,
+   "name": "Water turned into wine at Cana",
+   "type": "over nature",
+   "gospels": [
+    "John"
+   ],
+   "refs": {
+    "John": [
+     "John 2:1-11"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "name": "The nobleman's son healed",
+   "type": "healing",
+   "gospels": [
+    "John"
+   ],
+   "refs": {
+    "John": [
+     "John 4:46-54"
+    ]
+   }
+  },
+  {
+   "n": 3,
+   "name": "The first great catch of fish",
+   "type": "over nature",
+   "gospels": [
+    "Luke"
+   ],
+   "refs": {
+    "Luke": [
+     "Luke 5:1-11"
+    ]
+   }
+  },
+  {
+   "n": 4,
+   "name": "The man with an unclean spirit in the Capernaum synagogue",
+   "type": "casting out a demon",
+   "gospels": [
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Mark": [
+     "Mark 1:21-28"
+    ],
+    "Luke": [
+     "Luke 4:31-37"
+    ]
+   }
+  },
+  {
+   "n": 5,
+   "name": "Peter's mother-in-law healed of a fever",
+   "type": "healing",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 8:14-15"
+    ],
+    "Mark": [
+     "Mark 1:29-31"
+    ],
+    "Luke": [
+     "Luke 4:38-39"
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "name": "A leper cleansed",
+   "type": "healing",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 8:1-4"
+    ],
+    "Mark": [
+     "Mark 1:40-45"
+    ],
+    "Luke": [
+     "Luke 5:12-16"
+    ]
+   }
+  },
+  {
+   "n": 7,
+   "name": "The paralysed man let down through the roof",
+   "type": "healing",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 9:1-8"
+    ],
+    "Mark": [
+     "Mark 2:1-12"
+    ],
+    "Luke": [
+     "Luke 5:17-26"
+    ]
+   }
+  },
+  {
+   "n": 8,
+   "name": "The centurion's servant healed",
+   "type": "healing",
+   "gospels": [
+    "Matthew",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 8:5-13"
+    ],
+    "Luke": [
+     "Luke 7:1-10"
+    ]
+   }
+  },
+  {
+   "n": 9,
+   "name": "The widow's son raised at Nain",
+   "type": "raising the dead",
+   "gospels": [
+    "Luke"
+   ],
+   "refs": {
+    "Luke": [
+     "Luke 7:11-17"
+    ]
+   }
+  },
+  {
+   "n": 10,
+   "name": "The storm calmed",
+   "type": "over nature",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 8:23-27"
+    ],
+    "Mark": [
+     "Mark 4:35-41"
+    ],
+    "Luke": [
+     "Luke 8:22-25"
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "name": "The demons sent into the swine (Gadarenes)",
+   "type": "casting out a demon",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 8:28-34"
+    ],
+    "Mark": [
+     "Mark 5:1-20"
+    ],
+    "Luke": [
+     "Luke 8:26-39"
+    ]
+   }
+  },
+  {
+   "n": 12,
+   "name": "Jairus' daughter raised",
+   "type": "raising the dead",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 9:18-26"
+    ],
+    "Mark": [
+     "Mark 5:21-43"
+    ],
+    "Luke": [
+     "Luke 8:40-56"
+    ]
+   }
+  },
+  {
+   "n": 13,
+   "name": "The woman with an issue of blood",
+   "type": "healing",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 9:20-22"
+    ],
+    "Mark": [
+     "Mark 5:25-34"
+    ],
+    "Luke": [
+     "Luke 8:43-48"
+    ]
+   }
+  },
+  {
+   "n": 14,
+   "name": "Two blind men who followed him (Matthew 9)",
+   "type": "healing",
+   "gospels": [
+    "Matthew"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 9:27-31"
+    ]
+   }
+  },
+  {
+   "n": 15,
+   "name": "A mute man possessed with a devil",
+   "type": "casting out a demon",
+   "gospels": [
+    "Matthew"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 9:32-34"
+    ]
+   }
+  },
+  {
+   "n": 16,
+   "name": "A blind and mute man possessed with a devil",
+   "type": "casting out a demon",
+   "gospels": [
+    "Matthew",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 12:22-23"
+    ],
+    "Luke": [
+     "Luke 11:14"
+    ]
+   }
+  },
+  {
+   "n": 17,
+   "name": "The man at the pool of Bethesda",
+   "type": "healing",
+   "gospels": [
+    "John"
+   ],
+   "refs": {
+    "John": [
+     "John 5:1-15"
+    ]
+   }
+  },
+  {
+   "n": 18,
+   "name": "The man with a withered hand",
+   "type": "healing",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 12:9-14"
+    ],
+    "Mark": [
+     "Mark 3:1-6"
+    ],
+    "Luke": [
+     "Luke 6:6-11"
+    ]
+   }
+  },
+  {
+   "n": 19,
+   "name": "The feeding of the five thousand",
+   "type": "over nature",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke",
+    "John"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 14:13-21"
+    ],
+    "Mark": [
+     "Mark 6:30-44"
+    ],
+    "Luke": [
+     "Luke 9:10-17"
+    ],
+    "John": [
+     "John 6:1-14"
+    ]
+   }
+  },
+  {
+   "n": 20,
+   "name": "Jesus walks on the water",
+   "type": "over nature",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "John"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 14:22-33"
+    ],
+    "Mark": [
+     "Mark 6:45-52"
+    ],
+    "John": [
+     "John 6:16-21"
+    ]
+   }
+  },
+  {
+   "n": 21,
+   "name": "The Syrophoenician (Canaanite) woman's daughter",
+   "type": "casting out a demon",
+   "gospels": [
+    "Matthew",
+    "Mark"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 15:21-28"
+    ],
+    "Mark": [
+     "Mark 7:24-30"
+    ]
+   }
+  },
+  {
+   "n": 22,
+   "name": "A deaf man with a speech impediment",
+   "type": "healing",
+   "gospels": [
+    "Mark"
+   ],
+   "refs": {
+    "Mark": [
+     "Mark 7:31-37"
+    ]
+   }
+  },
+  {
+   "n": 23,
+   "name": "The feeding of the four thousand",
+   "type": "over nature",
+   "gospels": [
+    "Matthew",
+    "Mark"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 15:32-39"
+    ],
+    "Mark": [
+     "Mark 8:1-10"
+    ]
+   }
+  },
+  {
+   "n": 24,
+   "name": "The blind man at Bethsaida",
+   "type": "healing",
+   "gospels": [
+    "Mark"
+   ],
+   "refs": {
+    "Mark": [
+     "Mark 8:22-26"
+    ]
+   }
+  },
+  {
+   "n": 25,
+   "name": "The man born blind",
+   "type": "healing",
+   "gospels": [
+    "John"
+   ],
+   "refs": {
+    "John": [
+     "John 9:1-7"
+    ]
+   }
+  },
+  {
+   "n": 26,
+   "name": "The boy with a demon",
+   "type": "casting out a demon",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 17:14-18"
+    ],
+    "Mark": [
+     "Mark 9:14-29"
+    ],
+    "Luke": [
+     "Luke 9:37-43"
+    ]
+   }
+  },
+  {
+   "n": 27,
+   "name": "The coin in the fish's mouth",
+   "type": "over nature",
+   "gospels": [
+    "Matthew"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 17:24-27"
+    ]
+   }
+  },
+  {
+   "n": 28,
+   "name": "The woman bent over for eighteen years",
+   "type": "healing",
+   "gospels": [
+    "Luke"
+   ],
+   "refs": {
+    "Luke": [
+     "Luke 13:10-17"
+    ]
+   }
+  },
+  {
+   "n": 29,
+   "name": "The man with dropsy",
+   "type": "healing",
+   "gospels": [
+    "Luke"
+   ],
+   "refs": {
+    "Luke": [
+     "Luke 14:1-6"
+    ]
+   }
+  },
+  {
+   "n": 30,
+   "name": "Lazarus raised",
+   "type": "raising the dead",
+   "gospels": [
+    "John"
+   ],
+   "refs": {
+    "John": [
+     "John 11:1-44"
+    ]
+   }
+  },
+  {
+   "n": 31,
+   "name": "Ten lepers cleansed",
+   "type": "healing",
+   "gospels": [
+    "Luke"
+   ],
+   "refs": {
+    "Luke": [
+     "Luke 17:11-19"
+    ]
+   }
+  },
+  {
+   "n": 32,
+   "name": "Blind Bartimaeus (two blind men at Jericho in Matthew)",
+   "type": "healing",
+   "gospels": [
+    "Matthew",
+    "Mark",
+    "Luke"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 20:29-34"
+    ],
+    "Mark": [
+     "Mark 10:46-52"
+    ],
+    "Luke": [
+     "Luke 18:35-43"
+    ]
+   }
+  },
+  {
+   "n": 33,
+   "name": "The fig tree withered",
+   "type": "over nature",
+   "gospels": [
+    "Matthew",
+    "Mark"
+   ],
+   "refs": {
+    "Matthew": [
+     "Matthew 21:18-22"
+    ],
+    "Mark": [
+     "Mark 11:12-14",
+     "Mark 11:20-21"
+    ]
+   }
+  },
+  {
+   "n": 34,
+   "name": "The servant's ear healed (Malchus)",
+   "type": "healing",
+   "gospels": [
+    "Luke"
+   ],
+   "refs": {
+    "Luke": [
+     "Luke 22:50-51"
+    ]
+   }
+  },
+  {
+   "n": 35,
+   "name": "The catch of 153 fish",
+   "type": "over nature",
+   "gospels": [
+    "John"
+   ],
+   "refs": {
+    "John": [
+     "John 21:1-14"
+    ]
+   }
+  }
+ ],
+ "total": 35,
+ "perGospel": {
+  "Matthew": 20,
+  "Mark": 18,
+  "Luke": 20,
+  "John": 8
+ },
+ "perType": {
+  "healing": 17,
+  "casting out a demon": 6,
+  "raising the dead": 3,
+  "over nature": 9
+ },
+ "inAllFour": [
+  "The feeding of the five thousand"
+ ],
+ "inOneCount": 17,
+ "onlyIn": {
+  "Matthew": [
+   "Two blind men who followed him (Matthew 9)",
+   "A mute man possessed with a devil",
+   "The coin in the fish's mouth"
+  ],
+  "Mark": [
+   "A deaf man with a speech impediment",
+   "The blind man at Bethsaida"
+  ],
+  "Luke": [
+   "The first great catch of fish",
+   "The widow's son raised at Nain",
+   "The woman bent over for eighteen years",
+   "The man with dropsy",
+   "Ten lepers cleansed",
+   "The servant's ear healed (Malchus)"
+  ],
+  "John": [
+   "Water turned into wine at Cana",
+   "The nobleman's son healed",
+   "The man at the pool of Bethesda",
+   "The man born blind",
+   "Lazarus raised",
+   "The catch of 153 fish"
+  ]
+ },
+ "byGospelCount": {
+  "1": 17,
+  "2": 6,
+  "3": 11,
+  "4": 1
+ },
+ "words": {
+  "miracleKjv": {
+   "total": 16,
+   "verses": 16,
+   "byBook": {
+    "Matthew": 0,
+    "Mark": 2,
+    "Luke": 1,
+    "John": 13
+   }
+  },
+  "miracleWeb": {
+   "total": 1,
+   "verses": 1,
+   "byBook": {
+    "Matthew": 0,
+    "Mark": 0,
+    "Luke": 1,
+    "John": 0
+   }
+  },
+  "signKjv": {
+   "total": 35,
+   "verses": 28,
+   "byBook": {
+    "Matthew": 13,
+    "Mark": 7,
+    "Luke": 11,
+    "John": 4
+   }
+  },
+  "signWeb": {
+   "total": 50,
+   "verses": 43,
+   "byBook": {
+    "Matthew": 13,
+    "Mark": 8,
+    "Luke": 12,
+    "John": 17
+   }
+  },
+  "healedKjv": {
+   "total": 34,
+   "verses": 33,
+   "byBook": {
+    "Matthew": 10,
+    "Mark": 6,
+    "Luke": 17,
+    "John": 1
+   }
+  },
+  "miracleRefsKjv": [
+   "Mark 6:52",
+   "Mark 9:39",
+   "Luke 23:8",
+   "John 2:11",
+   "John 2:23",
+   "John 3:2",
+   "John 4:54",
+   "John 6:2",
+   "John 6:14",
+   "John 6:26",
+   "John 7:31",
+   "John 9:16",
+   "John 10:41",
+   "John 11:47",
+   "John 12:18",
+   "John 12:37"
+  ],
+  "miracleRefsWeb": [
+   "Luke 23:8"
+  ],
+  "miracleKjvBible": 37,
+  "miracleWebBible": 11
+ },
+ "johnSigns": {
+  "first": {
+   "ref": "John 2:11",
+   "kjv": "This beginning of miracles did Jesus in Cana of Galilee, and manifested forth his glory; and his disciples believed on him.",
+   "web": "This beginning of his signs Jesus did in Cana of Galilee, and revealed his glory; and his disciples believed in him."
+  },
+  "second": {
+   "ref": "John 4:54",
+   "kjv": "This is again the second miracle that Jesus did, when he was come out of Judaea into Galilee.",
+   "web": "This is again the second sign that Jesus did, having come out of Judea into Galilee."
+  },
+  "many": {
+   "ref": "John 20:30",
+   "kjv": "And many other signs truly did Jesus in the presence of his disciples, which are not written in this book:"
+  },
+  "third": {
+   "ref": "John 21:14",
+   "kjv": "This is now the third time that Jesus shewed himself to his disciples, after that he was risen from the dead."
+  }
+ }
+}

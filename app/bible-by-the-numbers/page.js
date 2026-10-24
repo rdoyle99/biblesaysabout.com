@@ -162,6 +162,10 @@ export default function BibleByTheNumbers() {
             <li><Link href="/armor-of-god" className="underline underline-offset-2 hover:text-primary">Armor of God</Link></li>
             <li><Link href="/twelve-tribes-of-israel" className="underline underline-offset-2 hover:text-primary">The 12 tribes of Israel</Link></li>
             <li><Link href="/ten-plagues-of-egypt" className="underline underline-offset-2 hover:text-primary">The 10 plagues of Egypt</Link></li>
+            <li><Link href="/women-of-the-bible" className="underline underline-offset-2 hover:text-primary">Women of the Bible</Link></li>
+            <li><Link href="/names-of-jesus" className="underline underline-offset-2 hover:text-primary">Names of Jesus</Link></li>
+            <li><Link href="/parables-of-jesus" className="underline underline-offset-2 hover:text-primary">The parables of Jesus</Link></li>
+            <li><Link href="/miracles-of-jesus" className="underline underline-offset-2 hover:text-primary">The miracles of Jesus</Link></li>
           </ul>
         </Section>
 

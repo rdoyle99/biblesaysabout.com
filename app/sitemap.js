@@ -19,6 +19,8 @@ const VERSE_TOOL_DATE = "2026-10-23";
 import { LISTS_DATE } from "@/lib/bibleLists";
 
 // list pages (fruit of the Spirit, armor of God, twelve tribes, ten plagues), added 2026-10-24
+// second set (women of the Bible, names of Jesus, parables, miracles), added 2026-10-24 (scripts/lists/*.mjs)
+const LISTS2_DATE = "2026-10-24";
 
 const baseUrl = "https://www.biblesaysabout.com";
 
@@ -49,6 +51,7 @@ export default function sitemap() {
     { url: `${baseUrl}/bible-trivia-questions`, lastModified: TRIVIA_DATE, priority: 0.9 },
     { url: `${baseUrl}/how-many-authors-wrote-the-bible`, lastModified: AUTHORS_DATE, priority: 0.9 },
     ...["fruit-of-the-spirit", "armor-of-god", "twelve-tribes-of-israel", "ten-plagues-of-egypt"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS_DATE, priority: 0.9 })),
+    ...["women-of-the-bible", "names-of-jesus", "parables-of-jesus", "miracles-of-jesus"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS2_DATE, priority: 0.9 })),
     { url: `${baseUrl}/random-bible-verse`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
     { url: `${baseUrl}/bible-verse-of-the-day`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: PAGE_DATES.about, priority: 0.5 },
