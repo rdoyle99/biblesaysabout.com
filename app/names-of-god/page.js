@@ -119,7 +119,8 @@ export default function NamesOfGod() {
           </p>
           <p className="mb-4">
             More: <Link href="/bible-names" className="underline underline-offset-2 hover:text-primary">Bible names and their meanings</Link>,{" "}
-            <Link href="/words/god" className="underline underline-offset-2 hover:text-primary">how many times God is in the Bible</Link> and{" "}
+            <Link href="/words/god" className="underline underline-offset-2 hover:text-primary">how many times God is in the Bible</Link>,{" "}
+            <Link href="/names-of-jesus" className="underline underline-offset-2 hover:text-primary">the names and titles of Jesus</Link> and{" "}
             <Link href="/words" className="underline underline-offset-2 hover:text-primary">every word count</Link>.
           </p>
           <MethodNote text={NAMES_METHOD} date={NAMES_OF_GOD_DATE} />

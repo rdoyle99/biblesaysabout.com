@@ -1,0 +1,2065 @@
+{
+ "generated": "2026-10-24",
+ "rule": "A name is counted as a whole word in the KJV, with or without a possessive, and not inside a hyphenated compound. Where another person, place or thing shares the name, the row counts her verses only, by the rule shown.",
+ "rows": [
+  {
+   "n": 1,
+   "spellingRefs": {},
+   "key": "eve",
+   "name": "Eve",
+   "spellings": [
+    "Eve"
+   ],
+   "count": {
+    "total": 4,
+    "verses": 4,
+    "ot": 2,
+    "nt": 2,
+    "books": 3,
+    "bySpelling": {
+     "Eve": 4
+    },
+    "first": "Genesis 3:20",
+    "top": {
+     "book": "Genesis",
+     "count": 2,
+     "tied": [
+      "Genesis"
+     ]
+    }
+   },
+   "nameTotal": 4,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Adam's wife, \"the mother of all living\"",
+    "ref": "Genesis 3:20"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "eve",
+    "total": 4,
+    "diff": []
+   }
+  },
+  {
+   "n": 2,
+   "spellingRefs": {
+    "Sara": [
+     "Hebrews 11:11"
+    ]
+   },
+   "key": "sarah",
+   "name": "Sarah (Sarai)",
+   "spellings": [
+    "Sarai",
+    "Sarah",
+    "Sara"
+   ],
+   "count": {
+    "total": 59,
+    "verses": 48,
+    "ot": 55,
+    "nt": 4,
+    "books": 5,
+    "bySpelling": {
+     "Sarai": 17,
+     "Sarah": 41,
+     "Sara": 1
+    },
+    "first": "Genesis 11:29",
+    "top": {
+     "book": "Genesis",
+     "count": 54,
+     "tied": [
+      "Genesis"
+     ]
+    }
+   },
+   "nameTotal": 60,
+   "rule": "leaves out Numbers 26:46, where Sarah is Asher's daughter",
+   "firstTestament": "OT",
+   "who": {
+    "text": "Abraham's wife; God renamed her from Sarai to Sarah",
+    "ref": "Genesis 17:15"
+   },
+   "also": [
+    {
+     "ref": "Numbers 26:46",
+     "desc": "Asher's daughter"
+    }
+   ],
+   "wordPage": {
+    "slug": "sarah",
+    "total": 60,
+    "diff": []
+   }
+  },
+  {
+   "n": 3,
+   "spellingRefs": {
+    "Agar": [
+     "Galatians 4:24",
+     "Galatians 4:25"
+    ]
+   },
+   "key": "hagar",
+   "name": "Hagar",
+   "spellings": [
+    "Hagar",
+    "Agar"
+   ],
+   "count": {
+    "total": 14,
+    "verses": 12,
+    "ot": 12,
+    "nt": 2,
+    "books": 2,
+    "bySpelling": {
+     "Hagar": 12,
+     "Agar": 2
+    },
+    "first": "Genesis 16:1",
+    "top": {
+     "book": "Genesis",
+     "count": 12,
+     "tied": [
+      "Genesis"
+     ]
+    }
+   },
+   "nameTotal": 14,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Sarai's Egyptian handmaid",
+    "ref": "Genesis 16:1"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "hagar",
+    "total": 14,
+    "diff": []
+   }
+  },
+  {
+   "n": 4,
+   "spellingRefs": {
+    "Rebecca": [
+     "Romans 9:10"
+    ]
+   },
+   "key": "rebekah",
+   "name": "Rebekah",
+   "spellings": [
+    "Rebekah",
+    "Rebecca"
+   ],
+   "count": {
+    "total": 31,
+    "verses": 30,
+    "ot": 30,
+    "nt": 1,
+    "books": 2,
+    "bySpelling": {
+     "Rebekah": 30,
+     "Rebecca": 1
+    },
+    "first": "Genesis 22:23",
+    "top": {
+     "book": "Genesis",
+     "count": 30,
+     "tied": [
+      "Genesis"
+     ]
+    }
+   },
+   "nameTotal": 31,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Isaac's wife",
+    "ref": "Genesis 24:67"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "rebekah",
+    "total": 31,
+    "diff": []
+   }
+  },
+  {
+   "n": 5,
+   "spellingRefs": {
+    "Rahel": [
+     "Jeremiah 31:15"
+    ]
+   },
+   "key": "rachel",
+   "name": "Rachel",
+   "spellings": [
+    "Rachel",
+    "Rahel"
+   ],
+   "count": {
+    "total": 48,
+    "verses": 45,
+    "ot": 47,
+    "nt": 1,
+    "books": 5,
+    "bySpelling": {
+     "Rachel": 47,
+     "Rahel": 1
+    },
+    "first": "Genesis 29:6",
+    "top": {
+     "book": "Genesis",
+     "count": 44,
+     "tied": [
+      "Genesis"
+     ]
+    }
+   },
+   "nameTotal": 48,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Laban's daughter, given to Jacob as his wife",
+    "ref": "Genesis 29:28"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "rachel",
+    "total": 47,
+    "diff": [
+     {
+      "what": "Rahel",
+      "count": 1
+     }
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "spellingRefs": {},
+   "key": "leah",
+   "name": "Leah",
+   "spellings": [
+    "Leah"
+   ],
+   "count": {
+    "total": 34,
+    "verses": 32,
+    "ot": 34,
+    "nt": 0,
+    "books": 2,
+    "bySpelling": {
+     "Leah": 34
+    },
+    "first": "Genesis 29:16",
+    "top": {
+     "book": "Genesis",
+     "count": 33,
+     "tied": [
+      "Genesis"
+     ]
+    }
+   },
+   "nameTotal": 34,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Laban's elder daughter",
+    "ref": "Genesis 29:16"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "leah",
+    "total": 34,
+    "diff": []
+   }
+  },
+  {
+   "n": 7,
+   "spellingRefs": {},
+   "key": "bilhah",
+   "name": "Bilhah",
+   "spellings": [
+    "Bilhah"
+   ],
+   "count": {
+    "total": 10,
+    "verses": 10,
+    "ot": 10,
+    "nt": 0,
+    "books": 2,
+    "bySpelling": {
+     "Bilhah": 10
+    },
+    "first": "Genesis 29:29",
+    "top": {
+     "book": "Genesis",
+     "count": 9,
+     "tied": [
+      "Genesis"
+     ]
+    }
+   },
+   "nameTotal": 11,
+   "rule": "leaves out 1 Chronicles 4:29, a place name",
+   "firstTestament": "OT",
+   "who": {
+    "text": "Rachel's handmaid, mother of Dan and Naphtali",
+    "ref": "Genesis 35:25"
+   },
+   "also": [
+    {
+     "ref": "1 Chronicles 4:29",
+     "desc": "a place"
+    }
+   ],
+   "wordPage": {
+    "slug": "bilhah",
+    "total": 11,
+    "diff": []
+   }
+  },
+  {
+   "n": 8,
+   "spellingRefs": {},
+   "key": "dinah",
+   "name": "Dinah",
+   "spellings": [
+    "Dinah"
+   ],
+   "count": {
+    "total": 8,
+    "verses": 8,
+    "ot": 8,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Dinah": 8
+    },
+    "first": "Genesis 30:21",
+    "top": {
+     "book": "Genesis",
+     "count": 8,
+     "tied": [
+      "Genesis"
+     ]
+    }
+   },
+   "nameTotal": 8,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Daughter of Leah and Jacob",
+    "ref": "Genesis 34:1"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "dinah",
+    "total": 8,
+    "diff": []
+   }
+  },
+  {
+   "n": 9,
+   "spellingRefs": {
+    "Thamar": [
+     "Matthew 1:3"
+    ]
+   },
+   "key": "tamar-judah",
+   "name": "Tamar (Judah's daughter-in-law)",
+   "spellings": [
+    "Tamar",
+    "Thamar"
+   ],
+   "count": {
+    "total": 8,
+    "verses": 7,
+    "ot": 7,
+    "nt": 1,
+    "books": 4,
+    "bySpelling": {
+     "Tamar": 7,
+     "Thamar": 1
+    },
+    "first": "Genesis 38:6",
+    "top": {
+     "book": "Genesis",
+     "count": 5,
+     "tied": [
+      "Genesis"
+     ]
+    }
+   },
+   "nameTotal": 25,
+   "rule": "counts Genesis 38, Ruth 4, 1 Chronicles 2 and Matthew 1 only",
+   "firstTestament": "OT",
+   "who": {
+    "text": "Wife of Judah's son Er",
+    "ref": "Genesis 38:6"
+   },
+   "also": [
+    {
+     "ref": "2 Samuel 13:1",
+     "desc": "David's daughter, also in this table"
+    },
+    {
+     "ref": "2 Samuel 14:27",
+     "desc": "Absalom's daughter"
+    },
+    {
+     "ref": "Ezekiel 47:19",
+     "desc": "a place on the south side"
+    }
+   ],
+   "wordPage": {
+    "slug": "tamar",
+    "total": 25,
+    "diff": []
+   }
+  },
+  {
+   "n": 10,
+   "spellingRefs": {},
+   "key": "puah",
+   "name": "Puah",
+   "spellings": [
+    "Puah"
+   ],
+   "count": {
+    "total": 1,
+    "verses": 1,
+    "ot": 1,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Puah": 1
+    },
+    "first": "Exodus 1:15",
+    "top": {
+     "book": "Exodus",
+     "count": 1,
+     "tied": [
+      "Exodus"
+     ]
+    }
+   },
+   "nameTotal": 3,
+   "rule": "counts Exodus only",
+   "firstTestament": "OT",
+   "who": {
+    "text": "One of the two Hebrew midwives in Egypt",
+    "ref": "Exodus 1:15"
+   },
+   "also": [
+    {
+     "ref": "Judges 10:1",
+     "desc": "the father of Tola, who arose to defend Israel"
+    },
+    {
+     "ref": "1 Chronicles 7:1",
+     "desc": "a son of Issachar"
+    }
+   ],
+   "wordPage": null
+  },
+  {
+   "n": 11,
+   "spellingRefs": {},
+   "key": "zipporah",
+   "name": "Zipporah",
+   "spellings": [
+    "Zipporah"
+   ],
+   "count": {
+    "total": 3,
+    "verses": 3,
+    "ot": 3,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Zipporah": 3
+    },
+    "first": "Exodus 2:21",
+    "top": {
+     "book": "Exodus",
+     "count": 3,
+     "tied": [
+      "Exodus"
+     ]
+    }
+   },
+   "nameTotal": 3,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Moses' wife",
+    "ref": "Exodus 18:2"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 12,
+   "spellingRefs": {},
+   "key": "jochebed",
+   "name": "Jochebed",
+   "spellings": [
+    "Jochebed"
+   ],
+   "count": {
+    "total": 2,
+    "verses": 2,
+    "ot": 2,
+    "nt": 0,
+    "books": 2,
+    "bySpelling": {
+     "Jochebed": 2
+    },
+    "first": "Exodus 6:20",
+    "top": {
+     "book": "Exodus",
+     "count": 1,
+     "tied": [
+      "Exodus",
+      "Numbers"
+     ]
+    }
+   },
+   "nameTotal": 2,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Amram's wife, mother of Aaron and Moses",
+    "ref": "Exodus 6:20"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 13,
+   "spellingRefs": {},
+   "key": "miriam",
+   "name": "Miriam",
+   "spellings": [
+    "Miriam"
+   ],
+   "count": {
+    "total": 14,
+    "verses": 12,
+    "ot": 14,
+    "nt": 0,
+    "books": 5,
+    "bySpelling": {
+     "Miriam": 14
+    },
+    "first": "Exodus 15:20",
+    "top": {
+     "book": "Numbers",
+     "count": 9,
+     "tied": [
+      "Numbers"
+     ]
+    }
+   },
+   "nameTotal": 15,
+   "rule": "leaves out 1 Chronicles 4:17, another Miriam",
+   "firstTestament": "OT",
+   "who": {
+    "text": "A prophetess, the sister of Aaron",
+    "ref": "Exodus 15:20"
+   },
+   "also": [
+    {
+     "ref": "1 Chronicles 4:17",
+     "desc": "a child in a family list"
+    }
+   ],
+   "wordPage": {
+    "slug": "miriam",
+    "total": 15,
+    "diff": []
+   }
+  },
+  {
+   "n": 14,
+   "spellingRefs": {
+    "Rachab": [
+     "Matthew 1:5"
+    ]
+   },
+   "key": "rahab",
+   "name": "Rahab",
+   "spellings": [
+    "Rahab",
+    "Rachab"
+   ],
+   "count": {
+    "total": 8,
+    "verses": 8,
+    "ot": 5,
+    "nt": 3,
+    "books": 4,
+    "bySpelling": {
+     "Rahab": 7,
+     "Rachab": 1
+    },
+    "first": "Joshua 2:1",
+    "top": {
+     "book": "Joshua",
+     "count": 5,
+     "tied": [
+      "Joshua"
+     ]
+    }
+   },
+   "nameTotal": 11,
+   "rule": "leaves out Psalms and Isaiah, where Rahab is not the woman of Jericho",
+   "firstTestament": "OT",
+   "who": {
+    "text": "A harlot of Jericho who lodged Joshua's spies",
+    "ref": "Joshua 2:1"
+   },
+   "also": [
+    {
+     "ref": "Psalms 87:4",
+     "desc": "listed with Babylon, Philistia, Tyre and Ethiopia"
+    },
+    {
+     "ref": "Psalms 89:10",
+     "desc": "a defeated enemy"
+    },
+    {
+     "ref": "Isaiah 51:9",
+     "desc": "set beside the dragon"
+    }
+   ],
+   "wordPage": {
+    "slug": "rahab",
+    "total": 11,
+    "diff": []
+   }
+  },
+  {
+   "n": 15,
+   "spellingRefs": {},
+   "key": "deborah",
+   "name": "Deborah",
+   "spellings": [
+    "Deborah"
+   ],
+   "count": {
+    "total": 9,
+    "verses": 9,
+    "ot": 9,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Deborah": 9
+    },
+    "first": "Judges 4:4",
+    "top": {
+     "book": "Judges",
+     "count": 9,
+     "tied": [
+      "Judges"
+     ]
+    }
+   },
+   "nameTotal": 10,
+   "rule": "counts Judges only",
+   "firstTestament": "OT",
+   "who": {
+    "text": "A prophetess who judged Israel",
+    "ref": "Judges 4:4"
+   },
+   "also": [
+    {
+     "ref": "Genesis 35:8",
+     "desc": "Rebekah's nurse"
+    }
+   ],
+   "wordPage": {
+    "slug": "deborah",
+    "total": 10,
+    "diff": []
+   }
+  },
+  {
+   "n": 16,
+   "spellingRefs": {},
+   "key": "jael",
+   "name": "Jael",
+   "spellings": [
+    "Jael"
+   ],
+   "count": {
+    "total": 6,
+    "verses": 6,
+    "ot": 6,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Jael": 6
+    },
+    "first": "Judges 4:17",
+    "top": {
+     "book": "Judges",
+     "count": 6,
+     "tied": [
+      "Judges"
+     ]
+    }
+   },
+   "nameTotal": 6,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Heber's wife, who killed Sisera with a tent nail",
+    "ref": "Judges 4:21-22"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 17,
+   "spellingRefs": {},
+   "key": "delilah",
+   "name": "Delilah",
+   "spellings": [
+    "Delilah"
+   ],
+   "count": {
+    "total": 6,
+    "verses": 6,
+    "ot": 6,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Delilah": 6
+    },
+    "first": "Judges 16:4",
+    "top": {
+     "book": "Judges",
+     "count": 6,
+     "tied": [
+      "Judges"
+     ]
+    }
+   },
+   "nameTotal": 6,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "The woman of the valley of Sorek whom Samson loved",
+    "ref": "Judges 16:4-6"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "delilah",
+    "total": 6,
+    "diff": []
+   }
+  },
+  {
+   "n": 18,
+   "spellingRefs": {},
+   "key": "naomi",
+   "name": "Naomi",
+   "spellings": [
+    "Naomi"
+   ],
+   "count": {
+    "total": 21,
+    "verses": 20,
+    "ot": 21,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Naomi": 21
+    },
+    "first": "Ruth 1:2",
+    "top": {
+     "book": "Ruth",
+     "count": 21,
+     "tied": [
+      "Ruth"
+     ]
+    }
+   },
+   "nameTotal": 21,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Elimelech's wife",
+    "ref": "Ruth 1:2"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "naomi",
+    "total": 21,
+    "diff": []
+   }
+  },
+  {
+   "n": 19,
+   "spellingRefs": {},
+   "key": "ruth",
+   "name": "Ruth",
+   "spellings": [
+    "Ruth"
+   ],
+   "count": {
+    "total": 13,
+    "verses": 13,
+    "ot": 12,
+    "nt": 1,
+    "books": 2,
+    "bySpelling": {
+     "Ruth": 13
+    },
+    "first": "Ruth 1:4",
+    "top": {
+     "book": "Ruth",
+     "count": 12,
+     "tied": [
+      "Ruth"
+     ]
+    }
+   },
+   "nameTotal": 13,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Clave to her mother-in-law, while Orpah kissed her",
+    "ref": "Ruth 1:14-15"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "ruth",
+    "total": 13,
+    "diff": []
+   }
+  },
+  {
+   "n": 20,
+   "spellingRefs": {},
+   "key": "orpah",
+   "name": "Orpah",
+   "spellings": [
+    "Orpah"
+   ],
+   "count": {
+    "total": 2,
+    "verses": 2,
+    "ot": 2,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Orpah": 2
+    },
+    "first": "Ruth 1:4",
+    "top": {
+     "book": "Ruth",
+     "count": 2,
+     "tied": [
+      "Ruth"
+     ]
+    }
+   },
+   "nameTotal": 2,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "A woman of Moab who married one of Naomi's two sons",
+    "ref": "Ruth 1:3-4"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 21,
+   "spellingRefs": {},
+   "key": "hannah",
+   "name": "Hannah",
+   "spellings": [
+    "Hannah"
+   ],
+   "count": {
+    "total": 13,
+    "verses": 11,
+    "ot": 13,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Hannah": 13
+    },
+    "first": "1 Samuel 1:2",
+    "top": {
+     "book": "1 Samuel",
+     "count": 13,
+     "tied": [
+      "1 Samuel"
+     ]
+    }
+   },
+   "nameTotal": 13,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Mother of Samuel",
+    "ref": "1 Samuel 1:20"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "hannah",
+    "total": 13,
+    "diff": []
+   }
+  },
+  {
+   "n": 22,
+   "spellingRefs": {},
+   "key": "michal",
+   "name": "Michal",
+   "spellings": [
+    "Michal"
+   ],
+   "count": {
+    "total": 18,
+    "verses": 17,
+    "ot": 18,
+    "nt": 0,
+    "books": 3,
+    "bySpelling": {
+     "Michal": 18
+    },
+    "first": "1 Samuel 14:49",
+    "top": {
+     "book": "1 Samuel",
+     "count": 10,
+     "tied": [
+      "1 Samuel"
+     ]
+    }
+   },
+   "nameTotal": 18,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Saul's daughter, given to David as his wife",
+    "ref": "1 Samuel 18:27"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "michal",
+    "total": 18,
+    "diff": []
+   }
+  },
+  {
+   "n": 23,
+   "spellingRefs": {},
+   "key": "abigail",
+   "name": "Abigail",
+   "spellings": [
+    "Abigail"
+   ],
+   "count": {
+    "total": 14,
+    "verses": 14,
+    "ot": 14,
+    "nt": 0,
+    "books": 3,
+    "bySpelling": {
+     "Abigail": 14
+    },
+    "first": "1 Samuel 25:3",
+    "top": {
+     "book": "1 Samuel",
+     "count": 11,
+     "tied": [
+      "1 Samuel"
+     ]
+    }
+   },
+   "nameTotal": 17,
+   "rule": "leaves out 2 Samuel 17:25 and 1 Chronicles 2:16-17, David's sister",
+   "firstTestament": "OT",
+   "who": {
+    "text": "Nabal's widow, one of David's two wives",
+    "ref": "1 Samuel 30:5"
+   },
+   "also": [
+    {
+     "ref": "1 Chronicles 2:15-16",
+     "desc": "a sister of David"
+    }
+   ],
+   "wordPage": {
+    "slug": "abigail",
+    "total": 17,
+    "diff": []
+   }
+  },
+  {
+   "n": 24,
+   "spellingRefs": {},
+   "key": "bathsheba",
+   "name": "Bathsheba",
+   "spellings": [
+    "Bath-sheba"
+   ],
+   "count": {
+    "total": 10,
+    "verses": 10,
+    "ot": 10,
+    "nt": 0,
+    "books": 2,
+    "bySpelling": {
+     "Bath-sheba": 10
+    },
+    "first": "2 Samuel 11:3",
+    "top": {
+     "book": "1 Kings",
+     "count": 8,
+     "tied": [
+      "1 Kings"
+     ]
+    }
+   },
+   "nameTotal": 10,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "David's wife, mother of Solomon",
+    "ref": "2 Samuel 12:24"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 25,
+   "spellingRefs": {},
+   "key": "tamar-david",
+   "name": "Tamar (David's daughter)",
+   "spellings": [
+    "Tamar"
+   ],
+   "count": {
+    "total": 14,
+    "verses": 13,
+    "ot": 14,
+    "nt": 0,
+    "books": 2,
+    "bySpelling": {
+     "Tamar": 14
+    },
+    "first": "2 Samuel 13:1",
+    "top": {
+     "book": "2 Samuel",
+     "count": 13,
+     "tied": [
+      "2 Samuel"
+     ]
+    }
+   },
+   "nameTotal": 24,
+   "rule": "counts 2 Samuel 13 and 1 Chronicles 3 only",
+   "firstTestament": "OT",
+   "who": {
+    "text": "Sister of Absalom, a son of David",
+    "ref": "2 Samuel 13:1"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 26,
+   "spellingRefs": {},
+   "key": "abishag",
+   "name": "Abishag",
+   "spellings": [
+    "Abishag"
+   ],
+   "count": {
+    "total": 5,
+    "verses": 5,
+    "ot": 5,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Abishag": 5
+    },
+    "first": "1 Kings 1:3",
+    "top": {
+     "book": "1 Kings",
+     "count": 5,
+     "tied": [
+      "1 Kings"
+     ]
+    }
+   },
+   "nameTotal": 5,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "A Shunammite brought to King David in his old age",
+    "ref": "1 Kings 1:1-3"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 27,
+   "spellingRefs": {},
+   "key": "jezebel",
+   "name": "Jezebel",
+   "spellings": [
+    "Jezebel"
+   ],
+   "count": {
+    "total": 22,
+    "verses": 19,
+    "ot": 22,
+    "nt": 0,
+    "books": 2,
+    "bySpelling": {
+     "Jezebel": 22
+    },
+    "first": "1 Kings 16:31",
+    "top": {
+     "book": "1 Kings",
+     "count": 15,
+     "tied": [
+      "1 Kings"
+     ]
+    }
+   },
+   "nameTotal": 23,
+   "rule": "counts the Old Testament only",
+   "firstTestament": "OT",
+   "who": {
+    "text": "Wife of King Ahab",
+    "ref": "1 Kings 21:25"
+   },
+   "also": [
+    {
+     "ref": "Revelation 2:18-20",
+     "desc": "a woman in the church at Thyatira"
+    }
+   ],
+   "wordPage": {
+    "slug": "jezebel",
+    "total": 23,
+    "diff": []
+   }
+  },
+  {
+   "n": 28,
+   "spellingRefs": {},
+   "key": "athaliah",
+   "name": "Athaliah",
+   "spellings": [
+    "Athaliah"
+   ],
+   "count": {
+    "total": 15,
+    "verses": 15,
+    "ot": 15,
+    "nt": 0,
+    "books": 2,
+    "bySpelling": {
+     "Athaliah": 15
+    },
+    "first": "2 Kings 8:26",
+    "top": {
+     "book": "2 Chronicles",
+     "count": 8,
+     "tied": [
+      "2 Chronicles"
+     ]
+    }
+   },
+   "nameTotal": 17,
+   "rule": "leaves out 1 Chronicles 8:26 and Ezra 8:7",
+   "firstTestament": "OT",
+   "who": {
+    "text": "Ahaziah's mother, who then reigned over the land",
+    "ref": "2 Kings 11:1-3"
+   },
+   "also": [
+    {
+     "ref": "1 Chronicles 8:26-27",
+     "desc": "one of the sons of Jeroham"
+    },
+    {
+     "ref": "Ezra 8:7",
+     "desc": "the parent of Jeshaiah"
+    }
+   ],
+   "wordPage": {
+    "slug": "athaliah",
+    "total": 17,
+    "diff": []
+   }
+  },
+  {
+   "n": 29,
+   "spellingRefs": {},
+   "key": "huldah",
+   "name": "Huldah",
+   "spellings": [
+    "Huldah"
+   ],
+   "count": {
+    "total": 2,
+    "verses": 2,
+    "ot": 2,
+    "nt": 0,
+    "books": 2,
+    "bySpelling": {
+     "Huldah": 2
+    },
+    "first": "2 Kings 22:14",
+    "top": {
+     "book": "2 Kings",
+     "count": 1,
+     "tied": [
+      "2 Kings",
+      "2 Chronicles"
+     ]
+    }
+   },
+   "nameTotal": 2,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "A prophetess in Jerusalem whom Hilkiah the priest went to",
+    "ref": "2 Kings 22:14"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 30,
+   "spellingRefs": {},
+   "key": "vashti",
+   "name": "Vashti",
+   "spellings": [
+    "Vashti"
+   ],
+   "count": {
+    "total": 10,
+    "verses": 10,
+    "ot": 10,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Vashti": 10
+    },
+    "first": "Esther 1:9",
+    "top": {
+     "book": "Esther",
+     "count": 10,
+     "tied": [
+      "Esther"
+     ]
+    }
+   },
+   "nameTotal": 10,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Queen of King Ahasuerus",
+    "ref": "Esther 1:9"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "vashti",
+    "total": 10,
+    "diff": []
+   }
+  },
+  {
+   "n": 31,
+   "spellingRefs": {
+    "Hadassah": [
+     "Esther 2:7"
+    ]
+   },
+   "key": "esther",
+   "name": "Esther (Hadassah)",
+   "spellings": [
+    "Esther",
+    "Hadassah"
+   ],
+   "count": {
+    "total": 57,
+    "verses": 46,
+    "ot": 57,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Esther": 56,
+     "Hadassah": 1
+    },
+    "first": "Esther 2:7",
+    "top": {
+     "book": "Esther",
+     "count": 57,
+     "tied": [
+      "Esther"
+     ]
+    }
+   },
+   "nameTotal": 57,
+   "rule": null,
+   "firstTestament": "OT",
+   "who": {
+    "text": "Made queen in place of Vashti",
+    "ref": "Esther 2:17"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "esther",
+    "total": 53,
+    "diff": [
+     {
+      "what": "Esther's",
+      "count": 3
+     },
+     {
+      "what": "Hadassah",
+      "count": 1
+     }
+    ]
+   }
+  },
+  {
+   "n": 32,
+   "spellingRefs": {},
+   "key": "gomer",
+   "name": "Gomer",
+   "spellings": [
+    "Gomer"
+   ],
+   "count": {
+    "total": 1,
+    "verses": 1,
+    "ot": 1,
+    "nt": 0,
+    "books": 1,
+    "bySpelling": {
+     "Gomer": 1
+    },
+    "first": "Hosea 1:3",
+    "top": {
+     "book": "Hosea",
+     "count": 1,
+     "tied": [
+      "Hosea"
+     ]
+    }
+   },
+   "nameTotal": 6,
+   "rule": "counts Hosea only",
+   "firstTestament": "OT",
+   "who": {
+    "text": "Hosea's wife, the daughter of Diblaim",
+    "ref": "Hosea 1:2-3"
+   },
+   "also": [
+    {
+     "ref": "Genesis 10:2",
+     "desc": "a son of Japheth"
+    }
+   ],
+   "wordPage": null
+  },
+  {
+   "n": 33,
+   "spellingRefs": {},
+   "key": "mary-mother",
+   "name": "Mary, mother of Jesus",
+   "spellings": [
+    "Mary"
+   ],
+   "count": {
+    "total": 19,
+    "verses": 19,
+    "ot": 0,
+    "nt": 19,
+    "books": 4,
+    "bySpelling": {
+     "Mary": 19
+    },
+    "first": "Matthew 1:16",
+    "top": {
+     "book": "Luke",
+     "count": 12,
+     "tied": [
+      "Luke"
+     ]
+    }
+   },
+   "nameTotal": 54,
+   "rule": "counts Matthew 1-2, Luke 1-2, Matthew 13:55, Mark 6:3 and Acts 1:14",
+   "firstTestament": "NT",
+   "who": {
+    "text": "Wife of Joseph, mother of Jesus",
+    "ref": "Matthew 1:16"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "mary",
+    "total": 54,
+    "diff": []
+   }
+  },
+  {
+   "n": 34,
+   "spellingRefs": {},
+   "key": "herodias",
+   "name": "Herodias",
+   "spellings": [
+    "Herodias"
+   ],
+   "count": {
+    "total": 6,
+    "verses": 6,
+    "ot": 0,
+    "nt": 6,
+    "books": 3,
+    "bySpelling": {
+     "Herodias": 6
+    },
+    "first": "Matthew 14:3",
+    "top": {
+     "book": "Mark",
+     "count": 3,
+     "tied": [
+      "Mark"
+     ]
+    }
+   },
+   "nameTotal": 6,
+   "rule": null,
+   "firstTestament": "NT",
+   "who": {
+    "text": "Philip's wife, for whose sake Herod imprisoned John",
+    "ref": "Matthew 14:3"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 35,
+   "spellingRefs": {},
+   "key": "mary-magdalene",
+   "name": "Mary Magdalene",
+   "spellings": [
+    "Magdalene"
+   ],
+   "count": {
+    "total": 12,
+    "verses": 12,
+    "ot": 0,
+    "nt": 12,
+    "books": 4,
+    "bySpelling": {
+     "Magdalene": 12
+    },
+    "first": "Matthew 27:56",
+    "top": {
+     "book": "Mark",
+     "count": 4,
+     "tied": [
+      "Mark"
+     ]
+    }
+   },
+   "nameTotal": 12,
+   "rule": "counts the word Magdalene, which always follows her name Mary",
+   "firstTestament": "NT",
+   "who": {
+    "text": "The first the risen Jesus appeared to, in Mark's account",
+    "ref": "Mark 16:9"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "magdalene",
+    "total": 12,
+    "diff": []
+   }
+  },
+  {
+   "n": 36,
+   "spellingRefs": {},
+   "key": "salome",
+   "name": "Salome",
+   "spellings": [
+    "Salome"
+   ],
+   "count": {
+    "total": 2,
+    "verses": 2,
+    "ot": 0,
+    "nt": 2,
+    "books": 1,
+    "bySpelling": {
+     "Salome": 2
+    },
+    "first": "Mark 15:40",
+    "top": {
+     "book": "Mark",
+     "count": 2,
+     "tied": [
+      "Mark"
+     ]
+    }
+   },
+   "nameTotal": 2,
+   "rule": null,
+   "firstTestament": "NT",
+   "who": {
+    "text": "Looked on from afar with Mary Magdalene",
+    "ref": "Mark 15:40"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 37,
+   "spellingRefs": {},
+   "key": "elisabeth",
+   "name": "Elisabeth",
+   "spellings": [
+    "Elisabeth"
+   ],
+   "count": {
+    "total": 9,
+    "verses": 8,
+    "ot": 0,
+    "nt": 9,
+    "books": 1,
+    "bySpelling": {
+     "Elisabeth": 9
+    },
+    "first": "Luke 1:5",
+    "top": {
+     "book": "Luke",
+     "count": 9,
+     "tied": [
+      "Luke"
+     ]
+    }
+   },
+   "nameTotal": 9,
+   "rule": null,
+   "firstTestament": "NT",
+   "who": {
+    "text": "Wife of Zacharias, mother of John",
+    "ref": "Luke 1:13"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 38,
+   "spellingRefs": {},
+   "key": "anna",
+   "name": "Anna",
+   "spellings": [
+    "Anna"
+   ],
+   "count": {
+    "total": 1,
+    "verses": 1,
+    "ot": 0,
+    "nt": 1,
+    "books": 1,
+    "bySpelling": {
+     "Anna": 1
+    },
+    "first": "Luke 2:36",
+    "top": {
+     "book": "Luke",
+     "count": 1,
+     "tied": [
+      "Luke"
+     ]
+    }
+   },
+   "nameTotal": 1,
+   "rule": null,
+   "firstTestament": "NT",
+   "who": {
+    "text": "A prophetess of the tribe of Aser",
+    "ref": "Luke 2:36"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 39,
+   "spellingRefs": {},
+   "key": "martha",
+   "name": "Martha",
+   "spellings": [
+    "Martha"
+   ],
+   "count": {
+    "total": 13,
+    "verses": 12,
+    "ot": 0,
+    "nt": 13,
+    "books": 2,
+    "bySpelling": {
+     "Martha": 13
+    },
+    "first": "Luke 10:38",
+    "top": {
+     "book": "John",
+     "count": 9,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "nameTotal": 13,
+   "rule": null,
+   "firstTestament": "NT",
+   "who": {
+    "text": "Received Jesus into her house",
+    "ref": "Luke 10:38"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "martha",
+    "total": 13,
+    "diff": []
+   }
+  },
+  {
+   "n": 40,
+   "spellingRefs": {},
+   "key": "mary-bethany",
+   "name": "Mary of Bethany",
+   "spellings": [
+    "Mary"
+   ],
+   "count": {
+    "total": 11,
+    "verses": 11,
+    "ot": 0,
+    "nt": 11,
+    "books": 2,
+    "bySpelling": {
+     "Mary": 11
+    },
+    "first": "Luke 10:39",
+    "top": {
+     "book": "John",
+     "count": 9,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "nameTotal": 54,
+   "rule": "counts Luke 10 and John 11-12",
+   "firstTestament": "NT",
+   "who": {
+    "text": "Martha's sister, who sat at Jesus' feet",
+    "ref": "Luke 10:39"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 41,
+   "spellingRefs": {},
+   "key": "sapphira",
+   "name": "Sapphira",
+   "spellings": [
+    "Sapphira"
+   ],
+   "count": {
+    "total": 1,
+    "verses": 1,
+    "ot": 0,
+    "nt": 1,
+    "books": 1,
+    "bySpelling": {
+     "Sapphira": 1
+    },
+    "first": "Acts 5:1",
+    "top": {
+     "book": "Acts",
+     "count": 1,
+     "tied": [
+      "Acts"
+     ]
+    }
+   },
+   "nameTotal": 1,
+   "rule": null,
+   "firstTestament": "NT",
+   "who": {
+    "text": "Wife of Ananias",
+    "ref": "Acts 5:1"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 42,
+   "spellingRefs": {
+    "Dorcas": [
+     "Acts 9:36",
+     "Acts 9:39"
+    ]
+   },
+   "key": "dorcas",
+   "name": "Dorcas (Tabitha)",
+   "spellings": [
+    "Tabitha",
+    "Dorcas"
+   ],
+   "count": {
+    "total": 4,
+    "verses": 3,
+    "ot": 0,
+    "nt": 4,
+    "books": 1,
+    "bySpelling": {
+     "Tabitha": 2,
+     "Dorcas": 2
+    },
+    "first": "Acts 9:36",
+    "top": {
+     "book": "Acts",
+     "count": 4,
+     "tied": [
+      "Acts"
+     ]
+    }
+   },
+   "nameTotal": 4,
+   "rule": null,
+   "firstTestament": "NT",
+   "who": {
+    "text": "A disciple at Joppa, full of good works",
+    "ref": "Acts 9:36"
+   },
+   "also": [],
+   "wordPage": null
+  },
+  {
+   "n": 43,
+   "spellingRefs": {},
+   "key": "lydia",
+   "name": "Lydia",
+   "spellings": [
+    "Lydia"
+   ],
+   "count": {
+    "total": 2,
+    "verses": 2,
+    "ot": 0,
+    "nt": 2,
+    "books": 1,
+    "bySpelling": {
+     "Lydia": 2
+    },
+    "first": "Acts 16:14",
+    "top": {
+     "book": "Acts",
+     "count": 2,
+     "tied": [
+      "Acts"
+     ]
+    }
+   },
+   "nameTotal": 3,
+   "rule": "counts Acts only",
+   "firstTestament": "NT",
+   "who": {
+    "text": "A seller of purple from Thyatira",
+    "ref": "Acts 16:14"
+   },
+   "also": [
+    {
+     "ref": "Ezekiel 30:5",
+     "desc": "listed with Ethiopia and Libya"
+    }
+   ],
+   "wordPage": null
+  },
+  {
+   "n": 44,
+   "spellingRefs": {
+    "Prisca": [
+     "2 Timothy 4:19"
+    ]
+   },
+   "key": "priscilla",
+   "name": "Priscilla (Prisca)",
+   "spellings": [
+    "Priscilla",
+    "Prisca"
+   ],
+   "count": {
+    "total": 6,
+    "verses": 6,
+    "ot": 0,
+    "nt": 6,
+    "books": 4,
+    "bySpelling": {
+     "Priscilla": 5,
+     "Prisca": 1
+    },
+    "first": "Acts 18:2",
+    "top": {
+     "book": "Acts",
+     "count": 3,
+     "tied": [
+      "Acts"
+     ]
+    }
+   },
+   "nameTotal": 6,
+   "rule": null,
+   "firstTestament": "NT",
+   "who": {
+    "text": "Wife of Aquila",
+    "ref": "Acts 18:2"
+   },
+   "also": [],
+   "wordPage": {
+    "slug": "priscilla",
+    "total": 5,
+    "diff": [
+     {
+      "what": "Prisca",
+      "count": 1
+     }
+    ]
+   }
+  },
+  {
+   "n": 45,
+   "spellingRefs": {},
+   "key": "phebe",
+   "name": "Phebe",
+   "spellings": [
+    "Phebe"
+   ],
+   "count": {
+    "total": 1,
+    "verses": 1,
+    "ot": 0,
+    "nt": 1,
+    "books": 1,
+    "bySpelling": {
+     "Phebe": 1
+    },
+    "first": "Romans 16:1",
+    "top": {
+     "book": "Romans",
+     "count": 1,
+     "tied": [
+      "Romans"
+     ]
+    }
+   },
+   "nameTotal": 1,
+   "rule": null,
+   "firstTestament": "NT",
+   "who": {
+    "text": "A servant of the church at Cenchrea",
+    "ref": "Romans 16:1"
+   },
+   "also": [],
+   "wordPage": null
+  }
+ ],
+ "most": {
+  "key": "sarah",
+  "name": "Sarah (Sarai)",
+  "total": 59,
+  "bySpelling": {
+   "Sarai": 17,
+   "Sarah": 41,
+   "Sara": 1
+  }
+ },
+ "second": {
+  "name": "Esther (Hadassah)",
+  "total": 57
+ },
+ "split": {
+  "firstOT": 32,
+  "firstNT": 13,
+  "both": [
+   "Eve",
+   "Sarah (Sarai)",
+   "Hagar",
+   "Rebekah",
+   "Rachel",
+   "Tamar (Judah's daughter-in-law)",
+   "Rahab",
+   "Ruth"
+  ]
+ },
+ "shared": 16,
+ "eve": {
+  "total": 4,
+  "refs": [
+   "Genesis 3:20",
+   "Genesis 4:1",
+   "2 Corinthians 11:3",
+   "1 Timothy 2:13"
+  ]
+ },
+ "marys": {
+  "total": 54,
+  "verses": 46,
+  "others": [
+   {
+    "ref": "Mark 15:40",
+    "desc": "the mother of James the less and of Joses"
+   },
+   {
+    "ref": "John 19:25",
+    "desc": "the wife of Cleophas"
+   },
+   {
+    "ref": "Acts 12:12",
+    "desc": "the mother of John Mark"
+   },
+   {
+    "ref": "Romans 16:6",
+    "desc": "a woman greeted at Rome"
+   }
+  ]
+ },
+ "unnamed": [
+  {
+   "ref": "Genesis 19:26",
+   "desc": "Lot's wife"
+  },
+  {
+   "ref": "Exodus 2:5",
+   "desc": "Pharaoh's daughter"
+  },
+  {
+   "ref": "1 Kings 10:1",
+   "desc": "the queen of Sheba"
+  },
+  {
+   "ref": "John 4:7",
+   "desc": "the woman of Samaria"
+  }
+ ],
+ "leftOut": [
+  {
+   "ref": "Exodus 1:15",
+   "desc": "Shiphrah"
+  },
+  {
+   "ref": "Genesis 25:1",
+   "desc": "Keturah"
+  },
+  {
+   "ref": "Genesis 29:24",
+   "desc": "Zilpah"
+  },
+  {
+   "ref": "Luke 8:3",
+   "desc": "Joanna"
+  }
+ ],
+ "rahabWeb": {
+  "ref": "Isaiah 30:7",
+  "text": "For Egypt helps in vain, and to no purpose; therefore I have called her Rahab who sits still."
+ },
+ "woman": {
+  "kjv": {
+   "woman": {
+    "total": 368,
+    "verses": 340,
+    "top": {
+     "book": "2 Samuel",
+     "count": 26,
+     "tied": [
+      "2 Samuel"
+     ]
+    },
+    "first": "Genesis 2:22"
+   },
+   "women": {
+    "total": 179,
+    "verses": 170,
+    "top": {
+     "book": "Esther",
+     "count": 15,
+     "tied": [
+      "Esther"
+     ]
+    },
+    "first": "Genesis 14:16"
+   }
+  },
+  "web": {
+   "woman": {
+    "total": 359,
+    "verses": 333,
+    "top": {
+     "book": "2 Samuel",
+     "count": 25,
+     "tied": [
+      "2 Samuel"
+     ]
+    },
+    "first": "Genesis 2:22"
+   },
+   "women": {
+    "total": 183,
+    "verses": 174,
+    "top": {
+     "book": "Jeremiah",
+     "count": 15,
+     "tied": [
+      "Jeremiah"
+     ]
+    },
+    "first": "Genesis 14:16"
+   }
+  }
+ },
+ "books": [
+  {
+   "book": "Ruth",
+   "slug": "ruth",
+   "chapters": 4,
+   "verses": 85,
+   "kjvWords": 2574,
+   "webWords": 2461
+  },
+  {
+   "book": "Esther",
+   "slug": "esther",
+   "chapters": 10,
+   "verses": 167,
+   "kjvWords": 5633,
+   "webWords": 5415
+  }
+ ]
+}

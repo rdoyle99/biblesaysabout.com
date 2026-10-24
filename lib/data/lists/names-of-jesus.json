@@ -1,0 +1,1482 @@
+{
+ "generated": "2026-10-24",
+ "rows": [
+  {
+   "n": 1,
+   "name": "Jesus",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Jesus",
+   "webPhrase": null,
+   "kjv": {
+    "total": 980,
+    "verses": 939,
+    "first": "Matthew 1:1",
+    "top": {
+     "book": "John",
+     "count": 256,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "web": {
+    "total": 978,
+    "verses": 936,
+    "first": "Matthew 1:1",
+    "top": {
+     "book": "John",
+     "count": 253,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Matthew 1:21",
+   "checkText": "And she shall bring forth a son, and thou shalt call his name JESUS: for he shall save his people from their sins.",
+   "note": "Jesus' (possessive) is counted. Left out: Colossians 4:11 (Jesus called Justus), the sorcerer Bar-jesus (Acts 13:6) and, in the KJV only, Acts 7:45 and Hebrews 4:8, where the WEB reads Joshua.",
+   "excluded": [
+    {
+     "id": "kjv",
+     "ref": "Colossians 4:11",
+     "why": "Jesus called Justus, Paul's fellow worker"
+    },
+    {
+     "id": "kjv",
+     "ref": "Acts 7:45",
+     "why": "Joshua (the WEB prints Joshua)"
+    },
+    {
+     "id": "kjv",
+     "ref": "Hebrews 4:8",
+     "why": "Joshua (the WEB prints Joshua)"
+    },
+    {
+     "id": "kjv",
+     "ref": "Acts 13:6",
+     "why": "Bar-jesus, the sorcerer"
+    },
+    {
+     "id": "web",
+     "ref": "Colossians 4:11",
+     "why": "Jesus called Justus"
+    },
+    {
+     "id": "web",
+     "ref": "Acts 13:6",
+     "why": "Bar Jesus, the sorcerer"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "name": "Christ",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Christ",
+   "webPhrase": null,
+   "kjv": {
+    "total": 571,
+    "verses": 532,
+    "first": "Matthew 1:1",
+    "top": {
+     "book": "1 Corinthians",
+     "count": 69,
+     "tied": [
+      "1 Corinthians"
+     ]
+    }
+   },
+   "web": {
+    "total": 560,
+    "verses": 523,
+    "first": "Matthew 1:1",
+    "top": {
+     "book": "1 Corinthians",
+     "count": 69,
+     "tied": [
+      "1 Corinthians"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Matthew 16:16",
+   "checkText": "And Simon Peter answered and said, Thou art the Christ, the Son of the living God.",
+   "note": "Includes every Jesus Christ and Christ Jesus below, and Christ's. It also counts the title in questions and in warnings about false claims, as in Matthew 24:5.",
+   "excluded": []
+  },
+  {
+   "n": 3,
+   "name": "Jesus Christ",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Jesus Christ",
+   "webPhrase": null,
+   "kjv": {
+    "total": 198,
+    "verses": 189,
+    "first": "Matthew 1:1",
+    "top": {
+     "book": "Romans",
+     "count": 27,
+     "tied": [
+      "Romans"
+     ]
+    }
+   },
+   "web": {
+    "total": 166,
+    "verses": 160,
+    "first": "Matthew 1:1",
+    "top": {
+     "book": "Romans",
+     "count": 21,
+     "tied": [
+      "Romans"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Matthew 1:1",
+   "checkText": "The book of the generation of Jesus Christ, the son of David, the son of Abraham.",
+   "note": "Also counted under Jesus and under Christ.",
+   "excluded": []
+  },
+  {
+   "n": 4,
+   "name": "Christ Jesus",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Christ Jesus",
+   "webPhrase": null,
+   "kjv": {
+    "total": 58,
+    "verses": 58,
+    "first": "Acts 19:4",
+    "top": {
+     "book": "Philippians",
+     "count": 9,
+     "tied": [
+      "Philippians"
+     ]
+    }
+   },
+   "web": {
+    "total": 83,
+    "verses": 82,
+    "first": "Acts 3:20",
+    "top": {
+     "book": "Romans",
+     "count": 12,
+     "tied": [
+      "Romans"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "1 Timothy 1:15",
+   "checkText": "This is a faithful saying, and worthy of all acceptation, that Christ Jesus came into the world to save sinners; of whom I am chief.",
+   "note": "Also counted under Jesus and under Christ.",
+   "excluded": []
+  },
+  {
+   "n": 5,
+   "name": "Lord Jesus",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Lord Jesus",
+   "webPhrase": null,
+   "kjv": {
+    "total": 118,
+    "verses": 115,
+    "first": "Luke 24:3",
+    "top": {
+     "book": "Acts",
+     "count": 19,
+     "tied": [
+      "Acts"
+     ]
+    }
+   },
+   "web": {
+    "total": 113,
+    "verses": 110,
+    "first": "Luke 24:3",
+    "top": {
+     "book": "Acts",
+     "count": 18,
+     "tied": [
+      "Acts"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Acts 7:59",
+   "checkText": "And they stoned Stephen, calling upon God, and saying, Lord Jesus, receive my spirit.",
+   "note": "Includes Lord Jesus Christ.",
+   "excluded": []
+  },
+  {
+   "n": 6,
+   "name": "Son of man",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "the Son of man",
+   "webPhrase": "the Son of Man",
+   "kjv": {
+    "total": 88,
+    "verses": 84,
+    "first": "Matthew 8:20",
+    "top": {
+     "book": "Matthew",
+     "count": 32,
+     "tied": [
+      "Matthew"
+     ]
+    }
+   },
+   "web": {
+    "total": 84,
+    "verses": 80,
+    "first": "Matthew 8:20",
+    "top": {
+     "book": "Matthew",
+     "count": 32,
+     "tied": [
+      "Matthew"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Matthew 8:20",
+   "checkText": "And Jesus saith unto him, The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head.",
+   "note": "Counted where the translation prints Son with a capital S, so Hebrews 2:6, quoting Psalm 8, is not counted. Ezekiel's son of man is the prophet and is counted separately below.",
+   "excluded": []
+  },
+  {
+   "n": 7,
+   "name": "Son of God",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "the Son of God",
+   "webPhrase": null,
+   "kjv": {
+    "total": 46,
+    "verses": 45,
+    "first": "Matthew 4:3",
+    "top": {
+     "book": "John",
+     "count": 10,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "web": {
+    "total": 41,
+    "verses": 40,
+    "first": "Matthew 4:3",
+    "top": {
+     "book": "Matthew",
+     "count": 8,
+     "tied": [
+      "Matthew",
+      "John"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Mark 1:1",
+   "checkText": "The beginning of the gospel of Jesus Christ, the Son of God;",
+   "note": "Capital S only, so Luke 3:38, where Adam is \"the son of God\", is not counted. Includes the tempter's \"If thou be the Son of God\" (Matthew 4:3).",
+   "excluded": []
+  },
+  {
+   "n": 8,
+   "name": "Son of David",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "thou Son of David",
+   "webPhrase": null,
+   "kjv": {
+    "total": 14,
+    "verses": 14,
+    "first": "Matthew 1:1",
+    "top": {
+     "book": "Matthew",
+     "count": 9,
+     "tied": [
+      "Matthew"
+     ]
+    }
+   },
+   "web": {
+    "total": 13,
+    "verses": 13,
+    "first": "Matthew 1:1",
+    "top": {
+     "book": "Matthew",
+     "count": 8,
+     "tied": [
+      "Matthew"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Matthew 9:27",
+   "checkText": "And when Jesus departed thence, two blind men followed him, crying, and saying, Thou Son of David, have mercy on us.",
+   "note": "Left out: Matthew 1:20 (said to Joseph) and Luke 3:31 (Nathan, in the family line).",
+   "excluded": [
+    {
+     "id": "kjv",
+     "ref": "Matthew 1:20",
+     "why": "Joseph"
+    },
+    {
+     "id": "kjv",
+     "ref": "Luke 3:31",
+     "why": "Nathan"
+    },
+    {
+     "id": "web",
+     "ref": "Matthew 1:20",
+     "why": "Joseph"
+    },
+    {
+     "id": "web",
+     "ref": "Luke 3:31",
+     "why": "Nathan"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "name": "Lamb of God",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "the Lamb of God",
+   "webPhrase": null,
+   "kjv": {
+    "total": 2,
+    "verses": 2,
+    "first": "John 1:29",
+    "top": {
+     "book": "John",
+     "count": 2,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "web": {
+    "total": 2,
+    "verses": 2,
+    "first": "John 1:29",
+    "top": {
+     "book": "John",
+     "count": 2,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "webRefs": [
+    "John 1:29",
+    "John 1:36"
+   ],
+   "kjvRefs": [
+    "John 1:29",
+    "John 1:36"
+   ],
+   "check": "John 1:29",
+   "checkText": "The next day John seeth Jesus coming unto him, and saith, Behold the Lamb of God, which taketh away the sin of the world.",
+   "note": "John the Baptist says it twice, in John 1:29 and 1:36.",
+   "excluded": []
+  },
+  {
+   "n": 10,
+   "name": "the Lamb",
+   "prophecy": false,
+   "scope": "NT",
+   "books": [
+    "Revelation"
+   ],
+   "kjvPhrase": "the Lamb",
+   "webPhrase": null,
+   "kjv": {
+    "total": 28,
+    "verses": 26,
+    "first": "Revelation 5:6",
+    "top": {
+     "book": "Revelation",
+     "count": 28,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "web": {
+    "total": 29,
+    "verses": 27,
+    "first": "Revelation 5:6",
+    "top": {
+     "book": "Revelation",
+     "count": 29,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Revelation 5:12",
+   "checkText": "Saying with a loud voice, Worthy is the Lamb that was slain to receive power, and riches, and wisdom, and strength, and honour, and glory, and blessing.",
+   "note": "Capital-L Lamb in Revelation only. Revelation 13:11, where a beast has \"two horns like a lamb\", is lower case and not counted.",
+   "excluded": []
+  },
+  {
+   "n": 11,
+   "name": "the Word",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "the Word",
+   "webPhrase": null,
+   "kjv": {
+    "total": 7,
+    "verses": 5,
+    "first": "John 1:1",
+    "top": {
+     "book": "John",
+     "count": 4,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "web": {
+    "total": 6,
+    "verses": 4,
+    "first": "John 1:1",
+    "top": {
+     "book": "John",
+     "count": 4,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "webRefs": [
+    "John 1:1",
+    "John 1:14",
+    "1 John 1:1",
+    "Revelation 19:13"
+   ],
+   "kjvRefs": [
+    "John 1:1",
+    "John 1:14",
+    "1 John 1:1",
+    "1 John 5:7",
+    "Revelation 19:13"
+   ],
+   "check": "John 1:14",
+   "checkText": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
+   "note": "Capital-W Word as a title: John 1:1 (three times), 1:14, 1 John 1:1 and Revelation 19:13. The KJV also has 1 John 5:7, which the WEB lacks. The WEB's capital Word for God's message (five verses) is not counted.",
+   "excluded": [
+    {
+     "id": "web",
+     "ref": "2 Timothy 2:15",
+     "why": "the message"
+    },
+    {
+     "id": "web",
+     "ref": "1 Peter 2:2",
+     "why": "the message"
+    },
+    {
+     "id": "web",
+     "ref": "1 Peter 3:1",
+     "why": "the message"
+    },
+    {
+     "id": "web",
+     "ref": "Revelation 1:9",
+     "why": "the message"
+    },
+    {
+     "id": "web",
+     "ref": "Revelation 6:9",
+     "why": "the message"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "name": "Emmanuel",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Emmanuel",
+   "webPhrase": "Immanuel",
+   "kjv": {
+    "total": 1,
+    "verses": 1,
+    "first": "Matthew 1:23",
+    "top": {
+     "book": "Matthew",
+     "count": 1,
+     "tied": [
+      "Matthew"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "verses": 1,
+    "first": "Matthew 1:23",
+    "top": {
+     "book": "Matthew",
+     "count": 1,
+     "tied": [
+      "Matthew"
+     ]
+    }
+   },
+   "webRefs": [
+    "Matthew 1:23"
+   ],
+   "kjvRefs": [
+    "Matthew 1:23"
+   ],
+   "check": "Matthew 1:23",
+   "checkText": "Behold, a virgin shall be with child, and shall bring forth a son, and they shall call his name Emmanuel, which being interpreted is, God with us.",
+   "note": "Matthew explains the name: \"God with us\".",
+   "excluded": []
+  },
+  {
+   "n": 13,
+   "name": "Messias (Messiah)",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Messias",
+   "webPhrase": "Messiah",
+   "kjv": {
+    "total": 2,
+    "verses": 2,
+    "first": "John 1:41",
+    "top": {
+     "book": "John",
+     "count": 2,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "web": {
+    "total": 2,
+    "verses": 2,
+    "first": "John 1:41",
+    "top": {
+     "book": "John",
+     "count": 2,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "webRefs": [
+    "John 1:41",
+    "John 4:25"
+   ],
+   "kjvRefs": [
+    "John 1:41",
+    "John 4:25"
+   ],
+   "check": "John 1:41",
+   "checkText": "He first findeth his own brother Simon, and saith unto him, We have found the Messias, which is, being interpreted, the Christ.",
+   "note": "John 1:41 says the word means \"the Christ\".",
+   "excluded": []
+  },
+  {
+   "n": 14,
+   "name": "Rabbi",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Rabbi",
+   "webPhrase": null,
+   "kjv": {
+    "total": 4,
+    "verses": 4,
+    "first": "John 1:38",
+    "top": {
+     "book": "John",
+     "count": 4,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "web": {
+    "total": 13,
+    "verses": 12,
+    "first": "Matthew 26:25",
+    "top": {
+     "book": "John",
+     "count": 7,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": [
+    "John 1:38",
+    "John 1:49",
+    "John 3:2",
+    "John 6:25"
+   ],
+   "check": "John 1:49",
+   "checkText": "Nathanael answered and saith unto him, Rabbi, thou art the Son of God; thou art the King of Israel.",
+   "note": "Only where someone speaks to Jesus. Left out: Matthew 23:7-8, where Jesus warns against the title, and John 3:26, said to John the Baptist.",
+   "excluded": [
+    {
+     "id": "kjv",
+     "ref": "Matthew 23:7",
+     "why": "the scribes' greeting"
+    },
+    {
+     "id": "kjv",
+     "ref": "Matthew 23:8",
+     "why": "disciples told not to take it"
+    },
+    {
+     "id": "kjv",
+     "ref": "John 3:26",
+     "why": "said to John the Baptist"
+    },
+    {
+     "id": "web",
+     "ref": "Matthew 23:7",
+     "why": "the scribes' greeting"
+    },
+    {
+     "id": "web",
+     "ref": "Matthew 23:8",
+     "why": "disciples told not to take it"
+    },
+    {
+     "id": "web",
+     "ref": "John 3:26",
+     "why": "said to John the Baptist"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "name": "Rabboni",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Rabboni",
+   "webPhrase": null,
+   "kjv": {
+    "total": 1,
+    "verses": 1,
+    "first": "John 20:16",
+    "top": {
+     "book": "John",
+     "count": 1,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "web": {
+    "total": 2,
+    "verses": 2,
+    "first": "Mark 10:51",
+    "top": {
+     "book": "Mark",
+     "count": 1,
+     "tied": [
+      "Mark",
+      "John"
+     ]
+    }
+   },
+   "webRefs": [
+    "Mark 10:51",
+    "John 20:16"
+   ],
+   "kjvRefs": [
+    "John 20:16"
+   ],
+   "check": "John 20:16",
+   "checkText": "Jesus saith unto her, Mary. She turned herself, and saith unto him, Rabboni; which is to say, Master.",
+   "note": "The WEB also has it at Mark 10:51, where the KJV reads Lord.",
+   "excluded": []
+  },
+  {
+   "n": 16,
+   "name": "Master",
+   "prophecy": false,
+   "scope": "NT",
+   "books": [
+    "Matthew",
+    "Mark",
+    "Luke",
+    "John"
+   ],
+   "kjvPhrase": "Master",
+   "webPhrase": "Teacher",
+   "kjv": {
+    "total": 54,
+    "verses": 54,
+    "first": "Matthew 8:19",
+    "top": {
+     "book": "Luke",
+     "count": 19,
+     "tied": [
+      "Luke"
+     ]
+    }
+   },
+   "web": {
+    "total": 36,
+    "verses": 36,
+    "first": "Matthew 8:19",
+    "top": {
+     "book": "Luke",
+     "count": 13,
+     "tied": [
+      "Luke"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "John 13:13",
+   "checkText": "Ye call me Master and Lord: and ye say well; for so I am.",
+   "note": "Capital-M Master in the four Gospels only, less Luke 3:12, said to John the Baptist. The WEB column counts Teacher, its usual word in these verses.",
+   "excluded": [
+    {
+     "id": "kjv",
+     "ref": "Luke 3:12",
+     "why": "said to John the Baptist"
+    },
+    {
+     "id": "web",
+     "ref": "Luke 3:12",
+     "why": "said to John the Baptist"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "name": "Jesus of Nazareth",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Jesus of Nazareth",
+   "webPhrase": null,
+   "kjv": {
+    "total": 17,
+    "verses": 17,
+    "first": "Matthew 26:71",
+    "top": {
+     "book": "Acts",
+     "count": 5,
+     "tied": [
+      "Acts"
+     ]
+    }
+   },
+   "web": {
+    "total": 12,
+    "verses": 12,
+    "first": "Matthew 26:71",
+    "top": {
+     "book": "Acts",
+     "count": 5,
+     "tied": [
+      "Acts"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Acts 2:22",
+   "checkText": "Ye men of Israel, hear these words; Jesus of Nazareth, a man approved of God among you by miracles and wonders and signs, which God did by him in the midst of you, as ye yourselves also know:",
+   "note": "The WEB often reads \"Jesus the Nazarene\" instead.",
+   "excluded": []
+  },
+  {
+   "n": 18,
+   "name": "the Nazarene",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "a Nazarene",
+   "webPhrase": null,
+   "kjv": {
+    "total": 1,
+    "verses": 1,
+    "first": "Matthew 2:23",
+    "top": {
+     "book": "Matthew",
+     "count": 1,
+     "tied": [
+      "Matthew"
+     ]
+    }
+   },
+   "web": {
+    "total": 6,
+    "verses": 6,
+    "first": "Matthew 2:23",
+    "top": {
+     "book": "Mark",
+     "count": 4,
+     "tied": [
+      "Mark"
+     ]
+    }
+   },
+   "webRefs": [
+    "Matthew 2:23",
+    "Mark 1:24",
+    "Mark 10:47",
+    "Mark 14:67",
+    "Mark 16:6",
+    "Luke 24:19"
+   ],
+   "kjvRefs": [
+    "Matthew 2:23"
+   ],
+   "check": "Matthew 2:23",
+   "checkText": "And he came and dwelt in a city called Nazareth: that it might be fulfilled which was spoken by the prophets, He shall be called a Nazarene.",
+   "note": "Singular only; Acts 24:5's \"sect of the Nazarenes\" is not counted.",
+   "excluded": []
+  },
+  {
+   "n": 19,
+   "name": "King of the Jews",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "the King of the Jews",
+   "webPhrase": null,
+   "kjv": {
+    "total": 18,
+    "verses": 17,
+    "first": "Matthew 2:2",
+    "top": {
+     "book": "John",
+     "count": 6,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "web": {
+    "total": 18,
+    "verses": 17,
+    "first": "Matthew 2:2",
+    "top": {
+     "book": "John",
+     "count": 6,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "John 19:19",
+   "checkText": "And Pilate wrote a title, and put it on the cross. And the writing was, JESUS OF NAZARETH THE KING OF THE JEWS.",
+   "note": "First in Matthew 2:2, where the wise men ask where he is.",
+   "excluded": []
+  },
+  {
+   "n": 20,
+   "name": "King of kings and Lord of lords",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "King of kings, and Lord of lords",
+   "webPhrase": null,
+   "kjv": {
+    "total": 3,
+    "verses": 3,
+    "first": "1 Timothy 6:15",
+    "top": {
+     "book": "Revelation",
+     "count": 2,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "web": {
+    "total": 3,
+    "verses": 3,
+    "first": "1 Timothy 6:15",
+    "top": {
+     "book": "Revelation",
+     "count": 2,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "webRefs": [
+    "1 Timothy 6:15",
+    "Revelation 17:14",
+    "Revelation 19:16"
+   ],
+   "kjvRefs": [
+    "1 Timothy 6:15",
+    "Revelation 17:14",
+    "Revelation 19:16"
+   ],
+   "check": "Revelation 17:14",
+   "checkText": "These shall make war with the Lamb, and the Lamb shall overcome them: for he is Lord of lords, and King of kings: and they that are with him are called, and chosen, and faithful.",
+   "note": "1 Timothy 6:15 gives the same pair to \"the blessed and only Potentate\"; Revelation 17:14 gives it to the Lamb.",
+   "excluded": []
+  },
+  {
+   "n": 21,
+   "name": "Alpha and Omega",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "Alpha and Omega",
+   "webPhrase": "the Alpha and the Omega",
+   "kjv": {
+    "total": 4,
+    "verses": 4,
+    "first": "Revelation 1:8",
+    "top": {
+     "book": "Revelation",
+     "count": 4,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "web": {
+    "total": 3,
+    "verses": 3,
+    "first": "Revelation 1:8",
+    "top": {
+     "book": "Revelation",
+     "count": 3,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "webRefs": [
+    "Revelation 1:8",
+    "Revelation 21:6",
+    "Revelation 22:13"
+   ],
+   "kjvRefs": [
+    "Revelation 1:8",
+    "Revelation 1:11",
+    "Revelation 21:6",
+    "Revelation 22:13"
+   ],
+   "check": "Revelation 22:13",
+   "checkText": "I am Alpha and Omega, the beginning and the end, the first and the last.",
+   "note": "Revelation 22:16 names the speaker: \"I Jesus\". Revelation 1:8 gives it to the Lord, \"the Almighty\". The WEB lacks it at 1:11.",
+   "excluded": []
+  },
+  {
+   "n": 22,
+   "name": "the bright and morning star",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "the bright and morning star",
+   "webPhrase": null,
+   "kjv": {
+    "total": 2,
+    "verses": 2,
+    "first": "Revelation 2:28",
+    "top": {
+     "book": "Revelation",
+     "count": 2,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "web": {
+    "total": 3,
+    "verses": 3,
+    "first": "2 Peter 1:19",
+    "top": {
+     "book": "Revelation",
+     "count": 2,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "webRefs": [
+    "2 Peter 1:19",
+    "Revelation 2:28",
+    "Revelation 22:16"
+   ],
+   "kjvRefs": [
+    "Revelation 2:28",
+    "Revelation 22:16"
+   ],
+   "check": "Revelation 22:16",
+   "checkText": "I Jesus have sent mine angel to testify unto you these things in the churches. I am the root and the offspring of David, and the bright and morning star.",
+   "note": "Counts \"morning star\". Revelation 2:28 promises \"the morning star\" to the faithful. The WEB also has it at 2 Peter 1:19, where the KJV reads \"day star\".",
+   "excluded": []
+  },
+  {
+   "n": 23,
+   "name": "the Lion of the tribe of Juda",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "the Lion of the tribe of Juda",
+   "webPhrase": "the Lion who is of the tribe of Judah",
+   "kjv": {
+    "total": 1,
+    "verses": 1,
+    "first": "Revelation 5:5",
+    "top": {
+     "book": "Revelation",
+     "count": 1,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "verses": 1,
+    "first": "Revelation 5:5",
+    "top": {
+     "book": "Revelation",
+     "count": 1,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "webRefs": [
+    "Revelation 5:5"
+   ],
+   "kjvRefs": [
+    "Revelation 5:5"
+   ],
+   "check": "Revelation 5:5",
+   "checkText": "And one of the elders saith unto me, Weep not: behold, the Lion of the tribe of Juda, the Root of David, hath prevailed to open the book, and to loose the seven seals thereof.",
+   "note": "In the next verse John sees \"a Lamb as it had been slain\" (Revelation 5:6).",
+   "excluded": []
+  },
+  {
+   "n": 24,
+   "name": "high priest",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "a great high priest",
+   "webPhrase": null,
+   "kjv": {
+    "total": 58,
+    "verses": 56,
+    "first": "Matthew 26:3",
+    "top": {
+     "book": "Hebrews",
+     "count": 16,
+     "tied": [
+      "Hebrews"
+     ]
+    }
+   },
+   "web": {
+    "total": 59,
+    "verses": 56,
+    "first": "Matthew 26:3",
+    "top": {
+     "book": "Hebrews",
+     "count": 17,
+     "tied": [
+      "Hebrews"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Hebrews 4:14",
+   "checkText": "Seeing then that we have a great high priest, that is passed into the heavens, Jesus the Son of God, let us hold fast our profession.",
+   "note": "Raw count: most uses are the high priest in Jerusalem, such as Caiaphas (Matthew 26:3). Hebrews, the book that uses it most, gives it to Jesus.",
+   "excluded": []
+  },
+  {
+   "n": 25,
+   "name": "Saviour",
+   "prophecy": false,
+   "scope": "NT",
+   "books": null,
+   "kjvPhrase": "a Saviour, which is Christ the Lord",
+   "webPhrase": "Savior",
+   "kjv": {
+    "total": 23,
+    "verses": 23,
+    "first": "Luke 1:47",
+    "top": {
+     "book": "Titus",
+     "count": 6,
+     "tied": [
+      "Titus"
+     ]
+    }
+   },
+   "web": {
+    "total": 22,
+    "verses": 22,
+    "first": "Luke 1:47",
+    "top": {
+     "book": "Titus",
+     "count": 6,
+     "tied": [
+      "Titus"
+     ]
+    }
+   },
+   "webRefs": null,
+   "kjvRefs": null,
+   "check": "Luke 2:11",
+   "checkText": "For unto you is born this day in the city of David a Saviour, which is Christ the Lord.",
+   "note": "Raw count: some verses give the title to God, as Luke 1:47 (\"God my Saviour\") and Titus 1:3 (\"God our Saviour\").",
+   "excluded": []
+  },
+  {
+   "n": 26,
+   "name": "Immanuel",
+   "prophecy": true,
+   "scope": "OT",
+   "books": null,
+   "kjvPhrase": "Immanuel",
+   "webPhrase": null,
+   "kjv": {
+    "total": 2,
+    "verses": 2,
+    "first": "Isaiah 7:14",
+    "top": {
+     "book": "Isaiah",
+     "count": 2,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "web": {
+    "total": 2,
+    "verses": 2,
+    "first": "Isaiah 7:14",
+    "top": {
+     "book": "Isaiah",
+     "count": 2,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "webRefs": [
+    "Isaiah 7:14",
+    "Isaiah 8:8"
+   ],
+   "kjvRefs": [
+    "Isaiah 7:14",
+    "Isaiah 8:8"
+   ],
+   "check": "Isaiah 7:14",
+   "checkText": "Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel.",
+   "note": "Isaiah 7:14 and 8:8. Matthew 1:22-23 quotes the words of Isaiah 7:14 as fulfilled at the birth of Jesus.",
+   "excluded": []
+  },
+  {
+   "n": 27,
+   "name": "Messiah",
+   "prophecy": true,
+   "scope": "OT",
+   "books": [
+    "Daniel"
+   ],
+   "kjvPhrase": "Messiah the Prince",
+   "webPhrase": "the Anointed One",
+   "kjv": {
+    "total": 2,
+    "verses": 2,
+    "first": "Daniel 9:25",
+    "top": {
+     "book": "Daniel",
+     "count": 2,
+     "tied": [
+      "Daniel"
+     ]
+    }
+   },
+   "web": {
+    "total": 2,
+    "verses": 2,
+    "first": "Daniel 9:25",
+    "top": {
+     "book": "Daniel",
+     "count": 2,
+     "tied": [
+      "Daniel"
+     ]
+    }
+   },
+   "webRefs": [
+    "Daniel 9:25",
+    "Daniel 9:26"
+   ],
+   "kjvRefs": [
+    "Daniel 9:25",
+    "Daniel 9:26"
+   ],
+   "check": "Daniel 9:25",
+   "checkText": "Know therefore and understand, that from the going forth of the commandment to restore and to build Jerusalem unto the Messiah the Prince shall be seven weeks, and threescore and two weeks: the street shall be built again, and the wall, even in troublous times.",
+   "note": "Daniel 9:25-26 are the only verses where the KJV prints Messiah. The KJV New Testament spells it Messias, twice.",
+   "excluded": []
+  },
+  {
+   "n": 28,
+   "name": "Wonderful, Counsellor, Prince of Peace",
+   "prophecy": true,
+   "scope": "OT",
+   "books": null,
+   "kjvPhrase": "Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace",
+   "webPhrase": null,
+   "kjv": {
+    "total": 1,
+    "verses": 1,
+    "first": "Isaiah 9:6",
+    "top": {
+     "book": "Isaiah",
+     "count": 1,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "verses": 1,
+    "first": "Isaiah 9:6",
+    "top": {
+     "book": "Isaiah",
+     "count": 1,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "webRefs": [
+    "Isaiah 9:6"
+   ],
+   "kjvRefs": [
+    "Isaiah 9:6"
+   ],
+   "check": "Isaiah 9:6",
+   "checkText": "For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace.",
+   "note": "Counts \"Prince of Peace\". The New Testament does not use the phrase.",
+   "excluded": []
+  }
+ ],
+ "iam": [
+  {
+   "n": 1,
+   "saying": "I am the bread of life",
+   "webSaying": "I am the bread of life",
+   "ref": "John 6:35",
+   "kjvText": "And Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst.",
+   "webText": "Jesus said to them, “I am the bread of life. He who comes to me will not be hungry, and he who believes in me will never be thirsty.",
+   "kjv": 2,
+   "kjvRefs": [
+    "John 6:35",
+    "John 6:48"
+   ],
+   "web": 2,
+   "also": "John 6:48 repeats it as \"I am that bread of life\"."
+  },
+  {
+   "n": 2,
+   "saying": "I am the light of the world",
+   "webSaying": "I am the light of the world",
+   "ref": "John 8:12",
+   "kjvText": "Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.",
+   "webText": "Again, therefore, Jesus spoke to them, saying, “I am the light of the world. He who follows me will not walk in the darkness, but will have the light of life.”",
+   "kjv": 2,
+   "kjvRefs": [
+    "John 8:12",
+    "John 9:5"
+   ],
+   "web": 2,
+   "also": "John 9:5 repeats it. In Matthew 5:14 Jesus tells his listeners \"Ye are the light of the world\"."
+  },
+  {
+   "n": 3,
+   "saying": "I am the door",
+   "webSaying": "I am the door",
+   "ref": "John 10:9",
+   "kjvText": "I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture.",
+   "webText": "I am the door. If anyone enters in by me, he will be saved, and will go in and go out, and will find pasture.",
+   "kjv": 2,
+   "kjvRefs": [
+    "John 10:7",
+    "John 10:9"
+   ],
+   "web": 2,
+   "also": "John 10:7 has \"I am the door of the sheep\"."
+  },
+  {
+   "n": 4,
+   "saying": "I am the good shepherd",
+   "webSaying": "I am the good shepherd",
+   "ref": "John 10:11",
+   "kjvText": "I am the good shepherd: the good shepherd giveth his life for the sheep.",
+   "webText": "I am the good shepherd. The good shepherd lays down his life for the sheep.",
+   "kjv": 2,
+   "kjvRefs": [
+    "John 10:11",
+    "John 10:14"
+   ],
+   "web": 2,
+   "also": "John 10:14 repeats it."
+  },
+  {
+   "n": 5,
+   "saying": "I am the resurrection, and the life",
+   "webSaying": "I am the resurrection and the life",
+   "ref": "John 11:25",
+   "kjvText": "Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:",
+   "webText": "Jesus said to her, “I am the resurrection and the life. He who believes in me will still live, even if he dies.",
+   "kjv": 1,
+   "kjvRefs": [
+    "John 11:25"
+   ],
+   "web": 1,
+   "also": "Said to Martha before Lazarus is raised."
+  },
+  {
+   "n": 6,
+   "saying": "I am the way, the truth, and the life",
+   "webSaying": "I am the way, the truth, and the life",
+   "ref": "John 14:6",
+   "kjvText": "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.",
+   "webText": "Jesus said to him, “I am the way, the truth, and the life. No one comes to the Father, except through me.",
+   "kjv": 1,
+   "kjvRefs": [
+    "John 14:6"
+   ],
+   "web": 1,
+   "also": "Said to Thomas."
+  },
+  {
+   "n": 7,
+   "saying": "I am the true vine",
+   "webSaying": "I am the true vine",
+   "ref": "John 15:1",
+   "kjvText": "I am the true vine, and my Father is the husbandman.",
+   "webText": "“I am the true vine, and my Father is the farmer.",
+   "kjv": 2,
+   "kjvRefs": [
+    "John 15:1",
+    "John 15:5"
+   ],
+   "web": 2,
+   "also": "John 15:5 repeats it as \"I am the vine\"."
+  }
+ ],
+ "sonOfMan": {
+  "gospels": [
+   {
+    "book": "Matthew",
+    "kjv": 32,
+    "web": 32
+   },
+   {
+    "book": "Mark",
+    "kjv": 15,
+    "web": 14
+   },
+   {
+    "book": "Luke",
+    "kjv": 26,
+    "web": 26
+   },
+   {
+    "book": "John",
+    "kjv": 12,
+    "web": 11
+   }
+  ],
+  "gospelTotal": 85,
+  "top": "Matthew",
+  "ezekiel": {
+   "kjv": 93,
+   "web": 93
+  },
+  "outsideGospels": 3,
+  "outsideRefs": [
+   "Acts 7:56",
+   "Revelation 1:13",
+   "Revelation 14:14"
+  ]
+ },
+ "jesusOT": {
+  "kjv": 0,
+  "web": 0
+ },
+ "jesusRaw": {
+  "kjv": 984,
+  "web": 980
+ },
+ "rabbiRaw": {
+  "kjv": 8,
+  "web": 17
+ },
+ "lordRaw": {
+  "kjv": 682,
+  "web": 674
+ },
+ "highPriestHebrews": 16,
+ "counts": {
+  "ntRows": 25,
+  "prophecyRows": 3,
+  "iamRows": 7,
+  "total": 35
+ }
+}

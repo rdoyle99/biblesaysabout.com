@@ -229,6 +229,38 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/women-of-the-bible"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Women of the Bible
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/names-of-jesus"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Names of Jesus
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/parables-of-jesus"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Parables of Jesus
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/miracles-of-jesus"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Miracles of Jesus
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/bible-by-the-numbers"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >

@@ -476,6 +476,10 @@ export default function HomeClient({
               ["/armor-of-god", "Armor of God"],
               ["/twelve-tribes-of-israel", "The 12 tribes of Israel"],
               ["/ten-plagues-of-egypt", "The 10 plagues of Egypt"],
+              ["/women-of-the-bible", "Women of the Bible"],
+              ["/names-of-jesus", "Names of Jesus"],
+              ["/parables-of-jesus", "The parables of Jesus"],
+              ["/miracles-of-jesus", "The miracles of Jesus"],
             ].map(([href, label], i) => (
               <span key={href}>
                 {i ? " · " : ""}
