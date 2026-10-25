@@ -1,0 +1,1021 @@
+{
+ "generated": "2026-10-25",
+ "rows": [
+  {
+   "seq": 1,
+   "name": "Othniel",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "3:7-11",
+   "tribe": "Judah (Caleb's younger brother; Caleb was of Judah)",
+   "tribeRef": "Numbers 13:6",
+   "oppressor": {
+    "who": "Chushan-rishathaim, king of Mesopotamia",
+    "years": 8,
+    "ref": "Judges 3:8",
+    "kjv": "eight years",
+    "web": "eight years"
+   },
+   "rule": {
+    "kind": "rest",
+    "years": 40,
+    "ref": "Judges 3:11",
+    "kjv": "forty years",
+    "web": "forty years"
+   },
+   "key": [
+    "Judges 3:9",
+    "Judges 3:10",
+    "Judges 1:13"
+   ],
+   "quote": "Othniel the son of Kenaz, Caleb's younger brother",
+   "quoteRef": "Judges 3:9",
+   "text": "The first judge. The Spirit of the LORD came on him and he defeated the king of Mesopotamia; earlier he had taken the city of Kirjath-sepher and married Caleb's daughter Achsah.",
+   "verses": 5,
+   "order": 1,
+   "judgedIsrael": true
+  },
+  {
+   "seq": 2,
+   "name": "Ehud",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "3:12-30",
+   "tribe": "Benjamin",
+   "tribeRef": "Judges 3:15",
+   "oppressor": {
+    "who": "Eglon, king of Moab",
+    "years": 18,
+    "ref": "Judges 3:14",
+    "kjv": "eighteen years",
+    "web": "eighteen years"
+   },
+   "rule": {
+    "kind": "rest",
+    "years": 80,
+    "ref": "Judges 3:30",
+    "kjv": "fourscore years",
+    "web": "eighty years"
+   },
+   "key": [
+    "Judges 3:15",
+    "Judges 3:21"
+   ],
+   "quote": "a man lefthanded",
+   "quoteRef": "Judges 3:15",
+   "text": "A left-handed man who brought Eglon a present, then killed him with a dagger in his private room. The 80 years of rest after him are the longest rest in the book.",
+   "verses": 19,
+   "order": 2,
+   "judgedIsrael": false
+  },
+  {
+   "seq": 3,
+   "name": "Shamgar",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "3:31",
+   "tribe": "Not given (\"the son of Anath\")",
+   "tribeRef": null,
+   "oppressor": null,
+   "rule": null,
+   "key": [
+    "Judges 3:31",
+    "Judges 5:6"
+   ],
+   "quote": "Shamgar the son of Anath, which slew of the Philistines six hundred men with an ox goad: and he also delivered Israel",
+   "quoteRef": "Judges 3:31",
+   "text": "One verse: he killed 600 Philistines with an ox goad and \"also delivered Israel\". No years are given, and Deborah's song names him once more (Judges 5:6).",
+   "verses": 1,
+   "order": 3,
+   "judgedIsrael": false
+  },
+  {
+   "seq": 4,
+   "name": "Deborah",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "4-5",
+   "tribe": "Not given (she lived in mount Ephraim)",
+   "tribeRef": null,
+   "oppressor": {
+    "who": "Jabin, king of Canaan, and his captain Sisera",
+    "years": 20,
+    "ref": "Judges 4:3",
+    "kjv": "twenty years",
+    "web": "twenty years"
+   },
+   "rule": {
+    "kind": "rest",
+    "years": 40,
+    "ref": "Judges 5:31",
+    "kjv": "forty years",
+    "web": "forty years"
+   },
+   "key": [
+    "Judges 4:4",
+    "Judges 4:5",
+    "Judges 5:7"
+   ],
+   "quote": "Deborah, a prophetess, the wife of Lapidoth, she judged Israel at that time",
+   "quoteRef": "Judges 4:4",
+   "text": "A prophetess, and the only woman among the judges. Israel came to her for judgment under a palm tree between Ramah and Bethel; she sent Barak against Sisera, and Jael killed Sisera with a tent nail.",
+   "verses": 55,
+   "order": 4,
+   "judgedIsrael": true
+  },
+  {
+   "seq": 5,
+   "name": "Barak",
+   "kind": "partner",
+   "book": "Judges",
+   "chapters": "4-5",
+   "tribe": "Naphtali (from Kedesh-naphtali)",
+   "tribeRef": "Judges 4:6",
+   "oppressor": null,
+   "rule": null,
+   "key": [
+    "Judges 4:8",
+    "Judges 5:1",
+    "Hebrews 11:32"
+   ],
+   "quote": "If thou wilt go with me, then I will go",
+   "quoteRef": "Judges 4:8",
+   "text": "Deborah's commander, who would not go to battle without her. The text never says he judged Israel, but Hebrews 11:32 names him beside Gideon, Samson and Jephthah.",
+   "verses": null,
+   "order": null,
+   "judgedIsrael": false
+  },
+  {
+   "seq": 6,
+   "name": "Gideon",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "6-8",
+   "tribe": "Manasseh (the family of Abiezer)",
+   "tribeRef": "Judges 6:15",
+   "oppressor": {
+    "who": "Midian",
+    "years": 7,
+    "ref": "Judges 6:1",
+    "kjv": "seven years",
+    "web": "seven years"
+   },
+   "rule": {
+    "kind": "quietness",
+    "years": 40,
+    "ref": "Judges 8:28",
+    "kjv": "forty years",
+    "web": "forty years"
+   },
+   "key": [
+    "Judges 6:11",
+    "Judges 7:7",
+    "Judges 8:23",
+    "Judges 6:32"
+   ],
+   "quote": "his son Gideon threshed wheat by the winepress",
+   "quoteRef": "Judges 6:11",
+   "text": "Also called Jerubbaal. He tested God with a fleece, beat Midian with 300 men, and refused to rule over Israel. The gold ephod he made later \"became a snare unto Gideon, and to his house\".",
+   "verses": 97,
+   "order": 5,
+   "judgedIsrael": false
+  },
+  {
+   "seq": 7,
+   "name": "Abimelech",
+   "kind": "ruler",
+   "book": "Judges",
+   "chapters": "9",
+   "tribe": "Manasseh (Gideon's son, by a concubine in Shechem)",
+   "tribeRef": "Judges 8:31",
+   "oppressor": null,
+   "rule": {
+    "kind": "reigned",
+    "years": 3,
+    "ref": "Judges 9:22",
+    "kjv": "three years",
+    "web": "three years"
+   },
+   "key": [
+    "Judges 9:5",
+    "Judges 9:6",
+    "Judges 9:53"
+   ],
+   "quote": "slew his brethren the sons of Jerubbaal, being threescore and ten persons, upon one stone",
+   "quoteRef": "Judges 9:5",
+   "text": "Not called a judge. He killed 70 of his brothers, was made king by the men of Shechem, and at Thebez a woman cast a piece of a millstone on his head; his armourbearer finished him.",
+   "verses": 57,
+   "order": null,
+   "judgedIsrael": false
+  },
+  {
+   "seq": 8,
+   "name": "Tola",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "10:1-2",
+   "tribe": "Issachar",
+   "tribeRef": "Judges 10:1",
+   "oppressor": null,
+   "rule": {
+    "kind": "judged",
+    "years": 23,
+    "ref": "Judges 10:2",
+    "kjv": "twenty and three years",
+    "web": "twenty-three years"
+   },
+   "key": [
+    "Judges 10:1",
+    "Judges 10:2"
+   ],
+   "quote": "there arose to defend Israel Tola",
+   "quoteRef": "Judges 10:1",
+   "text": "Rose \"to defend Israel\" after Abimelech. He lived and was buried in Shamir in mount Ephraim.",
+   "verses": 2,
+   "order": 6,
+   "judgedIsrael": true
+  },
+  {
+   "seq": 9,
+   "name": "Jair",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "10:3-5",
+   "tribe": "Not given (\"a Gileadite\", east of the Jordan)",
+   "tribeRef": null,
+   "oppressor": null,
+   "rule": {
+    "kind": "judged",
+    "years": 22,
+    "ref": "Judges 10:3",
+    "kjv": "twenty and two years",
+    "web": "twenty-two years"
+   },
+   "key": [
+    "Judges 10:3",
+    "Judges 10:4"
+   ],
+   "quote": "Jair, a Gileadite",
+   "quoteRef": "Judges 10:3",
+   "text": "He had 30 sons who rode 30 donkey colts and held 30 towns in Gilead, called Havoth-jair.",
+   "verses": 3,
+   "order": 7,
+   "judgedIsrael": true
+  },
+  {
+   "seq": 10,
+   "name": "Jephthah",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "10:6-12:7",
+   "tribe": "Not given (\"the Gileadite\", east of the Jordan)",
+   "tribeRef": null,
+   "oppressor": {
+    "who": "Ammon (with the Philistines in the west)",
+    "years": 18,
+    "ref": "Judges 10:8",
+    "kjv": "eighteen years",
+    "web": "eighteen years"
+   },
+   "rule": {
+    "kind": "judged",
+    "years": 6,
+    "ref": "Judges 12:7",
+    "kjv": "six years",
+    "web": "six years"
+   },
+   "key": [
+    "Judges 11:1",
+    "Judges 11:31",
+    "Judges 11:34"
+   ],
+   "quote": "Jephthah the Gileadite was a mighty man of valour, and he was the son of an harlot",
+   "quoteRef": "Judges 11:1",
+   "text": "The son of a harlot, driven out by his brothers and then called back to lead Gilead against Ammon. He vowed a burnt offering of whatever came out of his house first, and his only daughter came out to meet him.",
+   "verses": 60,
+   "order": 8,
+   "judgedIsrael": true
+  },
+  {
+   "seq": 11,
+   "name": "Ibzan",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "12:8-10",
+   "tribe": "Not given (\"of Bethlehem\"; the text does not say which Bethlehem)",
+   "tribeRef": null,
+   "oppressor": null,
+   "rule": {
+    "kind": "judged",
+    "years": 7,
+    "ref": "Judges 12:9",
+    "kjv": "seven years",
+    "web": "seven years"
+   },
+   "key": [
+    "Judges 12:8",
+    "Judges 12:9"
+   ],
+   "quote": "Ibzan of Bethlehem judged Israel",
+   "quoteRef": "Judges 12:8",
+   "text": "He had 30 sons and 30 daughters, married all 60 outside his clan, and was buried at Bethlehem.",
+   "verses": 3,
+   "order": 9,
+   "judgedIsrael": true
+  },
+  {
+   "seq": 12,
+   "name": "Elon",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "12:11-12",
+   "tribe": "Zebulun",
+   "tribeRef": "Judges 12:11",
+   "oppressor": null,
+   "rule": {
+    "kind": "judged",
+    "years": 10,
+    "ref": "Judges 12:11",
+    "kjv": "ten years",
+    "web": "ten years"
+   },
+   "key": [
+    "Judges 12:12"
+   ],
+   "quote": "was buried in Aijalon in the country of Zebulun",
+   "quoteRef": "Judges 12:12",
+   "text": "Two verses: he judged ten years and was buried in Aijalon in Zebulun.",
+   "verses": 2,
+   "order": 10,
+   "judgedIsrael": true
+  },
+  {
+   "seq": 13,
+   "name": "Abdon",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "12:13-15",
+   "tribe": "Ephraim (a Pirathonite, buried \"in the land of Ephraim\")",
+   "tribeRef": "Judges 12:15",
+   "oppressor": null,
+   "rule": {
+    "kind": "judged",
+    "years": 8,
+    "ref": "Judges 12:14",
+    "kjv": "eight years",
+    "web": "eight years"
+   },
+   "key": [
+    "Judges 12:13",
+    "Judges 12:14"
+   ],
+   "quote": "Abdon the son of Hillel, a Pirathonite",
+   "quoteRef": "Judges 12:13",
+   "text": "He had 40 sons and 30 grandsons (\"nephews\" in the KJV) who rode 70 donkey colts.",
+   "verses": 3,
+   "order": 11,
+   "judgedIsrael": true
+  },
+  {
+   "seq": 14,
+   "name": "Samson",
+   "kind": "judge",
+   "book": "Judges",
+   "chapters": "13-16",
+   "tribe": "Dan",
+   "tribeRef": "Judges 13:2",
+   "oppressor": {
+    "who": "the Philistines",
+    "years": 40,
+    "ref": "Judges 13:1",
+    "kjv": "forty years",
+    "web": "forty years"
+   },
+   "rule": {
+    "kind": "judged",
+    "years": 20,
+    "ref": "Judges 16:31",
+    "kjv": "twenty years",
+    "web": "twenty years"
+   },
+   "key": [
+    "Judges 13:5",
+    "Judges 15:20",
+    "Judges 16:30"
+   ],
+   "quote": "the child shall be a Nazarite unto God from the womb: and he shall begin to deliver Israel out of the hand of the Philistines",
+   "quoteRef": "Judges 13:5",
+   "text": "A Nazarite from birth, he killed a lion bare-handed and a thousand men with a jawbone. Delilah learned the secret of his hair; blinded and bound, he pulled down the house where the Philistines were sacrificing to Dagon, on them and on himself.",
+   "verses": 96,
+   "order": 12,
+   "judgedIsrael": true
+  },
+  {
+   "seq": 15,
+   "name": "Eli",
+   "kind": "samuel",
+   "book": "1 Samuel",
+   "chapters": "1-4",
+   "tribe": "Levi (a priest; God chose his father's house \"out of all the tribes of Israel to be my priest\")",
+   "tribeRef": "1 Samuel 2:28",
+   "oppressor": null,
+   "rule": {
+    "kind": "judged",
+    "years": 40,
+    "ref": "1 Samuel 4:18",
+    "kjv": "forty years",
+    "web": "forty years"
+   },
+   "key": [
+    "1 Samuel 1:9",
+    "1 Samuel 4:15",
+    "1 Samuel 4:18"
+   ],
+   "quote": "Eli the priest sat upon a seat by a post of the temple of the LORD",
+   "quoteRef": "1 Samuel 1:9",
+   "text": "The priest at Shiloh, under whom the boy Samuel served. He died at 98 when he heard the Philistines had taken the ark of God.",
+   "verses": null,
+   "order": 13,
+   "judgedIsrael": true
+  },
+  {
+   "seq": 16,
+   "name": "Samuel",
+   "kind": "samuel",
+   "book": "1 Samuel",
+   "chapters": "1-25",
+   "tribe": "Ephraim by home (mount Ephraim); 1 Chronicles 6:33 lists him among the Levites, a Kohathite",
+   "tribeRef": "1 Samuel 1:1",
+   "oppressor": null,
+   "rule": null,
+   "key": [
+    "1 Samuel 7:15",
+    "1 Samuel 7:16",
+    "1 Samuel 8:5",
+    "1 Samuel 10:1"
+   ],
+   "quote": "Samuel judged Israel all the days of his life",
+   "quoteRef": "1 Samuel 7:15",
+   "text": "The last judge, and a prophet. He judged Israel all his life on a yearly circuit; when the people asked for a king he anointed Saul. No number of years is given.",
+   "verses": null,
+   "order": 14,
+   "judgedIsrael": true
+  }
+ ],
+ "twelve": [
+  "Othniel",
+  "Ehud",
+  "Shamgar",
+  "Deborah",
+  "Gideon",
+  "Tola",
+  "Jair",
+  "Jephthah",
+  "Ibzan",
+  "Elon",
+  "Abdon",
+  "Samson"
+ ],
+ "count": 12,
+ "first": "Othniel",
+ "lastInJudges": "Samson",
+ "woman": "Deborah",
+ "major": [
+  "Othniel",
+  "Ehud",
+  "Deborah",
+  "Gideon",
+  "Jephthah",
+  "Samson"
+ ],
+ "minor": [
+  "Shamgar",
+  "Tola",
+  "Jair",
+  "Ibzan",
+  "Elon",
+  "Abdon"
+ ],
+ "minorVerses": 14,
+ "longestStory": {
+  "name": "Gideon",
+  "verses": 97
+ },
+ "samsonVerses": 96,
+ "years": {
+  "oppression": 111,
+  "rule": 299,
+  "judgesTotal": 410,
+  "eli": 40,
+  "withEli": 450,
+  "acts450": 450,
+  "fromExodus": 480,
+  "wilderness": 40,
+  "saul": 40,
+  "david": 40,
+  "endToEnd": 570,
+  "overBy": 90,
+  "jephthah300": 300,
+  "beforeJephthah": 319
+ },
+ "quotes": {
+  "kings61": "And it came to pass in the four hundred and eightieth year after the children of Israel were come out of the land of Egypt, in the fourth year of Solomon’s reign over Israel, in the month Zif, which is the second month, that he began to build the house of the LORD.",
+  "acts1320": "And after that he gave unto them judges about the space of four hundred and fifty years, until Samuel the prophet.",
+  "acts1320Web": "After these things he gave them judges until Samuel the prophet.",
+  "acts1319Web": "When he had destroyed seven nations in the land of Canaan, he gave them their land for an inheritance, for about four hundred fifty years.",
+  "jephthahShort": "And Jephthah judged Israel six years. Then died Jephthah the Gileadite, and was buried in one of the cities of Gilead."
+ },
+ "judgedIsrael": {
+  "kjv": 19,
+  "kjvVerses": 18,
+  "web": 19,
+  "people": [
+   "Othniel",
+   "Deborah",
+   "Tola",
+   "Jair",
+   "Jephthah",
+   "Ibzan",
+   "Elon",
+   "Abdon",
+   "Samson",
+   "Eli",
+   "Samuel"
+  ],
+  "never": [
+   "Ehud",
+   "Shamgar",
+   "Barak",
+   "Gideon",
+   "Abimelech"
+  ],
+  "refs": {
+   "Judges 3:10": "Othniel",
+   "Judges 4:4": "Deborah",
+   "Judges 10:2": "Tola",
+   "Judges 10:3": "Jair",
+   "Judges 12:7": "Jephthah",
+   "Judges 12:8": "Ibzan",
+   "Judges 12:9": "Ibzan",
+   "Judges 12:11": "Elon",
+   "Judges 12:13": "Abdon",
+   "Judges 12:14": "Abdon",
+   "Judges 15:20": "Samson",
+   "Judges 16:31": "Samson",
+   "1 Samuel 4:18": "Eli",
+   "1 Samuel 7:6": "Samuel",
+   "1 Samuel 7:15": "Samuel",
+   "1 Samuel 7:16": "Samuel",
+   "1 Samuel 7:17": "Samuel",
+   "2 Kings 23:22": null
+  }
+ },
+ "cycle": {
+  "didEvilKjv": {
+   "total": 7,
+   "refs": [
+    "Judges 2:11",
+    "Judges 3:7",
+    "Judges 3:12",
+    "Judges 4:1",
+    "Judges 6:1",
+    "Judges 10:6",
+    "Judges 13:1"
+   ]
+  },
+  "didEvilWeb": {
+   "total": 7,
+   "refs": [
+    "Judges 2:11",
+    "Judges 3:7",
+    "Judges 3:12",
+    "Judges 4:1",
+    "Judges 6:1",
+    "Judges 10:6",
+    "Judges 13:1"
+   ]
+  },
+  "didEvilAllKjv": {
+   "total": 16,
+   "refs": [
+    "Judges 2:11",
+    "Judges 3:7",
+    "Judges 3:12",
+    "Judges 4:1",
+    "Judges 6:1",
+    "Judges 10:6",
+    "Judges 13:1",
+    "1 Kings 11:6",
+    "1 Kings 14:22",
+    "1 Kings 15:26",
+    "1 Kings 15:34",
+    "1 Kings 16:30",
+    "1 Kings 22:52",
+    "2 Kings 8:18",
+    "2 Kings 8:27",
+    "2 Chronicles 22:4"
+   ]
+  },
+  "criedKjv": {
+   "total": 6,
+   "refs": [
+    "Judges 3:9",
+    "Judges 3:15",
+    "Judges 4:3",
+    "Judges 6:6",
+    "Judges 6:7",
+    "Judges 10:10"
+   ]
+  },
+  "criedWeb": {
+   "total": 6,
+   "refs": [
+    "Judges 3:9",
+    "Judges 3:15",
+    "Judges 4:3",
+    "Judges 6:6",
+    "Judges 6:7",
+    "Judges 10:10"
+   ]
+  },
+  "restKjv": {
+   "total": 3,
+   "refs": [
+    "Judges 3:11",
+    "Judges 3:30",
+    "Judges 5:31"
+   ]
+  },
+  "restWeb": {
+   "total": 4,
+   "refs": [
+    "Judges 3:11",
+    "Judges 3:30",
+    "Judges 5:31",
+    "Judges 8:28"
+   ]
+  },
+  "spiritKjv": {
+   "total": 7,
+   "refs": [
+    "Judges 3:10",
+    "Judges 6:34",
+    "Judges 11:29",
+    "Judges 13:25",
+    "Judges 14:6",
+    "Judges 14:19",
+    "Judges 15:14"
+   ]
+  },
+  "spiritWeb": {
+   "total": 7,
+   "refs": [
+    "Judges 3:10",
+    "Judges 6:34",
+    "Judges 11:29",
+    "Judges 13:25",
+    "Judges 14:6",
+    "Judges 14:19",
+    "Judges 15:14"
+   ]
+  },
+  "noKingKjv": {
+   "total": 4,
+   "refs": [
+    "Judges 17:6",
+    "Judges 18:1",
+    "Judges 19:1",
+    "Judges 21:25"
+   ]
+  },
+  "noKingWeb": {
+   "total": 4,
+   "refs": [
+    "Judges 17:6",
+    "Judges 18:1",
+    "Judges 19:1",
+    "Judges 21:25"
+   ]
+  },
+  "rightEyesKjv": {
+   "total": 2,
+   "refs": [
+    "Judges 17:6",
+    "Judges 21:25"
+   ]
+  }
+ },
+ "tribes": {
+  "named": 7,
+  "list": [
+   "Judah",
+   "Benjamin",
+   "Manasseh",
+   "Issachar",
+   "Zebulun",
+   "Ephraim",
+   "Dan"
+  ],
+  "none": [
+   "Shamgar",
+   "Deborah",
+   "Jair",
+   "Jephthah",
+   "Ibzan"
+  ],
+  "gileadites": [
+   "Jair",
+   "Jephthah"
+  ]
+ },
+ "ephraimites": 42000,
+ "eliAge": 98,
+ "words": {
+  "judgeKjv": {
+   "total": 191,
+   "verses": 170,
+   "books": 38,
+   "top": {
+    "book": "Psalms",
+    "count": 27,
+    "tied": [
+     "Psalms"
+    ]
+   },
+   "inJudges": 5,
+   "in1Samuel": 10
+  },
+  "judgeWeb": {
+   "total": 193,
+   "verses": 173,
+   "books": 38,
+   "top": {
+    "book": "Psalms",
+    "count": 25,
+    "tied": [
+     "Psalms"
+    ]
+   },
+   "inJudges": 5,
+   "in1Samuel": 8
+  },
+  "judgedKjv": {
+   "total": 63,
+   "verses": 61,
+   "books": 20,
+   "top": {
+    "book": "Judges",
+    "count": 13,
+    "tied": [
+     "Judges"
+    ]
+   },
+   "inJudges": 13,
+   "in1Samuel": 5
+  },
+  "judgedWeb": {
+   "total": 67,
+   "verses": 64,
+   "books": 22,
+   "top": {
+    "book": "Judges",
+    "count": 13,
+    "tied": [
+     "Judges"
+    ]
+   },
+   "inJudges": 13,
+   "in1Samuel": 5
+  },
+  "judgesKjv": {
+   "total": 52,
+   "verses": 51,
+   "books": 23,
+   "top": {
+    "book": "Deuteronomy",
+    "count": 7,
+    "tied": [
+     "Deuteronomy"
+    ]
+   },
+   "inJudges": 3,
+   "in1Samuel": 2
+  },
+  "judgesWeb": {
+   "total": 64,
+   "verses": 63,
+   "books": 29,
+   "top": {
+    "book": "Deuteronomy",
+    "count": 6,
+    "tied": [
+     "Deuteronomy",
+     "Job"
+    ]
+   },
+   "inJudges": 3,
+   "in1Samuel": 2
+  },
+  "allFormsKjv": {
+   "total": 329,
+   "verses": 286,
+   "books": 44,
+   "top": {
+    "book": "Psalms",
+    "count": 37,
+    "tied": [
+     "Psalms"
+    ]
+   },
+   "inJudges": 21,
+   "in1Samuel": 17
+  },
+  "allFormsWeb": {
+   "total": 331,
+   "verses": 288,
+   "books": 45,
+   "top": {
+    "book": "Psalms",
+    "count": 34,
+    "tied": [
+     "Psalms"
+    ]
+   },
+   "inJudges": 21,
+   "in1Samuel": 15
+  },
+  "delivererKjv": {
+   "total": 3,
+   "verses": 3,
+   "books": 1,
+   "top": {
+    "book": "Judges",
+    "count": 3,
+    "tied": [
+     "Judges"
+    ]
+   },
+   "inJudges": 3,
+   "in1Samuel": 0
+  },
+  "saviorWeb": {
+   "total": 2,
+   "verses": 2,
+   "books": 1,
+   "top": {
+    "book": "Judges",
+    "count": 2,
+    "tied": [
+     "Judges"
+    ]
+   },
+   "inJudges": 2,
+   "in1Samuel": 0
+  }
+ },
+ "names": {
+  "Othniel": {
+   "kjv": 3,
+   "web": 3
+  },
+  "Ehud": {
+   "kjv": 8,
+   "web": 8
+  },
+  "Shamgar": {
+   "kjv": 2,
+   "web": 2
+  },
+  "Deborah": {
+   "kjv": 9,
+   "web": 9
+  },
+  "Barak": {
+   "kjv": 13,
+   "web": 13
+  },
+  "Gideon": {
+   "kjv": 39,
+   "web": 39
+  },
+  "Abimelech": {
+   "kjv": 40,
+   "web": 40
+  },
+  "Tola": {
+   "kjv": 1,
+   "web": 1
+  },
+  "Jair": {
+   "kjv": 3,
+   "web": 3
+  },
+  "Jephthah": {
+   "kjv": 28,
+   "web": 28
+  },
+  "Ibzan": {
+   "kjv": 2,
+   "web": 2
+  },
+  "Elon": {
+   "kjv": 2,
+   "web": 2
+  },
+  "Abdon": {
+   "kjv": 2,
+   "web": 2
+  },
+  "Samson": {
+   "kjv": 38,
+   "web": 38
+  },
+  "Eli": {
+   "kjv": 32,
+   "web": 33,
+   "book": "1 Samuel"
+  },
+  "Samuel": {
+   "kjv": 131,
+   "web": 131,
+   "book": "1 Samuel"
+  }
+ },
+ "checks": [
+  "deborahWoman",
+  "jael",
+  "palm",
+  "gideonRule",
+  "ephod",
+  "fleece",
+  "seventySons",
+  "abimelechDies",
+  "abimelechSeventy",
+  "thebez",
+  "shibboleth",
+  "jawbone",
+  "delilah",
+  "nazarite",
+  "lion",
+  "dagon",
+  "achsah",
+  "kirjathSepher",
+  "othnielSpirit",
+  "eglon",
+  "eliShiloh",
+  "ark",
+  "samuelProphet",
+  "samuelSons",
+  "joelAbiah",
+  "sonsBribes",
+  "samuelKohath",
+  "samuelKohathWeb",
+  "samuelLevi",
+  "elkanahWeb",
+  "elkanahKjv",
+  "samuelList",
+  "hebrews",
+  "hebrewsWeb",
+  "samsonPhilistines",
+  "kirjath",
+  "philistinesSubdued",
+  "saulAnointed",
+  "mosesJudged",
+  "kingToJudge",
+  "othnielFirst",
+  "deborahWeb",
+  "ammonite",
+  "blinded",
+  "thrustOut",
+  "gileadHead",
+  "samuelServed",
+  "tower",
+  "spiritMove",
+  "houseFull",
+  "lastVerse",
+  "judgesWordInJudges",
+  "longestRest",
+  "spiritRefs",
+  "eliAge",
+  "sin",
+  "sold",
+  "cry",
+  "raised",
+  "raisedWeb",
+  "relapse",
+  "rest",
+  "generation",
+  "joshua",
+  "afterJoshua",
+  "noKing",
+  "noKingWeb",
+  "samson",
+  "twoFronts",
+  "eastOnly",
+  "ruth",
+  "ruthWeb",
+  "ehud",
+  "shamgar",
+  "gideon"
+ ]
+}

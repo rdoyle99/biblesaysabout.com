@@ -325,6 +325,38 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/how-many-books-are-in-the-catholic-bible"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Catholic Bible books
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/judges-of-israel"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Judges of Israel
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/how-many-children-did-david-have"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  David's children
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/names-of-the-holy-spirit"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Names of the Holy Spirit
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/bible-by-the-numbers"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >

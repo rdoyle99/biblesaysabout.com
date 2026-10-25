@@ -488,6 +488,10 @@ export default function HomeClient({
               ["/seven-churches-of-revelation", "The seven churches of Revelation"],
               ["/how-old-was-methuselah", "How old was Methuselah"],
               ["/613-commandments", "The 613 commandments"],
+              ["/how-many-books-are-in-the-catholic-bible", "Books in the Catholic Bible"],
+              ["/judges-of-israel", "The judges of Israel"],
+              ["/how-many-children-did-david-have", "How many children did David have"],
+              ["/names-of-the-holy-spirit", "Names of the Holy Spirit"],
             ].map(([href, label], i) => (
               <span key={href}>
                 {i ? " · " : ""}

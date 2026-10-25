@@ -1,0 +1,1663 @@
+{
+ "generated": "2026-10-25",
+ "rows": [
+  {
+   "n": 1,
+   "name": "the Holy Ghost (Holy Spirit)",
+   "kjvPhrase": "the Holy Ghost; the Holy Spirit",
+   "webPhrase": "the Holy Spirit",
+   "testament": "Both",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 97,
+    "ot": 3,
+    "nt": 94,
+    "lower": 1,
+    "verses": 96,
+    "first": "Psalms 51:11",
+    "top": {
+     "book": "Acts",
+     "count": 42,
+     "tied": [
+      "Acts"
+     ]
+    }
+   },
+   "web": {
+    "total": 96,
+    "ot": 3,
+    "nt": 93,
+    "lower": 0,
+    "verses": 95,
+    "first": "Psalms 51:11",
+    "top": {
+     "book": "Acts",
+     "count": 42,
+     "tied": [
+      "Acts"
+     ]
+    }
+   },
+   "kjvRefs": null,
+   "webRefs": null,
+   "key": "Matthew 28:19",
+   "kjvText": "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:",
+   "webText": "Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,",
+   "note": "The KJV column adds its Holy Ghost and Holy Spirit together; the split is in the section below. Psalm 51:11 (\"thy holy spirit\") is counted though the KJV prints both words in lower case."
+  },
+  {
+   "n": 2,
+   "name": "the Spirit of God",
+   "kjvPhrase": "the Spirit of God",
+   "webPhrase": "the Spirit of God; God's Spirit",
+   "testament": "Both",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 26,
+    "ot": 14,
+    "nt": 12,
+    "lower": 4,
+    "verses": 26,
+    "first": "Genesis 1:2",
+    "top": {
+     "book": "1 Corinthians",
+     "count": 5,
+     "tied": [
+      "1 Corinthians"
+     ]
+    }
+   },
+   "web": {
+    "total": 26,
+    "ot": 14,
+    "nt": 12,
+    "lower": 1,
+    "verses": 26,
+    "first": "Genesis 1:2",
+    "top": {
+     "book": "1 Corinthians",
+     "count": 5,
+     "tied": [
+      "1 Corinthians"
+     ]
+    }
+   },
+   "kjvRefs": null,
+   "webRefs": null,
+   "key": "Genesis 1:2",
+   "kjvText": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
+   "webText": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+   "note": "Includes \"the holy Spirit of God\" (Ephesians 4:30). Raw count: Job 27:3, \"the spirit of God is in my nostrils\", is counted. \"Spirits of God\" (Revelation) is not."
+  },
+  {
+   "n": 3,
+   "name": "the Spirit of the LORD",
+   "kjvPhrase": "the Spirit of the LORD; the Spirit of the Lord",
+   "webPhrase": "Yahweh's Spirit; the Spirit of the Lord",
+   "testament": "Both",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 31,
+    "ot": 26,
+    "nt": 5,
+    "lower": 5,
+    "verses": 31,
+    "first": "Judges 3:10",
+    "top": {
+     "book": "Judges",
+     "count": 7,
+     "tied": [
+      "Judges"
+     ]
+    }
+   },
+   "web": {
+    "total": 28,
+    "ot": 24,
+    "nt": 4,
+    "lower": 0,
+    "verses": 28,
+    "first": "Judges 3:10",
+    "top": {
+     "book": "Judges",
+     "count": 7,
+     "tied": [
+      "Judges"
+     ]
+    }
+   },
+   "kjvRefs": null,
+   "webRefs": null,
+   "key": "Judges 3:10",
+   "kjvText": "And the Spirit of the LORD came upon him, and he judged Israel, and went out to war: and the LORD delivered Chushan-rishathaim king of Mesopotamia into his hand; and his hand prevailed against Chushan-rishathaim.",
+   "webText": "Yahweh’s Spirit came on him, and he judged Israel; and he went out to war, and Yahweh delivered Cushan Rishathaim king of Mesopotamia into his hand. His hand prevailed against Cushan Rishathaim.",
+   "note": "Where the KJV prints LORD in capitals the WEB prints Yahweh. Includes \"the Spirit of the Lord GOD\" (Isaiah 61:1). Raw count: Isaiah 40:7, \"the spirit of the LORD bloweth upon it\", is counted in the KJV; the WEB reads \"Yahweh's breath\" there."
+  },
+  {
+   "n": 4,
+   "name": "the Spirit",
+   "kjvPhrase": "the Spirit",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 81,
+    "ot": 0,
+    "nt": 81,
+    "lower": 0,
+    "verses": 75,
+    "first": "Matthew 4:1",
+    "top": {
+     "book": "Galatians",
+     "count": 15,
+     "tied": [
+      "Galatians"
+     ]
+    }
+   },
+   "web": {
+    "total": 109,
+    "ot": 14,
+    "nt": 95,
+    "lower": 0,
+    "verses": 100,
+    "first": "Numbers 11:17",
+    "top": {
+     "book": "Galatians",
+     "count": 15,
+     "tied": [
+      "Galatians"
+     ]
+    }
+   },
+   "kjvRefs": null,
+   "webRefs": null,
+   "key": "Acts 16:7",
+   "kjvText": "After they were come to Mysia, they assayed to go into Bithynia: but the Spirit suffered them not.",
+   "webText": "When they had come opposite Mysia, they tried to go into Bithynia, but the Spirit didn’t allow them.",
+   "note": "\"The Spirit\" standing alone, with a capital S and not followed by \"of\". The WEB prints the capital in more verses, including Old Testament ones (Numbers 11:25)."
+  },
+  {
+   "n": 5,
+   "name": "the Spirit of Christ",
+   "kjvPhrase": "the Spirit of Christ",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 2,
+    "ot": 0,
+    "nt": 2,
+    "lower": 0,
+    "verses": 2,
+    "first": "Romans 8:9",
+    "top": {
+     "book": "Romans",
+     "count": 1,
+     "tied": [
+      "Romans",
+      "1 Peter"
+     ]
+    }
+   },
+   "web": {
+    "total": 2,
+    "ot": 0,
+    "nt": 2,
+    "lower": 0,
+    "verses": 2,
+    "first": "Romans 8:9",
+    "top": {
+     "book": "Romans",
+     "count": 1,
+     "tied": [
+      "Romans",
+      "1 Peter"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Romans 8:9",
+    "1 Peter 1:11"
+   ],
+   "webRefs": [
+    "Romans 8:9",
+    "1 Peter 1:11"
+   ],
+   "key": "Romans 8:9",
+   "kjvText": "But ye are not in the flesh, but in the Spirit, if so be that the Spirit of God dwell in you. Now if any man have not the Spirit of Christ, he is none of his.",
+   "webText": "But you are not in the flesh but in the Spirit, if it is so that the Spirit of God dwells in you. But if any man doesn’t have the Spirit of Christ, he is not his.",
+   "note": "Romans 8:9 uses \"the Spirit of God\" and \"the Spirit of Christ\" in one sentence. The other verse is 1 Peter 1:11."
+  },
+  {
+   "n": 6,
+   "name": "the Spirit of Jesus Christ",
+   "kjvPhrase": "the Spirit of Jesus Christ",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Philippians 1:19",
+    "top": {
+     "book": "Philippians",
+     "count": 1,
+     "tied": [
+      "Philippians"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Philippians 1:19",
+    "top": {
+     "book": "Philippians",
+     "count": 1,
+     "tied": [
+      "Philippians"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Philippians 1:19"
+   ],
+   "webRefs": [
+    "Philippians 1:19"
+   ],
+   "key": "Philippians 1:19",
+   "kjvText": "For I know that this shall turn to my salvation through your prayer, and the supply of the Spirit of Jesus Christ,",
+   "webText": "For I know that this will turn out to my salvation, through your prayers and the supply of the Spirit of Jesus Christ,",
+   "note": "The only verse in either translation with \"Spirit of Jesus\"."
+  },
+  {
+   "n": 7,
+   "name": "the Spirit of his Son",
+   "kjvPhrase": "the Spirit of his Son",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Galatians 4:6",
+    "top": {
+     "book": "Galatians",
+     "count": 1,
+     "tied": [
+      "Galatians"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Galatians 4:6",
+    "top": {
+     "book": "Galatians",
+     "count": 1,
+     "tied": [
+      "Galatians"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Galatians 4:6"
+   ],
+   "webRefs": [
+    "Galatians 4:6"
+   ],
+   "key": "Galatians 4:6",
+   "kjvText": "And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father.",
+   "webText": "And because you are children, God sent out the Spirit of his Son into your hearts, crying, “Abba, Father!”",
+   "note": "The same verse has the cry \"Abba, Father\", as Romans 8:15 does with the Spirit of adoption."
+  },
+  {
+   "n": 8,
+   "name": "the Spirit of your Father",
+   "kjvPhrase": "the Spirit of your Father",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Matthew 10:20",
+    "top": {
+     "book": "Matthew",
+     "count": 1,
+     "tied": [
+      "Matthew"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Matthew 10:20",
+    "top": {
+     "book": "Matthew",
+     "count": 1,
+     "tied": [
+      "Matthew"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Matthew 10:20"
+   ],
+   "webRefs": [
+    "Matthew 10:20"
+   ],
+   "key": "Matthew 10:20",
+   "kjvText": "For it is not ye that speak, but the Spirit of your Father which speaketh in you.",
+   "webText": "For it is not you who speak, but the Spirit of your Father who speaks in you.",
+   "note": "Said by Jesus when he sends out the twelve."
+  },
+  {
+   "n": 9,
+   "name": "the Spirit of the living God",
+   "kjvPhrase": "the Spirit of the living God",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "2 Corinthians 3:3",
+    "top": {
+     "book": "2 Corinthians",
+     "count": 1,
+     "tied": [
+      "2 Corinthians"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "2 Corinthians 3:3",
+    "top": {
+     "book": "2 Corinthians",
+     "count": 1,
+     "tied": [
+      "2 Corinthians"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "2 Corinthians 3:3"
+   ],
+   "webRefs": [
+    "2 Corinthians 3:3"
+   ],
+   "key": "2 Corinthians 3:3",
+   "kjvText": "Forasmuch as ye are manifestly declared to be the epistle of Christ ministered by us, written not with ink, but with the Spirit of the living God; not in tables of stone, but in fleshy tables of the heart.",
+   "webText": "being revealed that you are a letter of Christ, served by us, written not with ink, but with the Spirit of the living God; not in tablets of stone, but in tablets that are hearts of flesh.",
+   "note": "Paul sets it against ink and \"tables of stone\"."
+  },
+  {
+   "n": 10,
+   "name": "the Spirit of our God",
+   "kjvPhrase": "the Spirit of our God",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "1 Corinthians 6:11",
+    "top": {
+     "book": "1 Corinthians",
+     "count": 1,
+     "tied": [
+      "1 Corinthians"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "1 Corinthians 6:11",
+    "top": {
+     "book": "1 Corinthians",
+     "count": 1,
+     "tied": [
+      "1 Corinthians"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "1 Corinthians 6:11"
+   ],
+   "webRefs": [
+    "1 Corinthians 6:11"
+   ],
+   "key": "1 Corinthians 6:11",
+   "kjvText": "And such were some of you: but ye are washed, but ye are sanctified, but ye are justified in the name of the Lord Jesus, and by the Spirit of our God.",
+   "webText": "Such were some of you, but you were washed. But you were sanctified. But you were justified in the name of the Lord Jesus, and in the Spirit of our God.",
+   "note": "Paired with \"the name of the Lord Jesus\" in the same clause."
+  },
+  {
+   "n": 11,
+   "name": "the Spirit of truth",
+   "kjvPhrase": "the Spirit of truth",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 4,
+    "ot": 0,
+    "nt": 4,
+    "lower": 1,
+    "verses": 4,
+    "first": "John 14:17",
+    "top": {
+     "book": "John",
+     "count": 3,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "web": {
+    "total": 4,
+    "ot": 0,
+    "nt": 4,
+    "lower": 1,
+    "verses": 4,
+    "first": "John 14:17",
+    "top": {
+     "book": "John",
+     "count": 3,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "John 14:17",
+    "John 15:26",
+    "John 16:13",
+    "1 John 4:6"
+   ],
+   "webRefs": [
+    "John 14:17",
+    "John 15:26",
+    "John 16:13",
+    "1 John 4:6"
+   ],
+   "key": "John 14:17",
+   "kjvText": "Even the Spirit of truth; whom the world cannot receive, because it seeth him not, neither knoweth him: but ye know him; for he dwelleth with you, and shall be in you.",
+   "webText": "the Spirit of truth, whom the world can’t receive; for it doesn’t see him, neither knows him. You know him, for he lives with you, and will be in you.",
+   "note": "Three times in John 14 to 16, each beside the Comforter, and once in 1 John 4:6, printed lower case there against \"the spirit of error\"."
+  },
+  {
+   "n": 12,
+   "name": "the Comforter",
+   "kjvPhrase": "the Comforter",
+   "webPhrase": "the Counselor",
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": [
+    "John"
+   ],
+   "kjv": {
+    "total": 4,
+    "ot": 0,
+    "nt": 4,
+    "lower": 0,
+    "verses": 4,
+    "first": "John 14:16",
+    "top": {
+     "book": "John",
+     "count": 4,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "web": {
+    "total": 4,
+    "ot": 0,
+    "nt": 4,
+    "lower": 0,
+    "verses": 4,
+    "first": "John 14:16",
+    "top": {
+     "book": "John",
+     "count": 4,
+     "tied": [
+      "John"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "John 14:16",
+    "John 14:26",
+    "John 15:26",
+    "John 16:7"
+   ],
+   "webRefs": [
+    "John 14:16",
+    "John 14:26",
+    "John 15:26",
+    "John 16:7"
+   ],
+   "key": "John 14:26",
+   "kjvText": "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.",
+   "webText": "But the Counselor, the Holy Spirit, whom the Father will send in my name, he will teach you all things, and will remind you of all that I said to you.",
+   "note": "Counted in John's Gospel only: the KJV's other Comforter verses (Ecclesiastes 4:1, Lamentations 1:9, 1:16) are about a human comforter. The same Greek word is \"advocate\" (KJV) and \"Counselor\" (WEB) in 1 John 2:1, used of Jesus Christ."
+  },
+  {
+   "n": 13,
+   "name": "the Spirit of adoption",
+   "kjvPhrase": "the Spirit of adoption",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Romans 8:15",
+    "top": {
+     "book": "Romans",
+     "count": 1,
+     "tied": [
+      "Romans"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Romans 8:15",
+    "top": {
+     "book": "Romans",
+     "count": 1,
+     "tied": [
+      "Romans"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Romans 8:15"
+   ],
+   "webRefs": [
+    "Romans 8:15"
+   ],
+   "key": "Romans 8:15",
+   "kjvText": "For ye have not received the spirit of bondage again to fear; but ye have received the Spirit of adoption, whereby we cry, Abba, Father.",
+   "webText": "For you didn’t receive the spirit of bondage again to fear, but you received the Spirit of adoption, by whom we cry, “Abba! Father!”",
+   "note": "Set against \"the spirit of bondage\" earlier in the verse."
+  },
+  {
+   "n": 14,
+   "name": "the Spirit of life",
+   "kjvPhrase": "the Spirit of life",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 2,
+    "ot": 0,
+    "nt": 2,
+    "lower": 0,
+    "verses": 2,
+    "first": "Romans 8:2",
+    "top": {
+     "book": "Romans",
+     "count": 1,
+     "tied": [
+      "Romans",
+      "Revelation"
+     ]
+    }
+   },
+   "web": {
+    "total": 2,
+    "ot": 1,
+    "nt": 1,
+    "lower": 1,
+    "verses": 2,
+    "first": "Genesis 7:22",
+    "top": {
+     "book": "Genesis",
+     "count": 1,
+     "tied": [
+      "Genesis",
+      "Romans"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Romans 8:2",
+    "Revelation 11:11"
+   ],
+   "webRefs": [
+    "Genesis 7:22",
+    "Romans 8:2"
+   ],
+   "key": "Romans 8:2",
+   "kjvText": "For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death.",
+   "webText": "For the law of the Spirit of life in Christ Jesus made me free from the law of sin and of death.",
+   "note": "Raw count: the KJV's second is Revelation 11:11 (\"the Spirit of life from God\", WEB \"the breath of life\"); the WEB's second is Genesis 7:22 (\"the breath of the spirit of life\", KJV \"the breath of life\")."
+  },
+  {
+   "n": 15,
+   "name": "the spirit of holiness",
+   "kjvPhrase": "the spirit of holiness",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": true,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 1,
+    "verses": 1,
+    "first": "Romans 1:4",
+    "top": {
+     "book": "Romans",
+     "count": 1,
+     "tied": [
+      "Romans"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Romans 1:4",
+    "top": {
+     "book": "Romans",
+     "count": 1,
+     "tied": [
+      "Romans"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Romans 1:4"
+   ],
+   "webRefs": [
+    "Romans 1:4"
+   ],
+   "key": "Romans 1:4",
+   "kjvText": "And declared to be the Son of God with power, according to the spirit of holiness, by the resurrection from the dead:",
+   "webText": "who was declared to be the Son of God with power, according to the Spirit of holiness, by the resurrection from the dead, Jesus Christ our Lord,",
+   "note": "The KJV prints spirit in lower case, the WEB with a capital. Readers differ on whether it names the Holy Spirit or describes Christ."
+  },
+  {
+   "n": 16,
+   "name": "the holy Spirit of promise",
+   "kjvPhrase": "that holy Spirit of promise",
+   "webPhrase": "the promised Holy Spirit",
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Ephesians 1:13",
+    "top": {
+     "book": "Ephesians",
+     "count": 1,
+     "tied": [
+      "Ephesians"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Ephesians 1:13",
+    "top": {
+     "book": "Ephesians",
+     "count": 1,
+     "tied": [
+      "Ephesians"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Ephesians 1:13"
+   ],
+   "webRefs": [
+    "Ephesians 1:13"
+   ],
+   "key": "Ephesians 1:13",
+   "kjvText": "In whom ye also trusted, after that ye heard the word of truth, the gospel of your salvation: in whom also after that ye believed, ye were sealed with that holy Spirit of promise,",
+   "webText": "In him you also, having heard the word of the truth, the Good News of your salvation—in whom, having also believed, you were sealed with the promised Holy Spirit,",
+   "note": "One of the KJV's seven \"Holy Spirit\" verses, so it is also in the first row."
+  },
+  {
+   "n": 17,
+   "name": "the eternal Spirit",
+   "kjvPhrase": "the eternal Spirit",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Hebrews 9:14",
+    "top": {
+     "book": "Hebrews",
+     "count": 1,
+     "tied": [
+      "Hebrews"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Hebrews 9:14",
+    "top": {
+     "book": "Hebrews",
+     "count": 1,
+     "tied": [
+      "Hebrews"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Hebrews 9:14"
+   ],
+   "webRefs": [
+    "Hebrews 9:14"
+   ],
+   "key": "Hebrews 9:14",
+   "kjvText": "How much more shall the blood of Christ, who through the eternal Spirit offered himself without spot to God, purge your conscience from dead works to serve the living God?",
+   "webText": "how much more will the blood of Christ, who through the eternal Spirit offered himself without defect to God, cleanse your conscience from dead works to serve the living God?",
+   "note": "The only verse with the phrase in either translation."
+  },
+  {
+   "n": 18,
+   "name": "the Spirit of grace",
+   "kjvPhrase": "the Spirit of grace",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": "NT",
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Hebrews 10:29",
+    "top": {
+     "book": "Hebrews",
+     "count": 1,
+     "tied": [
+      "Hebrews"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "Hebrews 10:29",
+    "top": {
+     "book": "Hebrews",
+     "count": 1,
+     "tied": [
+      "Hebrews"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Hebrews 10:29"
+   ],
+   "webRefs": [
+    "Hebrews 10:29"
+   ],
+   "key": "Hebrews 10:29",
+   "kjvText": "Of how much sorer punishment, suppose ye, shall he be thought worthy, who hath trodden under foot the Son of God, and hath counted the blood of the covenant, wherewith he was sanctified, an unholy thing, and hath done despite unto the Spirit of grace?",
+   "webText": "How much worse punishment do you think he will be judged worthy of who has trodden under foot the Son of God, and has counted the blood of the covenant with which he was sanctified an unholy thing, and has insulted the Spirit of grace?",
+   "note": "New Testament only; Zechariah 12:10 has its own row below."
+  },
+  {
+   "n": 19,
+   "name": "the spirit of glory",
+   "kjvPhrase": "the spirit of glory and of God",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 1,
+    "verses": 1,
+    "first": "1 Peter 4:14",
+    "top": {
+     "book": "1 Peter",
+     "count": 1,
+     "tied": [
+      "1 Peter"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 0,
+    "verses": 1,
+    "first": "1 Peter 4:14",
+    "top": {
+     "book": "1 Peter",
+     "count": 1,
+     "tied": [
+      "1 Peter"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "1 Peter 4:14"
+   ],
+   "webRefs": [
+    "1 Peter 4:14"
+   ],
+   "key": "1 Peter 4:14",
+   "kjvText": "If ye be reproached for the name of Christ, happy are ye; for the spirit of glory and of God resteth upon you: on their part he is evil spoken of, but on your part he is glorified.",
+   "webText": "If you are insulted for the name of Christ, you are blessed; because the Spirit of glory and of God rests on you. On their part he is blasphemed, but on your part he is glorified.",
+   "note": "Lower case in the KJV, capital in the WEB."
+  },
+  {
+   "n": 20,
+   "name": "the spirit of wisdom and revelation",
+   "kjvPhrase": "the spirit of wisdom and revelation",
+   "webPhrase": "a spirit of wisdom and revelation",
+   "testament": "NT",
+   "readings": true,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 1,
+    "verses": 1,
+    "first": "Ephesians 1:17",
+    "top": {
+     "book": "Ephesians",
+     "count": 1,
+     "tied": [
+      "Ephesians"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 0,
+    "nt": 1,
+    "lower": 1,
+    "verses": 1,
+    "first": "Ephesians 1:17",
+    "top": {
+     "book": "Ephesians",
+     "count": 1,
+     "tied": [
+      "Ephesians"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Ephesians 1:17"
+   ],
+   "webRefs": [
+    "Ephesians 1:17"
+   ],
+   "key": "Ephesians 1:17",
+   "kjvText": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him:",
+   "webText": "that the God of our Lord Jesus Christ, the Father of glory, may give to you a spirit of wisdom and revelation in the knowledge of him;",
+   "note": "Lower case in both translations. Readers differ on whether Paul prays for the Holy Spirit or for a wise frame of mind."
+  },
+  {
+   "n": 21,
+   "name": "thy good spirit",
+   "kjvPhrase": "thy good spirit",
+   "webPhrase": "your good Spirit",
+   "testament": "OT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Nehemiah 9:20",
+    "top": {
+     "book": "Nehemiah",
+     "count": 1,
+     "tied": [
+      "Nehemiah"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 0,
+    "verses": 1,
+    "first": "Nehemiah 9:20",
+    "top": {
+     "book": "Nehemiah",
+     "count": 1,
+     "tied": [
+      "Nehemiah"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Nehemiah 9:20"
+   ],
+   "webRefs": [
+    "Nehemiah 9:20"
+   ],
+   "key": "Nehemiah 9:20",
+   "kjvText": "Thou gavest also thy good spirit to instruct them, and withheldest not thy manna from their mouth, and gavest them water for their thirst.",
+   "webText": "You gave also your good Spirit to instruct them, and didn’t withhold your manna from their mouth, and gave them water for their thirst.",
+   "note": "Said to God in the Levites' prayer about the wilderness years. Lower case in the KJV, capital in the WEB."
+  },
+  {
+   "n": 22,
+   "name": "the spirit of wisdom and understanding",
+   "kjvPhrase": "the spirit of wisdom and understanding",
+   "webPhrase": null,
+   "testament": "OT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Isaiah 11:2",
+    "top": {
+     "book": "Isaiah",
+     "count": 1,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Isaiah 11:2",
+    "top": {
+     "book": "Isaiah",
+     "count": 1,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Isaiah 11:2"
+   ],
+   "webRefs": [
+    "Isaiah 11:2"
+   ],
+   "key": "Isaiah 11:2",
+   "kjvText": "And the spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD;",
+   "webText": "Yahweh’s Spirit will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+   "note": "Isaiah 11:2 names the spirit of the LORD and then three pairs; this row and the next two are those pairs. Exodus 28:3 and Deuteronomy 34:9 have \"spirit of wisdom\" without the pair."
+  },
+  {
+   "n": 23,
+   "name": "the spirit of counsel and might",
+   "kjvPhrase": "the spirit of counsel and might",
+   "webPhrase": null,
+   "testament": "OT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Isaiah 11:2",
+    "top": {
+     "book": "Isaiah",
+     "count": 1,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Isaiah 11:2",
+    "top": {
+     "book": "Isaiah",
+     "count": 1,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Isaiah 11:2"
+   ],
+   "webRefs": [
+    "Isaiah 11:2"
+   ],
+   "key": "Isaiah 11:2",
+   "kjvText": "And the spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD;",
+   "webText": "Yahweh’s Spirit will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+   "note": "Isaiah 11:2 only."
+  },
+  {
+   "n": 24,
+   "name": "the spirit of knowledge and of the fear of the LORD",
+   "kjvPhrase": "the spirit of knowledge and of the fear of the LORD",
+   "webPhrase": "the spirit of knowledge and of the fear of Yahweh",
+   "testament": "OT",
+   "readings": false,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Isaiah 11:2",
+    "top": {
+     "book": "Isaiah",
+     "count": 1,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Isaiah 11:2",
+    "top": {
+     "book": "Isaiah",
+     "count": 1,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Isaiah 11:2"
+   ],
+   "webRefs": [
+    "Isaiah 11:2"
+   ],
+   "key": "Isaiah 11:2",
+   "kjvText": "And the spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD;",
+   "webText": "Yahweh’s Spirit will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+   "note": "Isaiah 11:2 only. Counted as \"spirit of knowledge\"."
+  },
+  {
+   "n": 25,
+   "name": "the spirit of judgment and the spirit of burning",
+   "kjvPhrase": "the spirit of judgment, and ... the spirit of burning",
+   "webPhrase": "the spirit of justice, and ... the spirit of burning",
+   "testament": "OT",
+   "readings": true,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Isaiah 4:4",
+    "top": {
+     "book": "Isaiah",
+     "count": 1,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Isaiah 4:4",
+    "top": {
+     "book": "Isaiah",
+     "count": 1,
+     "tied": [
+      "Isaiah"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Isaiah 4:4"
+   ],
+   "webRefs": [
+    "Isaiah 4:4"
+   ],
+   "key": "Isaiah 4:4",
+   "kjvText": "When the Lord shall have washed away the filth of the daughters of Zion, and shall have purged the blood of Jerusalem from the midst thereof by the spirit of judgment, and by the spirit of burning.",
+   "webText": "when the Lord shall have washed away the filth of the daughters of Zion, and shall have purged the blood of Jerusalem from within it, by the spirit of justice, and by the spirit of burning.",
+   "note": "Counted as \"spirit of burning\". The verse does not say whose spirit; readers differ on whether it names God's Spirit."
+  },
+  {
+   "n": 26,
+   "name": "the spirit of grace and of supplications",
+   "kjvPhrase": "the spirit of grace and of supplications",
+   "webPhrase": "the spirit of grace and of supplication",
+   "testament": "OT",
+   "readings": true,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Zechariah 12:10",
+    "top": {
+     "book": "Zechariah",
+     "count": 1,
+     "tied": [
+      "Zechariah"
+     ]
+    }
+   },
+   "web": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "lower": 1,
+    "verses": 1,
+    "first": "Zechariah 12:10",
+    "top": {
+     "book": "Zechariah",
+     "count": 1,
+     "tied": [
+      "Zechariah"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Zechariah 12:10"
+   ],
+   "webRefs": [
+    "Zechariah 12:10"
+   ],
+   "key": "Zechariah 12:10",
+   "kjvText": "And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and of supplications: and they shall look upon me whom they have pierced, and they shall mourn for him, as one mourneth for his only son, and shall be in bitterness for him, as one that is in bitterness for his firstborn.",
+   "webText": "I will pour on David’s house, and on the inhabitants of Jerusalem, the spirit of grace and of supplication; and they will look to me whom they have pierced; and they shall mourn for him, as one mourns for his only son, and will grieve bitterly for him, as one grieves for his firstborn.",
+   "note": "God says \"I will pour\" it out. The verse does not say whose spirit; readers differ on whether it names God's Spirit."
+  },
+  {
+   "n": 27,
+   "name": "the seven Spirits of God",
+   "kjvPhrase": "the seven Spirits",
+   "webPhrase": null,
+   "testament": "NT",
+   "readings": true,
+   "scope": null,
+   "books": null,
+   "kjv": {
+    "total": 4,
+    "ot": 0,
+    "nt": 4,
+    "lower": 0,
+    "verses": 4,
+    "first": "Revelation 1:4",
+    "top": {
+     "book": "Revelation",
+     "count": 4,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "web": {
+    "total": 4,
+    "ot": 0,
+    "nt": 4,
+    "lower": 0,
+    "verses": 4,
+    "first": "Revelation 1:4",
+    "top": {
+     "book": "Revelation",
+     "count": 4,
+     "tied": [
+      "Revelation"
+     ]
+    }
+   },
+   "kjvRefs": [
+    "Revelation 1:4",
+    "Revelation 3:1",
+    "Revelation 4:5",
+    "Revelation 5:6"
+   ],
+   "webRefs": [
+    "Revelation 1:4",
+    "Revelation 3:1",
+    "Revelation 4:5",
+    "Revelation 5:6"
+   ],
+   "key": "Revelation 1:4",
+   "kjvText": "John to the seven churches which are in Asia: Grace be unto you, and peace, from him which is, and which was, and which is to come; and from the seven Spirits which are before his throne;",
+   "webText": "John, to the seven assemblies that are in Asia: Grace to you and peace, from God, who is and who was and who is to come; and from the seven Spirits who are before his throne;",
+   "note": "Revelation 1:4, 3:1, 4:5 and 5:6, always with a capital S in both translations. Readings are described in the section below."
+  }
+ ],
+ "counts": {
+  "rows": 27,
+  "byTestament": {
+   "OT": 6,
+   "NT": 18,
+   "Both": 3
+  },
+  "readings": 5
+ },
+ "holy": {
+  "ghostKjv": 90,
+  "ghostKjvVerses": 89,
+  "ghostTop": {
+   "book": "Acts",
+   "count": 42,
+   "tied": [
+    "Acts"
+   ]
+  },
+  "spiritKjv": 7,
+  "spiritKjvRefs": [
+   "Psalms 51:11",
+   "Isaiah 63:10",
+   "Isaiah 63:11",
+   "Luke 11:13",
+   "Ephesians 1:13",
+   "Ephesians 4:30",
+   "1 Thessalonians 4:8"
+  ],
+  "spiritKjvOT": 3,
+  "spiritWeb": 96,
+  "spiritWebVerses": 95,
+  "spiritWebOT": 3,
+  "ghostWeb": 0,
+  "kjvOnly": [
+   "Matthew 12:31",
+   "1 John 5:7"
+  ],
+  "webOnly": [
+   "Luke 10:21"
+  ],
+  "wordPage": "holy-spirit"
+ },
+ "ghost": {
+  "kjvTotal": 109,
+  "otherKjv": 19,
+  "dyingVerses": 19,
+  "webTotal": 2,
+  "webRefs": [
+   "Matthew 14:26",
+   "Mark 6:49"
+  ]
+ },
+ "caps": {
+  "kjv": {
+   "cap": 169,
+   "lower": 336
+  },
+  "web": {
+   "cap": 320,
+   "lower": 276
+  },
+  "webCapOnly": 65,
+  "webCapOnlyOT": 44,
+  "kjvCapOnly": 5,
+  "mySpirit": {
+   "kjv": 2,
+   "web": 13
+  }
+ },
+ "spiritOfGod": {
+  "kjvOT": 14,
+  "kjvNT": 12,
+  "webOT": 14,
+  "webNT": 12
+ },
+ "spiritOfTheLord": {
+  "kjvOT": 26,
+  "kjvNT": 5,
+  "webOT": 24,
+  "webNT": 4,
+  "kjvTop": {
+   "book": "Judges",
+   "count": 7,
+   "tied": [
+    "Judges"
+   ]
+  }
+ },
+ "doveNT": {
+  "kjv": 4,
+  "web": 4
+ },
+ "comforter": [
+  {
+   "ref": "John 14:16",
+   "kjvText": "And I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever;",
+   "webPhrase": "he will give you another Counselor",
+   "webText": "I will pray to the Father, and he will give you another Counselor, that he may be with you forever,—"
+  },
+  {
+   "ref": "John 14:26",
+   "kjvText": "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.",
+   "webPhrase": "the Counselor, the Holy Spirit, whom the Father will send in my name",
+   "webText": "But the Counselor, the Holy Spirit, whom the Father will send in my name, he will teach you all things, and will remind you of all that I said to you."
+  },
+  {
+   "ref": "John 15:26",
+   "kjvText": "But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me:",
+   "webPhrase": "When the Counselor has come",
+   "webText": "“When the Counselor has come, whom I will send to you from the Father, the Spirit of truth, who proceeds from the Father, he will testify about me."
+  },
+  {
+   "ref": "John 16:7",
+   "kjvText": "Nevertheless I tell you the truth; It is expedient for you that I go away: for if I go not away, the Comforter will not come unto you; but if I depart, I will send him unto you.",
+   "webPhrase": "the Counselor won't come to you",
+   "webText": "Nevertheless I tell you the truth: It is to your advantage that I go away, for if I don’t go away, the Counselor won’t come to you. But if I go, I will send him to you."
+  }
+ ],
+ "comforterOutsideJohn": [
+  "Ecclesiastes 4:1",
+  "Lamentations 1:9",
+  "Lamentations 1:16"
+ ],
+ "sevenSpirits": [
+  "Revelation 1:4",
+  "Revelation 3:1",
+  "Revelation 4:5",
+  "Revelation 5:6"
+ ],
+ "symbols": [
+  {
+   "symbol": "Dove",
+   "word": "dove",
+   "verses": [
+    {
+     "ref": "Matthew 3:16",
+     "kjvText": "And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him:",
+     "webPhrase": "the Spirit of God descending as a dove",
+     "webText": "Jesus, when he was baptized, went up directly from the water: and behold, the heavens were opened to him. He saw the Spirit of God descending as a dove, and coming on him."
+    },
+    {
+     "ref": "Luke 3:22",
+     "kjvText": "And the Holy Ghost descended in a bodily shape like a dove upon him, and a voice came from heaven, which said, Thou art my beloved Son; in thee I am well pleased.",
+     "webPhrase": "the Holy Spirit descended in a bodily form like a dove",
+     "webText": "and the Holy Spirit descended in a bodily form like a dove on him; and a voice came out of the sky, saying “You are my beloved Son. In you I am well pleased.”"
+    }
+   ],
+   "text": "At the baptism of Jesus. All four Gospels tell it (Mark 1:10, John 1:32), and these four are the only New Testament verses with \"dove\" in the singular, in either translation."
+  },
+  {
+   "symbol": "Fire",
+   "word": "fire",
+   "verses": [
+    {
+     "ref": "Acts 2:3",
+     "kjvText": "And there appeared unto them cloven tongues like as of fire, and it sat upon each of them.",
+     "webPhrase": "Tongues like fire appeared",
+     "webText": "Tongues like fire appeared and were distributed to them, and one sat on each of them."
+    },
+    {
+     "ref": "Luke 3:16",
+     "kjvText": "John answered, saying unto them all, I indeed baptize you with water; but one mightier than I cometh, the latchet of whose shoes I am not worthy to unloose: he shall baptize you with the Holy Ghost and with fire:",
+     "webPhrase": "He will baptize you in the Holy Spirit and fire",
+     "webText": "John answered them all, “I indeed baptize you with water, but he comes who is mightier than I, the strap of whose sandals I am not worthy to loosen. He will baptize you in the Holy Spirit and fire,"
+    }
+   ],
+   "text": "Tongues \"like as of fire\" sit on each disciple at Pentecost (Acts 2:3-4). John the Baptist pairs the Holy Ghost with fire; the KJV has the pair in Matthew 3:11 as well, where the WEB has the Holy Spirit alone. Revelation 4:5 calls seven lamps of fire \"the seven Spirits of God\"."
+  },
+  {
+   "symbol": "Wind",
+   "word": "wind",
+   "verses": [
+    {
+     "ref": "John 3:8",
+     "kjvText": "The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit.",
+     "webPhrase": "The wind blows where it wants to ... So is everyone who is born of the Spirit",
+     "webText": "The wind blows where it wants to, and you hear its sound, but don’t know where it comes from and where it is going. So is everyone who is born of the Spirit.”"
+    },
+    {
+     "ref": "Acts 2:2",
+     "kjvText": "And suddenly there came a sound from heaven as of a rushing mighty wind, and it filled all the house where they were sitting.",
+     "webPhrase": "the rushing of a mighty wind",
+     "webText": "Suddenly there came from the sky a sound like the rushing of a mighty wind, and it filled all the house where they were sitting."
+    }
+   ],
+   "text": "Jesus compares the Spirit to the wind in John 3:8; the sound \"as of a rushing mighty wind\" comes just before the believers are \"filled with the Holy Ghost\" (Acts 2:4)."
+  },
+  {
+   "symbol": "Breath",
+   "word": null,
+   "verses": [
+    {
+     "ref": "John 20:22",
+     "kjvText": "And when he had said this, he breathed on them, and saith unto them, Receive ye the Holy Ghost:",
+     "webPhrase": "he breathed on them, and said to them ... Receive the Holy Spirit",
+     "webText": "When he had said this, he breathed on them, and said to them, “Receive the Holy Spirit!"
+    },
+    {
+     "ref": "Job 33:4",
+     "kjvText": "The Spirit of God hath made me, and the breath of the Almighty hath given me life.",
+     "webPhrase": "The Spirit of God has made me, and the breath of the Almighty gives me life",
+     "webText": "The Spirit of God has made me, and the breath of the Almighty gives me life."
+    }
+   ],
+   "text": "Jesus breathes on the disciples as he gives the Spirit. Job sets \"the Spirit of God\" and \"the breath of the Almighty\" side by side."
+  },
+  {
+   "symbol": "Water",
+   "word": "water",
+   "verses": [
+    {
+     "ref": "John 7:38",
+     "kjvText": "He that believeth on me, as the scripture hath said, out of his belly shall flow rivers of living water.",
+     "webPhrase": "from within him will flow rivers of living water",
+     "webText": "He who believes in me, as the Scripture has said, from within him will flow rivers of living water.”"
+    },
+    {
+     "ref": "John 7:39",
+     "kjvText": "(But this spake he of the Spirit, which they that believe on him should receive: for the Holy Ghost was not yet given; because that Jesus was not yet glorified.)",
+     "webPhrase": "But he said this about the Spirit",
+     "webText": "But he said this about the Spirit, which those believing in him were to receive. For the Holy Spirit was not yet given, because Jesus wasn’t yet glorified."
+    },
+    {
+     "ref": "Isaiah 44:3",
+     "kjvText": "For I will pour water upon him that is thirsty, and floods upon the dry ground: I will pour my spirit upon thy seed, and my blessing upon thine offspring:",
+     "webPhrase": "I will pour water on him who is thirsty ... I will pour my Spirit on your descendants",
+     "webText": "For I will pour water on him who is thirsty, and streams on the dry ground. I will pour my Spirit on your descendants, and my blessing on your offspring:"
+    }
+   ],
+   "text": "John explains the \"rivers of living water\" as the Spirit. Isaiah 44:3 sets pouring water and pouring God's spirit in one verse."
+  },
+  {
+   "symbol": "Oil and anointing",
+   "word": "oil",
+   "verses": [
+    {
+     "ref": "Acts 10:38",
+     "kjvText": "How God anointed Jesus of Nazareth with the Holy Ghost and with power: who went about doing good, and healing all that were oppressed of the devil; for God was with him.",
+     "webPhrase": "God anointed him with the Holy Spirit and with power",
+     "webText": "even Jesus of Nazareth, how God anointed him with the Holy Spirit and with power, who went about doing good and healing all who were oppressed by the devil, for God was with him."
+    },
+    {
+     "ref": "1 John 2:27",
+     "kjvText": "But the anointing which ye have received of him abideth in you, and ye need not that any man teach you: but as the same anointing teacheth you of all things, and is truth, and is no lie, and even as it hath taught you, ye shall abide in him.",
+     "webPhrase": "the anointing which you received from him remains in you",
+     "webText": "As for you, the anointing which you received from him remains in you, and you don’t need for anyone to teach you. But as his anointing teaches you concerning all things, and is true, and is no lie, and even as it taught you, you will remain in him."
+    },
+    {
+     "ref": "1 Samuel 16:13",
+     "kjvText": "Then Samuel took the horn of oil, and anointed him in the midst of his brethren: and the Spirit of the LORD came upon David from that day forward. So Samuel rose up, and went to Ramah.",
+     "webPhrase": "Samuel took the horn of oil, and anointed him ... Yahweh's Spirit came mightily on David from that day forward",
+     "webText": "Then Samuel took the horn of oil, and anointed him in the middle of his brothers. Then Yahweh’s Spirit came mightily on David from that day forward. So Samuel rose up and went to Ramah."
+    }
+   ],
+   "text": "Samuel anoints David with oil, and the Spirit of the LORD comes on him \"from that day forward\". In the New Testament the anointing is with the Holy Ghost itself (Acts 10:38; Luke 4:18 quoting Isaiah 61:1). 1 John 2:20 has \"an unction from the Holy One\" (WEB \"an anointing\")."
+  },
+  {
+   "symbol": "Seal",
+   "word": null,
+   "verses": [
+    {
+     "ref": "Ephesians 1:13",
+     "kjvText": "In whom ye also trusted, after that ye heard the word of truth, the gospel of your salvation: in whom also after that ye believed, ye were sealed with that holy Spirit of promise,",
+     "webPhrase": "you were sealed with the promised Holy Spirit",
+     "webText": "In him you also, having heard the word of the truth, the Good News of your salvation—in whom, having also believed, you were sealed with the promised Holy Spirit,"
+    },
+    {
+     "ref": "Ephesians 4:30",
+     "kjvText": "And grieve not the holy Spirit of God, whereby ye are sealed unto the day of redemption.",
+     "webPhrase": "in whom you were sealed for the day of redemption",
+     "webText": "Don’t grieve the Holy Spirit of God, in whom you were sealed for the day of redemption."
+    }
+   ],
+   "text": "Paul says believers are sealed with the Spirit. 2 Corinthians 1:22 also says God \"hath also sealed us\"."
+  },
+  {
+   "symbol": "Earnest (down payment)",
+   "word": null,
+   "verses": [
+    {
+     "ref": "2 Corinthians 1:22",
+     "kjvText": "Who hath also sealed us, and given the earnest of the Spirit in our hearts.",
+     "webPhrase": "who also sealed us, and gave us the down payment of the Spirit in our hearts",
+     "webText": "who also sealed us, and gave us the down payment of the Spirit in our hearts."
+    },
+    {
+     "ref": "2 Corinthians 5:5",
+     "kjvText": "Now he that hath wrought us for the selfsame thing is God, who also hath given unto us the earnest of the Spirit.",
+     "webPhrase": "the down payment of the Spirit",
+     "webText": "Now he who made us for this very thing is God, who also gave to us the down payment of the Spirit."
+    }
+   ],
+   "text": "\"Earnest\" is the KJV's word for a deposit that promises the rest; the WEB says \"down payment\". Ephesians 1:14 calls the Spirit \"the earnest of our inheritance\" (WEB \"a pledge\")."
+  }
+ ]
+}

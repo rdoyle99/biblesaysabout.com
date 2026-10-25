@@ -125,6 +125,10 @@ export default function BooksOfTheBible() {
                 <a href="https://bible.usccb.org/bible" className="underline underline-offset-2" rel="noopener">
                   USCCB
                 </a>
+                . The Catholic Bible&apos;s 73 books, with the seven extra ones counted, are on{" "}
+                <Link href="/how-many-books-are-in-the-catholic-bible" className="underline underline-offset-2">
+                  how many books are in the Catholic Bible
+                </Link>
                 .
               </p>
             </div>
