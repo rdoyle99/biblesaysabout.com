@@ -483,6 +483,11 @@ export default function HomeClient({
               ["/gifts-of-the-spirit", "Gifts of the Spirit"],
               ["/major-and-minor-prophets", "Major and minor prophets"],
               ["/how-many-wives-did-solomon-have", "How many wives did Solomon have"],
+              ["/twelve-apostles", "The 12 apostles"],
+              ["/kings-of-israel-and-judah", "Kings of Israel and Judah"],
+              ["/seven-churches-of-revelation", "The seven churches of Revelation"],
+              ["/how-old-was-methuselah", "How old was Methuselah"],
+              ["/613-commandments", "The 613 commandments"],
             ].map(([href, label], i) => (
               <span key={href}>
                 {i ? " · " : ""}
@@ -523,7 +528,7 @@ export default function HomeClient({
       <section className="py-16 md:py-24 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Start Your Spiritual Journey Today
+            Start Reading Today
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
             Join thousands who find daily inspiration and strength through God's

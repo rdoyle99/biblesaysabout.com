@@ -169,6 +169,11 @@ export default function BibleByTheNumbers() {
             <li><Link href="/gifts-of-the-spirit" className="underline underline-offset-2 hover:text-primary">Gifts of the Spirit</Link></li>
             <li><Link href="/major-and-minor-prophets" className="underline underline-offset-2 hover:text-primary">The major and minor prophets</Link></li>
             <li><Link href="/how-many-wives-did-solomon-have" className="underline underline-offset-2 hover:text-primary">How many wives did Solomon have?</Link></li>
+            <li><Link href="/twelve-apostles" className="underline underline-offset-2 hover:text-primary">The twelve apostles</Link></li>
+            <li><Link href="/kings-of-israel-and-judah" className="underline underline-offset-2 hover:text-primary">Kings of Israel and Judah in order</Link></li>
+            <li><Link href="/seven-churches-of-revelation" className="underline underline-offset-2 hover:text-primary">The seven churches of Revelation</Link></li>
+            <li><Link href="/how-old-was-methuselah" className="underline underline-offset-2 hover:text-primary">How old was Methuselah?</Link></li>
+            <li><Link href="/613-commandments" className="underline underline-offset-2 hover:text-primary">The 613 commandments</Link></li>
           </ul>
         </Section>
 

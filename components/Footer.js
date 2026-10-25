@@ -43,7 +43,7 @@ export default function Footer() {
             </Link>
             <p className="text-sm text-muted-foreground mb-4">
               Discover what the Bible says about any topic. Explore curated verses 
-              on strength, love, hope, and more to guide your spiritual journey.
+              on strength, love, hope, and more.
             </p>
             <div className="flex items-center space-x-3">
               <a
@@ -281,6 +281,46 @@ export default function Footer() {
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >
                   Solomon's wives
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/twelve-apostles"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  The 12 apostles
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/kings-of-israel-and-judah"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Kings of Israel and Judah
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/seven-churches-of-revelation"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Seven churches of Revelation
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/how-old-was-methuselah"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Methuselah's age
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/613-commandments"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  The 613 commandments
                 </Link>
               </li>
               <li>

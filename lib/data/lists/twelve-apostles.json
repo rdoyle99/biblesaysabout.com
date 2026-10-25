@@ -1,0 +1,1523 @@
+{
+ "generated": "2026-10-25",
+ "count": 12,
+ "ids": [
+  "peter",
+  "andrew",
+  "jamesZ",
+  "john",
+  "philip",
+  "bartholomew",
+  "thomas",
+  "matthew",
+  "jamesA",
+  "thaddaeus",
+  "simonZ",
+  "judasI"
+ ],
+ "lists": [
+  {
+   "id": "matthew",
+   "ref": "Matthew 10:2-4",
+   "label": "Matthew 10:2-4",
+   "kjv": {
+    "peter": {
+     "pos": 1,
+     "as": "Simon, who is called Peter"
+    },
+    "andrew": {
+     "pos": 2,
+     "as": "Andrew his brother"
+    },
+    "jamesZ": {
+     "pos": 3,
+     "as": "James the son of Zebedee"
+    },
+    "john": {
+     "pos": 4,
+     "as": "John his brother"
+    },
+    "philip": {
+     "pos": 5,
+     "as": "Philip"
+    },
+    "bartholomew": {
+     "pos": 6,
+     "as": "Bartholomew"
+    },
+    "thomas": {
+     "pos": 7,
+     "as": "Thomas"
+    },
+    "matthew": {
+     "pos": 8,
+     "as": "Matthew the publican"
+    },
+    "jamesA": {
+     "pos": 9,
+     "as": "James the son of Alphaeus"
+    },
+    "thaddaeus": {
+     "pos": 10,
+     "as": "Lebbaeus, whose surname was Thaddaeus"
+    },
+    "simonZ": {
+     "pos": 11,
+     "as": "Simon the Canaanite"
+    },
+    "judasI": {
+     "pos": 12,
+     "as": "Judas Iscariot"
+    }
+   },
+   "web": {
+    "peter": {
+     "pos": 1,
+     "as": "Simon, who is called Peter"
+    },
+    "andrew": {
+     "pos": 2,
+     "as": "Andrew, his brother"
+    },
+    "jamesZ": {
+     "pos": 3,
+     "as": "James the son of Zebedee"
+    },
+    "john": {
+     "pos": 4,
+     "as": "John, his brother"
+    },
+    "philip": {
+     "pos": 5,
+     "as": "Philip"
+    },
+    "bartholomew": {
+     "pos": 6,
+     "as": "Bartholomew"
+    },
+    "thomas": {
+     "pos": 7,
+     "as": "Thomas"
+    },
+    "matthew": {
+     "pos": 8,
+     "as": "Matthew the tax collector"
+    },
+    "jamesA": {
+     "pos": 9,
+     "as": "James the son of Alphaeus"
+    },
+    "thaddaeus": {
+     "pos": 10,
+     "as": "Lebbaeus, who was also called Thaddaeus"
+    },
+    "simonZ": {
+     "pos": 11,
+     "as": "Simon the Canaanite"
+    },
+    "judasI": {
+     "pos": 12,
+     "as": "Judas Iscariot"
+    }
+   }
+  },
+  {
+   "id": "mark",
+   "ref": "Mark 3:16-19",
+   "label": "Mark 3:16-19",
+   "kjv": {
+    "peter": {
+     "pos": 1,
+     "as": "Simon he surnamed Peter"
+    },
+    "jamesZ": {
+     "pos": 2,
+     "as": "James the son of Zebedee"
+    },
+    "john": {
+     "pos": 3,
+     "as": "John the brother of James"
+    },
+    "andrew": {
+     "pos": 4,
+     "as": "Andrew"
+    },
+    "philip": {
+     "pos": 5,
+     "as": "Philip"
+    },
+    "bartholomew": {
+     "pos": 6,
+     "as": "Bartholomew"
+    },
+    "matthew": {
+     "pos": 7,
+     "as": "Matthew"
+    },
+    "thomas": {
+     "pos": 8,
+     "as": "Thomas"
+    },
+    "jamesA": {
+     "pos": 9,
+     "as": "James the son of Alphaeus"
+    },
+    "thaddaeus": {
+     "pos": 10,
+     "as": "Thaddaeus"
+    },
+    "simonZ": {
+     "pos": 11,
+     "as": "Simon the Canaanite"
+    },
+    "judasI": {
+     "pos": 12,
+     "as": "Judas Iscariot"
+    }
+   },
+   "web": {
+    "peter": {
+     "pos": 1,
+     "as": "Simon (to whom he gave the name Peter)"
+    },
+    "jamesZ": {
+     "pos": 2,
+     "as": "James the son of Zebedee"
+    },
+    "john": {
+     "pos": 3,
+     "as": "John, the brother of James"
+    },
+    "andrew": {
+     "pos": 4,
+     "as": "Andrew"
+    },
+    "philip": {
+     "pos": 5,
+     "as": "Philip"
+    },
+    "bartholomew": {
+     "pos": 6,
+     "as": "Bartholomew"
+    },
+    "matthew": {
+     "pos": 7,
+     "as": "Matthew"
+    },
+    "thomas": {
+     "pos": 8,
+     "as": "Thomas"
+    },
+    "jamesA": {
+     "pos": 9,
+     "as": "James, the son of Alphaeus"
+    },
+    "thaddaeus": {
+     "pos": 10,
+     "as": "Thaddaeus"
+    },
+    "simonZ": {
+     "pos": 11,
+     "as": "Simon the Zealot"
+    },
+    "judasI": {
+     "pos": 12,
+     "as": "Judas Iscariot"
+    }
+   }
+  },
+  {
+   "id": "luke",
+   "ref": "Luke 6:14-16",
+   "label": "Luke 6:14-16",
+   "kjv": {
+    "peter": {
+     "pos": 1,
+     "as": "Simon, (whom he also named Peter,)"
+    },
+    "andrew": {
+     "pos": 2,
+     "as": "Andrew his brother"
+    },
+    "jamesZ": {
+     "pos": 3,
+     "as": "James"
+    },
+    "john": {
+     "pos": 4,
+     "as": "John"
+    },
+    "philip": {
+     "pos": 5,
+     "as": "Philip"
+    },
+    "bartholomew": {
+     "pos": 6,
+     "as": "Bartholomew"
+    },
+    "matthew": {
+     "pos": 7,
+     "as": "Matthew"
+    },
+    "thomas": {
+     "pos": 8,
+     "as": "Thomas"
+    },
+    "jamesA": {
+     "pos": 9,
+     "as": "James the son of Alphaeus"
+    },
+    "simonZ": {
+     "pos": 10,
+     "as": "Simon called Zelotes"
+    },
+    "thaddaeus": {
+     "pos": 11,
+     "as": "Judas the brother of James"
+    },
+    "judasI": {
+     "pos": 12,
+     "as": "Judas Iscariot"
+    }
+   },
+   "web": {
+    "peter": {
+     "pos": 1,
+     "as": "Simon, whom he also named Peter"
+    },
+    "andrew": {
+     "pos": 2,
+     "as": "Andrew, his brother"
+    },
+    "jamesZ": {
+     "pos": 3,
+     "as": "James"
+    },
+    "john": {
+     "pos": 4,
+     "as": "John"
+    },
+    "philip": {
+     "pos": 5,
+     "as": "Philip"
+    },
+    "bartholomew": {
+     "pos": 6,
+     "as": "Bartholomew"
+    },
+    "matthew": {
+     "pos": 7,
+     "as": "Matthew"
+    },
+    "thomas": {
+     "pos": 8,
+     "as": "Thomas"
+    },
+    "jamesA": {
+     "pos": 9,
+     "as": "James, the son of Alphaeus"
+    },
+    "simonZ": {
+     "pos": 10,
+     "as": "Simon, who was called the Zealot"
+    },
+    "thaddaeus": {
+     "pos": 11,
+     "as": "Judas the son of James"
+    },
+    "judasI": {
+     "pos": 12,
+     "as": "Judas Iscariot"
+    }
+   }
+  },
+  {
+   "id": "acts",
+   "ref": "Acts 1:13",
+   "label": "Acts 1:13",
+   "kjv": {
+    "peter": {
+     "pos": 1,
+     "as": "Peter"
+    },
+    "jamesZ": {
+     "pos": 2,
+     "as": "James"
+    },
+    "john": {
+     "pos": 3,
+     "as": "John"
+    },
+    "andrew": {
+     "pos": 4,
+     "as": "Andrew"
+    },
+    "philip": {
+     "pos": 5,
+     "as": "Philip"
+    },
+    "thomas": {
+     "pos": 6,
+     "as": "Thomas"
+    },
+    "bartholomew": {
+     "pos": 7,
+     "as": "Bartholomew"
+    },
+    "matthew": {
+     "pos": 8,
+     "as": "Matthew"
+    },
+    "jamesA": {
+     "pos": 9,
+     "as": "James the son of Alphaeus"
+    },
+    "simonZ": {
+     "pos": 10,
+     "as": "Simon Zelotes"
+    },
+    "thaddaeus": {
+     "pos": 11,
+     "as": "Judas the brother of James"
+    }
+   },
+   "web": {
+    "peter": {
+     "pos": 1,
+     "as": "Peter"
+    },
+    "john": {
+     "pos": 2,
+     "as": "John"
+    },
+    "jamesZ": {
+     "pos": 3,
+     "as": "James"
+    },
+    "andrew": {
+     "pos": 4,
+     "as": "Andrew"
+    },
+    "philip": {
+     "pos": 5,
+     "as": "Philip"
+    },
+    "thomas": {
+     "pos": 6,
+     "as": "Thomas"
+    },
+    "bartholomew": {
+     "pos": 7,
+     "as": "Bartholomew"
+    },
+    "matthew": {
+     "pos": 8,
+     "as": "Matthew"
+    },
+    "jamesA": {
+     "pos": 9,
+     "as": "James the son of Alphaeus"
+    },
+    "simonZ": {
+     "pos": 10,
+     "as": "Simon the Zealot"
+    },
+    "thaddaeus": {
+     "pos": 11,
+     "as": "Judas the son of James"
+    }
+   }
+  }
+ ],
+ "observations": {
+  "samePosKjv": [
+   {
+    "id": "peter",
+    "pos": 1
+   },
+   {
+    "id": "philip",
+    "pos": 5
+   },
+   {
+    "id": "jamesA",
+    "pos": 9
+   },
+   {
+    "id": "judasI",
+    "pos": 12
+   }
+  ],
+  "samePosWeb": [
+   {
+    "id": "peter",
+    "pos": 1
+   },
+   {
+    "id": "philip",
+    "pos": 5
+   },
+   {
+    "id": "jamesA",
+    "pos": 9
+   },
+   {
+    "id": "judasI",
+    "pos": 12
+   }
+  ],
+  "lastInGospels": [
+   "judasI"
+  ],
+  "groups": [
+   {
+    "group": 1,
+    "members": [
+     "andrew",
+     "jamesZ",
+     "john",
+     "peter"
+    ],
+    "sameInAll": true,
+    "headedBy": [
+     "peter"
+    ]
+   },
+   {
+    "group": 2,
+    "members": [
+     "bartholomew",
+     "matthew",
+     "philip",
+     "thomas"
+    ],
+    "sameInAll": true,
+    "headedBy": [
+     "philip"
+    ]
+   },
+   {
+    "group": 3,
+    "members": [
+     "jamesA",
+     "judasI",
+     "simonZ",
+     "thaddaeus"
+    ],
+    "sameInAll": true,
+    "headedBy": [
+     "jamesA"
+    ]
+   }
+  ],
+  "orderDiffs": [
+   {
+    "list": "Acts 1:13",
+    "id": "jamesZ",
+    "kjv": 2,
+    "web": 3
+   },
+   {
+    "list": "Acts 1:13",
+    "id": "john",
+    "kjv": 3,
+    "web": 2
+   }
+  ],
+  "shifts": [
+   {
+    "id": "peter",
+    "min": 1,
+    "max": 1
+   },
+   {
+    "id": "andrew",
+    "min": 2,
+    "max": 4
+   },
+   {
+    "id": "jamesZ",
+    "min": 2,
+    "max": 3
+   },
+   {
+    "id": "john",
+    "min": 3,
+    "max": 4
+   },
+   {
+    "id": "philip",
+    "min": 5,
+    "max": 5
+   },
+   {
+    "id": "bartholomew",
+    "min": 6,
+    "max": 7
+   },
+   {
+    "id": "thomas",
+    "min": 6,
+    "max": 8
+   },
+   {
+    "id": "matthew",
+    "min": 7,
+    "max": 8
+   },
+   {
+    "id": "jamesA",
+    "min": 9,
+    "max": 9
+   },
+   {
+    "id": "thaddaeus",
+    "min": 10,
+    "max": 11
+   },
+   {
+    "id": "simonZ",
+    "min": 10,
+    "max": 11
+   },
+   {
+    "id": "judasI",
+    "min": 12,
+    "max": 12
+   }
+  ]
+ },
+ "apostles": [
+  {
+   "id": "peter",
+   "name": "Simon Peter",
+   "also": "Simon; Cephas, \"a stone\" (John 1:42); Simon Barjona (Matthew 16:17)",
+   "family": "Brother of Andrew; a fisherman; married (Matthew 8:14)",
+   "refs": [
+    "John 1:42",
+    "Matthew 16:17",
+    "Matthew 4:18",
+    "Matthew 8:14",
+    "Mark 3:16"
+   ],
+   "countKjv": 162,
+   "countWeb": 162,
+   "countForms": [
+    "peter",
+    "peter's"
+   ],
+   "positions": {
+    "matthew": 1,
+    "mark": 1,
+    "luke": 1,
+    "acts": 1
+   }
+  },
+  {
+   "id": "andrew",
+   "name": "Andrew",
+   "also": "",
+   "family": "Brother of Simon Peter; a fisherman; from Bethsaida (John 1:44)",
+   "refs": [
+    "John 1:40",
+    "Matthew 4:18",
+    "John 1:44"
+   ],
+   "countKjv": 13,
+   "countWeb": 13,
+   "countForms": [
+    "andrew"
+   ],
+   "positions": {
+    "matthew": 2,
+    "mark": 4,
+    "luke": 2,
+    "acts": 4
+   }
+  },
+  {
+   "id": "jamesZ",
+   "name": "James, son of Zebedee",
+   "also": "Boanerges, \"the sons of thunder\", with John (Mark 3:17)",
+   "family": "Brother of John; a fisherman, partner with Simon (Luke 5:10); killed by Herod (Acts 12:2)",
+   "refs": [
+    "Mark 3:17",
+    "Matthew 4:21",
+    "Luke 5:10",
+    "Acts 12:2"
+   ],
+   "positions": {
+    "matthew": 3,
+    "mark": 2,
+    "luke": 3,
+    "acts": 2
+   }
+  },
+  {
+   "id": "john",
+   "name": "John, son of Zebedee",
+   "also": "Boanerges, with James (Mark 3:17)",
+   "family": "Brother of James; a fisherman",
+   "refs": [
+    "Mark 3:17",
+    "Matthew 4:21",
+    "Mark 1:20"
+   ],
+   "positions": {
+    "matthew": 4,
+    "mark": 3,
+    "luke": 4,
+    "acts": 3
+   }
+  },
+  {
+   "id": "philip",
+   "name": "Philip",
+   "also": "",
+   "family": "From Bethsaida; brought Nathanael to Jesus (John 1:45)",
+   "refs": [
+    "John 1:43",
+    "John 1:44",
+    "John 1:45"
+   ],
+   "positions": {
+    "matthew": 5,
+    "mark": 5,
+    "luke": 5,
+    "acts": 5
+   }
+  },
+  {
+   "id": "bartholomew",
+   "name": "Bartholomew",
+   "also": "",
+   "family": "Named only in the four lists",
+   "refs": [
+    "Matthew 10:3",
+    "Mark 3:18",
+    "Luke 6:14",
+    "Acts 1:13"
+   ],
+   "countKjv": 4,
+   "countWeb": 4,
+   "countForms": [
+    "bartholomew"
+   ],
+   "positions": {
+    "matthew": 6,
+    "mark": 6,
+    "luke": 6,
+    "acts": 7
+   }
+  },
+  {
+   "id": "thomas",
+   "name": "Thomas",
+   "also": "Didymus (John 11:16, 20:24, 21:2)",
+   "family": "Would not believe until he saw the print of the nails (John 20:25)",
+   "refs": [
+    "John 11:16",
+    "John 20:24",
+    "John 20:25",
+    "John 20:28"
+   ],
+   "countKjv": 12,
+   "countWeb": 11,
+   "countForms": [
+    "thomas"
+   ],
+   "positions": {
+    "matthew": 7,
+    "mark": 8,
+    "luke": 8,
+    "acts": 6
+   }
+  },
+  {
+   "id": "matthew",
+   "name": "Matthew",
+   "also": "Levi, in the same call story (Mark 2:14, Luke 5:27)",
+   "family": "A tax collector, \"Matthew the publican\" (Matthew 10:3)",
+   "refs": [
+    "Matthew 10:3",
+    "Matthew 9:9",
+    "Mark 2:14",
+    "Luke 5:27"
+   ],
+   "countKjv": 5,
+   "countWeb": 5,
+   "countForms": [
+    "matthew"
+   ],
+   "positions": {
+    "matthew": 8,
+    "mark": 7,
+    "luke": 7,
+    "acts": 8
+   }
+  },
+  {
+   "id": "jamesA",
+   "name": "James, son of Alphaeus",
+   "also": "",
+   "family": "Called by this name only in the four lists",
+   "refs": [
+    "Matthew 10:3",
+    "Mark 3:18",
+    "Luke 6:15",
+    "Acts 1:13"
+   ],
+   "positions": {
+    "matthew": 9,
+    "mark": 9,
+    "luke": 9,
+    "acts": 9
+   }
+  },
+  {
+   "id": "thaddaeus",
+   "name": "Thaddaeus",
+   "also": "Lebbaeus (Matthew 10:3); Judas the brother of James (Luke 6:16, Acts 1:13; WEB: son of James)",
+   "family": "John 14:22 has a \"Judas ... not Iscariot\" speaking to Jesus",
+   "refs": [
+    "Matthew 10:3",
+    "Mark 3:18",
+    "Luke 6:16",
+    "Acts 1:13",
+    "John 14:22"
+   ],
+   "countKjv": 3,
+   "countWeb": 3,
+   "countForms": [
+    "thaddaeus",
+    "lebbaeus"
+   ],
+   "positions": {
+    "matthew": 10,
+    "mark": 10,
+    "luke": 11,
+    "acts": 11
+   }
+  },
+  {
+   "id": "simonZ",
+   "name": "Simon the Zealot",
+   "also": "Simon the Canaanite (Matthew 10:4, Mark 3:18); Simon Zelotes (Luke 6:15, Acts 1:13)",
+   "family": "Called by these names only in the four lists",
+   "refs": [
+    "Matthew 10:4",
+    "Mark 3:18",
+    "Luke 6:15",
+    "Acts 1:13"
+   ],
+   "positions": {
+    "matthew": 11,
+    "mark": 11,
+    "luke": 10,
+    "acts": 10
+   }
+  },
+  {
+   "id": "judasI",
+   "name": "Judas Iscariot",
+   "also": "Son of Simon (John 6:71)",
+   "family": "Kept the money bag (John 12:6); betrayed Jesus for thirty pieces of silver (Matthew 26:15)",
+   "refs": [
+    "John 6:71",
+    "John 12:6",
+    "Matthew 26:14-15",
+    "Matthew 27:5"
+   ],
+   "positions": {
+    "matthew": 12,
+    "mark": 12,
+    "luke": 12,
+    "acts": null
+   }
+  }
+ ],
+ "onlyInLists": {
+  "bartholomew": 4,
+  "jamesA": 4
+ },
+ "simonZRefs": [
+  "Matthew 10:4",
+  "Mark 3:18",
+  "Luke 6:15",
+  "Acts 1:13"
+ ],
+ "diffs": [
+  {
+   "ref": "Luke 6:16",
+   "kjv": "Judas the brother of James",
+   "web": "Judas the son of James"
+  },
+  {
+   "ref": "Acts 1:13",
+   "kjv": "Judas the brother of James",
+   "web": "Judas the son of James"
+  },
+  {
+   "ref": "Mark 3:18",
+   "kjv": "Simon the Canaanite",
+   "web": "Simon the Zealot"
+  },
+  {
+   "ref": "Matthew 10:3",
+   "kjv": "Matthew the publican",
+   "web": "Matthew the tax collector"
+  },
+  {
+   "ref": "Matthew 10:3",
+   "kjv": "Lebbaeus, whose surname was Thaddaeus",
+   "web": "Lebbaeus, who was also called Thaddaeus"
+  },
+  {
+   "ref": "Acts 1:13",
+   "kjv": "Peter, and James, and John",
+   "web": "Peter, John, James"
+  },
+  {
+   "ref": "John 6:71",
+   "kjv": "Judas Iscariot the son of Simon",
+   "web": "Judas, the son of Simon Iscariot"
+  }
+ ],
+ "beyond": [
+  {
+   "who": "Matthias",
+   "what": "Chosen by lot to take Judas Iscariot's place, \"numbered with the eleven apostles\"",
+   "ref": "Acts 1:26"
+  },
+  {
+   "who": "Paul",
+   "what": "\"Called to be an apostle\"; he calls himself \"the least of the apostles\" (1 Corinthians 15:9)",
+   "ref": "Romans 1:1"
+  },
+  {
+   "who": "Barnabas",
+   "what": "Called an apostle with Paul: \"the apostles, Barnabas and Paul\"",
+   "ref": "Acts 14:14"
+  },
+  {
+   "who": "James the Lord's brother",
+   "what": "Paul says \"other of the apostles saw I none, save James the Lord's brother\"",
+   "ref": "Galatians 1:19"
+  }
+ ],
+ "deaths": [
+  {
+   "who": "Judas Iscariot",
+   "ref": "Matthew 27:5",
+   "also": "Acts 1:18"
+  },
+  {
+   "who": "James, son of Zebedee",
+   "ref": "Acts 12:2",
+   "also": "Acts 12:1"
+  }
+ ],
+ "paulLetters": [
+  {
+   "book": "Romans",
+   "apostle": true
+  },
+  {
+   "book": "1 Corinthians",
+   "apostle": true
+  },
+  {
+   "book": "2 Corinthians",
+   "apostle": true
+  },
+  {
+   "book": "Galatians",
+   "apostle": true
+  },
+  {
+   "book": "Ephesians",
+   "apostle": true
+  },
+  {
+   "book": "Philippians",
+   "apostle": false
+  },
+  {
+   "book": "Colossians",
+   "apostle": true
+  },
+  {
+   "book": "1 Thessalonians",
+   "apostle": false
+  },
+  {
+   "book": "2 Thessalonians",
+   "apostle": false
+  },
+  {
+   "book": "1 Timothy",
+   "apostle": true
+  },
+  {
+   "book": "2 Timothy",
+   "apostle": true
+  },
+  {
+   "book": "Titus",
+   "apostle": true
+  },
+  {
+   "book": "Philemon",
+   "apostle": false
+  }
+ ],
+ "paulApostleOpenings": 9,
+ "writers": [
+  {
+   "book": "1 Peter",
+   "ref": "1 Peter 1:1",
+   "writer": "Peter, \"an apostle of Jesus Christ\""
+  },
+  {
+   "book": "2 Peter",
+   "ref": "2 Peter 1:1",
+   "writer": "Simon Peter, \"a servant and an apostle\""
+  },
+  {
+   "book": "James",
+   "ref": "James 1:1",
+   "writer": "James, \"a servant of God\", without saying which James"
+  },
+  {
+   "book": "Jude",
+   "ref": "Jude 1:1",
+   "writer": "Jude, \"brother of James\""
+  },
+  {
+   "book": "Revelation",
+   "ref": "Revelation 1:1",
+   "writer": "John (Revelation 1:1, 1:4, 1:9, 22:8), not called an apostle"
+  },
+  {
+   "book": "2 John",
+   "ref": "2 John 1:1",
+   "writer": "\"The elder\", no name"
+  },
+  {
+   "book": "3 John",
+   "ref": "3 John 1:1",
+   "writer": "\"The elder\", no name"
+  },
+  {
+   "book": "John",
+   "ref": "John 21:24",
+   "writer": "\"the disciple\" whom Jesus loved (John 21:20, 24), no name"
+  }
+ ],
+ "words": {
+  "apostleKjv": {
+   "total": 79,
+   "verses": 77,
+   "books": 19,
+   "top": {
+    "book": "Acts",
+    "count": 30,
+    "tied": [
+     "Acts"
+    ]
+   },
+   "first": "Matthew 10:2",
+   "byBook": {
+    "Matthew": 1,
+    "Mark": 1,
+    "Luke": 6,
+    "Acts": 30,
+    "Romans": 3,
+    "1 Corinthians": 10,
+    "2 Corinthians": 6,
+    "Galatians": 3,
+    "Ephesians": 4,
+    "Colossians": 1,
+    "1 Thessalonians": 1,
+    "1 Timothy": 2,
+    "2 Timothy": 2,
+    "Titus": 1,
+    "Hebrews": 1,
+    "1 Peter": 1,
+    "2 Peter": 2,
+    "Jude": 1,
+    "Revelation": 3
+   }
+  },
+  "apostleWeb": {
+   "total": 81,
+   "verses": 79,
+   "books": 20,
+   "top": {
+    "book": "Acts",
+    "count": 30,
+    "tied": [
+     "Acts"
+    ]
+   },
+   "first": "Matthew 10:2",
+   "byBook": {
+    "Matthew": 1,
+    "Mark": 1,
+    "Luke": 6,
+    "Acts": 30,
+    "Romans": 3,
+    "1 Corinthians": 10,
+    "2 Corinthians": 7,
+    "Galatians": 3,
+    "Ephesians": 4,
+    "Philippians": 1,
+    "Colossians": 1,
+    "1 Thessalonians": 1,
+    "1 Timothy": 2,
+    "2 Timothy": 2,
+    "Titus": 1,
+    "Hebrews": 1,
+    "1 Peter": 1,
+    "2 Peter": 2,
+    "Jude": 1,
+    "Revelation": 3
+   }
+  },
+  "apostleGospelsKjv": {
+   "total": 8,
+   "verses": 8,
+   "books": 3,
+   "top": {
+    "book": "Luke",
+    "count": 6,
+    "tied": [
+     "Luke"
+    ]
+   },
+   "first": "Matthew 10:2",
+   "byBook": {
+    "Matthew": 1,
+    "Mark": 1,
+    "Luke": 6
+   }
+  },
+  "apostleJohnKjv": 0,
+  "apostleJohnWeb": 0,
+  "discipleKjv": {
+   "total": 273,
+   "verses": 256,
+   "books": 6,
+   "top": {
+    "book": "John",
+    "count": 81,
+    "tied": [
+     "John"
+    ]
+   },
+   "first": "Isaiah 8:16",
+   "byBook": {
+    "Isaiah": 1,
+    "Matthew": 75,
+    "Mark": 46,
+    "Luke": 39,
+    "John": 81,
+    "Acts": 31
+   }
+  },
+  "discipleWeb": {
+   "total": 278,
+   "verses": 259,
+   "books": 6,
+   "top": {
+    "book": "John",
+    "count": 83,
+    "tied": [
+     "John"
+    ]
+   },
+   "first": "Isaiah 8:16",
+   "byBook": {
+    "Isaiah": 1,
+    "Matthew": 77,
+    "Mark": 46,
+    "Luke": 39,
+    "John": 83,
+    "Acts": 32
+   }
+  },
+  "peterKjv": {
+   "total": 162,
+   "verses": 156,
+   "books": 8,
+   "top": {
+    "book": "Acts",
+    "count": 58,
+    "tied": [
+     "Acts"
+    ]
+   },
+   "first": "Matthew 4:18",
+   "byBook": {
+    "Matthew": 24,
+    "Mark": 19,
+    "Luke": 20,
+    "John": 34,
+    "Acts": 58,
+    "Galatians": 5,
+    "1 Peter": 1,
+    "2 Peter": 1
+   }
+  },
+  "peterWeb": {
+   "total": 162,
+   "verses": 157,
+   "books": 8,
+   "top": {
+    "book": "Acts",
+    "count": 59,
+    "tied": [
+     "Acts"
+    ]
+   },
+   "first": "Matthew 4:18",
+   "byBook": {
+    "Matthew": 24,
+    "Mark": 19,
+    "Luke": 19,
+    "John": 34,
+    "Acts": 59,
+    "Galatians": 5,
+    "1 Peter": 1,
+    "2 Peter": 1
+   }
+  },
+  "cephasKjv": {
+   "total": 6,
+   "verses": 6,
+   "books": 3,
+   "top": {
+    "book": "1 Corinthians",
+    "count": 4,
+    "tied": [
+     "1 Corinthians"
+    ]
+   },
+   "first": "John 1:42",
+   "byBook": {
+    "John": 1,
+    "1 Corinthians": 4,
+    "Galatians": 1
+   }
+  },
+  "cephasWeb": {
+   "total": 6,
+   "verses": 6,
+   "books": 3,
+   "top": {
+    "book": "1 Corinthians",
+    "count": 4,
+    "tied": [
+     "1 Corinthians"
+    ]
+   },
+   "first": "John 1:42",
+   "byBook": {
+    "John": 1,
+    "1 Corinthians": 4,
+    "Galatians": 1
+   }
+  },
+  "paulKjv": {
+   "total": 162,
+   "verses": 158,
+   "books": 15,
+   "top": {
+    "book": "Acts",
+    "count": 132,
+    "tied": [
+     "Acts"
+    ]
+   },
+   "first": "Acts 13:9",
+   "byBook": {
+    "Acts": 132,
+    "Romans": 1,
+    "1 Corinthians": 8,
+    "2 Corinthians": 2,
+    "Galatians": 2,
+    "Ephesians": 2,
+    "Philippians": 1,
+    "Colossians": 3,
+    "1 Thessalonians": 2,
+    "2 Thessalonians": 2,
+    "1 Timothy": 1,
+    "2 Timothy": 1,
+    "Titus": 1,
+    "Philemon": 3,
+    "2 Peter": 1
+   }
+  },
+  "paulWeb": {
+   "total": 161,
+   "verses": 157,
+   "books": 15,
+   "top": {
+    "book": "Acts",
+    "count": 131,
+    "tied": [
+     "Acts"
+    ]
+   },
+   "first": "Acts 13:9",
+   "byBook": {
+    "Acts": 131,
+    "Romans": 1,
+    "1 Corinthians": 8,
+    "2 Corinthians": 2,
+    "Galatians": 2,
+    "Ephesians": 2,
+    "Philippians": 1,
+    "Colossians": 3,
+    "1 Thessalonians": 2,
+    "2 Thessalonians": 2,
+    "1 Timothy": 1,
+    "2 Timothy": 1,
+    "Titus": 1,
+    "Philemon": 3,
+    "2 Peter": 1
+   }
+  },
+  "johnKjv": {
+   "total": 133,
+   "verses": 130,
+   "books": 7,
+   "top": {
+    "book": "Luke",
+    "count": 31,
+    "tied": [
+     "Luke"
+    ]
+   },
+   "first": "Matthew 3:1",
+   "byBook": {
+    "Matthew": 26,
+    "Mark": 26,
+    "Luke": 31,
+    "John": 20,
+    "Acts": 24,
+    "Galatians": 1,
+    "Revelation": 5
+   }
+  },
+  "jamesKjv": {
+   "total": 42,
+   "verses": 38,
+   "books": 8,
+   "top": {
+    "book": "Mark",
+    "count": 15,
+    "tied": [
+     "Mark"
+    ]
+   },
+   "first": "Matthew 4:21",
+   "byBook": {
+    "Matthew": 6,
+    "Mark": 15,
+    "Luke": 8,
+    "Acts": 7,
+    "1 Corinthians": 1,
+    "Galatians": 3,
+    "James": 1,
+    "Jude": 1
+   }
+  },
+  "judasKjv": {
+   "total": 33,
+   "verses": 32,
+   "books": 5,
+   "top": {
+    "book": "John",
+    "count": 9,
+    "tied": [
+     "John"
+    ]
+   },
+   "first": "Matthew 1:2",
+   "byBook": {
+    "Matthew": 8,
+    "Mark": 3,
+    "Luke": 5,
+    "John": 9,
+    "Acts": 8
+   }
+  },
+  "philipKjv": {
+   "total": 36,
+   "verses": 35,
+   "books": 5,
+   "top": {
+    "book": "Acts",
+    "count": 17,
+    "tied": [
+     "Acts"
+    ]
+   },
+   "first": "Matthew 10:3",
+   "byBook": {
+    "Matthew": 2,
+    "Mark": 2,
+    "Luke": 3,
+    "John": 12,
+    "Acts": 17
+   }
+  },
+  "simonPeterKjv": {
+   "total": 20,
+   "refs": [
+    "Matthew 16:16",
+    "Luke 5:8",
+    "John 1:40",
+    "John 6:8",
+    "John 6:68",
+    "John 13:6",
+    "John 13:9",
+    "John 13:24",
+    "John 13:36",
+    "John 18:10",
+    "John 18:15",
+    "John 18:25",
+    "John 20:2",
+    "John 20:6",
+    "John 21:2",
+    "John 21:3",
+    "John 21:7",
+    "John 21:11",
+    "John 21:15",
+    "2 Peter 1:1"
+   ]
+  },
+  "theTwelveKjv": {
+   "total": 22,
+   "refs": [
+    "Matthew 26:14",
+    "Matthew 26:20",
+    "Matthew 26:47",
+    "Mark 4:10",
+    "Mark 6:7",
+    "Mark 9:35",
+    "Mark 10:32",
+    "Mark 11:11",
+    "Mark 14:10",
+    "Mark 14:17",
+    "Mark 14:20",
+    "Mark 14:43",
+    "Luke 8:1",
+    "Luke 9:12",
+    "Luke 18:31",
+    "Luke 22:3",
+    "Luke 22:47",
+    "John 6:67",
+    "John 6:71",
+    "John 20:24",
+    "Acts 6:2",
+    "1 Corinthians 15:5"
+   ]
+  },
+  "theTwelveWeb": {
+   "total": 23,
+   "refs": [
+    "Matthew 26:14",
+    "Matthew 26:47",
+    "Mark 4:10",
+    "Mark 6:7",
+    "Mark 9:35",
+    "Mark 10:32",
+    "Mark 11:11",
+    "Mark 14:10",
+    "Mark 14:17",
+    "Mark 14:20",
+    "Mark 14:43",
+    "Luke 8:1",
+    "Luke 9:1",
+    "Luke 9:12",
+    "Luke 18:31",
+    "Luke 22:3",
+    "Luke 22:47",
+    "John 6:67",
+    "John 6:70",
+    "John 6:71",
+    "John 20:24",
+    "Acts 6:2",
+    "1 Corinthians 15:5"
+   ]
+  },
+  "twelveApostlesKjv": {
+   "total": 3,
+   "refs": [
+    "Matthew 10:2",
+    "Luke 22:14",
+    "Revelation 21:14"
+   ]
+  },
+  "twelveApostlesWeb": {
+   "total": 3,
+   "refs": [
+    "Matthew 10:2",
+    "Luke 22:14",
+    "Revelation 21:14"
+   ]
+  },
+  "twelveDisciplesKjv": {
+   "total": 4,
+   "refs": [
+    "Matthew 10:1",
+    "Matthew 11:1",
+    "Matthew 20:17",
+    "Luke 9:1"
+   ]
+  },
+  "nathanaelOutsideJohn": 0,
+  "nathanaelKjv": 6,
+  "bartholomewInJohn": 0,
+  "matthiasKjv": {
+   "total": 2,
+   "refs": [
+    "Acts 1:23",
+    "Acts 1:26"
+   ]
+  },
+  "discipleGospelsKjv": 241,
+  "peterActsKjv": {
+   "early": 57,
+   "late": 1
+  },
+  "paulActsKjv": {
+   "early": 0,
+   "late": 132
+  },
+  "theTwelveKjvByBook": {
+   "Matthew": 3,
+   "Mark": 9,
+   "Luke": 5,
+   "John": 3,
+   "Acts": 1,
+   "1 Corinthians": 1
+  }
+ },
+ "rivals": {
+  "John": 133,
+  "James": 42,
+  "Judas": 33,
+  "Philip": 36,
+  "Simon": 76
+ },
+ "quotes": {
+  "luke613": "And when it was day, he called unto him his disciples: and of them he chose twelve, whom also he named apostles;",
+  "luke613Web": "When it was day, he called his disciples, and from them he chose twelve, whom he also named apostles:",
+  "rev2114": "And the wall of the city had twelve foundations, and in them the names of the twelve apostles of the Lamb.",
+  "matt1928": "And Jesus said unto them, Verily I say unto you, That ye which have followed me, in the regeneration when the Son of man shall sit in the throne of his glory, ye also shall sit upon twelve thrones, judging the twelve tribes of Israel.",
+  "acts126": "And they gave forth their lots; and the lot fell upon Matthias; and he was numbered with the eleven apostles."
+ }
+}

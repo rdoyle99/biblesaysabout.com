@@ -175,7 +175,7 @@ export default function SolomonWives() {
 
         <Section>
           <p className="mb-4">
-            Read about <Link href="/books/1-kings" className={link}>1 Kings</Link>, where Solomon&apos;s reign is told, and <Link href="/books/song-of-solomon" className={link}>the Song of Solomon</Link>. The women the Bible does name are on <Link href="/women-of-the-bible" className={link}>the women of the Bible</Link>. Word counts: {wordLink("solomon", "Solomon")}, {wordLink("wife", "wife")} and {wordLink("david", "David")}. More counts are on{" "}
+            Read about <Link href="/books/1-kings" className={link}>1 Kings</Link>, where Solomon&apos;s reign is told, the kings who came after him on <Link href="/kings-of-israel-and-judah" className={link}>the kings of Israel and Judah</Link>, and <Link href="/books/song-of-solomon" className={link}>the Song of Solomon</Link>. The women the Bible does name are on <Link href="/women-of-the-bible" className={link}>the women of the Bible</Link>. Word counts: {wordLink("solomon", "Solomon")}, {wordLink("wife", "wife")} and {wordLink("david", "David")}. More counts are on{" "}
             <Link href="/bible-by-the-numbers" className={link}>the Bible by the numbers</Link>.
           </p>
           <MethodNote text={METHOD} date={DATA.generated} />

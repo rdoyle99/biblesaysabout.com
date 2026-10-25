@@ -23,7 +23,7 @@ export default function AllTopicsSection({ currentTopic = null }) {
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto">
             Explore our comprehensive collection of Bible verses organized by the
-            topics that matter most in your spiritual journey.
+            topics people ask about most.
           </p>
         </div>
 

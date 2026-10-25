@@ -180,7 +180,7 @@ export default function TenPlagues() {
 
         <Section>
           <p className="mb-4">
-            Count the words yourself on {wordLink("blood", "blood")}, {wordLink("darkness", "darkness")} and {wordLink("plague", "plague")}. See <Link href="/twelve-tribes-of-israel" className="underline underline-offset-2 hover:text-primary">the twelve tribes of Israel</Link>, <Link href="/books/exodus" className="underline underline-offset-2 hover:text-primary">the book of Exodus</Link>, <Link href="/words/moses" className="underline underline-offset-2 hover:text-primary">how many times Moses is mentioned</Link>, and <Link href="/bible-by-the-numbers" className="underline underline-offset-2 hover:text-primary">the Bible by the numbers</Link>.
+            Count the words yourself on {wordLink("blood", "blood")}, {wordLink("darkness", "darkness")} and {wordLink("plague", "plague")}. See <Link href="/twelve-tribes-of-israel" className="underline underline-offset-2 hover:text-primary">the twelve tribes of Israel</Link>, <Link href="/books/exodus" className="underline underline-offset-2 hover:text-primary">the book of Exodus</Link>, <Link href="/words/moses" className="underline underline-offset-2 hover:text-primary">how many times Moses is mentioned</Link>, <Link href="/613-commandments" className="underline underline-offset-2 hover:text-primary">the 613 commandments of the Law</Link>, and <Link href="/bible-by-the-numbers" className="underline underline-offset-2 hover:text-primary">the Bible by the numbers</Link>.
           </p>
           <MethodNote text={METHOD} date={LISTS_DATE} />
         </Section>
