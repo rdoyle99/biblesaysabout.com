@@ -22,6 +22,7 @@ import { LISTS_DATE } from "@/lib/bibleLists";
 // second set (women of the Bible, names of Jesus, parables, miracles), added 2026-10-24 (scripts/lists/*.mjs)
 const LISTS2_DATE = "2026-10-24";
 const LISTS3_DATE = "2026-10-25";
+const LISTS4_DATE = "2026-10-25";
 
 const baseUrl = "https://www.biblesaysabout.com";
 
@@ -54,6 +55,7 @@ export default function sitemap() {
     ...["fruit-of-the-spirit", "armor-of-god", "twelve-tribes-of-israel", "ten-plagues-of-egypt"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS_DATE, priority: 0.9 })),
     ...["women-of-the-bible", "names-of-jesus", "parables-of-jesus", "miracles-of-jesus"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS2_DATE, priority: 0.9 })),
     ...["gifts-of-the-spirit", "major-and-minor-prophets", "how-many-wives-did-solomon-have"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS3_DATE, priority: 0.9 })),
+    ...["twelve-apostles", "kings-of-israel-and-judah", "seven-churches-of-revelation", "how-old-was-methuselah", "613-commandments"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS4_DATE, priority: 0.9 })),
     { url: `${baseUrl}/random-bible-verse`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
     { url: `${baseUrl}/bible-verse-of-the-day`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: PAGE_DATES.about, priority: 0.5 },

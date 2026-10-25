@@ -1,0 +1,1322 @@
+<!-- Source: Wikipedia, "613 commandments", https://en.wikipedia.org/wiki/613_commandments, wikitext read 2026-10-25. Text by Wikipedia contributors, licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); this file is redistributed under the same licence. Only the verse references are used on biblesaysabout.com. -->
+{{Short description|Traditional count of Torah commands}}
+{{Jews and Judaism sidebar|Religion}}
+According to [[Judaism|Jewish]] tradition, the [[Torah]] contains '''613 commandments''' ({{langx|he|תרי״ג מצוות|taryág [[mitzvah|mitsvót]]}}). This myth is first recorded in the 3rd century CE, when [[Simlai|Rabbi Simlai]] mentioned it in a sermon that is recorded in Talmud [[Makkot]] 23b.<ref>{{Cite book |title=Maimonides and the Biblical Prophets |author=Israel Drazi |publisher=Gefen Publishing House Ltd. |year=2009 |page=209}}</ref> Other classical sages who hold this view include Rabbi [[Simeon ben Azzai]]<ref>Sifre, Deuteronomy 76</ref> and Rabbi [[Eliezer ben Jose|Eleazar ben Yose the Galilean]].<ref>Midrash [[Aggadah]] to Genesis 15:1</ref> It is quoted in [[Midrash]] [[Exodus Rabbah]] 33:7, [[Numbers Rabbah]] 13:15–16; 18:21 and Talmud [[Yevamot]] 47b. The 613 commandments include "positive commandments", to perform an act ({{Lang|he|mitzvot aseh}}), and "negative commandments", to abstain from an act ({{Lang|he|mitzvot lo taaseh}}). The negative commandments number 365, which coincides with the number of days in the [[solar year]], and the positive commandments number 248, a number ascribed to the number of bones and main organs in the human body.<ref name="m23">Babylonian Talmud, [https://www.sefaria.org.il/Makkot.23b.18?lang=bi&with=all&lang2=en ''Makkot'' 23b-24a]</ref>
+
+Although the number 613 is mentioned in the [[Talmud]], its real significance increased in later medieval rabbinic literature, including many works listing or arranged by the {{Lang|he|mitzvot}}. The most famous of these was an enumeration of the 613 commandments by [[Maimonides]]. While the total number of commandments is 613, no individual can perform all of them. Many can only be observed at the [[Temple in Jerusalem]], which no longer stands. According to one standard reckoning,<ref>{{cite book|last=Chofetz Chaim|title=Sefer HaMitzvot HaKatzar|publisher=Feldheim|location=Jerusalem|year=1990|pages=9, 16, 17|language=Hebrew}}</ref> there are 77 positive and 194 negative commandments that can be observed today, of which there are 26 [[Laws and customs of the Land of Israel in Judaism|commandments that apply only within the Land of Israel]].<ref>[[Yisrael Meir Kagan]], ''The Concise Book of ''Mitzvoth'': The Commandments which can be Observed Today,'' Trans., Charles Wengrov. Feldheim, 1990.</ref> In addition, some commandments only apply to [[Mitzvah#Categories of mitzvot|certain categories of Jews]]: some are only observed by ''[[kohen|kohanim]]'', and others only by men or by women.
+
+==Symbolism of 613==
+{{See|Law given to Moses at Sinai}}
+[[File:WLANL - MicheleLovesArt - Joods Historisch Museum - Schilderij Voerman (1111).jpg|thumb|300 px|{{Lang|nl|De Rouwdagen}} (The [[mourning]] days) by [[Jan Voerman]], {{Circa|1884}}]]
+
+Rav [[Hamnuna]] sourced the count of 613 in the verse {{bibleverse|Deuteronomy||33:4|HE}} ("Moses commanded us the Torah..."). The Talmud notes that the Hebrew numerical value (''[[gematria]]'') of the word ''Torah'' is 611 ({{Script/Hebrew|ת}}&nbsp;=&nbsp;400, {{Script/Hebrew|ו}}&nbsp;=&nbsp;6, {{Script/Hebrew|ר}}&nbsp;=&nbsp;200, {{Script/Hebrew|ה}}&nbsp;=&nbsp;5). Combining 611 commandments which Moses taught the people, with the first two of the [[Ten Commandments]] which were the only ones directly heard from God, a total of 613 is reached.<ref name="m23">Babylonian Talmud, [https://www.sefaria.org.il/Makkot.23b.18?lang=bi&with=all&lang2=en ''Makkot'' 23b-24a]</ref> 
+
+Other sources connect the ''[[tzitzit]]'' (ritual fringes of a garment) to the 613 commandments by gematria: the word {{Lang|he|tzitzit}} (Hebrew: ציצית, in its [[Mishnah|Mishnaic]] spelling) has the value 600 ({{Script/Hebrew|צ}}&nbsp;=&nbsp;90, {{Script/Hebrew|י}}&nbsp;=&nbsp;10, {{Script/Hebrew|ת}}&nbsp;=&nbsp;400). Each tassel has eight threads (when doubled over) and five sets of knots. The sum of all these numbers is 613, reflecting the concept that {{Lang|he|tzitzit}} reminds its wearer of all Torah commandments.<ref>[[Rashi]]'s commentary on [[Book of Numbers|Numbers]] 15:39 (from [[Numbers Rabbah]] 18); compare to [[Lekach Tov]], parshat Shelach Lecha, p.224, s.v. ''tanan hatam bemasechet brachot''</ref>
+
+Many Jewish [[Jewish philosophy|philosophical]] and [[Jewish mysticism|mystical]] works (e.g., by [[Baal HaTurim]], the [[Judah Loew ben Bezalel|Maharal of Prague]] and leaders of [[Hasidic Judaism]]) find allusions and inspirational calculations relating to the number of commandments.
+
+==Dissent and difficulties==
+Rabbinic support for the number of commandments being 613 is not without dissent. For example, [[Ben Azzai]] held that there exist 300 positive {{Lang|he|mitzvot}}.<ref>[[Sifre]] Deuteronomy 76: אמר רבי שמעון בן עזיי והלא שלש מאות מצות עשה בתורה כיוצא בזה לומר מה הדם שאין בכל המצות קל ממנו הזהירך הכתוב עליו שאר כל המצות על אחת כמה וכמה</ref> Also, even as the number gained acceptance, difficulties arose in elucidating the list. Some rabbis declared that this count was not an authentic tradition, or that it was not logically possible to come up with a systematic count. No early work of [[Jewish law]] or Biblical commentary depended on the 613 system, and no early systems of [[Jewish principles of faith]] made acceptance of this [[Aggadah]] (non-legal Talmudic statement) normative. A number of classical authorities denied that it was normative:
+*Rabbi [[Abraham ibn Ezra]] denied that this was an authentic rabbinic tradition. Ibn Ezra writes "Some sages enumerate 613 {{Lang|he|mitzvot|italic=no}} in many diverse ways [...] but in truth there is no end to the number of {{Lang|he|mitzvot|italic=no}} [...] and if we were to count only the root principles [...] the number of {{Lang|he|mitzvot|italic=no}} would not reach 613".<ref>Yesod Mora, Chapter 2</ref>
+* [[Nahmanides]] held that this particular counting was a matter of rabbinic [[controversy]], and that rabbinic opinion on this is not unanimous. Nonetheless, he concedes that "this total has proliferated throughout the aggadic literature... we ought to say that it was a tradition from Moses at [[Mount Sinai]]".<ref>Nahmanides, Commentary to Maimonides' ''Sefer Hamitzvot'', Root Principle 1</ref>
+* Rabbi [[Simeon ben Zemah Duran]] likewise rejected the dogma of the 613 as being the sum of the Law, saying that "perhaps the agreement that the number of {{Lang|he|mitzvot|italic=no}} is 613... is just Rabbi Simlai's opinion, following his own explication of the {{Lang|he|mitzvot|italic=no}}. And we need not rely on his explication when we come to determine [and affect] the Law, but rather on the Talmudic discussions".<ref>Zohar Harakia, Lviv, 1858, p.&nbsp;99</ref>
+* [[Gersonides]] held that the number 613 was only one rabbi's (Rabbi Simlai's) opinion, and if the conclusion of a Talmudic discussion indicated that the number of commandments was greater or lesser than 613, Rabbi Simlai's opinion would be overruled.<ref name=ohayon/> He argued that the number 613 was only intended as an approximation, and that the comparison to 248 limbs and 365 days was intended homiletically, to motivate Jews to keep the commandments.<ref>{{Alhatorah|Shemot|12:10|Ralbag_Toalot}}</ref> 
+* The [[Vilna Gaon]] suggested that there exist many more than 613 commandments (because otherwise large narrative parts of the [[Pentateuch]] would be without commandments, which he considered difficult to accept) and that the count of 613 refers to "roots" ({{Lang|he|shorashim}}) of the other commandments.<ref>See Avraham of Vilna, ''Maalot haTorah'' (printed in [[Nachmanides]], ''Sefer haEmunah vehaBitachon'', [[Warsaw]]: 1877, p.1)</ref>
+
+Even when rabbis attempted to compile a list of the 613 commandments, they were faced with a number of difficulties:
+*Which statements were to be included amongst the 613 commandments? Every one of God's commands to any individual or to the entire people of Israel?
+*Would an order from God be counted as a commandment, for the purposes of such a list, if it could only be complied with in one place and time? Else, would such an order only count as a commandment if it could be followed at all times? (The latter is the view of [[Maimonides]].){{citation needed|date=October 2018}}
+*Does counting a single commandment depend on whether it falls within one verse, even though it may contain multiple prohibitions, or should each prohibition count as a single commandment?{{citation needed|date=October 2018}}
+
+Ultimately, though, the concept of 613 commandments has become accepted as normative amongst practicing Jews and today it is still common practice to refer to the total system of commandments within the Torah as the "613 commandments", even among those who do not literally accept this count as accurate.{{citation needed|date=October 2018}}
+
+However, the 613 {{Lang|he|mitzvot}} do not constitute a formal code of present-day [[halakha]]. Later codes of law such as the [[Shulkhan Arukh]] and the [[Shlomo Ganzfried#Kitzur Shulchan Aruch|Kitzur Shulkhan Arukh]] do not refer to it. However, [[Maimonides]]' [[Mishneh Torah]] is prefaced by a count of the 613 mitzvot.
+
+==Works which enumerate the commandments==
+There is no single definitive list that explicates the 613 commandments. Lists differ, for example, in how they interpret passages in the [[Torah]] that may be read as dealing with several cases under a single law or several separate laws (see [https://thetaryag.com/ here for a visual comparison] of several lists). Other "commandments" in the Torah are restricted as one-time acts, and would not be considered as "{{Lang|he|mitzvot}}" binding on other persons. In [[rabbinic literature]], [[Rishonim]] and later scholars composed to articulate and justify their enumeration of the commandments:<ref>{{cite web| url = https://www.ou.org/content/themes/ou-theme/lib/mechon-mamre-proxy.php?path=http://www.mechon-mamre.org/jewfaq/halakhah.htm| url-status = dead| archive-url = https://web.archive.org/web/20181026222729/https://www.ou.org/content/themes/ou-theme/lib/mechon-mamre-proxy.php?path=http://www.mechon-mamre.org/jewfaq/halakhah.htm| archive-date = 2018-10-26| title = Halakhah: Jewish Law / Torah 101 / Mechon Mamre}}</ref>
+*''[[Halachot Gedolot]]'' ("Great Laws"), thought to be written by Rabbi [[Simeon Kayyara]] (the {{Lang|he|Bahag}}, author of the {{Lang|he|Halakhot Gedolot}}) is the earliest extant enumeration of the 613 {{Lang|he|mitzvot}}.<ref>{{Cite web|url=http://www.zomet.org.il/eng/?CategoryID=160&ArticleID=7930|title="Halachot Gedolot"|website=www.zomet.org.il}}</ref>
+*{{Lang|he|Sefer ha-Mitzvoth}} ("Book of Commandments") by Rabbi [[Saadia Gaon]]. Written during the period of the [[Geonim]], Saadia's work is a simple list (though it was later expanded by Rabbi [[Yerucham Fishel Perlow]].)
+*''[[Sefer Hamitzvot]]'' ("Book of Commandments") by [[Maimonides]], with a commentary by [[Nachmanides]]. Maimonides employs a set of fourteen rules ({{Lang|he|shorashim}}) which determine inclusion into the list. In this work, he supports his specification of each mitzvah through quotations from the ''[[midrash halakha]]'' and the [[Gemara]]. Nachmanides makes a number of critical points and replaces some items of the list with others.<ref>{{Cite web|url=https://outorah.org/p/6124/|title=The Ramban's Emendations to the Taryag Mitzvos - pt. I - Taryag|date=May 21, 2013|website=OU Torah}}</ref>
+*''[[Sefer ha-Chinnuch]]'' ("Book of Education"). This work generally follows Maimonides' reckoning of the 613 commandments.  It is written in the order in which the commandments appear in the Torah rather than an arrangement by category (as in Maimonides' work.) In addition to enumerating the commandments and giving a brief overview of relevant laws, the {{Lang|he|Sefer ha-Chinuch}} also tries to explain the philosophical reasons behind the {{Lang|he|mitzvot}}. It has been attributed to various authors, most commonly Rabbi [[Aaron ha-Levi]] of [[Barcelona]] (the {{Lang|he|Ra'ah}}), though its true authorship is unknown.
+*''[[Sefer Mitzvot Gadol]]'' or SMaG ("Large book of Commandments") by Rabbi [[Moses ben Jacob of Coucy]].
+*{{Lang|he|Sefer ha-Mitzvoth}} by Rabbi [[Yisrael Meir Kagan]] (the "{{Lang|he|Chafetz Chaim}}"). The {{Lang|he|Chafetz Chaim}}'s work follows the reckoning of Maimonides but gives only the commandments relevant today. Notably, this listing omits commandments regarding temple service, ritual purity, sacrifices, and so on. Though the original work included only those commandments relevant in all places and at all times, later editions include agricultural laws relevant today only in the [[Land of Israel]].
+
+===Works in which the number of commandments is not 613 ===
+* {{Lang|he|Sefer Yereim}} by [[Eliezer ben Samuel]] lists only 417 commandments (including commandments only applicable when the Temple stood).<ref name="ohayon">Ohayon, Avraham. "[http://www.shaanan.ac.il/wp-content/uploads/2018/08/Laor/Ktav_Et/Shnaton/K-14/14-5%20ohayon.pdf Ha-ʾOmnam Taryag Miẓvot]" (2009) p. 89-96</ref>
+* [[Menahem Recanati]], in his book {{Lang|he|Taamei haMitzvot}}, counted 250 positive and 361 negative commandments, for a total of 611. These 611 include the two commandments of {{Bibleverse|Exodus|20:2|HE}}, indicating that this list is incompatible with the approach of R' Hamnuna in the Talmud (who said that of the 613 commandments, the two in Exodus 20:2 were given directly by God, and the remaining 611 via Moses).<ref name=ohayon/>
+*{{Lang|he|Sefer Mitzvoth Katan}}, by Rabbi [[Isaac of Corbeil]], listed 320 commandments applicable nowadays. To reach a total of 613, one would have to add 293 commandments applicable only while the Temple stood. As the number of Temple-only commandments appears to be much lower than 293 (for example, [[Sefer ha-Chinuch|Sefer haHinuch]] only counted 201 such commandments), it seems that the overall count of commandments would likely be lower than 613.<ref name=ohayon/>
+*According to Asael Ben-Or, [[Gersonides]]' commentary to the Torah indicates that he counted a total of 513 commandments.<ref name=ohayon/>
+
+==Maimonides' list==
+The following are the 613 commandments and the source of their derivation from the [[Hebrew Bible]] as enumerated by [[Maimonides]]:
+
+===Canonical order===
+{| class="collapsible" style="width:100%; border:1px solid #cedff2; background:#F5FAFF"
+|-
+! Maimonides' list sorted by occurrence in the Torah
+|-
+|
+#{{bibleverse|Gen.|1:28|HE}} &mdash; To have children with one's wife
+#{{bibleverse|Gen.|32:33|HE}} &mdash; Not to eat the [[Sciatic nerve|sinew of the thigh]]
+#{{bibleverse|Ex.|12:2|HE}} &mdash; [[Sanhedrin|Courts]] must calculate [[Hebrew calendar#Molad interval|to determine when a new month begins]]
+#{{bibleverse|Ex.|12:6|HE}} &mdash; To slaughter the paschal sacrifice at the specified time
+#{{bibleverse|Ex.|12:8|HE}} &mdash; To eat the Paschal Lamb with [[matzah]] and [[Maror|Marror]] on the night of the fifteenth of [[Nisan]]
+#{{bibleverse|Ex.|12:9|HE}} &mdash; Not to eat the paschal meat raw or boiled
+#{{bibleverse|Ex.|12:10|HE}} &mdash; Not to leave any meat from the paschal offering over until morning
+#{{bibleverse|Ex.|12:15|HE}} &mdash; [[Eliminating Ḥametz|To destroy all]] ''[[chametz]]'' on the 14th day of Nisan
+#{{bibleverse|Ex.|12:18|HE}} &mdash; To eat ''[[matzah]]'' on the first night of Passover
+#{{bibleverse|Ex.|12:19|HE}} &mdash; Not to find ''chametz'' in your domain on Passover
+#{{bibleverse|Ex.|12:20|HE}} &mdash; Not to eat mixtures containing ''chametz'' all seven days of Passover
+#{{bibleverse|Ex.|12:43|HE}} &mdash; An [[Apostasy in Judaism|apostate]] must not eat from it
+#{{bibleverse|Ex.|12:45|HE}} &mdash; A permanent or temporary hired worker must not eat from it
+#{{bibleverse|Ex.|12:46|HE}} &mdash; Not to take the paschal meat from the confines of the group
+#{{bibleverse|Ex.|12:46|HE}} &mdash; Not to break any bones from the paschal offering → {{bibleverse|Ps.|34:20|HE}}
+#{{bibleverse|Ex.|12:48|HE}} &mdash; An uncircumcised ''Kohen'' (priest) must not eat ''Terumah'' (heave offering)
+#{{bibleverse|Ex.|12:48|HE}} &mdash; An uncircumcised male must not eat from it
+#{{bibleverse|Ex.|13:3|HE}} &mdash; Not to eat chametz all seven days of Passover
+#{{bibleverse|Ex.|13:7|HE}} &mdash; Not to see ''chametz'' in your domain seven days
+#{{bibleverse|Ex.|13:8|HE}} &mdash; To relate the [[The Exodus|Exodus]] from [[Ancient Egypt|Egypt]] on that night
+#{{bibleverse|Ex.|13:12|HE}} &mdash; To set aside the firstborn animals
+#{{bibleverse|Ex.|13:13|HE}} &mdash; To redeem the firstborn donkey by giving a lamb to a ''Kohen''
+#{{bibleverse|Ex.|13:13|HE}} &mdash; To break the neck of the donkey if the owner does not intend to redeem it
+#{{bibleverse|Ex.|16:29|HE}} &mdash; [[Techum shabbat|Not to walk outside the city boundary on Shabbat]]
+#{{bibleverse|Ex.|20:2|HE}} &mdash; [[To know there is a God]]
+#{{bibleverse|Ex.|20:3|TLT}} &mdash; [[Monotheism|Not to even think that there are other gods besides Him]] &mdash; Yemenite→{{bibleverse|Ex.|20:2|HE}}
+#{{bibleverse|Ex.|20:5|TLT}} &mdash; [[Idolatry in Judaism|Not to make a graven image or any image for yourself]] &mdash; Yemenite→{{bibleverse|Ex.|20:4|HE}}
+#{{bibleverse|Ex.|20:6|TLT}} &mdash; [[Idolatry in Judaism|Not to worship idols in the manner they are worshipped]] &mdash; Yemenite→{{bibleverse|Ex.||20:5|HE}}
+#{{bibleverse|Ex.|20:6|TLT}} &mdash; [[Idolatry in Judaism|Not to worship idols]] in the four ways we worship God &mdash; Yemenite→{{bibleverse|Ex.|20:5|HE}}
+#{{bibleverse|Ex.|20:7|TLT}} &mdash; [[Thou shalt not take the name of the Lord thy God in vain|Not to take God's name in vain]] &mdash; Yemenite→{{bibleverse|Ex.|20:6|HE}}
+#{{bibleverse|Ex.|20:9|TLT}} &mdash; To sanctify the day with ''[[Kiddush]]'' and ''[[Havdalah]]'' &mdash; Yemenite→{{bibleverse|Ex.|20:8|HE}}
+#{{bibleverse|Ex.|20:11|TLT}} &mdash; Not to do prohibited labor on the [[Shabbat|seventh day]] &mdash; Yemenite→{{bibleverse|Ex.|20:10|HE}}
+#{{bibleverse|Ex.|20:13|TLT}} &mdash; Not to murder &mdash; Yemenite→{{bibleverse|Ex.|20:12|HE}}
+#{{bibleverse|Ex.|20:13|TLT}} &mdash; [[Honor your father and your mother|To respect one's father or mother]] &mdash; Yemenite→{{bibleverse|Ex.|20:12|HE}}
+#{{bibleverse|Ex.|20:14|TLT}} &mdash; Not to kidnap &mdash; Yemenite→{{bibleverse|Ex.|20:13|HE}}
+#{{bibleverse|Ex.|20:14|TLT}} &mdash; Not to testify falsely &mdash; Yemenite→{{bibleverse|Ex.|20:13|HE}}
+#{{bibleverse|Ex.|20:15|TLT}} &mdash; Not to covet and scheme to acquire another's possession &mdash; Yemenite→{{bibleverse|Ex.|20:14|HE}}
+#{{bibleverse|Ex.|20:21|TLT}} &mdash; [[Idolatry in Judaism|Not to make human forms even for decorative purposes]] &mdash; Yemenite→{{bibleverse|Ex.|20:20|HE}}
+#{{bibleverse|Ex.|20:24|TLT}} &mdash; Not to build the altar with stones hewn by metal &mdash; Yemenite→{{bibleverse|Ex.|20:23|HE}}
+#{{bibleverse|Ex.|20:27|TLT}} &mdash; Not to climb steps to the altar &mdash; Yemenite→{{bibleverse|Ex.|20:26|HE}}
+#{{bibleverse|Ex.|21:2|HE}} &mdash; Purchase a Hebrew slave in accordance with the prescribed laws
+#{{bibleverse|Ex.|21:8|HE}} &mdash; Redeem Jewish maidservants
+#{{bibleverse|Ex.|21:8|HE}} &mdash; Betroth the Jewish maidservant
+#{{bibleverse|Ex.|21:8|HE}} &mdash; The master must not sell his maidservant
+#{{bibleverse|Ex.|21:10|HE}} &mdash; Not to withhold food, clothing, and sexual relations from one's wife
+#{{bibleverse|Ex.|21:15|HE}} &mdash; Not to strike one's father and mother
+#{{bibleverse|Ex.|21:17|HE}} &mdash; Not to curse one's father and mother
+#{{bibleverse|Ex.|21:18|HE}} &mdash; The court must implement laws against the one who assaults another or damages another's property
+#{{bibleverse|Ex.|21:20|HE}} &mdash; The courts must carry out the death penalty of the sword
+#{{bibleverse|Ex.|21:28|HE}} &mdash; Not to benefit from an ox condemned to be stoned
+#{{bibleverse|Ex.|21:28|HE}} &mdash; The court must judge the [[damages]] incurred by a goring ox
+#{{bibleverse|Ex.|21:33|HE}} &mdash; The court must judge the damages incurred by a pit
+#{{bibleverse|Ex.|21:37|HE}} &mdash; The court must implement punitive measures against the thief
+#{{bibleverse|Ex.|22:4|HE}} &mdash; The court must judge the damages incurred by an animal eating
+#{{bibleverse|Ex.|22:5|HE}} &mdash; The court must judge the damages incurred by fire
+#{{bibleverse|Ex.|22:6|HE}} &mdash; The courts must carry out the laws of an unpaid guard
+#{{bibleverse|Ex.|22:8|HE}} &mdash; The courts must carry out the laws of the plaintiff, admitter, or denier
+#{{bibleverse|Ex.|22:9|HE}} &mdash; The courts must carry out the laws of a hired worker and hired guard
+#{{bibleverse|Ex.|22:13|HE}} &mdash; The courts must carry out the laws of a borrower
+#{{bibleverse|Ex.|22:15-16|HE}} &mdash; The court must fine one who sexually seduces a maiden
+#{{bibleverse|Ex.|22:17|HE}} &mdash; The court must not let the sorcerer live
+#{{bibleverse|Ex.|22:20|HE}} &mdash; Not to cheat a convert monetarily
+#{{bibleverse|Ex.|22:20|HE}} &mdash; Not to insult or harm a convert with words
+#{{bibleverse|Ex.|22:21|HE}} &mdash; Not to oppress the weak
+#{{bibleverse|Ex.|22:24|HE}} &mdash; Lend to the poor and destitute
+#{{bibleverse|Ex.|22:24|HE}} &mdash; Not to press them for payment if one knows they do not have it
+#{{bibleverse|Ex.|22:24|HE}} &mdash; Not to intermediate in an interest loan, guarantee, witness, or write the promissory note
+#{{bibleverse|Ex.|22:27|HE}} &mdash; [[Blasphemy|Not to blaspheme]]
+#{{bibleverse|Ex.|22:27|HE}} &mdash; Not to curse judges
+#{{bibleverse|Ex.|22:27|HE}} &mdash; Not to curse the head of state or leader of the Sanhedrin
+#{{bibleverse|Ex.|22:28|HE}} &mdash; Not to preface one tithe to the next, but separate them in their proper order
+#{{bibleverse|Ex.|22:30|HE}} &mdash; Not to eat meat of an animal that was mortally wounded
+#{{bibleverse|Ex.|23:1|HE}} &mdash; Judges must not accept testimony unless both parties are present
+#{{bibleverse|Ex.|23:1|HE}} &mdash; Transgressors must not testify
+#{{bibleverse|Ex.|23:2|HE}} &mdash; Decide by majority in case of disagreement
+#{{bibleverse|Ex.|23:2|HE}} &mdash; The court must not execute through a majority of one; at least a majority of two is required
+#{{bibleverse|Ex.|23:2|HE}} &mdash; A judge who presented an acquittal plea must not present an argument for conviction in capital cases
+#{{bibleverse|Ex.|23:5|HE}} &mdash; Help another remove the load from a beast which can no longer carry it
+#{{bibleverse|Ex.|23:6|HE}} &mdash; A judge must not decide unjustly the case of the habitual transgressor
+#{{bibleverse|Ex.|23:7|HE}} &mdash; The court must not kill anybody on circumstantial evidence
+#{{bibleverse|Ex.|23:8|HE}} &mdash; Judges must not accept bribes
+#{{bibleverse|Ex.|23:11|HE}} &mdash; To leave free all produce which grew in that year
+#{{bibleverse|Ex.|23:12|HE}} &mdash; To rest on the [[Shabbat|seventh day]]
+#{{bibleverse|Ex.|23:13|HE}} &mdash; Not to swear in the name of an idol → {{bibleverse|Deut.|13:14|HE}}
+#{{bibleverse|Ex.|23:14|HE}} &mdash; To celebrate on these [[Three pilgrim festivals|three Festivals]] (bring a peace offering)
+#{{bibleverse|Ex.|23:18|HE}} &mdash; Not to slaughter it while in possession of leaven
+#{{bibleverse|Ex.|23:18|HE}} &mdash; Not to leave the fat overnight
+#{{bibleverse|Ex.|23:19|HE}} &mdash; [[Milk and meat|Not to eat mixtures of milk and meat]] cooked together
+#{{bibleverse|Ex.|23:19|HE}} &mdash;To set aside the [[First Fruits#Old Testament|first fruits]] and bring them to the Temple
+#{{bibleverse|Ex.|23:25|HE}} &mdash; To serve the Almighty with [[Jewish services#Weekday prayer services|prayer]]
+#{{bibleverse|Ex.|23:33|HE}} &mdash; Not to let the [[Canaanites]] dwell in the [[Land of Israel]]
+#{{bibleverse|Ex.|25:8|HE}} &mdash; To build a [[Temple in Jerusalem|Temple]]
+#{{bibleverse|Ex.|25:15|HE}} &mdash; Not to remove the staves from the ark
+#{{bibleverse|Ex.|25:30|HE}} &mdash; To make the show bread
+#{{bibleverse|Ex.|27:21|HE}} &mdash; To light the [[Menorah (Temple)|Menorah]] every day
+#{{bibleverse|Ex.|28:2|HE}} &mdash; The ''Kohanim'' must wear their priestly garments during service
+#{{bibleverse|Ex.|28:28|HE}} &mdash; The ''Kohen Gadol''{{'}}s (High Priest) breastplate must not be loosened from the ''Efod''
+#{{bibleverse|Ex.|28:32|HE}} &mdash; Not to tear the priestly garments
+#{{bibleverse|Ex.|29:33|HE}} &mdash; The ''Kohanim'' must eat the sacrificial meat in the Temple
+#{{bibleverse|Ex.|29:33|HE}} &mdash; A non-''Kohen'' must not eat sacrificial meat
+#{{bibleverse|Ex.|30:7|HE}} &mdash; To burn incense every day
+#{{bibleverse|Ex.|30:9|HE}} &mdash; Not to burn anything on the Golden Altar besides [[incense]]
+#{{bibleverse|Ex.|30:13|HE}} &mdash; Each man must give a half [[shekel]] annually
+#{{bibleverse|Ex.|30:19|HE}} &mdash; A ''Kohen'' must wash his hands and feet before service
+#{{bibleverse|Ex.|30:31|HE}} &mdash; To prepare the anointing oil
+#{{bibleverse|Ex.|30:32|HE}} &mdash; Not to reproduce the anointing oil
+#{{bibleverse|Ex.|30:32|HE}} &mdash; Not to anoint with anointing oil
+#{{bibleverse|Ex.|30:37|HE}} &mdash; Not to reproduce the incense formula
+#{{bibleverse|Ex.|34:21|HE}} &mdash; To rest the land during the [[Sabbatical year (Bible)|seventh year]] by not doing any work which enhances growth
+#{{bibleverse|Ex.|34:26|HE}} &mdash; [[Milk and meat|Not to cook meat and milk together]]
+#{{bibleverse|Ex.|35:3|HE}} &mdash; The court must not inflict punishment on [[Shabbat]]
+#{{bibleverse|Lev.|1:3|HE}} &mdash; Carry out the procedure of the burnt offering as prescribed in the Torah
+#{{bibleverse|Lev.|2:1|HE}} &mdash; To bring meal offerings as prescribed in the Torah
+#{{bibleverse|Lev.|2:11|HE}} &mdash; Not to burn [[honey]] or [[yeast]] on the altar
+#{{bibleverse|Lev.|2:13|HE}} &mdash; To salt all sacrifices
+#{{bibleverse|Lev.|2:13|HE}} &mdash; Not to omit the salt from sacrifices
+#{{bibleverse|Lev.|3:11|HE}} &mdash; Not to put frankincense on the meal offerings of wrongdoers
+#{{bibleverse|Lev.|3:17|HE}} &mdash; Not to eat blood
+#{{bibleverse|Lev.|3:17|HE}} &mdash; Not to eat certain fats of clean animals
+#{{bibleverse|Lev.|4:13|HE}} &mdash; The Sanhedrin must bring an offering (in the Temple) when it rules in error
+#{{bibleverse|Lev.|4:27|HE}} &mdash; Every person must bring a sin offering (in the Temple) for his transgression
+#{{bibleverse|Lev.|5:1|HE}} &mdash; Anybody who knows evidence must testify in court
+#{{bibleverse|Lev.|5:7-11|HE}} &mdash; Bring an ''oleh v'yored'' (Temple offering) offering (if the person is wealthy, an animal; if poor, a bird or meal offering)
+#{{bibleverse|Lev.|5:8|HE}} &mdash; Not to decapitate a fowl brought as a sin offering
+#{{bibleverse|Lev.|5:11|HE}} &mdash; Not to put oil on the meal offerings of wrongdoers
+#{{bibleverse|Lev.|5:16|HE}} &mdash; One who profaned property must repay what he profaned plus a fifth and bring a sacrifice
+#{{bibleverse|Lev.|5:17-18|HE}} &mdash; Bring an ''asham talui'' (temple offering) when uncertain of guilt
+#{{bibleverse|Lev.|5:23|HE}} &mdash; Return the robbed object or its value
+#{{bibleverse|Lev.|5:25|HE}} &mdash; Bring an ''asham vadai'' (temple offering) when guilt is ascertained
+#{{bibleverse|Lev.|6:3|HE}} &mdash; To remove the ashes from the altar every day
+#{{bibleverse|Lev.|6:6|HE}} &mdash; To light a fire on the altar every day
+#{{bibleverse|Lev.|6:6|HE}} &mdash; Not to extinguish this fire
+#{{bibleverse|Lev.|6:9|HE}} &mdash; The Kohanim must eat the remains of the meal offerings
+#{{bibleverse|Lev.|6:10|HE}} &mdash; Not to bake a meal offering as leavened bread
+#{{bibleverse|Lev.|6:13|HE}} &mdash; The ''Kohen Gadol'' must bring a meal offering every day
+#{{bibleverse|Lev.|6:16|HE}} &mdash; Not to eat the meal offering of the High Priest
+#{{bibleverse|Lev.|6:18|HE}} &mdash; Carry out the procedure of the sin offering
+#{{bibleverse|Lev.|6:23|HE}} &mdash; Not to eat the meat of the inner sin offering
+#{{bibleverse|Lev.|7:1|HE}} &mdash; Carry out the procedure of the guilt offering
+#{{bibleverse|Lev.|7:11|HE}} &mdash; To follow the procedure of the peace offering
+#{{bibleverse|Lev.|7:17|HE}} &mdash; To burn the leftover sacrifices
+#{{bibleverse|Lev.|7:18|HE}} &mdash; Not to eat from sacrifices offered with improper intentions
+#{{bibleverse|Lev.|7:19|HE}} &mdash; Not to eat from sacrifices which became impure
+#{{bibleverse|Lev.|7:19|HE}} &mdash; To burn all impure sacrifices
+#{{bibleverse|Lev.|7:20|HE}} &mdash; An impure person must not eat from sacrifices
+#{{bibleverse|Lev.|10:6|HE}} &mdash; A ''Kohen'' must not enter the Temple with his head uncovered
+#{{bibleverse|Lev.|10:6|HE}} &mdash; A ''Kohen'' must not enter the Temple with torn clothes
+#{{bibleverse|Lev.|10:7|HE}} &mdash; A ''Kohen'' must not leave the Temple during service
+#{{bibleverse|Lev.|10:9|HE}} &mdash; A ''Kohen'' must not enter the Temple intoxicated
+#{{bibleverse|Lev.|10:19|HE}} &mdash; [[Jewish bereavement|Mourn for relatives]]
+#{{bibleverse|Lev.|11:2|HE}} &mdash; To examine the signs of animals to distinguish between [[kosher]] and [[Unclean animal#Judaism|non-kosher]]
+#{{bibleverse|Lev.|11:4|HE}} &mdash; [[Kosher animals|Not to eat non-kosher animals]]
+#{{bibleverse|Lev.|11:9|HE}} &mdash; To examine the signs of [[fish]] to distinguish between kosher and non-kosher
+#{{bibleverse|Lev.|11:11|HE}} &mdash; [[Kosher animals|Not to eat non-kosher fish]]
+#{{bibleverse|Lev.|11:13|HE}} &mdash; [[Kosher animals|Not to eat non-kosher fowl]]
+#{{bibleverse|Lev.|11:21|HE}} &mdash; To examine the signs of [[locusts]] to distinguish between kosher and non-kosher
+#{{bibleverse|Lev.|11:29|HE}} &mdash; Observe the laws of impurity caused by the eight shratzim (insects)
+#{{bibleverse|Lev.|11:34|HE}} &mdash; Observe the laws of impurity concerning liquid and solid foods
+#{{bibleverse|Lev.|11:39|HE}} &mdash; Observe the laws of impurity caused by a dead beast
+#{{bibleverse|Lev.|11:41|HE}} &mdash; [[Kosher animals|Not to eat non-kosher creatures that crawl on land]]
+#{{bibleverse|Lev.|11:42|HE}} &mdash; [[Kosher animals|Not to eat worms found in fruit]]
+#{{bibleverse|Lev.|11:43|HE}} &mdash; [[Kosher animals|Not to eat creatures that live in water other than (kosher) fish]]
+#{{bibleverse|Lev.|11:44|HE}} &mdash; [[Kosher animals|Not to eat non-kosher maggots]]
+#{{bibleverse|Lev.|12:2|HE}} &mdash; Observe the laws of impurity caused by [[childbirth]]
+#{{bibleverse|Lev.|12:3|HE}} &mdash; [[Brit milah|To circumcise all males on the eighth day after their birth]]
+#{{bibleverse|Lev.|12:6|HE}} &mdash; A woman who gave birth must bring an offering (in the Temple) after she goes to the [[Mikveh]]
+#{{bibleverse|Lev.|13:12|HE}} &mdash; Rule the laws of human [[tzara'at]] as prescribed in the Torah
+#{{bibleverse|Lev.|13:33|HE}} &mdash; The metzora (one having a skin disease) must not shave signs of impurity in his hair
+#{{bibleverse|Lev.|13:34|HE}} &mdash; Carry out the laws of ''tzara'at'' of houses
+#{{bibleverse|Lev.|13:45|HE}} &mdash; The metzora must publicize his condition by tearing his garments, allowing his hair to grow and covering his lips
+#{{bibleverse|Lev.|13:47|HE}} &mdash; Carry out the laws of [[tzara'at]] of clothing
+#{{bibleverse|Lev.|14:2|HE}} &mdash; Carry out the prescribed rules for purifying the ''metzora''
+#{{bibleverse|Lev.|14:9|HE}} &mdash; The metzora must shave off all his hair prior to purification
+#{{bibleverse|Lev.|14:10|HE}} &mdash; A [[tzaraath|metzora]] must bring an offering (in the Temple) after going to the [[Mikveh]]
+#{{bibleverse|Lev.|15:3|HE}} &mdash; Observe the laws of impurity caused by a man's [[Zav|running issue]] (irregular [[ejaculation]] of infected [[semen]])
+#{{bibleverse|Lev.|15:13-14|HE}} &mdash; A man who had a running (unnatural urinary) issue must bring an offering (in the Temple) after he goes to the Mikveh
+#{{bibleverse|Lev.|15:16|HE}} &mdash; Observe the laws of impurity of a seminal emission (regular ejaculation, with normal [[semen]])
+#{{bibleverse|Lev.|15:16|HE}} &mdash; Every impure person must immerse himself in a [[Mikvah]] to become pure
+#{{bibleverse|Lev.|15:19|HE}} &mdash; Observe the laws of [[Niddah|menstrual impurity]]
+#{{bibleverse|Lev.|15:25|HE}} &mdash; Observe the laws of impurity caused by a woman's [[Zavah|running issue]]
+#{{bibleverse|Lev.|15:28-29|HE}} &mdash; A woman who had a running (vaginal) issue must bring an offering (in the Temple) after she goes to the [[Mikveh]]
+#{{bibleverse|Lev.|16:2|HE}} &mdash; A ''Kohen'' must not enter the Temple indiscriminately
+#{{bibleverse|Lev.|16:3|HE}} &mdash; To follow the procedure of [[Yom Kippur]] in the sequence prescribed in [[Parsha]]h ''[[Acharei]] Mot'' ("After the death of Aaron's sons...")
+#{{bibleverse|Lev.|16:29|HE}} &mdash; To [[Abstinence#Abstinence in religion|afflict]] yourself on Yom Kippur
+#{{bibleverse|Lev.|17:4|HE}} &mdash; Not to slaughter sacrifices outside the courtyard
+#{{bibleverse|Lev.|17:13|HE}} &mdash; To cover the blood (of a slaughtered beast or fowl) with earth
+#{{bibleverse|Lev.|18:6|HE}} &mdash; [[Negiah|Not to make pleasurable (sexual) contact with any forbidden woman]]
+#{{bibleverse|Lev.|18:7|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with one's mother]]
+#{{bibleverse|Lev.|18:7|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with one's father]]
+#{{bibleverse|Lev.|18:8|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the wife of one's father]]
+#{{bibleverse|Lev.|18:9|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with one's sister]]
+#{{bibleverse|Lev.|18:11|HE}}&mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the daughter of the wife of one's father]]
+#{{bibleverse|Lev.|18:10|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the daughter of one's son]]
+#{{bibleverse|Lev.|18:10|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with one's daughter]]
+#{{bibleverse|Lev.|18:10|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the daughter of one's daughter]]
+#{{bibleverse|Lev.|18:12|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the sister of one's father]]
+#{{bibleverse|Lev.|18:13|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the sister of one's mother]]
+#{{bibleverse|Lev.|18:14|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the wife of the brother of one's father]]
+#{{bibleverse|Lev.|18:14|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the brother of one's father]]
+#{{bibleverse|Lev.|18:15|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the wife of one's son]]
+#{{bibleverse|Lev.|18:16|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the wife of one's brother]]
+#{{bibleverse|Lev.|18:17|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with a woman and her daughter]]
+#{{bibleverse|Lev.|18:17|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with a woman and her son's daughter]]
+#{{bibleverse|Lev.|18:17|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with a woman and her daughter's daughter]]
+#{{bibleverse|Lev.|18:18|HE}} &mdash; [[Forbidden relationships in Judaism|Not to have sexual relations with the sister of one's wife]]
+#{{bibleverse|Lev.|18:19|HE}} &mdash; [[Niddah|Not to have sexual relations with a menstrually impure woman]]
+#{{bibleverse|Lev.|18:20|HE}} &mdash; [[Adultery#Judaism|Not to have sexual relations with someone else's wife]]
+#{{bibleverse|Lev.|18:22|HE}} &mdash; [[Homosexuality and Judaism|A man must not have sexual relations with a man]]
+#{{bibleverse|Lev.|18:23|HE}} &mdash; [[Forbidden relationships in Judaism|A man must not have sexual relations with an animal]]
+#{{bibleverse|Lev.|18:23|HE}} &mdash; [[Forbidden relationships in Judaism|A woman must not have sexual relations with an animal]]
+#{{bibleverse|Lev.|19:3|HE}} &mdash; [[Honor your father and your mother|Be in awe of one's mother or father]]
+#{{bibleverse|Lev.|19:4|HE}} &mdash; [[Idolatry in Judaism|Not to inquire into idolatry]]
+#{{bibleverse|Lev.|19:4|HE}} &mdash; [[Idolatry in Judaism|Not to make an idol for others]]
+#{{bibleverse|Lev.|19:8|HE}} &mdash; Not to eat from that which was left over
+#{{bibleverse|Lev.|19:9|HE}} &mdash; Not to reap a corner of the field
+#{{bibleverse|Lev.|19:9|HE}} &mdash; To leave [[gleaning]]s
+#{{bibleverse|Lev.|19:9|HE}} &mdash; Not to gather the [[gleaning]]s
+#{{bibleverse|Lev.|19:10|HE}} &mdash; [[Peah|To leave a corner of the field uncut for the poor]]
+#{{bibleverse|Lev.|19:10|HE}} &mdash; To leave the [[gleaning]]s of a vineyard
+#{{bibleverse|Lev.|19:10|HE}} &mdash; Not to gather the [[gleaning]]s of a vineyard
+#{{bibleverse|Lev.|19:10|HE}} &mdash; To leave the unformed clusters of grapes
+#{{bibleverse|Lev.|19:10|HE}} &mdash; Not to pick the unformed clusters of grapes
+#{{bibleverse|Lev.|19:11|HE}} &mdash; Not to deny possession of something entrusted to one
+#{{bibleverse|Lev.|19:11|HE}} &mdash; Not to swear in denial of a monetary claim
+#{{bibleverse|Lev.|19:11|HE}} &mdash; Not to steal money stealthily
+#{{bibleverse|Lev.|19:12|HE}} &mdash; Not to swear falsely in God's name
+#{{bibleverse|Lev.|19:13|HE}} &mdash; Not to rob openly
+#{{bibleverse|Lev.|19:13|HE}} &mdash; Not to withhold wages or fail to repay a debt
+#{{bibleverse|Lev.|19:13|HE}} &mdash; Not to delay payment of wages past the agreed time
+#{{bibleverse|Lev.|19:14|HE}} &mdash; Not to put a [[Lifnei iver|stumbling block before a blind man]] (or give harmful advice)
+#{{bibleverse|Lev.|19:14|HE}} &mdash; Not to curse any upstanding Jew
+#{{bibleverse|Lev.|19:15|HE}} &mdash; A judge must not have mercy on the poor man at the trial
+#{{bibleverse|Lev.|19:15|HE}} &mdash; A judge must not respect the great man at the trial
+#{{bibleverse|Lev.|19:15|HE}} &mdash; A judge must not pervert justice
+#{{bibleverse|Lev.|19:15|HE}} &mdash; Judge righteously
+#{{bibleverse|Lev.|19:16|HE}} &mdash; [[Lashon hara|Not to gossip]]
+#{{bibleverse|Lev.|19:16|HE}} &mdash; Not to stand idly by if someone's life is in danger
+#{{bibleverse|Lev.|19:17|HE}} &mdash; Not to hate fellow Jews
+#{{bibleverse|Lev.|19:17|HE}} &mdash; To [[:wiktionary:reprove|reprove]] a sinner
+#{{bibleverse|Lev.|19:17|HE}} &mdash; Not to embarrass others
+#{{bibleverse|Lev.|19:18|HE}} &mdash; To love other [[Jew]]s
+#{{bibleverse|Lev.|19:18|HE}} &mdash; Not to take revenge
+#{{bibleverse|Lev.|19:18|HE}} &mdash; Not to bear a grudge
+#{{bibleverse|Lev.|19:19|HE}} &mdash; [[Kil'ayim (prohibition)|Not to plant diverse seeds together]]
+#{{bibleverse|Lev.|19:19|HE}} &mdash; Not to crossbreed animals
+#{{bibleverse|Lev.|18:21|HE}} &mdash; [[Molech|Not to pass your children through the fire to Molech]]
+#{{bibleverse|Lev.|19:23|HE}} &mdash; [[Orlah prohibition|Not to eat fruit of a tree during its first three years]]
+#{{bibleverse|Lev.|19:24|HE}} &mdash; The fourth year crops must be totally for holy purposes like ''Ma'aser Sheni''
+#{{bibleverse|Lev.|19:26|HE}} &mdash; Not to be [[Superstition|superstitious]]
+#{{bibleverse|Lev.|19:26|HE}} &mdash; Not to engage in [[divination]] or [[Fortune-telling|soothsaying]]
+#{{bibleverse|Lev.|19:27|HE}} &mdash; Men must not shave the [[Payot|hair off the sides of their head]]
+#{{bibleverse|Lev.|19:27|HE}} &mdash; Men must not shave their beards with a [[razor]]
+#{{bibleverse|Lev.|19:28|HE}} &mdash; [[Religious perspectives on tattooing#Judaism|Not to tattoo the skin]]
+#{{bibleverse|Lev.|19:30|HE}} &mdash; To show reverence to the Temple
+#{{bibleverse|Lev.|19:31|HE}} &mdash; [[Ov and Yidoni|Not to perform ov]] (medium)
+#{{bibleverse|Lev.|19:31|HE}} &mdash; [[Ov and Yidoni|Not to perform yidoni]] ("magical seer")
+#{{bibleverse|Lev.|19:32|HE}} &mdash; To honor those who teach and know Torah
+#{{bibleverse|Lev.|19:35|HE}} &mdash; Not to commit injustice with [[weighing scale|scales]] and [[weight]]s
+#{{bibleverse|Lev.|19:36|HE}} &mdash; Each individual must ensure that his scales and weights are accurate
+#{{bibleverse|Lev.|21:1|HE}} &mdash; A Kohen must not defile himself (by going to funerals or cemeteries) for anyone except relatives
+#{{bibleverse|Lev.|21:8|HE}} &mdash; To dedicate the ''Kohen'' for service
+#{{bibleverse|Lev.|20:10|HE}} &mdash; The courts must carry out the death penalty of strangulation
+#{{bibleverse|Lev.|20:14|HE}} &mdash; The courts must carry out the death penalty of burning
+#{{bibleverse|Lev.|20:23|HE}} &mdash; Not to imitate them in customs and clothing
+#{{bibleverse|Lev.|21:7|HE}} &mdash; A [[Kohen]] must not marry a divorcee
+#{{bibleverse|Lev.|21:7|HE}} &mdash; A Kohen must not marry a ''zonah'' (a woman who has had a forbidden sexual relationship)
+#{{bibleverse|Lev.|21:7|HE}} &mdash; A Kohen must not marry a ''chalalah'' ("a desecrated person") (party to or product of 169–172)
+#{{bibleverse|Lev.|21:11|HE}} &mdash; The High Priest must not defile himself for any relative
+#{{bibleverse|Lev.|21:11|HE}} &mdash; The High Priest must not enter under the same roof as a corpse
+#{{bibleverse|Lev.|21:13|HE}} &mdash; The High Priest must marry a virgin maiden
+#{{bibleverse|Lev.|21:14|HE}} &mdash; The [[Kohen Gadol|High Priest]] must not marry a widow
+#{{bibleverse|Lev.|21:15|HE}} &mdash; The High Priest must not have sexual relations with a widow even outside of marriage
+#{{bibleverse|Lev.|21:17|HE}} &mdash; A ''Kohen'' with a physical blemish must not serve
+#{{bibleverse|Lev.|21:17|HE}} &mdash; A ''Kohen'' with a temporary blemish must not serve
+#{{bibleverse|Lev.|21:23|HE}} &mdash; A ''Kohen'' with a physical blemish must not enter the sanctuary or approach the altar
+#{{bibleverse|Lev.|22:2|HE}} &mdash; Impure ''Kohanim'' must not do service in the temple
+#{{bibleverse|Lev.|22:4|HE}} &mdash; An impure ''Kohen'' must not eat ''Terumah''
+#{{bibleverse|Lev.|22:7|HE}} &mdash; An impure ''Kohen'', following immersion, must wait until after sundown before returning to service
+#{{bibleverse|Lev.|22:10|HE}} &mdash; A non-''Kohen'' must not eat ''[[Terumah]]''
+#{{bibleverse|Lev.|22:10|HE}} &mdash; A hired worker or a Jewish bondsman of a ''Kohen'' must not eat ''Terumah''
+#{{bibleverse|Lev.|22:12|HE}} &mdash; A ''chalalah'' (party to #s 169-172 above) must not eat ''Terumah''
+#{{bibleverse|Lev.|22:15|HE}} &mdash; Not to eat un[[tithe]]d fruits
+#{{bibleverse|Lev.|22:20|HE}} &mdash; Not to dedicate a blemished animal for the altar
+#{{bibleverse|Lev.|22:21|HE}} &mdash; To offer only unblemished animals
+#{{bibleverse|Lev.|22:21|HE}} &mdash; Not to inflict wounds upon dedicated animals
+#{{bibleverse|Lev.|22:22|HE}} &mdash; Not to slaughter it
+#{{bibleverse|Lev.|22:22|HE}} &mdash; Not to burn its fat
+#{{bibleverse|Lev.|22:24|HE}} &mdash; Not to offer to God any [[castrate]]d male animals
+#{{bibleverse|Lev.|22:24|HE}} &mdash; Not to sprinkle its blood
+#{{bibleverse|Lev.|22:25|HE}} &mdash; Not to sacrifice blemished animals even if offered by non-Jews
+#{{bibleverse|Lev.|22:27|HE}} &mdash; To offer only animals which are at least eight days old
+#{{bibleverse|Lev.|22:28|HE}} &mdash; Not to slaughter an animal and its offspring on the same day
+#{{bibleverse|Lev.|22:30|HE}} &mdash; Not to leave sacrifices past the time allowed for eating them
+#{{bibleverse|Lev.|22:32|HE}} &mdash; [[Kiddush Hashem|To sanctify his name]]
+#{{bibleverse|Lev.|22:32|HE}} &mdash; [[Chillul Hashem|Not to profane his name]]
+#{{bibleverse|Lev.||23:7|HE}} &mdash; To rest on the first day of [[Passover]]
+#{{bibleverse|Lev.|23:8|HE}} &mdash; Not to do prohibited labor on the first day of Passover
+#{{bibleverse|Lev.|23:8|HE}} &mdash; To rest on the seventh day of Passover
+#{{bibleverse|Lev.|23:8|HE}} &mdash; Not to do prohibited labor on the seventh day of Passover
+#{{bibleverse|Lev.|23:10|HE}} &mdash; To offer the wave offering from the meal of the new wheat
+#{{bibleverse|Lev.|23:14|HE}} &mdash; [[Yoshon|Not to eat bread from new grain before the Omer]]
+#{{bibleverse|Lev.|23:14|HE}} &mdash; Not to eat parched grains from new grain before the [[Counting of the Omer#Symbolism|Omer]]
+#{{bibleverse|Lev.|23:14|HE}} &mdash; Not to eat ripened grains from new grain before the Omer
+#{{bibleverse|Lev.|23:15|HE}} &mdash; Each man must [[Counting of the Omer|count the Omer]] – seven weeks from the day the new [[wheat]] offering was brought
+#{{bibleverse|Lev.|23:17|HE}} &mdash; To bring two loaves to accompany the above sacrifice
+#{{bibleverse|Lev.|23:21|HE}} &mdash; To rest on [[Shavuot]]
+#{{bibleverse|Lev.|23:21|HE}} &mdash; Not to do prohibited labor on Shavuot
+#{{bibleverse|Lev.|23:24|HE}} &mdash; To rest on [[Rosh Hashanah]]
+#{{bibleverse|Lev.|23:25|HE}} &mdash; Not to do prohibited labor on Rosh Hashanah
+#{{bibleverse|Lev.|23:29|HE}} &mdash; Not to eat or drink on Yom Kippur
+#{{bibleverse|Lev.|23:32|HE}} &mdash; To rest from prohibited labor on [[Yom Kippur]]
+#{{bibleverse|Lev.|23:32|HE}} &mdash; Not to do prohibited labor on Yom Kippur
+#{{bibleverse|Lev.|23:35|HE}} &mdash; To rest on [[Sukkot]]
+#{{bibleverse|Lev.|23:35|HE}} &mdash; Not to do prohibited labor on [[Sukkot]]
+#{{bibleverse|Lev.|23:36|HE}} &mdash; To rest on [[Shemini Atzeret]]
+#{{bibleverse|Lev.|23:36|HE}} &mdash; Not to do prohibited labor on Shemini Atzeret
+#{{bibleverse|Lev.|23:40|HE}} &mdash; [[Four Species|To take up a ''Lulav'' and ''Etrog'' all seven days]]
+#{{bibleverse|Lev.|23:42|HE}} &mdash; To dwell in a ''[[Sukkah#The sukkah|Sukkah]]'' for the seven days of Sukkot
+#{{bibleverse|Lev.|25:4|HE}} &mdash; Not to work the land during the seventh year
+#{{bibleverse|Lev.|25:4|HE}} &mdash; Not to work with trees to produce fruit during that year
+#{{bibleverse|Lev.|25:5|HE}} &mdash; Not to reap crops that grow wild that year in the normal manner
+#{{bibleverse|Lev.|25:5|HE}} &mdash; Not to gather grapes which grow wild that year in the normal way
+#{{bibleverse|Lev.|25:8|HE}} &mdash; The [[Sanhedrin]] must count seven groups of seven years
+#{{bibleverse|Lev.|25:9|HE}} &mdash; To blow the ''[[Shofar]]'' on the tenth of [[Tishrei]] to free the [[slavery|slave]]s
+#{{bibleverse|Lev.|25:10|HE}} &mdash; The Sanhedrin must sanctify the fiftieth year
+#{{bibleverse|Lev.|25:11|HE}} &mdash; Not to work the soil during the fiftieth year ([[Jubilee (Biblical)|Jubilee]])
+#{{bibleverse|Lev.|25:11|HE}} &mdash; Not to reap in the normal manner that which grows wild in the fiftieth year
+#{{bibleverse|Lev.|25:11|HE}} &mdash; Not to pick grapes which grew wild in the normal manner in the fiftieth year
+#{{bibleverse|Lev.|25:14|HE}} &mdash; Conduct sales according to Torah law
+#{{bibleverse|Lev.|25:14|HE}} &mdash; Not to overcharge or underpay for an article
+#{{bibleverse|Lev.|25:17|HE}} &mdash; Not to insult or harm anybody with words
+#{{bibleverse|Lev.|25:23|HE}} &mdash; Not to sell the land in Israel indefinitely
+#{{bibleverse|Lev.|25:24|HE}} &mdash; Carry out the laws of sold family properties
+#{{bibleverse|Lev.|25:29|HE}} &mdash; Carry out the laws of houses in walled cities
+#{{bibleverse|Lev.|25:34|HE}} &mdash; Not to sell the fields but they shall remain the Levites' before and after the Jubilee year
+#{{bibleverse|Lev.|25:37|HE}} &mdash; Not to lend with interest
+#{{bibleverse|Lev.|25:39|HE}} &mdash; Not to have him do menial slave labor
+#{{bibleverse|Lev.|25:42|HE}} &mdash; Not to sell him as a slave is sold
+#{{bibleverse|Lev.|25:43|HE}} &mdash; Not to work him oppressively
+#{{bibleverse|Lev.|25:46|HE}} &mdash; [[Canaan]]ite slaves must work forever unless injured in one of their limbs
+#{{bibleverse|Lev.|25:53|HE}} &mdash; Not to allow a non-Jew to work him oppressively
+#{{bibleverse|Lev.|26:1|HE}} &mdash; Not to bow down before a smooth stone
+#{{bibleverse|Lev.|27:2|HE}} &mdash; To estimate the value of people as determined by the Torah
+#{{bibleverse|Lev.|27:10|HE}} &mdash; Not to substitute another beast for one set apart for sacrifice
+#{{bibleverse|Lev.|27:10|HE}} &mdash; The new animal, in addition to the substituted one, retains consecration
+#{{bibleverse|Lev.|27:12-13|HE}} &mdash; To estimate the value of consecrated animals
+#{{bibleverse|Lev.|27:14|HE}} &mdash; To estimate the value of consecrated houses
+#{{bibleverse|Lev.|27:16|HE}} &mdash; To estimate the value of consecrated fields
+#{{bibleverse|Lev.|27:26|HE}} &mdash; Not to change consecrated animals from one type of offering to another
+#{{bibleverse|Lev.|27:28|HE}} &mdash; Carry out the laws of interdicting possessions (''cherem'')
+#{{bibleverse|Lev.|27:28|HE}} &mdash; Not to sell the ''cherem''
+#{{bibleverse|Lev.|27:28|HE}} &mdash; Not to redeem the ''cherem''
+#{{bibleverse|Lev.|27:32|HE}} &mdash; Separate the [[Cattle tithe|tithe from animals]]
+#{{bibleverse|Lev.|27:33|HE}} &mdash; Not to redeem the tithe
+#{{bibleverse|Num.|5:2|HE}} &mdash; To send the impure from the Temple
+#{{bibleverse|Num.|5:3|HE}} &mdash; Impure people must not enter the Temple
+#{{bibleverse|Num.|5:7|HE}} &mdash; To [[Repentance in Judaism|repent]] and [[Confession in Judaism|confess wrongdoings]]
+#{{bibleverse|Num.|5:15|HE}} &mdash; Not to put oil on her meal offering (as usual)
+#{{bibleverse|Num.|5:15|HE}} &mdash; Not to put [[frankincense]] on her meal offering (as usual)
+#{{bibleverse|Num.|5:30|HE}} &mdash; To fulfill the laws of the [[Sotah]]
+#{{bibleverse|Num.|6:3|HE}} &mdash; [[Nazirite|He must not drink wine, wine mixtures, or wine vinegar]]
+#{{bibleverse|Num.|6:3|HE}} &mdash; [[Nazirite|He must not eat fresh grapes]]
+#{{bibleverse|Num.|6:3|HE}} &mdash; [[Nazirite|He must not eat raisins]]
+#{{bibleverse|Num.|6:4|HE}} &mdash; [[Nazirite|He must not eat grape seeds]]
+#{{bibleverse|Num.|6:4|HE}} &mdash; [[Nazirite|He must not eat grape skins]]
+#{{bibleverse|Num.|6:5|HE}} &mdash; [[Nazirite|The Nazir must let his hair grow]]
+#{{bibleverse|Num.|6:5|HE}} &mdash; [[Nazirite|He must not cut his hair]]
+#{{bibleverse|Num.|6:7|HE}} &mdash; [[Nazirite|He must not come into contact with the dead]]
+#{{bibleverse|Num.|6:6|HE}} &mdash; [[Nazirite|He must not be under the same roof as a corpse]]
+#{{bibleverse|Num.|6:9|HE}} &mdash; [[Nazirite|He must shave his head after bringing sacrifices upon completion of his Nazirite period]]
+#{{bibleverse|Num.|6:23|HE}} &mdash; [[Priestly Blessing|The ''Kohanim'' must bless the Jewish nation daily]]
+#{{bibleverse|Num.|7:9|HE}} &mdash; The Levites must transport the [[Ark of the Covenant|ark]] on their shoulders
+#{{bibleverse|Num.|9:11|HE}} &mdash; To slaughter the second [[Korban Pesach|Paschal Lamb]]
+#{{bibleverse|Num.|9:11|HE}} &mdash; To eat the second Paschal Lamb on the night of the 15th of [[Iyar]]
+#{{bibleverse|Num.|9:12|HE}} &mdash; Not to break any bones from the second paschal offering
+#{{bibleverse|Num.|9:12|HE}} &mdash; Not to leave the second paschal meat over until morning
+#{{bibleverse|Num.|10:9|HE}} &mdash; To afflict oneself and cry out before God in times of calamity
+#{{bibleverse|Num.|15:20|HE}} &mdash; To set aside a portion of dough for a ''Kohen''
+#{{bibleverse|Num.|15:38|HE}} &mdash; To have ''[[tzitzit]]'' on four-cornered garments
+#{{bibleverse|Num.|15:39|HE}} &mdash; Not to follow the whims of your heart or what your eyes see
+#{{bibleverse|Num.|18:2|HE}} &mdash; To guard the Temple area
+#{{bibleverse|Num.|18:3|HE}} &mdash; No Levite must do another's work of either a ''Kohen'' or a Levite
+#{{bibleverse|Num.|18:4|HE}} &mdash; One who is not a ''Kohen'' must not serve
+#{{bibleverse|Num.|18:5|HE}} &mdash; Not to leave the Temple unguarded
+#{{bibleverse|Num.|18:15|HE}} &mdash; [[Redemption of First-born|To redeem firstborn sons and give the money to a ''Kohen'']]
+#{{bibleverse|Num.|18:17|HE}} &mdash; Not to redeem the firstborn
+#{{bibleverse|Num.|18:23|HE}} &mdash; The Levites must work in the Temple
+#{{bibleverse|Num.|18:24|HE}} &mdash; To set aside ''Ma'aser'' (tithe) each planting year and give it to a Levite
+#{{bibleverse|Num.|18:26|HE}} &mdash; The Levite must set aside a tenth of his tithe
+#{{bibleverse|Num.|19:2|HE}} &mdash; Carry out the procedure of the [[Red Heifer]] (''Para Aduma'')
+#{{bibleverse|Num.|19:14|HE}} &mdash; Carry out the laws of impurity of the dead
+#{{bibleverse|Num.|19:21|HE}} &mdash; Carry out the laws of the sprinkling water
+#{{bibleverse|Num.|27:8|HE}} &mdash; Carry out the laws of the order of inheritance
+#{{bibleverse|Num.|28:3|HE}} &mdash; To offer two lambs every day
+#{{bibleverse|Num.|28:9|HE}} &mdash; To bring two additional lambs as burnt offerings on [[Shabbat]]
+#{{bibleverse|Num.|28:11|HE}} &mdash; To bring additional offerings on [[Rosh Chodesh]] ("The New Month")
+#{{bibleverse|Num.|28:19|HE}} &mdash; To bring additional offerings on [[Passover]]
+#{{bibleverse|Num.|28:26|HE}} &mdash; To bring additional offerings on [[Shavuot]]
+#{{bibleverse|Num.|29:1|HE}} &mdash; To hear the ''[[Shofar]]'' on the first day of [[Tishrei]] (Rosh Hashanah)
+#{{bibleverse|Num.|29:2|HE}} &mdash; To bring additional offerings on [[Rosh Hashana]]
+#{{bibleverse|Num.|29:8|HE}} &mdash; To bring additional offerings on [[Yom Kippur]]
+#{{bibleverse|Num.|29:13|HE}} &mdash; To bring additional offerings on [[Sukkot]]
+#{{bibleverse|Num.|29:35|HE}} &mdash; To bring additional offerings on [[Shmini Atzeret]]
+#{{bibleverse|Num.|30:3|HE}} &mdash; Not to break [[oath]]s or [[vows]]
+#{{bibleverse|Num.|30:3|HE}} &mdash; For oaths and vows annulled, there are the laws of annulling vows explicit in the Torah
+#{{bibleverse|Num.|35:2|HE}} &mdash; To give the Levites cities to inhabit and their surrounding fields
+#{{bibleverse|Num.|35:12|HE}} &mdash; Not to kill the murderer before he stands trial
+#{{bibleverse|Num.|35:25|HE}} &mdash; The court must send the accidental murderer to a [[Cities of Refuge|city of refuge]]
+#{{bibleverse|Num.|35:31|HE}} &mdash; Not to accept monetary restitution to atone for the murderer
+#{{bibleverse|Num.|35:32|HE}} &mdash; Not to accept monetary restitution instead of being sent to a city of refuge
+#{{bibleverse|Deut.|1:17|HE}} &mdash; Not to appoint judges who are not familiar with judicial procedure
+#{{bibleverse|Deut.|1:17|HE}} &mdash; The judge must not fear a violent man in judgment
+#{{bibleverse|Deut.|5:19|TLT}} &mdash; Not to desire another's possession &mdash; Yemenite→{{bibleverse|Deut.|5:18|HE}}
+#{{bibleverse|Deut.|6:4|HE}} &mdash; [[God in Judaism|To know that he is]] [[Monotheism|One]]
+#{{bibleverse|Deut.|6:5|HE}} &mdash; [[Love of God|To love Him]]
+#{{bibleverse|Deut.|6:7|HE}} &mdash; To [[Torah study|learn Torah]]
+#{{bibleverse|Deut.|6:7|HE}} &mdash; To say the [[Shema Yisrael|Shema]] twice daily
+#{{bibleverse|Deut.|6:8|HE}} &mdash; To wear ''[[tefillin]]'' (phylacteries) on the head
+#{{bibleverse|Deut.|6:8|HE}} &mdash; To bind ''tefillin'' on the arm
+#{{bibleverse|Deut.|6:9|HE}} &mdash; To put a ''[[mezuzah]]'' on each door post
+#{{bibleverse|Deut.|6:16|HE}} &mdash; Not to try the {{LORD}} unduly
+#{{bibleverse|Deut.|7:2|HE}} &mdash; Not to make a covenant with idolaters
+#{{bibleverse|Deut.|7:2|HE}} &mdash; Not to show favor to them
+#{{bibleverse|Deut.|7:3|HE}} &mdash; [[Interfaith marriage in Judaism|Not to marry non-Jews]]
+#{{bibleverse|Deut.|7:25|HE}} &mdash; Not to derive benefit from ornaments of idols
+#{{bibleverse|Deut.|7:26|HE}} &mdash; Not to derive benefit from idols and their accessories
+#{{bibleverse|Deut.|8:10|HE}} &mdash; [[Birkat Hamazon|To bless the Almighty after eating]]
+#{{bibleverse|Deut.|10:19|HE}} &mdash; [[Conversion to Judaism#Halakhic considerations|To love converts]]
+#{{bibleverse|Deut.|10:20|HE}} &mdash; [[Fear of God (religion)|To fear Him]]
+#{{bibleverse|Deut.|10:20|HE}} &mdash; To [[wiktionary:cleave|cleave]] to Him
+#{{bibleverse|Deut.|10:20|HE}} &mdash; To swear in God's name to confirm the truth when deemed necessary by court
+#{{bibleverse|Deut.|12:2|HE}} &mdash; To destroy idols and their accessories
+#{{bibleverse|Deut.|12:4|HE}} &mdash; Not to destroy objects associated with His name
+#{{bibleverse|Deut.|12:5-6|HE}} &mdash; To bring all avowed and freewill offerings to the Temple on the first subsequent festival
+#{{bibleverse|Deut.|12:11|HE}} &mdash; To offer all sacrifices in the Temple
+#{{bibleverse|Deut.|12:13|HE}} &mdash; Not to offer any sacrifices outside the courtyard
+#{{bibleverse|Deut.|12:15|HE}} &mdash; To redeem dedicated animals which have become disqualified
+#{{bibleverse|Deut.|12:17|HE}} &mdash; Not to eat ''Ma'aser Sheni'' grains outside Jerusalem
+#{{bibleverse|Deut.|12:17|HE}} &mdash; Not to eat ''Ma'aser Sheni'' wine products outside Jerusalem
+#{{bibleverse|Deut.|12:17|HE}} &mdash; Not to eat ''Ma'aser Sheni'' oil outside Jerusalem
+#{{bibleverse|Deut.|12:17|HE}} &mdash; The ''[[Kohen|Kohanim]]'' must not eat the first fruits outside [[Jerusalem]]
+#{{bibleverse|Deut.|12:17|HE}} &mdash; Not to eat its meat
+#{{bibleverse|Deut.|12:17|HE}} &mdash; The ''Kohanim'' must not eat the meat outside the Temple courtyard
+#{{bibleverse|Deut.|12:17|HE}} &mdash; Not to eat the meat of minor sacrifices before sprinkling the blood
+#{{bibleverse|Deut.|12:17|HE}} &mdash; The Kohanim must not eat unblemished firstborn animals outside Jerusalem
+#{{bibleverse|Deut.|12:19|HE}} &mdash; Not to refrain from rejoicing with, and giving gifts to, the Levites
+#{{bibleverse|Deut.|12:21|HE}} &mdash; [[Shechita|To ritually slaughter an animal before eating it]]
+#{{bibleverse|Deut.|12:23|HE}} &mdash; Not to eat a limb torn off a living creature
+#{{bibleverse|Deut.|12:26|HE}} &mdash; To bring all sacrifices from outside Israel to the Temple
+#{{bibleverse|Deut.|13:1|HE}} &mdash; Not to add to the Torah commandments or their oral explanations
+#{{bibleverse|Deut.|13:1|HE}} &mdash; Not to diminish from the Torah any commandments, in whole or in part
+#{{bibleverse|Deut.|13:4|HE}} &mdash; Not to listen to a false prophet
+#{{bibleverse|Deut.|13:9|HE}} &mdash; [[Idolatry in Judaism|Not to love the idolater]]
+#{{bibleverse|Deut.|13:9|HE}} &mdash; [[Idolatry in Judaism|Not to cease hating the idolater]]
+#{{bibleverse|Deut.|13:9|HE}} &mdash; [[Idolatry in Judaism|Not to save the idolater]]
+#{{bibleverse|Deut.|13:9|HE}} &mdash; [[Idolatry in Judaism|Not to say anything in the idolater's defense]]
+#{{bibleverse|Deut.|13:9|HE}} &mdash; [[Idolatry in Judaism|Not to refrain from incriminating the idolater]]
+#{{bibleverse|Deut.|13:12|HE}} &mdash; [[Idolatry in Judaism|Not to missionize an individual to idol worship]]
+#{{bibleverse|Deut.|13:14|HE}} &mdash; [[Idolatry in Judaism|Not to turn a city to idolatry]] → {{bibleverse|Ex.|23:13|HE}}
+#{{bibleverse|Deut.|13:14|HE}} &mdash; [[Idolatry in Judaism|Not to prophesy in the name of idolatry]]
+#{{bibleverse|Deut.|13:15|HE}} &mdash; Carefully interrogate the witness
+#{{bibleverse|Deut.|13:17|HE}} &mdash; [[Idolatry in Judaism|To burn a city that has turned to idol worship]]
+#{{bibleverse|Deut.|13:17|HE}} &mdash; [[Idolatry in Judaism|Not to rebuild it as a city]]
+#{{bibleverse|Deut.|13:18|HE}} &mdash; [[Idolatry in Judaism|Not to derive benefit from it]]
+#{{bibleverse|Deut.|14:1|HE}} &mdash; Not to tear the skin in [[Jewish bereavement|mourning]]
+#{{bibleverse|Deut.|14:1|HE}} &mdash; Not to make a bald spot in mourning
+#{{bibleverse|Deut.|14:3|HE}} &mdash; Not to eat sacrifices which have become unfit or blemished
+#{{bibleverse|Deut.|14:11|HE}} &mdash; To examine the signs of [[fowl]] to distinguish between kosher and non-kosher
+#{{bibleverse|Deut.|14:19|HE}} &mdash; [[Kosher animals|Not to eat non-kosher flying insects]]
+#{{bibleverse|Deut.|14:21|HE}} &mdash; [[Shechita|Not to eat the meat of an animal that died without ritual slaughter]]
+#{{bibleverse|Deut.|14:22|HE}} &mdash; To set aside the [[Second tithe|second tithe (''Ma'aser Sheni'')]]
+#{{bibleverse|Deut.|14:28|HE}} &mdash; To separate the "tithe for the poor"
+#{{bibleverse|Deut.|15:2|HE}} &mdash; To release all loans during the seventh year
+#{{bibleverse|Deut.|15:2|HE}} &mdash; Not to pressure or claim from the borrower
+#{{bibleverse|Deut.|15:3|HE}} &mdash; Press the idolater for payment
+#{{bibleverse|Deut.|15:7|HE}} &mdash; Not to withhold charity from the poor
+#{{bibleverse|Deut.|15:8|HE}} &mdash; To give [[tzedakah|charity]]
+#{{bibleverse|Deut.|15:9|HE}} &mdash; Not to refrain from lending immediately before the release of the loans for fear of monetary loss
+#{{bibleverse|Deut.|15:14|HE}} &mdash; Give him gifts when he goes free
+#{{bibleverse|Deut.|15:13|HE}} &mdash; Not to send him away empty-handed
+#{{bibleverse|Deut.|15:19|HE}} &mdash; Not to work [[consecrated]] animals
+#{{bibleverse|Deut.|15:19|HE}} &mdash; Not to shear the fleece of consecrated animals
+#{{bibleverse|Deut.|16:3|HE}} &mdash; Not to eat ''[[chametz]]'' on the afternoon of the 14th day of [[Nisan]]
+#{{bibleverse|Deut.|16:4|HE}} &mdash; Not to leave the meat of the holiday offering of the 14th until the 16th
+#{{bibleverse|Deut.|16:14|HE}} &mdash; To rejoice on these three Festivals (bring a peace offering)
+#{{bibleverse|Deut.|16:16|HE}} &mdash; To be seen at the Temple on [[Passover]], [[Shavuot]], and [[Sukkot]]
+#{{bibleverse|Deut.|16:16|HE}} &mdash; Not to appear at the Temple without offerings
+#{{bibleverse|Deut.|16:18|HE}} &mdash; Appoint judges
+#{{bibleverse|Deut.|16:21|HE}} &mdash; Not to plant a tree in the Temple courtyard
+#{{bibleverse|Deut.|16:22|HE}} &mdash; Not to erect a pillar in a public place of worship
+#{{bibleverse|Deut.|17:1|HE}} &mdash; Not to offer a temporarily blemished animal
+#{{bibleverse|Deut.|17:11|HE}} &mdash; Act according to the ruling of the [[Sanhedrin]]
+#{{bibleverse|Deut.|17:11|HE}} &mdash; Not to deviate from the word of the Sanhedrin
+#{{bibleverse|Deut.|17:15|HE}} &mdash; Appoint a king from Israel
+#{{bibleverse|Deut.|17:15|HE}} &mdash; Not to appoint a foreigner
+#{{bibleverse|Deut.|17:16|HE}} &mdash; The king must not have too many horses
+#{{bibleverse|Deut.|17:16|HE}} &mdash; Not to dwell permanently in Egypt
+#{{bibleverse|Deut.|17:17|HE}} &mdash; The king must not have too many wives
+#{{bibleverse|Deut.|17:17|HE}} &mdash; The king must not have too much silver and gold
+#{{bibleverse|Deut.|17:18|HE}} &mdash; The king must have a separate ''Sefer Torah'' for himself
+#{{bibleverse|Deut.|18:1|HE}} &mdash; The [[Levite|Tribe of Levi]] must not be given a portion of the land in Israel, rather they are given cities to dwell in
+#{{bibleverse|Deut.|18:1|HE}} &mdash; The Levites must not take a share in the spoils of war
+#{{bibleverse|Deut.|18:3|HE}} &mdash; To give the foreleg, two cheeks, and abomasum of slaughtered animals to a ''Kohen''
+#{{bibleverse|Deut.|18:4|HE}} &mdash; To set aside ''Terumah Gedolah'' (gift for the ''Kohen'')
+#{{bibleverse|Deut.|18:4|HE}} &mdash; To give the first shearing of sheep to a ''Kohen''
+#{{bibleverse|Deut.|18:6-8|HE}} &mdash; The work of the ''Kohanim''{{'s}} shifts must be equal during holidays
+#{{bibleverse|Deut.|18:10|HE}} &mdash; Not to go into a [[altered state of consciousness|trance]] to foresee events, etc.
+#{{bibleverse|Deut.|18:10|HE}} &mdash; Not to perform acts of [[Magic (paranormal)|magic]]
+#{{bibleverse|Deut.|18:11|HE}} &mdash; Not to mutter [[incantation]]s
+#{{bibleverse|Deut.|18:11|HE}} &mdash; Not to attempt to contact the dead
+#{{bibleverse|Deut.|18:11|HE}} &mdash; Not to consult the ''ov''
+#{{bibleverse|Deut.|18:11|HE}} &mdash; Not to consult the ''yidoni''
+#{{bibleverse|Deut.|18:15|HE}} &mdash; To listen to the [[Prophet#Judaism|prophet]] speaking in His Name
+#{{bibleverse|Deut.|18:20|HE}} &mdash; Not to prophesy falsely in the name of God
+#{{bibleverse|Deut.|18:22|HE}} &mdash; Not to be afraid of the false prophet
+#{{bibleverse|Deut.|19:3|HE}} &mdash; Designate [[Cities of Refuge|cities of refuge]] and prepare routes of access
+#{{bibleverse|Deut.|19:13|HE}} &mdash; A judge must not pity the murderer or assaulter at the trial
+#{{bibleverse|Deut.|19:14|HE}} &mdash; Not to move a [[boundary marker]] to steal someone's property
+#{{bibleverse|Deut.|19:15|HE}} &mdash; Not to accept testimony from a lone witness
+#{{bibleverse|Deut.|19:17|HE}} &mdash; A witness must not serve as a judge in capital crimes
+#{{bibleverse|Deut.|19:19|HE}} &mdash; Punish the false witnesses as they tried to punish the defendant
+#{{bibleverse|Deut.|20:2|HE}} &mdash; Appoint a priest to speak with the soldiers during the war
+#{{bibleverse|Deut.|20:3|HE}} &mdash; Not to panic and retreat during battle
+#{{bibleverse|Deut.|20:10|HE}} &mdash; Offer peace terms to the inhabitants of a city while holding siege, and treat them according to the Torah if they accept the terms
+#{{bibleverse|Deut.|20:16|HE}} &mdash; Not to let any of them remain alive
+#{{bibleverse|Deut.|20:17|HE}} &mdash; Destroy the seven [[Canaan]]ite nations
+#{{bibleverse|Deut.|20:19|HE}} &mdash; Not to destroy food trees even during the siege
+#{{bibleverse|Deut.|21:4|HE}} &mdash; Break the neck of a calf by the river valley following an unsolved murder
+#{{bibleverse|Deut.|21:4|HE}} &mdash; Not to work nor plant that river valley
+#{{bibleverse|Deut.|21:11|HE}} &mdash; Keep the laws of the captive woman
+#{{bibleverse|Deut.|21:14|HE}} &mdash; Not to sell her into slavery
+#{{bibleverse|Deut.|21:14|HE}} &mdash; Not to retain her for servitude after having sexual relations with her
+#{{bibleverse|Deut.|21:18|HE}} &mdash; Not to be a rebellious son
+#{{bibleverse|Deut.|21:22|HE}} &mdash; The courts must hang those stoned for blasphemy or idolatry
+#{{bibleverse|Deut.|21:23|HE}} &mdash; Bury the executed on the day they are killed
+#{{bibleverse|Deut.|21:23|HE}} &mdash; Not to delay burial overnight
+#{{bibleverse|Deut.|22:1|HE}} &mdash; [[Hashavat Aveda|Return the lost object]]
+#{{bibleverse|Deut.|22:3|HE}} &mdash; Not to ignore a lost object
+#{{bibleverse|Deut.|22:4|HE}} &mdash; Help others load their beast
+#{{bibleverse|Deut.|22:4|HE}} &mdash; Not to leave others distraught with their burdens (but to help either load or unload)
+#{{bibleverse|Deut.|22:5|HE}} &mdash; Men must not wear women's clothing
+#{{bibleverse|Deut.|22:5|HE}} &mdash; Women must not wear men's clothing
+#{{bibleverse|Deut.|22:6|HE}} &mdash; To send away the mother bird before taking its children
+#{{bibleverse|Deut.|22:7|HE}} &mdash; To release the mother bird if she was taken from the nest
+#{{bibleverse|Deut.|22:8|HE}} &mdash; Not to allow pitfalls and obstacles to remain on one's property
+#{{bibleverse|Deut.|22:8|HE}} &mdash; Make a guard rail around flat roofs
+#{{bibleverse|Deut.|22:9|HE}} &mdash; [[Kil'ayim (prohibition)|Not to eat diverse seeds planted in a vineyard]]
+#{{bibleverse|Deut.|22:9|HE}} &mdash; Not to plant grains or greens in a vineyard
+#{{bibleverse|Deut.|22:10|HE}} &mdash; Not to work different animals together
+#{{bibleverse|Deut.|22:11|HE}} &mdash; Not to wear ''[[shaatnez]]'', a cloth woven of wool and linen
+#{{bibleverse|Deut.|22:13|HE}} &mdash; To [[Jewish view of marriage|marry a wife]] by means of ''[[ketubah]]'' and ''kiddushin''
+#{{bibleverse|Deut.|22:19|HE}} &mdash; The slanderer must remain married to his wife
+#{{bibleverse|Deut.|22:19|HE}} &mdash; He must not [[Get (divorce document)|divorce]] her
+#{{bibleverse|Deut.|22:24|HE}} &mdash; The courts must carry out the death penalty of stoning
+#{{bibleverse|Deut.|22:29|HE}} &mdash; The seducer must marry his victim if she is unwed (talks about two couples fornicating, rape is mentioned in Deuteronomy 22:25)
+#{{bibleverse|Deut.|22:29|HE}} &mdash; He is never allowed to divorce her
+#{{bibleverse|Deut.|23:2|HE}} &mdash; Not to let a [[eunuch]] marry into the Jewish people
+#{{bibleverse|Deut.|23:3|HE}} &mdash; Not to let a [[mamzer]] (a child born due to an illegal relationship) marry into the Jewish people
+#{{bibleverse|Deut.|23:4|HE}} &mdash; [[Forbidden relationships in Judaism|Not to let Moabite and Ammonite males marry into the Jewish people]]
+#{{bibleverse|Deut.|23:7|HE}} &mdash; Not to offer peace to [[Ammon (nation)|Ammon]] and [[Moab]] while besieging them
+#{{bibleverse|Deut.|23:8-9|HE}} &mdash; Not to refrain from letting a third-generation [[Egyptians|Egyptian]] convert enter the Assembly
+#{{bibleverse|Deut.|23:8-9|HE}} &mdash; Not to refrain from letting a third-generation [[Edom]]ite convert enter the Assembly
+#{{bibleverse|Deut.|23:11|HE}} &mdash; Impure people must not enter the [[Temple Mount]] area
+#{{bibleverse|Deut.|23:13|HE}} &mdash; Prepare latrines outside the camps
+#{{bibleverse|Deut.|23:14|HE}} &mdash; Prepare a shovel for each soldier to dig with
+#{{bibleverse|Deut.|23:16|HE}} &mdash; Not to extradite a slave who fled to (Biblical) Israel
+#{{bibleverse|Deut.|23:16|HE}} &mdash; Not to wrong a slave who has come to Israel for refuge
+#{{bibleverse|Deut.|23:18|HE}} &mdash; [[Religion and sexuality#Judaism|Not to have sexual relations with women not thus married]]
+#{{bibleverse|Deut.|23:19|HE}} &mdash; Not to offer animals bought with the wages of a harlot or the animal exchanged for a dog. Some interpret "exchanged for a dog" as referring to wage of a male prostitute.<ref name=JPS>Footnote to Deut. 23:19, Tanakh The Holy Scriptures, The Jewish Publication Society, 1985, {{ISBN|978-0-8276-0252-6}}</ref><ref name="CSB">Footnote to Deut. 23:19, The Catholic Study Bible, Second Edition, Oxford University Press, 2011</ref>
+#{{bibleverse|Deut.|23:20|HE}} &mdash; Not to borrow with interest
+#{{bibleverse|Deut.|23:21|HE}} &mdash; Lend to and borrow from idolaters with interest
+#{{bibleverse|Deut.|23:22|HE}} &mdash; Not to withhold payment incurred by any vow
+#{{bibleverse|Deut.|23:24|HE}} &mdash; To fulfill what was uttered and to do what was avowed
+#{{bibleverse|Deut.|23:25|HE}} &mdash; The hired worker may eat from the unharvested crops where he works
+#{{bibleverse|Deut.|23:25|HE}} &mdash; The worker must not take more than he can eat
+#{{bibleverse|Deut.|23:26|HE}} &mdash; The worker must not eat while on hired time
+#{{bibleverse|Deut.|24:1|HE}} &mdash; To issue a divorce by means of a [[Get (divorce document)|''Get'' document]]
+#{{bibleverse|Deut.|24:4|HE}} &mdash; A man must not remarry his ex-wife after she has married someone else
+#{{bibleverse|Deut.|24:5|HE}} &mdash; He who has taken a wife, built a new home, or planted a vineyard is given a year to rejoice with his possessions
+#{{bibleverse|Deut.|24:5|HE}} &mdash; Not to demand from the above any involvement, communal or military
+#{{bibleverse|Deut.|24:6|HE}} &mdash; Not to demand as collateral utensils needed for preparing food
+#{{bibleverse|Deut.|24:8|HE}} &mdash; The [[tzaraath|metzora]] must not remove his signs of impurity
+#{{bibleverse|Deut.|24:10|HE}} &mdash; The creditor must not forcibly take collateral
+#{{bibleverse|Deut.|24:12|HE}} &mdash; Not to delay its return when needed
+#{{bibleverse|Deut.|24:13|HE}} &mdash; Return the collateral to the debtor when needed
+#{{bibleverse|Deut.|24:15|HE}} &mdash; Pay wages on the day they were earned
+#{{bibleverse|Deut.|24:16|HE}} &mdash; Relatives of the litigants must not testify
+#{{bibleverse|Deut.|24:17|HE}} &mdash; Not to demand collateral from a widow
+#{{bibleverse|Deut.|24:17|HE}} &mdash; A judge must not pervert a case involving a convert or orphan
+#{{bibleverse|Deut.|24:19|HE}} &mdash; To leave the forgotten sheaves in the field
+#{{bibleverse|Deut.|24:19|HE}} &mdash; Not to retrieve them
+#{{bibleverse|Deut.|25:2|HE}} &mdash; The court must give lashes to the wrongdoer
+#{{bibleverse|Deut.|25:3|HE}} &mdash; The court must not exceed the prescribed number of lashes
+#{{bibleverse|Deut.|25:4|HE}} &mdash; Not to muzzle an ox while plowing
+#{{bibleverse|Deut.|25:5|HE}} &mdash; [[Yibbum|To perform ''yibbum'']] (marry the widow of one's childless brother)
+#{{bibleverse|Deut.|25:5|HE}} &mdash; The widow must not remarry until the ties with her brother-in-law are removed (by ''halizah'')
+#{{bibleverse|Deut.|25:9|HE}} &mdash; [[halizah|To perform ''halizah'']] (free the widow of one's childless brother from ''[[yibbum]]'')
+#{{bibleverse|Deut.|25:12|HE}} &mdash; Save someone being pursued even by taking the life of the pursuer
+#{{bibleverse|Deut.|25:12|HE}} &mdash; Not to pity the pursuer
+#{{bibleverse|Deut.|25:13|HE}} &mdash; Not to possess inaccurate scales and weights even if they are not for use
+#{{bibleverse|Deut.|25:17|HE}} &mdash; Remember what Amalek did to the Jewish people
+#{{bibleverse|Deut.|25:19|HE}} &mdash; Wipe out the memory of [[Amalek]]
+#{{bibleverse|Deut.|25:19|HE}} &mdash; Not to forget Amalek's atrocities and ambush on our journey from Egypt in the desert
+#{{bibleverse|Deut.|26:5|HE}} &mdash; To read the [[Torah portion]] pertaining to the presentation of first fruits
+#{{bibleverse|Deut.|26:13|HE}} &mdash; To read the confession of tithes every fourth and seventh year
+#{{bibleverse|Deut.|26:14|HE}} &mdash; Not to spend its redemption money on anything but food, drink, or ointment
+#{{bibleverse|Deut.|26:14|HE}} &mdash; Not to eat ''Ma'aser Sheni'' while impure
+#{{bibleverse|Deut.|26:14|HE}} &mdash; A mourner on the first day after death must not eat ''Ma'aser Sheni''
+#{{bibleverse|Deut.|22:26|HE}} &mdash; The court must not punish anybody who was forced to commit a crime
+#{{bibleverse|Deut.|28:9|HE}} &mdash; [[Imitatio dei|To emulate His ways]]
+#{{bibleverse|Deut.|31:12|HE}} &mdash; To assemble all the people on the Sukkot following the seventh year
+#{{bibleverse|Deut.|31:19|HE}} &mdash; [[The Mitzvah to Write a Torah Scroll|Each male must write a Sefer Torah]]
+#{{bibleverse|Deut.|32:38|HE}} &mdash; [[kosher wine|Not to drink wine poured in service to idols]]
+|}
+
+===Typical order===
+{| class="collapsible" style="width:100%; border:1px solid #cedff2; background:#F5FAFF"
+|-
+! Order as typically presented
+|-
+|
+#[[To know there is a God]] &mdash; {{bibleverse|Ex.||20:2|HE}}
+#[[Thou shalt have no other gods before me|Not to even think that there are other gods besides Him]] &mdash; Standard: {{bibleverse|Ex.||20:3|TLT}}; Yemenite: {{bibleverse|Ex.||20:2|HE}}<ref>{{Cite web|url=https://sites.google.com/site/yahwehelohiym/related-articles/hebrew-henotheism|title=Hebrew Henotheism - Yahweh Elohim|website=sites.google.com|archive-url=https://web.archive.org/web/20200915161209/https://sites.google.com/site/yahwehelohiym/related-articles/hebrew-henotheism |archive-date=2020-09-15 }}</ref>
+#[[God in Judaism|To know that God is]] [[Monotheism|One]] &mdash; {{bibleverse|Deut.||6:4|HE}}
+#[[Love of God|To love God]] &mdash;{{bibleverse|Deut.||6:5|HE}}
+#[[Fear of God (religion)|To fear God]] &mdash; {{bibleverse|Deut.||10:20|HE}}
+#[[Kiddush Hashem|To sanctify God's Name]] &mdash; {{bibleverse|Lev.||22:32|HE}}
+#[[Thou shalt not take the name of the Lord thy God in vain|Not to profane God's Name]] &mdash; {{bibleverse|Lev.||22:32|HE}}
+#Not to destroy objects associated with [[names of God in Judaism|God's Name]] &mdash; {{bibleverse|Deut.||12:4|HE}}
+#To listen to the [[prophet]] speaking in God's Name &mdash; {{bibleverse|Deut.||18:15|HE}}
+#Not to try the {{LORD}} unduly &mdash; {{bibleverse|Deut.||6:16|HE}}
+#[[Imitatio dei|To emulate God's ways]] &mdash; {{bibleverse|Deut.||28:9|HE}}
+#To cleave to [[Gadol|those who know God]] &mdash; {{bibleverse|Deut.||10:20|HE}}
+#To love other [[Jew]]s &mdash; {{bibleverse|Lev.||19:18|HE}}
+#[[Conversion to Judaism#Halakhic considerations|To love converts]] &mdash; {{bibleverse|Deut.||10:19|HE}}
+#Not to hate fellow Jews &mdash; {{bibleverse|Lev.||19:17|HE}}
+#To reprove a sinner &mdash; {{bibleverse|Lev.||19:17|HE}}
+#Not to embarrass others &mdash; {{bibleverse|Lev.||19:17|HE}}
+#Not to [[Oppression|oppress]] the weak &mdash; {{bibleverse|Ex.||22:21|HE}}
+#[[Lashon hara|Not to gossip]] &mdash; {{bibleverse|Lev.||19:16|HE}}
+#[[revenge|Not to take revenge]] &mdash; {{bibleverse|Lev.||19:18|HE}}
+#Not to bear a grudge &mdash; {{bibleverse|Lev.||19:18|HE}}
+#[[Torah study|To learn Torah]] &mdash; {{bibleverse|Deut.||6:7|HE}}
+#To honor [[rabbi|those who teach and know Torah]] &mdash; {{bibleverse|Lev.||19:32|HE}}
+#[[Idolatry in Judaism|Not to inquire into idolatry]] &mdash; {{bibleverse|Lev.||19:4|HE}}
+#Not to follow the whims of your heart or what your eyes see &mdash; {{bibleverse|Num.||15:39|HE}}
+#[[Blasphemy|Not to blaspheme]] &mdash; {{bibleverse|Ex.||22:27|HE}}
+#[[Idolatry in Judaism|Not to worship idols in the manner they are worshiped]] &mdash; Standard: {{bibleverse|Ex.|20:6|TLT}}; Yemenite: {{bibleverse|Ex.||20:5|HE}}
+#[[Idolatry in Judaism|Not to worship idols]] in the four ways we worship God &mdash; Standard: {{bibleverse|Ex.|20:6|TLT}};  Yemenite: {{bibleverse|Ex.||20:5|HE}}
+#[[Idolatry in Judaism|Not to make an idol for yourself]] &mdash; Standard: {{bibleverse|Ex.|20:5|TLT}};  Yemenite: {{bibleverse|Ex.||20:4|HE}}
+#[[Thou shalt not make unto thee any graven image|Not to make an idol for others]] &mdash; {{bibleverse|Lev.||19:4|HE}}
+#[[Idolatry in Judaism|Not to make human forms even for decorative purposes]] &mdash; Standard: {{bibleverse|Ex.|20:21|TLT}}; Yemenite: {{bibleverse|Ex.||20:20|HE}}
+#[[Idolatry in Judaism|Not to turn a city to idolatry]] &mdash; {{bibleverse|Deut.||13:14|HE}}
+#[[Idolatry in Judaism|To burn a city that has turned to idol worship]] &mdash; {{bibleverse|Deut.||13:17|HE}}
+#[[Idolatry in Judaism|Not to rebuild it as a city]] &mdash; {{bibleverse|Deut.||13:17|HE}}
+#[[Idolatry in Judaism|Not to derive benefit from it]] &mdash; {{bibleverse|Deut.||13:18|HE}}
+#[[Idolatry in Judaism|Not to missionize an individual to idol worship]] &mdash; {{bibleverse|Deut.||13:12|HE}}
+#[[Idolatry in Judaism|Not to love the idolater]] &mdash; {{bibleverse|Deut.||13:9|HE}}
+#[[Idolatry in Judaism|Not to cease hating the idolater]] &mdash; {{bibleverse|Deut.||13:9|HE}}
+#[[Idolatry in Judaism|Not to save the idolater]] &mdash; {{bibleverse|Deut.||13:9|HE}}
+#[[Idolatry in Judaism|Not to say anything in the idolater's defense]] &mdash; {{bibleverse|Deut.||13:9|HE}}
+#[[Idolatry in Judaism|Not to refrain from incriminating the idolater]] &mdash; {{bibleverse|Deut.||13:9|HE}}
+#[[Idolatry in Judaism|Not to prophesy in the name of idolatry]] &mdash; {{bibleverse|Deut.||13:14|HE}}
+#Not to listen to a false [[prophet]] &mdash; {{bibleverse|Deut.||13:4|HE}}
+#Not to [[prophesy]] falsely in the name of God &mdash; {{bibleverse|Deut.||18:20|HE}}
+#Not to be afraid of the false [[prophet]] &mdash; {{bibleverse|Deut.||18:22|HE}}
+#[[Idolatry in Judaism|Not to swear in the name of an idol]] &mdash; {{bibleverse|Ex.||23:13|HE}}
+#[[Ov and Yidoni|Not to perform ov]] (medium) &mdash; {{bibleverse|Lev.||19:31|HE}}
+#[[Ov and Yidoni|Not to perform yidoni]] ("magical seer") &mdash; {{bibleverse|Lev.||19:31|HE}}
+#[[Molech|Not to pass your children through the fire to Molech]] &mdash; {{bibleverse|Lev.||18:21|HE}}
+#Not to erect a pillar in a public place of worship &mdash; {{bibleverse|Deut.||16:22|HE}}
+#Not to bow down before a smooth stone &mdash; {{bibleverse|Lev.||26:1|HE}}
+#Not to plant a tree in the Temple courtyard &mdash; {{bibleverse|Deut.||16:21|HE}}
+#[[Idolatry in Judaism|To destroy idols and their accessories]] &mdash; {{bibleverse|Deut.||12:2|HE}}
+#[[Idolatry in Judaism|Not to derive benefit from idols and their accessories]] &mdash; {{bibleverse|Deut.||7:26|HE}}
+#[[Idolatry in Judaism|Not to derive benefit from ornaments of idols]] &mdash; {{bibleverse|Deut.||7:25|HE}}
+#Not to make a covenant with idolaters  &mdash;{{bibleverse|Deut.||7:2|HE}}
+#Not to show favor to idolaters &mdash; {{bibleverse|Deut.||7:2|HE}}
+#Not to let idolaters dwell in the [[Land of Israel]] &mdash; {{bibleverse|Ex.||23:33|HE}}
+#Not to imitate idolaters in customs and clothing &mdash; {{bibleverse|Lev.||20:23|HE}}
+#Not to be [[superstitious]] &mdash; {{bibleverse|Lev.||19:26|HE}}
+#Not to go into a [[altered state of consciousness|trance]] to foresee events, etc. &mdash; {{bibleverse|Deut.||18:10|HE}}
+#Not to engage in [[divination]] or soothsaying &mdash; {{bibleverse|Lev.||19:26|HE}}
+#Not to mutter [[incantation]]s &mdash; {{bibleverse|Deut.||18:11|HE}}
+#Not to attempt to contact the dead &mdash; {{bibleverse|Deut.||18:11|HE}}
+#[[Ov and Yidoni|Not to consult the ''ov'']] &mdash; {{bibleverse|Deut.||18:11|HE}}
+#[[Yidoni|Not to consult the ''yidoni'']] &mdash; {{bibleverse|Deut.||18:11|HE}}
+#Not to perform acts of [[Magic (paranormal)|magic]] &mdash; {{bibleverse|Deut.||18:10|HE}}
+#Men must not shave the [[Payot|hair off the sides of their head]] &mdash; {{bibleverse|Lev.||19:27|HE}}
+#Men must not shave their beards with a [[razor]] &mdash; {{bibleverse|Lev.||19:27|HE}}
+#Men must not wear women's clothing &mdash; {{bibleverse|Deut.||22:5|HE}}
+#Women must not wear men's clothing &mdash; {{bibleverse|Deut.||22:5|HE}}
+#[[Religious perspectives on tattooing#Judaism|Not to tattoo the skin]] &mdash; {{bibleverse|Lev.||19:28|HE}}
+#Not to tear the skin in [[Jewish bereavement|mourning]] &mdash; {{bibleverse|Deut.||14:1|HE}}
+#Not to make a bald spot in [[Jewish bereavement|mourning]] &mdash; {{bibleverse|Deut.||14:1|HE}}
+#To [[Repentance in Judaism|repent]] and [[Confession in Judaism|confess wrongdoings]] &mdash; {{bibleverse|Num.||5:7|HE}}
+#To say the [[Shema Yisrael|Shema]] twice daily &mdash; {{bibleverse|Deut.||6:7|HE}}
+#[[Prayer in Judaism|To pray every day]] &mdash; {{bibleverse|Ex.||23:25|HE}}
+#[[Priestly Blessing|The ''Kohanim'' must bless the Jewish nation daily]] &mdash; {{bibleverse|Num.||6:23|HE}}
+#[[Tefillin|To wear ''tefillin'' (phylacteries) on the head]] &mdash; {{bibleverse|Deut.||6:8|HE}}
+#[[Tefillin|To bind ''tefillin'' on the arm]] &mdash; {{bibleverse|Deut.||6:8|HE}}
+#[[Mezuzah|To put a ''mezuzah'' on the door post]] &mdash; {{bibleverse|Deut.||6:9|HE}}
+#[[The Mitzvah to Write a Torah Scroll|Each male must write a Torah scroll]] &mdash; {{bibleverse|Deut.||31:19|HE}}
+#[[Monarchy in Judaism|The king]] must have a separate [[Torah scroll]] for himself &mdash; {{bibleverse|Deut.||17:18|HE}}
+#[[Tzitzit|To have ''tzitzit'' on four-cornered garments]] &mdash; {{bibleverse|Num.||15:38|HE}}
+#[[Birkat Hamazon|To bless the Almighty after eating]] &mdash; {{bibleverse|Deut.||8:10|HE}}
+#[[Brit milah|To circumcise all males on the eighth day after their birth]] &mdash; {{bibleverse|Gen.||17:10|HE}}
+#[[Shabbat|To rest on the seventh day]] &mdash; {{bibleverse|Ex.||23:12|HE}}
+#[[Shabbat|Not to do prohibited labor on the seventh day]] &mdash; Standard: {{bibleverse|Ex.|20:11|TLT}}; Yemenite: {{bibleverse|Ex.||20:10|HE}}
+#The court must not inflict punishment on [[Shabbat]] &mdash; {{bibleverse|Ex.||35:3|HE}}
+#[[Techum|Not to walk outside the city boundary on Shabbat]] &mdash; {{bibleverse|Ex.||16:29|HE}}
+#To sanctify [[Shabbat]] with ''[[Kiddush]]'' and ''[[Havdalah]]'' &mdash; Standard: {{bibleverse|Ex.|20:9|TLT}}; Yemenite: {{bibleverse|Ex.||20:8|HE}}
+#[[Yom Kippur|To rest from prohibited labor on Yom Kippur]] &mdash; {{bibleverse|Lev.||23:32|HE}}
+#[[Yom Kippur|Not to do prohibited labor on Yom Kippur]] &mdash; {{bibleverse|Lev.||23:32|HE}}
+#[[Ta'anit|To afflict oneself on Yom Kippur]] &mdash; {{bibleverse|Lev.||16:29|HE}}
+#[[Ta'anit|Not to eat or drink on Yom Kippur]] &mdash; {{bibleverse|Lev.||23:29|HE}}
+#To rest on the first day of [[Passover]] &mdash; {{bibleverse|Lev.||23:7|HE}}
+#Not to do prohibited labor on the first day of [[Passover]] &mdash; {{bibleverse|Lev.||23:8|HE}}
+#To rest on the seventh day of [[Passover]] &mdash; {{bibleverse|Lev.||23:8|HE}}
+#Not to do prohibited labor on the seventh day of [[Passover]] &mdash; {{bibleverse|Lev.||23:8|HE}}
+#To rest on [[Shavuot]] &mdash; {{bibleverse|Lev.||23:21|HE}}
+#Not to do prohibited labor on [[Shavuot]] &mdash; {{bibleverse|Lev.||23:21|HE}}
+#To rest on [[Rosh Hashanah]] &mdash; {{bibleverse|Lev.||23:24|HE}}
+#Not to do prohibited labor on [[Rosh Hashanah]] &mdash; {{bibleverse|Lev.||23:25|HE}}
+#To rest on [[Sukkot]] &mdash; {{bibleverse|Lev.||23:35|HE}}
+#Not to do prohibited labor on [[Sukkot]] &mdash; {{bibleverse|Lev.||23:35|HE}}
+#To rest on [[Shemini Atzeret]] &mdash; {{bibleverse|Lev.||23:36|HE}}
+#Not to do prohibited labor on [[Shemini Atzeret]]  &mdash;{{bibleverse|Lev.||23:36|HE}}
+#[[chametz|Not to eat ''chametz'' on the afternoon of the 14th day of Nisan]] &mdash; {{bibleverse|Deut.||16:3|HE}}
+#[[Biur chametz|To destroy all ''chametz'' on 14th day of Nisan]] &mdash; {{bibleverse|Ex.||12:15|HE}}
+#[[chametz|Not to eat chametz all seven days of Passover]]  &mdash;{{bibleverse|Ex.||13:3|HE}}
+#[[chametz|Not to eat mixtures containing ''chametz'' all seven days of Passover]] &mdash; {{bibleverse|Ex.||12:20|HE}}
+#[[chametz|Not to see ''chametz'' in your domain seven days]] &mdash; {{bibleverse|Ex.||13:7|HE}}
+#[[chametz|Not to find ''chametz'' in your domain seven days]] &mdash; {{bibleverse|Ex.||12:19|HE}}
+#[[Matzah|To eat ''matzah'' on the first night of Passover]] &mdash; {{bibleverse|Ex.||12:18|HE}}
+#[[Hagadah|To relate the Exodus from Egypt on that night]] &mdash; {{bibleverse|Ex.||13:8|HE}}
+#[[Shofar|To hear the ''Shofar'' on the first day of Tishrei (Rosh Hashanah)]] &mdash; {{bibleverse|Num.||29:1|HE}}
+#[[Sukkah|To dwell in a ''Sukkah'' for the seven days of Sukkot]] &mdash; {{bibleverse|Lev.||23:42|HE}}
+#[[Four Species|To take up a ''Lulav'' and ''Etrog'' on the first day of Sukkot (in the temple, all seven days)]] &mdash; {{bibleverse|Lev.||23:40|HE}}
+#Each man must give a half [[shekel]] annually &mdash; {{bibleverse|Ex.||30:13|HE}}
+#[[Hebrew calendar#Molad interval|Courts must calculate to determine when a new month begins]] &mdash; {{bibleverse|Ex.||12:2|HE}}
+#[[Ta'anit|To afflict oneself and cry out before God in times of calamity]] &mdash; {{bibleverse|Num.||10:9|HE}}
+#[[Jewish view of marriage|To marry a wife by means of ''ketubah'' and ''kiddushin'']] &mdash; {{bibleverse|Deut.||22:13|HE}}
+#[[Religion and sexuality#Judaism|Not to have sexual relations with women not thus married]] &mdash; {{bibleverse|Deut.||23:18|HE}}
+#[[Ketuba|Not to withhold food, clothing, and sexual relations from your wife]] &mdash; {{bibleverse|Ex.||21:10|HE}}
+#To have children with one's wife &mdash; {{bibleverse|Gen.||1:28|HE}}
+#[[Get (divorce document)|To issue a divorce by means of a ''Get'' document]] &mdash; {{bibleverse|Deut.||24:1|HE}}
+#A man must not remarry his ex-wife after she has married someone else &mdash; {{bibleverse|Deut.||24:4|HE}}
+#[[Yibbum|To perform ''yibbum'']] (marry the widow of one's childless brother) &mdash; {{bibleverse|Deut.||25:5|HE}}
+#[[halizah|To perform ''halizah'']] (free the widow of one's childless brother from ''[[yibbum]]'') &mdash; {{bibleverse|Deut.||25:9|HE}}
+#The widow must not remarry until the ties with her brother-in-law are removed (by ''halizah'') &mdash; {{bibleverse|Deut.||25:5|HE}}
+#The court must fine one who sexually seduces a maiden &mdash; {{bibleverse|Ex.||22:15-16|HE}}
+#The rapist must marry his victim if she is unwed &mdash; {{bibleverse|Deut.||22:29|HE}}
+#He is never allowed to divorce her &mdash; {{bibleverse|Deut.||22:29|HE}}
+#The slanderer must remain married to his wife &mdash; {{bibleverse|Deut.||22:19|HE}}
+#He must not [[Get (divorce document)|divorce]] her &mdash; {{bibleverse|Deut.||22:19|HE}}
+#To fulfill the laws of the [[Sotah]] &mdash; {{bibleverse|Num.||5:30|HE}}
+#Not to put oil on her meal offering (as usual) &mdash; {{bibleverse|Num.||5:15|HE}}
+#Not to put [[frankincense]] on her meal offering (as usual) &mdash; {{bibleverse|Num.||5:15|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your mother]] &mdash; {{bibleverse|Lev.||18:7|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your father's wife]] &mdash; {{bibleverse|Lev.||18:8|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your sister]] &mdash; {{bibleverse|Lev.||18:9|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your father's wife's daughter]] &mdash; {{bibleverse|Lev.||18:11|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your son's daughter]] &mdash; {{bibleverse|Lev.||18:10|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your daughter]] &mdash; {{bibleverse|Lev.||18:10|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your daughter's daughter]] &mdash; {{bibleverse|Lev.||18:10|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with a woman and her daughter]] &mdash; {{bibleverse|Lev.||18:17|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with a woman and her son's daughter]] &mdash; {{bibleverse|Lev.||18:17|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with a woman and her daughter's daughter]] &mdash; {{bibleverse|Lev.||18:17|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your father's sister]] &mdash; {{bibleverse|Lev.||18:12|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your mother's sister]] &mdash; {{bibleverse|Lev.||18:13|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your father's brother's wife]] &mdash; {{bibleverse|Lev.||18:14|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your son's wife]] &mdash; {{bibleverse|Lev.||18:15|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your brother's wife]] &mdash; {{bibleverse|Lev.||18:16|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your wife's sister]] &mdash; {{bibleverse|Lev.||18:18|HE}}
+#[[Forbidden relationships in Judaism|A man must not have sexual relations with an animal]] &mdash; {{bibleverse|Lev.||18:23|HE}}
+#[[Forbidden relationships in Judaism|A woman must not have sexual relations with an animal]] &mdash; {{bibleverse|Lev.||18:23|HE}}
+#[[Homosexuality and Judaism|A man must not have sexual relations with a man]] &mdash; {{bibleverse|Lev.||18:22|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your father]] &mdash; {{bibleverse|Lev.||18:7|HE}}
+#[[Forbidden relationships in Judaism|Not to have sexual relations with your father's brother]] &mdash; {{bibleverse|Lev.||18:14|HE}}
+#[[Adultery#Judaism|Not to have sexual relations with someone else's wife]] &mdash; {{bibleverse|Lev.||18:20|HE}}
+#[[Niddah|Not to have sexual relations with a menstrually impure woman]] &mdash; {{bibleverse|Lev.||18:19|HE}}
+#[[Interfaith marriage in Judaism|Not to marry non-Jews]] &mdash; {{bibleverse|Deut.||7:3|HE}}
+#[[Forbidden relationships in Judaism|Not to let Moabite and Ammonite males marry into the Jewish people]] &mdash; {{bibleverse|Deut.||23:4|HE}}
+#Not to refrain from letting a third-generation [[Egyptians|Egyptian]] convert enter the Assembly &mdash; {{bibleverse|Deut.||23:8-9|HE}}
+#Not to refrain from letting a third-generation [[Edom]]ite convert enter the Assembly &mdash; {{bibleverse|Deut.||23:8-9|HE}}
+#Not to let a [[mamzer]] (a child born due to an illegal relationship) marry into the Jewish people &mdash; {{bibleverse|Deut.||23:3|HE}}
+#Not to let a [[eunuch]] marry into the Jewish people &mdash; {{bibleverse|Deut.||23:2|HE}}
+#Not to offer to God any [[castrate]]d male animals &mdash; {{bibleverse|Lev.||22:24|HE}}
+#The [[Kohen Gadol|High Priest]] must not marry a widow &mdash; {{bibleverse|Lev.||21:14|HE}}
+#The High Priest must not have sexual relations with a widow even outside of marriage &mdash; {{bibleverse|Lev.||21:15|HE}}
+#The High Priest must marry a virgin maiden &mdash; {{bibleverse|Lev.||21:13|HE}}
+#A [[Kohen]] (priest) must not marry a divorcee &mdash; {{bibleverse|Lev.||21:7|HE}}
+#A Kohen must not marry a ''zonah'' (a woman who has had a forbidden sexual relationship) &mdash; {{bibleverse|Lev.||21:7|HE}}
+#A Kohen must not marry a ''chalalah'' ("a desecrated person") (party to or product of 169–172) &mdash; {{bibleverse|Lev.||21:7|HE}}
+#[[Negiah|Not to make pleasurable (sexual) contact with any forbidden woman]] &mdash; {{bibleverse|Lev.||18:6|HE}}
+#To examine the signs of animals to distinguish between [[kosher]] and [[Unclean animal#Judaism|non-kosher]] &mdash; {{bibleverse|Lev.||11:2|HE}}
+#To examine the signs of [[fowl]] to distinguish between kosher and non-kosher &mdash; {{bibleverse|Deut.||14:11|HE}}
+#To examine the signs of [[fish]] to distinguish between kosher and non-kosher &mdash; {{bibleverse|Lev.||11:9|HE}}
+#To examine the signs of [[locusts]] to distinguish between kosher and non-kosher &mdash; {{bibleverse|Lev.||11:21|HE}}
+#[[Kosher animals|Not to eat non-kosher animals]] &mdash; {{bibleverse|Lev.||11:4|HE}}
+#[[Kosher animals|Not to eat non-kosher fowl]] &mdash; {{bibleverse|Lev.||11:13|HE}}
+#[[Kosher animals|Not to eat non-kosher fish]] &mdash; {{bibleverse|Lev.||11:11|HE}}
+#[[Kosher animals|Not to eat non-kosher flying insects]] &mdash; {{bibleverse|Deut.||14:19|HE}}
+#[[Kosher animals|Not to eat non-kosher creatures that crawl on land]] &mdash; {{bibleverse|Lev.||11:41|HE}}
+#[[Kosher animals|Not to eat non-kosher maggots]] &mdash; {{bibleverse|Lev.||11:44|HE}}
+#[[Kosher animals|Not to eat worms found in fruit on the ground]] &mdash; {{bibleverse|Lev.||11:42|HE}}
+#[[Kosher animals|Not to eat creatures that live in water other than (kosher) fish]] &mdash; {{bibleverse|Lev.||11:43|HE}}
+#[[Shechita|Not to eat the meat of an animal that died without ritual slaughter]] &mdash; {{bibleverse|Deut.||14:21|HE}}
+#Not to benefit from an ox condemned to be stoned &mdash; {{bibleverse|Ex.||21:28}}
+#Not to eat meat of an animal that was mortally wounded &mdash; {{bibleverse|Ex.||22:30|HE}}
+#Not to eat a limb torn off a living creature &mdash; {{bibleverse|Deut.||12:23|HE}}
+#Not to eat blood  &mdash;{{bibleverse|Lev.||3:17|HE}}
+#Not to eat certain fats of clean animals &mdash; {{bibleverse|Lev.||3:17|HE}}
+#Not to eat the [[Sciatic nerve|sinew of the thigh]] &mdash; {{bibleverse|Gen.||32:33|HE}}
+#[[Milk and meat|Not to eat mixtures of milk and meat]] cooked together &mdash; {{bibleverse|Ex.||23:19|HE}}
+#[[Milk and meat|Not to cook meat and milk together]] &mdash; {{bibleverse|Ex.||34:26|HE}}
+#[[Yoshon|Not to eat bread from new grain before the Omer]] &mdash; {{bibleverse|Lev.||23:14|HE}}
+#Not to eat parched grains from new grain before the [[Counting of the Omer#Symbolism|Omer]] &mdash; {{bibleverse|Lev.||23:14|HE}}
+#Not to eat ripened grains from new grain before the Omer &mdash; {{bibleverse|Lev.||23:14|HE}}
+#[[Orlah prohibition|Not to eat fruit of a tree during its first three years]] &mdash; {{bibleverse|Lev.||19:23|HE}}
+#[[Kil'ayim (prohibition)|Not to eat diverse seeds planted in a vineyard]] &mdash; {{bibleverse|Deut.||22:9|HE}}
+#Not to eat un[[tithe]]d fruits &mdash; {{bibleverse|Lev.||22:15|HE}}
+#[[kosher wine|Not to drink wine poured in service to idols]] &mdash; {{bibleverse|Deut.||32:38|HE}}
+#[[Shechita|To ritually slaughter an animal before eating it]] &mdash; {{bibleverse|Deut.||12:21|HE}}
+#Not to slaughter an animal and its offspring on the same day &mdash; {{bibleverse|Lev.||22:28|HE}}
+#To cover the blood (of a slaughtered beast or fowl) with earth &mdash; {{bibleverse|Lev.||17:13|HE}}
+#To send away the mother bird before taking its children &mdash; {{bibleverse|Deut.||22:6|HE}}
+#To release the mother bird if she was taken from the nest &mdash; {{bibleverse|Deut.||22:7|HE}}
+#Not to swear falsely in God's Name &mdash; {{bibleverse|Lev.||19:12|HE}}
+#Not to take God's Name in vain &mdash; Standard: {{bibleverse|Ex.|20:7|TLT}}; Yemenite: {{bibleverse|Ex.||20:6|HE}}
+#Not to deny possession of something entrusted to you &mdash; {{bibleverse|Lev.||19:11|HE}}
+#Not to swear in denial of a monetary claim &mdash; {{bibleverse|Lev.||19:11|HE}}
+#To swear in God's Name to confirm the truth when deemed necessary by court &mdash; {{bibleverse|Deut.||10:20|HE}}
+#To fulfill what was uttered and to do what was avowed &mdash; {{bibleverse|Deut.||23:24|HE}}
+#Not to break [[oath]]s or [[vows]] &mdash; {{bibleverse|Num.||30:3|HE}}
+#For oaths and vows annulled, there are the laws of annulling vows explicit in the Torah &mdash; {{bibleverse|Num.||30:3|HE}}
+#[[Nazirite|The Nazirite must let his hair grow]] &mdash; {{bibleverse|Num.||6:5|HE}}
+#[[Nazirite|He must not cut his hair]] &mdash; {{bibleverse|Num.||6:5|HE}}
+#[[Nazirite|He must not drink wine, wine mixtures, or wine vinegar]] &mdash; {{bibleverse|Num.||6:3|HE}}
+#[[Nazirite|He must not eat fresh grapes]] &mdash; {{bibleverse|Num.||6:3|HE}}
+#[[Nazirite|He must not eat raisins]] &mdash; {{bibleverse|Num.||6:3|HE}}
+#[[Nazirite|He must not eat grape seeds]] &mdash; {{bibleverse|Num.||6:4|HE}}
+#[[Nazirite|He must not eat grape skins]] &mdash; {{bibleverse|Num.||6:4|HE}}
+#[[Nazirite|He must not be under the same roof as a corpse]] &mdash; {{bibleverse|Num.||6:6|HE}}
+#[[Nazirite|He must not come into contact with the dead]] &mdash; {{bibleverse|Num.||6:7|HE}}
+#[[Nazirite|He must shave his head after bringing sacrifices upon completion of his Nazirite period]] &mdash; {{bibleverse|Num.||6:9|HE}}
+#To estimate the value of people as determined by the Torah  &mdash;{{bibleverse|Lev.||27:2|HE}}
+#To estimate the value of consecrated animals &mdash; {{bibleverse|Lev.||27:12-13|HE}}
+#To estimate the value of consecrated houses &mdash; {{bibleverse|Lev.||27:14|HE}}
+#To estimate the value of consecrated fields &mdash; {{bibleverse|Lev.||27:16|HE}}
+#Carry out the laws of interdicting possessions (''cherem'') &mdash; {{bibleverse|Lev.||27:28|HE}}
+#Not to sell the ''cherem'' &mdash; {{bibleverse|Lev.||27:28|HE}}
+#Not to redeem the ''cherem'' &mdash; {{bibleverse|Lev.||27:28|HE}}
+#[[Kil'ayim (prohibition)|Not to plant diverse seeds together]] &mdash; {{bibleverse|Lev.||19:19|HE}}
+#Not to plant grains or greens in a vineyard &mdash; {{bibleverse|Deut.||22:9|HE}}
+#Not to crossbreed animals &mdash; {{bibleverse|Lev.||19:19|HE}}
+#Not to work different animals together &mdash; {{bibleverse|Deut.||22:10|HE}}
+#Not to wear ''[[shaatnez]]'', a cloth woven of wool and linen &mdash; {{bibleverse|Deut.||22:11|HE}}
+#[[Peah|To leave a corner of the field uncut for the poor]] &mdash; {{bibleverse|Lev.||19:10|HE}}
+#Not to reap that corner &mdash; {{bibleverse|Lev.||19:9|HE}}
+#To leave [[gleaning]]s &mdash; {{bibleverse|Lev.||19:9|HE}}
+#Not to gather the [[gleaning]]s &mdash; {{bibleverse|Lev.||19:9|HE}}
+#To leave the unformed clusters of grapes &mdash; {{bibleverse|Lev.||19:10|HE}}
+#Not to pick the unformed clusters of grapes &mdash; {{bibleverse|Lev.||19:10|HE}}
+#To leave the [[gleaning]]s of a vineyard &mdash; {{bibleverse|Lev.||19:10|HE}}
+#Not to gather the [[gleaning]]s of a vineyard &mdash; {{bibleverse|Lev.||19:10|HE}}
+#To leave the forgotten sheaves in the field &mdash; {{bibleverse|Deut.||24:19|HE}}
+#Not to retrieve them &mdash; {{bibleverse|Deut.||24:19|HE}}
+#To separate the "tithe for the poor" &mdash; {{bibleverse|Deut.||14:28|HE}}
+#To give [[tzedakah|charity]] &mdash; {{bibleverse|Deut.||15:8|HE}}
+#Not to withhold charity from the poor &mdash; {{bibleverse|Deut.||15:7|HE}}
+#To set aside ''Terumah'' (heave offering) ''Gedolah'' (gift for the ''Kohen'') &mdash; {{bibleverse|Deut.||18:4|HE}}
+#The Levite must set aside a tenth of his tithe &mdash; {{bibleverse|Num.||18:26|HE}}
+#Not to preface one tithe to the next, but separate them in their proper order &mdash; {{bibleverse|Ex.||22:28|HE}}
+#A non-''Kohen'' must not eat ''[[Terumah]]'' &mdash; {{bibleverse|Lev.||22:10|HE}}
+#A hired worker or a Jewish bondsman of a ''Kohen'' must not eat ''Terumah'' &mdash; {{bibleverse|Lev.||22:10|HE}}
+#An uncircumcised ''Kohen'' must not eat ''Terumah'' &mdash; {{bibleverse|Ex.||12:48|HE}}
+#An impure ''Kohen'' must not eat ''Terumah'' &mdash; {{bibleverse|Lev.||22:4|HE}}
+#A ''chalalah'' (party to #s 169-172 above) must not eat ''Terumah'' &mdash; {{bibleverse|Lev.||22:12|HE}}
+#To set aside ''Ma'aser'' (tithe) each planting year and give it to a Levite &mdash; {{bibleverse|Num.||18:24|HE}}
+#To set aside the second tithe (''Ma'aser Sheni'') &mdash; {{bibleverse|Deut.||14:22|HE}}
+#Not to spend its redemption money on anything but food, drink, or ointment &mdash; {{bibleverse|Deut.||26:14|HE}}
+#Not to eat ''Ma'aser Sheni'' while impure &mdash; {{bibleverse|Deut.||26:14|HE}}
+#A mourner on the first day after death must not eat ''Ma'aser Sheni'' &mdash; {{bibleverse|Deut.||26:14|HE}}
+#Not to eat ''Ma'aser Sheni'' grains outside Jerusalem &mdash; {{bibleverse|Deut.||12:17|HE}}
+#Not to eat ''Ma'aser Sheni'' wine products outside Jerusalem &mdash; {{bibleverse|Deut.||12:17|HE}}
+#Not to eat ''Ma'aser Sheni'' oil outside Jerusalem &mdash; {{bibleverse|Deut.||12:17|HE}}
+#The fourth year crops must be totally for holy purposes like ''Ma'aser Sheni'' &mdash; {{bibleverse|Lev.||19:24|HE}}
+#To read the confession of tithes every fourth and seventh year &mdash; {{bibleverse|Deut.||26:13|HE}}
+#To set aside the [[First Fruits#Old Testament|first fruits]] and bring them to the Temple &mdash; {{bibleverse|Ex.||23:19|HE}}
+#The ''[[Kohen|Kohanim]]'' must not eat the first fruits outside [[Jerusalem]] &mdash; {{bibleverse|Deut.||12:17|HE}}
+#To read the [[Torah portion]] pertaining to their presentation &mdash; {{bibleverse|Deut.||26:5|HE}}
+#To set aside a portion of dough for a ''Kohen'' &mdash; {{bibleverse|Num.||15:20|HE}}
+#To give the foreleg, two cheeks, and abomasum of slaughtered animals to a ''Kohen'' &mdash; {{bibleverse|Deut.||18:3|HE}}
+#To give the first shearing of sheep to a ''Kohen'' &mdash; {{bibleverse|Deut.||18:4|HE}}
+#[[Redemption of First-born|To redeem firstborn sons and give the money to a ''Kohen'']] &mdash; {{bibleverse|Num.||18:15|HE}}
+#To redeem the firstborn donkey by giving a lamb to a ''Kohen'' &mdash; {{bibleverse|Ex.||13:13|HE}}
+#To break the neck of the donkey if the owner does not intend to redeem it &mdash; {{bibleverse|Ex.||13:13|HE}}
+#To rest the land during the [[Sabbatical year (Bible)|seventh year]] by not doing any work which enhances growth &mdash; {{bibleverse|Ex.||34:21|HE}}
+#Not to work the land during the seventh year &mdash; {{bibleverse|Lev.||25:4|HE}}
+#Not to work with trees to produce fruit during that year &mdash; {{bibleverse|Lev.||25:4|HE}}
+#Not to reap crops that grow wild that year in the normal manner &mdash; {{bibleverse|Lev.||25:5|HE}}
+#Not to gather grapes which grow wild that year in the normal way &mdash; {{bibleverse|Lev.||25:5|HE}}
+#To leave free all produce which grew in that year &mdash; {{bibleverse|Ex.||23:11|HE}}
+#To release all loans during the seventh year &mdash; {{bibleverse|Deut.||15:2|HE}}
+#Not to pressure or claim from the borrower &mdash; {{bibleverse|Deut.||15:2|HE}}
+#Not to refrain from lending immediately before the release of the loans for fear of monetary loss  &mdash;{{bibleverse|Deut.||15:9|HE}}
+#The [[Sanhedrin]] must count seven groups of seven years &mdash; {{bibleverse|Lev.||25:8|HE}}
+#The Sanhedrin must sanctify the fiftieth year &mdash; {{bibleverse|Lev.||25:10|HE}}
+#To blow the ''[[Shofar]]'' on the tenth of [[Tishrei]] to free the [[slavery|slave]]s &mdash; {{bibleverse|Lev.||25:9|HE}}
+#Not to work the soil during the fiftieth year ([[Jubilee (Biblical)|Jubilee]]) &mdash; {{bibleverse|Lev.||25:11|HE}}
+#Not to reap in the normal manner that which grows wild in the fiftieth year &mdash; {{bibleverse|Lev.||25:11|HE}}
+#Not to pick grapes which grew wild in the normal manner in the fiftieth year &mdash; {{bibleverse|Lev.||25:11|HE}}
+#Carry out the laws of sold family properties &mdash; {{bibleverse|Lev.||25:24|HE}}
+#Not to sell the land in Israel indefinitely &mdash; {{bibleverse|Lev.||25:23|HE}}
+#Carry out the laws of houses in walled cities &mdash; {{bibleverse|Lev.||25:29|HE}}
+#The [[Levite|Tribe of Levi]] must not be given a portion of the land in Israel, rather they are given cities to dwell in &mdash; {{bibleverse|Deut.||18:1|HE}}
+#The Levites must not take a share in the spoils of war &mdash; {{bibleverse|Deut.||18:1|HE}}
+#To give the Levites cities to inhabit and their surrounding fields &mdash; {{bibleverse|Num.||35:2|HE}}
+#Not to sell the fields but they shall remain the Levites' before and after the Jubilee year &mdash; {{bibleverse|Lev.||25:34|HE}}
+#To build a [[Temple in Jerusalem|Temple]] &mdash; {{bibleverse|Ex.||25:8|HE}}
+#Not to build the altar with stones hewn by metal &mdash; Standard: {{bibleverse|Ex.|20:24|TLT}}; Yemenite: {{bibleverse|Ex.||20:23|HE}}
+#Not to climb steps to the altar &mdash; Standard: {{bibleverse|Ex.|20:27|TLT}}; Yemenite: {{bibleverse|Ex.||20:26|HE}}
+#To show reverence to the Temple &mdash; {{bibleverse|Lev.||19:30|HE}}
+#To guard the Temple area &mdash; {{bibleverse|Num.||18:2|HE}}
+#Not to leave the Temple unguarded &mdash; {{bibleverse|Num.||18:5|HE}}
+#To prepare the anointing oil &mdash; {{bibleverse|Ex.||30:31|HE}}
+#Not to reproduce the anointing oil &mdash; {{bibleverse|Ex.||30:32|HE}}
+#Not to anoint with anointing oil &mdash; {{bibleverse|Ex.||30:32|HE}}
+#Not to reproduce the incense formula &mdash; {{bibleverse|Ex.||30:37|HE}}
+#Not to burn anything on the Golden Altar besides [[incense]] &mdash; {{bibleverse|Ex.||30:9|HE}}
+#The Levites must transport the [[Ark of the Covenant|ark]] on their shoulders &mdash; {{bibleverse|Num.||7:9|HE}}
+#Not to remove the staves from the ark &mdash; {{bibleverse|Ex.||25:15|HE}}
+#The Levites must work in the Temple &mdash; {{bibleverse|Num.||18:23|HE}}
+#No Levite must do another's work of either a ''Kohen'' or a Levite &mdash; {{bibleverse|Num.||18:3|HE}}
+#To dedicate the ''Kohen'' for service &mdash; {{bibleverse|Lev.||21:8|HE}}
+#The work of the ''Kohanim'''s shifts must be equal during holidays &mdash; {{bibleverse|Deut.||18:6-8|HE}}
+#The ''Kohanim'' must wear their priestly garments during service &mdash; {{bibleverse|Ex.||28:2|HE}}
+#Not to tear the priestly garments &mdash; {{bibleverse|Ex.||28:32|HE}}
+#The ''Kohen Gadol''{{'}}s (High Priest) breastplate must not be loosened from the ''Efod'' &mdash; {{bibleverse|Ex.||28:28|HE}}
+#A ''Kohen'' must not enter the Temple intoxicated &mdash; {{bibleverse|Lev.||10:9|HE}}
+#A ''Kohen'' must not enter the Temple with his head uncovered &mdash; {{bibleverse|Lev.||10:6|HE}}
+#A ''Kohen'' must not enter the Temple with torn clothes &mdash; {{bibleverse|Lev.||10:6|HE}}
+#A ''Kohen'' must not enter the Temple indiscriminately &mdash; {{bibleverse|Lev.||16:2|HE}}
+#A ''Kohen'' must not leave the Temple during service &mdash; {{bibleverse|Lev.||10:7|HE}}
+#To send the impure from the Temple &mdash; {{bibleverse|Num.||5:2|HE}}
+#Impure people must not enter the Temple &mdash; {{bibleverse|Num.||5:3|HE}}
+#Impure people must not enter the [[Temple Mount]] area &mdash; {{bibleverse|Deut.||23:11|HE}}
+#Impure ''Kohanim'' must not do service in the temple &mdash; {{bibleverse|Lev.||22:2|HE}}
+#An impure ''Kohen'', following immersion, must wait until after sundown before returning to service &mdash; {{bibleverse|Lev.||22:7|HE}}
+#A ''Kohen'' must wash his hands and feet before service &mdash; {{bibleverse|Ex.||30:19|HE}}
+#A ''Kohen'' with a physical blemish must not enter the sanctuary or approach the altar &mdash; {{bibleverse|Lev.||21:23|HE}}
+#A ''Kohen'' with a physical blemish must not serve &mdash; {{bibleverse|Lev.||21:17|HE}}
+#A ''Kohen'' with a temporary blemish must not serve &mdash; {{bibleverse|Lev.||21:17|HE}}
+#One who is not a ''Kohen'' must not serve &mdash; {{bibleverse|Num.||18:4|HE}}
+#To offer only unblemished animals &mdash; {{bibleverse|Lev.||22:21|HE}}
+#Not to dedicate a blemished animal for the altar &mdash; {{bibleverse|Lev.||22:20|HE}}
+#Not to slaughter it &mdash; {{bibleverse|Lev.||22:22|HE}}
+#Not to sprinkle its blood &mdash; {{bibleverse|Lev.||22:24|HE}}
+#Not to burn its fat &mdash; {{bibleverse|Lev.||22:22|HE}}
+#Not to offer a temporarily blemished animal &mdash; {{bibleverse|Deut.||17:1|HE}}
+#Not to sacrifice blemished animals even if offered by non-Jews &mdash; {{bibleverse|Lev.||22:25|HE}}
+#Not to inflict wounds upon dedicated animals &mdash; {{bibleverse|Lev.||22:21|HE}}
+#To redeem dedicated animals which have become disqualified &mdash; {{bibleverse|Deut.||12:15|HE}}
+#To offer only animals which are at least eight days old &mdash; {{bibleverse|Lev.||22:27|HE}}
+#Not to offer animals bought with the wages of a harlot or the animal exchanged for a dog. Some interpret "exchange for a dog" as referring to wage of a male prostitute.<ref name=JPS /><ref name=CSB /> &mdash; {{bibleverse|Deut.||23:19|HE}}
+#Not to burn [[honey]] or [[yeast]] on the altar &mdash; {{bibleverse|Lev.||2:11|HE}}
+#To salt all sacrifices &mdash; {{bibleverse|Lev.||2:13|HE}}
+#Not to omit the salt from sacrifices &mdash; {{bibleverse|Lev.||2:13|HE}}
+#Carry out the procedure of the burnt offering as prescribed in the Torah &mdash; {{bibleverse|Lev.||1:3|HE}}
+#Not to eat its meat &mdash; {{bibleverse|Deut.||12:17|HE}}
+#Carry out the procedure of the sin offering &mdash; {{bibleverse|Lev.||6:18|HE}}
+#Not to eat the meat of the inner sin offering &mdash; {{bibleverse|Lev.||6:23|HE}}
+#Not to decapitate a fowl brought as a sin offering &mdash; {{bibleverse|Lev.||5:8|HE}}
+#Carry out the procedure of the guilt offering &mdash; {{bibleverse|Lev.||7:1|HE}}
+#The ''Kohanim'' must eat the sacrificial meat in the Temple &mdash; {{bibleverse|Ex.||29:33|HE}}
+#The ''Kohanim'' must not eat the meat outside the Temple courtyard &mdash; {{bibleverse|Deut.||12:17|HE}}
+#A non-''Kohen'' must not eat sacrificial meat &mdash; {{bibleverse|Ex.||29:33|HE}}
+#To follow the procedure of the peace offering &mdash; {{bibleverse|Lev.||7:11|HE}}
+#Not to eat the meat of minor sacrifices before sprinkling the blood &mdash; {{bibleverse|Deut.||12:17|HE}}
+#To bring meal offerings as prescribed in the Torah &mdash; {{bibleverse|Lev.||2:1|HE}}
+#Not to put oil on the meal offerings of wrongdoers &mdash; {{bibleverse|Lev.||5:11|HE}}
+#Not to put frankincense on the meal offerings of wrongdoers &mdash; {{bibleverse|Lev.||3:11|HE}}
+#Not to eat the meal offering of the High Priest &mdash; {{bibleverse|Lev.||6:16|HE}}
+#Not to bake a meal offering as leavened bread &mdash; {{bibleverse|Lev.||6:10|HE}}
+#The Kohanim must eat the remains of the meal offerings &mdash; {{bibleverse|Lev.||6:9|HE}}
+#To bring all avowed and freewill offerings to the Temple on the first subsequent festival &mdash; {{bibleverse|Deut.||12:5-6|HE}}
+#Not to withhold payment incurred by any vow &mdash; {{bibleverse|Deut.||23:22|HE}}
+#To offer all sacrifices in the Temple &mdash; {{bibleverse|Deut.||12:11|HE}}
+#To bring all sacrifices from outside Israel to the Temple &mdash; {{bibleverse|Deut.||12:26|HE}}
+#Not to slaughter sacrifices outside the courtyard &mdash; {{bibleverse|Lev.||17:4|HE}}
+#Not to offer any sacrifices outside the courtyard &mdash; {{bibleverse|Deut.||12:13|HE}}
+#To offer two lambs every day &mdash; {{bibleverse|Num.||28:3|HE}}
+#To light a fire on the altar every day &mdash; {{bibleverse|Lev.||6:6|HE}}
+#Not to extinguish this fire &mdash; {{bibleverse|Lev.||6:6|HE}}
+#To remove the ashes from the altar every day &mdash; {{bibleverse|Lev.||6:3|HE}}
+#To burn incense every day &mdash; {{bibleverse|Ex.||30:7|HE}}
+#To light the [[Menorah (Temple)|Menorah]] every day &mdash; {{bibleverse|Ex.||27:21|HE}}
+#The ''Kohen Gadol'' must bring a meal offering every day &mdash; {{bibleverse|Lev.||6:13|HE}}
+#To bring two additional lambs as burnt offerings on [[Shabbat]] &mdash; {{bibleverse|Num.||28:9|HE}}
+#To make the show bread &mdash; {{bibleverse|Ex.||25:30|HE}}
+#To bring additional offerings on [[Rosh Chodesh]] (" The New Month") &mdash; {{bibleverse|Num.||28:11|HE}}
+#To bring additional offerings on [[Passover]] &mdash; {{bibleverse|Num.||28:19|HE}}
+#To offer the wave offering from the meal of the new wheat &mdash; {{bibleverse|Lev.||23:10|HE}}
+#Each man must [[Counting of the Omer|count the Omer]] - seven weeks from the day the new [[wheat]] offering was brought &mdash; {{bibleverse|Lev.||23:15|HE}}
+#To bring additional offerings on [[Shavuot]] &mdash; {{bibleverse|Num.||28:26|HE}}
+#To bring two loaves to accompany the above sacrifice &mdash; {{bibleverse|Lev.||23:17|HE}}
+#To bring additional offerings on [[Rosh Hashana]] &mdash; {{bibleverse|Num.||29:2|HE}}
+#To bring additional offerings on [[Yom Kippur]] &mdash; {{bibleverse|Num.||29:8|HE}}
+#To bring additional offerings on [[Sukkot]] &mdash; {{bibleverse|Num.||29:13|HE}}
+#To bring additional offerings on [[Shmini Atzeret]] &mdash; {{bibleverse|Num.||29:35|HE}}
+#Not to eat sacrifices which have become unfit or blemished &mdash; {{bibleverse|Deut.||14:3|HE}}
+#Not to eat from sacrifices offered with improper intentions &mdash; {{bibleverse|Lev.||7:18|HE}}
+#Not to leave sacrifices past the time allowed for eating them &mdash; {{bibleverse|Lev.||22:30|HE}}
+#Not to eat from that which was left over &mdash; {{bibleverse|Lev.||19:8|HE}}
+#Not to eat from sacrifices which became impure &mdash; {{bibleverse|Lev.||7:19|HE}}
+#An impure person must not eat from sacrifices &mdash; {{bibleverse|Lev.||7:20|HE}}
+#To burn the leftover sacrifices &mdash; {{bibleverse|Lev.||7:17|HE}}
+#To burn all impure sacrifices &mdash; {{bibleverse|Lev.||7:19|HE}}
+#To follow the procedure of [[Yom Kippur]] in the sequence prescribed in [[Parsha]]h ''[[Acharei]] Mot'' ("After the death of Aaron's sons...") &mdash; {{bibleverse|Lev.||16:3|HE}}
+#One who profaned property must repay what he profaned plus a fifth and bring a sacrifice &mdash; {{bibleverse|Lev.||5:16|HE}}
+#Not to work [[consecrated]] animals &mdash; {{bibleverse|Deut.||15:19|HE}}
+#Not to shear the fleece of consecrated animals &mdash; {{bibleverse|Deut.||15:19|HE}}
+#To slaughter the paschal sacrifice at the specified time &mdash; {{bibleverse|Ex.||12:6|HE}}
+#Not to slaughter it while in possession of leaven &mdash; {{bibleverse|Ex.||23:18|HE}}
+#Not to leave the fat overnight &mdash; {{bibleverse|Ex.||23:18|HE}}
+#To slaughter the second [[Korban Pesach|Paschal Lamb]] &mdash; {{bibleverse|Num.||9:11|HE}}
+#To eat the Paschal Lamb with [[matzah]] and [[Maror|Marror]] on the night of the fourteenth of [[Nisan]] &mdash; {{bibleverse|Ex.||12:8|HE}}
+#To eat the second Paschal Lamb on the night of the 15th of [[Iyar]] &mdash; {{bibleverse|Num.||9:11|HE}}
+#Not to eat the paschal meat raw or boiled &mdash; {{bibleverse|Ex.||12:9|HE}}
+#Not to take the paschal meat from the confines of the group &mdash; {{bibleverse|Ex.||12:46|HE}}
+#An [[Apostate#Judaism|apostate]] must not eat from it &mdash; {{bibleverse|Ex.||12:43|HE}}
+#A permanent or temporary hired worker must not eat from it &mdash; {{bibleverse|Ex.||12:45|HE}}
+#An uncircumcised male must not eat from it &mdash; {{bibleverse|Ex.||12:48|HE}}
+#Not to break any bones from the paschal offering &mdash; {{bibleverse|Ex.||12:46|HE}} {{bibleverse|Ps.||34:20|HE}}
+#Not to break any bones from the second paschal offering &mdash; {{bibleverse|Num.||9:12|HE}}
+#Not to leave any meat from the paschal offering over until morning &mdash; {{bibleverse|Ex.||12:10|HE}}
+#Not to leave the second paschal meat over until morning &mdash; {{bibleverse|Num.||9:12|HE}}
+#Not to leave the meat of the holiday offering of the 14th until the 16th &mdash; {{bibleverse|Deut.||16:4|HE}}
+#To be seen at the Temple on [[Passover]], [[Shavuot]], and [[Sukkot]] &mdash; {{bibleverse|Deut.||16:16|HE}}
+#To celebrate on these [[Three pilgrim festivals|three Festivals]] (bring a peace offering) &mdash; {{bibleverse|Ex.||23:14|HE}}
+#To rejoice on these three Festivals (bring a peace offering) &mdash; {{bibleverse|Deut.||16:14|HE}}
+#Not to appear at the Temple without offerings &mdash; {{bibleverse|Deut.||16:16|HE}}
+#Not to refrain from rejoicing with, and giving gifts to, the Levites &mdash; {{bibleverse|Deut.||12:19|HE}}
+#To assemble all the people on the Sukkot following the seventh year &mdash; {{bibleverse|Deut.||31:12|HE}}
+#To set aside the firstborn animals &mdash; {{bibleverse|Ex.||13:12|HE}}
+#The Kohanim must not eat unblemished firstborn animals outside Jerusalem &mdash; {{bibleverse|Deut.||12:17|HE}}
+#Not to redeem the firstborn &mdash; {{bibleverse|Num.||18:17|HE}}
+#Separate the tithe from animals &mdash; {{bibleverse|Lev.||27:32|HE}}
+#Not to redeem the tithe &mdash; {{bibleverse|Lev.||27:33|HE}}
+#Every person must bring a sin offering (in the temple) for his transgression &mdash; {{bibleverse|Lev.||4:27|HE}}
+#Bring an ''asham talui'' (temple offering) when uncertain of guilt &mdash; {{bibleverse|Lev.||5:17-18|HE}}
+#Bring an ''asham vadai'' (temple offering) when guilt is ascertained &mdash; {{bibleverse|Lev.||5:25|HE}}
+#Bring an ''oleh v'yored'' (temple offering)(if the person is wealthy, an animal; if poor, a bird or meal offering) &mdash; {{bibleverse|Lev.||5:7-11|HE}}
+#The Sanhedrin must bring an offering (in the Temple) when it rules in error &mdash; {{bibleverse|Lev.||4:13|HE}}
+#A woman who had a running (vaginal) issue must bring an offering (in the Temple) after she goes to the [[Mikveh]] &mdash; {{bibleverse|Lev.||15:28-29|HE}}
+#A woman who gave birth must bring an offering (in the Temple) after she goes to the [[Mikveh]] &mdash; {{bibleverse|Lev.||12:6|HE}}
+#A man who had a running (unnatural urinary) issue must bring an offering (in the Temple) after he goes to the Mikveh &mdash; {{bibleverse|Lev.||15:13-14|HE}}
+#A [[tzaraath|metzora]] (one having a skin disease) must bring an offering (in the Temple) after going to the [[Mikveh]] &mdash; {{bibleverse|Lev.||14:10|HE}}
+#Not to substitute another beast for one set apart for sacrifice &mdash; {{bibleverse|Lev.||27:10|HE}}
+#The new animal, in addition to the substituted one, retains consecration &mdash; {{bibleverse|Lev.||27:10|HE}}
+#Not to change consecrated animals from one type of offering to another &mdash; {{bibleverse|Lev.||27:26|HE}}
+#Carry out the laws of impurity of the dead &mdash; {{bibleverse|Num.||19:14|HE}}
+#Carry out the procedure of the [[Red Heifer]] (''Para Aduma'') &mdash; {{bibleverse|Num.||19:2|HE}}
+#Carry out the laws of the sprinkling water &mdash; {{bibleverse|Num.||19:21|HE}}
+#Rule the laws of human [[tzara'at]] as prescribed in the Torah &mdash; {{bibleverse|Lev.||13:12|HE}}
+#The [[tzaraath|metzora]] must not remove his signs of impurity &mdash; {{bibleverse|Deut.||24:8|HE}}
+#The metzora must not shave signs of impurity in his hair &mdash; {{bibleverse|Lev.||13:33|HE}}
+#The metzora must publicize his condition by tearing his garments, allowing his hair to grow and covering his lips &mdash; {{bibleverse|Lev.||13:45|HE}}
+#Carry out the prescribed rules for purifying the ''metzora'' &mdash; {{bibleverse|Lev.||14:2|HE}}
+#The metzora must shave off all his hair prior to purification &mdash; {{bibleverse|Lev.||14:9|HE}}
+#Carry out the laws of [[tzara'at]] of clothing &mdash; {{bibleverse|Lev.||13:47|HE}}
+#Carry out the laws of ''tzara'at'' of houses &mdash; {{bibleverse|Lev.||13:34|HE}}
+#Observe the laws of [[Niddah|menstrual impurity]] &mdash; {{bibleverse|Lev.||15:19|HE}}
+#Observe the laws of impurity caused by [[childbirth]] &mdash; {{bibleverse|Lev.||12:2|HE}}
+#Observe the laws of impurity caused by a woman's [[Zavah|running issue]] &mdash; {{bibleverse|Lev.||15:25|HE}}
+#Observe the laws of impurity caused by a man's [[Zav|running issue]] (irregular [[ejaculation]] of infected [[semen]]) &mdash; {{bibleverse|Lev.||15:3|HE}}
+#Observe the laws of impurity caused by a dead beast &mdash; {{bibleverse|Lev.||11:39|HE}}
+#Observe the laws of impurity caused by the eight shratzim (insects) &mdash; {{bibleverse|Lev.||11:29|HE}}
+#Observe the laws of impurity of a seminal emission (regular ejaculation, with normal [[semen]]) &mdash; {{bibleverse|Lev.||15:16|HE}}
+#Observe the laws of impurity concerning liquid and solid foods &mdash; {{bibleverse|Lev.||11:34|HE}}
+#Every impure person must immerse himself in a [[Mikvah]] to become pure &mdash; {{bibleverse|Lev.||15:16|HE}}
+#The court must judge the [[damages]] incurred by a goring ox &mdash; {{bibleverse|Ex.||21:28|HE}}
+#The court must judge the damages incurred by an animal eating &mdash; {{bibleverse|Ex.||22:4|HE}}
+#The court must judge the damages incurred by a pit &mdash; {{bibleverse|Ex.||21:33|HE}}
+#The court must judge the damages incurred by fire &mdash; {{bibleverse|Ex.||22:5|HE}}
+#Not to steal money stealthily &mdash; {{bibleverse|Lev.||19:11|HE}}
+#The court must implement punitive measures against the thief &mdash; {{bibleverse|Ex.||21:37|HE}}
+#Each individual must ensure that his scales and weights are accurate &mdash; {{bibleverse|Lev.||19:36|HE}}
+#Not to commit injustice with [[weighing scale|scales]] and [[weight]]s &mdash; {{bibleverse|Lev.||19:35|HE}}
+#Not to possess inaccurate scales and weights even if they are not for use &mdash; {{bibleverse|Deut.||25:13|HE}}
+#Not to move a [[boundary marker]] to steal someone's property &mdash; {{bibleverse|Deut.||19:14|HE}}
+#Not to kidnap &mdash; Standard: {{bibleverse|Ex.|20:14|TLT}}; Yemenite: {{bibleverse|Ex.||20:13|HE}}
+#Not to rob openly &mdash; {{bibleverse|Lev.||19:13|HE}}
+#Not to withhold wages or fail to repay a debt &mdash; {{bibleverse|Lev.||19:13|HE}}
+#Not to covet and scheme to acquire another's possession &mdash; Standard: {{bibleverse|Ex.|20:15|TLT}}; Yemenite: {{bibleverse|Ex.||20:14|HE}}
+#Not to desire another's possession &mdash; Standard: {{bibleverse|Deut.||5:19|TLT}}; Yemenite: {{bibleverse|Deut.||5:18|HE}}
+#Return the robbed object or its value &mdash; {{bibleverse|Lev.||5:23|HE}}
+#Not to ignore a lost object &mdash; {{bibleverse|Deut.||22:3|HE}}
+#Return the lost object &mdash; {{bibleverse|Deut.||22:1|HE}}
+#The court must implement laws against the one who assaults another or damages another's property &mdash; {{bibleverse|Ex.||21:18|HE}}
+#Not to murder &mdash; Standard: {{bibleverse|Ex.|20:13|TLT}}; Yemenite: {{bibleverse|Ex.||20:12|HE}}
+#Not to accept monetary restitution to atone for the murderer &mdash; {{bibleverse|Num.||35:31|HE}}
+#The court must send the accidental murderer to a [[Cities of Refuge|city of refuge]] &mdash; {{bibleverse|Num.||35:25|HE}}
+#Not to accept monetary restitution instead of being sent to a city of refuge &mdash; {{bibleverse|Num.||35:32|HE}}
+#Not to kill the murderer before he stands trial &mdash; {{bibleverse|Num.||35:12|HE}}
+#Save someone being pursued even by taking the life of the pursuer &mdash; {{bibleverse|Deut.||25:12|HE}}
+#Not to pity the pursuer &mdash; {{bibleverse|Num.||35:12|HE}}
+#Not to stand idly by if someone's life is in danger &mdash; {{bibleverse|Lev.||19:16|HE}}
+#Designate [[Cities of Refuge|cities of refuge]] and prepare routes of access &mdash; {{bibleverse|Deut.||19:3|HE}}
+#Break the neck of a calf by the river valley following an unsolved murder &mdash; {{bibleverse|Deut.||21:4|HE}}
+#Not to work nor plant that river valley &mdash; {{bibleverse|Deut.||21:4|HE}}
+#Not to allow pitfalls and obstacles to remain on your property &mdash; {{bibleverse|Deut.||22:8|HE}}
+#Make a guard rail around flat roofs &mdash; {{bibleverse|Deut.||22:8|HE}}
+#Not to put a [[Lifnei iver|stumbling block before a blind man]] (nor give harmful advice) &mdash; {{bibleverse|Lev.||19:14|HE}}
+#Help another remove the load from a beast which can no longer carry it &mdash; {{bibleverse|Ex.||23:5|HE}}
+#Help others load their beast &mdash; {{bibleverse|Deut.||22:4|HE}}
+#Not to leave others distraught with their burdens (but to help either load or unload) &mdash; {{bibleverse|Deut.||22:4|HE}}
+#Conduct sales according to Torah law &mdash; {{bibleverse|Lev.||25:14|HE}}
+#Not to overcharge or underpay for an article &mdash; {{bibleverse|Lev.||25:14|HE}}
+#Not to insult or harm anybody with words &mdash; {{bibleverse|Lev.||25:17|HE}}
+#Not to cheat a convert monetarily &mdash; {{bibleverse|Ex.||22:20|HE}}
+#Not to insult or harm a convert with words &mdash; {{bibleverse|Ex.||22:20|HE}}
+#Purchase a Hebrew slave in accordance with the prescribed laws &mdash; {{bibleverse|Ex.||21:2|HE}}
+#Not to sell him as a slave is sold &mdash; {{bibleverse|Lev.||25:42|HE}}
+#Not to work him oppressively &mdash; {{bibleverse|Lev.||25:43|HE}}
+#Not to allow a non-Jew to work him oppressively &mdash; {{bibleverse|Lev.||25:53|HE}}
+#Not to have him do menial slave labor &mdash; {{bibleverse|Lev.||25:39|HE}}
+#Give him gifts when he goes free &mdash; {{bibleverse|Deut.||15:14|HE}}
+#Not to send him away empty-handed &mdash; {{bibleverse|Deut.||15:13|HE}}
+#Redeem Jewish maidservants &mdash; {{bibleverse|Ex.||21:8|HE}}
+#Betroth the Jewish maidservant &mdash; {{bibleverse|Ex.||21:8|HE}}
+#The master must not sell his maidservant &mdash; {{bibleverse|Ex.||21:8|HE}}
+#[[Canaan]]ite slaves must work forever unless injured in one of their limbs &mdash; {{bibleverse|Lev.||25:46|HE}}
+#Not to extradite a slave who fled to (Biblical) Israel &mdash; {{bibleverse|Deut.||23:16|HE}}
+#Not to wrong a slave who has come to Israel for refuge &mdash; {{bibleverse|Deut.||23:16|HE}}
+#The courts must carry out the laws of a hired worker and hired guard &mdash; {{bibleverse|Ex.||22:9|HE}}
+#Pay wages on the day they were earned &mdash; {{bibleverse|Deut.||24:15|HE}}
+#Not to delay payment of wages past the agreed time &mdash; {{bibleverse|Lev.||19:13|HE}}
+#The hired worker may eat from the unharvested crops where he works &mdash; {{bibleverse|Deut.||23:25|HE}}
+#The worker must not eat while on hired time &mdash; {{bibleverse|Deut.||23:26|HE}}
+#The worker must not take more than he can eat &mdash; {{bibleverse|Deut.||23:25|HE}}
+#Not to muzzle an ox while plowing &mdash; {{bibleverse|Deut.||25:4|HE}}
+#The courts must carry out the laws of a borrower &mdash; {{bibleverse|Ex.||22:13|HE}}
+#The courts must carry out the laws of an unpaid guard &mdash; {{bibleverse|Ex.||22:6|HE}}
+#Lend to the poor and destitute &mdash; {{bibleverse|Ex.||22:24|HE}}
+#Not to press them for payment if you know they don't have it &mdash; {{bibleverse|Ex.||22:24|HE}}
+#Press the idolater for payment &mdash; {{bibleverse|Deut.||15:3|HE}}
+#The creditor must not forcibly take collateral &mdash; {{bibleverse|Deut.||24:10|HE}}
+#Return the collateral to the debtor when needed &mdash; {{bibleverse|Deut.||24:13|HE}}
+#Not to delay its return when needed &mdash; {{bibleverse|Deut.||24:12|HE}}
+#Not to demand collateral from a widow &mdash; {{bibleverse|Deut.||24:17|HE}}
+#Not to demand as collateral utensils needed for preparing food &mdash; {{bibleverse|Deut.||24:6|HE}}
+#Not to lend with interest &mdash; {{bibleverse|Lev.||25:37|HE}}
+#Not to borrow with interest &mdash; {{bibleverse|Deut.||23:20|HE}}
+#Not to intermediate in an interest loan, guarantee, witness, or write the promissory note &mdash; {{bibleverse|Ex.||22:24|HE}}
+#Lend to and borrow from idolaters with interest &mdash; {{bibleverse|Deut.||23:21|HE}}
+#The courts must carry out the laws of the plaintiff, admitter, or denier &mdash; {{bibleverse|Ex.||22:8|HE}}
+#Carry out the laws of the order of inheritance &mdash; {{bibleverse|Num.||27:8|HE}}
+#Appoint judges &mdash; {{bibleverse|Deut.||16:18|HE}}
+#Not to appoint judges who are not familiar with judicial procedure &mdash; {{bibleverse|Deut.||1:17|HE}}
+#Decide by majority in case of disagreement &mdash; {{bibleverse|Ex.||23:2|HE}}
+#The court must not execute through a majority of one; at least a majority of two is required &mdash; {{bibleverse|Ex.||23:2|HE}}
+#A judge who presented an acquittal plea must not present an argument for conviction in capital cases &mdash; {{bibleverse|Ex.||23:2|HE}}
+#The courts must carry out the death penalty of stoning &mdash; {{bibleverse|Deut.||22:24|HE}}
+#The courts must carry out the death penalty of burning &mdash; {{bibleverse|Lev.||20:14|HE}}
+#The courts must carry out the death penalty of the sword &mdash; {{bibleverse|Ex.||21:20|HE}}
+#The courts must carry out the death penalty of strangulation &mdash; {{bibleverse|Lev.||20:10|HE}}
+#The courts must hang those stoned for blasphemy or idolatry &mdash; {{bibleverse|Deut.||21:22|HE}}
+#Bury the executed on the day they are killed &mdash; {{bibleverse|Deut.||21:23|HE}}
+#Not to delay burial overnight &mdash; {{bibleverse|Deut.||21:23|HE}}
+#The court must not let the sorcerer live &mdash; {{bibleverse|Ex.||22:17|HE}}
+#The court must give lashes to the wrongdoer &mdash; {{bibleverse|Deut.||25:2|HE}}
+#The court must not exceed the prescribed number of lashes &mdash; {{bibleverse|Deut.||25:3|HE}}
+#The court must not kill anybody on circumstantial evidence &mdash; {{bibleverse|Ex.||23:7|HE}}
+#The court must not punish anybody who was forced to do a crime &mdash; {{bibleverse|Deut.||22:26|HE}}
+#A judge must not pity the murderer or assaulter at the trial &mdash; {{bibleverse|Deut.||19:13|HE}}
+#A judge must not have mercy on the poor man at the trial &mdash; {{bibleverse|Lev.||19:15|HE}}
+#A judge must not respect the great man at the trial &mdash; {{bibleverse|Lev.||19:15|HE}}
+#A judge must not decide unjustly the case of the habitual transgressor &mdash; {{bibleverse|Ex.||23:6|HE}}
+#A judge must not pervert justice &mdash; {{bibleverse|Lev.||19:15|HE}}
+#A judge must not pervert a case involving a convert or orphan &mdash; {{bibleverse|Deut.||24:17|HE}}
+#Judge righteously &mdash; {{bibleverse|Lev.||19:15|HE}}
+#The judge must not fear a violent man in judgment &mdash; {{bibleverse|Deut.||1:17|HE}}
+#Judges must not accept bribes &mdash; {{bibleverse|Ex.||23:8|HE}}
+#Judges must not accept testimony unless both parties are present &mdash; {{bibleverse|Ex.||23:1|HE}}
+#Not to curse judges &mdash; {{bibleverse|Ex.||22:27|HE}}
+#Not to curse the head of state or leader of the Sanhedrin &mdash; {{bibleverse|Ex.||22:27|HE}}
+#Not to curse any upstanding Jew &mdash; {{bibleverse|Lev.||19:14|HE}}
+#Anybody who knows evidence must testify in court &mdash; {{bibleverse|Lev.||5:1|HE}}
+#Carefully interrogate the witness &mdash; {{bibleverse|Deut.||13:15|HE}}
+#A witness must not serve as a judge in capital crimes &mdash; {{bibleverse|Deut.||19:17|HE}}
+#Not to accept testimony from a lone witness &mdash; {{bibleverse|Deut.||19:15|HE}}
+#Transgressors must not testify &mdash; {{bibleverse|Ex.||23:1|HE}}
+#Relatives of the litigants must not testify &mdash; {{bibleverse|Deut.||24:16|HE}}
+#Not to testify falsely &mdash; Standard: {{bibleverse|Ex.|20:14|TLT}}; Yemenite: {{bibleverse|Ex.||20:13|HE}}
+#Punish the false witnesses as they tried to punish the defendant &mdash; {{bibleverse|Deut.||19:19|HE}}
+#Act according to the ruling of the [[Sanhedrin]] &mdash; {{bibleverse|Deut.||17:11|HE}}
+#Not to deviate from the word of the Sanhedrin &mdash; {{bibleverse|Deut.||17:11|HE}}
+#Not to add to the Torah commandments or their oral explanations &mdash; {{bibleverse|Deut.||13:1|HE}}
+#Not to diminish from the Torah any commandments, in whole or in part &mdash; {{bibleverse|Deut.||13:1|HE}}
+#Not to curse your father and mother &mdash; {{bibleverse|Ex.||21:17|HE}}
+#Not to strike your father and mother &mdash; {{bibleverse|Ex.||21:15|HE}}
+#[[Honor your father and your mother|Respect your father or mother]] &mdash; Standard: {{bibleverse|Ex.|20:13|TLT}}; Yemenite: {{bibleverse|Ex.||20:12|HE}}
+#[[Honor your father and your mother|Fear your mother or father]] &mdash; {{bibleverse|Lev.||19:3|HE}}
+#Not to be a rebellious son &mdash; {{bibleverse|Deut.||21:18|HE}}
+#[[Jewish bereavement|Mourn for relatives]] &mdash; {{bibleverse|Lev.||10:19|HE}}
+#The High Priest must not defile himself for any relative &mdash; {{bibleverse|Lev.||21:11|HE}}
+#The High Priest must not enter under the same roof as a corpse &mdash; {{bibleverse|Lev.||21:11|HE}}
+#A Kohen must not defile himself (by going to funerals or cemeteries) for anyone except relatives &mdash; {{bibleverse|Lev.||21:1|HE}}
+#Appoint a king from Israel &mdash; {{bibleverse|Deut.||17:15|HE}}
+#Not to appoint a foreigner &mdash; {{bibleverse|Deut.||17:15|HE}}
+#The king must not have too many wives &mdash; {{bibleverse|Deut.||17:17|HE}}
+#The king must not have too many horses &mdash; {{bibleverse|Deut.||17:16|HE}}
+#The king must not have too much silver and gold &mdash; {{bibleverse|Deut.||17:17|HE}}
+#Destroy the seven [[Canaan]]ite nations &mdash; {{bibleverse|Deut.||20:17|HE}}
+#Not to let any of them remain alive &mdash; {{bibleverse|Deut.||20:16|HE}}
+#Wipe out the memory of [[Amalek]] &mdash; {{bibleverse|Deut.||25:19|HE}}
+#Remember what Amalek did to the Jewish people &mdash; {{bibleverse|Deut.||25:17|HE}}
+#Not to forget Amalek's atrocities and ambush on our journey from Egypt in the desert &mdash; {{bibleverse|Deut.||25:19|HE}}
+#Not to dwell permanently in Egypt &mdash; {{bibleverse|Deut.||17:16|HE}}
+#Offer peace terms to the inhabitants of a city while holding siege, and treat them according to the Torah if they accept the terms &mdash; {{bibleverse|Deut.||20:10|HE}}
+#Not to offer peace to [[Ammon (nation)|Ammon]] and [[Moab]] while besieging them &mdash; {{bibleverse|Deut.||23:7|HE}}
+#Not to destroy food trees even during the siege &mdash; {{bibleverse|Deut.||20:19|HE}}
+#Prepare latrines outside the camps &mdash; {{bibleverse|Deut.||23:13|HE}}
+#Prepare a shovel for each soldier to dig with &mdash; {{bibleverse|Deut.||23:14|HE}}
+#Appoint a priest to speak with the soldiers during the war &mdash; {{bibleverse|Deut.||20:2|HE}}
+#He who has taken a wife, built a new home, or planted a vineyard is given a year to rejoice with his possessions &mdash; {{bibleverse|Deut.||24:5|HE}}
+#Not to demand from the above any involvement, communal or military &mdash; {{bibleverse|Deut.||24:5|HE}}
+#Not to panic and retreat during battle &mdash; {{bibleverse|Deut.||20:3|HE}}
+#Keep the laws of the captive woman &mdash; {{bibleverse|Deut.||21:11|HE}}
+#Not to sell her into slavery &mdash; {{bibleverse|Deut.||21:14|HE}}
+#Not to retain her for servitude after having sexual relations with her &mdash; {{bibleverse|Deut.||21:14|HE}}
+|}
+
+== See also ==
+* [[Jewish ethics]]
+* [[Laws and customs of the Land of Israel in Judaism]]
+
+==References==
+{{Reflist}}
+
+==Bibliography==
+* Eisenberg, Ronald L. ''The 613 Mitzvot: A Contemporary Guide to the Commandments of Judaism'', Rockville, Schreiber Publishing, 2005. {{ISBN|0-88400-303-5}}
+* [[Moses Maimonides]], translation by Charles Ber Chavel and Moses ibn Tibbon. ''The book of divine commandments (the Sefer Ha-mitzvoth of Moses Maimonides)'' London: Soncino Press, 1940.
+
+==External links==
+*{{cite book |last1=Friedberg |first1=Albert |title=Crafting the 613 Commandments: Maimonides on the Enumeration, Classification, and Formulation of the Scriptural Commandments |date=2013 |publisher=[[Academic Studies Press]] |location=Boston |doi=10.2307/j.ctt21h4wf8|jstor=j.ctt21h4wf8|isbn=9781618111678 |url=https://openresearchlibrary.org/ext/api/media/9d8253db-01a3-4d7b-8c52-7564f563746a/assets/external_content.pdf }} {{open access}}
+*[http://www.chabad.org/library/article_cdo/aid/756399/jewish/the-613-commandments-mitzvot.htm Chabad.org: The 613 Commandments (Mitzvot)]
+*[http://www.the613.info/ The 613 Interactive Commandments]
+*[http://www.ohr.edu/holidays/shavuot/the_torah/973/ Ohr.edu: Taryag - Origin of the 613 Commandments]
+*[http://www.jewfaq.org/613_commandments/ Judaism 101: A List of the 613 Mitzvot (Commandments)]
+*[http://www.jewishvirtuallibrary.org/the-613-mitzvot-commandments/ Jewish Virtual Library: The 613 Mitzvot (Commandments)]
+*[https://kerem613.com/mitzvot A unique Mitzvot (Commandments) project]
+
+
+{{Jewish life}}
+
+{{Authority control}}
+
+[[Category:Jewish law and rituals]]
+[[Category:Mitzvoth]]
+[[Category:Commandments]]

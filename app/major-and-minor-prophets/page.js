@@ -148,7 +148,7 @@ export default function MajorAndMinorProphets() {
 
         <Section>
           <p className="mb-4">
-            Every book in order is on <Link href="/old-testament-books-in-order" className={link}>the Old Testament books in order</Link> and <Link href="/books-of-the-bible" className={link}>the books of the Bible</Link>. Read about <Link href="/books/isaiah" className={link}>Isaiah</Link>, <Link href="/books/jeremiah" className={link}>Jeremiah</Link> and <Link href="/books/jonah" className={link}>Jonah</Link>, or the word counts for {wordLink("prophet", "prophet")}, {wordLink("daniel", "Daniel")} and {wordLink("jonah", "Jonah")}. The shortest books are on <Link href="/shortest-book-in-the-bible" className={link}>the shortest book in the Bible</Link>.
+            Every book in order is on <Link href="/old-testament-books-in-order" className={link}>the Old Testament books in order</Link> and <Link href="/books-of-the-bible" className={link}>the books of the Bible</Link>. Read about <Link href="/books/isaiah" className={link}>Isaiah</Link>, <Link href="/books/jeremiah" className={link}>Jeremiah</Link> and <Link href="/books/jonah" className={link}>Jonah</Link>, or the word counts for {wordLink("prophet", "prophet")}, {wordLink("daniel", "Daniel")} and {wordLink("jonah", "Jonah")}. The shortest books are on <Link href="/shortest-book-in-the-bible" className={link}>the shortest book in the Bible</Link>, and the kings these prophets spoke to are on <Link href="/kings-of-israel-and-judah" className={link}>the kings of Israel and Judah in order</Link>.
           </p>
           <MethodNote text={METHOD} date={DATA.generated} />
         </Section>

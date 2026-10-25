@@ -1,0 +1,462 @@
+{
+ "generated": "2026-10-25",
+ "source": {
+  "file": "scripts/lists/data/613-maimonides-wikipedia-2026-10-25.txt",
+  "url": "https://en.wikipedia.org/wiki/613_commandments",
+  "read": "2026-10-25"
+ },
+ "total": 613,
+ "talmud": {
+  "total": 613,
+  "negative": 365,
+  "positive": 248,
+  "torahGematria": 611,
+  "fromGod": 2
+ },
+ "byBook": [
+  {
+   "name": "Genesis",
+   "slug": "genesis",
+   "count": 2,
+   "wordsKjv": 38307,
+   "chapters": 50,
+   "chaptersWithAny": 2,
+   "per1000": 0.1,
+   "topChapter": {
+    "ch": 1,
+    "count": 1
+   }
+  },
+  {
+   "name": "Exodus",
+   "slug": "exodus",
+   "count": 109,
+   "wordsKjv": 32692,
+   "chapters": 40,
+   "chaptersWithAny": 14,
+   "per1000": 3.3,
+   "topChapter": {
+    "ch": 22,
+    "count": 20
+   }
+  },
+  {
+   "name": "Leviticus",
+   "slug": "leviticus",
+   "count": 243,
+   "wordsKjv": 24543,
+   "chapters": 27,
+   "chaptersWithAny": 24,
+   "per1000": 9.9,
+   "topChapter": {
+    "ch": 19,
+    "count": 48
+   }
+  },
+  {
+   "name": "Numbers",
+   "slug": "numbers",
+   "count": 56,
+   "wordsKjv": 32930,
+   "chapters": 36,
+   "chaptersWithAny": 13,
+   "per1000": 1.7,
+   "topChapter": {
+    "ch": 6,
+    "count": 11
+   }
+  },
+  {
+   "name": "Deuteronomy",
+   "slug": "deuteronomy",
+   "count": 203,
+   "wordsKjv": 28365,
+   "chapters": 34,
+   "chaptersWithAny": 24,
+   "per1000": 7.2,
+   "topChapter": {
+    "ch": 22,
+    "count": 21
+   }
+  }
+ ],
+ "torahWords": 156837,
+ "torahChapters": 187,
+ "chaptersWithAny": 77,
+ "shifted": 69,
+ "tltRows": 16,
+ "topChapters": [
+  {
+   "ref": "Leviticus 19",
+   "book": "Leviticus",
+   "ch": 19,
+   "count": 48,
+   "versesKjv": 37
+  },
+  {
+   "ref": "Leviticus 18",
+   "book": "Leviticus",
+   "ch": 18,
+   "count": 25,
+   "versesKjv": 30
+  },
+  {
+   "ref": "Leviticus 23",
+   "book": "Leviticus",
+   "ch": 23,
+   "count": 23,
+   "versesKjv": 44
+  },
+  {
+   "ref": "Leviticus 25",
+   "book": "Leviticus",
+   "ch": 25,
+   "count": 23,
+   "versesKjv": 55
+  },
+  {
+   "ref": "Deuteronomy 22",
+   "book": "Deuteronomy",
+   "ch": 22,
+   "count": 21,
+   "versesKjv": 30
+  },
+  {
+   "ref": "Exodus 22",
+   "book": "Exodus",
+   "ch": 22,
+   "count": 20,
+   "versesKjv": 31
+  },
+  {
+   "ref": "Leviticus 22",
+   "book": "Leviticus",
+   "ch": 22,
+   "count": 20,
+   "versesKjv": 33
+  },
+  {
+   "ref": "Deuteronomy 12",
+   "book": "Deuteronomy",
+   "ch": 12,
+   "count": 20,
+   "versesKjv": 32
+  },
+  {
+   "ref": "Deuteronomy 23",
+   "book": "Deuteronomy",
+   "ch": 23,
+   "count": 20,
+   "versesKjv": 25
+  },
+  {
+   "ref": "Exodus 23",
+   "book": "Exodus",
+   "ch": 23,
+   "count": 19,
+   "versesKjv": 33
+  }
+ ],
+ "topHebrew": [
+  {
+   "ref": "Leviticus 19",
+   "count": 48
+  },
+  {
+   "ref": "Leviticus 18",
+   "count": 25
+  },
+  {
+   "ref": "Leviticus 23",
+   "count": 23
+  },
+  {
+   "ref": "Leviticus 25",
+   "count": 23
+  },
+  {
+   "ref": "Deuteronomy 22",
+   "count": 21
+  },
+  {
+   "ref": "Leviticus 22",
+   "count": 20
+  },
+  {
+   "ref": "Deuteronomy 23",
+   "count": 20
+  },
+  {
+   "ref": "Exodus 22",
+   "count": 19
+  },
+  {
+   "ref": "Exodus 23",
+   "count": 19
+  },
+  {
+   "ref": "Deuteronomy 12",
+   "count": 18
+  }
+ ],
+ "lev19": {
+  "count": 48,
+  "versesCited": 24,
+  "versesKjv": 37
+ },
+ "ten": {
+  "ex20": 16,
+  "ex20Decalogue": 13,
+  "ex20Altar": 3,
+  "deut5": 1,
+  "decalogue": [
+   {
+    "summary": "Know that God exists",
+    "ref": "Exodus 20:2",
+    "rows": 1
+   },
+   {
+    "summary": "Have no other gods",
+    "ref": "Exodus 20:3",
+    "rows": 1
+   },
+   {
+    "summary": "Make no carved image",
+    "ref": "Exodus 20:4",
+    "rows": 1
+   },
+   {
+    "summary": "Do not bow down to idols (two rows)",
+    "ref": "Exodus 20:5",
+    "rows": 2
+   },
+   {
+    "summary": "Do not take God's name in vain",
+    "ref": "Exodus 20:7",
+    "rows": 1
+   },
+   {
+    "summary": "Keep the Sabbath holy",
+    "ref": "Exodus 20:8",
+    "rows": 1
+   },
+   {
+    "summary": "Do no work on the Sabbath",
+    "ref": "Exodus 20:10",
+    "rows": 1
+   },
+   {
+    "summary": "Honor father and mother",
+    "ref": "Exodus 20:12",
+    "rows": 1
+   },
+   {
+    "summary": "Do not murder",
+    "ref": "Exodus 20:13",
+    "rows": 1
+   },
+   {
+    "summary": "Do not steal (read as kidnapping)",
+    "ref": "Exodus 20:15",
+    "rows": 1
+   },
+   {
+    "summary": "Do not bear false witness",
+    "ref": "Exodus 20:16",
+    "rows": 1
+   },
+   {
+    "summary": "Do not covet",
+    "ref": "Exodus 20:17",
+    "rows": 1
+   }
+  ],
+  "altar": [
+   {
+    "summary": "Make no figures of silver or gold beside God",
+    "ref": "Exodus 20:23"
+   },
+   {
+    "summary": "Build no altar of hewn stone",
+    "ref": "Exodus 20:25"
+   },
+   {
+    "summary": "Go up to the altar by no steps",
+    "ref": "Exodus 20:26"
+   }
+  ]
+ },
+ "examples": [
+  {
+   "summary": "Have children",
+   "heRef": "Genesis 1:28",
+   "kjvRef": "Genesis 1:28",
+   "quote": "Be fruitful, and multiply"
+  },
+  {
+   "summary": "Do not eat the sinew of the thigh",
+   "heRef": "Genesis 32:33",
+   "kjvRef": "Genesis 32:32",
+   "quote": "eat not of the sinew which shrank"
+  },
+  {
+   "summary": "Set the calendar by the new month",
+   "heRef": "Exodus 12:2",
+   "kjvRef": "Exodus 12:2",
+   "quote": "This month shall be unto you the beginning of months"
+  },
+  {
+   "summary": "Do not commit adultery",
+   "heRef": "Leviticus 18:20",
+   "kjvRef": "Leviticus 18:20",
+   "quote": "thou shalt not lie carnally with thy neighbour's wife"
+  },
+  {
+   "summary": "Do not hold back a worker's wages overnight",
+   "heRef": "Leviticus 19:13",
+   "kjvRef": "Leviticus 19:13",
+   "quote": "the wages of him that is hired shall not abide with thee all night"
+  },
+  {
+   "summary": "Do not trip up the blind",
+   "heRef": "Leviticus 19:14",
+   "kjvRef": "Leviticus 19:14",
+   "quote": "nor put a stumblingblock before the blind"
+  },
+  {
+   "summary": "Love your neighbor",
+   "heRef": "Leviticus 19:18",
+   "kjvRef": "Leviticus 19:18",
+   "quote": "thou shalt love thy neighbour as thyself"
+  },
+  {
+   "summary": "Rise for the elderly",
+   "heRef": "Leviticus 19:32",
+   "kjvRef": "Leviticus 19:32",
+   "quote": "Thou shalt rise up before the hoary head"
+  },
+  {
+   "summary": "Wear fringes on your garments",
+   "heRef": "Numbers 15:38",
+   "kjvRef": "Numbers 15:38",
+   "quote": "fringes in the borders of their garments"
+  },
+  {
+   "summary": "Love God",
+   "heRef": "Deuteronomy 6:5",
+   "kjvRef": "Deuteronomy 6:5",
+   "quote": "thou shalt love the LORD thy God with all thine heart"
+  },
+  {
+   "summary": "Bind the words on your hand and head",
+   "heRef": "Deuteronomy 6:8",
+   "kjvRef": "Deuteronomy 6:8",
+   "quote": "bind them for a sign upon thine hand"
+  },
+  {
+   "summary": "Write them on your doorposts",
+   "heRef": "Deuteronomy 6:9",
+   "kjvRef": "Deuteronomy 6:9",
+   "quote": "write them upon the posts of thy house"
+  },
+  {
+   "summary": "Put a railing around your roof",
+   "heRef": "Deuteronomy 22:8",
+   "kjvRef": "Deuteronomy 22:8",
+   "quote": "make a battlement for thy roof"
+  },
+  {
+   "summary": "Pay what you vowed",
+   "heRef": "Deuteronomy 23:22",
+   "kjvRef": "Deuteronomy 23:21",
+   "quote": "thou shalt not slack to pay it"
+  },
+  {
+   "summary": "Write out a Torah scroll",
+   "heRef": "Deuteronomy 31:19",
+   "kjvRef": "Deuteronomy 31:19",
+   "quote": "write ye this song for you"
+  }
+ ],
+ "first": {
+  "ref": "Genesis 1:28"
+ },
+ "last": {
+  "ref": "Deuteronomy 32:38"
+ },
+ "reductions": [
+  {
+   "who": "David",
+   "ref": "Psalm 15",
+   "n": 11,
+   "quote": "LORD, who shall abide in thy tabernacle?"
+  },
+  {
+   "who": "Isaiah",
+   "ref": "Isaiah 33:15",
+   "n": 6,
+   "quote": "He that walketh righteously, and speaketh uprightly"
+  },
+  {
+   "who": "Micah",
+   "ref": "Micah 6:8",
+   "n": 3,
+   "quote": "to do justly, and to love mercy, and to walk humbly with thy God"
+  },
+  {
+   "who": "Isaiah",
+   "ref": "Isaiah 56:1",
+   "n": 2,
+   "quote": "Keep ye judgment, and do justice"
+  },
+  {
+   "who": "Amos",
+   "ref": "Amos 5:4",
+   "n": 1,
+   "quote": "Seek ye me, and ye shall live"
+  },
+  {
+   "who": "Habakkuk",
+   "ref": "Habakkuk 2:4",
+   "n": 1,
+   "quote": "the just shall live by his faith"
+  }
+ ],
+ "words": {
+  "commandKjv": 348,
+  "commandKjvVerses": 333,
+  "commandKjvTop": {
+   "book": "Deuteronomy",
+   "count": 49,
+   "tied": [
+    "Deuteronomy"
+   ]
+  },
+  "commandWeb": 308,
+  "commandKjvTorah": 95,
+  "commandWebTorah": 89,
+  "commandmentsKjv": 171,
+  "six13Kjv": 0,
+  "six13Web": 0,
+  "tenCommandmentsKjv": [
+   "Exodus 34:28",
+   "Deuteronomy 4:13",
+   "Deuteronomy 10:4"
+  ],
+  "tenCommandmentsWeb": [
+   "Exodus 34:28",
+   "Deuteronomy 4:13",
+   "Deuteronomy 10:4"
+  ]
+ },
+ "checks": [
+  "great",
+  "first",
+  "second",
+  "hang",
+  "acts28",
+  "acts29",
+  "rom9",
+  "rom10"
+ ]
+}

@@ -1,0 +1,629 @@
+{
+ "generated": "2026-10-25",
+ "order": {
+  "kjv": "Saying, I am Alpha and Omega, the first and the last: and, What thou seest, write in a book, and send it unto the seven churches which are in Asia; unto Ephesus, and unto Smyrna, and unto Pergamos, and unto Thyatira, and unto Sardis, and unto Philadelphia, and unto Laodicea.",
+  "web": "saying, “What you see, write in a book and send to the seven assemblies: to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and to Laodicea.”"
+ },
+ "mystery": {
+  "kjv": "The mystery of the seven stars which thou sawest in my right hand, and the seven golden candlesticks. The seven stars are the angels of the seven churches: and the seven candlesticks which thou sawest are the seven churches.",
+  "web": "the mystery of the seven stars which you saw in my right hand, and the seven golden lamp stands. The seven stars are the angels of the seven assemblies. The seven lamp stands are seven assemblies."
+ },
+ "asia": "John to the seven churches which are in Asia: Grace be unto you, and peace, from him which is, and which was, and which is to come; and from the seven Spirits which are before his throne;",
+ "rows": [
+  {
+   "n": 1,
+   "name": "Ephesus",
+   "web": "Ephesus",
+   "range": "Revelation 2:1-7",
+   "ch": 2,
+   "from": 1,
+   "to": 7,
+   "verses": 7,
+   "wordsKjv": 189,
+   "wordsWeb": 178,
+   "jesus": "he that holdeth the seven stars in his right hand, who walketh in the midst of the seven golden candlesticks",
+   "echoes": [
+    {
+     "ref": "Revelation 1:16",
+     "text": "in his right hand seven stars"
+    }
+   ],
+   "praise": {
+    "text": "Hard work and patience; tested false apostles and found them liars; hates the deeds of the Nicolaitanes",
+    "refs": [
+     "Revelation 2:2",
+     "Revelation 2:6"
+    ]
+   },
+   "rebuke": {
+    "text": "Has left its first love",
+    "refs": [
+     "Revelation 2:4"
+    ]
+   },
+   "promise": {
+    "text": "To eat of the tree of life in the paradise of God",
+    "ref": "Revelation 2:7"
+   },
+   "key": {
+    "text": "thou hast left thy first love",
+    "ref": "Revelation 2:4"
+   },
+   "againstThee": 1,
+   "repent": 2,
+   "earFirst": true,
+   "rankKjv": 5,
+   "rankWeb": 6,
+   "namedKjv": 17,
+   "namedOutside": [
+    {
+     "book": "Acts",
+     "n": 9
+    },
+    {
+     "book": "1 Corinthians",
+     "n": 2
+    },
+    {
+     "book": "Ephesians",
+     "n": 1
+    },
+    {
+     "book": "1 Timothy",
+     "n": 1
+    },
+    {
+     "book": "2 Timothy",
+     "n": 2
+    }
+   ],
+   "modern": {
+    "place": "Selçuk, İzmir Province",
+    "note": "ruins at present-day Selçuk",
+    "url": "https://en.wikipedia.org/wiki/Ephesus"
+   }
+  },
+  {
+   "n": 2,
+   "name": "Smyrna",
+   "web": "Smyrna",
+   "range": "Revelation 2:8-11",
+   "ch": 2,
+   "from": 8,
+   "to": 11,
+   "verses": 4,
+   "wordsKjv": 128,
+   "wordsWeb": 132,
+   "jesus": "the first and the last, which was dead, and is alive",
+   "echoes": [
+    {
+     "ref": "Revelation 1:17",
+     "text": "I am the first and the last"
+    }
+   ],
+   "praise": {
+    "text": "Poor in tribulation, but rich; slandered by \"the synagogue of Satan\"",
+    "refs": [
+     "Revelation 2:9"
+    ]
+   },
+   "rebuke": null,
+   "promise": {
+    "text": "Shall not be hurt of the second death",
+    "ref": "Revelation 2:11"
+   },
+   "key": {
+    "text": "be thou faithful unto death, and I will give thee a crown of life",
+    "ref": "Revelation 2:10"
+   },
+   "againstThee": 0,
+   "repent": 0,
+   "earFirst": true,
+   "rankKjv": 7,
+   "rankWeb": 7,
+   "namedKjv": 2,
+   "namedOutside": [],
+   "modern": {
+    "place": "İzmir",
+    "note": "the city's official name since 1930",
+    "url": "https://en.wikipedia.org/wiki/Smyrna"
+   }
+  },
+  {
+   "n": 3,
+   "name": "Pergamos",
+   "web": "Pergamum",
+   "range": "Revelation 2:12-17",
+   "ch": 2,
+   "from": 12,
+   "to": 17,
+   "verses": 6,
+   "wordsKjv": 194,
+   "wordsWeb": 194,
+   "jesus": "he which hath the sharp sword with two edges",
+   "echoes": [
+    {
+     "ref": "Revelation 1:16",
+     "text": "a sharp twoedged sword"
+    }
+   ],
+   "praise": {
+    "text": "Holds fast his name where \"Satan's seat is\"; did not deny the faith when Antipas was killed",
+    "refs": [
+     "Revelation 2:13",
+     "Revelation 2:13"
+    ]
+   },
+   "rebuke": {
+    "text": "Tolerates the doctrine of Balaam and of the Nicolaitanes",
+    "refs": [
+     "Revelation 2:14",
+     "Revelation 2:15"
+    ]
+   },
+   "promise": {
+    "text": "Hidden manna and a white stone with a new name written on it",
+    "ref": "Revelation 2:17"
+   },
+   "key": {
+    "text": "where Satan's seat is",
+    "ref": "Revelation 2:13"
+   },
+   "againstThee": 1,
+   "repent": 1,
+   "earFirst": true,
+   "rankKjv": 4,
+   "rankWeb": 4,
+   "namedKjv": 2,
+   "namedOutside": [],
+   "modern": {
+    "place": "Bergama",
+    "note": "northwest of the modern city of Bergama",
+    "url": "https://en.wikipedia.org/wiki/Pergamon"
+   }
+  },
+  {
+   "n": 4,
+   "name": "Thyatira",
+   "web": "Thyatira",
+   "range": "Revelation 2:18-29",
+   "ch": 2,
+   "from": 18,
+   "to": 29,
+   "verses": 12,
+   "wordsKjv": 291,
+   "wordsWeb": 279,
+   "jesus": "the Son of God, who hath his eyes like unto a flame of fire, and his feet are like fine brass",
+   "echoes": [
+    {
+     "ref": "Revelation 1:14",
+     "text": "his eyes were as a flame of fire"
+    },
+    {
+     "ref": "Revelation 1:15",
+     "text": "his feet like unto fine brass"
+    }
+   ],
+   "praise": {
+    "text": "Charity, service, faith and patience, with more works at the last than at the first",
+    "refs": [
+     "Revelation 2:19",
+     "Revelation 2:19"
+    ]
+   },
+   "rebuke": {
+    "text": "Allows \"that woman Jezebel\", a self-styled prophetess, to teach",
+    "refs": [
+     "Revelation 2:20"
+    ]
+   },
+   "promise": {
+    "text": "Power over the nations, and the morning star",
+    "ref": "Revelation 2:26-28"
+   },
+   "key": {
+    "text": "thou sufferest that woman Jezebel",
+    "ref": "Revelation 2:20"
+   },
+   "againstThee": 1,
+   "repent": 3,
+   "earFirst": false,
+   "rankKjv": 1,
+   "rankWeb": 1,
+   "namedKjv": 4,
+   "namedOutside": [
+    {
+     "book": "Acts",
+     "n": 1
+    }
+   ],
+   "modern": {
+    "place": "Akhisar, Manisa Province",
+    "note": "now the city of Akhisar",
+    "url": "https://en.wikipedia.org/wiki/Thyatira"
+   }
+  },
+  {
+   "n": 5,
+   "name": "Sardis",
+   "web": "Sardis",
+   "range": "Revelation 3:1-6",
+   "ch": 3,
+   "from": 1,
+   "to": 6,
+   "verses": 6,
+   "wordsKjv": 181,
+   "wordsWeb": 179,
+   "jesus": "he that hath the seven Spirits of God, and the seven stars",
+   "echoes": [
+    {
+     "ref": "Revelation 1:4",
+     "text": "the seven Spirits which are before his throne"
+    }
+   ],
+   "praise": {
+    "text": "Only a few names \"which have not defiled their garments\"",
+    "refs": [
+     "Revelation 3:4"
+    ]
+   },
+   "rebuke": {
+    "text": "Has a name for being alive but is dead; its works are not perfect",
+    "refs": [
+     "Revelation 3:1",
+     "Revelation 3:2"
+    ]
+   },
+   "promise": {
+    "text": "Clothed in white; name kept in the book of life",
+    "ref": "Revelation 3:5"
+   },
+   "key": {
+    "text": "thou hast a name that thou livest, and art dead",
+    "ref": "Revelation 3:1"
+   },
+   "againstThee": 0,
+   "repent": 1,
+   "earFirst": false,
+   "rankKjv": 6,
+   "rankWeb": 5,
+   "namedKjv": 3,
+   "namedOutside": [],
+   "modern": {
+    "place": "Sart, Manisa Province",
+    "note": "an archaeological site near the town of Sart",
+    "url": "https://en.wikipedia.org/wiki/Sardis"
+   }
+  },
+  {
+   "n": 6,
+   "name": "Philadelphia",
+   "web": "Philadelphia",
+   "range": "Revelation 3:7-13",
+   "ch": 3,
+   "from": 7,
+   "to": 13,
+   "verses": 7,
+   "wordsKjv": 246,
+   "wordsWeb": 242,
+   "jesus": "he that is holy, he that is true, he that hath the key of David",
+   "echoes": [
+    {
+     "ref": "Isaiah 22:22",
+     "text": "the key of the house of David"
+    }
+   ],
+   "praise": {
+    "text": "Has a little strength, kept his word and did not deny his name",
+    "refs": [
+     "Revelation 3:8"
+    ]
+   },
+   "rebuke": null,
+   "promise": {
+    "text": "A pillar in the temple of God, with God's name, the new Jerusalem and his new name written on him",
+    "ref": "Revelation 3:12"
+   },
+   "key": {
+    "text": "I have set before thee an open door, and no man can shut it",
+    "ref": "Revelation 3:8"
+   },
+   "againstThee": 0,
+   "repent": 0,
+   "earFirst": false,
+   "rankKjv": 2,
+   "rankWeb": 2,
+   "namedKjv": 2,
+   "namedOutside": [],
+   "modern": {
+    "place": "Alaşehir, Manisa Province",
+    "note": "called Philadelphia until 1390",
+    "url": "https://en.wikipedia.org/wiki/Ala%C5%9Fehir"
+   }
+  },
+  {
+   "n": 7,
+   "name": "Laodicea",
+   "web": "Laodicea",
+   "range": "Revelation 3:14-22",
+   "ch": 3,
+   "from": 14,
+   "to": 22,
+   "verses": 9,
+   "wordsKjv": 231,
+   "wordsWeb": 226,
+   "jesus": "the Amen, the faithful and true witness, the beginning of the creation of God",
+   "echoes": [
+    {
+     "ref": "Revelation 1:5",
+     "text": "the faithful witness"
+    }
+   ],
+   "praise": null,
+   "rebuke": {
+    "text": "Lukewarm, neither cold nor hot; says \"I am rich\" but is \"wretched, and miserable, and poor, and blind, and naked\"",
+    "refs": [
+     "Revelation 3:16",
+     "Revelation 3:17"
+    ]
+   },
+   "promise": {
+    "text": "To sit with him on his throne",
+    "ref": "Revelation 3:21"
+   },
+   "key": {
+    "text": "Behold, I stand at the door, and knock",
+    "ref": "Revelation 3:20"
+   },
+   "againstThee": 0,
+   "repent": 1,
+   "earFirst": false,
+   "rankKjv": 3,
+   "rankWeb": 3,
+   "namedKjv": 7,
+   "namedOutside": [
+    {
+     "book": "Colossians",
+     "n": 5
+    }
+   ],
+   "modern": {
+    "place": "near Denizli",
+    "note": "ruins at Eskihisar, near Denizli",
+    "url": "https://en.wikipedia.org/wiki/Laodicea_on_the_Lycus"
+   }
+  }
+ ],
+ "totals": {
+  "verses": 51,
+  "wordsKjv": 1460,
+  "wordsWeb": 1430
+ },
+ "longest": {
+  "name": "Thyatira",
+  "wordsKjv": 291,
+  "wordsWeb": 279,
+  "verses": 12
+ },
+ "shortest": {
+  "name": "Smyrna",
+  "wordsKjv": 128,
+  "wordsWeb": 132,
+  "verses": 4
+ },
+ "webSameOrder": true,
+ "earFirst": [
+  "Ephesus",
+  "Smyrna",
+  "Pergamos"
+ ],
+ "overFirst": [
+  "Thyatira",
+  "Sardis",
+  "Philadelphia",
+  "Laodicea"
+ ],
+ "ear": {
+  "kjv": 7,
+  "web": 7,
+  "refs": [
+   "Revelation 2:7",
+   "Revelation 2:11",
+   "Revelation 2:17",
+   "Revelation 2:29",
+   "Revelation 3:6",
+   "Revelation 3:13",
+   "Revelation 3:22"
+  ]
+ },
+ "know": {
+  "kjv": 7,
+  "web": 7,
+  "refs": [
+   "Revelation 2:2",
+   "Revelation 2:9",
+   "Revelation 2:13",
+   "Revelation 2:19",
+   "Revelation 3:1",
+   "Revelation 3:8",
+   "Revelation 3:15"
+  ]
+ },
+ "overcometh": {
+  "kjv": 11,
+  "rev": 8,
+  "rev23": 7,
+  "byBook": {
+   "1 John": 3,
+   "Revelation": 8
+  },
+  "web": 12,
+  "webRev": 8
+ },
+ "church": {
+  "kjv": 114,
+  "nt": 114,
+  "ot": 0,
+  "rev": 20,
+  "rev23": 15,
+  "rank": [
+   {
+    "book": "Acts",
+    "n": 22
+   },
+   {
+    "book": "1 Corinthians",
+    "n": 22
+   },
+   {
+    "book": "Revelation",
+    "n": 20
+   },
+   {
+    "book": "2 Corinthians",
+    "n": 9
+   }
+  ],
+  "webAssemblyRev": 20
+ },
+ "seven": {
+  "kjv": {
+   "total": 463,
+   "top": [
+    {
+     "book": "Genesis",
+     "n": 54,
+     "per1000": 1.4
+    },
+    {
+     "book": "Revelation",
+     "n": 54,
+     "per1000": 4.5
+    },
+    {
+     "book": "Leviticus",
+     "n": 46,
+     "per1000": 1.9
+    },
+    {
+     "book": "Numbers",
+     "n": 46,
+     "per1000": 1.4
+    },
+    {
+     "book": "2 Chronicles",
+     "n": 22,
+     "per1000": 0.8
+    }
+   ],
+   "rev": {
+    "book": "Revelation",
+    "n": 54,
+    "per1000": 4.5
+   },
+   "revRank": 1,
+   "ahead": [],
+   "tied": [
+    "Genesis"
+   ],
+   "densest": [
+    {
+     "book": "Revelation",
+     "n": 54,
+     "per1000": 4.5
+    },
+    {
+     "book": "Leviticus",
+     "n": 46,
+     "per1000": 1.9
+    },
+    {
+     "book": "Ezra",
+     "n": 12,
+     "per1000": 1.6
+    }
+   ]
+  },
+  "web": {
+   "total": 466,
+   "top": [
+    {
+     "book": "Genesis",
+     "n": 57,
+     "per1000": 1.6
+    },
+    {
+     "book": "Revelation",
+     "n": 55,
+     "per1000": 4.8
+    },
+    {
+     "book": "Leviticus",
+     "n": 46,
+     "per1000": 2
+    },
+    {
+     "book": "Numbers",
+     "n": 46,
+     "per1000": 1.5
+    },
+    {
+     "book": "2 Chronicles",
+     "n": 22,
+     "per1000": 0.9
+    }
+   ],
+   "rev": {
+    "book": "Revelation",
+    "n": 55,
+    "per1000": 4.8
+   },
+   "revRank": 2,
+   "ahead": [
+    "Genesis"
+   ],
+   "tied": [],
+   "densest": [
+    {
+     "book": "Revelation",
+     "n": 55,
+     "per1000": 4.8
+    },
+    {
+     "book": "Leviticus",
+     "n": 46,
+     "per1000": 2
+    },
+    {
+     "book": "Ezra",
+     "n": 12,
+     "per1000": 1.7
+    }
+   ]
+  },
+  "rev23": 4
+ },
+ "nicolaitanes": 2,
+ "lukewarm": {
+  "kjv": 1,
+  "web": 1,
+  "refs": "Revelation 3:16"
+ },
+ "elsewhere": [
+  "ephesusArrive",
+  "ephesusTwoYears",
+  "ephesusElders",
+  "ephesians",
+  "lydia",
+  "philippi",
+  "epaphras",
+  "col21",
+  "col413",
+  "col415",
+  "col416"
+ ],
+ "related": {
+  "jezebel": "1 Kings 16:31",
+  "balaam": "Numbers 31:16"
+ }
+}

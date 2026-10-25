@@ -160,7 +160,7 @@ export default function MiraclesOfJesus() {
 
         <Section>
           <p className="mb-4">
-            Jesus' stories are counted on <Link href="/parables-of-jesus" className={link}>the parables of Jesus</Link>, and his titles on <Link href="/names-of-jesus" className={link}>the names of Jesus</Link>. Read about{" "}
+            Jesus' stories are counted on <Link href="/parables-of-jesus" className={link}>the parables of Jesus</Link>, his titles on <Link href="/names-of-jesus" className={link}>the names of Jesus</Link>, and the men he chose on <Link href="/twelve-apostles" className={link}>the twelve apostles</Link>. Read about{" "}
             <Link href="/books/john" className={link}>the Gospel of John</Link> and <Link href="/books/mark" className={link}>the Gospel of Mark</Link>, or the word counts for {wordLink("miracle", "miracle")} and {wordLink("healing", "healing")}. More counts are on{" "}
             <Link href="/bible-by-the-numbers" className={link}>the Bible by the numbers</Link>.
           </p>

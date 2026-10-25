@@ -1,0 +1,472 @@
+{
+ "generated": "2026-10-25",
+ "methuselah": 969,
+ "key": {
+  "kjv": "And all the days of Methuselah were nine hundred sixty and nine years: and he died.",
+  "web": "All the days of Methuselah were nine hundred sixty-nine years, then he died."
+ },
+ "sum": {
+  "atLamech": 187,
+  "lamechAtNoah": 182,
+  "noahAtFlood": 600,
+  "methAtNoahBirth": 369,
+  "methAtFlood": 969,
+  "afterLamech": 782
+ },
+ "lamech": {
+  "age": 777,
+  "afterNoah": 595,
+  "beforeFlood": 5
+ },
+ "timeline": {
+  "methBornYear": 687,
+  "floodYear": 1656,
+  "methAtAdamDeath": 243,
+  "begat": [
+   {
+    "father": "Adam",
+    "son": "Seth",
+    "years": 130,
+    "ref": "Genesis 5:3"
+   },
+   {
+    "father": "Seth",
+    "son": "Enos",
+    "years": 105,
+    "ref": "Genesis 5:6"
+   },
+   {
+    "father": "Enos",
+    "son": "Cainan",
+    "years": 90,
+    "ref": "Genesis 5:9"
+   },
+   {
+    "father": "Cainan",
+    "son": "Mahalaleel",
+    "years": 70,
+    "ref": "Genesis 5:12"
+   },
+   {
+    "father": "Mahalaleel",
+    "son": "Jared",
+    "years": 65,
+    "ref": "Genesis 5:15"
+   },
+   {
+    "father": "Jared",
+    "son": "Enoch",
+    "years": 162,
+    "ref": "Genesis 5:18"
+   },
+   {
+    "father": "Enoch",
+    "son": "Methuselah",
+    "years": 65,
+    "ref": "Genesis 5:21"
+   }
+  ]
+ },
+ "table": [
+  {
+   "name": "Methuselah",
+   "webName": null,
+   "age": 969,
+   "ref": "Genesis 5:27",
+   "computed": false,
+   "note": "the longest life in the Bible"
+  },
+  {
+   "name": "Jared",
+   "webName": null,
+   "age": 962,
+   "ref": "Genesis 5:20",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Noah",
+   "webName": null,
+   "age": 950,
+   "ref": "Genesis 9:29",
+   "computed": false,
+   "note": "600 at the flood (7:6)"
+  },
+  {
+   "name": "Adam",
+   "webName": null,
+   "age": 930,
+   "ref": "Genesis 5:5",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Seth",
+   "webName": null,
+   "age": 912,
+   "ref": "Genesis 5:8",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Cainan",
+   "webName": "Kenan",
+   "age": 910,
+   "ref": "Genesis 5:14",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Enos",
+   "webName": "Enosh",
+   "age": 905,
+   "ref": "Genesis 5:11",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Mahalaleel",
+   "webName": "Mahalalel",
+   "age": 895,
+   "ref": "Genesis 5:17",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Lamech",
+   "webName": null,
+   "age": 777,
+   "ref": "Genesis 5:31",
+   "computed": false,
+   "note": "Noah's father"
+  },
+  {
+   "name": "Shem",
+   "webName": null,
+   "age": 600,
+   "ref": "Genesis 11:10-11",
+   "computed": true,
+   "note": "100 + 500, computed"
+  },
+  {
+   "name": "Eber",
+   "webName": null,
+   "age": 464,
+   "ref": "Genesis 11:16-17",
+   "computed": true,
+   "note": "34 + 430, computed"
+  },
+  {
+   "name": "Arphaxad",
+   "webName": "Arpachshad",
+   "age": 438,
+   "ref": "Genesis 11:12-13",
+   "computed": true,
+   "note": "35 + 403, computed"
+  },
+  {
+   "name": "Salah",
+   "webName": "Shelah",
+   "age": 433,
+   "ref": "Genesis 11:14-15",
+   "computed": true,
+   "note": "30 + 403, computed"
+  },
+  {
+   "name": "Enoch",
+   "webName": null,
+   "age": 365,
+   "ref": "Genesis 5:23",
+   "computed": false,
+   "note": "did not die: \"God took him\" (5:24)"
+  },
+  {
+   "name": "Peleg",
+   "webName": null,
+   "age": 239,
+   "ref": "Genesis 11:18-19",
+   "computed": true,
+   "note": "30 + 209, computed"
+  },
+  {
+   "name": "Reu",
+   "webName": null,
+   "age": 239,
+   "ref": "Genesis 11:20-21",
+   "computed": true,
+   "note": "32 + 207, computed"
+  },
+  {
+   "name": "Serug",
+   "webName": null,
+   "age": 230,
+   "ref": "Genesis 11:22-23",
+   "computed": true,
+   "note": "30 + 200, computed"
+  },
+  {
+   "name": "Terah",
+   "webName": null,
+   "age": 205,
+   "ref": "Genesis 11:32",
+   "computed": false,
+   "note": "Abraham's father"
+  },
+  {
+   "name": "Isaac",
+   "webName": null,
+   "age": 180,
+   "ref": "Genesis 35:28",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Abraham",
+   "webName": null,
+   "age": 175,
+   "ref": "Genesis 25:7",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Nahor",
+   "webName": null,
+   "age": 148,
+   "ref": "Genesis 11:24-25",
+   "computed": true,
+   "note": "29 + 119, computed"
+  },
+  {
+   "name": "Jacob",
+   "webName": null,
+   "age": 147,
+   "ref": "Genesis 47:28",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Ishmael",
+   "webName": null,
+   "age": 137,
+   "ref": "Genesis 25:17",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Levi",
+   "webName": null,
+   "age": 137,
+   "ref": "Exodus 6:16",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Amram",
+   "webName": null,
+   "age": 137,
+   "ref": "Exodus 6:20",
+   "computed": false,
+   "note": "father of Moses and Aaron"
+  },
+  {
+   "name": "Kohath",
+   "webName": null,
+   "age": 133,
+   "ref": "Exodus 6:18",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Jehoiada",
+   "webName": null,
+   "age": 130,
+   "ref": "2 Chronicles 24:15",
+   "computed": false,
+   "note": "the priest"
+  },
+  {
+   "name": "Sarah",
+   "webName": null,
+   "age": 127,
+   "ref": "Genesis 23:1",
+   "computed": false,
+   "note": "the only woman in this list"
+  },
+  {
+   "name": "Aaron",
+   "webName": null,
+   "age": 123,
+   "ref": "Numbers 33:39",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Moses",
+   "webName": null,
+   "age": 120,
+   "ref": "Deuteronomy 34:7",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Joseph",
+   "webName": null,
+   "age": 110,
+   "ref": "Genesis 50:26",
+   "computed": false,
+   "note": ""
+  },
+  {
+   "name": "Joshua",
+   "webName": null,
+   "age": 110,
+   "ref": "Joshua 24:29",
+   "computed": false,
+   "note": "also Judges 2:8"
+  },
+  {
+   "name": "Eli",
+   "webName": null,
+   "age": 98,
+   "ref": "1 Samuel 4:15",
+   "computed": false,
+   "note": "died the same day (4:18)"
+  }
+ ],
+ "counts": {
+  "people": 33,
+  "stated": 25,
+  "computed": 8,
+  "over900": 7,
+  "over900Names": [
+   "Methuselah",
+   "Jared",
+   "Noah",
+   "Adam",
+   "Seth",
+   "Cainan",
+   "Enos"
+  ]
+ },
+ "runnerUp": {
+  "name": "Jared",
+  "age": 962,
+  "ref": "Genesis 5:20",
+  "gap": 7
+ },
+ "job": 140,
+ "averages": {
+  "pre": [
+   "Adam",
+   "Seth",
+   "Enos",
+   "Cainan",
+   "Mahalaleel",
+   "Jared",
+   "Methuselah",
+   "Lamech",
+   "Noah"
+  ],
+  "preAvg": 912.2222222222222,
+  "patriarchs": [
+   "Abraham",
+   "Isaac",
+   "Jacob",
+   "Joseph"
+  ],
+  "patAvg": 153,
+  "ratio": 5.962236746550472
+ },
+ "limits": {
+  "gen63": 120,
+  "ps70": 70,
+  "ps80": 80,
+  "reached120": 30,
+  "under120": [
+   {
+    "name": "Joseph",
+    "age": 110
+   },
+   {
+    "name": "Joshua",
+    "age": 110
+   },
+   {
+    "name": "Eli",
+    "age": 98
+   }
+  ],
+  "jacobAt": 130
+ },
+ "noah": {
+  "age": 950,
+  "atSons": 500,
+  "atFlood": 600,
+  "after": 350
+ },
+ "enoch": {
+  "age": 365,
+  "walked": 300
+ },
+ "shem": 600,
+ "nahor": 148,
+ "words": {
+  "methuselahKjv": 6,
+  "mathusalaKjv": 1,
+  "methTotalKjv": 7,
+  "methuselahWeb": 7,
+  "refsKjv": [
+   "Genesis 5:21",
+   "Genesis 5:22",
+   "Genesis 5:25",
+   "Genesis 5:26",
+   "Genesis 5:27",
+   "1 Chronicles 1:3",
+   "Luke 3:37"
+  ],
+  "refsWeb": [
+   "Genesis 5:21",
+   "Genesis 5:22",
+   "Genesis 5:25",
+   "Genesis 5:26",
+   "Genesis 5:27",
+   "1 Chronicles 1:3",
+   "Luke 3:37"
+  ],
+  "allTheDaysOf": {
+   "total": 9,
+   "refs": [
+    "Genesis 5:8",
+    "Genesis 5:11",
+    "Genesis 5:14",
+    "Genesis 5:17",
+    "Genesis 5:20",
+    "Genesis 5:23",
+    "Genesis 5:27",
+    "Genesis 5:31",
+    "Genesis 9:29"
+   ]
+  }
+ },
+ "checks": [
+  "gen63",
+  "gen63web",
+  "ps9010",
+  "ps9010web",
+  "jacob479",
+  "heb115",
+  "heb115web",
+  "jude14",
+  "gen522",
+  "gen524web",
+  "gen713",
+  "pet320",
+  "gen417",
+  "gen418",
+  "gen418web",
+  "gen419",
+  "elijah",
+  "luke323",
+  "noahLine"
+ ]
+}
