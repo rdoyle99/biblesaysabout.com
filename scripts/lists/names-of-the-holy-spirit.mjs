@@ -60,9 +60,9 @@ const DEFS = [
   { name: "the Spirit of the LORD", kjvPhrase: "the Spirit of the LORD; the Spirit of the Lord", webPhrase: "Yahweh's Spirit; the Spirit of the Lord", re: /\bSpirit of the Lord\b/gi, webRe: /\b(?:Spirit of the Lord|Spirit of Yahweh|Yahweh's Spirit)\b/gi,
     key: ["Judges 3:10", "the Spirit of the LORD came upon him"], keyWeb: ["Judges 3:10", "Yahweh's Spirit came on him"],
     note: "Where the KJV prints LORD in capitals the WEB prints Yahweh. Includes \"the Spirit of the Lord GOD\" (Isaiah 61:1). Raw count: Isaiah 40:7, \"the spirit of the LORD bloweth upon it\", is counted in the KJV; the WEB reads \"Yahweh's breath\" there." },
-  { name: "the Spirit", kjvPhrase: "the Spirit", re: /\bthe Spirit\b(?! of\b)/g, caps: true,
+  { name: "the Spirit", kjvPhrase: "the Spirit", re: /\b[Tt]he Spirit\b(?! of\b)/g, caps: true,
     key: ["Acts 16:7", "but the Spirit suffered them not"], keyWeb: ["Acts 16:7", "but the Spirit didn't allow them"],
-    note: "\"The Spirit\" standing alone, with a capital S and not followed by \"of\". The WEB prints the capital in more verses, including Old Testament ones (Numbers 11:25)." },
+    note: "\"The Spirit\" standing alone, with a capital S and not followed by \"of\", at the start of a sentence too (Romans 8:16). The WEB prints the capital in more verses, including Old Testament ones (Numbers 11:25)." },
   { name: "the Spirit of Christ", kjvPhrase: "the Spirit of Christ", re: /\bSpirit of Christ\b/gi, key: ["Romans 8:9", "have not the Spirit of Christ"], keyWeb: ["Romans 8:9", "have the Spirit of Christ"],
     note: "Romans 8:9 uses \"the Spirit of God\" and \"the Spirit of Christ\" in one sentence. The other verse is 1 Peter 1:11." },
   { name: "the Spirit of Jesus Christ", kjvPhrase: "the Spirit of Jesus Christ", re: /\bSpirit of Jesus Christ\b/gi, key: ["Philippians 1:19", "the supply of the Spirit of Jesus Christ"], keyWeb: ["Philippians 1:19", "the supply of the Spirit of Jesus Christ"],
@@ -265,7 +265,7 @@ mustWeb("Joel 2:28", "I will pour out my Spirit on all flesh");
 mustWeb("Acts 2:17", "I will pour out my Spirit on all flesh");
 must("Genesis 6:3", "My spirit shall not always strive with man");
 mustWeb("Genesis 6:3", "My Spirit will not strive with man forever");
-const mySpirit = { kjv: countPhrase("kjv", /\bmy Spirit\b/g), web: countPhrase("web", /\bmy Spirit\b/g) };
+const mySpirit = { kjv: countPhrase("kjv", /\b[Mm]y Spirit\b/g), web: countPhrase("web", /\b[Mm]y Spirit\b/g) };
 
 /* Old and New Testament */
 const byTestament = { OT: rows.filter((r) => r.testament === "OT").length, NT: rows.filter((r) => r.testament === "NT").length, Both: rows.filter((r) => r.testament === "Both").length };

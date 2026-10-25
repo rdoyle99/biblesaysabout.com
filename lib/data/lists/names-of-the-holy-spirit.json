@@ -149,11 +149,11 @@
    "scope": null,
    "books": null,
    "kjv": {
-    "total": 81,
+    "total": 82,
     "ot": 0,
-    "nt": 81,
+    "nt": 82,
     "lower": 0,
-    "verses": 75,
+    "verses": 76,
     "first": "Matthew 4:1",
     "top": {
      "book": "Galatians",
@@ -164,11 +164,11 @@
     }
    },
    "web": {
-    "total": 109,
-    "ot": 14,
-    "nt": 95,
+    "total": 117,
+    "ot": 17,
+    "nt": 100,
     "lower": 0,
-    "verses": 100,
+    "verses": 108,
     "first": "Numbers 11:17",
     "top": {
      "book": "Galatians",
@@ -183,7 +183,7 @@
    "key": "Acts 16:7",
    "kjvText": "After they were come to Mysia, they assayed to go into Bithynia: but the Spirit suffered them not.",
    "webText": "When they had come opposite Mysia, they tried to go into Bithynia, but the Spirit didn’t allow them.",
-   "note": "\"The Spirit\" standing alone, with a capital S and not followed by \"of\". The WEB prints the capital in more verses, including Old Testament ones (Numbers 11:25)."
+   "note": "\"The Spirit\" standing alone, with a capital S and not followed by \"of\", at the start of a sentence too (Romans 8:16). The WEB prints the capital in more verses, including Old Testament ones (Numbers 11:25)."
   },
   {
    "n": 5,
@@ -1431,7 +1431,7 @@
   "kjvCapOnly": 5,
   "mySpirit": {
    "kjv": 2,
-   "web": 13
+   "web": 15
   }
  },
  "spiritOfGod": {

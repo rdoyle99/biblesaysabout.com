@@ -70,9 +70,9 @@ export default function JudgesOfIsrael() {
             <StatTiles
               stats={[
                 { label: "Judges in the Book of Judges", value: DATA.count, note: "plus Eli and Samuel in 1 Samuel" },
-                { label: `"Judged Israel" in the KJV`, value: JI.kjv, note: `said of ${JI.people.length} people (WEB: ${JI.web})` },
+                { label: `"Judged Israel" in the KJV`, value: JI.kjv, note: `${JI.kjv - 1} of them said of ${JI.people.length} people (WEB: ${JI.web})` },
                 { label: "Years given in Judges", value: Y.judgesTotal, note: `${Y.oppression} oppression + ${Y.rule} rest or rule; some overlap` },
-                { label: `"Did evil in the sight of the LORD"`, value: C.didEvilKjv.total, note: `times in Judges, KJV (WEB: ${C.didEvilWeb.total})` },
+                { label: `"Did evil (again) in the sight of the LORD"`, value: C.didEvilKjv.total, note: `times in Judges, KJV (WEB: ${C.didEvilWeb.total})` },
               ]}
             />
           </div>
@@ -142,7 +142,7 @@ export default function JudgesOfIsrael() {
             The Bible never gives the number {DATA.count} itself. The count comes from the leaders the Book of <Link href="/books/judges" className={link}>Judges</Link> tells of one after another, each tied to the last by &quot;after him&quot; (Judges 3:31, 10:3, 12:8, 12:11, 12:13) or by the death of the one before (Judges 4:1).
           </p>
           <p className="mt-3 leading-relaxed">
-            Our count of the phrase &quot;judged Israel&quot; finds it {JI.kjv} times in {JI.kjvVerses} verses of the King James Version ({JI.web} in the World English Bible), said of {JI.people.length} people: {joinAnd(JI.people)}. It is never said of Ehud, Shamgar or Gideon, three of the {DATA.count}. The text calls them deliverers instead: &quot;the LORD raised them up a deliverer, Ehud&quot; (Judges 3:15), Shamgar &quot;also delivered Israel&quot; (Judges 3:31), and Gideon is told &quot;thou shalt save Israel from the hand of the Midianites&quot; (Judges 6:14).
+            Our count of the phrase &quot;judged Israel&quot;, with &quot;judged the children of Israel&quot; at 1 Samuel 7:6, finds it {JI.kjv} times in {JI.kjvVerses} verses of the King James Version ({JI.web} in the World English Bible). All but one are said of {JI.people.length} people: {joinAnd(JI.people)}; the other, 2 Kings 23:22, looks back to &quot;the days of the judges that judged Israel&quot;. It is never said of Ehud, Shamgar or Gideon, three of the {DATA.count}. The text calls them deliverers instead: &quot;the LORD raised them up a deliverer, Ehud&quot; (Judges 3:15), Shamgar &quot;also delivered Israel&quot; (Judges 3:31), and Gideon is told &quot;thou shalt save Israel from the hand of the Midianites&quot; (Judges 6:14).
           </p>
         </Section>
 
@@ -151,7 +151,7 @@ export default function JudgesOfIsrael() {
             The cycle of the judges is a five-step round the Book of Judges tells six times: Israel does evil, God hands them to an oppressor, they cry to the LORD, he raises up a deliverer, and the land has rest until the judge dies (Judges 2:11-19). Chapter 2 states the pattern in advance: &quot;Nevertheless the LORD raised up judges, which delivered them out of the hand of those that spoiled them&quot; (Judges 2:16), and &quot;when the judge was dead, that they returned, and corrupted themselves more than their fathers&quot; (Judges 2:19).
           </p>
           <ul className="mt-4 list-disc pl-5 space-y-1.5 leading-relaxed">
-            <li><span className="font-medium">Sin.</span> &quot;Did evil in the sight of the LORD&quot; opens a round {C.didEvilKjv.total} times in Judges, KJV ({C.didEvilKjv.refs.join(", ")}). The WEB&apos;s &quot;did that which was evil in Yahweh&apos;s sight&quot; stands in the same {C.didEvilWeb.total} verses.</li>
+            <li><span className="font-medium">Sin.</span> &quot;Did evil in the sight of the LORD&quot;, three times with &quot;again&quot;, appears {C.didEvilKjv.total} times in Judges, KJV: in the summary of the cycle and at the start of each of the six rounds ({C.didEvilKjv.refs.join(", ")}). The WEB&apos;s &quot;did that which was evil in Yahweh&apos;s sight&quot; stands in the same {C.didEvilWeb.total} verses.</li>
             <li><span className="font-medium">Oppression.</span> &quot;He sold them into the hand of Chushan-rishathaim&quot; (Judges 3:8): six oppressors in the table below.</li>
             <li><span className="font-medium">Cry.</span> &quot;Cried unto the LORD&quot; appears {C.criedKjv.total} times in Judges, KJV ({C.criedWeb.total} for the WEB&apos;s &quot;cried to Yahweh&quot;).</li>
             <li><span className="font-medium">Deliverer.</span> &quot;The LORD raised up a deliverer&quot; (Judges 3:9, 3:15). &quot;The Spirit of the LORD&quot; appears {C.spiritKjv.total} times in Judges, KJV, every time on a judge: Othniel, Gideon, Jephthah, and four times Samson ({C.spiritWeb.total} in the WEB, as &quot;Yahweh&apos;s Spirit&quot;).</li>
@@ -181,7 +181,7 @@ export default function JudgesOfIsrael() {
             </table>
           </div>
           <p className="mt-4 leading-relaxed">
-            The rounds stop after Samson. Chapters 17 to 21 have no judge, and their refrain is &quot;In those days there was no king in Israel&quot;: {C.noKingKjv.total} times, at {joinAnd(C.noKingKjv.refs)} (the same {C.noKingWeb.total} verses in the WEB). Twice it goes on &quot;every man did that which was right in his own eyes&quot; (Judges 17:6), and the second time is the last verse of the book (Judges 21:25).
+            The rounds stop after Samson. Chapters 17 to 21 have no judge, and their refrain is &quot;In those days there was no king in Israel&quot;: {C.noKingKjv.total} times, at {joinAnd(C.noKingKjv.refs)} (the same {C.noKingWeb.total} verses in the WEB). Judges 19:1 words it &quot;in those days, when there was no king in Israel&quot;. Twice it goes on &quot;every man did that which was right in his own eyes&quot; (Judges 17:6), and the second time is the last verse of the book (Judges 21:25).
           </p>
         </Section>
 
@@ -214,7 +214,7 @@ export default function JudgesOfIsrael() {
             Seven of the {DATA.count} judges can be placed in a tribe from the text, and each is a different one: Judah (Othniel), Benjamin (Ehud), Manasseh (Gideon), Issachar (Tola), Zebulun (Elon), Ephraim (Abdon) and Dan (Samson). Five are named outright: Ehud &quot;a Benjamite&quot; (Judges 3:15), Gideon&apos;s family &quot;in Manasseh&quot; (Judges 6:15), Tola &quot;a man of Issachar&quot; (Judges 10:1), Elon &quot;a Zebulonite&quot; (Judges 12:11) and Samson&apos;s father &quot;of the family of the Danites&quot; (Judges 13:2). Two more, {joinAnd(DATA.tribes.gileadites)}, are called Gileadites, from the land east of the Jordan, with no tribe named. Shamgar, Deborah and Ibzan have no tribe given at all: Deborah lived &quot;between Ramah and Bethel in mount Ephraim&quot; (Judges 4:5), and Ibzan was &quot;of Bethlehem&quot; (Judges 12:8).
           </p>
           <p className="mt-3 leading-relaxed">
-            The other two come by inference: Othniel was &quot;Caleb&apos;s younger brother&quot; (Judges 1:13), and Caleb was &quot;of the tribe of Judah&quot; (Numbers 13:6); Abdon was buried &quot;in Pirathon in the land of Ephraim&quot; (Judges 12:15). Outside the twelve, Barak came from Kedesh-naphtali (Judges 4:6), Eli was a priest, of the house God chose &quot;out of all the tribes of Israel to be my priest&quot; (1 Samuel 2:28), and Samuel&apos;s family lived in mount Ephraim (1 Samuel 1:1), though 1 Chronicles 6:33 lists him among the Levites, a Kohathite. The KJV calls his father Elkanah &quot;an Ephrathite&quot;, the WEB &quot;an Ephraimite&quot;. See all twelve tribes on <Link href="/twelve-tribes-of-israel" className={link}>the twelve tribes of Israel</Link>.
+            The other two come by inference: Othniel was &quot;Caleb&apos;s younger brother&quot; (Judges 1:13), and Caleb was &quot;of the tribe of Judah&quot; (Numbers 13:6); Abdon was buried &quot;in Pirathon in the land of Ephraim&quot; (Judges 12:15). Outside the twelve, Barak came from Kedesh-naphtali (Judges 4:6), Eli was a priest, of the house God chose &quot;out of all the tribes of Israel to be my priest&quot; (1 Samuel 2:28), and Samuel&apos;s family lived in mount Ephraim (1 Samuel 1:1), though 1 Chronicles 6:33 lists him among the Levites, a Kohathite (&quot;Shemuel&quot; in the KJV). The KJV calls his father Elkanah &quot;an Ephrathite&quot;, the WEB &quot;an Ephraimite&quot;. See all twelve tribes on <Link href="/twelve-tribes-of-israel" className={link}>the twelve tribes of Israel</Link>.
           </p>
         </Section>
 

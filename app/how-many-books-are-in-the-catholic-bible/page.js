@@ -232,7 +232,7 @@ export default function CatholicBibleBooks() {
             </table>
           </div>
           <p className="mt-4 leading-relaxed">
-            &quot;No&quot; in the Protestant column means the book is not part of the {DATA.protestant.total}; some Protestant Bibles still print these books in a separate Apocrypha section, as the King James Version did. 1 Esdras ({fmt(ORTHO["1 Esdras"].words)} words in the WEB), 2 Esdras and the Prayer of Manasseh are in that Apocrypha but not in the Catholic {DATA.total}. Wikipedia&apos;s &quot;Biblical canon&quot; article gives the Anglican position as reading the Apocrypha &quot;for instruction in life and manners, but not for the establishment of doctrine&quot;, from the Thirty-Nine Articles.
+            &quot;No&quot; in the Protestant column means the book is not part of the {DATA.protestant.total}; some Protestant Bibles still print these books in a separate Apocrypha section, as the King James Version did. 1 Esdras ({fmt(ORTHO["1 Esdras"].words)} words in the WEB), 2 Esdras and the Prayer of Manasseh are in that Apocrypha but not in the Catholic {DATA.total}. Wikipedia&apos;s &quot;Biblical canon&quot; article gives the Anglican position from Article VI of the Thirty-Nine Articles: the Apocrypha are &quot;read for example of life&quot; but not used &quot;to establish any doctrine&quot;.
           </p>
         </Section>
 

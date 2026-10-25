@@ -168,7 +168,7 @@ const WIVES = [
     ["1 Samuel 14:49", "the name of the firstborn Merab, and the name of the younger Michal"], ["1 Samuel 18:27", "Saul gave him Michal his daughter to wife"], ["1 Samuel 25:44", "Michal his daughter, David's wife"], ["2 Samuel 6:23", "had no child"]]],
   ["Ahinoam of Jezreel", "Mother of Amnon, the firstborn.", [["1 Samuel 25:43", "David also took Ahinoam of Jezreel"], ["2 Samuel 3:2", "Amnon, of Ahinoam the Jezreelitess"]]],
   ["Abigail", "Widow of Nabal the Carmelite. Mother of Chileab (Daniel in 1 Chronicles).", [["1 Samuel 25:38", "the LORD smote Nabal, that he died"], ["1 Samuel 25:42", "became his wife"], ["2 Samuel 3:3", "Chileab, of Abigail"]]],
-  ["Maacah", "Daughter of Talmai king of Geshur. Mother of Absalom and Tamar.", [["2 Samuel 3:3", "Absalom the son of Maacah the daughter of Talmai king of Geshur"]]],
+  ["Maacah", "Daughter of Talmai king of Geshur. Mother of Absalom, whose sister was Tamar.", [["2 Samuel 3:3", "Absalom the son of Maacah the daughter of Talmai king of Geshur"], ["2 Samuel 13:1", "Absalom the son of David had a fair sister, whose name was Tamar"]]],
   ["Haggith", "Mother of Adonijah.", [["2 Samuel 3:4", "Adonijah the son of Haggith"]]],
   ["Abital", "Mother of Shephatiah.", [["2 Samuel 3:4", "Shephatiah the son of Abital"]]],
   ["Eglah", "Mother of Ithream, called \"David's wife\".", [["2 Samuel 3:5", "Ithream, by Eglah David's wife"]]],
