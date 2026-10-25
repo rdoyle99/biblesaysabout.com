@@ -489,6 +489,30 @@ export default function HomeClient({
               </span>
             ))}
           </p>
+          <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+            How many times is it in the Bible:{" "}
+            {[
+              ["/words/god", "God"],
+              ["/words/jesus", "Jesus"],
+              ["/words/sin", "sin"],
+              ["/words/soul", "soul"],
+              ["/words/amen", "amen"],
+              ["/words/tree", "tree"],
+              ["/words/demon", "demons"],
+              ["/words/daniel", "Daniel"],
+              ["/words/jonah", "Jonah"],
+              ["/words/fasting", "fasting"],
+              ["/words/verily-verily", "verily, verily"],
+              ["/words/thus-saith-the-lord", "thus saith the Lord"],
+            ].map(([href, label], i) => (
+              <span key={href}>
+                {i ? " · " : ""}
+                <Link href={href} className="underline underline-offset-2 hover:text-foreground">
+                  {label}
+                </Link>
+              </span>
+            ))}
+          </p>
         </div>
       </section>
 

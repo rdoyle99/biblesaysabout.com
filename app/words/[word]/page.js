@@ -36,6 +36,10 @@ function booksSentence(word, topBooks, mainName, nBooks) {
   return `${lead} ${topBooks[0][0]} has the most (${fmt(top)})${rest.length ? `, then ${rest.join(" and ")}` : ""}.`;
 }
 
+// Searchers ask for these in the plural ("how many times are demons mentioned"; Search Console, 2026-10-25), and the KJV
+// never has the word, so the title, H1 and answer lead with the WEB count of every form.
+const PLURAL_QUERY = { demon: "demons" };
+
 // Title test 2026-10-23 (seo move 2026-10-23-snippet-zero-click-titles): pages at position 3-7 with click rates under 1%;
 // the count stays in the description and the answer box, the title promises the book-by-book table instead.
 const TITLE_TEST = new Set(["blood", "jesus", "sin"]);
@@ -44,12 +48,14 @@ function titleFor(w) {
   const h = headline(w);
   if (TITLE_TEST.has(w.slug)) return `How Many Times Is ${cap(w.word)} Mentioned in the Bible? Every Use by Book`;
   if (w.slug === "fear-not") return `How Many Times Does the Bible Say Fear Not? ${h.n} (${h.translation})`;
+  if (PLURAL_QUERY[w.slug]) return `How Many Times Are ${cap(PLURAL_QUERY[w.slug])} Mentioned in the Bible? ${fmt(w.web.total)} (WEB)`;
   if (w.kind === "phrase") return `How Many Times Is "${cap(w.word)}" in the Bible? ${fmt(h.n)} (${h.translation})`;
   return `How Many Times Is ${cap(w.word)} Mentioned in the Bible? ${fmt(h.n)} (${h.translation})`;
 }
 
 function questionFor(w) {
   if (w.slug === "fear-not") return "How many times does the Bible say fear not?";
+  if (PLURAL_QUERY[w.slug]) return `How many times are ${PLURAL_QUERY[w.slug]} mentioned in the Bible?`;
   if (w.kind === "phrase") return `How many times is "${w.word}" in the Bible?`;
   return `How many times is ${w.word} mentioned in the Bible?`;
 }
@@ -77,8 +83,12 @@ function answerFor(w) {
         `Counting ${w.kind === "phrase" ? "the related wordings" : "every form"} (${kjvForms.map(([f]) => f).join(", ")}), it appears ${times(k.total)} in ${plural(k.verses, "verse", "verses")} across ${k.books} of the 66 books.`
       );
     else parts.push(`It is found in ${k.books} of the 66 books.`);
-    if (w.kind === "phrase")
-      parts.push(`The World English Bible words it differently: ${webForms.map(([f, n]) => `${f} ${fmt(n)}`).join(", ")}.`);
+    if (w.kind === "phrase") {
+      const bare = (s) => s.toLowerCase().replace(/[^a-z0-9 ]/g, "");
+      if (!webForms.length) parts.push(`The World English Bible never uses this phrase.`);
+      else if (webForms.length === 1 && bare(webForms[0][0]) === bare(w.word)) parts.push(`The World English Bible has it ${times(wb.total)}.`);
+      else parts.push(`The World English Bible words it differently: ${webForms.map(([f, n]) => `${f} ${fmt(n)}`).join(", ")}.`);
+    }
     else if (wb.exact === 0)
       parts.push(
         webForms.length
@@ -86,6 +96,11 @@ function answerFor(w) {
           : `The World English Bible never uses the word ${w.word}.`
       );
     else parts.push(`The World English Bible uses ${w.word} ${times(wb.exact)}${wb.total !== wb.exact ? ` (${fmt(wb.total)} with every form)` : ""}.`);
+  } else if (PLURAL_QUERY[w.slug]) {
+    parts.push(
+      `${cap(PLURAL_QUERY[w.slug])} are mentioned ${times(wb.total)} in the World English Bible, in ${plural(wb.verses, "verse", "verses")} (${webForms.map(([f, n]) => `${f} ${fmt(n)}`).join(", ")}).`
+    );
+    parts.push(`The King James Version never uses the word ${w.word}.`);
   } else {
     parts.push(`${label} does not appear in the King James Version.`);
     parts.push(
@@ -111,6 +126,8 @@ export async function generateMetadata({ params }) {
     : "";
   const description = meaning
     ? meaningDesc.length + 25 <= 160 ? `${meaningDesc} Counts by form and book.` : meaningDesc
+    : PLURAL_QUERY[w.slug]
+      ? `${cap(PLURAL_QUERY[w.slug])} are mentioned ${times(w.web.total)} in the World English Bible (${plural(w.web.verses, "verse", "verses")}); the KJV never uses the word ${w.word}. Counts by form and book.`
     : w.kind === "phrase"
       ? `${cap(w.word)} appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}). Every wording counted in the KJV and World English Bible, by book, with first and last mention.`
       : `${cap(w.word)} appears ${times(h.n)} in the ${h.name} (${plural(h.verses, "verse", "verses")}) and ${times(otherN)} in the ${h.translation === "KJV" ? "World English Bible" : "KJV"}. Counts by form and book, first and last mention.`;
