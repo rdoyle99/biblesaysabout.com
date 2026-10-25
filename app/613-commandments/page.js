@@ -123,7 +123,10 @@ export default function SixHundredThirteenCommandments() {
           <p className="mt-3 leading-relaxed">
             The Talmud gives the total but no list. Later rabbis drew up lists of their own. The best-known is Maimonides&apos;, which Judaism 101 calls probably the most widely accepted, though not the only one. It is the list counted on this page, using the verse references as Wikipedia gives them. Each commandment is placed at one verse, the first the list cites for it.
           </p>
-          <div className="mt-6 overflow-x-auto rounded-xl border bg-card">
+          <p className="mt-3 leading-relaxed">
+            The Talmud passage goes on (Makkot 23b-24a): David reduced the {DATA.total} to eleven in Psalm 15, Isaiah to six, Micah to three, Isaiah again to two, and Amos to one, &quot;Seek ye me, and ye shall live&quot;. A rabbi objects to Amos, and the Talmud settles on Habakkuk 2:4, &quot;the just shall live by his faith&quot;. Paul quotes the same line in Romans 1:17.
+          </p>
+          <div className="mt-5 overflow-x-auto rounded-xl border bg-card">
             <table className="w-full text-left text-sm">
               <thead className="border-b bg-muted/50">
                 <tr>
@@ -145,9 +148,6 @@ export default function SixHundredThirteenCommandments() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 leading-relaxed">
-            The same passage goes on (Makkot 23b-24a): David reduced the {DATA.total} to eleven in Psalm 15, Isaiah to six, Micah to three, Isaiah again to two, and Amos to one, &quot;Seek ye me, and ye shall live&quot;. A rabbi objects to Amos, and the Talmud settles on Habakkuk 2:4, &quot;the just shall live by his faith&quot;. Paul quotes the same line in Romans 1:17.
-          </p>
         </Section>
 
         <Section id="ten" title="Are the Ten Commandments part of the 613?" intro={`Yes. Maimonides' list cites Exodus 20 ${TEN.ex20} times: ${TEN.ex20Decalogue} from the Ten Commandments and ${TEN.ex20Altar} from the laws that follow them.`} muted>

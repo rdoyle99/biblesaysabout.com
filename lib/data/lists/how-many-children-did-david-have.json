@@ -1,0 +1,541 @@
+{
+ "generated": "2026-10-25",
+ "totals": {
+  "solomonWives": 700,
+  "killed": [
+   "Amnon",
+   "Absalom",
+   "Adonijah"
+  ],
+  "namedSons": 19,
+  "hebron": 6,
+  "jerusalemChr3": 13,
+  "jerusalemSam5": 11,
+  "jerusalemChr14": 13,
+  "bathshebaSonsListed": 4,
+  "bathshebaTotal": 5,
+  "nine": 9,
+  "distinctNames": 17,
+  "repeated": [
+   "Elishama",
+   "Eliphelet"
+  ],
+  "onlyInChronicles": [
+   "Eliphelet",
+   "Nogah"
+  ],
+  "spellingRows": 5,
+  "daughtersNamed": 1,
+  "diedUnnamed": 1,
+  "jerimoth": 1,
+  "identified": 22,
+  "wivesNamed": 8,
+  "concubinesCounted": 10
+ },
+ "hebron": [
+  {
+   "order": 1,
+   "sam": "Amnon",
+   "chr": "Amnon",
+   "mother": "Ahinoam the Jezreelitess",
+   "note": "the firstborn"
+  },
+  {
+   "order": 2,
+   "sam": "Chileab",
+   "chr": "Daniel",
+   "mother": "Abigail",
+   "note": "\"the wife of Nabal the Carmelite\" (2 Samuel 3:3), \"the Carmelitess\" (1 Chronicles 3:1)"
+  },
+  {
+   "order": 3,
+   "sam": "Absalom",
+   "chr": "Absalom",
+   "mother": "Maacah",
+   "note": "\"the daughter of Talmai king of Geshur\""
+  },
+  {
+   "order": 4,
+   "sam": "Adonijah",
+   "chr": "Adonijah",
+   "mother": "Haggith",
+   "note": ""
+  },
+  {
+   "order": 5,
+   "sam": "Shephatiah",
+   "chr": "Shephatiah",
+   "mother": "Abital",
+   "note": ""
+  },
+  {
+   "order": 6,
+   "sam": "Ithream",
+   "chr": "Ithream",
+   "mother": "Eglah",
+   "note": "\"David's wife\" (2 Samuel 3:5)"
+  }
+ ],
+ "jerusalem": [
+  {
+   "row": 1,
+   "sam": "Shammuah",
+   "chr3": "Shimea",
+   "chr14": "Shammua",
+   "web": {
+    "sam": "Shammua"
+   },
+   "bathsheba": true
+  },
+  {
+   "row": 2,
+   "sam": "Shobab",
+   "chr3": "Shobab",
+   "chr14": "Shobab",
+   "web": {},
+   "bathsheba": true
+  },
+  {
+   "row": 3,
+   "sam": "Nathan",
+   "chr3": "Nathan",
+   "chr14": "Nathan",
+   "web": {},
+   "bathsheba": true
+  },
+  {
+   "row": 4,
+   "sam": "Solomon",
+   "chr3": "Solomon",
+   "chr14": "Solomon",
+   "web": {},
+   "bathsheba": true
+  },
+  {
+   "row": 5,
+   "sam": "Ibhar",
+   "chr3": "Ibhar",
+   "chr14": "Ibhar",
+   "web": {},
+   "bathsheba": false
+  },
+  {
+   "row": 6,
+   "sam": "Elishua",
+   "chr3": "Elishama",
+   "chr14": "Elishua",
+   "web": {},
+   "bathsheba": false
+  },
+  {
+   "row": 7,
+   "sam": null,
+   "chr3": "Eliphelet",
+   "chr14": "Elpalet",
+   "web": {
+    "chr14": "Elpelet"
+   },
+   "bathsheba": false
+  },
+  {
+   "row": 8,
+   "sam": null,
+   "chr3": "Nogah",
+   "chr14": "Nogah",
+   "web": {},
+   "bathsheba": false
+  },
+  {
+   "row": 9,
+   "sam": "Nepheg",
+   "chr3": "Nepheg",
+   "chr14": "Nepheg",
+   "web": {},
+   "bathsheba": false
+  },
+  {
+   "row": 10,
+   "sam": "Japhia",
+   "chr3": "Japhia",
+   "chr14": "Japhia",
+   "web": {},
+   "bathsheba": false
+  },
+  {
+   "row": 11,
+   "sam": "Elishama",
+   "chr3": "Elishama",
+   "chr14": "Elishama",
+   "web": {},
+   "bathsheba": false
+  },
+  {
+   "row": 12,
+   "sam": "Eliada",
+   "chr3": "Eliada",
+   "chr14": "Beeliada",
+   "web": {},
+   "bathsheba": false
+  },
+  {
+   "row": 13,
+   "sam": "Eliphalet",
+   "chr3": "Eliphelet",
+   "chr14": "Eliphalet",
+   "web": {
+    "sam": "Eliphelet",
+    "chr14": "Eliphelet"
+   },
+   "bathsheba": false
+  }
+ ],
+ "quotes": {
+  "verse9": {
+   "kjv": "These were all the sons of David, beside the sons of the concubines, and Tamar their sister.",
+   "web": "All these were the sons of David, besides the sons of the concubines; and Tamar was their sister."
+  },
+  "more": {
+   "sam": "And David took him more concubines and wives out of Jerusalem, after he was come from Hebron: and there were yet sons and daughters born to David.",
+   "samWeb": "David took more concubines and wives for himself out of Jerusalem, after he had come from Hebron; and more sons and daughters were born to David.",
+   "chr": "And David took more wives at Jerusalem: and David begat more sons and daughters."
+  },
+  "died": {
+   "kjv": "And it came to pass on the seventh day, that the child died. And the servants of David feared to tell him that the child was dead: for they said, Behold, while the child was yet alive, we spake unto him, and he would not hearken unto our voice: how will he then vex himself, if we tell him that the child is dead?",
+   "web": "On the seventh day, the child died. David’s servants were afraid to tell him that the child was dead, for they said, “Behold, while the child was yet alive, we spoke to him, and he didn’t listen to our voice. How will he then harm himself, if we tell him that the child is dead?”"
+  },
+  "goTo": "But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me.",
+  "chr3Six": "These six were born unto him in Hebron; and there he reigned seven years and six months: and in Jerusalem he reigned thirty and three years.",
+  "jerimoth": {
+   "kjv": "And Rehoboam took him Mahalath the daughter of Jerimoth the son of David to wife, and Abihail the daughter of Eliab the son of Jesse;",
+   "web": "Rehoboam took a wife for himself, Mahalath the daughter of Jerimoth the son of David and of Abihail the daughter of Eliab the son of Jesse."
+  },
+  "michal": {
+   "noChild": "Therefore Michal the daughter of Saul had no child unto the day of her death.",
+   "noChildWeb": "Michal the daughter of Saul had no child to the day of her death.",
+   "despised": "And as the ark of the LORD came into the city of David, Michal Saul’s daughter looked through a window, and saw king David leaping and dancing before the LORD; and she despised him in her heart.",
+   "phalti": "But Saul had given Michal his daughter, David’s wife, to Phalti the son of Laish, which was of Gallim.",
+   "back": "And Ish-bosheth sent, and took her from her husband, even from Phaltiel the son of Laish.",
+   "adriel": "But the king took the two sons of Rizpah the daughter of Aiah, whom she bare unto Saul, Armoni and Mephibosheth; and the five sons of Michal the daughter of Saul, whom she brought up for Adriel the son of Barzillai the Meholathite:",
+   "adrielWeb": "But the king took the two sons of Rizpah the daughter of Aiah, whom she bore to Saul, Armoni and Mephibosheth; and the five sons of Michal the daughter of Saul, whom she bore to Adriel the son of Barzillai the Meholathite."
+  },
+  "merab": {
+   "promised": "And Saul said to David, Behold my elder daughter Merab, her will I give thee to wife: only be thou valiant for me, and fight the LORD’S battles. For Saul said, Let not mine hand be upon him, but let the hand of the Philistines be upon him.",
+   "given": "But it came to pass at the time when Merab Saul’s daughter should have been given to David, that she was given unto Adriel the Meholathite to wife."
+  },
+  "abishag": {
+   "found": "So they sought for a fair damsel throughout all the coasts of Israel, and found Abishag a Shunammite, and brought her to the king.",
+   "knewNot": "And the damsel was very fair, and cherished the king, and ministered to him: but the king knew her not.",
+   "knewNotWeb": "The young lady was very beautiful; and she cherished the king, and served him; but the king didn’t know her intimately.",
+   "asked": "And he said, Speak, I pray thee, unto Solomon the king, (for he will not say thee nay,) that he give me Abishag the Shunammite to wife."
+  },
+  "tamar": {
+   "sister": "And it came to pass after this, that Absalom the son of David had a fair sister, whose name was Tamar; and Amnon the son of David loved her.",
+   "forced": "Howbeit he would not hearken unto her voice: but, being stronger than she, forced her, and lay with her.",
+   "robes": "And she had a garment of divers colours upon her: for with such robes were the king’s daughters that were virgins apparelled. Then his servant brought her out, and bolted the door after her.",
+   "desolate": "And Absalom her brother said unto her, Hath Amnon thy brother been with thee? but hold now thy peace, my sister: he is thy brother; regard not this thing. So Tamar remained desolate in her brother Absalom’s house.",
+   "desolateWeb": "Absalom her brother said to her, “Has Amnon your brother been with you? But now hold your peace, my sister. He is your brother. Don’t take this thing to heart.” So Tamar remained desolate in her brother Absalom’s house.",
+   "wroth": "But when king David heard of all these things, he was very wroth.",
+   "hated": "And Absalom spake unto his brother Amnon neither good nor bad: for Absalom hated Amnon, because he had forced his sister Tamar.",
+   "twoYears": "And it came to pass after two full years, that Absalom had sheepshearers in Baal-hazor, which is beside Ephraim: and Absalom invited all the king’s sons.",
+   "niece": "And unto Absalom there were born three sons, and one daughter, whose name was Tamar: she was a woman of a fair countenance."
+  },
+  "king": {
+   "mine": "And he said, Thou knowest that the kingdom was mine, and that all Israel set their faces on me, that I should reign: howbeit the kingdom is turned about, and is become my brother’s: for it was his from the LORD.",
+   "mineWeb": "He said, “You know that the kingdom was mine, and that all Israel set their faces on me, that I should reign. However the kingdom is turned around, and has become my brother’s; for it was his from Yahweh.",
+   "afterAbsalom": "And his father had not displeased him at any time in saying, Why hast thou done so? and he also was a very goodly man; and his mother bare him after Absalom.",
+   "feast": "And Adonijah slew sheep and oxen and fat cattle by the stone of Zoheleth, which is by En-rogel, and called all his brethren the king’s sons, and all the men of Judah the king’s servants:",
+   "notCalled": "But Nathan the prophet, and Benaiah, and the mighty men, and Solomon his brother, he called not.",
+   "nathan": "Go and get thee in unto king David, and say unto him, Didst not thou, my lord, O king, swear unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne? why then doth Adonijah reign?",
+   "assembled": "And David assembled all the princes of Israel, the princes of the tribes, and the captains of the companies that ministered to the king by course, and the captains over the thousands, and captains over the hundreds, and the stewards over all the substance and possession of the king, and of his sons, with the officers, and with the mighty men, and with all the valiant men, unto Jerusalem.",
+   "counsel": "Now therefore come, let me, I pray thee, give thee counsel, that thou mayest save thine own life, and the life of thy son Solomon.",
+   "swore": "And she said unto him, My lord, thou swarest by the LORD thy God unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne.",
+   "promise": "Even as I sware unto thee by the LORD God of Israel, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne in my stead; even so will I certainly do this day.",
+   "promiseWeb": "most certainly as I swore to you by Yahweh, the God of Israel, saying, ‘Assuredly Solomon your son shall reign after me, and he shall sit on my throne in my place;’ I will most certainly do this today.”",
+   "chosen": "And of all my sons, (for the LORD hath given me many sons,) he hath chosen Solomon my son to sit upon the throne of the kingdom of the LORD over Israel.",
+   "chosenWeb": "Of all my sons (for Yahweh has given me many sons), he has chosen Solomon my son to sit on the throne of Yahweh’s kingdom over Israel.",
+   "name": "Behold, a son shall be born to thee, who shall be a man of rest; and I will give him rest from all his enemies round about: for his name shall be Solomon, and I will give peace and quietness unto Israel in his days.",
+   "elder": "And king Solomon answered and said unto his mother, And why dost thou ask Abishag the Shunammite for Adonijah? ask for him the kingdom also; for he is mine elder brother; even for him, and for Abiathar the priest, and for Joab the son of Zeruiah.",
+   "throne": "Then sat Solomon upon the throne of David his father; and his kingdom was established greatly.",
+   "old": "Now king David was old and stricken in years; and they covered him with clothes, but he gat no heat.",
+   "mourn": "And the king was much moved, and went up to the chamber over the gate, and wept: and as he went, thus he said, O my son Absalom, my son, my son Absalom! would God I had died for thee, O Absalom, my son, my son!",
+   "noSon": "Now Absalom in his lifetime had taken and reared up for himself a pillar, which is in the king’s dale: for he said, I have no son to keep my name in remembrance: and he called the pillar after his own name: and it is called unto this day, Absalom’s place.",
+   "chiefRulers": "And Benaiah the son of Jehoiada was over both the Cherethites and the Pelethites; and David’s sons were chief rulers.",
+   "reign": "David was thirty years old when he began to reign, and he reigned forty years."
+  },
+  "concubines": {
+   "ten": "And the king went forth, and all his household after him. And the king left ten women, which were concubines, to keep the house.",
+   "absalom": "So they spread Absalom a tent upon the top of the house; and Absalom went in unto his father’s concubines in the sight of all Israel.",
+   "ward": "And David came to his house at Jerusalem; and the king took the ten women his concubines, whom he had left to keep the house, and put them in ward, and fed them, but went not in unto them. So they were shut up unto the day of their death, living in widowhood.",
+   "saulsWives": "And I gave thee thy master’s house, and thy master’s wives into thy bosom, and gave thee the house of Israel and of Judah; and if that had been too little, I would moreover have given unto thee such and such things.",
+   "saul": "And Nathan said to David, Thou art the man. Thus saith the LORD God of Israel, I anointed thee king over Israel, and I delivered thee out of the hand of Saul;"
+  }
+ },
+ "wives": [
+  {
+   "name": "Michal",
+   "text": "Saul's younger daughter. Saul later gave her to Phalti, and David took her back. She had no child.",
+   "refs": [
+    "1 Samuel 14:49",
+    "1 Samuel 18:27",
+    "1 Samuel 25:44",
+    "2 Samuel 6:23"
+   ]
+  },
+  {
+   "name": "Ahinoam of Jezreel",
+   "text": "Mother of Amnon, the firstborn.",
+   "refs": [
+    "1 Samuel 25:43",
+    "2 Samuel 3:2"
+   ]
+  },
+  {
+   "name": "Abigail",
+   "text": "Widow of Nabal the Carmelite. Mother of Chileab (Daniel in 1 Chronicles).",
+   "refs": [
+    "1 Samuel 25:38",
+    "1 Samuel 25:42",
+    "2 Samuel 3:3"
+   ]
+  },
+  {
+   "name": "Maacah",
+   "text": "Daughter of Talmai king of Geshur. Mother of Absalom, whose sister was Tamar.",
+   "refs": [
+    "2 Samuel 3:3",
+    "2 Samuel 13:1"
+   ]
+  },
+  {
+   "name": "Haggith",
+   "text": "Mother of Adonijah.",
+   "refs": [
+    "2 Samuel 3:4"
+   ]
+  },
+  {
+   "name": "Abital",
+   "text": "Mother of Shephatiah.",
+   "refs": [
+    "2 Samuel 3:4"
+   ]
+  },
+  {
+   "name": "Eglah",
+   "text": "Mother of Ithream, called \"David's wife\".",
+   "refs": [
+    "2 Samuel 3:5"
+   ]
+  },
+  {
+   "name": "Bathsheba",
+   "text": "Wife of Uriah the Hittite, then David's wife. Mother of Solomon and three more sons, and of the child who died. Called Bath-shua in 1 Chronicles 3:5.",
+   "refs": [
+    "2 Samuel 11:3",
+    "2 Samuel 11:27",
+    "1 Chronicles 3:5"
+   ]
+  }
+ ],
+ "fates": [
+  {
+   "son": "Amnon",
+   "text": "Killed by Absalom's servants, on Absalom's order, two years after he raped Tamar.",
+   "refs": [
+    "2 Samuel 13:28",
+    "2 Samuel 13:29",
+    "2 Samuel 13:32"
+   ]
+  },
+  {
+   "son": "Chileab (Daniel)",
+   "text": "Nothing more is recorded after the two lists of Hebron sons.",
+   "refs": []
+  },
+  {
+   "son": "Absalom",
+   "text": "Fled to Geshur for three years, came back, made himself king in Hebron and drove David out of Jerusalem. Caught by his head in an oak and killed by Joab and ten of Joab's armour-bearers.",
+   "refs": [
+    "2 Samuel 13:38",
+    "2 Samuel 15:10",
+    "2 Samuel 15:14",
+    "2 Samuel 18:9",
+    "2 Samuel 18:14",
+    "2 Samuel 18:15"
+   ]
+  },
+  {
+   "son": "Adonijah",
+   "text": "Declared \"I will be king\" while David was old. Spared by Solomon, then put to death on Solomon's order after he asked for Abishag as his wife.",
+   "refs": [
+    "1 Kings 1:5",
+    "1 Kings 1:52",
+    "1 Kings 2:17",
+    "1 Kings 2:25"
+   ]
+  },
+  {
+   "son": "Shephatiah",
+   "text": "Nothing more is recorded.",
+   "refs": []
+  },
+  {
+   "son": "Ithream",
+   "text": "Nothing more is recorded.",
+   "refs": []
+  },
+  {
+   "son": "Solomon",
+   "text": "Anointed king by Zadok while David was still alive, and reigned 40 years. Matthew's genealogy of Jesus runs through him.",
+   "refs": [
+    "1 Kings 1:39",
+    "1 Kings 11:42",
+    "Matthew 1:6"
+   ]
+  },
+  {
+   "son": "Nathan",
+   "text": "Luke's genealogy of Jesus runs through him.",
+   "refs": [
+    "Luke 3:31"
+   ]
+  }
+ ],
+ "silent": {
+  "chileab": 0,
+  "ithream": 0
+ },
+ "words": {
+  "davidKjv": {
+   "total": 1064,
+   "verses": 895,
+   "books": 28,
+   "top": {
+    "book": "1 Samuel",
+    "count": 292,
+    "tied": [
+     "1 Samuel"
+    ]
+   },
+   "first": "Ruth 4:17",
+   "byBook": {
+    "Ruth": 2,
+    "1 Samuel": 292,
+    "2 Samuel": 286,
+    "1 Kings": 78,
+    "2 Kings": 18,
+    "1 Chronicles": 190,
+    "2 Chronicles": 74,
+    "Ezra": 3,
+    "Nehemiah": 8,
+    "Psalms": 13,
+    "Proverbs": 1,
+    "Ecclesiastes": 1,
+    "Song of Solomon": 1,
+    "Isaiah": 10,
+    "Jeremiah": 15,
+    "Ezekiel": 4,
+    "Hosea": 1,
+    "Amos": 2,
+    "Zechariah": 6,
+    "Matthew": 17,
+    "Mark": 7,
+    "Luke": 13,
+    "John": 2,
+    "Acts": 11,
+    "Romans": 3,
+    "2 Timothy": 1,
+    "Hebrews": 2,
+    "Revelation": 3
+   }
+  },
+  "davidWeb": {
+   "total": 1063,
+   "verses": 894,
+   "books": 28,
+   "top": {
+    "book": "1 Samuel",
+    "count": 291,
+    "tied": [
+     "1 Samuel"
+    ]
+   },
+   "first": "Ruth 4:17",
+   "byBook": {
+    "Ruth": 2,
+    "1 Samuel": 291,
+    "2 Samuel": 286,
+    "1 Kings": 78,
+    "2 Kings": 18,
+    "1 Chronicles": 190,
+    "2 Chronicles": 74,
+    "Ezra": 3,
+    "Nehemiah": 8,
+    "Psalms": 13,
+    "Proverbs": 1,
+    "Ecclesiastes": 1,
+    "Song of Solomon": 1,
+    "Isaiah": 10,
+    "Jeremiah": 15,
+    "Ezekiel": 4,
+    "Hosea": 1,
+    "Amos": 2,
+    "Zechariah": 6,
+    "Matthew": 17,
+    "Mark": 7,
+    "Luke": 13,
+    "John": 2,
+    "Acts": 11,
+    "Romans": 3,
+    "2 Timothy": 1,
+    "Hebrews": 2,
+    "Revelation": 3
+   }
+  },
+  "jesusKjv": 984,
+  "mosesKjv": 847,
+  "absalomKjv": 108,
+  "absalomWeb": 108,
+  "tamarKjv": 27,
+  "tamar2SamKjv": 14,
+  "tamar2SamWeb": 14,
+  "tamarWeb": 29,
+  "bathshebaKjv": 10,
+  "bathshebaWeb": 10,
+  "sonOfDavidKjv": 26,
+  "sonOfDavidWeb": 25,
+  "sonOfDavidNtKjv": 16,
+  "sonOfDavidNtWeb": 15,
+  "jesusSonOfDavidKjv": 14,
+  "jesusSonOfDavidWeb": 13,
+  "jesusRefs": [
+   "Matthew 1:1",
+   "Matthew 9:27",
+   "Matthew 12:23",
+   "Matthew 15:22",
+   "Matthew 20:30",
+   "Matthew 20:31",
+   "Matthew 21:9",
+   "Matthew 21:15",
+   "Matthew 22:42",
+   "Mark 10:47",
+   "Mark 10:48",
+   "Mark 12:35",
+   "Luke 18:38",
+   "Luke 18:39"
+  ],
+  "mercy": 8,
+  "sonsOfDavid": {
+   "total": 7,
+   "refs": [
+    "1 Chronicles 3:1",
+    "1 Chronicles 3:9",
+    "1 Chronicles 18:17",
+    "2 Chronicles 13:8",
+    "2 Chronicles 23:3",
+    "2 Chronicles 32:33",
+    "Ezra 8:2"
+   ]
+  }
+ }
+}

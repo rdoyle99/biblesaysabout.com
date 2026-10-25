@@ -189,7 +189,7 @@ export default function GiftsOfTheSpirit() {
 
         <Section>
           <p className="mb-4">
-            The nine qualities of Galatians 5 are on <Link href="/fruit-of-the-spirit" className={link}>the fruit of the Spirit</Link>, and Ephesians 6 on <Link href="/armor-of-god" className={link}>the armor of God</Link>. Jesus&apos; own works are counted on <Link href="/miracles-of-jesus" className={link}>the miracles of Jesus</Link>. Read about <Link href="/books/1-corinthians" className={link}>1 Corinthians</Link> and <Link href="/books/romans" className={link}>Romans</Link>, or the word counts for {wordLink("wisdom", "wisdom")}, {wordLink("faith", "faith")} and {wordLink("holy-spirit", "the Holy Spirit")}. More counts are on{" "}
+            The nine qualities of Galatians 5 are on <Link href="/fruit-of-the-spirit" className={link}>the fruit of the Spirit</Link>, and Ephesians 6 on <Link href="/armor-of-god" className={link}>the armor of God</Link>. Jesus&apos; own works are counted on <Link href="/miracles-of-jesus" className={link}>the miracles of Jesus</Link>. Read about <Link href="/books/1-corinthians" className={link}>1 Corinthians</Link> and <Link href="/books/romans" className={link}>Romans</Link>, or the word counts for {wordLink("wisdom", "wisdom")}, {wordLink("faith", "faith")} and {wordLink("holy-spirit", "the Holy Spirit")}. Every title the Bible gives the Spirit is on <Link href="/names-of-the-holy-spirit" className={link}>the names of the Holy Spirit</Link>. More counts are on{" "}
             <Link href="/bible-by-the-numbers" className={link}>the Bible by the numbers</Link>.
           </p>
           <MethodNote text={METHOD} date={DATA.generated} />

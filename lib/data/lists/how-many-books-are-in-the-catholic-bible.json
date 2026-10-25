@@ -1,0 +1,755 @@
+{
+ "generated": "2026-10-25",
+ "total": 73,
+ "ot": 46,
+ "nt": 27,
+ "protestant": {
+  "total": 66,
+  "ot": 39,
+  "nt": 27
+ },
+ "extra": 7,
+ "catholicOt": [
+  {
+   "n": 1,
+   "name": "Genesis",
+   "section": "The Pentateuch",
+   "deutero": false,
+   "protestantName": "Genesis"
+  },
+  {
+   "n": 2,
+   "name": "Exodus",
+   "section": "The Pentateuch",
+   "deutero": false,
+   "protestantName": "Exodus"
+  },
+  {
+   "n": 3,
+   "name": "Leviticus",
+   "section": "The Pentateuch",
+   "deutero": false,
+   "protestantName": "Leviticus"
+  },
+  {
+   "n": 4,
+   "name": "Numbers",
+   "section": "The Pentateuch",
+   "deutero": false,
+   "protestantName": "Numbers"
+  },
+  {
+   "n": 5,
+   "name": "Deuteronomy",
+   "section": "The Pentateuch",
+   "deutero": false,
+   "protestantName": "Deuteronomy"
+  },
+  {
+   "n": 6,
+   "name": "Joshua",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "Joshua"
+  },
+  {
+   "n": 7,
+   "name": "Judges",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "Judges"
+  },
+  {
+   "n": 8,
+   "name": "Ruth",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "Ruth"
+  },
+  {
+   "n": 9,
+   "name": "1 Samuel",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "1 Samuel"
+  },
+  {
+   "n": 10,
+   "name": "2 Samuel",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "2 Samuel"
+  },
+  {
+   "n": 11,
+   "name": "1 Kings",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "1 Kings"
+  },
+  {
+   "n": 12,
+   "name": "2 Kings",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "2 Kings"
+  },
+  {
+   "n": 13,
+   "name": "1 Chronicles",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "1 Chronicles"
+  },
+  {
+   "n": 14,
+   "name": "2 Chronicles",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "2 Chronicles"
+  },
+  {
+   "n": 15,
+   "name": "Ezra",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "Ezra"
+  },
+  {
+   "n": 16,
+   "name": "Nehemiah",
+   "section": "Historical books",
+   "deutero": false,
+   "protestantName": "Nehemiah"
+  },
+  {
+   "n": 17,
+   "name": "Tobit",
+   "section": "Biblical novellas",
+   "deutero": true,
+   "protestantName": null
+  },
+  {
+   "n": 18,
+   "name": "Judith",
+   "section": "Biblical novellas",
+   "deutero": true,
+   "protestantName": null
+  },
+  {
+   "n": 19,
+   "name": "Esther",
+   "section": "Biblical novellas",
+   "deutero": false,
+   "protestantName": "Esther"
+  },
+  {
+   "n": 20,
+   "name": "1 Maccabees",
+   "section": "Biblical novellas",
+   "deutero": true,
+   "protestantName": null
+  },
+  {
+   "n": 21,
+   "name": "2 Maccabees",
+   "section": "Biblical novellas",
+   "deutero": true,
+   "protestantName": null
+  },
+  {
+   "n": 22,
+   "name": "Job",
+   "section": "Wisdom books",
+   "deutero": false,
+   "protestantName": "Job"
+  },
+  {
+   "n": 23,
+   "name": "Psalms",
+   "section": "Wisdom books",
+   "deutero": false,
+   "protestantName": "Psalms"
+  },
+  {
+   "n": 24,
+   "name": "Proverbs",
+   "section": "Wisdom books",
+   "deutero": false,
+   "protestantName": "Proverbs"
+  },
+  {
+   "n": 25,
+   "name": "Ecclesiastes",
+   "section": "Wisdom books",
+   "deutero": false,
+   "protestantName": "Ecclesiastes"
+  },
+  {
+   "n": 26,
+   "name": "Song of Songs",
+   "section": "Wisdom books",
+   "deutero": false,
+   "protestantName": "Song of Solomon"
+  },
+  {
+   "n": 27,
+   "name": "Wisdom",
+   "section": "Wisdom books",
+   "deutero": true,
+   "protestantName": null
+  },
+  {
+   "n": 28,
+   "name": "Sirach",
+   "section": "Wisdom books",
+   "deutero": true,
+   "protestantName": null
+  },
+  {
+   "n": 29,
+   "name": "Isaiah",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Isaiah"
+  },
+  {
+   "n": 30,
+   "name": "Jeremiah",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Jeremiah"
+  },
+  {
+   "n": 31,
+   "name": "Lamentations",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Lamentations"
+  },
+  {
+   "n": 32,
+   "name": "Baruch",
+   "section": "Prophetic books",
+   "deutero": true,
+   "protestantName": null
+  },
+  {
+   "n": 33,
+   "name": "Ezekiel",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Ezekiel"
+  },
+  {
+   "n": 34,
+   "name": "Daniel",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Daniel"
+  },
+  {
+   "n": 35,
+   "name": "Hosea",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Hosea"
+  },
+  {
+   "n": 36,
+   "name": "Joel",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Joel"
+  },
+  {
+   "n": 37,
+   "name": "Amos",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Amos"
+  },
+  {
+   "n": 38,
+   "name": "Obadiah",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Obadiah"
+  },
+  {
+   "n": 39,
+   "name": "Jonah",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Jonah"
+  },
+  {
+   "n": 40,
+   "name": "Micah",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Micah"
+  },
+  {
+   "n": 41,
+   "name": "Nahum",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Nahum"
+  },
+  {
+   "n": 42,
+   "name": "Habakkuk",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Habakkuk"
+  },
+  {
+   "n": 43,
+   "name": "Zephaniah",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Zephaniah"
+  },
+  {
+   "n": 44,
+   "name": "Haggai",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Haggai"
+  },
+  {
+   "n": 45,
+   "name": "Zechariah",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Zechariah"
+  },
+  {
+   "n": 46,
+   "name": "Malachi",
+   "section": "Prophetic books",
+   "deutero": false,
+   "protestantName": "Malachi"
+  }
+ ],
+ "movedFromProtestantOrder": [],
+ "deutero": [
+  {
+   "name": "Tobit",
+   "kjvName": "Tobit",
+   "chapters": 14,
+   "verses": 244,
+   "versesKjv": 244,
+   "words": 6773,
+   "wordsKjv": 6964,
+   "summary": "An Israelite exile in Nineveh is blinded; the angel Raphael, sent to heal him, travels with his son Tobias.",
+   "ref": "Tobit 12:15"
+  },
+  {
+   "name": "Judith",
+   "kjvName": "Judith",
+   "chapters": 16,
+   "verses": 339,
+   "versesKjv": 339,
+   "words": 11000,
+   "wordsKjv": 11062,
+   "summary": "Judith, a widow, goes into the camp of Holofernes, Nebuchadnezzar's general, and beheads him.",
+   "ref": "Judith 13:8"
+  },
+  {
+   "name": "Wisdom",
+   "kjvName": "Wisdom of Solomon",
+   "chapters": 19,
+   "verses": 436,
+   "versesKjv": 436,
+   "words": 10858,
+   "wordsKjv": 10604,
+   "summary": "Teaching on wisdom in the voice of a king who prays for it; the KJV calls it the Wisdom of Solomon.",
+   "ref": "Wisdom 9:7"
+  },
+  {
+   "name": "Sirach",
+   "kjvName": "Ecclesiasticus",
+   "chapters": 51,
+   "verses": 1356,
+   "versesKjv": 1392,
+   "words": 27670,
+   "wordsKjv": 28275,
+   "summary": "Proverbs and teaching signed by Jesus the son of Sirach of Jerusalem; also called Ecclesiasticus.",
+   "ref": "Sirach 50:27"
+  },
+  {
+   "name": "Baruch",
+   "kjvName": "Baruch, with the Epistle of Jeremy",
+   "chapters": 6,
+   "verses": 213,
+   "versesKjv": 213,
+   "words": 5136,
+   "wordsKjv": 5054,
+   "summary": "Words of Baruch, Jeremiah's scribe, written in Babylon; chapter 6 is the Letter of Jeremiah.",
+   "ref": "Baruch 1:1"
+  },
+  {
+   "name": "1 Maccabees",
+   "kjvName": "1 Maccabees",
+   "chapters": 16,
+   "verses": 924,
+   "versesKjv": 924,
+   "words": 23523,
+   "wordsKjv": 23116,
+   "summary": "The revolt led by Judas Maccabaeus in the time of Antiochus Epiphanes, and the eight-day rededication of the altar.",
+   "ref": "1 Maccabees 4:59"
+  },
+  {
+   "name": "2 Maccabees",
+   "kjvName": "2 Maccabees",
+   "chapters": 15,
+   "verses": 555,
+   "versesKjv": 555,
+   "words": 17289,
+   "wordsKjv": 16328,
+   "summary": "A second account of the revolt, with the seven brothers and their mother who chose death over breaking the law.",
+   "ref": "2 Maccabees 7:1"
+  }
+ ],
+ "deuteroTotal": {
+  "chapters": 137,
+  "verses": 4067,
+  "words": 102249,
+  "wordsKjv": 101403
+ },
+ "longest": {
+  "name": "Sirach",
+  "words": 27670,
+  "chapters": 51,
+  "verses": 1356,
+  "versesKjv": 1392,
+  "rankAmong67": 8
+ },
+ "shortest": {
+  "name": "Baruch",
+  "words": 5136,
+  "chapters": 6
+ },
+ "sirachGaps": {
+  "kjvOnly": [
+   "1:5",
+   "1:7",
+   "1:21",
+   "3:19",
+   "3:25",
+   "10:21",
+   "11:15",
+   "11:16",
+   "13:14",
+   "16:15",
+   "16:16",
+   "17:5",
+   "17:9",
+   "17:16",
+   "17:18",
+   "17:21",
+   "18:3",
+   "19:18",
+   "19:19",
+   "19:21",
+   "20:3",
+   "20:32",
+   "22:9",
+   "22:10",
+   "23:28",
+   "24:18",
+   "24:24",
+   "25:12",
+   "26:19",
+   "26:20",
+   "26:21",
+   "26:22",
+   "26:23",
+   "26:24",
+   "26:25",
+   "26:26",
+   "26:27"
+  ],
+  "webOnly": [
+   "44:23"
+  ]
+ },
+ "longestNt": {
+  "name": "Luke",
+  "words": 24435
+ },
+ "additions": [
+  {
+   "name": "Additions to Esther",
+   "kjvName": "The Rest of Esther",
+   "where": "five passages; the WEB brackets them in 1:1, 3:13, 4:17, 8:13, 10:3",
+   "verses": null,
+   "versesKjv": 105,
+   "words": 2388,
+   "wordsKjv": 2708,
+   "kjvChapters": "10:4 to 16:24"
+  },
+  {
+   "name": "Prayer of Azariah and Song of the Three",
+   "kjvName": "The Song of the Three Holy Children",
+   "where": "Daniel 3, after verse 23",
+   "verses": 64,
+   "versesNumbered": 68,
+   "emptyMarkers": 0,
+   "skipped": [
+    19,
+    45,
+    46,
+    49
+   ],
+   "versesKjv": 68,
+   "words": 1337,
+   "wordsKjv": 1405
+  },
+  {
+   "name": "Susanna",
+   "kjvName": "The History of Susanna",
+   "where": "Daniel 13 in Catholic Bibles",
+   "verses": 64,
+   "versesNumbered": 64,
+   "emptyMarkers": 0,
+   "skipped": [],
+   "versesKjv": 64,
+   "words": 1449,
+   "wordsKjv": 1447
+  },
+  {
+   "name": "Bel and the Dragon",
+   "kjvName": "Bel and the Dragon",
+   "where": "Daniel 14 in Catholic Bibles",
+   "verses": 42,
+   "versesNumbered": 42,
+   "emptyMarkers": 0,
+   "skipped": [],
+   "versesKjv": 42,
+   "words": 1081,
+   "wordsKjv": 1070
+  }
+ ],
+ "additionsTotal": {
+  "words": 6255,
+  "wordsKjv": 6630
+ },
+ "esther": {
+  "hebrewGodOrLord": {
+   "kjv": 0,
+   "web": 0
+  },
+  "additionsGod": 20,
+  "additionsLord": 21,
+  "greekWords": 7396,
+  "hebrewWords": 5415,
+  "brackets": [
+   {
+    "at": "1:1",
+    "words": 343
+   },
+   {
+    "at": "3:13",
+    "words": 320
+   },
+   {
+    "at": "4:17",
+    "words": 796
+   },
+   {
+    "at": "8:13",
+    "words": 661
+   },
+   {
+    "at": "10:3",
+    "words": 268
+   }
+  ]
+ },
+ "words": {
+  "extraWeb": 108504,
+  "ntWeb": 175088,
+  "otWeb": 576157,
+  "protestantWeb": 751245,
+  "catholicWeb": 859749,
+  "pctOfNt": 62,
+  "pctLonger": 14.4
+ },
+ "other": [
+  {
+   "name": "1 Esdras",
+   "catholic": false,
+   "greek": "yes",
+   "kjv": true,
+   "chapters": 9,
+   "verses": 448,
+   "words": 11824,
+   "wordsKjv": 11778
+  },
+  {
+   "name": "Prayer of Manasseh",
+   "catholic": false,
+   "greek": "carried (Odes or appendix)",
+   "kjv": true,
+   "chapters": 1,
+   "verses": 15,
+   "words": 423,
+   "wordsKjv": 408
+  },
+  {
+   "name": "Psalm 151",
+   "catholic": false,
+   "greek": "yes, with the Psalms",
+   "kjv": false,
+   "chapters": 1,
+   "verses": 7,
+   "words": 106,
+   "wordsKjv": null
+  },
+  {
+   "name": "3 Maccabees",
+   "catholic": false,
+   "greek": "yes",
+   "kjv": false,
+   "chapters": 7,
+   "verses": 228,
+   "words": 6711,
+   "wordsKjv": null
+  },
+  {
+   "name": "4 Maccabees",
+   "catholic": false,
+   "greek": "appendix",
+   "kjv": false,
+   "chapters": 18,
+   "verses": 483,
+   "words": 10333,
+   "wordsKjv": null
+  },
+  {
+   "name": "2 Esdras",
+   "catholic": false,
+   "greek": "no",
+   "kjv": true,
+   "chapters": 16,
+   "verses": 944,
+   "words": 23005,
+   "wordsKjv": 20431
+  }
+ ],
+ "kjv": {
+  "description": "The King James Version or Authorized Version of the Holy Bible, using the standardized text of 1769, with Apocrypha/Deuterocanon",
+  "divisions": 15,
+  "books": 14,
+  "catholicRows": 11,
+  "notCatholic": [
+   "1 Esdras",
+   "The Prayer of Manasses",
+   "2 Esdras"
+  ],
+  "list": [
+   {
+    "id": "Tob",
+    "name": "Tobit",
+    "words": 6964,
+    "catholic": true
+   },
+   {
+    "id": "Jdt",
+    "name": "Judith",
+    "words": 11062,
+    "catholic": true
+   },
+   {
+    "id": "EsthGr",
+    "name": "The Rest of Esther",
+    "words": 2708,
+    "catholic": true
+   },
+   {
+    "id": "Wis",
+    "name": "The Wisdom of Solomon",
+    "words": 10604,
+    "catholic": true
+   },
+   {
+    "id": "Sir",
+    "name": "Ecclesiasticus",
+    "words": 28275,
+    "catholic": true
+   },
+   {
+    "id": "Bar",
+    "name": "Baruch (with the Epistle of Jeremy)",
+    "words": 5054,
+    "catholic": true
+   },
+   {
+    "id": "PrAzar",
+    "name": "The Song of the Three Holy Children",
+    "words": 1405,
+    "catholic": true
+   },
+   {
+    "id": "Sus",
+    "name": "Susanna",
+    "words": 1447,
+    "catholic": true
+   },
+   {
+    "id": "Bel",
+    "name": "Bel and the Dragon",
+    "words": 1070,
+    "catholic": true
+   },
+   {
+    "id": "1Macc",
+    "name": "1 Maccabees",
+    "words": 23116,
+    "catholic": true
+   },
+   {
+    "id": "2Macc",
+    "name": "2 Maccabees",
+    "words": 16328,
+    "catholic": true
+   },
+   {
+    "id": "1Esd",
+    "name": "1 Esdras",
+    "words": 11778,
+    "catholic": false
+   },
+   {
+    "id": "PrMan",
+    "name": "The Prayer of Manasses",
+    "words": 408,
+    "catholic": false
+   },
+   {
+    "id": "2Esd",
+    "name": "2 Esdras",
+    "words": 20431,
+    "catholic": false
+   }
+  ],
+  "chapters": 173,
+  "verses": 5718,
+  "words": 140650,
+  "wordsCatholicParts": 108033,
+  "words66": 790325
+ },
+ "quotes": {
+  "sirach50": {
+   "web": "I have written in this book the instruction of understanding and knowledge, I Jesus, the son of Sirach Eleazar, of Jerusalem, Who out of his heart poured forth wisdom.",
+   "kjv": "Jesus the son of Sirach of Jerusalem hath written in this book the instruction of understanding and knowledge, who out of his heart poured forth wisdom."
+  },
+  "macc15": {
+   "web": "And if I have written well and to the point in my story, this is what I myself desired; but if meanly and indifferently, this is all I could attain to.",
+   "kjv": "And if I have done well, and as is fitting the story, it is that which I desired: but if slenderly and meanly, it is that which I could attain unto."
+  }
+ }
+}

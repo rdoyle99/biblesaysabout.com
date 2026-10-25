@@ -174,6 +174,10 @@ export default function BibleByTheNumbers() {
             <li><Link href="/seven-churches-of-revelation" className="underline underline-offset-2 hover:text-primary">The seven churches of Revelation</Link></li>
             <li><Link href="/how-old-was-methuselah" className="underline underline-offset-2 hover:text-primary">How old was Methuselah?</Link></li>
             <li><Link href="/613-commandments" className="underline underline-offset-2 hover:text-primary">The 613 commandments</Link></li>
+            <li><Link href="/how-many-books-are-in-the-catholic-bible" className="underline underline-offset-2 hover:text-primary">How many books are in the Catholic Bible?</Link></li>
+            <li><Link href="/judges-of-israel" className="underline underline-offset-2 hover:text-primary">The judges of Israel in order</Link></li>
+            <li><Link href="/how-many-children-did-david-have" className="underline underline-offset-2 hover:text-primary">How many children did David have?</Link></li>
+            <li><Link href="/names-of-the-holy-spirit" className="underline underline-offset-2 hover:text-primary">Names of the Holy Spirit</Link></li>
           </ul>
         </Section>
 
