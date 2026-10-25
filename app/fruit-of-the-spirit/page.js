@@ -170,7 +170,7 @@ export default function FruitOfTheSpirit() {
         <Section>
           <p className="mb-4">
             More counts are on <Link href="/bible-by-the-numbers" className="underline underline-offset-2 hover:text-primary">the Bible by the numbers</Link>. See{" "}
-            <Link href="/armor-of-god" className="underline underline-offset-2 hover:text-primary">the armor of God</Link>, another list from Paul's letters, or{" "}
+            <Link href="/armor-of-god" className="underline underline-offset-2 hover:text-primary">the armor of God</Link> and <Link href="/gifts-of-the-spirit" className="underline underline-offset-2 hover:text-primary">the gifts of the Spirit</Link>, two more lists from Paul's letters, or{" "}
             <Link href="/words" className="underline underline-offset-2 hover:text-primary">how many times any word is mentioned in the Bible</Link>.
           </p>
           <MethodNote text={METHOD} date={LISTS_DATE} />

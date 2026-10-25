@@ -261,6 +261,30 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/gifts-of-the-spirit"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Gifts of the Spirit
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/major-and-minor-prophets"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Major and minor prophets
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/how-many-wives-did-solomon-have"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Solomon's wives
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/bible-by-the-numbers"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >
