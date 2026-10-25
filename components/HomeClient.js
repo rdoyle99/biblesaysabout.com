@@ -480,6 +480,9 @@ export default function HomeClient({
               ["/names-of-jesus", "Names of Jesus"],
               ["/parables-of-jesus", "The parables of Jesus"],
               ["/miracles-of-jesus", "The miracles of Jesus"],
+              ["/gifts-of-the-spirit", "Gifts of the Spirit"],
+              ["/major-and-minor-prophets", "Major and minor prophets"],
+              ["/how-many-wives-did-solomon-have", "How many wives did Solomon have"],
             ].map(([href, label], i) => (
               <span key={href}>
                 {i ? " · " : ""}

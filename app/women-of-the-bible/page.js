@@ -167,7 +167,7 @@ export default function WomenOfTheBible() {
 
         <Section>
           <p className="mb-4">
-            What many Bible names mean is on <Link href="/bible-names" className={link}>Bible names and their meanings</Link>. For the Gospels, see <Link href="/names-of-jesus" className={link}>the names of Jesus</Link>, <Link href="/parables-of-jesus" className={link}>the parables of Jesus</Link> and <Link href="/miracles-of-jesus" className={link}>the miracles of Jesus</Link>. {firstIn("Genesis")} of the women above are first named in <Link href="/books/genesis" className={link}>Genesis</Link>, and {firstIn("Luke")} in <Link href="/books/luke" className={link}>Luke</Link>. More counts are on{" "}
+            What many Bible names mean is on <Link href="/bible-names" className={link}>Bible names and their meanings</Link>. For the Gospels, see <Link href="/names-of-jesus" className={link}>the names of Jesus</Link>, <Link href="/parables-of-jesus" className={link}>the parables of Jesus</Link> and <Link href="/miracles-of-jesus" className={link}>the miracles of Jesus</Link>. Solomon&apos;s marriages are counted on <Link href="/how-many-wives-did-solomon-have" className={link}>how many wives did Solomon have</Link>. {firstIn("Genesis")} of the women above are first named in <Link href="/books/genesis" className={link}>Genesis</Link>, and {firstIn("Luke")} in <Link href="/books/luke" className={link}>Luke</Link>. More counts are on{" "}
             <Link href="/bible-by-the-numbers" className={link}>the Bible by the numbers</Link>.
           </p>
           <MethodNote text={METHOD} date={DATA.generated} />

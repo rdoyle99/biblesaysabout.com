@@ -166,6 +166,9 @@ export default function BibleByTheNumbers() {
             <li><Link href="/names-of-jesus" className="underline underline-offset-2 hover:text-primary">Names of Jesus</Link></li>
             <li><Link href="/parables-of-jesus" className="underline underline-offset-2 hover:text-primary">The parables of Jesus</Link></li>
             <li><Link href="/miracles-of-jesus" className="underline underline-offset-2 hover:text-primary">The miracles of Jesus</Link></li>
+            <li><Link href="/gifts-of-the-spirit" className="underline underline-offset-2 hover:text-primary">Gifts of the Spirit</Link></li>
+            <li><Link href="/major-and-minor-prophets" className="underline underline-offset-2 hover:text-primary">The major and minor prophets</Link></li>
+            <li><Link href="/how-many-wives-did-solomon-have" className="underline underline-offset-2 hover:text-primary">How many wives did Solomon have?</Link></li>
           </ul>
         </Section>
 

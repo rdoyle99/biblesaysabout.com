@@ -1,0 +1,784 @@
+{
+ "generated": "2026-10-25",
+ "lists": [
+  {
+   "id": "rom12",
+   "title": "Romans 12:6-8",
+   "ref": "Romans 12:6-8",
+   "items": [
+    {
+     "group": "prophecy",
+     "kjv": "prophecy",
+     "web": "prophecy"
+    },
+    {
+     "group": "ministry",
+     "kjv": "ministry",
+     "web": "service"
+    },
+    {
+     "group": "teaching",
+     "kjv": "he that teacheth",
+     "web": "he who teaches"
+    },
+    {
+     "group": "exhortation",
+     "kjv": "he that exhorteth",
+     "web": "he who exhorts"
+    },
+    {
+     "group": "giving",
+     "kjv": "he that giveth",
+     "web": "he who gives"
+    },
+    {
+     "group": "leading",
+     "kjv": "he that ruleth",
+     "web": "he who rules"
+    },
+    {
+     "group": "mercy",
+     "kjv": "he that sheweth mercy",
+     "web": "he who shows mercy"
+    }
+   ]
+  },
+  {
+   "id": "cor12a",
+   "title": "1 Corinthians 12:8-10",
+   "ref": "1 Corinthians 12:8-10",
+   "items": [
+    {
+     "group": "wisdom",
+     "kjv": "the word of wisdom",
+     "web": "the word of wisdom"
+    },
+    {
+     "group": "knowledge",
+     "kjv": "the word of knowledge",
+     "web": "the word of knowledge"
+    },
+    {
+     "group": "faith",
+     "kjv": "faith",
+     "web": "faith"
+    },
+    {
+     "group": "healing",
+     "kjv": "the gifts of healing",
+     "web": "gifts of healings"
+    },
+    {
+     "group": "miracles",
+     "kjv": "the working of miracles",
+     "web": "workings of miracles"
+    },
+    {
+     "group": "prophecy",
+     "kjv": "prophecy",
+     "web": "prophecy"
+    },
+    {
+     "group": "discerning",
+     "kjv": "discerning of spirits",
+     "web": "discerning of spirits"
+    },
+    {
+     "group": "tongues",
+     "kjv": "divers kinds of tongues",
+     "web": "different kinds of languages"
+    },
+    {
+     "group": "interpretation",
+     "kjv": "the interpretation of tongues",
+     "web": "the interpretation of languages"
+    }
+   ]
+  },
+  {
+   "id": "cor12b",
+   "title": "1 Corinthians 12:28",
+   "ref": "1 Corinthians 12:28",
+   "items": [
+    {
+     "group": "apostles",
+     "kjv": "apostles",
+     "web": "apostles"
+    },
+    {
+     "group": "prophecy",
+     "kjv": "prophets",
+     "web": "prophets"
+    },
+    {
+     "group": "teaching",
+     "kjv": "teachers",
+     "web": "teachers"
+    },
+    {
+     "group": "miracles",
+     "kjv": "miracles",
+     "web": "miracle workers"
+    },
+    {
+     "group": "healing",
+     "kjv": "gifts of healings",
+     "web": "gifts of healings"
+    },
+    {
+     "group": "helps",
+     "kjv": "helps",
+     "web": "helps"
+    },
+    {
+     "group": "governments",
+     "kjv": "governments",
+     "web": "governments"
+    },
+    {
+     "group": "tongues",
+     "kjv": "diversities of tongues",
+     "web": "various kinds of languages"
+    }
+   ]
+  },
+  {
+   "id": "eph4",
+   "title": "Ephesians 4:11",
+   "ref": "Ephesians 4:11",
+   "items": [
+    {
+     "group": "apostles",
+     "kjv": "apostles",
+     "web": "apostles"
+    },
+    {
+     "group": "prophecy",
+     "kjv": "prophets",
+     "web": "prophets"
+    },
+    {
+     "group": "evangelists",
+     "kjv": "evangelists",
+     "web": "evangelists"
+    },
+    {
+     "group": "pastors",
+     "kjv": "pastors",
+     "web": "shepherds"
+    },
+    {
+     "group": "teaching",
+     "kjv": "teachers",
+     "web": "teachers"
+    }
+   ]
+  },
+  {
+   "id": "pet4",
+   "title": "1 Peter 4:10-11",
+   "ref": "1 Peter 4:10-11",
+   "items": [
+    {
+     "group": "speaking",
+     "kjv": "If any man speak",
+     "web": "If anyone speaks"
+    },
+    {
+     "group": "ministry",
+     "kjv": "if any man minister",
+     "web": "If anyone serves"
+    }
+   ]
+  }
+ ],
+ "distinct": [
+  {
+   "group": "prophecy",
+   "name": "Prophecy",
+   "lists": [
+    "Romans 12:6-8",
+    "1 Corinthians 12:8-10",
+    "1 Corinthians 12:28",
+    "Ephesians 4:11"
+   ],
+   "wordings": [
+    {
+     "list": "Romans 12:6-8",
+     "kjv": "prophecy",
+     "web": "prophecy"
+    },
+    {
+     "list": "1 Corinthians 12:8-10",
+     "kjv": "prophecy",
+     "web": "prophecy"
+    },
+    {
+     "list": "1 Corinthians 12:28",
+     "kjv": "prophets",
+     "web": "prophets"
+    },
+    {
+     "list": "Ephesians 4:11",
+     "kjv": "prophets",
+     "web": "prophets"
+    }
+   ]
+  },
+  {
+   "group": "ministry",
+   "name": "Serving (ministry)",
+   "lists": [
+    "Romans 12:6-8",
+    "1 Peter 4:10-11"
+   ],
+   "wordings": [
+    {
+     "list": "Romans 12:6-8",
+     "kjv": "ministry",
+     "web": "service"
+    },
+    {
+     "list": "1 Peter 4:10-11",
+     "kjv": "if any man minister",
+     "web": "If anyone serves"
+    }
+   ]
+  },
+  {
+   "group": "teaching",
+   "name": "Teaching",
+   "lists": [
+    "Romans 12:6-8",
+    "1 Corinthians 12:28",
+    "Ephesians 4:11"
+   ],
+   "wordings": [
+    {
+     "list": "Romans 12:6-8",
+     "kjv": "he that teacheth",
+     "web": "he who teaches"
+    },
+    {
+     "list": "1 Corinthians 12:28",
+     "kjv": "teachers",
+     "web": "teachers"
+    },
+    {
+     "list": "Ephesians 4:11",
+     "kjv": "teachers",
+     "web": "teachers"
+    }
+   ]
+  },
+  {
+   "group": "exhortation",
+   "name": "Exhortation (encouraging)",
+   "lists": [
+    "Romans 12:6-8"
+   ],
+   "wordings": [
+    {
+     "list": "Romans 12:6-8",
+     "kjv": "he that exhorteth",
+     "web": "he who exhorts"
+    }
+   ]
+  },
+  {
+   "group": "giving",
+   "name": "Giving",
+   "lists": [
+    "Romans 12:6-8"
+   ],
+   "wordings": [
+    {
+     "list": "Romans 12:6-8",
+     "kjv": "he that giveth",
+     "web": "he who gives"
+    }
+   ]
+  },
+  {
+   "group": "leading",
+   "name": "Leading (ruling)",
+   "lists": [
+    "Romans 12:6-8"
+   ],
+   "wordings": [
+    {
+     "list": "Romans 12:6-8",
+     "kjv": "he that ruleth",
+     "web": "he who rules"
+    }
+   ]
+  },
+  {
+   "group": "mercy",
+   "name": "Showing mercy",
+   "lists": [
+    "Romans 12:6-8"
+   ],
+   "wordings": [
+    {
+     "list": "Romans 12:6-8",
+     "kjv": "he that sheweth mercy",
+     "web": "he who shows mercy"
+    }
+   ]
+  },
+  {
+   "group": "wisdom",
+   "name": "Word of wisdom",
+   "lists": [
+    "1 Corinthians 12:8-10"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:8-10",
+     "kjv": "the word of wisdom",
+     "web": "the word of wisdom"
+    }
+   ]
+  },
+  {
+   "group": "knowledge",
+   "name": "Word of knowledge",
+   "lists": [
+    "1 Corinthians 12:8-10"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:8-10",
+     "kjv": "the word of knowledge",
+     "web": "the word of knowledge"
+    }
+   ]
+  },
+  {
+   "group": "faith",
+   "name": "Faith",
+   "lists": [
+    "1 Corinthians 12:8-10"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:8-10",
+     "kjv": "faith",
+     "web": "faith"
+    }
+   ]
+  },
+  {
+   "group": "healing",
+   "name": "Healing",
+   "lists": [
+    "1 Corinthians 12:8-10",
+    "1 Corinthians 12:28"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:8-10",
+     "kjv": "the gifts of healing",
+     "web": "gifts of healings"
+    },
+    {
+     "list": "1 Corinthians 12:28",
+     "kjv": "gifts of healings",
+     "web": "gifts of healings"
+    }
+   ]
+  },
+  {
+   "group": "miracles",
+   "name": "Working of miracles",
+   "lists": [
+    "1 Corinthians 12:8-10",
+    "1 Corinthians 12:28"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:8-10",
+     "kjv": "the working of miracles",
+     "web": "workings of miracles"
+    },
+    {
+     "list": "1 Corinthians 12:28",
+     "kjv": "miracles",
+     "web": "miracle workers"
+    }
+   ]
+  },
+  {
+   "group": "discerning",
+   "name": "Discerning of spirits",
+   "lists": [
+    "1 Corinthians 12:8-10"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:8-10",
+     "kjv": "discerning of spirits",
+     "web": "discerning of spirits"
+    }
+   ]
+  },
+  {
+   "group": "tongues",
+   "name": "Tongues",
+   "lists": [
+    "1 Corinthians 12:8-10",
+    "1 Corinthians 12:28"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:8-10",
+     "kjv": "divers kinds of tongues",
+     "web": "different kinds of languages"
+    },
+    {
+     "list": "1 Corinthians 12:28",
+     "kjv": "diversities of tongues",
+     "web": "various kinds of languages"
+    }
+   ]
+  },
+  {
+   "group": "interpretation",
+   "name": "Interpretation of tongues",
+   "lists": [
+    "1 Corinthians 12:8-10"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:8-10",
+     "kjv": "the interpretation of tongues",
+     "web": "the interpretation of languages"
+    }
+   ]
+  },
+  {
+   "group": "apostles",
+   "name": "Apostles",
+   "lists": [
+    "1 Corinthians 12:28",
+    "Ephesians 4:11"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:28",
+     "kjv": "apostles",
+     "web": "apostles"
+    },
+    {
+     "list": "Ephesians 4:11",
+     "kjv": "apostles",
+     "web": "apostles"
+    }
+   ]
+  },
+  {
+   "group": "helps",
+   "name": "Helps",
+   "lists": [
+    "1 Corinthians 12:28"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:28",
+     "kjv": "helps",
+     "web": "helps"
+    }
+   ]
+  },
+  {
+   "group": "governments",
+   "name": "Governments (administration)",
+   "lists": [
+    "1 Corinthians 12:28"
+   ],
+   "wordings": [
+    {
+     "list": "1 Corinthians 12:28",
+     "kjv": "governments",
+     "web": "governments"
+    }
+   ]
+  },
+  {
+   "group": "evangelists",
+   "name": "Evangelists",
+   "lists": [
+    "Ephesians 4:11"
+   ],
+   "wordings": [
+    {
+     "list": "Ephesians 4:11",
+     "kjv": "evangelists",
+     "web": "evangelists"
+    }
+   ]
+  },
+  {
+   "group": "pastors",
+   "name": "Pastors (shepherds)",
+   "lists": [
+    "Ephesians 4:11"
+   ],
+   "wordings": [
+    {
+     "list": "Ephesians 4:11",
+     "kjv": "pastors",
+     "web": "shepherds"
+    }
+   ]
+  },
+  {
+   "group": "speaking",
+   "name": "Speaking",
+   "lists": [
+    "1 Peter 4:10-11"
+   ],
+   "wordings": [
+    {
+     "list": "1 Peter 4:10-11",
+     "kjv": "If any man speak",
+     "web": "If anyone speaks"
+    }
+   ]
+  }
+ ],
+ "entries": 31,
+ "nineText": {
+  "kjv": "For to one is given by the Spirit the word of wisdom; to another the word of knowledge by the same Spirit; To another faith by the same Spirit; to another the gifts of healing by the same Spirit; To another the working of miracles; to another prophecy; to another discerning of spirits; to another divers kinds of tongues; to another the interpretation of tongues:",
+  "web": "For to one is given through the Spirit the word of wisdom, and to another the word of knowledge, according to the same Spirit; to another faith, by the same Spirit; and to another gifts of healings, by the same Spirit; and to another workings of miracles; and to another prophecy; and to another discerning of spirits; to another different kinds of languages; and to another the interpretation of languages."
+ },
+ "isaiah": {
+  "kjv": "And the spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD;",
+  "web": "Yahweh’s Spirit will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of Yahweh.",
+  "kjvList": [
+   "wisdom",
+   "understanding",
+   "counsel",
+   "might",
+   "knowledge",
+   "the fear of the LORD"
+  ],
+  "catechism": [
+   "wisdom",
+   "understanding",
+   "counsel",
+   "fortitude",
+   "knowledge",
+   "piety",
+   "fear of the Lord"
+  ]
+ },
+ "words": {
+  "giftKjv": {
+   "total": 112,
+   "verses": 104,
+   "books": 31,
+   "top": {
+    "book": "1 Corinthians",
+    "count": 11,
+    "tied": [
+     "1 Corinthians"
+    ]
+   },
+   "first": "Genesis 25:6",
+   "byBook": {
+    "Genesis": 2,
+    "Exodus": 3,
+    "Leviticus": 1,
+    "Numbers": 5,
+    "Deuteronomy": 2,
+    "2 Samuel": 3,
+    "1 Chronicles": 2,
+    "2 Chronicles": 4,
+    "Esther": 2,
+    "Psalms": 3,
+    "Proverbs": 9,
+    "Ecclesiastes": 3,
+    "Isaiah": 1,
+    "Ezekiel": 8,
+    "Daniel": 3,
+    "Matthew": 10,
+    "Mark": 1,
+    "Luke": 3,
+    "John": 1,
+    "Acts": 4,
+    "Romans": 10,
+    "1 Corinthians": 11,
+    "2 Corinthians": 3,
+    "Ephesians": 4,
+    "Philippians": 1,
+    "1 Timothy": 1,
+    "2 Timothy": 1,
+    "Hebrews": 7,
+    "James": 2,
+    "1 Peter": 1,
+    "Revelation": 1
+   }
+  },
+  "giftWeb": {
+   "total": 109,
+   "verses": 103,
+   "books": 30,
+   "top": {
+    "book": "Acts",
+    "count": 11,
+    "tied": [
+     "Acts",
+     "1 Corinthians"
+    ]
+   },
+   "first": "Genesis 25:6",
+   "byBook": {
+    "Genesis": 2,
+    "Exodus": 1,
+    "Leviticus": 1,
+    "Numbers": 5,
+    "2 Samuel": 2,
+    "1 Kings": 1,
+    "2 Kings": 1,
+    "2 Chronicles": 2,
+    "Esther": 2,
+    "Psalms": 4,
+    "Proverbs": 5,
+    "Ecclesiastes": 2,
+    "Ezekiel": 7,
+    "Daniel": 3,
+    "Micah": 2,
+    "Matthew": 10,
+    "Luke": 6,
+    "John": 1,
+    "Acts": 11,
+    "Romans": 9,
+    "1 Corinthians": 11,
+    "2 Corinthians": 3,
+    "Ephesians": 4,
+    "Philippians": 1,
+    "1 Timothy": 1,
+    "2 Timothy": 1,
+    "Hebrews": 7,
+    "James": 2,
+    "1 Peter": 1,
+    "Revelation": 1
+   }
+  },
+  "giftKjvNt": {
+   "total": 61,
+   "verses": 56,
+   "books": 16,
+   "top": {
+    "book": "1 Corinthians",
+    "count": 11,
+    "tied": [
+     "1 Corinthians"
+    ]
+   },
+   "first": "Matthew 2:11",
+   "byBook": {
+    "Matthew": 10,
+    "Mark": 1,
+    "Luke": 3,
+    "John": 1,
+    "Acts": 4,
+    "Romans": 10,
+    "1 Corinthians": 11,
+    "2 Corinthians": 3,
+    "Ephesians": 4,
+    "Philippians": 1,
+    "1 Timothy": 1,
+    "2 Timothy": 1,
+    "Hebrews": 7,
+    "James": 2,
+    "1 Peter": 1,
+    "Revelation": 1
+   }
+  },
+  "giftWebNt": {
+   "total": 69,
+   "verses": 64,
+   "books": 15,
+   "top": {
+    "book": "Acts",
+    "count": 11,
+    "tied": [
+     "Acts",
+     "1 Corinthians"
+    ]
+   },
+   "first": "Matthew 2:11",
+   "byBook": {
+    "Matthew": 10,
+    "Luke": 6,
+    "John": 1,
+    "Acts": 11,
+    "Romans": 9,
+    "1 Corinthians": 11,
+    "2 Corinthians": 3,
+    "Ephesians": 4,
+    "Philippians": 1,
+    "1 Timothy": 1,
+    "2 Timothy": 1,
+    "Hebrews": 7,
+    "James": 2,
+    "1 Peter": 1,
+    "Revelation": 1
+   }
+  },
+  "spiritualGiftsKjv": {
+   "total": 4,
+   "refs": [
+    "Romans 1:11",
+    "1 Corinthians 12:1",
+    "1 Corinthians 14:1",
+    "1 Corinthians 14:12"
+   ]
+  },
+  "spiritualGiftsWeb": {
+   "total": 3,
+   "refs": [
+    "Romans 1:11",
+    "1 Corinthians 14:1",
+    "1 Corinthians 14:12"
+   ]
+  },
+  "giftsCor": {
+   "total": 11,
+   "verses": 11,
+   "books": 1,
+   "top": {
+    "book": "1 Corinthians",
+    "count": 11,
+    "tied": [
+     "1 Corinthians"
+    ]
+   },
+   "first": "1 Corinthians 1:7",
+   "byBook": {
+    "1 Corinthians": 11
+   }
+  }
+ },
+ "checks": [
+  "diversities",
+  "severally",
+  "questions",
+  "bestGifts",
+  "charity",
+  "cor141",
+  "cor121Kjv",
+  "cor121Web",
+  "pet410",
+  "rom126",
+  "eph48",
+  "fruit",
+  "acts238",
+  "isaiah113",
+  "rom111",
+  "bribe"
+ ]
+}

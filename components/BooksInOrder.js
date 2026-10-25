@@ -164,7 +164,8 @@ export default function BooksInOrder({ mode }) {
             ,{" "}
             <Link href="/books-of-the-bible" className="underline underline-offset-2 hover:text-primary">how many books are in the Bible</Link>,{" "}
             <Link href="/shortest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">the shortest book</Link>,{" "}
-            <Link href="/longest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">the longest book</Link> and{" "}
+            <Link href="/longest-book-in-the-bible" className="underline underline-offset-2 hover:text-primary">the longest book</Link>,{" "}
+            <Link href="/major-and-minor-prophets" className="underline underline-offset-2 hover:text-primary">the major and minor prophets</Link> and{" "}
             <Link href="/how-long-is-the-bible" className="underline underline-offset-2 hover:text-primary">how long the Bible is</Link>.
           </p>
           <MethodNote text={METHOD} date={LIST_DATE} />

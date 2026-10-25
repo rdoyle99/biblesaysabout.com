@@ -1,0 +1,348 @@
+{
+ "generated": "2026-10-25",
+ "wives": 700,
+ "concubines": 300,
+ "women": 1000,
+ "key": {
+  "kjv": "And he had seven hundred wives, princesses, and three hundred concubines: and his wives turned away his heart.",
+  "web": "He had seven hundred wives, princesses, and three hundred concubines; and his wives turned away his heart."
+ },
+ "nations": {
+  "kjv": "But king Solomon loved many strange women, together with the daughter of Pharaoh, women of the Moabites, Ammonites, Edomites, Zidonians, and Hittites;",
+  "list": [
+   "Egypt (Pharaoh's daughter)",
+   "Moab",
+   "Ammon",
+   "Edom",
+   "Sidon (Zidonians)",
+   "the Hittites"
+  ]
+ },
+ "named": [
+  {
+   "who": "Pharaoh's daughter",
+   "text": "The first marriage the Bible tells of, an alliance with Egypt made after Solomon took the throne. Her name is never given. Pharaoh gave the city of Gezer to her as a present, and Solomon built her a house of her own.",
+   "refs": [
+    "1 Kings 3:1",
+    "1 Kings 9:16",
+    "1 Kings 7:8"
+   ]
+  },
+  {
+   "who": "Naamah the Ammonitess",
+   "text": "The mother of Rehoboam, the son who became king after Solomon. She is the only wife of Solomon the Bible names.",
+   "refs": [
+    "1 Kings 14:21",
+    "2 Chronicles 12:13"
+   ]
+  }
+ ],
+ "gods": [
+  {
+   "god": "Ashtoreth",
+   "people": "the Zidonians",
+   "ref": "1 Kings 11:5"
+  },
+  {
+   "god": "Milcom",
+   "people": "the Ammonites",
+   "ref": "1 Kings 11:5"
+  },
+  {
+   "god": "Chemosh",
+   "people": "Moab",
+   "ref": "1 Kings 11:7"
+  },
+  {
+   "god": "Molech",
+   "people": "the children of Ammon",
+   "ref": "1 Kings 11:7"
+  }
+ ],
+ "men": [
+  {
+   "man": "Solomon",
+   "wives": 700,
+   "concubines": 300,
+   "ref": "1 Kings 11:3"
+  },
+  {
+   "man": "Rehoboam",
+   "wives": 18,
+   "concubines": 60,
+   "ref": "2 Chronicles 11:21"
+  },
+  {
+   "man": "Abijah",
+   "wives": 14,
+   "concubines": null,
+   "ref": "2 Chronicles 13:21"
+  },
+  {
+   "man": "David",
+   "wives": 8,
+   "concubines": 10,
+   "ref": "2 Samuel 15:16"
+  },
+  {
+   "man": "Abraham",
+   "wives": 3,
+   "concubines": null,
+   "ref": "Genesis 25:1"
+  },
+  {
+   "man": "Jacob",
+   "wives": 4,
+   "concubines": null,
+   "ref": "Genesis 30:4"
+  },
+  {
+   "man": "Esau",
+   "wives": 3,
+   "concubines": null,
+   "ref": "Genesis 36:2-3"
+  },
+  {
+   "man": "Lamech",
+   "wives": 2,
+   "concubines": null,
+   "ref": "Genesis 4:19"
+  },
+  {
+   "man": "Elkanah",
+   "wives": 2,
+   "concubines": null,
+   "ref": "1 Samuel 1:2"
+  },
+  {
+   "man": "Joash",
+   "wives": 2,
+   "concubines": null,
+   "ref": "2 Chronicles 24:3"
+  },
+  {
+   "man": "Ashur",
+   "wives": 2,
+   "concubines": null,
+   "ref": "1 Chronicles 4:5"
+  },
+  {
+   "man": "Gideon",
+   "wives": "many",
+   "concubines": 1,
+   "ref": "Judges 8:30-31"
+  }
+ ],
+ "rehoboamAge": 41,
+ "reign": 40,
+ "david": [
+  {
+   "name": "Michal",
+   "ref": "1 Samuel 18:27"
+  },
+  {
+   "name": "Ahinoam",
+   "ref": "2 Samuel 3:2"
+  },
+  {
+   "name": "Abigail",
+   "ref": "2 Samuel 3:3"
+  },
+  {
+   "name": "Maacah",
+   "ref": "2 Samuel 3:3"
+  },
+  {
+   "name": "Haggith",
+   "ref": "2 Samuel 3:4"
+  },
+  {
+   "name": "Abital",
+   "ref": "2 Samuel 3:4"
+  },
+  {
+   "name": "Eglah",
+   "ref": "2 Samuel 3:5"
+  },
+  {
+   "name": "Bathsheba",
+   "ref": "2 Samuel 11:27"
+  }
+ ],
+ "words": {
+  "solomonKjv": {
+   "total": 304,
+   "verses": 272,
+   "books": 14,
+   "top": {
+    "book": "1 Kings",
+    "count": 159,
+    "tied": [
+     "1 Kings"
+    ]
+   },
+   "first": "2 Samuel 5:14",
+   "byBook": {
+    "2 Samuel": 2,
+    "1 Kings": 159,
+    "2 Kings": 4,
+    "1 Chronicles": 24,
+    "2 Chronicles": 85,
+    "Ezra": 2,
+    "Nehemiah": 5,
+    "Proverbs": 3,
+    "Song of Solomon": 7,
+    "Jeremiah": 1,
+    "Matthew": 5,
+    "Luke": 3,
+    "John": 1,
+    "Acts": 3
+   }
+  },
+  "solomonWeb": {
+   "total": 304,
+   "verses": 272,
+   "books": 14,
+   "top": {
+    "book": "1 Kings",
+    "count": 159,
+    "tied": [
+     "1 Kings"
+    ]
+   },
+   "first": "2 Samuel 5:14",
+   "byBook": {
+    "2 Samuel": 2,
+    "1 Kings": 159,
+    "2 Kings": 4,
+    "1 Chronicles": 24,
+    "2 Chronicles": 85,
+    "Ezra": 2,
+    "Nehemiah": 5,
+    "Proverbs": 3,
+    "Song of Solomon": 7,
+    "Jeremiah": 1,
+    "Matthew": 5,
+    "Luke": 3,
+    "John": 1,
+    "Acts": 3
+   }
+  },
+  "wivesKjv": {
+   "total": 133,
+   "verses": 122,
+   "books": 29,
+   "top": {
+    "book": "Genesis",
+    "count": 23,
+    "tied": [
+     "Genesis"
+    ]
+   },
+   "first": "Genesis 4:19",
+   "byBook": {
+    "Genesis": 23,
+    "Exodus": 3,
+    "Numbers": 3,
+    "Deuteronomy": 4,
+    "Joshua": 1,
+    "Judges": 8,
+    "Ruth": 1,
+    "1 Samuel": 6,
+    "2 Samuel": 6,
+    "1 Kings": 7,
+    "2 Kings": 2,
+    "1 Chronicles": 4,
+    "2 Chronicles": 10,
+    "Ezra": 10,
+    "Nehemiah": 6,
+    "Esther": 1,
+    "Isaiah": 1,
+    "Jeremiah": 13,
+    "Ezekiel": 1,
+    "Daniel": 4,
+    "Zechariah": 5,
+    "Matthew": 1,
+    "Luke": 1,
+    "Acts": 1,
+    "1 Corinthians": 1,
+    "Ephesians": 4,
+    "Colossians": 2,
+    "1 Timothy": 2,
+    "1 Peter": 2
+   }
+  },
+  "concubineKjv": {
+   "total": 39,
+   "verses": 37,
+   "books": 9,
+   "top": {
+    "book": "Judges",
+    "count": 12,
+    "tied": [
+     "Judges"
+    ]
+   },
+   "first": "Genesis 22:24",
+   "byBook": {
+    "Genesis": 4,
+    "Judges": 12,
+    "2 Samuel": 9,
+    "1 Kings": 1,
+    "1 Chronicles": 5,
+    "2 Chronicles": 2,
+    "Esther": 1,
+    "Song of Solomon": 2,
+    "Daniel": 3
+   }
+  },
+  "concubineWeb": {
+   "total": 39,
+   "verses": 37,
+   "books": 9,
+   "top": {
+    "book": "Judges",
+    "count": 12,
+    "tied": [
+     "Judges"
+    ]
+   },
+   "first": "Genesis 22:24",
+   "byBook": {
+    "Genesis": 4,
+    "Judges": 12,
+    "2 Samuel": 9,
+    "1 Kings": 1,
+    "1 Chronicles": 5,
+    "2 Chronicles": 2,
+    "Esther": 1,
+    "Song of Solomon": 2,
+    "Daniel": 3
+   }
+  },
+  "sevenHundredWives": {
+   "total": 1,
+   "refs": [
+    "1 Kings 11:3"
+   ]
+  }
+ },
+ "checks": [
+  "deut",
+  "oldAge",
+  "warned",
+  "burned",
+  "angry",
+  "nehemiah",
+  "song",
+  "daughters",
+  "rehoboam",
+  "forty",
+  "rend",
+  "officers",
+  "pharaohEgypt",
+  "throne",
+  "rehoboamAge",
+  "threeGods"
+ ]
+}
