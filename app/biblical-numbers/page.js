@@ -25,6 +25,7 @@ const label = (n) => (n === 1000 ? "1,000" : String(n));
 const BULL_URL = "https://archive.org/details/number-in-scripture";
 const BULL_TXT = "https://archive.org/download/number-in-scripture/Number%20in%20Scripture_djvu.txt";
 const EASTON_URL = "https://www.biblestudytools.com/dictionaries/eastons-bible-dictionary/seven.html";
+const EASTON_N_URL = "https://www.ccel.org/e/easton/ebd/ebd/T0002700.html";
 const ISBE_URL = "https://www.biblestudytools.com/dictionary/number/";
 const MILL_URL = "https://en.wikipedia.org/wiki/Millennialism";
 
@@ -324,7 +325,7 @@ export default function BiblicalNumbers() {
           <ul className="list-disc pl-5 space-y-2 text-sm leading-relaxed">
             <li>The King James Version (1769) and the World English Bible, both public domain: every count, quotation and verse reference on this page, counted and checked by scripts/lists/biblical-numbers.mjs from the text at github.com/seven1m/open-bibles (counted {DATA.generated}).</li>
             <li>E. W. Bullinger, <a href={BULL_URL} className={link}>Number in Scripture: Its Supernatural Design and Spiritual Significance</a> (London, 1894), scan at the Internet Archive (<a href={BULL_TXT} className={link}>full text</a>). Supports the readings of 1 to 10, 12, 40, 70 and 666 quoted above, and his Old Testament counts of seven. Read 2026-10-26.</li>
-            <li>M. G. Easton, <a href={EASTON_URL} className={link}>Easton&apos;s Bible Dictionary (1897), entry &quot;Seven&quot;</a>, at Bible Study Tools: seven as &quot;the symbol of perfection, and also the symbol of rest&quot;, and its use as a round number. Easton&apos;s has no general entry for &quot;Number&quot;. Read 2026-10-26.</li>
+            <li>M. G. Easton, <a href={EASTON_URL} className={link}>Easton&apos;s Bible Dictionary (1897), entry &quot;Seven&quot;</a>, at Bible Study Tools: seven as &quot;the symbol of perfection, and also the symbol of rest&quot;, and its use as a round number. Easton&apos;s has no general entry for &quot;Number&quot; (see <a href={EASTON_N_URL} className={link}>its N entries at the Christian Classics Ethereal Library</a>). Read 2026-10-26.</li>
             <li>William Taylor Smith, <a href={ISBE_URL} className={link}>&quot;Number&quot;, International Standard Bible Encyclopedia (1915)</a>, at Bible Study Tools: the readings of 3, 4, 5, 7, 10, 12, 40 and 1,000, round numbers, gematria, Nero Caesar and the 616 reading of Revelation 13:18. Read 2026-10-26.</li>
             <li><a href={MILL_URL} className={link}>Wikipedia, &quot;Millennialism&quot;</a>: the three main Christian readings of Revelation 20&apos;s thousand years. Read 2026-10-26.</li>
           </ul>
