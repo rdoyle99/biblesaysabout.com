@@ -209,6 +209,8 @@ function countWord(id, entry) {
   const forms = entry.forms.map((f) => f.toLowerCase().split(/\s+/));
   const excluded = (entry.exclude || []).map((f) => f.toLowerCase().split(/\s+/));
   const allowed = new Set((entry.compounds || []).map((c) => c.toLowerCase()));
+  // excludeAfter: a match right after one of these words is not a use (law after "in": mother in law, mother-in-law)
+  const after = new Set((entry.excludeAfter || []).map((f) => f.toLowerCase()));
   const skipped = {};
   const byForm = Object.fromEntries(entry.forms.map((f) => [f, 0]));
   const byCase = {};
@@ -223,7 +225,7 @@ function countWord(id, entry) {
     let inVerse = 0;
     forms.forEach((parts, fi) => {
       for (let i = 0; i + parts.length <= lw.length; i++) {
-        if (parts.every((p, j) => lw[i + j] === p) && !excluded.some((ex) => ex.every((p, j) => lw[i + j] === p))) {
+        if (parts.every((p, j) => lw[i + j] === p) && !excluded.some((ex) => ex.every((p, j) => lw[i + j] === p)) && !(i > 0 && after.has(lw[i - 1]))) {
           // a name inside another person's or place's hyphenated name (Obed-edom on the Edom page) is not a use of it,
           // unless the whole hyphenated name is the form itself or the entry lists it as the same person or place
           const cp = entry.kind === "name" ? compoundAt(r, lw, i, parts) : null;
@@ -254,7 +256,7 @@ function countWord(id, entry) {
     for (let i = 0; i + headParts.length <= lw.length; i++) {
       const cp = entry.kind === "name" ? compoundAt(r, lw, i, headParts) : null;
       if (cp && cp.toLowerCase().replace(/ /g, "-") !== headParts.join("-") && !allowed.has(cp.toLowerCase().replace(/ /g, "-"))) continue;
-      if (headParts.every((p, j) => lw[i + j] === p)) return true;
+      if (headParts.every((p, j) => lw[i + j] === p) && !excluded.some((ex) => ex.every((p, j) => lw[i + j] === p)) && !(i > 0 && after.has(lw[i - 1]))) return true;
     }
     return false;
   }).length;
