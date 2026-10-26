@@ -357,6 +357,30 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/seven-deadly-sins-in-the-bible"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Seven deadly sins
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/biblical-numbers"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Biblical numbers
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/how-many-years-did-noah-build-the-ark"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Noah's ark in years
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/bible-by-the-numbers"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >

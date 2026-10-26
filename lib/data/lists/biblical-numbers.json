@@ -1,0 +1,1522 @@
+{
+ "generated": "2026-10-26",
+ "verses": {
+  "kjv": 31102,
+  "web": 31098
+ },
+ "revVerses": 404,
+ "table": [
+  {
+   "n": 1,
+   "slug": "one",
+   "forms": [
+    "one",
+    "first"
+   ],
+   "kjv": 2399,
+   "web": 2988,
+   "kjvVerses": 2056,
+   "webVerses": 2547,
+   "kjvByForm": {
+    "one": 1967,
+    "first": 432
+   },
+   "webByForm": {
+    "one": 2563,
+    "first": 425
+   },
+   "top": {
+    "book": "Numbers",
+    "count": 257
+   },
+   "tied": [
+    "Numbers"
+   ],
+   "webTop": {
+    "book": "Numbers",
+    "count": 225
+   },
+   "top3": [
+    {
+     "book": "Numbers",
+     "count": 257
+    },
+    {
+     "book": "Ezekiel",
+     "count": 139
+    },
+    {
+     "book": "Exodus",
+     "count": 137
+    }
+   ],
+   "books": 64,
+   "revelation": {
+    "kjv": 44,
+    "web": 91
+   }
+  },
+  {
+   "n": 2,
+   "slug": "two",
+   "forms": [
+    "two",
+    "second",
+    "twofold"
+   ],
+   "kjv": 1005,
+   "web": 1032,
+   "kjvVerses": 864,
+   "webVerses": 891,
+   "kjvByForm": {
+    "two": 835,
+    "second": 169,
+    "twofold": 1
+   },
+   "webByForm": {
+    "two": 842,
+    "second": 190
+   },
+   "top": {
+    "book": "Exodus",
+    "count": 124
+   },
+   "tied": [
+    "Exodus"
+   ],
+   "webTop": {
+    "book": "Exodus",
+    "count": 123
+   },
+   "top3": [
+    {
+     "book": "Exodus",
+     "count": 124
+    },
+    {
+     "book": "Numbers",
+     "count": 88
+    },
+    {
+     "book": "Genesis",
+     "count": 68
+    }
+   ],
+   "books": 47,
+   "revelation": {
+    "kjv": 24,
+    "web": 28
+   }
+  },
+  {
+   "n": 3,
+   "slug": "three",
+   "forms": [
+    "three",
+    "third",
+    "threefold"
+   ],
+   "kjv": 668,
+   "web": 684,
+   "kjvVerses": 582,
+   "webVerses": 598,
+   "kjvByForm": {
+    "three": 485,
+    "third": 182,
+    "threefold": 1
+   },
+   "webByForm": {
+    "three": 491,
+    "third": 192,
+    "threefold": 1
+   },
+   "top": {
+    "book": "1 Chronicles",
+    "count": 50
+   },
+   "tied": [
+    "1 Chronicles"
+   ],
+   "webTop": {
+    "book": "1 Chronicles",
+    "count": 50
+   },
+   "top3": [
+    {
+     "book": "1 Chronicles",
+     "count": 50
+    },
+    {
+     "book": "Numbers",
+     "count": 44
+    },
+    {
+     "book": "Exodus",
+     "count": 41
+    }
+   ],
+   "books": 40,
+   "revelation": {
+    "kjv": 33,
+    "web": 34
+   }
+  },
+  {
+   "n": 4,
+   "slug": "four",
+   "forms": [
+    "four",
+    "fourth",
+    "fourfold"
+   ],
+   "kjv": 414,
+   "web": 414,
+   "kjvVerses": 358,
+   "webVerses": 358,
+   "kjvByForm": {
+    "four": 328,
+    "fourth": 84,
+    "fourfold": 2
+   },
+   "webByForm": {
+    "four": 321,
+    "fourth": 92,
+    "fourfold": 1
+   },
+   "top": {
+    "book": "Ezekiel",
+    "count": 49
+   },
+   "tied": [
+    "Ezekiel"
+   ],
+   "webTop": {
+    "book": "Ezekiel",
+    "count": 49
+   },
+   "top3": [
+    {
+     "book": "Ezekiel",
+     "count": 49
+    },
+    {
+     "book": "1 Chronicles",
+     "count": 47
+    },
+    {
+     "book": "Exodus",
+     "count": 42
+    }
+   ],
+   "books": 31,
+   "revelation": {
+    "kjv": 37,
+    "web": 35
+   }
+  },
+  {
+   "n": 5,
+   "slug": "five",
+   "forms": [
+    "five",
+    "fifth"
+   ],
+   "kjv": 406,
+   "web": 406,
+   "kjvVerses": 329,
+   "webVerses": 329,
+   "kjvByForm": {
+    "five": 345,
+    "fifth": 61
+   },
+   "webByForm": {
+    "five": 346,
+    "fifth": 60
+   },
+   "top": {
+    "book": "Numbers",
+    "count": 72
+   },
+   "tied": [
+    "Numbers"
+   ],
+   "webTop": {
+    "book": "Numbers",
+    "count": 73
+   },
+   "top3": [
+    {
+     "book": "Numbers",
+     "count": 72
+    },
+    {
+     "book": "Ezekiel",
+     "count": 59
+    },
+    {
+     "book": "2 Chronicles",
+     "count": 29
+    }
+   ],
+   "books": 29,
+   "revelation": {
+    "kjv": 7,
+    "web": 7
+   }
+  },
+  {
+   "n": 6,
+   "slug": "six",
+   "forms": [
+    "six",
+    "sixth"
+   ],
+   "kjv": 249,
+   "web": 249,
+   "kjvVerses": 233,
+   "webVerses": 233,
+   "kjvByForm": {
+    "six": 202,
+    "sixth": 47
+   },
+   "webByForm": {
+    "six": 203,
+    "sixth": 46
+   },
+   "top": {
+    "book": "Exodus",
+    "count": 30
+   },
+   "tied": [
+    "Exodus"
+   ],
+   "webTop": {
+    "book": "Exodus",
+    "count": 30
+   },
+   "top3": [
+    {
+     "book": "Exodus",
+     "count": 30
+    },
+    {
+     "book": "1 Chronicles",
+     "count": 29
+    },
+    {
+     "book": "Numbers",
+     "count": 26
+    }
+   ],
+   "books": 31,
+   "revelation": {
+    "kjv": 9,
+    "web": 9
+   }
+  },
+  {
+   "n": 7,
+   "slug": "seven",
+   "forms": [
+    "seven",
+    "seventh",
+    "sevenfold"
+   ],
+   "kjv": 589,
+   "web": 592,
+   "kjvVerses": 493,
+   "webVerses": 496,
+   "kjvByForm": {
+    "seven": 463,
+    "seventh": 120,
+    "sevenfold": 6
+   },
+   "webByForm": {
+    "seven": 466,
+    "seventh": 125,
+    "sevenfold": 1
+   },
+   "top": {
+    "book": "Leviticus",
+    "count": 66
+   },
+   "tied": [
+    "Leviticus"
+   ],
+   "webTop": {
+    "book": "Leviticus",
+    "count": 66
+   },
+   "top3": [
+    {
+     "book": "Leviticus",
+     "count": 66
+    },
+    {
+     "book": "Genesis",
+     "count": 61
+    },
+    {
+     "book": "Numbers",
+     "count": 59
+    }
+   ],
+   "books": 38,
+   "revelation": {
+    "kjv": 59,
+    "web": 60
+   }
+  },
+  {
+   "n": 8,
+   "slug": "eight",
+   "forms": [
+    "eight",
+    "eighth"
+   ],
+   "kjv": 119,
+   "web": 119,
+   "kjvVerses": 117,
+   "webVerses": 117,
+   "kjvByForm": {
+    "eight": 80,
+    "eighth": 39
+   },
+   "webByForm": {
+    "eight": 81,
+    "eighth": 38
+   },
+   "top": {
+    "book": "Nehemiah",
+    "count": 15
+   },
+   "tied": [
+    "Nehemiah"
+   ],
+   "webTop": {
+    "book": "Nehemiah",
+    "count": 15
+   },
+   "top3": [
+    {
+     "book": "Nehemiah",
+     "count": 15
+    },
+    {
+     "book": "1 Chronicles",
+     "count": 13
+    },
+    {
+     "book": "Genesis",
+     "count": 10
+    }
+   ],
+   "books": 27,
+   "revelation": {
+    "kjv": 2,
+    "web": 2
+   }
+  },
+  {
+   "n": 9,
+   "slug": "nine",
+   "forms": [
+    "nine",
+    "ninth"
+   ],
+   "kjv": 84,
+   "web": 84,
+   "kjvVerses": 82,
+   "webVerses": 82,
+   "kjvByForm": {
+    "nine": 50,
+    "ninth": 34
+   },
+   "webByForm": {
+    "nine": 48,
+    "ninth": 36
+   },
+   "top": {
+    "book": "Genesis",
+    "count": 12
+   },
+   "tied": [
+    "Genesis"
+   ],
+   "webTop": {
+    "book": "Genesis",
+    "count": 12
+   },
+   "top3": [
+    {
+     "book": "Genesis",
+     "count": 12
+    },
+    {
+     "book": "2 Kings",
+     "count": 9
+    },
+    {
+     "book": "1 Chronicles",
+     "count": 7
+    }
+   ],
+   "books": 22,
+   "revelation": {
+    "kjv": 1,
+    "web": 1
+   }
+  },
+  {
+   "n": 10,
+   "slug": "ten",
+   "forms": [
+    "ten",
+    "tenth"
+   ],
+   "kjv": 329,
+   "web": 286,
+   "kjvVerses": 290,
+   "webVerses": 253,
+   "kjvByForm": {
+    "ten": 248,
+    "tenth": 81
+   },
+   "webByForm": {
+    "ten": 224,
+    "tenth": 62
+   },
+   "top": {
+    "book": "Numbers",
+    "count": 46
+   },
+   "tied": [
+    "Numbers"
+   ],
+   "webTop": {
+    "book": "Numbers",
+    "count": 30
+   },
+   "top3": [
+    {
+     "book": "Numbers",
+     "count": 46
+    },
+    {
+     "book": "Ezekiel",
+     "count": 25
+    },
+    {
+     "book": "Judges",
+     "count": 21
+    }
+   ],
+   "books": 38,
+   "revelation": {
+    "kjv": 13,
+    "web": 13
+   }
+  },
+  {
+   "n": 12,
+   "slug": "twelve",
+   "forms": [
+    "twelve",
+    "twelfth"
+   ],
+   "kjv": 211,
+   "web": 211,
+   "kjvVerses": 182,
+   "webVerses": 180,
+   "kjvByForm": {
+    "twelve": 188,
+    "twelfth": 23
+   },
+   "webByForm": {
+    "twelve": 188,
+    "twelfth": 23
+   },
+   "top": {
+    "book": "1 Chronicles",
+    "count": 30
+   },
+   "tied": [
+    "1 Chronicles"
+   ],
+   "webTop": {
+    "book": "1 Chronicles",
+    "count": 30
+   },
+   "top3": [
+    {
+     "book": "1 Chronicles",
+     "count": 30
+    },
+    {
+     "book": "Revelation",
+     "count": 23
+    },
+    {
+     "book": "Numbers",
+     "count": 18
+    }
+   ],
+   "books": 26,
+   "revelation": {
+    "kjv": 23,
+    "web": 25
+   }
+  },
+  {
+   "n": 40,
+   "slug": "forty",
+   "forms": [
+    "forty",
+    "fortieth"
+   ],
+   "kjv": 161,
+   "web": 162,
+   "kjvVerses": 149,
+   "webVerses": 150,
+   "kjvByForm": {
+    "forty": 157,
+    "fortieth": 4
+   },
+   "webByForm": {
+    "forty": 159,
+    "fortieth": 3
+   },
+   "top": {
+    "book": "Numbers",
+    "count": 20
+   },
+   "tied": [
+    "Numbers"
+   ],
+   "webTop": {
+    "book": "Numbers",
+    "count": 20
+   },
+   "top3": [
+    {
+     "book": "Numbers",
+     "count": 20
+    },
+    {
+     "book": "Deuteronomy",
+     "count": 16
+    },
+    {
+     "book": "Genesis",
+     "count": 14
+    }
+   ],
+   "books": 29,
+   "revelation": {
+    "kjv": 6,
+    "web": 6
+   }
+  },
+  {
+   "n": 70,
+   "slug": "seventy",
+   "forms": [
+    "seventy",
+    "threescore and ten (KJV)"
+   ],
+   "kjv": 83,
+   "web": 97,
+   "kjvVerses": 82,
+   "webVerses": 96,
+   "kjvByForm": {
+    "seventy": 61,
+    "threescore and ten": 22
+   },
+   "webByForm": {
+    "seventy": 97
+   },
+   "top": {
+    "book": "Numbers",
+    "count": 18
+   },
+   "tied": [
+    "Numbers"
+   ],
+   "webTop": {
+    "book": "Numbers",
+    "count": 26
+   },
+   "top3": [
+    {
+     "book": "Numbers",
+     "count": 18
+    },
+    {
+     "book": "Judges",
+     "count": 9
+    },
+    {
+     "book": "Ezra",
+     "count": 8
+    }
+   ],
+   "books": 22,
+   "revelation": {
+    "kjv": 0,
+    "web": 0
+   }
+  },
+  {
+   "n": 666,
+   "slug": "666",
+   "forms": [
+    "six hundred threescore and six (KJV)",
+    "six hundred sixty-six (WEB)"
+   ],
+   "kjv": 4,
+   "web": 4,
+   "kjvVerses": 4,
+   "webVerses": 4,
+   "kjvByForm": {
+    "phrase": 4
+   },
+   "webByForm": {
+    "phrase": 4
+   },
+   "top": {
+    "book": "1 Kings",
+    "count": 1
+   },
+   "tied": [
+    "1 Kings",
+    "2 Chronicles",
+    "Ezra",
+    "Revelation"
+   ],
+   "webTop": {
+    "book": "1 Kings",
+    "count": 1
+   },
+   "top3": [
+    {
+     "book": "1 Kings",
+     "count": 1
+    },
+    {
+     "book": "2 Chronicles",
+     "count": 1
+    },
+    {
+     "book": "Ezra",
+     "count": 1
+    }
+   ],
+   "books": 4,
+   "revelation": {
+    "kjv": 1,
+    "web": 1
+   }
+  },
+  {
+   "n": 1000,
+   "slug": "thousand",
+   "forms": [
+    "thousand",
+    "thousands"
+   ],
+   "kjv": 582,
+   "web": 561,
+   "kjvVerses": 439,
+   "webVerses": 437,
+   "kjvByForm": {
+    "thousand": 520,
+    "thousands": 62
+   },
+   "webByForm": {
+    "thousand": 492,
+    "thousands": 69
+   },
+   "top": {
+    "book": "Numbers",
+    "count": 102
+   },
+   "tied": [
+    "Numbers"
+   ],
+   "webTop": {
+    "book": "Numbers",
+    "count": 90
+   },
+   "top3": [
+    {
+     "book": "Numbers",
+     "count": 102
+    },
+    {
+     "book": "1 Chronicles",
+     "count": 82
+    },
+    {
+     "book": "2 Chronicles",
+     "count": 61
+    }
+   ],
+   "books": 37,
+   "revelation": {
+    "kjv": 32,
+    "web": 30
+   }
+  }
+ ],
+ "totals": {
+  "kjv": 7303,
+  "web": 7889
+ },
+ "mostAfterOne": {
+  "slug": "two",
+  "n": 2,
+  "kjv": 1005,
+  "web": 1032
+ },
+ "key": {
+  "666": [
+   {
+    "ref": "Revelation 13:18",
+    "what": "the number of the beast",
+    "kjv": "count the number of the beast: for it is the number of a man; and his number is Six hundred threescore and six",
+    "web": "His number is six hundred sixty-six"
+   },
+   {
+    "ref": "1 Kings 10:14",
+    "what": "Solomon's gold in one year",
+    "kjv": "six hundred threescore and six talents of gold",
+    "web": "six hundred sixty-six talents of gold"
+   },
+   {
+    "ref": "2 Chronicles 9:13",
+    "what": "the same gold, in Chronicles",
+    "kjv": "six hundred and threescore and six talents of gold",
+    "web": "six hundred sixty-six talents of gold"
+   },
+   {
+    "ref": "Ezra 2:13",
+    "what": "a family that returned from exile",
+    "kjv": "The children of Adonikam, six hundred sixty and six",
+    "web": "The children of Adonikam, six hundred sixty-six"
+   }
+  ],
+  "one": [
+   {
+    "ref": "Deuteronomy 6:4",
+    "what": "God is one",
+    "kjv": "The LORD our God is one LORD",
+    "web": "Yahweh is one"
+   },
+   {
+    "ref": "Genesis 2:24",
+    "what": "marriage: one flesh",
+    "kjv": "they shall be one flesh",
+    "web": "they will be one flesh"
+   },
+   {
+    "ref": "Ephesians 4:5",
+    "what": "one Lord, one faith, one baptism",
+    "kjv": "One Lord, one faith, one baptism",
+    "web": "one Lord, one faith, one baptism"
+   }
+  ],
+  "two": [
+   {
+    "ref": "Genesis 6:19",
+    "what": "two of every kind into the ark",
+    "kjv": "two of every sort shalt thou bring into the ark",
+    "web": "two of every sort"
+   },
+   {
+    "ref": "Deuteronomy 19:15",
+    "what": "two or three witnesses",
+    "kjv": "at the mouth of two witnesses",
+    "web": "At the mouth of two witnesses"
+   },
+   {
+    "ref": "Luke 10:1",
+    "what": "the seventy sent out in pairs",
+    "kjv": "sent them two and two",
+    "web": "two by two"
+   }
+  ],
+  "three": [
+   {
+    "ref": "Jonah 1:17",
+    "what": "Jonah in the fish",
+    "kjv": "three days and three nights",
+    "web": "three days and three nights"
+   },
+   {
+    "ref": "Matthew 12:40",
+    "what": "Jesus points to Jonah",
+    "kjv": "three days and three nights in the heart of the earth",
+    "web": "three days and three nights in the heart of the earth"
+   },
+   {
+    "ref": "1 Corinthians 15:4",
+    "what": "raised on the third day",
+    "kjv": "he rose again the third day",
+    "web": "raised on the third day"
+   },
+   {
+    "ref": "Hosea 6:2",
+    "what": "the third day in Hosea",
+    "kjv": "in the third day he will raise us up",
+    "web": "On the third day he will raise us up"
+   }
+  ],
+  "four": [
+   {
+    "ref": "Genesis 2:10",
+    "what": "the four rivers of Eden",
+    "kjv": "four heads",
+    "web": "four rivers"
+   },
+   {
+    "ref": "Ezekiel 1:6",
+    "what": "Ezekiel's living creatures, four faces and four wings",
+    "kjv": "four faces",
+    "web": "four faces"
+   },
+   {
+    "ref": "Revelation 7:1",
+    "what": "four corners and four winds",
+    "kjv": "four angels standing on the four corners of the earth, holding the four winds",
+    "web": "four angels standing at the four corners of the earth, holding the four winds"
+   }
+  ],
+  "five": [
+   {
+    "ref": "1 Samuel 17:40",
+    "what": "David's five stones",
+    "kjv": "five smooth stones",
+    "web": "five smooth stones"
+   },
+   {
+    "ref": "Matthew 14:17",
+    "what": "five loaves and two fish",
+    "kjv": "five loaves, and two fishes",
+    "web": "five loaves and two fish"
+   },
+   {
+    "ref": "Matthew 25:2",
+    "what": "five wise and five foolish virgins",
+    "kjv": "five of them were wise, and five were foolish",
+    "web": "Five of them were foolish, and five were wise"
+   }
+  ],
+  "six": [
+   {
+    "ref": "Genesis 1:31",
+    "what": "man made on the sixth day (Genesis 1:27-31)",
+    "kjv": "the sixth day",
+    "web": "a sixth day"
+   },
+   {
+    "ref": "Exodus 20:9",
+    "what": "six days of work",
+    "kjv": "Six days shalt thou labour",
+    "web": "You shall labor six days"
+   },
+   {
+    "ref": "1 Samuel 17:4",
+    "what": "Goliath's height",
+    "kjv": "six cubits and a span",
+    "web": "six cubits and a span"
+   }
+  ],
+  "seven": [
+   {
+    "ref": "Genesis 2:2",
+    "what": "God rests on the seventh day",
+    "kjv": "on the seventh day God ended his work",
+    "web": "On the seventh day God finished his work"
+   },
+   {
+    "ref": "Genesis 2:3",
+    "what": "the seventh day blessed",
+    "kjv": "God blessed the seventh day, and sanctified it",
+    "web": "God blessed the seventh day, and made it holy"
+   },
+   {
+    "ref": "Revelation 1:11",
+    "what": "the seven churches",
+    "kjv": "send it unto the seven churches which are in Asia",
+    "web": "send to the seven assemblies"
+   },
+   {
+    "ref": "Revelation 5:1",
+    "what": "the seven seals",
+    "kjv": "sealed with seven seals",
+    "web": "sealed shut with seven seals"
+   },
+   {
+    "ref": "Revelation 8:2",
+    "what": "the seven trumpets",
+    "kjv": "to them were given seven trumpets",
+    "web": "seven trumpets were given to them"
+   },
+   {
+    "ref": "Revelation 15:7",
+    "what": "the seven bowls (KJV: vials)",
+    "kjv": "seven golden vials full of the wrath of God",
+    "web": "seven golden bowls full of the wrath of God"
+   },
+   {
+    "ref": "Matthew 18:22",
+    "what": "forgive seventy times seven",
+    "kjv": "Until seventy times seven",
+    "web": "until seventy times seven"
+   }
+  ],
+  "eight": [
+   {
+    "ref": "1 Peter 3:20",
+    "what": "eight people in the ark",
+    "kjv": "eight souls were saved by water",
+    "web": "eight souls, were saved through water"
+   },
+   {
+    "ref": "Genesis 17:12",
+    "what": "circumcision at eight days",
+    "kjv": "he that is eight days old shall be circumcised",
+    "web": "He who is eight days old will be circumcised"
+   },
+   {
+    "ref": "Luke 2:21",
+    "what": "Jesus circumcised and named",
+    "kjv": "when eight days were accomplished for the circumcising of the child, his name was called JESUS",
+    "web": "When eight days were fulfilled for the circumcision of the child, his name was called Jesus"
+   }
+  ],
+  "nine": [
+   {
+    "ref": "Luke 17:17",
+    "what": "the nine lepers who did not return",
+    "kjv": "where are the nine",
+    "web": "But where are the nine"
+   },
+   {
+    "ref": "Matthew 27:46",
+    "what": "the ninth hour on the cross",
+    "kjv": "about the ninth hour Jesus cried with a loud voice",
+    "web": "About the ninth hour Jesus cried with a loud voice"
+   },
+   {
+    "ref": "Acts 3:1",
+    "what": "the hour of prayer",
+    "kjv": "the hour of prayer, being the ninth hour",
+    "web": "the hour of prayer, the ninth hour"
+   }
+  ],
+  "ten": [
+   {
+    "ref": "Exodus 34:28",
+    "what": "the Ten Commandments",
+    "kjv": "the ten commandments",
+    "web": "the ten commandments"
+   },
+   {
+    "ref": "Genesis 18:32",
+    "what": "ten righteous in Sodom",
+    "kjv": "Peradventure ten shall be found there",
+    "web": "What if ten are found there"
+   },
+   {
+    "ref": "Matthew 25:1",
+    "what": "the ten virgins",
+    "kjv": "ten virgins",
+    "web": "ten virgins"
+   },
+   {
+    "ref": "Luke 17:12",
+    "what": "the ten lepers",
+    "kjv": "ten men that were lepers",
+    "web": "ten men who were lepers"
+   }
+  ],
+  "twelve": [
+   {
+    "ref": "Genesis 49:28",
+    "what": "the twelve tribes",
+    "kjv": "All these are the twelve tribes of Israel",
+    "web": "All these are the twelve tribes of Israel"
+   },
+   {
+    "ref": "Matthew 10:2",
+    "what": "the twelve apostles",
+    "kjv": "the names of the twelve apostles are these",
+    "web": "the names of the twelve apostles are these"
+   },
+   {
+    "ref": "Revelation 21:12",
+    "what": "the twelve gates of the new Jerusalem",
+    "kjv": "had twelve gates",
+    "web": "having twelve gates"
+   },
+   {
+    "ref": "Revelation 21:14",
+    "what": "the twelve foundations",
+    "kjv": "twelve foundations, and in them the names of the twelve apostles of the Lamb",
+    "web": "twelve foundations, and on them twelve names of the twelve Apostles of the Lamb"
+   }
+  ],
+  "forty": [
+   {
+    "ref": "Genesis 7:12",
+    "what": "the flood rain",
+    "kjv": "the rain was upon the earth forty days and forty nights",
+    "web": "It rained on the earth forty days and forty nights"
+   },
+   {
+    "ref": "Exodus 24:18",
+    "what": "Moses on the mountain",
+    "kjv": "Moses was in the mount forty days and forty nights",
+    "web": "Moses was on the mountain forty days and forty nights"
+   },
+   {
+    "ref": "Numbers 14:33",
+    "what": "Israel's forty years in the wilderness",
+    "kjv": "your children shall wander in the wilderness forty years",
+    "web": "wanderers in the wilderness forty years"
+   },
+   {
+    "ref": "Numbers 14:34",
+    "what": "a year for each day of the spying",
+    "kjv": "each day for a year",
+    "web": "for every day a year"
+   },
+   {
+    "ref": "Matthew 4:2",
+    "what": "Jesus' fast in the wilderness",
+    "kjv": "when he had fasted forty days and forty nights",
+    "web": "When he had fasted forty days and forty nights"
+   },
+   {
+    "ref": "Acts 1:3",
+    "what": "forty days before the ascension",
+    "kjv": "being seen of them forty days",
+    "web": "over a period of forty days"
+   }
+  ],
+  "seventy": [
+   {
+    "ref": "Jeremiah 25:11",
+    "what": "seventy years of exile",
+    "kjv": "serve the king of Babylon seventy years",
+    "web": "serve the king of Babylon seventy years"
+   },
+   {
+    "ref": "Daniel 9:24",
+    "what": "Daniel's seventy weeks",
+    "kjv": "Seventy weeks are determined upon thy people",
+    "web": "Seventy weeks are decreed on your people"
+   },
+   {
+    "ref": "Numbers 11:16",
+    "what": "the seventy elders",
+    "kjv": "Gather unto me seventy men of the elders of Israel",
+    "web": "Gather to me seventy men of the elders of Israel"
+   },
+   {
+    "ref": "Luke 10:1",
+    "what": "the seventy sent by Jesus",
+    "kjv": "the Lord appointed other seventy also",
+    "web": "the Lord also appointed seventy others"
+   },
+   {
+    "ref": "Psalms 90:10",
+    "what": "a lifetime of seventy years",
+    "kjv": "threescore years and ten",
+    "web": "seventy"
+   }
+  ],
+  "thousand": [
+   {
+    "ref": "Revelation 20:2",
+    "what": "Satan bound a thousand years",
+    "kjv": "bound him a thousand years",
+    "web": "bound him for a thousand years"
+   },
+   {
+    "ref": "Revelation 20:4",
+    "what": "the saints reign a thousand years",
+    "kjv": "reigned with Christ a thousand years",
+    "web": "reigned with Christ for a thousand years"
+   },
+   {
+    "ref": "Psalms 90:4",
+    "what": "a thousand years like yesterday",
+    "kjv": "a thousand years in thy sight are but as yesterday",
+    "web": "a thousand years in your sight are just like yesterday"
+   },
+   {
+    "ref": "2 Peter 3:8",
+    "what": "a day as a thousand years",
+    "kjv": "one day is with the Lord as a thousand years, and a thousand years as one day",
+    "web": "one day is with the Lord as a thousand years, and a thousand years as one day"
+   },
+   {
+    "ref": "Psalms 50:10",
+    "what": "the cattle on a thousand hills",
+    "kjv": "the cattle upon a thousand hills",
+    "web": "the livestock on a thousand hills"
+   }
+  ]
+ },
+ "checks": 120,
+ "phrases": {
+  "thirdDay": {
+   "kjv": 52,
+   "web": 54
+  },
+  "threeDays": {
+   "kjv": 63,
+   "web": 61
+  },
+  "fortyDays": {
+   "kjv": 22,
+   "web": 22
+  },
+  "fortyYears": {
+   "kjv": 45,
+   "web": 43
+  },
+  "fortyDaysAndNights": {
+   "kjv": 11,
+   "web": 11,
+   "kjvRefs": [
+    "Genesis 7:4",
+    "Genesis 7:12",
+    "Exodus 24:18",
+    "Exodus 34:28",
+    "Deuteronomy 9:9",
+    "Deuteronomy 9:11",
+    "Deuteronomy 9:18",
+    "Deuteronomy 9:25",
+    "Deuteronomy 10:10",
+    "1 Kings 19:8",
+    "Matthew 4:2"
+   ]
+  },
+  "seventhDay": {
+   "kjv": 52,
+   "web": 55
+  },
+  "sevenDays": {
+   "kjv": 98,
+   "web": 93
+  },
+  "eighthDay": {
+   "kjv": 21,
+   "web": 21
+  },
+  "twelveTribes": {
+   "kjv": 10,
+   "web": 10,
+   "kjvRefs": [
+    "Genesis 49:28",
+    "Exodus 24:4",
+    "Exodus 28:21",
+    "Exodus 39:14",
+    "Ezekiel 47:13",
+    "Matthew 19:28",
+    "Luke 22:30",
+    "Acts 26:7",
+    "James 1:1",
+    "Revelation 21:12"
+   ]
+  },
+  "seventyYears": {
+   "kjv": 13,
+   "web": 12,
+   "kjvRefs": [
+    "Genesis 5:12",
+    "Genesis 11:26",
+    "2 Chronicles 36:21",
+    "Psalms 90:10",
+    "Isaiah 23:15",
+    "Isaiah 23:17",
+    "Jeremiah 25:11",
+    "Jeremiah 25:12",
+    "Jeremiah 29:10",
+    "Daniel 9:2",
+    "Zechariah 1:12",
+    "Zechariah 7:5"
+   ]
+  },
+  "thousandYears": {
+   "kjv": 10,
+   "web": 10,
+   "kjvRefs": [
+    "Psalms 90:4",
+    "Ecclesiastes 6:6",
+    "2 Peter 3:8",
+    "Revelation 20:2",
+    "Revelation 20:3",
+    "Revelation 20:4",
+    "Revelation 20:5",
+    "Revelation 20:6",
+    "Revelation 20:7"
+   ]
+  },
+  "tenCommandments": {
+   "kjv": 3,
+   "web": 3,
+   "kjvRefs": [
+    "Exodus 34:28",
+    "Deuteronomy 4:13",
+    "Deuteronomy 10:4"
+   ]
+  },
+  "tenPlagues": {
+   "kjv": 0,
+   "web": 0,
+   "kjvRefs": []
+  },
+  "sevenChurches": {
+   "kjv": 4,
+   "web": 4,
+   "kjvRefs": [
+    "Revelation 1:4",
+    "Revelation 1:11",
+    "Revelation 1:20"
+   ]
+  },
+  "sevenTimesSeven": {
+   "kjv": 1,
+   "web": 1,
+   "kjvRefs": [
+    "Matthew 18:22"
+   ]
+  }
+ },
+ "thirdDayNT": {
+  "kjv": 16,
+  "web": 16
+ },
+ "thousandYearsRev20": {
+  "kjv": 6,
+  "refs": [
+   "Revelation 20:2",
+   "Revelation 20:3",
+   "Revelation 20:4",
+   "Revelation 20:5",
+   "Revelation 20:6",
+   "Revelation 20:7"
+  ]
+ },
+ "sevenInRev": {
+  "kjv": 54,
+  "web": 55
+ },
+ "sevenExact": {
+  "kjv": 463,
+  "web": 466,
+  "kjvTop": {
+   "book": "Genesis",
+   "count": 54,
+   "tied": [
+    "Genesis",
+    "Revelation"
+   ]
+  },
+  "webTop": {
+   "book": "Genesis",
+   "count": 57,
+   "tied": [
+    "Genesis"
+   ]
+  }
+ },
+ "ranking": {
+  "kjv": [
+   {
+    "word": "one",
+    "count": 1967
+   },
+   {
+    "word": "two",
+    "count": 835
+   },
+   {
+    "word": "hundred",
+    "count": 590
+   },
+   {
+    "word": "thousand",
+    "count": 520
+   },
+   {
+    "word": "three",
+    "count": 485
+   },
+   {
+    "word": "seven",
+    "count": 463
+   },
+   {
+    "word": "five",
+    "count": 345
+   },
+   {
+    "word": "four",
+    "count": 328
+   }
+  ],
+  "web": [
+   {
+    "word": "one",
+    "count": 2563
+   },
+   {
+    "word": "two",
+    "count": 842
+   },
+   {
+    "word": "hundred",
+    "count": 600
+   },
+   {
+    "word": "thousand",
+    "count": 492
+   },
+   {
+    "word": "three",
+    "count": 491
+   },
+   {
+    "word": "seven",
+    "count": 466
+   },
+   {
+    "word": "five",
+    "count": 346
+   },
+   {
+    "word": "four",
+    "count": 321
+   }
+  ]
+ },
+ "oneIdioms": {
+  "kjv": {
+   "oneAnother": 57,
+   "everyOne": 315,
+   "theOne": 126,
+   "noOne": 2,
+   "anyOne": 5
+  },
+  "web": {
+   "oneAnother": 138,
+   "everyOne": 26,
+   "theOne": 147,
+   "noOne": 379,
+   "anyOne": 5
+  }
+ },
+ "limits": {
+  "thousandKjv": 582,
+  "tallyBooks": [
+   "Numbers",
+   "1 Chronicles",
+   "2 Chronicles"
+  ],
+  "thousandInTallyBooks": 245,
+  "census": 53,
+  "censusWeb": 45,
+  "twelveNum7": 10,
+  "twelveKjv": 211,
+  "sevenLev": 66,
+  "sevenDaysLev": 27,
+  "eightNeh7": 10,
+  "eightNeh": 15,
+  "oneNum7": 85,
+  "oneKjvNumbers": 257,
+  "oneBare": 1967,
+  "twelve1Chr": 27,
+  "twelve1ChrAll": 30,
+  "sevenKjv": 589
+ },
+ "bullinger": {
+  "his": {
+   "seven": 287,
+   "seventh": 98,
+   "sevenfold": 7,
+   "seventy": 56
+  },
+  "ours": {
+   "kjv": {
+    "seven": 372,
+    "seventh": 110,
+    "sevenfold": 6,
+    "seventy": 58
+   },
+   "web": {
+    "seven": 373,
+    "seventh": 115,
+    "sevenfold": 1,
+    "seventy": 91
+   }
+  }
+ },
+ "wordPages": {
+  "666": {
+   "kjvTotal": 4,
+   "webTotal": 4,
+   "kjvExact": 2,
+   "webExact": 4,
+   "kjvForms": [
+    "six hundred threescore and six",
+    "six hundred and threescore and six",
+    "six hundred sixty and six"
+   ]
+  },
+  "seven": {
+   "kjvTotal": 589,
+   "webTotal": 592,
+   "kjvExact": 463,
+   "webExact": 466,
+   "kjvForms": [
+    "seven",
+    "seventh",
+    "sevenfold"
+   ]
+  },
+  "twelve": {
+   "kjvTotal": 211,
+   "webTotal": 211,
+   "kjvExact": 188,
+   "webExact": 188,
+   "kjvForms": [
+    "twelve",
+    "twelfth"
+   ]
+  },
+  "forty": {
+   "kjvTotal": 161,
+   "webTotal": 162,
+   "kjvExact": 157,
+   "webExact": 159,
+   "kjvForms": [
+    "forty",
+    "fortieth"
+   ]
+  },
+  "forty-days": {
+   "kjvTotal": 22,
+   "webTotal": 22,
+   "kjvExact": 22,
+   "webExact": 22,
+   "kjvForms": [
+    "forty days"
+   ]
+  }
+ }
+}

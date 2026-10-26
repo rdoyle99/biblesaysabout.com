@@ -178,6 +178,9 @@ export default function BibleByTheNumbers() {
             <li><Link href="/judges-of-israel" className="underline underline-offset-2 hover:text-primary">The judges of Israel in order</Link></li>
             <li><Link href="/how-many-children-did-david-have" className="underline underline-offset-2 hover:text-primary">How many children did David have?</Link></li>
             <li><Link href="/names-of-the-holy-spirit" className="underline underline-offset-2 hover:text-primary">Names of the Holy Spirit</Link></li>
+            <li><Link href="/seven-deadly-sins-in-the-bible" className="underline underline-offset-2 hover:text-primary">Are the seven deadly sins in the Bible?</Link></li>
+            <li><Link href="/biblical-numbers" className="underline underline-offset-2 hover:text-primary">Biblical numbers and their meanings</Link></li>
+            <li><Link href="/how-many-years-did-noah-build-the-ark" className="underline underline-offset-2 hover:text-primary">How many years did Noah build the ark?</Link></li>
           </ul>
         </Section>
 

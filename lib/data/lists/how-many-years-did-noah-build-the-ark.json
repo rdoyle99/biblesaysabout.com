@@ -1,0 +1,263 @@
+{
+ "generated": "2026-10-26",
+ "noah": {
+  "atSons": 500,
+  "atFlood": 600,
+  "atExit": 601,
+  "after": 350,
+  "died": 950,
+  "noahAtShemFromStart": 502,
+  "noahAtShemFromEnd": 503,
+  "shemAtFlood": 98,
+  "shemAt": 100,
+  "shemAfter": 2,
+  "shemLife": 600
+ },
+ "gen63": 120,
+ "windowRows": [
+  {
+   "reading": "Genesis 6:3 as a countdown to the flood, with the command given when the 120 years began",
+   "years": 120,
+   "from": 480,
+   "to": 600,
+   "refs": "Genesis 6:3, 7:6"
+  },
+  {
+   "reading": "The command came after Noah's sons were born (Genesis 5:32 names them at 500)",
+   "years": 100,
+   "from": 500,
+   "to": 600,
+   "refs": "Genesis 5:32, 7:6"
+  },
+  {
+   "reading": "Counting from Shem's birth by Genesis 11:10 (100 years old two years after the flood)",
+   "years": 98,
+   "from": 502,
+   "to": 600,
+   "refs": "Genesis 11:10, 7:6"
+  }
+ ],
+ "calendar": [
+  {
+   "label": "The fountains break open and Noah's family goes in",
+   "ref": "Genesis 7:11",
+   "year": 600,
+   "month": 2,
+   "day": 17,
+   "dayOf30": 0
+  },
+  {
+   "label": "The ark comes to rest on the mountains of Ararat",
+   "ref": "Genesis 8:4",
+   "year": 600,
+   "month": 7,
+   "day": 17,
+   "dayOf30": 150
+  },
+  {
+   "label": "The tops of the mountains are seen",
+   "ref": "Genesis 8:5",
+   "year": 600,
+   "month": 10,
+   "day": 1,
+   "dayOf30": 224
+  },
+  {
+   "label": "The waters are dried up; Noah removes the covering",
+   "ref": "Genesis 8:13",
+   "year": 601,
+   "month": 1,
+   "day": 1,
+   "dayOf30": 314
+  },
+  {
+   "label": "The earth is dry; God tells Noah to go out (8:15-18)",
+   "ref": "Genesis 8:14",
+   "year": 601,
+   "month": 2,
+   "day": 27,
+   "dayOf30": 370
+  }
+ ],
+ "intervals": {
+  "warning": 7,
+  "rain": 40,
+  "floodForty": 40,
+  "prevailed": 150,
+  "fiveMonths": 150,
+  "windowWait": 40,
+  "dove1": 7,
+  "dove2": 7,
+  "raven": 264,
+  "days30": 370
+ },
+ "aboard": {
+  "thirty": {
+   "elapsed": 370,
+   "inclusive": 371
+  },
+  "lunar": {
+   "elapsed": 364,
+   "inclusive": 365
+  },
+  "solar": {
+   "elapsed": 375,
+   "inclusive": 376
+  }
+ },
+ "calendarYears": {
+  "thirty": 360,
+  "lunar": 354,
+  "solar": 365
+ },
+ "size": {
+  "cubits": {
+   "len": 300,
+   "wid": 50,
+   "hgt": 30
+  },
+  "feet18": {
+   "len": 450,
+   "wid": 75,
+   "hgt": 45
+  },
+  "meters18": {
+   "len": 137.2,
+   "wid": 22.9,
+   "hgt": 13.7
+  },
+  "boxCubicFeet18": 1518750,
+  "ratioLW": 6,
+  "ratioLH": 10,
+  "alt": [
+   {
+    "cm": 49.5,
+    "inches": 19.49,
+    "lenM": 148.5,
+    "lenFt": 487
+   },
+   {
+    "cm": 52.5,
+    "inches": 20.67,
+    "lenM": 157.5,
+    "lenFt": 517
+   }
+  ],
+  "decks": 3,
+  "doors": 1,
+  "depthAboveMountains": 15
+ },
+ "cubitInches": 18,
+ "people": 8,
+ "souls": 8,
+ "animals": {
+  "every": 2,
+  "every620": 2,
+  "clean": {
+   "kjv": "Of every clean beast thou shalt take to thee by sevens, the male and his female: and of beasts that are not clean by two, the male and his female.",
+   "web": "You shall take seven pairs of every clean animal with you, the male and his female. Of the animals that are not clean, take two, the male and his female."
+  },
+  "unclean": {
+   "kjv": "Of every clean beast thou shalt take to thee by sevens, the male and his female: and of beasts that are not clean by two, the male and his female.",
+   "web": "You shall take seven pairs of every clean animal with you, the male and his female. Of the animals that are not clean, take two, the male and his female."
+  },
+  "birds": {
+   "kjv": "Of fowls also of the air by sevens, the male and the female; to keep seed alive upon the face of all the earth.",
+   "web": "Also of the birds of the sky, seven and seven, male and female, to keep seed alive on the surface of all the earth."
+  },
+  "went": {
+   "kjv": "There went in two and two unto Noah into the ark, the male and the female, as God had commanded Noah.",
+   "web": "went by pairs to Noah into the ship, male and female, as God commanded Noah."
+  }
+ },
+ "methuselah": {
+  "age": 969,
+  "floodYearOfWorld": 1656,
+  "noahBornYearOfWorld": 1056,
+  "atNoahBirth": 369
+ },
+ "ark": {
+  "kjvTotal": 230,
+  "kjvVerses": 199,
+  "noah": 30,
+  "noahGenesis": 26,
+  "noahNT": 4,
+  "ntRefs": [
+   "Matthew 24:38",
+   "Luke 17:27",
+   "Hebrews 11:7",
+   "1 Peter 3:20"
+  ],
+  "basket": 2,
+  "covenant": 198,
+  "webTotal": 197,
+  "webShipNoah": 30,
+  "webShipGenesis": 26,
+  "covenantDiff": [
+   {
+    "ref": "2 Chronicles 5:9",
+    "kjv": 2,
+    "web": 1
+   }
+  ]
+ },
+ "name": {
+  "kjv": 58,
+  "kjvNoe": 5,
+  "web": 58,
+  "kjvVerses": 51,
+  "webVerses": 51,
+  "books": 11,
+  "floodKjv": 35,
+  "floodWeb": 35
+ },
+ "quotes": {
+  "gen532": {
+   "kjv": "And Noah was five hundred years old: and Noah begat Shem, Ham, and Japheth.",
+   "web": "Noah was five hundred years old, then Noah became the father of Shem, Ham, and Japheth."
+  },
+  "gen63": {
+   "kjv": "And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years.",
+   "web": "Yahweh said, “My Spirit will not strive with man forever, because he also is flesh; so his days will be one hundred twenty years.”"
+  },
+  "gen615": {
+   "kjv": "And this is the fashion which thou shalt make it of: The length of the ark shall be three hundred cubits, the breadth of it fifty cubits, and the height of it thirty cubits.",
+   "web": "This is how you shall make it. The length of the ship shall be three hundred cubits, its width fifty cubits, and its height thirty cubits."
+  },
+  "gen618": {
+   "kjv": "But with thee will I establish my covenant; and thou shalt come into the ark, thou, and thy sons, and thy wife, and thy sons’ wives with thee.",
+   "web": "But I will establish my covenant with you. You shall come into the ship, you, your sons, your wife, and your sons’ wives with you."
+  },
+  "gen622": {
+   "kjv": "Thus did Noah; according to all that God commanded him, so did he.",
+   "web": "Thus Noah did. He did all that God commanded him."
+  },
+  "gen76": {
+   "kjv": "And Noah was six hundred years old when the flood of waters was upon the earth.",
+   "web": "Noah was six hundred years old when the flood of waters came on the earth."
+  },
+  "gen1110": {
+   "kjv": "These are the generations of Shem: Shem was an hundred years old, and begat Arphaxad two years after the flood:",
+   "web": "This is the history of the generations of Shem: Shem was one hundred years old when he became the father of Arpachshad two years after the flood."
+  },
+  "pet320": {
+   "kjv": "Which sometime were disobedient, when once the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight souls were saved by water.",
+   "web": "who before were disobedient, when God waited patiently in the days of Noah, while the ship was being built. In it, few, that is, eight souls, were saved through water."
+  }
+ },
+ "checks": [
+  "gen614",
+  "gen614web",
+  "gen618",
+  "gen618web",
+  "gen610",
+  "gen622",
+  "gen622web",
+  "gen75",
+  "heb117",
+  "heb117web",
+  "pet320",
+  "pet320web",
+  "pet25"
+ ]
+}

@@ -136,7 +136,7 @@ export default function FruitOfTheSpirit() {
             </div>
           </div>
           <p className="mt-4 leading-relaxed">
-            The World English Bible also counts {F.works.web.length} works of the flesh: {F.works.web.join(", ")}. Both translations end the fruit list with the same sentence, "against such there is no law" in the King James Version and "against such things there is no law" in the World English Bible.
+            The World English Bible also counts {F.works.web.length} works of the flesh: {F.works.web.join(", ")}. Both translations end the fruit list with the same sentence, "against such there is no law" in the King James Version and "against such things there is no law" in the World English Bible. The seven deadly sins are a later church list, not one of Paul&apos;s; <Link href="/seven-deadly-sins-in-the-bible" className="underline underline-offset-2 hover:text-primary">the seven deadly sins in the Bible</Link> sets them beside this list and the other vice lists.
           </p>
         </Section>
 

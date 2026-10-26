@@ -492,6 +492,9 @@ export default function HomeClient({
               ["/judges-of-israel", "The judges of Israel"],
               ["/how-many-children-did-david-have", "How many children did David have"],
               ["/names-of-the-holy-spirit", "Names of the Holy Spirit"],
+              ["/seven-deadly-sins-in-the-bible", "The seven deadly sins in the Bible"],
+              ["/biblical-numbers", "Biblical numbers"],
+              ["/how-many-years-did-noah-build-the-ark", "How long Noah built the ark"],
             ].map(([href, label], i) => (
               <span key={href}>
                 {i ? " · " : ""}
