@@ -516,6 +516,9 @@ export default function HomeClient({
               ["/words/fasting", "fasting"],
               ["/words/verily-verily", "verily, verily"],
               ["/words/thus-saith-the-lord", "thus saith the Lord"],
+              ["/words/throne", "throne"],
+              ["/words/atonement", "atonement"],
+              ["/words/barnabas", "Barnabas"],
             ].map(([href, label], i) => (
               <span key={href}>
                 {i ? " · " : ""}

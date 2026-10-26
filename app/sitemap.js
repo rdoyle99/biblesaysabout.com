@@ -17,6 +17,7 @@ const AUTHORS_DATE = "2026-10-23";
 const VERSE_TOOL_DATE = "2026-10-23";
 
 import { LISTS_DATE } from "@/lib/bibleLists";
+import { todayKey } from "@/lib/verseTool";
 
 // list pages (fruit of the Spirit, armor of God, twelve tribes, ten plagues), added 2026-10-24
 // second set (women of the Bible, names of Jesus, parables, miracles), added 2026-10-24 (scripts/lists/*.mjs)
@@ -26,6 +27,9 @@ const LISTS4_DATE = "2026-10-25";
 const LISTS5_DATE = "2026-10-25";
 
 const baseUrl = "https://www.biblesaysabout.com";
+
+// Regenerated hourly so the verse-of-the-day lastmod follows the verse; every other entry is a fixed content date
+export const revalidate = 3600;
 
 // Pages whose content is not generated from data: the date their copy last changed
 const PAGE_DATES = {
@@ -59,7 +63,8 @@ export default function sitemap() {
     ...["twelve-apostles", "kings-of-israel-and-judah", "seven-churches-of-revelation", "how-old-was-methuselah", "613-commandments"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS4_DATE, priority: 0.9 })),
     ...["how-many-books-are-in-the-catholic-bible", "judges-of-israel", "how-many-children-did-david-have", "names-of-the-holy-spirit"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS5_DATE, priority: 0.9 })),
     { url: `${baseUrl}/random-bible-verse`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
-    { url: `${baseUrl}/bible-verse-of-the-day`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
+    // the verse changes at midnight New York time, so its lastmod is the date of the verse the page shows today (the page's dateModified)
+    { url: `${baseUrl}/bible-verse-of-the-day`, lastModified: todayKey(), priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: PAGE_DATES.about, priority: 0.5 },
     { url: `${baseUrl}/privacy`, lastModified: PAGE_DATES.privacy, priority: 0.3 },
     { url: `${baseUrl}/terms`, lastModified: PAGE_DATES.terms, priority: 0.3 },
