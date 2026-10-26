@@ -1407,14 +1407,14 @@
  },
  "oneIdioms": {
   "kjv": {
-   "oneAnother": 57,
-   "everyOne": 315,
+   "oneAnother": 54,
+   "everyOne": 314,
    "theOne": 126,
    "noOne": 2,
    "anyOne": 5
   },
   "web": {
-   "oneAnother": 138,
+   "oneAnother": 135,
    "everyOne": 26,
    "theOne": 147,
    "noOne": 379,

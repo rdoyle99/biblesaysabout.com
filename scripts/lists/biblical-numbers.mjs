@@ -273,11 +273,11 @@ const sevenInRev = { kjv: countForms("kjv", ["seven"], (r) => r.book === "Revela
 const CARDINALS = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety", "hundred", "thousand", "score", "threescore", "fourscore"];
 const ranking = {};
 for (const id of ["kjv", "web"]) ranking[id] = CARDINALS.map((w) => ({ word: w, count: countForms(id, [w]).total })).filter((x) => x.count > 0).sort((a, b) => b.count - a.count);
-// how much of "one" is a pronoun phrase rather than a count
+// how much of "one" is a pronoun phrase rather than a count (possessives such as "every one's" and "one another's" are left out)
 const oneIdioms = {};
 for (const id of ["kjv", "web"]) {
   const r = (re) => countPhrase(id, re).total;
-  oneIdioms[id] = { oneAnother: r(/\bone another\b/gi), everyOne: r(/\bevery one\b/gi), theOne: r(/\bthe one\b/gi), noOne: id === "web" ? r(/\bno one\b/gi) : r(/\bno one\b/gi), anyOne: r(/\bany one\b/gi) };
+  oneIdioms[id] = { oneAnother: r(/\bone another\b(?!['’]s\b)/gi), everyOne: r(/\bevery one\b(?!['’]s\b)/gi), theOne: r(/\bthe one\b/gi), noOne: id === "web" ? r(/\bno one\b/gi) : r(/\bno one\b/gi), anyOne: r(/\bany one\b/gi) };
 }
 
 /* ---------- limits: the big numbers are mostly tallies ---------- */
