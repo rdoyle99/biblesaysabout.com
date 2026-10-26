@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24",
+ "generated": "2026-10-26",
  "source": "Hitchcock's Bible Names Dictionary (1869), public domain",
  "names": {
   "jesus": {
@@ -3244,6 +3244,96 @@
    ],
    "held": false,
    "date": "2026-10-24"
+  },
+  "micaiah": {
+   "term": "Micaiah",
+   "entries": [
+    {
+     "meaning": "who is like to God?"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-26"
+  },
+  "eliakim": {
+   "term": "Eliakim",
+   "entries": [
+    {
+     "meaning": "resurrection of God"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-26"
+  },
+  "jabesh": {
+   "term": "Jabesh",
+   "entries": [
+    {
+     "meaning": "dryness; confusion; shame"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-26"
+  },
+  "perizzites": {
+   "term": "Perizzites",
+   "entries": [
+    {
+     "meaning": "dwelling in villages"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-26"
+  },
+  "sihon": {
+   "term": "Sihon",
+   "entries": [
+    {
+     "meaning": "rooting out; conclusion"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-26"
+  },
+  "jotham": {
+   "term": "Jotham",
+   "entries": [
+    {
+     "meaning": "the perfection of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-26"
+  },
+  "gedaliah": {
+   "term": "Gedaliah",
+   "entries": [
+    {
+     "meaning": "God is my greatness"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-26"
+  },
+  "ahaziah": {
+   "term": "Ahaziah",
+   "entries": [
+    {
+     "meaning": "seizure; vision of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-26"
+  },
+  "zeruiah": {
+   "term": "Zeruiah",
+   "entries": [
+    {
+     "meaning": "pain or tribulation of the Lord"
+    }
+   ],
+   "held": false,
+   "date": "2026-10-26"
   }
  }
 }
