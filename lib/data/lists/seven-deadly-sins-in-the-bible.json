@@ -1,0 +1,1152 @@
+{
+ "generated": "2026-10-26",
+ "deadly": {
+  "kjv": 7,
+  "web": 10,
+  "kjvVerses": 7,
+  "webVerses": 10,
+  "deadlySinKjv": 0,
+  "deadlySinWeb": 0,
+  "sevenDeadlyKjv": 0,
+  "sevenDeadlyWeb": 0,
+  "rows": [
+   {
+    "ref": "1 Samuel 5:11",
+    "kjv": "a deadly destruction",
+    "what": "the destruction in Ekron while the ark of God was there",
+    "web": true
+   },
+   {
+    "ref": "Psalms 17:9",
+    "kjv": "my deadly enemies",
+    "what": "the psalmist's enemies",
+    "web": true
+   },
+   {
+    "ref": "Ezekiel 30:24",
+    "kjv": "a deadly wounded man",
+    "what": "Pharaoh, whose arms God breaks",
+    "web": false
+   },
+   {
+    "ref": "Mark 16:18",
+    "kjv": "any deadly thing",
+    "what": "anything believers drink",
+    "web": true
+   },
+   {
+    "ref": "James 3:8",
+    "kjv": "full of deadly poison",
+    "what": "the tongue",
+    "web": true
+   },
+   {
+    "ref": "Revelation 13:3",
+    "kjv": "his deadly wound was healed",
+    "what": "the beast's wound",
+    "web": false
+   },
+   {
+    "ref": "Revelation 13:12",
+    "kjv": "whose deadly wound was healed",
+    "what": "the beast's wound",
+    "web": false
+   }
+  ],
+  "webRefs": [
+   "1 Samuel 5:11",
+   "Psalms 17:9",
+   "Psalms 64:3",
+   "Psalms 91:3",
+   "Psalms 144:10",
+   "Jeremiah 9:8",
+   "Ezekiel 21:25",
+   "Ezekiel 21:29",
+   "Mark 16:18",
+   "James 3:8"
+  ],
+  "mortalVenialCapital": {
+   "kjv": 0,
+   "web": 0
+  }
+ },
+ "sins": [
+  {
+   "key": "pride",
+   "name": "Pride",
+   "forms": [
+    "pride",
+    "proud",
+    "proudly"
+   ],
+   "noun": "pride",
+   "kjv": {
+    "total": 106,
+    "verses": 100,
+    "books": 27,
+    "top": {
+     "book": "Psalms",
+     "count": 24,
+     "tied": [
+      "Psalms"
+     ]
+    },
+    "forms": {
+     "pride": 49,
+     "proud": 48,
+     "proudly": 9
+    },
+    "ot": 97
+   },
+   "web": {
+    "total": 114,
+    "verses": 108,
+    "books": 27,
+    "top": {
+     "book": "Psalms",
+     "count": 22,
+     "tied": [
+      "Psalms"
+     ]
+    },
+    "forms": {
+     "pride": 58,
+     "proud": 42,
+     "proudly": 14
+    },
+    "ot": 106
+   },
+   "nounKjv": 49,
+   "nounWeb": 58,
+   "proverbs": {
+    "kjv": 14,
+    "web": 12
+   },
+   "ref": "Proverbs 16:18",
+   "keyKjv": "Pride goeth before destruction, and an haughty spirit before a fall.",
+   "keyWeb": "Pride goes before destruction, and a haughty spirit before a fall.",
+   "topic": "pride",
+   "word": "pride"
+  },
+  {
+   "key": "greed",
+   "name": "Greed",
+   "forms": [
+    "greed",
+    "greedy",
+    "greedily",
+    "greediness",
+    "covet",
+    "coveted",
+    "coveteth",
+    "coveting",
+    "covetings",
+    "covetous",
+    "covetousness"
+   ],
+   "noun": "greed",
+   "kjv": {
+    "total": 51,
+    "verses": 47,
+    "books": 24,
+    "top": {
+     "book": "Proverbs",
+     "count": 5,
+     "tied": [
+      "Proverbs",
+      "1 Corinthians"
+     ]
+    },
+    "forms": {
+     "greedy": 6,
+     "greedily": 3,
+     "greediness": 1,
+     "covet": 8,
+     "coveted": 3,
+     "coveteth": 2,
+     "covetous": 9,
+     "covetousness": 19
+    },
+    "ot": 24
+   },
+   "web": {
+    "total": 45,
+    "verses": 41,
+    "books": 22,
+    "top": {
+     "book": "Proverbs",
+     "count": 5,
+     "tied": [
+      "Proverbs",
+      "Romans"
+     ]
+    },
+    "forms": {
+     "greed": 2,
+     "greedy": 9,
+     "greedily": 2,
+     "greediness": 2,
+     "covet": 9,
+     "coveted": 2,
+     "coveting": 2,
+     "covetings": 1,
+     "covetous": 5,
+     "covetousness": 11
+    },
+    "ot": 20
+   },
+   "nounKjv": 0,
+   "nounWeb": 2,
+   "proverbs": {
+    "kjv": 5,
+    "web": 5
+   },
+   "ref": "Luke 12:15",
+   "keyKjv": "And he said unto them, Take heed, and beware of covetousness: for a man’s life consisteth not in the abundance of the things which he possesseth.",
+   "keyWeb": "He said to them, “Beware! Keep yourselves from covetousness, for a man’s life doesn’t consist of the abundance of the things which he possesses.”",
+   "topic": "money",
+   "word": "money"
+  },
+  {
+   "key": "lust",
+   "name": "Lust",
+   "forms": [
+    "lust",
+    "lusts",
+    "lusted",
+    "lusteth",
+    "lusting",
+    "lustful",
+    "lustfully",
+    "lustfulness"
+   ],
+   "noun": "lust",
+   "kjv": {
+    "total": 54,
+    "verses": 52,
+    "books": 22,
+    "top": {
+     "book": "James",
+     "count": 6,
+     "tied": [
+      "James"
+     ]
+    },
+    "forms": {
+     "lust": 19,
+     "lusts": 24,
+     "lusted": 4,
+     "lusteth": 6,
+     "lusting": 1
+    },
+    "ot": 12
+   },
+   "web": {
+    "total": 52,
+    "verses": 50,
+    "books": 21,
+    "top": {
+     "book": "Ezekiel",
+     "count": 5,
+     "tied": [
+      "Ezekiel",
+      "Romans",
+      "2 Peter"
+     ]
+    },
+    "forms": {
+     "lust": 14,
+     "lusts": 23,
+     "lusted": 8,
+     "lusting": 1,
+     "lustful": 3,
+     "lustfully": 1,
+     "lustfulness": 2
+    },
+    "ot": 9
+   },
+   "nounKjv": 19,
+   "nounWeb": 14,
+   "proverbs": {
+    "kjv": 1,
+    "web": 1
+   },
+   "ref": "Matthew 5:28",
+   "keyKjv": "But I say unto you, That whosoever looketh on a woman to lust after her hath committed adultery with her already in his heart.",
+   "keyWeb": "but I tell you that everyone who gazes at a woman to lust after her has committed adultery with her already in his heart.",
+   "topic": "lust",
+   "word": "lust"
+  },
+  {
+   "key": "envy",
+   "name": "Envy",
+   "forms": [
+    "envy",
+    "envies",
+    "envied",
+    "enviest",
+    "envieth",
+    "envying",
+    "envyings",
+    "envious"
+   ],
+   "noun": "envy",
+   "kjv": {
+    "total": 40,
+    "verses": 39,
+    "books": 20,
+    "top": {
+     "book": "Proverbs",
+     "count": 6,
+     "tied": [
+      "Proverbs"
+     ]
+    },
+    "forms": {
+     "envy": 20,
+     "envies": 1,
+     "envied": 6,
+     "enviest": 1,
+     "envieth": 1,
+     "envying": 5,
+     "envyings": 2,
+     "envious": 4
+    },
+    "ot": 21
+   },
+   "web": {
+    "total": 28,
+    "verses": 27,
+    "books": 15,
+    "top": {
+     "book": "Proverbs",
+     "count": 5,
+     "tied": [
+      "Proverbs"
+     ]
+    },
+    "forms": {
+     "envy": 17,
+     "envies": 1,
+     "envied": 5,
+     "envying": 1,
+     "envious": 4
+    },
+    "ot": 18
+   },
+   "nounKjv": 20,
+   "nounWeb": 17,
+   "proverbs": {
+    "kjv": 6,
+    "web": 5
+   },
+   "ref": "Proverbs 14:30",
+   "keyKjv": "A sound heart is the life of the flesh: but envy the rottenness of the bones.",
+   "keyWeb": "The life of the body is a heart at peace, but envy rots the bones.",
+   "topic": "jealousy",
+   "word": "envy"
+  },
+  {
+   "key": "gluttony",
+   "name": "Gluttony",
+   "forms": [
+    "glutton",
+    "gluttons",
+    "gluttonous",
+    "gluttony"
+   ],
+   "noun": "gluttony",
+   "kjv": {
+    "total": 4,
+    "verses": 4,
+    "books": 4,
+    "top": {
+     "book": "Deuteronomy",
+     "count": 1,
+     "tied": [
+      "Deuteronomy",
+      "Proverbs",
+      "Matthew",
+      "Luke"
+     ]
+    },
+    "forms": {
+     "glutton": 2,
+     "gluttonous": 2
+    },
+    "ot": 2
+   },
+   "web": {
+    "total": 6,
+    "verses": 6,
+    "books": 5,
+    "top": {
+     "book": "Proverbs",
+     "count": 2,
+     "tied": [
+      "Proverbs"
+     ]
+    },
+    "forms": {
+     "glutton": 2,
+     "gluttons": 2,
+     "gluttonous": 2
+    },
+    "ot": 3
+   },
+   "nounKjv": 0,
+   "nounWeb": 0,
+   "proverbs": {
+    "kjv": 1,
+    "web": 2
+   },
+   "ref": "Proverbs 23:21",
+   "keyKjv": "For the drunkard and the glutton shall come to poverty: and drowsiness shall clothe a man with rags.",
+   "keyWeb": "for the drunkard and the glutton shall become poor; and drowsiness clothes them in rags.",
+   "topic": "gluttony",
+   "word": null
+  },
+  {
+   "key": "wrath",
+   "name": "Wrath",
+   "forms": [
+    "wrath",
+    "wraths",
+    "wrathful",
+    "wroth",
+    "anger",
+    "angered",
+    "angry"
+   ],
+   "noun": "wrath",
+   "kjv": {
+    "total": 529,
+    "verses": 478,
+    "books": 51,
+    "top": {
+     "book": "Psalms",
+     "count": 66,
+     "tied": [
+      "Psalms"
+     ]
+    },
+    "forms": {
+     "wrath": 198,
+     "wraths": 1,
+     "wrathful": 2,
+     "wroth": 49,
+     "anger": 234,
+     "angered": 1,
+     "angry": 44
+    },
+    "ot": 465
+   },
+   "web": {
+    "total": 600,
+    "verses": 518,
+    "books": 52,
+    "top": {
+     "book": "Psalms",
+     "count": 65,
+     "tied": [
+      "Psalms"
+     ]
+    },
+    "forms": {
+     "wrath": 238,
+     "wrathful": 4,
+     "anger": 255,
+     "angered": 2,
+     "angry": 101
+    },
+    "ot": 533
+   },
+   "nounKjv": 198,
+   "nounWeb": 238,
+   "proverbs": {
+    "kjv": 30,
+    "web": 27
+   },
+   "ref": "Ephesians 4:26",
+   "keyKjv": "Be ye angry, and sin not: let not the sun go down upon your wrath:",
+   "keyWeb": "“Be angry, and don’t sin.” Don’t let the sun go down on your wrath,",
+   "topic": "anger",
+   "word": "wrath"
+  },
+  {
+   "key": "sloth",
+   "name": "Sloth",
+   "forms": [
+    "sloth",
+    "slothful",
+    "slothfulness",
+    "sluggard",
+    "sluggish",
+    "lazy",
+    "laziness"
+   ],
+   "noun": "sloth",
+   "kjv": {
+    "total": 23,
+    "verses": 23,
+    "books": 6,
+    "top": {
+     "book": "Proverbs",
+     "count": 18,
+     "tied": [
+      "Proverbs"
+     ]
+    },
+    "forms": {
+     "slothful": 15,
+     "slothfulness": 2,
+     "sluggard": 6
+    },
+    "ot": 20
+   },
+   "web": {
+    "total": 23,
+    "verses": 22,
+    "books": 5,
+    "top": {
+     "book": "Proverbs",
+     "count": 19,
+     "tied": [
+      "Proverbs"
+     ]
+    },
+    "forms": {
+     "slothful": 3,
+     "slothfulness": 2,
+     "sluggard": 14,
+     "sluggish": 1,
+     "lazy": 2,
+     "laziness": 1
+    },
+    "ot": 21
+   },
+   "nounKjv": 0,
+   "nounWeb": 0,
+   "proverbs": {
+    "kjv": 18,
+    "web": 19
+   },
+   "ref": "Proverbs 6:6",
+   "keyKjv": "Go to the ant, thou sluggard; consider her ways, and be wise:",
+   "keyWeb": "Go to the ant, you sluggard. Consider her ways, and be wise;",
+   "topic": "laziness",
+   "word": null
+  }
+ ],
+ "nounsAbsentKjv": [
+  "greed",
+  "gluttony",
+  "sloth"
+ ],
+ "nounsAbsentWeb": [
+  "gluttony",
+  "sloth"
+ ],
+ "wrath": {
+  "wrathOnly": {
+   "kjv": 250,
+   "web": 242
+  },
+  "angerOnly": {
+   "kjv": 279,
+   "web": 358
+  },
+  "angerOfTheLord": 24,
+  "wrathOfGod": 10
+ },
+ "jealous": {
+  "kjv": 54,
+  "web": 69
+ },
+ "gluttonRefs": [
+  "Deuteronomy 21:20",
+  "Proverbs 23:21",
+  "Matthew 11:19",
+  "Luke 7:34"
+ ],
+ "tenth": {
+  "kjv": "Thou shalt not covet thy neighbour’s house, thou shalt not covet thy neighbour’s wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour’s.",
+  "web": "“You shall not covet your neighbor’s house. You shall not covet your neighbor’s wife, nor his male servant, nor his female servant, nor his ox, nor his donkey, nor anything that is your neighbor’s.”"
+ },
+ "tim610": {
+  "kjv": "For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.",
+  "web": "For the love of money is a root of all kinds of evil. Some have been led astray from the faith in their greed, and have pierced themselves through with many sorrows."
+ },
+ "prideVerses": {
+  "james46": {
+   "kjv": "But he giveth more grace. Wherefore he saith, God resisteth the proud, but giveth grace unto the humble.",
+   "web": "But he gives more grace. Therefore it says, “God resists the proud, but gives grace to the humble.”"
+  },
+  "prov813": {
+   "kjv": "The fear of the LORD is to hate evil: pride, and arrogancy, and the evil way, and the froward mouth, do I hate.",
+   "web": "The fear of Yahweh is to hate evil. I hate pride, arrogance, the evil way, and the perverse mouth."
+  },
+  "john216": {
+   "kjv": "For all that is in the world, the lust of the flesh, and the lust of the eyes, and the pride of life, is not of the Father, but is of the world.",
+   "web": "For all that is in the world, the lust of the flesh, the lust of the eyes, and the pride of life, isn’t the Father’s, but is the world’s."
+  }
+ },
+ "prov6": {
+  "kjv": "These six things doth the LORD hate: yea, seven are an abomination unto him: A proud look, a lying tongue, and hands that shed innocent blood, An heart that deviseth wicked imaginations, feet that be swift in running to mischief, A false witness that speaketh lies, and he that soweth discord among brethren.",
+  "web": "There are six things which Yahweh hates; yes, seven which are an abomination to him: haughty eyes, a lying tongue, hands that shed innocent blood; a heart that devises wicked schemes, feet that are swift in running to mischief, a false witness who utters lies, and he who sows discord among brothers.",
+  "items": [
+   {
+    "n": 1,
+    "kjv": "A proud look",
+    "web": "haughty eyes",
+    "ref": "Proverbs 6:17",
+    "sin": "pride",
+    "note": "the only item that uses a word from one of the seven families (KJV \"proud\")"
+   },
+   {
+    "n": 2,
+    "kjv": "a lying tongue",
+    "web": "a lying tongue",
+    "ref": "Proverbs 6:17",
+    "sin": null,
+    "note": ""
+   },
+   {
+    "n": 3,
+    "kjv": "hands that shed innocent blood",
+    "web": "hands that shed innocent blood",
+    "ref": "Proverbs 6:17",
+    "sin": null,
+    "note": ""
+   },
+   {
+    "n": 4,
+    "kjv": "An heart that deviseth wicked imaginations",
+    "web": "a heart that devises wicked schemes",
+    "ref": "Proverbs 6:18",
+    "sin": null,
+    "note": ""
+   },
+   {
+    "n": 5,
+    "kjv": "feet that be swift in running to mischief",
+    "web": "feet that are swift in running to mischief",
+    "ref": "Proverbs 6:18",
+    "sin": null,
+    "note": ""
+   },
+   {
+    "n": 6,
+    "kjv": "A false witness that speaketh lies",
+    "web": "a false witness who utters lies",
+    "ref": "Proverbs 6:19",
+    "sin": null,
+    "note": ""
+   },
+   {
+    "n": 7,
+    "kjv": "he that soweth discord among brethren",
+    "web": "he who sows discord among brothers",
+    "ref": "Proverbs 6:19",
+    "sin": null,
+    "note": ""
+   }
+  ],
+  "overlap": [
+   "pride"
+  ],
+  "sevenAbominations": 1
+ },
+ "lists": [
+  {
+   "ref": "Mark 7:21-22",
+   "speaker": "Jesus",
+   "setting": "what comes out of the heart and defiles",
+   "kjv": [
+    "evil thoughts",
+    "adulteries",
+    "fornications",
+    "murders",
+    "Thefts",
+    "covetousness",
+    "wickedness",
+    "deceit",
+    "lasciviousness",
+    "an evil eye",
+    "blasphemy",
+    "pride",
+    "foolishness"
+   ],
+   "web": [
+    "evil thoughts",
+    "adulteries",
+    "sexual sins",
+    "murders",
+    "thefts",
+    "covetings",
+    "wickedness",
+    "deceit",
+    "lustful desires",
+    "an evil eye",
+    "blasphemy",
+    "pride",
+    "foolishness"
+   ],
+   "entriesKjv": 13,
+   "entriesWeb": 13,
+   "hits": {
+    "pride": {
+     "kjv": [
+      "pride"
+     ],
+     "web": [
+      "pride"
+     ]
+    },
+    "greed": {
+     "kjv": [
+      "covetousness"
+     ],
+     "web": [
+      "covetings"
+     ]
+    },
+    "lust": {
+     "kjv": [],
+     "web": [
+      "lustful desires"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "Romans 1:29-31",
+   "speaker": "Paul",
+   "setting": "those given over to a reprobate mind",
+   "kjv": [
+    "unrighteousness",
+    "fornication",
+    "wickedness",
+    "covetousness",
+    "maliciousness",
+    "envy",
+    "murder",
+    "debate",
+    "deceit",
+    "malignity",
+    "whisperers",
+    "Backbiters",
+    "haters of God",
+    "despiteful",
+    "proud",
+    "boasters",
+    "inventors of evil things",
+    "disobedient to parents",
+    "Without understanding",
+    "covenantbreakers",
+    "without natural affection",
+    "implacable",
+    "unmerciful"
+   ],
+   "web": [
+    "unrighteousness",
+    "sexual immorality",
+    "wickedness",
+    "covetousness",
+    "malice",
+    "envy",
+    "murder",
+    "strife",
+    "deceit",
+    "evil habits",
+    "secret slanderers",
+    "backbiters",
+    "hateful to God",
+    "insolent",
+    "haughty",
+    "boastful",
+    "inventors of evil things",
+    "disobedient to parents",
+    "without understanding",
+    "covenant breakers",
+    "without natural affection",
+    "unforgiving",
+    "unmerciful"
+   ],
+   "entriesKjv": 23,
+   "entriesWeb": 23,
+   "hits": {
+    "pride": {
+     "kjv": [
+      "proud"
+     ],
+     "web": []
+    },
+    "greed": {
+     "kjv": [
+      "covetousness"
+     ],
+     "web": [
+      "covetousness"
+     ]
+    },
+    "envy": {
+     "kjv": [
+      "envy"
+     ],
+     "web": [
+      "envy"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "1 Corinthians 6:9-10",
+   "speaker": "Paul",
+   "setting": "who shall not inherit the kingdom of God",
+   "kjv": [
+    "fornicators",
+    "idolaters",
+    "adulterers",
+    "effeminate",
+    "abusers of themselves with mankind",
+    "thieves",
+    "covetous",
+    "drunkards",
+    "revilers",
+    "extortioners"
+   ],
+   "web": [
+    "sexually immoral",
+    "idolaters",
+    "adulterers",
+    "male prostitutes",
+    "homosexuals",
+    "thieves",
+    "covetous",
+    "drunkards",
+    "slanderers",
+    "extortionists"
+   ],
+   "entriesKjv": 10,
+   "entriesWeb": 10,
+   "hits": {
+    "greed": {
+     "kjv": [
+      "covetous"
+     ],
+     "web": [
+      "covetous"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "Galatians 5:19-21",
+   "speaker": "Paul",
+   "setting": "the works of the flesh",
+   "kjv": [
+    "Adultery",
+    "fornication",
+    "uncleanness",
+    "lasciviousness",
+    "Idolatry",
+    "witchcraft",
+    "hatred",
+    "variance",
+    "emulations",
+    "wrath",
+    "strife",
+    "seditions",
+    "heresies",
+    "Envyings",
+    "murders",
+    "drunkenness",
+    "revellings"
+   ],
+   "web": [
+    "adultery",
+    "sexual immorality",
+    "uncleanness",
+    "lustfulness",
+    "idolatry",
+    "sorcery",
+    "hatred",
+    "strife",
+    "jealousies",
+    "outbursts of anger",
+    "rivalries",
+    "divisions",
+    "heresies",
+    "envy",
+    "murders",
+    "drunkenness",
+    "orgies"
+   ],
+   "entriesKjv": 17,
+   "entriesWeb": 17,
+   "hits": {
+    "lust": {
+     "kjv": [],
+     "web": [
+      "lustfulness"
+     ]
+    },
+    "envy": {
+     "kjv": [
+      "Envyings"
+     ],
+     "web": [
+      "envy"
+     ]
+    },
+    "wrath": {
+     "kjv": [
+      "wrath"
+     ],
+     "web": [
+      "outbursts of anger"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "Colossians 3:5",
+   "speaker": "Paul",
+   "setting": "what to put to death",
+   "kjv": [
+    "fornication",
+    "uncleanness",
+    "inordinate affection",
+    "evil concupiscence",
+    "covetousness"
+   ],
+   "web": [
+    "sexual immorality",
+    "uncleanness",
+    "depraved passion",
+    "evil desire",
+    "covetousness"
+   ],
+   "entriesKjv": 5,
+   "entriesWeb": 5,
+   "hits": {
+    "greed": {
+     "kjv": [
+      "covetousness"
+     ],
+     "web": [
+      "covetousness"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "2 Timothy 3:2-5",
+   "speaker": "Paul",
+   "setting": "people in the last days",
+   "kjv": [
+    "lovers of their own selves",
+    "covetous",
+    "boasters",
+    "proud",
+    "blasphemers",
+    "disobedient to parents",
+    "unthankful",
+    "unholy",
+    "Without natural affection",
+    "trucebreakers",
+    "false accusers",
+    "incontinent",
+    "fierce",
+    "despisers of those that are good",
+    "Traitors",
+    "heady",
+    "highminded",
+    "lovers of pleasures more than lovers of God",
+    "Having a form of godliness"
+   ],
+   "web": [
+    "lovers of self",
+    "lovers of money",
+    "boastful",
+    "arrogant",
+    "blasphemers",
+    "disobedient to parents",
+    "unthankful",
+    "unholy",
+    "without natural affection",
+    "unforgiving",
+    "slanderers",
+    "without self-control",
+    "fierce",
+    "not lovers of good",
+    "traitors",
+    "headstrong",
+    "conceited",
+    "lovers of pleasure rather than lovers of God",
+    "holding a form of godliness"
+   ],
+   "entriesKjv": 19,
+   "entriesWeb": 19,
+   "hits": {
+    "pride": {
+     "kjv": [
+      "proud"
+     ],
+     "web": []
+    },
+    "greed": {
+     "kjv": [
+      "covetous"
+     ],
+     "web": []
+    }
+   }
+  },
+  {
+   "ref": "Revelation 21:8",
+   "speaker": "the one on the throne",
+   "setting": "whose part is the lake of fire, the second death",
+   "kjv": [
+    "the fearful",
+    "unbelieving",
+    "the abominable",
+    "murderers",
+    "whoremongers",
+    "sorcerers",
+    "idolaters",
+    "all liars"
+   ],
+   "web": [
+    "the cowardly",
+    "unbelieving",
+    "sinners",
+    "abominable",
+    "murderers",
+    "sexually immoral",
+    "sorcerers",
+    "idolaters",
+    "all liars"
+   ],
+   "entriesKjv": 8,
+   "entriesWeb": 9,
+   "hits": {}
+  }
+ ],
+ "totals": {
+  "kjv": 95,
+  "web": 96,
+  "lists": 7
+ },
+ "matrix": [
+  {
+   "key": "pride",
+   "name": "Pride",
+   "lists": 3,
+   "refs": [
+    "Mark 7:21-22",
+    "Romans 1:29-31",
+    "2 Timothy 3:2-5"
+   ],
+   "kjvOnly": [
+    "Romans 1:29-31",
+    "2 Timothy 3:2-5"
+   ],
+   "webOnly": []
+  },
+  {
+   "key": "greed",
+   "name": "Greed",
+   "lists": 5,
+   "refs": [
+    "Mark 7:21-22",
+    "Romans 1:29-31",
+    "1 Corinthians 6:9-10",
+    "Colossians 3:5",
+    "2 Timothy 3:2-5"
+   ],
+   "kjvOnly": [
+    "2 Timothy 3:2-5"
+   ],
+   "webOnly": []
+  },
+  {
+   "key": "lust",
+   "name": "Lust",
+   "lists": 2,
+   "refs": [
+    "Mark 7:21-22",
+    "Galatians 5:19-21"
+   ],
+   "kjvOnly": [],
+   "webOnly": [
+    "Mark 7:21-22",
+    "Galatians 5:19-21"
+   ]
+  },
+  {
+   "key": "envy",
+   "name": "Envy",
+   "lists": 2,
+   "refs": [
+    "Romans 1:29-31",
+    "Galatians 5:19-21"
+   ],
+   "kjvOnly": [],
+   "webOnly": []
+  },
+  {
+   "key": "gluttony",
+   "name": "Gluttony",
+   "lists": 0,
+   "refs": [],
+   "kjvOnly": [],
+   "webOnly": []
+  },
+  {
+   "key": "wrath",
+   "name": "Wrath",
+   "lists": 1,
+   "refs": [
+    "Galatians 5:19-21"
+   ],
+   "kjvOnly": [],
+   "webOnly": []
+  },
+  {
+   "key": "sloth",
+   "name": "Sloth",
+   "lists": 0,
+   "refs": [],
+   "kjvOnly": [],
+   "webOnly": []
+  }
+ ],
+ "listsWithNone": [
+  "Revelation 21:8"
+ ],
+ "drunk": [
+  "1 Corinthians 6:9-10",
+  "Galatians 5:19-21"
+ ],
+ "col38": {
+  "kjv": "But now ye also put off all these; anger, wrath, malice, blasphemy, filthy communication out of your mouth.",
+  "web": "but now you also put them all away: anger, wrath, malice, slander, and shameful speaking out of your mouth."
+ },
+ "fruit": {
+  "kjv": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law.",
+  "web": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control. Against such things there is no law.",
+  "count": 9
+ },
+ "john516": {
+  "kjv": "If any man see his brother sin a sin which is not unto death, he shall ask, and he shall give him life for them that sin not unto death. There is a sin unto death: I do not say that he shall pray for it. All unrighteousness is sin: and there is a sin not unto death.",
+  "web": "If anyone sees his brother sinning a sin not leading to death, he shall ask, and God will give him life for those who sin not leading to death. There is a sin leading to death. I don’t say that he should make a request concerning this. All unrighteousness is sin, and there is a sin not leading to death.",
+  "phraseKjv": 4,
+  "phraseWeb": 4
+ },
+ "rom623": {
+  "kjv": "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.",
+  "web": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord."
+ }
+}

@@ -193,7 +193,7 @@ export default function HowOldWasMethuselah() {
 
         <Section>
           <p className="mb-4">
-            Read about <Link href="/books/genesis" className={link}>Genesis</Link>, where every age before Moses is given. Word counts: {wordLink("methuselah", "Methuselah")}, {wordLink("enoch", "Enoch")}, {wordLink("noah", "Noah")} and {wordLink("flood", "flood")}. Sarah is one of <Link href="/women-of-the-bible" className={link}>the women of the Bible</Link>, and Levi heads one of <Link href="/twelve-tribes-of-israel" className={link}>the twelve tribes of Israel</Link>. Lamech of Genesis 4 appears on <Link href="/how-many-wives-did-solomon-have" className={link}>how many wives Solomon had</Link>. More counts are on{" "}
+            Read about <Link href="/books/genesis" className={link}>Genesis</Link>, where every age before Moses is given. Word counts: {wordLink("methuselah", "Methuselah")}, {wordLink("enoch", "Enoch")}, {wordLink("noah", "Noah")} and {wordLink("flood", "flood")}. Noah's ages also bound how long the ark took to build: see <Link href="/how-many-years-did-noah-build-the-ark" className={link}>how many years Noah built the ark</Link>. Sarah is one of <Link href="/women-of-the-bible" className={link}>the women of the Bible</Link>, and Levi heads one of <Link href="/twelve-tribes-of-israel" className={link}>the twelve tribes of Israel</Link>. Lamech of Genesis 4 appears on <Link href="/how-many-wives-did-solomon-have" className={link}>how many wives Solomon had</Link>. More counts are on{" "}
             <Link href="/bible-by-the-numbers" className={link}>the Bible by the numbers</Link>.
           </p>
           <MethodNote text={METHOD} date={DATA.generated} />
