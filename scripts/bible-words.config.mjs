@@ -667,4 +667,55 @@ const WAVE4 = [
   nm("rabshakeh", "Rabshakeh", v("rabshakeh", "rab shakeh"), { web: v("rabshakeh", "rabshakeh's"), related: v("sennacherib"), note: "Rabshakeh is the title of the officer the king of Assyria sent to Jerusalem (2 Kings 18:17), not a personal name. The KJV prints the title as Rab-shakeh in 2 Kings and Rabshakeh in Isaiah 36 and 37. Both are counted as one word." }),
 ];
 
-export const WORDS = [...CORE, ...MORE, ...WAVE3, ...WAVE4];
+// wave 5 (2026-10-26): the words and names left from research/keywords-2026-10-24-words4.json that carry search demand
+// (Ahrefs traffic potential 14-6,000), forms checked against both texts; the number words (three, ten, first) are left to
+// /biblical-numbers, "book" and "name" are too broad to count, "rose" is mostly the verb
+const WAVE5 = [
+  wd("offering", "offering", v("offering", "offerings"), { related: v("sacrifice", "lamb"), topic: "giving", note: "Most uses are in Leviticus and Numbers, where the law sets out the sacrifices. Counting singular and plural, the KJV says burnt offering 270 times, meat offering 133 (meal offering in the World English Bible), sin offering 119, peace offering 87 and trespass offering 36." }),
+  wd("tongue", "tongue", v("tongue", "tongues"), { note: "The KJV uses tongue both for the body part and for a language, as in Acts 2:4, \"began to speak with other tongues\". The World English Bible often says language or languages for the second kind (Acts 2:4: \"other languages\"), so its count is lower." }),
+  wd("iniquity", "iniquity", v("iniquity", "iniquities"), { related: v("sin", "wicked") }),
+  wd("meek", "meek", v("meek", "meekness"), { topic: "humility", note: "The World English Bible never says meek or meekness. Where the KJV says meek it says humble (Numbers 12:3, Moses) or gentle (Matthew 5:5, \"Blessed are the gentle\"), and for meekness it says gentleness or humility (Galatians 5:23), so its count is zero." }),
+  wd("beast", "beast", v("beast", "beasts", "beast's"), { topic: "animals", related: v("dragon", "satan"), note: "The KJV says beast for any animal (Genesis 1:24, \"beast of the earth\") and for the beast of Revelation 13. The World English Bible says animal or animals in the first sense and keeps beast almost only for Revelation, which is why its count is so much lower." }),
+  wd("flower", "flower", v("flower", "flowers"), { topic: "nature" }),
+  wd("feast", "feast", v("feast", "feasts", "feasting", "feasted"), { related: v("passover", "sabbath", "wine") }),
+  wd("word", "word", v("word", "words", "word's"), { related: v("truth", "gospel") }),
+  wd("husband", "husband", v("husband", "husbands", "husband's"), { topic: "marriage", related: v("wife"), note: "Husbandman, husbandmen and husbandry mean a farmer and farming, not a married man, and are not counted." }),
+  wd("morning", "morning", v("morning", "mornings", "morning's")),
+  wd("kingdom", "kingdom", v("kingdom", "kingdoms", "kingdom's"), { related: v("kingdom-of-god", "kingdom-of-heaven", "king") }),
+  wd("temperance", "temperance", v("temperance"), { topic: "self-control", note: "Temperance is the KJV's word for self-control, in Acts 24:25, Galatians 5:23 (the fruit of the Spirit) and twice in 2 Peter 1:6. The World English Bible says self-control in all three verses, so it has no temperance count. Temperate (1 Corinthians 9:25, Titus 1:8 and 2:2) is a different word and is not counted." }),
+  wd("earth", "earth", v("earth", "earth's"), { topic: "creation", related: v("heaven"), note: "Earthquake, earthen and earthly are different words and are not counted." }),
+  wd("wealth", "wealth", v("wealth", "wealthy"), { topic: "wealth", related: v("riches", "money", "gold"), note: "The World English Bible says wealth about twice as often as the KJV because it uses the word where the KJV says riches, substance or goods. Riches has its own page." }),
+  wd("fatherless", "fatherless", v("fatherless"), { topic: "orphans", related: v("widow", "father") }),
+  wd("bird", "bird", v("bird", "birds", "bird's"), { topic: "animals", related: v("sparrow", "dove", "eagle"), note: "The KJV's usual word for birds is fowl or fowls (86 uses, as in \"the fowl of the air\", Genesis 1:26), which this page does not count. The World English Bible says birds in those places, so its count is more than double." }),
+  wd("daughter", "daughter", v("daughter", "daughters", "daughter's"), { topic: "children", related: v("son", "mother"), note: "A hyphenated word counts its parts, so daughter-in-law is included." }),
+  wd("treasure", "treasure", v("treasure", "treasures", "treasured", "treasurest"), { related: v("riches", "gold", "heart"), note: "Treasurer and treasurers, the officials, are not counted." }),
+  wd("evil", "evil", v("evil", "evils"), { related: v("wicked", "sin", "devil"), exclude: v("evil merodach"), note: "Evildoer and evildoers are different words and are not counted, and neither is the Babylonian king Evil-merodach (2 Kings 25:27)." }),
+  wd("world", "world", v("world", "worlds", "world's"), { related: v("earth", "heaven"), note: "Worldly is a different word and is not counted." }),
+  wd("beloved", "beloved", v("beloved", "beloved's"), { note: "The KJV also prints wellbeloved as one word (6 uses, as in Mark 12:6, \"one son, his wellbeloved\"), which is not counted." }),
+  wd("firstborn", "firstborn", v("firstborn"), { related: v("passover"), note: "Where the law speaks of animals the KJV often says firstling, as in Exodus 13:13 and 34:19; the World English Bible says firstborn there too, which is why its count is higher. It also says firstborn where the KJV says eldest (Numbers 1:20) or first begotten (Revelation 1:5)." }),
+  wd("law", "law", v("law", "laws"), { topic: "obedience", related: v("moses"), exclude: v("law breaker"), excludeAfter: v("in"), note: "Lawful, lawyer, lawgiver and law-breaker are different words and are not counted. Neither are mother-in-law, father-in-law and the other in-laws, where the KJV prints \"in law\" and the World English Bible \"in-law\" (Genesis 11:31, \"his daughter in law\")." }),
+  wd("rich", "rich", v("rich", "richly", "richer", "richest"), { topic: "money", related: v("riches", "wealth", "money"), note: "Riches is counted on its own page, not here." }),
+  wd("door", "door", v("door", "doors")),
+  wd("hand", "hand", v("hand", "hands", "hand's"), { note: "Handmaid, handful and handle are different words and are not counted." }),
+  wd("stone", "stone", v("stone", "stones", "stone's"), { note: "Stoned and stonest (the verb), brimstone, millstone and hailstones are different words and are not counted. The plain word stone is counted wherever it appears, including the verb in \"ye shall stone him\"." }),
+  wd("gate", "gate", v("gate", "gates"), { related: v("jerusalem", "zion"), note: "Where the KJV says porter for the men who kept the gates (39 uses), the World English Bible usually says gatekeeper; neither word is counted here." }),
+  wd("beard", "beard", v("beard", "beards")),
+  wd("generation", "generation", v("generation", "generations")),
+  wd("image", "image", v("image", "images", "image's"), { related: v("idol"), note: "Genesis 1:27 is the best known use: \"So God created man in his own image\"." }),
+  wd("brass", "brass", v("brass"), { related: v("iron", "gold", "silver"), note: "Brass in the KJV translates a Hebrew word for copper or bronze. The World English Bible also says brass, and says bronze in 27 other places, which are not counted. Where the KJV has the adjective brasen (29 uses, as in the brasen altar) the World English Bible writes \"of brass\", so its count runs higher." }),
+  wd("valley", "valley", v("valley", "valleys")),
+  wd("cattle", "cattle", v("cattle"), { related: v("sheep"), note: "The KJV says cattle for livestock in general. The World English Bible says livestock in most of those verses (Genesis 1:24), so its count is about half." }),
+  wd("voice", "voice", v("voice", "voices")),
+  nm("micaiah", "Micaiah", v("micaiah", "michaiah"), { note: "The best known Micaiah is the prophet, the son of Imlah, who told King Ahab the truth (1 Kings 22:8). The KJV also spells the name Michaiah (7 uses, such as Abijah's mother in 2 Chronicles 13:2); the World English Bible writes Micaiah everywhere, and names him in two verses where the KJV says \"he said\" (1 Kings 22:19, 2 Chronicles 18:18)." }),
+  nm("eliakim", "Eliakim", v("eliakim"), { related: v("hezekiah", "jehoiakim"), note: "Two men stand out: Eliakim the son of Hilkiah, over King Hezekiah's household (2 Kings 18:18), and Eliakim the son of Josiah, whom Pharaoh made king and renamed Jehoiakim (2 Kings 23:34)." }),
+  nm("hoshea", "Hoshea", v("hoshea", "oshea"), { web: v("hoshea"), related: v("joshua"), note: "Hoshea son of Elah was the last king of Israel (2 Kings 17:1). Hoshea is also Joshua's first name: the KJV spells it Oshea in Numbers 13:8 and 13:16, where Moses renames him, and both spellings are counted. In Deuteronomy 32:44 the World English Bible says Joshua where the KJV says Hoshea." }),
+  nm("jabesh", "Jabesh", v("jabesh"), { compounds: v("jabesh-gilead"), related: v("gilead"), note: "Jabesh is the town of Jabesh-gilead (1 Samuel 11:1), written Jabesh Gilead in the World English Bible, and counted in both spellings because it is the same place. It is also the father of Shallum, who killed a king of Israel (2 Kings 15:10)." }),
+  nm("perizzites", "Perizzites", v("perizzites", "perizzite"), { related: v("canaanites", "hittites", "amorites"), note: "The Perizzites are one of the peoples of Canaan named in God's promise to Abraham (Genesis 15:20) and to Moses (Exodus 3:8)." }),
+  nm("sihon", "Sihon", v("sihon"), { related: v("amorites"), note: "Sihon was king of the Amorites, defeated by Israel when he refused them passage (Numbers 21:21-24)." }),
+  nm("jotham", "Jotham", v("jotham", "joatham"), { web: v("jotham", "jothan"), related: v("uzziah", "gideon"), note: "Two men are called Jotham: the youngest son of Gideon (Jerubbaal), who survived the massacre of his brothers (Judges 9:5), and the king of Judah who followed Uzziah (2 Kings 15:32). The KJV spells the king Joatham in Matthew 1:9, counted here. In 1 Chronicles 2:47 the World English Bible spells the name of a different man Jothan, and that is counted too." }),
+  nm("gedaliah", "Gedaliah", v("gedaliah"), { related: v("ishmael"), note: "Gedaliah son of Ahikam was the governor Babylon set over Judah after Jerusalem fell (2 Kings 25:22), killed by Ishmael son of Nethaniah (Jeremiah 41:2). Other men share the name." }),
+  nm("ahaziah", "Ahaziah", v("ahaziah"), { related: v("ahab"), note: "Two kings are named Ahaziah: the son of Ahab, king of Israel for two years (1 Kings 22:51), and the son of Jehoram and Athaliah, king of Judah for one year (2 Kings 8:26)." }),
+  nm("zeruiah", "Zeruiah", v("zeruiah"), { related: v("joab", "abishai", "asahel"), note: "Zeruiah was David's sister, the mother of Joab, Abishai and Asahel (1 Chronicles 2:16). Most uses name her sons as \"the son of Zeruiah\"." }),
+];
+
+export const WORDS = [...CORE, ...MORE, ...WAVE3, ...WAVE4, ...WAVE5];

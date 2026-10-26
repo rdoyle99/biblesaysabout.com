@@ -15,12 +15,12 @@ import { fileURLToPath } from "url";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = "https://raw.githubusercontent.com/neuu-org/bible-dictionary-dataset/HEAD/data/00_raw/ccel/xml/hitchcock_bible_names.xml";
-const DATE = "2026-10-24";
+const DATE = "2026-10-26";
 const FIRST = "2026-10-06"; // names that already had a meaning section keep their date; new ones get DATE
 const HOLD = new Set(["god", "lord", "jesus", "christ", "satan", "israel", "joshua", "daniel", "john", "james", "ruth", "esther", "job", "jonah", "isaiah", "jeremiah"]);
 const SKIP = new Set(["antichrist", "god", "lord", "yahweh"]); // not a name Hitchcock explains, or not in his list
-// Hitchcock files these under another spelling: Japhet; Naamah's entry reads "Naaman, beautiful; agreeable"
-const ALIAS = { japheth: "japhet", naaman: "naamah", ashkelon: "askelon" };
+// Hitchcock files these under another spelling: Japhet; Naamah's entry reads "Naaman, beautiful; agreeable"; Hoshea is filed under Hosea ("Hoshea, savior; safety")
+const ALIAS = { japheth: "japhet", naaman: "naamah", ashkelon: "askelon", hoshea: "hosea" };
 // pages where the first entry should be the person most readers mean (Hitchcock lists the figurative sense first)
 const PREFER = { rahab: /woman/ };
 
