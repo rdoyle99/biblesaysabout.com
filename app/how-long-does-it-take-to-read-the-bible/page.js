@@ -38,12 +38,21 @@ const yearMin = silentMin / 365;
 const yearChapters = totals.chapters / 365;
 const fifteen = Math.ceil(silentMin / 15);
 
-const TITLE = `How Long Does It Take to Read the Bible? About ${Math.round(silentMin / 60)} Hours`;
-const ANSWER = `About ${Math.round(silentMin / 60)} hours. The King James Bible is ${fmt(k.words)} words, which takes ${readingTime(silentMin)} at the average adult silent reading pace of ${SILENT} words a minute, or ${readingTime(aloudMin)} read aloud at ${ALOUD}. To read it in a year, read ${Math.round(yearMin)} minutes a day, about ${yearChapters.toFixed(1)} chapters. At 15 minutes a day you finish in ${fifteen} days.`;
+const byLength = [...books].sort((a, b) => b.words.kjv - a.words.kjv);
+const longest = byLength[0];
+const shortest = byLength[byLength.length - 1];
+const bookTime = (b) => readingTime(b.words.kjv / SILENT);
+const longestLine =
+  bookTime(byLength[1]) === bookTime(longest)
+    ? `${longest.name} and ${byLength[1].name} take the longest, about ${bookTime(longest)} each,`
+    : `${longest.name} takes the longest at ${bookTime(longest)}`;
+
+const TITLE = `How Long Does It Take to Read the Bible? ${Math.round(silentMin / 60)} Hours, Book by Book`;
+const ANSWER = `About ${Math.round(silentMin / 60)} hours of silent reading, or ${Math.round(aloudMin / 60)} hours read aloud. Read about ${Math.round(yearMin)} minutes a day (${yearChapters.toFixed(1)} chapters) and you finish in a year; at 15 minutes a day you finish in ${fifteen} days. Book by book, ${longestLine} and ${shortest.name} the least at about ${bookTime(shortest)}. The times come from the King James Bible's ${fmt(k.words)} words at the average adult pace of ${SILENT} words a minute silently and ${ALOUD} aloud.`;
 
 export const metadata = {
   title: { absolute: TITLE },
-  description: `The Bible takes about ${Math.round(silentMin / 60)} hours to read (${fmt(k.words)} words at ${SILENT} words a minute). Calculator for any book, pace and minutes a day, plus reading times for every book.`,
+  description: `The Bible takes about ${Math.round(silentMin / 60)} hours to read silently and ${Math.round(aloudMin / 60)} hours aloud, or ${Math.round(yearMin)} minutes a day for a year. Times for all 66 books and a pace calculator.`,
   alternates: { canonical: URL },
   openGraph: { videos: OG_VIDEOS, title: TITLE, url: URL, type: "article", images: [{ url: "/opengraph-image", width: 1200, height: 630 }] },
 };
@@ -151,12 +160,19 @@ export default function ReadingTimePage() {
 
         <Section
           title="How long each book takes to read"
-          intro={`Minutes of silent reading at ${SILENT} words a minute, King James Version. Select a book for its chapters, verses and longest verse.`}
+          intro={`Minutes of silent reading at ${SILENT} words a minute, King James Version.`}
         >
           <BarRows
             labelWidth="w-36"
-            rows={books.map((b) => ({ label: b.name, value: Math.max(1, Math.round(b.words.kjv / SILENT)), href: `/books/${b.slug}`, display: readingTime(b.words.kjv / SILENT).replace(/ minutes?/, " min").replace(/ hours?/, " h") }))}
+            rows={books.map((b) => ({ label: b.name, value: Math.max(1, Math.round(b.words.kjv / SILENT)), display: readingTime(b.words.kjv / SILENT).replace(/ minutes?/, " min").replace(/ hours?/, " h") }))}
           />
+          <p className="mt-4 text-sm text-muted-foreground">
+            Each book&apos;s chapters, verses and longest verse are on{" "}
+            <Link href="/books-of-the-bible" className="underline underline-offset-2 hover:text-primary">
+              the books of the Bible list
+            </Link>
+            .
+          </p>
         </Section>
 
         <FaqSection title="Reading the Bible: common questions" faqs={faqs.slice(1)} />
