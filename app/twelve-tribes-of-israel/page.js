@@ -66,7 +66,7 @@ export default function TwelveTribes() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "The twelve tribes of Israel" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">The 12 tribes of Israel</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 24, 2026. Every census figure below is read out of the King James Version verse that gives it and matches the World English Bible. Name meanings are from {NAMES_SOURCE}.</p>
             </div>
             <StatTiles

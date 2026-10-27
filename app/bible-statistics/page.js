@@ -204,7 +204,7 @@ export default function BibleStatisticsPage() {
 
             {/* Answer-first extractable block */}
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium text-foreground">
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium text-foreground">
                 Just 9% of Americans read the Bible every day and 38% never use it,
                 while 77% still own one. Bible use fell from 50% of U.S. adults in
                 2021 to a low of 38% in 2024, then rebounded to 41% in 2025. The

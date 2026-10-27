@@ -78,7 +78,7 @@ export default function BibleByTheNumbers() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "The Bible by the Numbers" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">The Bible by the numbers</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
             </div>
             <StatTiles
               stats={[

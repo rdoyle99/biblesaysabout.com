@@ -123,7 +123,7 @@ export default function NamesOfTheHolySpirit() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "Names of the Holy Spirit" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">Names of the Holy Spirit</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">
                 Updated October 25, 2026. Counts are from the King James Version (KJV) and the World English Bible (WEB), whole Bible unless a row says otherwise. The bare count of the phrase, verse by verse, is on the word page for {wordLink("holy-spirit", "Holy Spirit")}; this page lists the names and titles.
               </p>

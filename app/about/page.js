@@ -69,7 +69,7 @@ export default function About() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "About" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">About Bible Says About</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ENTITY}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ENTITY}</p>
               <p className="mt-4 leading-relaxed text-muted-foreground">
                 It started in August 2025 and is based in Florida, US. It counts the {fmt(totals.books)}-book Protestant Bible, which has{" "}
                 {fmt(totals.chapters)} chapters and {fmt(bible.kjv.verses)} verses in the King James Version ({fmt(bible.web.verses)} in the World

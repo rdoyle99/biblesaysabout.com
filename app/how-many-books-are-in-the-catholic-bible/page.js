@@ -73,7 +73,7 @@ export default function CatholicBibleBooks() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "How many books are in the Catholic Bible?" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">How many books are in the Catholic Bible?</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 25, 2026. The book list is the USCCB&apos;s. Chapters, verses and words are counted from the World English Bible, which prints the deuterocanonical books, and from the King James Version&apos;s Apocrypha.</p>
             </div>
             <StatTiles

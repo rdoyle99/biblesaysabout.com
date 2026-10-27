@@ -64,7 +64,7 @@ export default function JudgesOfIsrael() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "The judges of Israel" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">The judges of Israel in order</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 25, 2026. Every verse and every number of years on this page is checked against the King James Version, and every year figure against the World English Bible too. Word and phrase counts cover the full text of both.</p>
             </div>
             <StatTiles

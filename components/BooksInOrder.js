@@ -123,7 +123,7 @@ export default function BooksInOrder({ mode }) {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Books of the Bible", href: "/books-of-the-bible" }, { name: m.h1 }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">{m.h1}</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{m.answer}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{m.answer}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 22, 2026</p>
             </div>
             <StatTiles

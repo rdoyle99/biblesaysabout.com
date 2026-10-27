@@ -118,7 +118,7 @@ export default function BooksOfTheBible() {
               How many books are in the Bible?
             </h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-4 text-sm text-muted-foreground">
                 Every count below comes from the full text of the King James Version and the World English Bible.
                 Catholic canon:{" "}

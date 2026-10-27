@@ -68,7 +68,7 @@ export default function WomenOfTheBible() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "Women of the Bible" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">Women of the Bible</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 24, 2026. Name counts are from the King James Version. The World English Bible is added for the counts of "woman" and "women", the book word counts and one quotation. A name is counted as a whole word, with or without a possessive. Where a name is shared, only her verses are counted, by the rule in her row.</p>
             </div>
             <StatTiles

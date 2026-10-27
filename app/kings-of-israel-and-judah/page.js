@@ -106,7 +106,7 @@ export default function KingsOfIsraelAndJudah() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "Kings of Israel and Judah in order" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">The kings of Israel and Judah in order</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 25, 2026. Every reign length, verdict and ending is checked against the verse it cites in the King James Version, and every reign length against the World English Bible too. Word counts cover the full text of both.</p>
             </div>
             <StatTiles

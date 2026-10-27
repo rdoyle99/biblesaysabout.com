@@ -85,7 +85,7 @@ export default async function PlanPage({ params }) {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible reading plans", href: "/bible-reading-plan" }, { name: p.name }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">{p.name}</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{answer}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{answer}</p>
             </div>
             <StatTiles
               stats={[

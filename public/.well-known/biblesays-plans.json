@@ -1,0 +1,23 @@
+{
+ "canonicalSource": "https://www.biblesaysabout.com/.well-known/biblesays-plans.json",
+ "name": "Bible Says About",
+ "lastUpdated": "2026-10-27",
+ "pricingPage": "https://www.biblesaysabout.com/about",
+ "plans": [
+  {
+   "id": "free",
+   "name": "Free access",
+   "price": 0,
+   "currency": "USD",
+   "unit": "no charge",
+   "terms": "Free to read, no account needed",
+   "best_for": "Readers looking up what the Bible says about a topic or how often a word appears",
+   "includes": [
+    "Bible verses by topic in the World English Bible, with a KJV toggle",
+    "Bible word counts, book facts and lists counted from the full KJV and World English Bible text",
+    "Bible reading plan generator",
+    "Bible verse of the day"
+   ]
+  }
+ ]
+}

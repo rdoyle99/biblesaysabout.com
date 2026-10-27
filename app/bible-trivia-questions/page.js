@@ -139,7 +139,7 @@ export default function BibleTrivia() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "Bible trivia questions" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">Bible trivia questions and answers</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 22, 2026. Each number here is a count from the text, and the link under each answer opens the page with the full data.</p>
             </div>
           </div>

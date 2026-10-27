@@ -81,7 +81,7 @@ export default function HowManyAuthors() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "How many authors wrote the Bible" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">How many authors wrote the Bible?</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 23, 2026. What is counted: the verses of the 66 books in the King James Version, read for any line that names who wrote or spoke the book. The traditional list is GotQuestions.org's, read {GQ.read}.</p>
             </div>
             <StatTiles

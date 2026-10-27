@@ -84,7 +84,7 @@ export default function SevenDeadlySins() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "Seven deadly sins in the Bible" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">Are the seven deadly sins in the Bible?</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 26, 2026. Every count on this page is a whole-word count over the full text of the King James Version and the World English Bible, and every verse cited is checked against both before the page is built.</p>
             </div>
             <StatTiles

@@ -148,7 +148,7 @@ export default async function BookPage({ params }) {
                   : `How many chapters are in ${b.name}?`}
             </h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{answer}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{answer}</p>
             </div>
             <StatTiles
               stats={[

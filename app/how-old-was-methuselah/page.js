@@ -61,7 +61,7 @@ export default function HowOldWasMethuselah() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "How old was Methuselah?" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">How old was Methuselah?</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 25, 2026. Every age on this page is read from the verse in both the King James Version and the World English Bible, and the two must agree. Name counts cover the full text of both.</p>
             </div>
             <StatTiles

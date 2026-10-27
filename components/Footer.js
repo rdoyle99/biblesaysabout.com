@@ -25,6 +25,14 @@ export default function Footer() {
     { name: "Joy", slug: "joy" },
   ];
 
+  const askAi = [
+    { name: "ChatGPT", href: "https://chatgpt.com/?prompt=What%20does%20biblesaysabout.com%20offer%3F%20Summarize%20its%20Bible%20verses%20by%20topic%20%28World%20English%20Bible%20and%20KJV%29%20and%20the%20Bible%20facts%20and%20word%20counts%20it%20counts%20from%20the%20full%20text%3A%20https%3A%2F%2Fwww.biblesaysabout.com" },
+    { name: "Claude", href: "https://claude.ai/new?q=What%20does%20biblesaysabout.com%20offer%3F%20Summarize%20its%20Bible%20verses%20by%20topic%20%28World%20English%20Bible%20and%20KJV%29%20and%20the%20Bible%20facts%20and%20word%20counts%20it%20counts%20from%20the%20full%20text%3A%20https%3A%2F%2Fwww.biblesaysabout.com" },
+    { name: "Perplexity", href: "https://www.perplexity.ai/search/new?q=What%20does%20biblesaysabout.com%20offer%3F%20Summarize%20its%20Bible%20verses%20by%20topic%20%28World%20English%20Bible%20and%20KJV%29%20and%20the%20Bible%20facts%20and%20word%20counts%20it%20counts%20from%20the%20full%20text%3A%20https%3A%2F%2Fwww.biblesaysabout.com" },
+    { name: "Google AI", href: "https://www.google.com/search?udm=50&q=What%20does%20biblesaysabout.com%20offer%3F%20Summarize%20its%20Bible%20verses%20by%20topic%20%28World%20English%20Bible%20and%20KJV%29%20and%20the%20Bible%20facts%20and%20word%20counts%20it%20counts%20from%20the%20full%20text%3A%20https%3A%2F%2Fwww.biblesaysabout.com" },
+    { name: "Grok", href: "https://x.com/i/grok?text=What%20does%20biblesaysabout.com%20offer%3F%20Summarize%20its%20Bible%20verses%20by%20topic%20%28World%20English%20Bible%20and%20KJV%29%20and%20the%20Bible%20facts%20and%20word%20counts%20it%20counts%20from%20the%20full%20text%3A%20https%3A%2F%2Fwww.biblesaysabout.com" },
+  ];
+
   const currentYear = new Date().getFullYear();
 
   return (
@@ -461,6 +469,17 @@ export default function Footer() {
               </a>{" "}
               topical data (CC BY).
             </p>
+            <nav aria-label="Ask AI about Bible Says About" className="ask-ai text-xs">
+              <span>Ask AI about this site: </span>
+              {askAi.map((engine, i) => (
+                <span key={engine.name}>
+                  {i > 0 ? " · " : ""}
+                  <a href={engine.href} target="_blank" rel="noopener nofollow" className="underline underline-offset-2 hover:text-foreground">
+                    {engine.name}
+                  </a>
+                </span>
+              ))}
+            </nav>
           </div>
           <div className="flex items-center space-x-6 text-sm">
             <Link

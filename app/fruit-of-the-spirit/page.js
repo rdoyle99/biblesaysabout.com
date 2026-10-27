@@ -60,7 +60,7 @@ export default function FruitOfTheSpirit() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "Fruit of the Spirit" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">Fruit of the Spirit</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 24, 2026. Verses are quoted from the King James Version and the World English Bible. Word counts are of the exact word as the translation prints it in Galatians 5:22-23.</p>
             </div>
             <StatTiles

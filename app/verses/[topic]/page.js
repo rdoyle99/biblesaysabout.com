@@ -194,7 +194,7 @@ export default async function TopicPage({ params }) {
               </h1>
 
               {/* Answer-first extractable summary */}
-              <p className="text-lg md:text-xl text-foreground/90 max-w-3xl mx-auto mb-4 leading-relaxed font-medium">
+              <p className="tldr text-lg md:text-xl text-foreground/90 max-w-3xl mx-auto mb-4 leading-relaxed font-medium">
                 {summary}
               </p>
               {topicData.summary ? null : (

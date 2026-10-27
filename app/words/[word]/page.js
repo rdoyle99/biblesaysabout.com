@@ -219,7 +219,7 @@ export default async function WordPage({ params }) {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible Word Counts", href: "/words" }, { name: cap(w.word) }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">{questionFor(w)}</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{answer}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{answer}</p>
               {w.note ? <p className="mt-4 text-muted-foreground leading-relaxed">{w.note}</p> : null}
               {skippedLine(w) ? <p className="mt-4 text-muted-foreground leading-relaxed">{skippedLine(w)}</p> : null}
             </div>

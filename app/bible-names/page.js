@@ -47,7 +47,7 @@ export default function BibleNames() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible Word Counts", href: "/words" }, { name: "Bible Names and Meanings" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">What do Bible names mean?</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-4 text-sm text-muted-foreground">{NAMES_NOTE}</p>
             </div>
           </div>

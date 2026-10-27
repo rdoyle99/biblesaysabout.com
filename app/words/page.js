@@ -42,7 +42,7 @@ export default function WordsIndex() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible Word Counts" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">How many times is a word in the Bible?</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-4 text-sm text-muted-foreground">
                 The headline count is the exact word in the KJV (for a phrase like Holy Spirit, every wording together), or the World English
                 Bible when the KJV never uses the word. The KJV has {fmt(bible.kjv.words)} words in all. Each page shows the count by form, book and testament, the first and last

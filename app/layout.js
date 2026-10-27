@@ -83,6 +83,14 @@ const websiteSchema = {
   },
 };
 
+// Speakable: the H1 and the answer box (.tldr) on every page, for voice and AI answers
+const speakableSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  isPartOf: { "@type": "WebSite", url: SITE_URL },
+  speakable: { "@type": "SpeakableSpecification", cssSelector: ["h1", ".tldr"] },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
@@ -101,6 +109,10 @@ export default function RootLayout({ children }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

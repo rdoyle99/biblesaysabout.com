@@ -56,7 +56,7 @@ export default function HowManyProverbs() {
             <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Bible by the numbers", href: "/bible-by-the-numbers" }, { name: "How many proverbs are there" }]} />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 leading-tight text-balance">How many proverbs are there in the Bible?</h1>
             <div className="rounded-xl border bg-card p-5 md:p-6 mb-6">
-              <p className="text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
+              <p className="tldr text-lg md:text-xl leading-relaxed font-medium">{ANSWER}</p>
               <p className="mt-3 text-sm text-muted-foreground">Updated October 22, 2026. What is counted: verses of the Book of Proverbs, verse text only. Where a section starts is read from the book's own opening lines, quoted below.</p>
             </div>
             <StatTiles
