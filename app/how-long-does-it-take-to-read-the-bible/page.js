@@ -41,9 +41,14 @@ const fifteen = Math.ceil(silentMin / 15);
 const byLength = [...books].sort((a, b) => b.words.kjv - a.words.kjv);
 const longest = byLength[0];
 const shortest = byLength[byLength.length - 1];
+const bookTime = (b) => readingTime(b.words.kjv / SILENT);
+const longestLine =
+  bookTime(byLength[1]) === bookTime(longest)
+    ? `${longest.name} and ${byLength[1].name} take the longest, about ${bookTime(longest)} each,`
+    : `${longest.name} takes the longest at ${bookTime(longest)}`;
 
 const TITLE = `How Long Does It Take to Read the Bible? ${Math.round(silentMin / 60)} Hours, Book by Book`;
-const ANSWER = `About ${Math.round(silentMin / 60)} hours of silent reading, or ${Math.round(aloudMin / 60)} hours read aloud. Read ${Math.round(yearMin)} minutes a day (about ${yearChapters.toFixed(1)} chapters) and you finish in a year; at 15 minutes a day you finish in ${fifteen} days. Book by book, ${longest.name} takes the longest at ${readingTime(longest.words.kjv / SILENT)} and ${shortest.name} the least at about ${readingTime(shortest.words.kjv / SILENT)}. The times come from the King James Bible's ${fmt(k.words)} words at the average adult pace of ${SILENT} words a minute silently and ${ALOUD} aloud.`;
+const ANSWER = `About ${Math.round(silentMin / 60)} hours of silent reading, or ${Math.round(aloudMin / 60)} hours read aloud. Read about ${Math.round(yearMin)} minutes a day (${yearChapters.toFixed(1)} chapters) and you finish in a year; at 15 minutes a day you finish in ${fifteen} days. Book by book, ${longestLine} and ${shortest.name} the least at about ${bookTime(shortest)}. The times come from the King James Bible's ${fmt(k.words)} words at the average adult pace of ${SILENT} words a minute silently and ${ALOUD} aloud.`;
 
 export const metadata = {
   title: { absolute: TITLE },
