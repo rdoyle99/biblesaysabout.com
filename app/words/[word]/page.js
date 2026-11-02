@@ -43,13 +43,8 @@ function booksSentence(word, topBooks, mainName, nBooks) {
 // never has the word, so the title, H1 and answer lead with the WEB count of every form.
 const PLURAL_QUERY = { demon: "demons" };
 
-// Title test 2026-10-23 (seo move 2026-10-23-snippet-zero-click-titles): pages at position 3-7 with click rates under 1%;
-// the count stays in the description and the answer box, the title promises the book-by-book table instead.
-const TITLE_TEST = new Set(["blood", "jesus", "sin"]);
-
 function titleFor(w) {
   const h = headline(w);
-  if (TITLE_TEST.has(w.slug)) return `How Many Times Is ${cap(w.word)} Mentioned in the Bible? Every Use by Book`;
   if (w.slug === "fear-not") return `How Many Times Does the Bible Say Fear Not? ${h.n} (${h.translation})`;
   if (PLURAL_QUERY[w.slug]) return `How Many Times Are ${cap(PLURAL_QUERY[w.slug])} Mentioned in the Bible? ${fmt(w.web.total)} (WEB)`;
   if (w.kind === "phrase") return `How Many Times Is "${cap(w.word)}" in the Bible? ${fmt(h.n)} (${h.translation})`;
