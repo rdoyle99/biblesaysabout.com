@@ -11,7 +11,6 @@ import AmazonPicks from "@/components/AmazonPicks";
 import { getPageMeaning, meaningSentence, NAMES_DATE, NAMES_NOTE_SHORT, NAMES_SOURCE } from "@/lib/bibleNames";
 
 const LATE_FROM = "2026-10-24";
-const slugHash = (slug) => [...slug].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 1000003, 7);
 
 const bookSlug = Object.fromEntries(books.map((b) => [b.name, b.slug]));
 const times = (n) => `${fmt(n)} time${n === 1 ? "" : "s"}`;
@@ -174,12 +173,12 @@ export default async function WordPage({ params }) {
   const idx = words.findIndex((x) => x.slug === w.slug);
   const related = (w.related || []).map(getWord).filter(Boolean);
   const neighbors = [...related, ...[...words.slice(idx + 1), ...words.slice(0, idx)].filter((x) => !related.includes(x))].slice(0, 8);
-  // older word pages (crawled daily) each link 3 of the pages added from 2026-10-24, spread so every one gets about 9 links;
-  // pages with a slug hash of 0 mod 5 are the held-back control (move 2026-10-27-1120-index-nudge-word-crawl-links)
+  // older word pages (crawled daily) each link 3 of the pages added from 2026-10-24, spread so every one gets about 9 links
+  // (move 2026-10-27-1120-index-nudge-word-crawl-links; its held-back control got the links too on 2026-11-02 after the test read)
   const isLate = (x) => (x.added || "") >= LATE_FROM;
   const lateLinks = isLate(w) ? [] : (() => {
     const older = words.filter((x) => !isLate(x));
-    const late = words.filter((x) => isLate(x) && slugHash(x.slug) % 5 !== 0);
+    const late = words.filter((x) => isLate(x));
     const i = older.findIndex((x) => x.slug === w.slug);
     const picked = [];
     for (let j = 0; picked.length < 3 && j < late.length; j++) {
