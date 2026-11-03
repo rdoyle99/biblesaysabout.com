@@ -389,6 +389,46 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/how-old-was-jesus-when-he-died"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Jesus' age at death
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/pentateuch"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  The Pentateuch
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/how-tall-was-goliath"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Goliath's height
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/names-of-angels-in-the-bible"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Names of angels
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/days-of-creation"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
+                >
+                  Days of creation
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/bible-by-the-numbers"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors hover-underline"
                 >

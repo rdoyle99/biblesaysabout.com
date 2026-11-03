@@ -1,0 +1,380 @@
+{
+ "generated": "2026-11-02",
+ "names": [
+  {
+   "n": 1,
+   "name": "Michael",
+   "meaning": "Who is like God?",
+   "status": "named",
+   "title": "one of the chief princes; the archangel",
+   "kjv": 15,
+   "web": 15,
+   "angelVerses": 5,
+   "refs": [
+    "Daniel 10:13",
+    "Daniel 10:21",
+    "Daniel 12:1",
+    "Jude 1:9",
+    "Revelation 12:7"
+   ],
+   "note": "15 verses name a Michael in both translations; 5 are the angel and 10 are men in lists and genealogies."
+  },
+  {
+   "n": 2,
+   "name": "Gabriel",
+   "meaning": "God is my strength, or man of God",
+   "status": "named",
+   "title": "the angel who stands in the presence of God",
+   "kjv": 4,
+   "web": 4,
+   "angelVerses": 4,
+   "refs": [
+    "Daniel 8:16",
+    "Daniel 9:21",
+    "Luke 1:19",
+    "Luke 1:26"
+   ],
+   "note": "Every Gabriel verse is the angel: twice in Daniel, twice in Luke 1."
+  },
+  {
+   "n": 3,
+   "name": "Abaddon (Apollyon)",
+   "meaning": "Destruction (Hebrew); Destroyer (Greek)",
+   "status": "named",
+   "title": "the angel of the bottomless pit (WEB: of the abyss)",
+   "kjv": 1,
+   "web": 4,
+   "angelVerses": 1,
+   "refs": [
+    "Revelation 9:11"
+   ],
+   "note": "The angel's name is given once, in Revelation 9:11. The WEB also keeps Abaddon as a place in Job 26:6, Proverbs 15:11, Proverbs 27:20, where the KJV says \"destruction\"."
+  },
+  {
+   "n": 4,
+   "name": "Lucifer",
+   "meaning": "The Latin name of the morning star; the Hebrew helel means shining one",
+   "status": "readings",
+   "title": "son of the morning",
+   "kjv": 1,
+   "web": 0,
+   "angelVerses": 0,
+   "refs": [
+    "Isaiah 14:12"
+   ],
+   "note": "KJV only. The verse is part of a taunt against the king of Babylon (Isaiah 14:4); Christian tradition later read it of the devil. The WEB says \"morning star\"."
+  },
+  {
+   "n": 5,
+   "name": "Satan",
+   "meaning": "Adversary",
+   "status": "readings",
+   "title": "the dragon, that old serpent, the devil",
+   "kjv": 55,
+   "web": 54,
+   "angelVerses": 0,
+   "refs": [
+    "Revelation 12:9",
+    "2 Corinthians 11:14"
+   ],
+   "note": "Never called an angel by name; Revelation 12:9 says \"his angels\" were cast out with him, and 2 Corinthians 11:14 says he poses as an angel of light."
+  },
+  {
+   "n": 6,
+   "name": "Raphael",
+   "meaning": "God has healed",
+   "status": "outside",
+   "title": "one of the seven holy angels",
+   "kjv": 0,
+   "web": 0,
+   "angelVerses": 0,
+   "refs": [
+    "Tobit 12:15"
+   ],
+   "note": "In the Book of Tobit, part of Catholic and Orthodox Bibles; not in the KJV's 66 books or the WEB counted here."
+  },
+  {
+   "n": 7,
+   "name": "Uriel",
+   "meaning": "God is my light",
+   "status": "outside",
+   "title": "the angel sent to Ezra",
+   "kjv": 0,
+   "web": 0,
+   "angelVerses": 0,
+   "refs": [
+    "2 Esdras 4:1",
+    "1 Enoch 20"
+   ],
+   "note": "In 2 Esdras (Apocrypha) and 1 Enoch, which lists seven archangels; neither is in the 66 books."
+  }
+ ],
+ "kinds": [
+  {
+   "name": "Angel, angels",
+   "what": "The general word: a messenger sent by God. The Hebrew malak and the Greek angelos both mean messenger.",
+   "kjv": 297,
+   "web": 287,
+   "key": {
+    "ref": "Hebrews 1:14",
+    "kjv": "Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation?",
+    "web": "Aren’t they all serving spirits, sent out to do service for the sake of those who will inherit salvation?"
+   }
+  },
+  {
+   "name": "Archangel",
+   "what": "Chief angel. Only Michael is called one by name.",
+   "kjv": 2,
+   "web": 2,
+   "key": {
+    "ref": "1 Thessalonians 4:16",
+    "kjv": "For the Lord himself shall descend from heaven with a shout, with the voice of the archangel, and with the trump of God: and the dead in Christ shall rise first:",
+    "web": "For the Lord himself will descend from heaven with a shout, with the voice of the archangel, and with God’s trumpet. The dead in Christ will rise first,"
+   }
+  },
+  {
+   "name": "Cherub, cherubim",
+   "what": "Guard the way to the tree of life, are shaped in gold on the ark's cover, and carry the throne in Ezekiel's visions.",
+   "kjv": 95,
+   "web": 94,
+   "key": {
+    "ref": "Genesis 3:24",
+    "kjv": "So he drove out the man; and he placed at the east of the garden of Eden Cherubim, and a flaming sword which turned every way, to keep the way of the tree of life.",
+    "web": "So he drove out the man; and he placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life."
+   }
+  },
+  {
+   "name": "Seraphim",
+   "what": "Six-winged beings above the throne in Isaiah's vision, crying holy, holy, holy.",
+   "kjv": 2,
+   "web": 2,
+   "key": {
+    "ref": "Isaiah 6:2",
+    "kjv": "Above it stood the seraphims: each one had six wings; with twain he covered his face, and with twain he covered his feet, and with twain he did fly.",
+    "web": "Above him stood the seraphim. Each one had six wings. With two he covered his face. With two he covered his feet. With two he flew."
+   }
+  },
+  {
+   "name": "Watchers (holy ones)",
+   "what": "Heavenly beings who decree Nebuchadnezzar's sentence in Daniel 4.",
+   "kjv": 3,
+   "web": 3,
+   "key": {
+    "ref": "Daniel 4:13",
+    "kjv": "I saw in the visions of my head upon my bed, and, behold, a watcher and an holy one came down from heaven;",
+    "web": "“I saw in the visions of my head on my bed, and behold, a watcher and a holy one came down from the sky."
+   }
+  },
+  {
+   "name": "The angel of the LORD",
+   "what": "Speaks as God in several scenes; readers differ on whether he is an angel or God himself.",
+   "kjv": 68,
+   "web": 68,
+   "key": {
+    "ref": "Exodus 3:2",
+    "kjv": "And the angel of the LORD appeared unto him in a flame of fire out of the midst of a bush: and he looked, and, behold, the bush burned with fire, and the bush was not consumed.",
+    "web": "Yahweh’s angel appeared to him in a flame of fire out of the middle of a bush. He looked, and behold, the bush burned with fire, and the bush was not consumed."
+   },
+   "note": "WEB: \"Yahweh's angel\" in the Old Testament"
+  }
+ ],
+ "counts": {
+  "namedInCanon": 3,
+  "holyNamed": 2,
+  "angel": {
+   "kjv": {
+    "total": 297,
+    "verses": 283,
+    "ot": 117,
+    "nt": 180,
+    "top": {
+     "book": "Revelation",
+     "count": 76,
+     "tied": [
+      "Revelation"
+     ]
+    },
+    "first": "Genesis 16:7"
+   },
+   "web": {
+    "total": 287,
+    "verses": 274,
+    "ot": 115,
+    "nt": 172,
+    "top": {
+     "book": "Revelation",
+     "count": 68,
+     "tied": [
+      "Revelation"
+     ]
+    },
+    "first": "Genesis 16:7"
+   }
+  },
+  "angelSingular": {
+   "kjv": 203,
+   "web": 195
+  },
+  "angelPlural": {
+   "kjv": 94,
+   "web": 92
+  },
+  "cherubimsKjv": 63,
+  "watcherRefs": [
+   "Daniel 4:13",
+   "Daniel 4:17",
+   "Daniel 4:23"
+  ],
+  "michael": {
+   "all": 15,
+   "angel": 5,
+   "men": 10,
+   "menRefs": [
+    "Numbers 13:13",
+    "1 Chronicles 5:13",
+    "1 Chronicles 5:14",
+    "1 Chronicles 6:40",
+    "1 Chronicles 7:3",
+    "1 Chronicles 8:16",
+    "1 Chronicles 12:20",
+    "1 Chronicles 27:18",
+    "2 Chronicles 21:2",
+    "Ezra 8:8"
+   ]
+  },
+  "abaddon": {
+   "kjv": [
+    "Revelation 9:11"
+   ],
+   "web": [
+    "Job 26:6",
+    "Proverbs 15:11",
+    "Proverbs 27:20",
+    "Revelation 9:11"
+   ],
+   "apollyon": [
+    "Revelation 9:11"
+   ],
+   "place": [
+    "Job 26:6",
+    "Proverbs 15:11",
+    "Proverbs 27:20"
+   ]
+  },
+  "satan": {
+   "kjv": 55,
+   "web": 54,
+   "kjvTop": {
+    "book": "Job",
+    "count": 14,
+    "tied": [
+     "Job"
+    ]
+   }
+  }
+ },
+ "michael": [
+  {
+   "ref": "Daniel 10:13",
+   "kjv": "But the prince of the kingdom of Persia withstood me one and twenty days: but, lo, Michael, one of the chief princes, came to help me; and I remained there with the kings of Persia.",
+   "web": "But the prince of the kingdom of Persia withstood me twenty-one days; but, behold, Michael, one of the chief princes, came to help me because I remained there with the kings of Persia."
+  },
+  {
+   "ref": "Daniel 10:21",
+   "kjv": "But I will shew thee that which is noted in the scripture of truth: and there is none that holdeth with me in these things, but Michael your prince.",
+   "web": "But I will tell you that which is inscribed in the writing of truth. There is no one who holds with me against these, but Michael your prince."
+  },
+  {
+   "ref": "Daniel 12:1",
+   "kjv": "And at that time shall Michael stand up, the great prince which standeth for the children of thy people: and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time thy people shall be delivered, every one that shall be found written in the book.",
+   "web": "“At that time Michael will stand up, the great prince who stands for the children of your people; and there will be a time of trouble, such as never was since there was a nation even to that same time. At that time your people will be delivered, everyone who is found written in the book."
+  },
+  {
+   "ref": "Jude 1:9",
+   "kjv": "Yet Michael the archangel, when contending with the devil he disputed about the body of Moses, durst not bring against him a railing accusation, but said, The Lord rebuke thee.",
+   "web": "But Michael, the archangel, when contending with the devil and arguing about the body of Moses, dared not bring against him an abusive condemnation, but said, “May the Lord rebuke you!”"
+  },
+  {
+   "ref": "Revelation 12:7",
+   "kjv": "And there was war in heaven: Michael and his angels fought against the dragon; and the dragon fought and his angels,",
+   "web": "There was war in the sky. Michael and his angels made war on the dragon. The dragon and his angels made war."
+  }
+ ],
+ "gabriel": [
+  {
+   "ref": "Daniel 8:16",
+   "kjv": "And I heard a man’s voice between the banks of Ulai, which called, and said, Gabriel, make this man to understand the vision.",
+   "web": "I heard a man’s voice between the banks of the Ulai, which called, and said, “Gabriel, make this man understand the vision.”"
+  },
+  {
+   "ref": "Daniel 9:21",
+   "kjv": "Yea, whiles I was speaking in prayer, even the man Gabriel, whom I had seen in the vision at the beginning, being caused to fly swiftly, touched me about the time of the evening oblation.",
+   "web": "yes, while I was speaking in prayer, the man Gabriel, whom I had seen in the vision at the beginning, being caused to fly swiftly, touched me about the time of the evening offering."
+  },
+  {
+   "ref": "Luke 1:19",
+   "kjv": "And the angel answering said unto him, I am Gabriel, that stand in the presence of God; and am sent to speak unto thee, and to shew thee these glad tidings.",
+   "web": "The angel answered him, “I am Gabriel, who stands in the presence of God. I was sent to speak to you, and to bring you this good news."
+  },
+  {
+   "ref": "Luke 1:26",
+   "kjv": "And in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth,",
+   "web": "Now in the sixth month, the angel Gabriel was sent from God to a city of Galilee, named Nazareth,"
+  }
+ ],
+ "abaddon": {
+  "ref": "Revelation 9:11",
+  "kjv": "And they had a king over them, which is the angel of the bottomless pit, whose name in the Hebrew tongue is Abaddon, but in the Greek tongue hath his name Apollyon.",
+  "web": "They have over them as king the angel of the abyss. His name in Hebrew is “Abaddon”, but in Greek, he has the name “Apollyon”."
+ },
+ "lucifer": {
+  "ref": "Isaiah 14:12",
+  "kjv": "How art thou fallen from heaven, O Lucifer, son of the morning! how art thou cut down to the ground, which didst weaken the nations!",
+  "web": "How you have fallen from heaven, morning star, son of the dawn! How you are cut down to the ground, who laid the nations low!"
+ },
+ "satanRev": {
+  "ref": "Revelation 12:9",
+  "kjv": "And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world: he was cast out into the earth, and his angels were cast out with him.",
+  "web": "The great dragon was thrown down, the old serpent, he who is called the devil and Satan, the deceiver of the whole world. He was thrown down to the earth, and his angels were thrown down with him."
+ },
+ "angelOfLight": {
+  "ref": "2 Corinthians 11:14",
+  "kjv": "And no marvel; for Satan himself is transformed into an angel of light.",
+  "web": "And no wonder, for even Satan masquerades as an angel of light."
+ },
+ "angelOfLord": {
+  "kjv": {
+   "total": 68,
+   "verses": 64,
+   "ot": 56,
+   "nt": 12
+  },
+  "web": {
+   "yahweh": 56,
+   "yahwehVerses": 52,
+   "lordNT": 12,
+   "lordOT": 0
+  },
+  "angelOfGod": {
+   "kjv": 13,
+   "web": 12
+  },
+  "verses": [
+   {
+    "ref": "Genesis 16:7",
+    "kjv": "And the angel of the LORD found her by a fountain of water in the wilderness, by the fountain in the way to Shur.",
+    "web": "Yahweh’s angel found her by a fountain of water in the wilderness, by the fountain on the way to Shur."
+   },
+   {
+    "ref": "Exodus 3:2",
+    "kjv": "And the angel of the LORD appeared unto him in a flame of fire out of the midst of a bush: and he looked, and, behold, the bush burned with fire, and the bush was not consumed.",
+    "web": "Yahweh’s angel appeared to him in a flame of fire out of the middle of a bush. He looked, and behold, the bush burned with fire, and the bush was not consumed."
+   },
+   {
+    "ref": "Judges 13:18",
+    "kjv": "And the angel of the LORD said unto him, Why askest thou thus after my name, seeing it is secret?",
+    "web": "Yahweh’s angel said to him, “Why do you ask about my name, since it is incomprehensible?”"
+   }
+  ]
+ }
+}

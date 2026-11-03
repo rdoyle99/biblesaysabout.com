@@ -181,6 +181,11 @@ export default function BibleByTheNumbers() {
             <li><Link href="/seven-deadly-sins-in-the-bible" className="underline underline-offset-2 hover:text-primary">Are the seven deadly sins in the Bible?</Link></li>
             <li><Link href="/biblical-numbers" className="underline underline-offset-2 hover:text-primary">Biblical numbers and their meanings</Link></li>
             <li><Link href="/how-many-years-did-noah-build-the-ark" className="underline underline-offset-2 hover:text-primary">How many years did Noah build the ark?</Link></li>
+            <li><Link href="/how-old-was-jesus-when-he-died" className="underline underline-offset-2 hover:text-primary">How old was Jesus when he died?</Link></li>
+            <li><Link href="/pentateuch" className="underline underline-offset-2 hover:text-primary">What is the Pentateuch?</Link></li>
+            <li><Link href="/how-tall-was-goliath" className="underline underline-offset-2 hover:text-primary">How tall was Goliath?</Link></li>
+            <li><Link href="/names-of-angels-in-the-bible" className="underline underline-offset-2 hover:text-primary">Names of angels in the Bible</Link></li>
+            <li><Link href="/days-of-creation" className="underline underline-offset-2 hover:text-primary">The seven days of creation</Link></li>
           </ul>
         </Section>
 

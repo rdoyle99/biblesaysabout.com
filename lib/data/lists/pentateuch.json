@@ -1,0 +1,197 @@
+{
+ "generated": "2026-11-02",
+ "rows": [
+  {
+   "n": 1,
+   "name": "Genesis",
+   "slug": "genesis",
+   "hebrew": "Bereshit",
+   "hebrewMeaning": "In the beginning",
+   "covers": "Creation, the flood, and the families of Abraham, Isaac, Jacob and Joseph, ending with Israel's sons in Egypt.",
+   "chapters": 50,
+   "versesKjv": 1533,
+   "versesWeb": 1533,
+   "wordsKjv": 38307,
+   "wordsWeb": 35731,
+   "readingMinutes": 161,
+   "key": {
+    "ref": "Genesis 1:1",
+    "kjv": "In the beginning God created the heaven and the earth.",
+    "web": "In the beginning, God created the heavens and the earth."
+   }
+  },
+  {
+   "n": 2,
+   "name": "Exodus",
+   "slug": "exodus",
+   "hebrew": "Shemot",
+   "hebrewMeaning": "Names",
+   "covers": "Israel's slavery in Egypt, Moses, the plagues and the escape, the Ten Commandments at Sinai, and the building of the tabernacle.",
+   "chapters": 40,
+   "versesKjv": 1213,
+   "versesWeb": 1213,
+   "wordsKjv": 32692,
+   "wordsWeb": 30696,
+   "readingMinutes": 137,
+   "key": {
+    "ref": "Exodus 20:3",
+    "kjv": "Thou shalt have no other gods before me.",
+    "web": "“You shall have no other gods before me."
+   }
+  },
+  {
+   "n": 3,
+   "name": "Leviticus",
+   "slug": "leviticus",
+   "hebrew": "Vayikra",
+   "hebrewMeaning": "And he called",
+   "covers": "The laws for offerings, priests, clean and unclean food, the Day of Atonement and holy living.",
+   "chapters": 27,
+   "versesKjv": 859,
+   "versesWeb": 859,
+   "wordsKjv": 24543,
+   "wordsWeb": 23305,
+   "readingMinutes": 103,
+   "key": {
+    "ref": "Leviticus 19:18",
+    "kjv": "Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.",
+    "web": "“‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh."
+   }
+  },
+  {
+   "n": 4,
+   "name": "Numbers",
+   "slug": "numbers",
+   "hebrew": "Bamidbar",
+   "hebrewMeaning": "In the wilderness",
+   "covers": "Two counts of the tribes, and the forty years between Sinai and the edge of Canaan.",
+   "chapters": 36,
+   "versesKjv": 1288,
+   "versesWeb": 1288,
+   "wordsKjv": 32930,
+   "wordsWeb": 30929,
+   "readingMinutes": 138,
+   "key": {
+    "ref": "Numbers 6:24",
+    "kjv": "The LORD bless thee, and keep thee:",
+    "web": "‘Yahweh bless you, and keep you."
+   }
+  },
+  {
+   "n": 5,
+   "name": "Deuteronomy",
+   "slug": "deuteronomy",
+   "hebrew": "Devarim",
+   "hebrewMeaning": "Words",
+   "covers": "Moses' farewell speeches on the plains of Moab, the law restated, and his death on Mount Nebo.",
+   "chapters": 34,
+   "versesKjv": 959,
+   "versesWeb": 959,
+   "wordsKjv": 28365,
+   "wordsWeb": 26895,
+   "readingMinutes": 119,
+   "key": {
+    "ref": "Deuteronomy 6:4",
+    "kjv": "Hear, O Israel: The LORD our God is one LORD:",
+    "web": "Hear, Israel: Yahweh is our God. Yahweh is one."
+   }
+  }
+ ],
+ "totals": {
+  "chapters": 187,
+  "versesKjv": 5852,
+  "versesWeb": 5852,
+  "wordsKjv": 156837,
+  "wordsWeb": 147556,
+  "readingMinutes": 658
+ },
+ "ot": {
+  "books": 39,
+  "chapters": 929,
+  "versesKjv": 23145,
+  "versesWeb": 23145,
+  "wordsKjv": 609937,
+  "wordsWeb": 576157
+ },
+ "bible": {
+  "books": 66,
+  "chapters": 1189,
+  "versesKjv": 31102,
+  "versesWeb": 31098,
+  "wordsKjv": 790325,
+  "wordsWeb": 751245
+ },
+ "share": {
+  "otWordsKjv": 25.7,
+  "otWordsWeb": 25.6,
+  "otVersesKjv": 25.3,
+  "otChapters": 20.1,
+  "bibleWordsKjv": 19.8,
+  "bibleWordsWeb": 19.6,
+  "bibleVersesKjv": 18.8,
+  "bibleChapters": 15.7
+ },
+ "longest": {
+  "name": "Genesis",
+  "wordsKjv": 38307,
+  "otRank": 4
+ },
+ "shortest": {
+  "name": "Leviticus",
+  "wordsKjv": 24543,
+  "otRank": 12
+ },
+ "authorship": [
+  {
+   "ref": "Exodus 24:4",
+   "kjv": "And Moses wrote all the words of the LORD, and rose up early in the morning, and builded an altar under the hill, and twelve pillars, according to the twelve tribes of Israel.",
+   "web": "Moses wrote all Yahweh’s words, and rose up early in the morning, and built an altar under the mountain, and twelve pillars for the twelve tribes of Israel."
+  },
+  {
+   "ref": "Deuteronomy 31:9",
+   "kjv": "And Moses wrote this law, and delivered it unto the priests the sons of Levi, which bare the ark of the covenant of the LORD, and unto all the elders of Israel.",
+   "web": "Moses wrote this law, and delivered it to the priests the sons of Levi, who bore the ark of Yahweh’s covenant, and to all the elders of Israel."
+  },
+  {
+   "ref": "Nehemiah 8:1",
+   "kjv": "And all the people gathered themselves together as one man into the street that was before the water gate; and they spake unto Ezra the scribe to bring the book of the law of Moses, which the LORD had commanded to Israel.",
+   "web": "All the people gathered themselves together as one man into the wide place that was in front of the water gate; and they spoke to Ezra the scribe to bring the book of the law of Moses, which Yahweh had commanded to Israel."
+  },
+  {
+   "ref": "Mark 12:26",
+   "kjv": "And as touching the dead, that they rise: have ye not read in the book of Moses, how in the bush God spake unto him, saying, I am the God of Abraham, and the God of Isaac, and the God of Jacob?",
+   "web": "But about the dead, that they are raised; haven’t you read in the book of Moses, about the Bush, how God spoke to him, saying, ‘I am the God of Abraham, the God of Isaac, and the God of Jacob’?"
+  },
+  {
+   "ref": "Luke 24:44",
+   "kjv": "And he said unto them, These are the words which I spake unto you, while I was yet with you, that all things must be fulfilled, which were written in the law of Moses, and in the prophets, and in the psalms, concerning me.",
+   "web": "He said to them, “This is what I told you, while I was still with you, that all things which are written in the law of Moses, the prophets, and the psalms, concerning me must be fulfilled.”"
+  },
+  {
+   "ref": "John 1:17",
+   "kjv": "For the law was given by Moses, but grace and truth came by Jesus Christ.",
+   "web": "For the law was given through Moses. Grace and truth were realized through Jesus Christ."
+  }
+ ],
+ "death": {
+  "ref": "Deuteronomy 34:5",
+  "kjv": "So Moses the servant of the LORD died there in the land of Moab, according to the word of the LORD.",
+  "web": "So Moses the servant of Yahweh died there in the land of Moab, according to Yahweh’s word.",
+  "first": "Deuteronomy 34:5",
+  "last": "Deuteronomy 34:12",
+  "verses": 8
+ },
+ "moses": {
+  "kjv": 847,
+  "web": 849,
+  "kjvPent": 648,
+  "webPent": 649,
+  "topBook": "Exodus",
+  "topCount": 290
+ },
+ "lawOfMoses": {
+  "kjv": 22,
+  "web": 20,
+  "firstKjv": "Joshua 8:31"
+ }
+}

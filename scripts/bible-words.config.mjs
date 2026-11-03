@@ -718,4 +718,15 @@ const WAVE5 = [
   nm("zeruiah", "Zeruiah", v("zeruiah"), { related: v("joab", "abishai", "asahel"), note: "Zeruiah was David's sister, the mother of Joab, Abishai and Asahel (1 Chronicles 2:16). Most uses name her sons as \"the son of Zeruiah\"." }),
 ];
 
-export const WORDS = [...CORE, ...MORE, ...WAVE3, ...WAVE4, ...WAVE5];
+// wave 6 (2026-11-03): phrase pages beside the phrase pages that win clicks (thus saith the LORD, fear of the LORD, verily verily;
+// winners/winners-2026-11-03.md), picked by Ahrefs volume (keywords/phrases-2026-11-03.json: angel of the lord 2,600 a month, KD 6)
+const WAVE6 = [
+  ph("angel-of-the-lord", "angel of the LORD", v("angel of the lord"), { web: v("angel of the lord", "yahweh's angel"), related: v("angel", "gabriel"), note: "In the Old Testament the World English Bible writes Yahweh's angel where the KJV has the angel of the LORD, as in Genesis 16:7. In the New Testament both say the angel of the Lord. Both wordings are counted." }),
+  ph("day-of-the-lord", "day of the LORD", v("day of the lord"), { web: v("day of the lord", "day of yahweh", "yahweh's day"), note: "The World English Bible writes the day of Yahweh in the Old Testament prophets (Joel 2:1, Amos 5:18), Yahweh's day in Ezekiel 13:5 and 30:3, and the day of the Lord in the New Testament (1 Thessalonians 5:2). All three are counted. Two of the KJV's five New Testament uses, 1 Corinthians 5:5 and 2 Corinthians 1:14, read the day of the Lord Jesus; the World English Bible keeps the first and has the day of our Lord Jesus in the second." }),
+  ph("glory-of-the-lord", "glory of the LORD", v("glory of the lord"), { web: v("glory of the lord", "yahweh's glory"), note: "The World English Bible writes Yahweh's glory where the KJV has the glory of the LORD in the Old Testament, as in Exodus 24:16. Both wordings are counted." }),
+  ph("lord-of-hosts", "LORD of hosts", v("lord of hosts"), { web: v("yahweh of armies", "lord of armies"), note: "Hosts here means armies. The World English Bible writes Yahweh of Armies, and Lord of Armies in Romans 9:29 and James 5:4, where the KJV has the Lord of sabaoth. The KJV's longer wordings, the LORD God of hosts and the Lord GOD of hosts, are not counted here. That is why the World English Bible count is higher: it has Yahweh of Armies in 14 verses where the KJV has the Lord GOD of hosts, such as Isaiah 3:15." }),
+  ph("holy-ghost", "Holy Ghost", v("holy ghost"), { exactHeadline: true, related: v("holy-spirit"), note: "The World English Bible never says Holy Ghost. It says Holy Spirit in those verses, so its count for this wording is zero. The Holy Spirit page counts Holy Ghost and Holy Spirit together." }),
+  ph("only-begotten", "only begotten", v("only begotten"), { exactHeadline: true, web: v("one and only"), note: "All six are about a one and only son: John 1:14, 1:18, 3:16 and 3:18, Hebrews 11:17 (Isaac) and 1 John 4:9. The World English Bible says one and only in the same six verses." }),
+];
+
+export const WORDS = [...CORE, ...MORE, ...WAVE3, ...WAVE4, ...WAVE5, ...WAVE6];

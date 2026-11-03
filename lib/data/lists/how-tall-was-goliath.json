@@ -1,0 +1,312 @@
+{
+ "generated": "2026-11-02",
+ "key": {
+  "kjv": "And there went out a champion out of the camp of the Philistines, named Goliath, of Gath, whose height was six cubits and a span.",
+  "web": "A champion out of the camp of the Philistines named Goliath, of Gath, whose height was six cubits and a span went out."
+ },
+ "armor": {
+  "coat": {
+   "kjv": "And he had an helmet of brass upon his head, and he was armed with a coat of mail; and the weight of the coat was five thousand shekels of brass.",
+   "web": "He had a helmet of brass on his head, and he wore a coat of mail; and the weight of the coat was five thousand shekels of brass."
+  },
+  "greaves": {
+   "kjv": "And he had greaves of brass upon his legs, and a target of brass between his shoulders.",
+   "web": "He had brass shin armor on his legs, and a brass javelin between his shoulders."
+  },
+  "spear": {
+   "kjv": "And the staff of his spear was like a weaver’s beam; and his spear’s head weighed six hundred shekels of iron: and one bearing a shield went before him.",
+   "web": "The staff of his spear was like a weaver’s beam; and his spear’s head weighed six hundred shekels of iron. His shield bearer went before him."
+  }
+ },
+ "fight": [
+  "stones",
+  "forehead",
+  "noSword",
+  "head",
+  "sword"
+ ],
+ "assumptions": {
+  "spanPerCubit": 0.5,
+  "commonCubitIn": 18,
+  "commonCubitCm": 45.7,
+  "royalCubitCm": 52.3,
+  "royalCubitIn": 20.6,
+  "shekelG": 11.5
+ },
+ "readings": [
+  {
+   "id": "six",
+   "cubits": 6,
+   "label": "Six cubits and a span",
+   "witnesses": "Masoretic Hebrew text (KJV, WEB and most English Bibles), Latin Vulgate, Syriac Peshitta, Aramaic Targum"
+  },
+  {
+   "id": "four",
+   "cubits": 4,
+   "label": "Four cubits and a span",
+   "witnesses": "Septuagint (Greek) Codex Vaticanus and Lucianic manuscripts, the Dead Sea Scroll 4QSam(a), Josephus (Antiquities 6.171)"
+  }
+ ],
+ "table": [
+  {
+   "reading": "six",
+   "label": "Six cubits and a span",
+   "cubit": "common",
+   "cubitName": "Common cubit",
+   "cubitCm": 45.7,
+   "cm": 297,
+   "m": 2.97,
+   "ft": 9,
+   "in": 9,
+   "inches": 117
+  },
+  {
+   "reading": "six",
+   "label": "Six cubits and a span",
+   "cubit": "royal",
+   "cubitName": "Royal cubit",
+   "cubitCm": 52.3,
+   "cm": 340,
+   "m": 3.4,
+   "ft": 11,
+   "in": 2,
+   "inches": 134
+  },
+  {
+   "reading": "four",
+   "label": "Four cubits and a span",
+   "cubit": "common",
+   "cubitName": "Common cubit",
+   "cubitCm": 45.7,
+   "cm": 206,
+   "m": 2.06,
+   "ft": 6,
+   "in": 9,
+   "inches": 81
+  },
+  {
+   "reading": "four",
+   "label": "Four cubits and a span",
+   "cubit": "royal",
+   "cubitName": "Royal cubit",
+   "cubitCm": 52.3,
+   "cm": 235,
+   "m": 2.35,
+   "ft": 7,
+   "in": 9,
+   "inches": 93
+  }
+ ],
+ "six": {
+  "reading": "six",
+  "label": "Six cubits and a span",
+  "cubit": "common",
+  "cubitName": "Common cubit",
+  "cubitCm": 45.7,
+  "cm": 297,
+  "m": 2.97,
+  "ft": 9,
+  "in": 9,
+  "inches": 117
+ },
+ "four": {
+  "reading": "four",
+  "label": "Four cubits and a span",
+  "cubit": "common",
+  "cubitName": "Common cubit",
+  "cubitCm": 45.7,
+  "cm": 206,
+  "m": 2.06,
+  "ft": 6,
+  "in": 9,
+  "inches": 81
+ },
+ "gapIn": 36,
+ "wadlow": {
+  "cm": 272,
+  "ft": 8,
+  "in": 11.1,
+  "vsSix": {
+   "cm": 25,
+   "in": 10
+  }
+ },
+ "weights": {
+  "coat": {
+   "shekels": 5000,
+   "kg": 57.5,
+   "lb": 127,
+   "what": "coat of mail, brass",
+   "ref": "1 Samuel 17:5"
+  },
+  "spearhead": {
+   "shekels": 600,
+   "kg": 6.9,
+   "lb": 15,
+   "what": "spear head, iron",
+   "ref": "1 Samuel 17:7"
+  },
+  "ishbiSpear": {
+   "shekels": 300,
+   "kg": 3.5,
+   "lb": 8,
+   "what": "Ishbi-benob's spear, brass",
+   "ref": "2 Samuel 21:16"
+  }
+ },
+ "people": [
+  {
+   "who": "Goliath of Gath",
+   "ref": "1 Samuel 17:4",
+   "size": "six cubits and a span",
+   "numeric": true
+  },
+  {
+   "who": "An Egyptian killed by Benaiah",
+   "ref": "1 Chronicles 11:23",
+   "size": "five cubits high",
+   "numeric": true
+  },
+  {
+   "who": "Og, king of Bashan",
+   "ref": "Deuteronomy 3:11",
+   "size": "his iron bed: nine cubits by four",
+   "numeric": false
+  },
+  {
+   "who": "Saul",
+   "ref": "1 Samuel 9:2",
+   "size": "a head and shoulders above everyone",
+   "numeric": false
+  },
+  {
+   "who": "The man with 24 fingers and toes",
+   "ref": "2 Samuel 21:20",
+   "size": "\"a man of great stature\"",
+   "numeric": false
+  },
+  {
+   "who": "The people of Canaan",
+   "ref": "Numbers 13:32",
+   "size": "\"men of a great stature\"",
+   "numeric": false
+  },
+  {
+   "who": "The Amorite",
+   "ref": "Amos 2:9",
+   "size": "\"like the height of the cedars\"",
+   "numeric": false
+  },
+  {
+   "who": "Zacchaeus",
+   "ref": "Luke 19:3",
+   "size": "\"little of stature\" (WEB: short)",
+   "numeric": false
+  }
+ ],
+ "numericPeople": 2,
+ "scan": {
+  "verses": 25,
+  "things": [
+   "Numbers 11:31",
+   "1 Kings 6:10",
+   "1 Kings 6:23",
+   "1 Kings 7:15",
+   "1 Kings 7:23",
+   "1 Kings 7:35",
+   "2 Chronicles 3:4",
+   "2 Chronicles 3:15",
+   "2 Chronicles 6:13",
+   "Esther 5:14",
+   "Esther 7:9",
+   "Ezekiel 31:5",
+   "Ezekiel 40:42",
+   "Ezekiel 41:22",
+   "Daniel 3:1"
+  ]
+ },
+ "gath": [
+  {
+   "name": "Ishbi-benob",
+   "webName": "Ishbibenob",
+   "ref": "2 Samuel 21:16",
+   "killedBy": "Abishai (2 Samuel 21:17)",
+   "note": "spear of 300 shekels of brass",
+   "chronRef": null
+  },
+  {
+   "name": "Saph",
+   "webName": null,
+   "ref": "2 Samuel 21:18",
+   "killedBy": "Sibbechai the Hushathite",
+   "note": "called Sippai in 1 Chronicles 20:4",
+   "chronRef": "1 Chronicles 20:4"
+  },
+  {
+   "name": "Goliath's brother (Lahmi)",
+   "webName": null,
+   "ref": "2 Samuel 21:19",
+   "killedBy": "Elhanan",
+   "note": "named Lahmi in 1 Chronicles 20:5; his spear staff is also \"like a weaver's beam\"",
+   "chronRef": "1 Chronicles 20:5"
+  },
+  {
+   "name": "The man with six fingers and six toes",
+   "webName": null,
+   "ref": "2 Samuel 21:20",
+   "killedBy": "Jonathan, son of David's brother Shimeah (2 Samuel 21:21)",
+   "note": "\"a man of great stature\"",
+   "chronRef": "1 Chronicles 20:6"
+  }
+ ],
+ "fourOfGath": "These four were born to the giant in Gath, and fell by the hand of David, and by the hand of his servants.",
+ "words": {
+  "giantKjv": 21,
+  "giantKjvVerses": 19,
+  "giantKjvBooks": 7,
+  "giantWeb": 8,
+  "giantWebVerses": 8,
+  "giantRefsKjv": [
+   "Genesis 6:4",
+   "Numbers 13:33",
+   "Deuteronomy 2:11",
+   "Deuteronomy 2:20",
+   "Deuteronomy 3:11",
+   "Deuteronomy 3:13",
+   "Joshua 12:4",
+   "Joshua 13:12",
+   "Joshua 15:8",
+   "Joshua 17:15",
+   "Joshua 18:16",
+   "2 Samuel 21:16",
+   "2 Samuel 21:18",
+   "2 Samuel 21:20",
+   "2 Samuel 21:22",
+   "1 Chronicles 20:4",
+   "1 Chronicles 20:6",
+   "1 Chronicles 20:8",
+   "Job 16:14"
+  ],
+  "giantRefsWeb": [
+   "2 Samuel 21:16",
+   "2 Samuel 21:18",
+   "2 Samuel 21:20",
+   "2 Samuel 21:22",
+   "1 Chronicles 20:4",
+   "1 Chronicles 20:6",
+   "1 Chronicles 20:8",
+   "Job 16:14"
+  ],
+  "rephaimWeb": 18,
+  "nephilimWeb": 3,
+  "goliath": 6,
+  "goliathRefs": [
+   "1 Samuel 17:4",
+   "1 Samuel 17:23",
+   "1 Samuel 21:9",
+   "1 Samuel 22:10",
+   "2 Samuel 21:19",
+   "1 Chronicles 20:5"
+  ]
+ }
+}

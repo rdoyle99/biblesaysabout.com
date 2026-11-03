@@ -1,0 +1,360 @@
+{
+ "generated": "2026-11-02",
+ "days": [
+  {
+   "n": 1,
+   "short": "Light",
+   "made": "Light, separated from darkness: day and night",
+   "passage": "Genesis 1:3-5",
+   "verses": 3,
+   "kjvWords": 50,
+   "webWords": 48,
+   "refrains": {
+    "said": {
+     "kjv": 1,
+     "web": 1
+    },
+    "good": {
+     "kjv": 1,
+     "web": 1
+    },
+    "eveningMorning": {
+     "kjv": 1,
+     "web": 1
+    },
+    "kind": {
+     "kjv": 0,
+     "web": 0
+    },
+    "wasSo": {
+     "kjv": 0,
+     "web": 0
+    }
+   },
+   "kjvQuote": {
+    "ref": "Genesis 1:3",
+    "text": "Let there be light: and there was light"
+   },
+   "webQuote": {
+    "ref": "Genesis 1:3",
+    "text": "Let there be light"
+   }
+  },
+  {
+   "n": 2,
+   "short": "Sky",
+   "made": "The sky: the firmament (KJV) or expanse (WEB) between the waters above and below",
+   "passage": "Genesis 1:6-8",
+   "verses": 3,
+   "kjvWords": 65,
+   "webWords": 62,
+   "refrains": {
+    "said": {
+     "kjv": 1,
+     "web": 1
+    },
+    "good": {
+     "kjv": 0,
+     "web": 0
+    },
+    "eveningMorning": {
+     "kjv": 1,
+     "web": 1
+    },
+    "kind": {
+     "kjv": 0,
+     "web": 0
+    },
+    "wasSo": {
+     "kjv": 1,
+     "web": 1
+    }
+   },
+   "kjvQuote": {
+    "ref": "Genesis 1:6",
+    "text": "Let there be a firmament in the midst of the waters"
+   },
+   "webQuote": {
+    "ref": "Genesis 1:6",
+    "text": "Let there be an expanse in the middle of the waters"
+   }
+  },
+  {
+   "n": 3,
+   "short": "Land, seas and plants",
+   "made": "Dry land and seas, then grass, seed plants and fruit trees",
+   "passage": "Genesis 1:9-13",
+   "verses": 5,
+   "kjvWords": 126,
+   "webWords": 115,
+   "refrains": {
+    "said": {
+     "kjv": 2,
+     "web": 2
+    },
+    "good": {
+     "kjv": 2,
+     "web": 2
+    },
+    "eveningMorning": {
+     "kjv": 1,
+     "web": 1
+    },
+    "kind": {
+     "kjv": 3,
+     "web": 3
+    },
+    "wasSo": {
+     "kjv": 2,
+     "web": 2
+    }
+   },
+   "kjvQuote": {
+    "ref": "Genesis 1:9",
+    "text": "let the dry land appear"
+   },
+   "webQuote": {
+    "ref": "Genesis 1:9",
+    "text": "let the dry land appear"
+   }
+  },
+  {
+   "n": 4,
+   "short": "Sun, moon and stars",
+   "made": "The sun, moon and stars: \"two great lights\" and the stars, for signs, seasons, days and years",
+   "passage": "Genesis 1:14-19",
+   "verses": 6,
+   "kjvWords": 133,
+   "webWords": 128,
+   "refrains": {
+    "said": {
+     "kjv": 1,
+     "web": 1
+    },
+    "good": {
+     "kjv": 1,
+     "web": 1
+    },
+    "eveningMorning": {
+     "kjv": 1,
+     "web": 1
+    },
+    "kind": {
+     "kjv": 0,
+     "web": 0
+    },
+    "wasSo": {
+     "kjv": 1,
+     "web": 1
+    }
+   },
+   "kjvQuote": {
+    "ref": "Genesis 1:14",
+    "text": "Let there be lights in the firmament of the heaven"
+   },
+   "webQuote": {
+    "ref": "Genesis 1:14",
+    "text": "Let there be lights in the expanse of the sky"
+   }
+  },
+  {
+   "n": 5,
+   "short": "Sea creatures and birds",
+   "made": "Sea creatures and birds, blessed to be fruitful and multiply",
+   "passage": "Genesis 1:20-23",
+   "verses": 4,
+   "kjvWords": 96,
+   "webWords": 88,
+   "refrains": {
+    "said": {
+     "kjv": 1,
+     "web": 1
+    },
+    "good": {
+     "kjv": 1,
+     "web": 1
+    },
+    "eveningMorning": {
+     "kjv": 1,
+     "web": 1
+    },
+    "kind": {
+     "kjv": 2,
+     "web": 2
+    },
+    "wasSo": {
+     "kjv": 0,
+     "web": 0
+    }
+   },
+   "kjvQuote": {
+    "ref": "Genesis 1:21",
+    "text": "God created great whales"
+   },
+   "webQuote": {
+    "ref": "Genesis 1:21",
+    "text": "God created the large sea creatures"
+   }
+  },
+  {
+   "n": 6,
+   "short": "Land animals and people",
+   "made": "Land animals (cattle, creeping things, wild beasts), then man and woman in God's image, given plants for food",
+   "passage": "Genesis 1:24-31",
+   "verses": 8,
+   "kjvWords": 288,
+   "webWords": 260,
+   "refrains": {
+    "said": {
+     "kjv": 4,
+     "web": 4
+    },
+    "good": {
+     "kjv": 2,
+     "web": 2
+    },
+    "eveningMorning": {
+     "kjv": 1,
+     "web": 1
+    },
+    "kind": {
+     "kjv": 5,
+     "web": 5
+    },
+    "wasSo": {
+     "kjv": 2,
+     "web": 2
+    }
+   },
+   "kjvQuote": {
+    "ref": "Genesis 1:24",
+    "text": "cattle, and creeping thing, and beast of the earth"
+   },
+   "webQuote": {
+    "ref": "Genesis 1:24",
+    "text": "livestock, creeping things, and animals of the earth"
+   }
+  },
+  {
+   "n": 7,
+   "short": "Rest",
+   "made": "Nothing new: God finished his work, rested, and blessed the seventh day and made it holy",
+   "passage": "Genesis 2:1-3",
+   "verses": 3,
+   "kjvWords": 67,
+   "webWords": 62,
+   "refrains": {
+    "said": {
+     "kjv": 0,
+     "web": 0
+    },
+    "good": {
+     "kjv": 0,
+     "web": 0
+    },
+    "eveningMorning": {
+     "kjv": 0,
+     "web": 0
+    },
+    "kind": {
+     "kjv": 0,
+     "web": 0
+    },
+    "wasSo": {
+     "kjv": 0,
+     "web": 0
+    }
+   },
+   "kjvQuote": {
+    "ref": "Genesis 2:2",
+    "text": "on the seventh day God ended his work"
+   },
+   "webQuote": {
+    "ref": "Genesis 2:2",
+    "text": "On the seventh day God finished his work"
+   }
+  }
+ ],
+ "opening": {
+  "refs": "Genesis 1:1-2",
+  "verses": 2,
+  "words": {
+   "kjv": 39,
+   "web": 35
+  },
+  "quote": {
+   "kjv": "In the beginning God created the heaven and the earth.",
+   "kjv2": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
+   "web": "In the beginning, God created the heavens and the earth.",
+   "web2": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters."
+  }
+ },
+ "totals": {
+  "verses": 34,
+  "kjvWords": 864,
+  "webWords": 798,
+  "said": {
+   "kjv": 10,
+   "web": 10
+  },
+  "good": {
+   "kjv": 7,
+   "web": 7
+  },
+  "eveningMorning": {
+   "kjv": 6,
+   "web": 6
+  },
+  "kind": {
+   "kjv": 10,
+   "web": 10
+  },
+  "wasSo": {
+   "kjv": 6,
+   "web": 6
+  }
+ },
+ "noGood": [
+  2
+ ],
+ "longest": {
+  "n": 6,
+  "short": "Land animals and people",
+  "kjvWords": 288,
+  "webWords": 260,
+  "share": 0.3490909090909091
+ },
+ "shortest": {
+  "n": 1,
+  "short": "Light",
+  "kjvWords": 50,
+  "webWords": 48
+ },
+ "half": {
+  "formingKjv": 241,
+  "fillingKjv": 517
+ },
+ "second": {
+  "refs": "Genesis 2:4-25",
+  "kjv": 565,
+  "web": 544,
+  "verses": 22,
+  "lordGodKjv": 11,
+  "lordInGenesis1Kjv": 0,
+  "quote": {
+   "open": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,",
+   "openWeb": "This is the history of the generations of the heavens and of the earth when they were created, in the day that Yahweh God made the earth and the heavens.",
+   "man": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+   "garden": "And the LORD God planted a garden eastward in Eden; and there he put the man whom he had formed.",
+   "woman": "And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man."
+  }
+ },
+ "sabbath": {
+  "ex2011": "For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.",
+  "ex2011web": "for in six days Yahweh made heaven and earth, the sea, and all that is in them, and rested the seventh day; therefore Yahweh blessed the Sabbath day, and made it holy.",
+  "ex3117": "It is a sign between me and the children of Israel for ever: for in six days the LORD made heaven and earth, and on the seventh day he rested, and was refreshed.",
+  "heb44": "For he spake in a certain place of the seventh day on this wise, And God did rest the seventh day from all his works.",
+  "heb44web": "For he has said this somewhere about the seventh day, “God rested on the seventh day from all his works”;"
+ },
+ "sixDaysVerses": 29
+}
