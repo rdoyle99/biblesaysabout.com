@@ -101,7 +101,7 @@ export default function HowOldWasJesusWhenHeDied() {
             Luke dates the start of John the Baptist&apos;s preaching to &quot;the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea&quot; (Luke 3:1), and Jesus is baptized soon after. Counted from Augustus&apos;s death in AD 14, as the Roman historians count it, that is AD 28 or 29.
           </p>
           <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-            The other age verses: {DATA.otherAgeVerses.map((o) => `${o.ref} (${o.who})`).join("; ")}. Found by a search of the four Gospels in the KJV for &quot;years old&quot;, &quot;years of age&quot; and &quot;of age&quot;; the build stops if a new one turns up.
+            The other age verses: {DATA.otherAgeVerses.map((o) => `${o.ref} (${o.who})`).join("; ")}. Found by a search of the four Gospels in the KJV for &quot;years old&quot;, &quot;years of age&quot;, &quot;of age&quot; and &quot;of the age&quot;; the build stops if a new one turns up.
           </p>
         </Section>
 
@@ -168,7 +168,7 @@ export default function HowOldWasJesusWhenHeDied() {
             </table>
           </div>
           <p className="mt-4 leading-relaxed">
-            Each cell is the number of years from the birth year to the death year. There is no year zero: 1 BC is followed by AD 1, so 4 BC to AD 30 is 4 + 30 - 1 = {D.grid.find((g) => g.bc === 4).ages.find((a) => a.ad === 30).years} years. The months are unknown, so any cell can be a year less. The youngest case is {D.low}, the oldest {D.high}, and the traditional {D.tradition} sits at the young end. A death in AD 30 fits a ministry that began in AD 28 or 29 only if it lasted a year or two; AD 33 leaves room for John&apos;s three Passovers.
+            Each cell is the number of years from the birth year to the death year. There is no year zero: 1 BC is followed by AD 1, so 4 BC to AD 30 is 4 + 30 - 1 = {D.grid.find((g) => g.bc === 4).ages.find((a) => a.ad === 30).years} years. The months are unknown, so any cell can be a year less. The table runs from {D.low} to {D.high}, and the traditional {D.tradition} sits at the low end. A death in AD 30 fits a ministry that began in AD 28 or 29 only if it lasted a year or two; AD 33 leaves room for John&apos;s three Passovers.
           </p>
           <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
             Where this does not settle it: Luke&apos;s &quot;about thirty&quot; may be a round number (the same Gospel uses exact ages elsewhere, like &quot;twelve years old&quot;). A minority of scholars count Tiberius&apos;s fifteenth year from AD 12, when he began to rule with Augustus, which moves Luke 3:1 to AD 26 or 27. In John 2:20 the temple has been &quot;forty and six years&quot; in building at the first Passover; scholars use it to date that first Passover to around AD 27.
