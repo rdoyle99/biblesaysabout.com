@@ -8,6 +8,8 @@ import AmazonPicks from "@/components/AmazonPicks";
 import { JsonLd, Breadcrumbs, StatTiles, BarRows, FaqSection, Section, MethodNote } from "@/components/DataBits";
 import ReadingCalculator from "@/components/ReadingCalculator";
 
+// the page's video on the Strandline Research YouTube channel (uploaded 2026-11-03, script checked against this page)
+const VIDEO_ID = "pGv0YCK8wjY";
 const URL = `${SITE}/how-long-does-it-take-to-read-the-bible`;
 const SILENT = 238; // Brysbaert 2019: adult silent reading, English non-fiction
 const ALOUD = 183; // Brysbaert 2019: adult oral reading
@@ -94,6 +96,17 @@ export default function ReadingTimePage() {
       operatingSystem: "Any",
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
     },
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      name: "How long does it take to read the Bible?",
+      description: "The whole Bible takes about 55 hours to read silently, or 72 hours read aloud: reading speeds, daily plans, Testament and Gospel times, and the longest and shortest books.",
+      thumbnailUrl: `https://i.ytimg.com/vi/${VIDEO_ID}/hqdefault.jpg`,
+      uploadDate: "2026-11-03",
+      duration: "PT3M11S",
+      contentUrl: `https://www.youtube.com/watch?v=${VIDEO_ID}`,
+      embedUrl: `https://www.youtube-nocookie.com/embed/${VIDEO_ID}`,
+    },
     generateFAQSchema(faqs)
   );
 
@@ -173,6 +186,19 @@ export default function ReadingTimePage() {
             </Link>
             .
           </p>
+        </Section>
+
+        <Section title="Watch: the reading times in 3 minutes" intro="A short video of the numbers on this page, from the same word counts and reading speeds.">
+          <div className="aspect-video w-full overflow-hidden rounded-xl border">
+            <iframe
+              className="h-full w-full"
+              src={`https://www.youtube-nocookie.com/embed/${VIDEO_ID}`}
+              title="How long does it take to read the Bible? (video)"
+              loading="lazy"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
         </Section>
 
         <FaqSection title="Reading the Bible: common questions" faqs={faqs.slice(1)} />
