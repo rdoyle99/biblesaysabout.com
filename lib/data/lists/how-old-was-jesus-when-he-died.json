@@ -1,0 +1,295 @@
+{
+ "generated": "2026-11-02",
+ "ages": [
+  {
+   "age": "twelve",
+   "value": 12,
+   "when": "His family's Passover trip to Jerusalem; he stays behind in the temple",
+   "ref": "Luke 2:42",
+   "kjv": "And when he was twelve years old, they went up to Jerusalem after the custom of the feast.",
+   "web": "When he was twelve years old, they went up to Jerusalem according to the custom of the feast,"
+  },
+  {
+   "age": "about thirty",
+   "value": 30,
+   "when": "When he began his ministry, after his baptism",
+   "ref": "Luke 3:23",
+   "kjv": "And Jesus himself began to be about thirty years of age, being (as was supposed) the son of Joseph, which was the son of Heli,",
+   "web": "Jesus himself, when he began to teach, was about thirty years old, being the son (as was supposed) of Joseph, the son of Heli,"
+  },
+  {
+   "age": "not yet fifty",
+   "value": null,
+   "when": "His opponents in the temple, near the end of his ministry",
+   "ref": "John 8:57",
+   "kjv": "Then said the Jews unto him, Thou art not yet fifty years old, and hast thou seen Abraham?",
+   "web": "The Jews therefore said to him, “You are not yet fifty years old, and have you seen Abraham?”"
+  }
+ ],
+ "otherAgeVerses": [
+  {
+   "ref": "Matthew 2:16",
+   "who": "the boys Herod killed, two years old and under"
+  },
+  {
+   "ref": "Mark 5:42",
+   "who": "Jairus's daughter, twelve years old"
+  },
+  {
+   "ref": "Luke 8:42",
+   "who": "Jairus's daughter, about twelve"
+  },
+  {
+   "ref": "John 9:21",
+   "who": "the man born blind (\"he is of age\")"
+  },
+  {
+   "ref": "John 9:23",
+   "who": "the man born blind (\"he is of age\")"
+  }
+ ],
+ "kjvAgeVerseCount": 8,
+ "feasts": [
+  {
+   "n": 1,
+   "name": "Passover",
+   "named": true,
+   "note": "Jesus clears the temple; the first Passover of the ministry",
+   "ref": "John 2:13",
+   "kjv": "And the Jews' passover was at hand, and Jesus went up to Jerusalem,",
+   "web": "The Passover of the Jews was at hand, and Jesus went up to Jerusalem."
+  },
+  {
+   "n": null,
+   "name": "a feast of the Jews",
+   "named": false,
+   "note": "not named; some count it as a fourth Passover, most read it as another feast",
+   "ref": "John 5:1",
+   "kjv": "After this there was a feast of the Jews; and Jesus went up to Jerusalem.",
+   "web": "After these things, there was a feast of the Jews, and Jesus went up to Jerusalem."
+  },
+  {
+   "n": 2,
+   "name": "Passover",
+   "named": true,
+   "note": "near the feeding of the five thousand",
+   "ref": "John 6:4",
+   "kjv": "And the passover, a feast of the Jews, was nigh.",
+   "web": "Now the Passover, the feast of the Jews, was at hand."
+  },
+  {
+   "n": 3,
+   "name": "Passover",
+   "named": true,
+   "note": "the last Passover, the week of the crucifixion",
+   "ref": "John 11:55",
+   "kjv": "And the Jews' passover was nigh at hand: and many went out of the country up to Jerusalem before the passover, to purify themselves.",
+   "web": "Now the Passover of the Jews was at hand. Many went up from the country to Jerusalem before the Passover, to purify themselves."
+  }
+ ],
+ "namedPassovers": 3,
+ "extra": {
+  "john121": {
+   "ref": "John 12:1",
+   "kjv": "Then Jesus six days before the passover came to Bethany, where Lazarus was which had been dead, whom he raised from the dead.",
+   "web": "Then six days before the Passover, Jesus came to Bethany, where Lazarus was, who had been dead, whom he raised from the dead."
+  },
+  "john1914": {
+   "ref": "John 19:14",
+   "kjv": "And it was the preparation of the passover, and about the sixth hour: and he saith unto the Jews, Behold your King!",
+   "web": "Now it was the Preparation Day of the Passover, at about the sixth hour. He said to the Jews, “Behold, your King!”"
+  },
+  "john72": {
+   "ref": "John 7:2",
+   "kjv": "Now the Jews' feast of tabernacles was at hand.",
+   "web": "Now the feast of the Jews, the Feast of Booths, was at hand."
+  },
+  "john1022": {
+   "ref": "John 10:22",
+   "kjv": "And it was at Jerusalem the feast of the dedication, and it was winter.",
+   "web": "It was the Feast of the Dedication at Jerusalem."
+  },
+  "mark1542": {
+   "ref": "Mark 15:42",
+   "kjv": "And now when the even was come, because it was the preparation, that is, the day before the sabbath,",
+   "web": "When evening had now come, because it was the Preparation Day, that is, the day before the Sabbath,"
+  },
+  "mark1534": {
+   "ref": "Mark 15:34",
+   "kjv": "And at the ninth hour Jesus cried with a loud voice, saying, Eloi, Eloi, lama sabachthani? which is, being interpreted, My God, my God, why hast thou forsaken me?",
+   "web": "At the ninth hour Jesus cried with a loud voice, saying, “Eloi, Eloi, lama sabachthani?” which is, being interpreted, “My God, my God, why have you forsaken me?”"
+  },
+  "luke241": {
+   "ref": "Luke 2:41",
+   "kjv": "Now his parents went to Jerusalem every year at the feast of the passover.",
+   "web": "His parents went every year to Jerusalem at the feast of the Passover."
+  },
+  "john220": {
+   "ref": "John 2:20",
+   "kjv": "Then said the Jews, Forty and six years was this temple in building, and wilt thou rear it up in three days?",
+   "web": "The Jews therefore said, “It took forty-six years to build this temple! Will you raise it up in three days?”"
+  }
+ },
+ "anchors": {
+  "herodBirth": {
+   "ref": "Matthew 2:1",
+   "kjv": "Now when Jesus was born in Bethlehem of Judaea in the days of Herod the king, behold, there came wise men from the east to Jerusalem,",
+   "web": "Now when Jesus was born in Bethlehem of Judea in the days of King Herod, behold, wise men from the east came to Jerusalem, saying,"
+  },
+  "herodBoys": {
+   "ref": "Matthew 2:16",
+   "kjv": "Then Herod, when he saw that he was mocked of the wise men, was exceeding wroth, and sent forth, and slew all the children that were in Bethlehem, and in all the coasts thereof, from two years old and under, according to the time which he had diligently enquired of the wise men.",
+   "web": "Then Herod, when he saw that he was mocked by the wise men, was exceedingly angry, and sent out, and killed all the male children who were in Bethlehem and in all the surrounding countryside, from two years old and under, according to the exact time which he had learned from the wise men."
+  },
+  "herodDead": {
+   "ref": "Matthew 2:19",
+   "kjv": "But when Herod was dead, behold, an angel of the Lord appeareth in a dream to Joseph in Egypt,",
+   "web": "But when Herod was dead, behold, an angel of the Lord appeared in a dream to Joseph in Egypt, saying,"
+  },
+  "tiberius": {
+   "ref": "Luke 3:1",
+   "kjv": "Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of Abilene,",
+   "web": "Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of the region of Ituraea and Trachonitis, and Lysanias tetrarch of Abilene,"
+  },
+  "johnBaptist": {
+   "ref": "Luke 3:2",
+   "kjv": "Annas and Caiaphas being the high priests, the word of God came unto John the son of Zacharias in the wilderness.",
+   "web": "in the high priesthood of Annas and Caiaphas, the word of God came to John, the son of Zacharias, in the wilderness."
+  },
+  "pilate": {
+   "ref": "Matthew 27:2",
+   "kjv": "And when they had bound him, they led him away, and delivered him to Pontius Pilate the governor.",
+   "web": "and they bound him, and led him away, and delivered him up to Pontius Pilate, the governor."
+  },
+  "caiaphas": {
+   "ref": "John 18:13",
+   "kjv": "And led him away to Annas first; for he was father in law to Caiaphas, which was the high priest that same year.",
+   "web": "and led him to Annas first, for he was father-in-law to Caiaphas, who was high priest that year."
+  }
+ },
+ "passover": {
+  "kjv": {
+   "total": 26,
+   "byBook": {
+    "Matthew": {
+     "uses": 4,
+     "verses": 4
+    },
+    "Mark": {
+     "uses": 5,
+     "verses": 4
+    },
+    "Luke": {
+     "uses": 7,
+     "verses": 7
+    },
+    "John": {
+     "uses": 10,
+     "verses": 9
+    }
+   },
+   "bible": 77,
+   "bibleVerses": 72
+  },
+  "web": {
+   "total": 26,
+   "byBook": {
+    "Matthew": {
+     "uses": 4,
+     "verses": 4
+    },
+    "Mark": {
+     "uses": 5,
+     "verses": 4
+    },
+    "Luke": {
+     "uses": 7,
+     "verses": 7
+    },
+    "John": {
+     "uses": 10,
+     "verses": 9
+    }
+   },
+   "bible": 78,
+   "bibleVerses": 73
+  },
+  "johnTop": true,
+  "synoptic": {
+   "Matthew": {
+    "chapters": [
+     26
+    ],
+    "verses": 4
+   },
+   "Mark": {
+    "chapters": [
+     14
+    ],
+    "verses": 4
+   },
+   "Luke": {
+    "chapters": [
+     2,
+     22
+    ],
+    "verses": 7
+   }
+  }
+ },
+ "dating": {
+  "birth": [
+   6,
+   5,
+   4
+  ],
+  "death": [
+   30,
+   33
+  ],
+  "grid": [
+   {
+    "bc": 6,
+    "ages": [
+     {
+      "ad": 30,
+      "years": 35
+     },
+     {
+      "ad": 33,
+      "years": 38
+     }
+    ]
+   },
+   {
+    "bc": 5,
+    "ages": [
+     {
+      "ad": 30,
+      "years": 34
+     },
+     {
+      "ad": 33,
+      "years": 37
+     }
+    ]
+   },
+   {
+    "bc": 4,
+    "ages": [
+     {
+      "ad": 30,
+      "years": 33
+     },
+     {
+      "ad": 33,
+      "years": 36
+     }
+    ]
+   }
+  ],
+  "low": 33,
+  "high": 38,
+  "tradition": 33
+ }
+}

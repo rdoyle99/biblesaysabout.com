@@ -26,6 +26,8 @@ const LISTS3_DATE = "2026-10-25";
 const LISTS4_DATE = "2026-10-25";
 const LISTS5_DATE = "2026-10-25";
 const LISTS6_DATE = "2026-10-26";
+// seventh set (Jesus' age at death, the Pentateuch, Goliath's height, angels' names, days of creation), data compiled 2026-11-02
+const LISTS7_DATE = "2026-11-02";
 
 const baseUrl = "https://www.biblesaysabout.com";
 
@@ -64,6 +66,7 @@ export default function sitemap() {
     ...["twelve-apostles", "kings-of-israel-and-judah", "seven-churches-of-revelation", "how-old-was-methuselah", "613-commandments"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS4_DATE, priority: 0.9 })),
     ...["how-many-books-are-in-the-catholic-bible", "judges-of-israel", "how-many-children-did-david-have", "names-of-the-holy-spirit"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS5_DATE, priority: 0.9 })),
     ...["seven-deadly-sins-in-the-bible", "biblical-numbers", "how-many-years-did-noah-build-the-ark"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS6_DATE, priority: 0.9 })),
+    ...["how-old-was-jesus-when-he-died", "pentateuch", "how-tall-was-goliath", "names-of-angels-in-the-bible", "days-of-creation"].map((slug) => ({ url: `${baseUrl}/${slug}`, lastModified: LISTS7_DATE, priority: 0.9 })),
     { url: `${baseUrl}/random-bible-verse`, lastModified: VERSE_TOOL_DATE, priority: 0.9 },
     // the verse changes at midnight New York time, so its lastmod is the date of the verse the page shows today (the page's dateModified)
     { url: `${baseUrl}/bible-verse-of-the-day`, lastModified: todayKey(), priority: 0.9 },

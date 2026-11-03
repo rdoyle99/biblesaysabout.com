@@ -495,6 +495,11 @@ export default function HomeClient({
               ["/seven-deadly-sins-in-the-bible", "The seven deadly sins in the Bible"],
               ["/biblical-numbers", "Biblical numbers"],
               ["/how-many-years-did-noah-build-the-ark", "How long Noah built the ark"],
+              ["/how-old-was-jesus-when-he-died", "How old Jesus was when he died"],
+              ["/pentateuch", "The Pentateuch"],
+              ["/how-tall-was-goliath", "How tall was Goliath"],
+              ["/names-of-angels-in-the-bible", "Names of angels in the Bible"],
+              ["/days-of-creation", "The days of creation"],
             ].map(([href, label], i) => (
               <span key={href}>
                 {i ? " · " : ""}
