@@ -17,7 +17,7 @@ export default function Footer() {
   ];
 
   const moreTopics = [
-    { name: "Healing", slug: "healing" },
+    { name: "Hope", slug: "hope" },
     { name: "Forgiveness", slug: "forgiveness" },
     { name: "Wisdom", slug: "wisdom" },
     { name: "Prayer", slug: "prayer" },

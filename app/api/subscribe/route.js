@@ -19,18 +19,18 @@ export async function POST(req) {
     return NextResponse.json({ error: "Not configured" }, { status: 500 });
   }
 
-  const res = await fetch(`${url}/rest/v1/email_subscribers`, {
+  const res = await fetch(`${url}/rest/v1/email_subscribers?on_conflict=email`, {
     method: "POST",
     headers: {
       apikey: key,
       Authorization: `Bearer ${key}`,
       "Content-Type": "application/json",
-      Prefer: "return=minimal",
+      Prefer: "resolution=merge-duplicates,return=minimal",
     },
-    body: JSON.stringify({ email, source: body?.source || "biblesays" }),
+    body: JSON.stringify({ email: email.trim().toLowerCase(), source: body?.source || "biblesays" }),
   });
 
-  if (!res.ok) {
+  if (!res.ok && res.status !== 409) {
     console.error("subscribe: supabase insert failed", res.status);
     return NextResponse.json({ error: "Something went wrong" }, { status: 500 });
   }
